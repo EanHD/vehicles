@@ -1,0 +1,41 @@
+# Checklist Maintenance Tracker
+
+Use this file to note which manufacturers in `CHECKLIST.md` have had their full historical rosters verified and refreshed, and whose complete model coverage is reflected in `vehicles.json`.
+
+- [x] Chevrolet — historical model roster audited and `CHECKLIST.md` updated
+- [ ] GMC — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Buick — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Cadillac — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Ford — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Lincoln — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Ram — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Dodge — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Chrysler — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Jeep — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Tesla — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Toyota — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Lexus — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Honda — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Acura — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Nissan — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Infiniti — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Mazda — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Subaru — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Mitsubishi — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Hyundai — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Kia — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Genesis — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Volkswagen — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Audi — historical model roster audited and `CHECKLIST.md` updated
+- [ ] BMW — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Mercedes-Benz — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Mini — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Porsche — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Volvo — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Jaguar — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Land Rover — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Alfa Romeo — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Fiat — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Rivian — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Lucid — historical model roster audited and `CHECKLIST.md` updated
+- [ ] Polestar — historical model roster audited and `CHECKLIST.md` updated

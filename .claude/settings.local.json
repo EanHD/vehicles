@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:en.wikipedia.org)",
+      "Bash(python3:*)",
+      "WebSearch",
+      "Bash(curl -s \"https://en.wikipedia.org/wiki/List_of_Cadillac_vehicles\")",
+      "Read(//tmp/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

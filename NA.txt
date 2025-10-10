@@ -1,0 +1,280 @@
+Make | Model | Segment | Notes
+Chevrolet | Blazer | Midsize crossover | Sold in U.S. and Canada
+Chevrolet | Blazer EV | Midsize electric crossover | U.S./Canada lineup
+Chevrolet | Bolt EUV | Subcompact electric crossover | U.S. and Canada EV lineup
+Chevrolet | Camaro | Performance coupe | Final 2024 model year in North America
+Chevrolet | Colorado | Midsize pickup | U.S./Canada
+Chevrolet | Corvette | Sports car | Stingray and Z06 for North America
+Chevrolet | Equinox | Compact crossover | U.S./Canada top seller
+Chevrolet | Equinox EV | Compact electric crossover | Launching 2024 U.S./Canada
+Chevrolet | Malibu | Midsize sedan | Final 2024 model year in North America
+Chevrolet | Silverado 1500 | Full-size pickup | U.S./Canada high volume
+Chevrolet | Silverado HD | Heavy-duty pickup | 2500/3500 series for U.S./Canada
+Chevrolet | Suburban | Full-size SUV | Standard and HD models
+Chevrolet | Tahoe | Full-size SUV | Short-wheelbase sibling to Suburban
+Chevrolet | Trailblazer | Subcompact crossover | U.S./Canada lineup
+Chevrolet | Traverse | Three-row crossover | Redesigned 2024 model
+Chevrolet | Trax | Subcompact crossover | Second-generation returned for 2024
+Chevrolet | Express | Full-size van | Cargo and passenger variants
+GMC | Acadia | Three-row crossover | 2024 redesign, U.S./Canada
+GMC | Canyon | Midsize pickup | U.S./Canada
+GMC | Hummer EV Pickup | Electric pickup | EV3X and fleet trims
+GMC | Hummer EV SUV | Electric SUV | Launching 2024 in North America
+GMC | Sierra 1500 | Full-size pickup | U.S./Canada
+GMC | Sierra HD | Heavy-duty pickup | 2500/3500 series
+GMC | Terrain | Compact crossover | U.S./Canada
+GMC | Yukon | Full-size SUV | Includes Yukon XL
+GMC | Savana | Full-size van | Cargo and passenger variants
+Buick | Enclave | Three-row crossover | North American lineup
+Buick | Encore GX | Subcompact crossover | U.S./Canada
+Buick | Envista | Subcompact crossover coupe | U.S./Canada 2024 launch
+Buick | Envision | Compact crossover | North American spec
+Cadillac | CT4 | Compact sport sedan | U.S./Canada
+Cadillac | CT5 | Midsize sport sedan | Includes CT5-V variants
+Cadillac | Escalade | Full-size luxury SUV | Includes ESV long wheelbase
+Cadillac | Lyriq | Electric crossover | 2023 launch in North America
+Cadillac | XT4 | Subcompact luxury crossover | U.S./Canada
+Cadillac | XT5 | Compact luxury crossover | U.S./Canada
+Cadillac | XT6 | Three-row luxury crossover | U.S./Canada
+Cadillac | Celestiq | Ultra-luxury electric fastback | Limited production for North America
+Ford | Bronco | Body-on-frame SUV | Two- and four-door in North America
+Ford | Bronco Sport | Compact crossover | North American market
+Ford | E-Transit | Electric commercial van | U.S./Canada fleet
+Ford | Edge | Midsize crossover | Final 2024 model year in North America
+Ford | Escape | Compact crossover | Hybrid and PHEV variants
+Ford | Expedition | Full-size SUV | Includes Max extended length
+Ford | Explorer | Three-row crossover | Police Interceptor Utility derived
+Ford | F-150 | Full-size pickup | Includes Lightning EV and PowerBoost hybrid
+Ford | F-Series Super Duty | Heavy-duty pickup | F-250 to F-600 for U.S./Canada
+Ford | Maverick | Compact pickup | Hybrid standard in U.S./Canada
+Ford | Mustang | Performance coupe/convertible | Includes Dark Horse trims
+Ford | Mustang Mach-E | Electric crossover | North American market
+Ford | Ranger | Midsize pickup | U.S./Canada
+Ford | Transit | Full-size van | Cargo/passenger/cutaway
+Lincoln | Aviator | Three-row luxury crossover | U.S./Canada
+Lincoln | Corsair | Compact luxury crossover | U.S./Canada
+Lincoln | Nautilus | Two-row luxury crossover | 2024 China-built import to North America
+Lincoln | Navigator | Full-size luxury SUV | Includes L long wheelbase
+Ram | 1500 | Full-size pickup | DT generation
+Ram | 1500 Classic | Legacy full-size pickup | DS generation
+Ram | Heavy Duty | 2500/3500 pickups | U.S./Canada
+Ram | ProMaster | Full-size van | U.S./Canada
+Ram | ProMaster City | Compact van | Fleet-focused, U.S./Canada
+Dodge | Challenger | Performance coupe | Final 2023/2024 model year
+Dodge | Charger | Performance sedan | Final 2023/2024 model year
+Dodge | Durango | Three-row SUV | Includes SRT trims
+Dodge | Hornet | Compact crossover | Plug-in hybrid R/T available
+Chrysler | Pacifica | Minivan | Gas and plug-in hybrid
+Chrysler | Pacifica Hybrid | Plug-in hybrid minivan | U.S./Canada
+Chrysler | Voyager | Fleet minivan | U.S. fleet sales
+Jeep | Cherokee | Compact crossover | Final 2023 model year noted
+Jeep | Compass | Compact crossover | Updated 2024 powertrain
+Jeep | Gladiator | Midsize pickup | Rubicon and Mojave trims
+Jeep | Grand Cherokee | Two-row SUV | Includes 4xe plug-in hybrid
+Jeep | Grand Cherokee L | Three-row SUV | U.S./Canada
+Jeep | Grand Wagoneer | Full-size luxury SUV | Includes L long wheelbase
+Jeep | Wagoneer | Full-size SUV | Includes Wagoneer L
+Jeep | Renegade | Subcompact crossover | U.S./Canada (fleet-focused post-2024)
+Jeep | Wrangler | Off-road SUV | Includes 4xe plug-in hybrid
+Tesla | Cybertruck | Electric pickup | North American production start 2023
+Tesla | Model 3 | Compact electric sedan | U.S./Canada
+Tesla | Model S | Full-size electric sedan | Dual-motor and Plaid
+Tesla | Model X | Three-row electric SUV | Falcon Wing doors
+Tesla | Model Y | Compact electric crossover | U.S./Canada top seller
+Toyota | 4Runner | Body-on-frame SUV | U.S./Canada
+Toyota | bZ4X | Electric crossover | U.S./Canada
+Toyota | Camry | Midsize sedan | 2025 redesign with hybrid-only powertrain
+Toyota | Corolla | Compact sedan | Includes hybrid trims
+Toyota | Corolla Hatchback | Compact hatchback | U.S./Canada
+Toyota | Corolla Cross | Subcompact crossover | Includes hybrid
+Toyota | Crown | Full-size liftback sedan | Hybrid AWD standard
+Toyota | Grand Highlander | Three-row crossover | Hybrid MAX option
+Toyota | Highlander | Three-row crossover | Hybrid available
+Toyota | Prius | Hybrid liftback | Fifth generation
+Toyota | Prius Prime | Plug-in hybrid liftback | U.S./Canada
+Toyota | RAV4 | Compact crossover | Hybrid and Prime available
+Toyota | RAV4 Prime | Plug-in hybrid crossover | U.S./Canada
+Toyota | Sequoia | Full-size SUV | Hybrid i-FORCE MAX standard
+Toyota | Sienna | Hybrid minivan | U.S./Canada
+Toyota | Tacoma | Midsize pickup | 2024 redesign
+Toyota | Tundra | Full-size pickup | Hybrid available
+Toyota | Venza | Hybrid crossover | U.S./Canada
+Toyota | Land Cruiser | Midsize hybrid off-road SUV | Returning 2024 to North America
+Lexus | ES | Midsize luxury sedan | Hybrid and AWD variants
+Lexus | GX | Body-on-frame luxury SUV | 2024 GX 550
+Lexus | IS | Compact luxury sedan | Includes IS 500 V8
+Lexus | LC | Luxury grand tourer | Coupe and convertible
+Lexus | LS | Flagship luxury sedan | Hybrid available
+Lexus | LX | Full-size luxury SUV | Twin-turbo V6
+Lexus | NX | Compact luxury crossover | Hybrid and plug-in variants
+Lexus | RZ | Electric crossover | U.S./Canada
+Lexus | RX | Midsize luxury crossover | Hybrid and plug-in variants
+Lexus | TX | Three-row luxury crossover | New for 2024
+Honda | Accord | Midsize sedan | Hybrid and turbo trims
+Honda | CR-V | Compact crossover | Hybrid available
+Honda | HR-V | Subcompact crossover | North American second generation
+Honda | Odyssey | Minivan | U.S./Canada
+Honda | Passport | Two-row crossover | TrailSport trim
+Honda | Pilot | Three-row crossover | 2023 redesign
+Honda | Prologue | Electric crossover | 2024 launch
+Honda | Ridgeline | Unibody pickup | 2024 update
+Honda | Civic | Compact car | Sedan and hatchback, includes Type R
+Acura | Integra | Compact sport hatchback | Includes Type S
+Acura | MDX | Three-row luxury crossover | Includes Type S
+Acura | RDX | Compact luxury crossover | U.S./Canada
+Acura | TLX | Midsize luxury sedan | Type S available
+Acura | ZDX | Electric crossover | 2024 return as EV
+Nissan | Altima | Midsize sedan | VC-Turbo and AWD options
+Nissan | Armada | Full-size SUV | U.S./Canada
+Nissan | Ariya | Electric crossover | E-4ORCE AWD
+Nissan | Frontier | Midsize pickup | 2022 refresh
+Nissan | Kicks | Subcompact crossover | U.S./Canada
+Nissan | Leaf | Electric hatchback | U.S./Canada
+Nissan | Maxima | Full-size sedan | Final 2023 model year
+Nissan | Murano | Midsize crossover | U.S./Canada
+Nissan | Pathfinder | Three-row crossover | Includes Rock Creek
+Nissan | Rogue | Compact crossover | VC-Turbo 3-cylinder
+Nissan | Sentra | Compact sedan | SR and Nismo packages
+Nissan | Titan | Full-size pickup | U.S./Canada (phasing out after 2024)
+Nissan | Versa | Subcompact sedan | U.S./Canada
+Nissan | Z | Sports coupe | 400Z twin-turbo V6
+Infiniti | Q50 | Compact luxury sedan | 3.0L twin-turbo V6
+Infiniti | Q60 | Luxury coupe | Production ending 2024
+Infiniti | QX50 | Compact luxury crossover | Variable compression engine
+Infiniti | QX55 | Fastback crossover | Coupelike derivative
+Infiniti | QX60 | Three-row luxury crossover | 2022 redesign
+Infiniti | QX80 | Full-size luxury SUV | New 2025 generation
+Mazda | CX-30 | Subcompact crossover | Turbo available
+Mazda | CX-5 | Compact crossover | U.S./Canada
+Mazda | CX-50 | Compact crossover | Built in Alabama
+Mazda | CX-70 | Two-row crossover | New large platform
+Mazda | CX-90 | Three-row crossover | Inline-six and PHEV
+Mazda | Mazda3 | Compact sedan | Turbo and AWD options
+Mazda | MX-5 Miata | Roadster | Soft top and RF
+Mazda | MX-30 | Electric crossover | California compliance EV
+Mazda | Mazda3 Hatchback | Compact hatch | Turbo and AWD options
+Subaru | Ascent | Three-row crossover | 2023 refresh
+Subaru | Crosstrek | Subcompact crossover | Wilderness trim
+Subaru | Forester | Compact crossover | Wilderness trim
+Subaru | Impreza | Compact hatchback | 2024 redesign
+Subaru | Legacy | Midsize sedan | AWD standard
+Subaru | Outback | Wagon crossover | Wilderness trim
+Subaru | Solterra | Electric crossover | Shared with Toyota bZ4X
+Subaru | WRX | Performance sedan | 2022 redesign
+Mitsubishi | Eclipse Cross | Compact crossover | Plug-in hybrid overseas
+Mitsubishi | Mirage | Subcompact hatchback | U.S./Canada
+Mitsubishi | Mirage G4 | Subcompact sedan | U.S./Canada
+Mitsubishi | Outlander | Compact crossover | Includes PHEV
+Mitsubishi | Outlander Sport | Subcompact crossover | RVR in Canada
+Hyundai | Elantra | Compact sedan | N and hybrid variants
+Hyundai | Ioniq 5 | Electric crossover | 800V E-GMP platform
+Hyundai | Ioniq 6 | Electric sedan | Streamliner design
+Hyundai | Kona | Subcompact crossover | Includes EV
+Hyundai | Palisade | Three-row crossover | U.S./Canada
+Hyundai | Santa Cruz | Compact pickup | Unibody
+Hyundai | Santa Fe | Midsize crossover | 2024 boxy redesign
+Hyundai | Sonata | Midsize sedan | 2024 refresh
+Hyundai | Tucson | Compact crossover | Includes hybrid/PHEV
+Hyundai | Venue | Subcompact crossover | Entry-level
+Kia | Carnival | Minivan | MPV with sliding doors
+Kia | EV6 | Electric crossover | E-GMP platform
+Kia | EV9 | Three-row electric SUV | 2024 U.S. launch
+Kia | Forte | Compact sedan | GT trim
+Kia | K5 | Midsize sedan | Replacement for Optima
+Kia | Niro | Subcompact crossover | Hybrid, PHEV, EV
+Kia | Seltos | Subcompact crossover | 2024 refresh
+Kia | Sorento | Midsize crossover | Hybrid and PHEV
+Kia | Soul | Subcompact hatch/crossover | Turbo discontinued 2022
+Kia | Sportage | Compact crossover | Hybrid and PHEV
+Kia | Telluride | Three-row crossover | U.S./Canada
+Genesis | Electrified G80 | Electric luxury sedan | North America limited availability
+Genesis | G70 | Compact luxury sedan | Includes Shooting Brake overseas
+Genesis | G80 | Midsize luxury sedan | North American lineup
+Genesis | G90 | Full-size luxury sedan | 2023 redesign
+Genesis | GV60 | Electric crossover | E-GMP platform
+Genesis | GV70 | Compact luxury crossover | Includes Electrified GV70
+Genesis | GV80 | Midsize luxury crossover | Coupe variant coming 2024
+Volkswagen | Arteon | Midsize fastback | Final 2024 model year
+Volkswagen | Atlas | Three-row crossover | Includes Atlas Cross Sport
+Volkswagen | Golf GTI | Hot hatch | Mk8 refresh
+Volkswagen | Golf R | Performance hatch | 4Motion AWD
+Volkswagen | ID.4 | Electric crossover | U.S. built in Chattanooga
+Volkswagen | Jetta | Compact sedan | GLI performance variant
+Volkswagen | Taos | Subcompact crossover | U.S./Canada
+Volkswagen | Tiguan | Compact crossover | Long-wheelbase only in North America
+Audi | A3 | Compact luxury sedan | Sedan only in U.S.
+Audi | A4 | Compact luxury sedan | Includes allroad wagon
+Audi | A5 | Sportback/coupe/convertible | Quattro standard
+Audi | A6 | Midsize luxury sedan | Includes allroad
+Audi | A7 | Luxury sportback | Plug-in hybrid available
+Audi | A8 | Flagship luxury sedan | LWB only in U.S.
+Audi | e-tron GT | Electric grand touring sedan | RS variant
+Audi | Q3 | Subcompact luxury crossover | Quattro standard
+Audi | Q4 e-tron | Electric compact crossover | Sportback variant
+Audi | Q5 | Compact luxury crossover | Includes Sportback and PHEV
+Audi | Q7 | Three-row luxury crossover | 55 TFSI e plug-in overseas
+Audi | Q8 | Two-row luxury crossover | Includes SQ8 and RS Q8
+Audi | Q8 e-tron | Electric crossover | Formerly e-tron SUV
+BMW | 2 Series | Compact coupe/gran coupe | Includes M2
+BMW | 3 Series | Compact sport sedan | Includes Touring overseas
+BMW | 4 Series | Coupe/gran coupe/convertible | Includes i4 EV
+BMW | 5 Series | Executive sedan | Includes i5 electric
+BMW | 7 Series | Flagship luxury sedan | Includes i7 electric
+BMW | 8 Series | Grand tourer | Coupe/gran coupe/convertible
+BMW | X1 | Subcompact luxury crossover | U11 generation
+BMW | X3 | Compact luxury crossover | Includes iX3 overseas
+BMW | X5 | Midsize luxury crossover | Includes plug-in hybrid
+BMW | X7 | Full-size luxury crossover | Includes M60i
+BMW | iX | Electric SUV | Dedicated platform
+Mercedes-Benz | C-Class | Compact luxury sedan | W206 generation
+Mercedes-Benz | CLA | Compact four-door coupe | Part of MFA2 platform
+Mercedes-Benz | E-Class | Midsize luxury sedan | W214 generation
+Mercedes-Benz | EQB | Electric crossover | Based on GLB
+Mercedes-Benz | EQE | Electric sedan/SUV | EVA platform
+Mercedes-Benz | EQS | Electric flagship sedan/SUV | EVA platform
+Mercedes-Benz | G-Class | Body-on-frame SUV | W463
+Mercedes-Benz | GLA | Subcompact luxury crossover | MFA2 platform
+Mercedes-Benz | GLB | Compact luxury crossover | Optional third row
+Mercedes-Benz | GLC | Compact luxury crossover | Includes Coupe
+Mercedes-Benz | GLE | Midsize luxury crossover | Includes Coupe
+Mercedes-Benz | GLS | Full-size luxury crossover | Maybach variant
+Mini | Cooper Hardtop | Subcompact hatchback | 2-door and 4-door
+Mini | Cooper Convertible | Subcompact convertible | Final 2024 for current generation
+Mini | Countryman | Subcompact crossover | New 2025 generation
+Porsche | 718 | Mid-engined sports car | Boxster and Cayman
+Porsche | 911 | Rear-engined sports car | 992 generation
+Porsche | Cayenne | Midsize luxury SUV | Includes Coupe
+Porsche | Macan | Compact luxury SUV | ICE and Macan Electric
+Porsche | Panamera | Luxury fastback sedan | Second generation facelift
+Porsche | Taycan | Electric sport sedan | Cross Turismo variant
+Volvo | C40 Recharge | Electric crossover coupe | U.S./Canada
+Volvo | EX30 | Subcompact electric crossover | 2025 model
+Volvo | EX90 | Three-row electric SUV | 2025 launch
+Volvo | S60 | Compact luxury sedan | U.S. production paused 2024
+Volvo | S90 | Full-size luxury sedan | Imported from China
+Volvo | XC40 | Subcompact luxury crossover | Includes Recharge
+Volvo | XC60 | Compact luxury crossover | Plug-in hybrid available
+Volvo | XC90 | Three-row luxury crossover | Includes Recharge
+Jaguar | E-Pace | Compact luxury crossover | P300 engine
+Jaguar | F-Pace | Midsize luxury crossover | SVR available
+Jaguar | F-Type | Sports car | Final 2024 model year
+Jaguar | I-Pace | Electric crossover | Single EV offering
+Land Rover | Defender | Off-road SUV | 90, 110, 130 body styles
+Land Rover | Discovery | Three-row SUV | Includes commercial versions overseas
+Land Rover | Discovery Sport | Compact luxury crossover | Available with third row
+Land Rover | Range Rover | Flagship luxury SUV | Includes PHEV
+Land Rover | Range Rover Evoque | Subcompact luxury crossover | Second generation
+Land Rover | Range Rover Sport | Performance luxury SUV | Plug-in hybrid available
+Land Rover | Range Rover Velar | Midsize luxury crossover | 2024 refresh
+Alfa Romeo | Giulia | Compact luxury sedan | Quadrifoglio performance variant
+Alfa Romeo | Stelvio | Compact luxury crossover | Quadrifoglio available
+Alfa Romeo | Tonale | Subcompact luxury crossover | Plug-in hybrid standard in U.S.
+Fiat | 500e | Subcompact electric hatchback | Returning to U.S. in 2024
+Fiat | 500X | Subcompact crossover | Final 2024 model year
+Rivian | R1S | Electric SUV | Built in Normal, Illinois
+Rivian | R1T | Electric pickup | Built in Normal, Illinois
+Lucid | Air | Electric luxury sedan | Sapphire and Touring trims
+Lucid | Gravity | Electric three-row SUV | Launching 2024/2025
+Polestar | 2 | Electric liftback | Single- and dual-motor
+Polestar | 3 | Electric performance SUV | 2024 launch
+Polestar | 4 | Electric crossover coupe | 2024 launch

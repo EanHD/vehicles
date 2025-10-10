@@ -1,0 +1,3755 @@
+[
+  {
+    "name": "Brake Pads Replacement (Front)",
+    "category": "Brakes",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      100,
+      160
+    ],
+    "price_range_parts": [
+      50,
+      120
+    ],
+    "mobile": true,
+    "notes": "Includes front brake pads only. Rotor inspection not included unless requested.",
+    "parts_required": [
+      "Brake Pads (Front)",
+      "Brake Grease (Per Tube)",
+      "Brake Cleaner (Per Can)"
+    ]
+  },
+  {
+    "name": "Brake Pads Replacement (Rear)",
+    "category": "Brakes",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      100,
+      160
+    ],
+    "price_range_parts": [
+      50,
+      120
+    ],
+    "mobile": true,
+    "notes": "Includes rear brake pads only. Rotor inspection not included unless requested.",
+    "parts_required": [
+      "Brake Pads (Rear)",
+      "Brake Grease (Per Tube)",
+      "Brake Cleaner (Per Can)"
+    ]
+  },
+  {
+    "name": "Brake Rotor Replacement (Front, Pair)",
+    "category": "Brakes",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      120,
+      180
+    ],
+    "price_range_parts": [
+      80,
+      220
+    ],
+    "mobile": true,
+    "notes": "Includes replacement of both front brake rotors. Pads not included.",
+    "parts_required": [
+      "Brake Rotors (Front Pair)",
+      "Brake Cleaner (Per Can)",
+      "Brake Grease (Per Tube)"
+    ]
+  },
+  {
+    "name": "Brake Rotor Replacement (Rear, Pair)",
+    "category": "Brakes",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      120,
+      180
+    ],
+    "price_range_parts": [
+      80,
+      220
+    ],
+    "mobile": true,
+    "notes": "Includes replacement of both rear brake rotors. Pads not included.",
+    "parts_required": [
+      "Brake Rotors (Rear Pair)",
+      "Brake Cleaner (Per Can)",
+      "Brake Grease (Per Tube)"
+    ]
+  },
+  {
+    "name": "Brake Caliper Replacement (Front, Single)",
+    "category": "Brakes",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      120,
+      180
+    ],
+    "price_range_parts": [
+      60,
+      150
+    ],
+    "mobile": true,
+    "notes": "Single front caliper replacement. Brake fluid top-off included if needed.",
+    "parts_required": [
+      "Brake Caliper (Single)",
+      "Brake Fluid (Per 12oz Bottle)",
+      "Brake Cleaner (Per Can)",
+      "Brake Grease (Per Tube)"
+    ]
+  },
+  {
+    "name": "Brake Caliper Replacement (Rear, Single)",
+    "category": "Brakes",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      120,
+      180
+    ],
+    "price_range_parts": [
+      60,
+      150
+    ],
+    "mobile": true,
+    "notes": "Single rear caliper replacement. Brake fluid top-off included if needed.",
+    "parts_required": [
+      "Brake Caliper (Single)",
+      "Brake Fluid (Per 12oz Bottle)",
+      "Brake Cleaner (Per Can)",
+      "Brake Grease (Per Tube)"
+    ]
+  },
+  {
+    "name": "Brake Master Cylinder Replacement",
+    "category": "Brakes",
+    "labor_time_hours": 1.8,
+    "price_range_labor": [
+      160,
+      240
+    ],
+    "price_range_parts": [
+      80,
+      200
+    ],
+    "mobile": true,
+    "notes": "Replacement of brake master cylinder. Includes brake fluid bleed.",
+    "parts_required": [
+      "Brake Master Cylinder",
+      "Brake Fluid (Per 12oz Bottle)",
+      "Brake Cleaner (Per Can)"
+    ]
+  },
+  {
+    "name": "Brake Booster Replacement",
+    "category": "Brakes",
+    "labor_time_hours": 2.0,
+    "price_range_labor": [
+      180,
+      260
+    ],
+    "price_range_parts": [
+      100,
+      220
+    ],
+    "mobile": true,
+    "notes": "Vacuum brake booster replacement. May require master cylinder removal.",
+    "parts_required": [
+      "Brake Booster",
+      "Brake Cleaner (Per Can)"
+    ]
+  },
+  {
+    "name": "Brake Fluid Flush",
+    "category": "Brakes",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      20,
+      40
+    ],
+    "mobile": true,
+    "notes": "Full system brake fluid flush. Recommended every 2–3 years.",
+    "parts_required": [
+      "Brake Fluid (Per 12oz Bottle)",
+      "Brake Cleaner (Per Can)"
+    ]
+  },
+  {
+    "name": "Brake Drum Replacement (Rear, Pair)",
+    "category": "Brakes",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      110,
+      170
+    ],
+    "price_range_parts": [
+      60,
+      140
+    ],
+    "mobile": true,
+    "notes": "Rear drum brake replacement. Shoes not included.",
+    "parts_required": [
+      "Brake Drum (Pair)",
+      "Brake Cleaner (Per Can)",
+      "Brake Grease (Per Tube)"
+    ]
+  },
+  {
+    "name": "Brake Shoe Replacement (Rear, Pair)",
+    "category": "Brakes",
+    "labor_time_hours": 1.4,
+    "price_range_labor": [
+      120,
+      180
+    ],
+    "price_range_parts": [
+      40,
+      90
+    ],
+    "mobile": true,
+    "notes": "Includes replacement of rear brake shoes only.",
+    "parts_required": [
+      "Brake Shoes (Rear Pair)",
+      "Drum Brake Hardware Kit",
+      "Brake Cleaner (Per Can)",
+      "Brake Grease (Per Tube)"
+    ]
+  },
+  {
+    "name": "Emergency Brake Cable Replacement",
+    "category": "Brakes",
+    "labor_time_hours": 1.5,
+    "price_range_labor": [
+      130,
+      200
+    ],
+    "price_range_parts": [
+      40,
+      100
+    ],
+    "mobile": true,
+    "notes": "Replaces the emergency brake cable. May require underbody access.",
+    "parts_required": [
+      "Emergency Brake Cable",
+      "Brake Cleaner (Per Can)"
+    ]
+  },
+  {
+    "name": "Spark Plug Replacement (4-Cylinder)",
+    "category": "Ignition System",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      100,
+      150
+    ],
+    "price_range_parts": [
+      20,
+      60
+    ],
+    "mobile": true,
+    "notes": "Standard spark plug replacement for 4-cylinder engines. Does not include ignition coil service.",
+    "parts_required": [
+      "Spark Plug (Single)"
+    ]
+  },
+  {
+    "name": "Spark Plug Replacement (6-Cylinder)",
+    "category": "Ignition System",
+    "labor_time_hours": 1.5,
+    "price_range_labor": [
+      130,
+      200
+    ],
+    "price_range_parts": [
+      30,
+      80
+    ],
+    "mobile": true,
+    "notes": "Spark plug replacement for V6 engines. Access may affect labor on transverse layouts.",
+    "parts_required": [
+      "Spark Plug (Single)"
+    ]
+  },
+  {
+    "name": "Spark Plug Replacement (8-Cylinder)",
+    "category": "Ignition System",
+    "labor_time_hours": 1.8,
+    "price_range_labor": [
+      160,
+      240
+    ],
+    "price_range_parts": [
+      40,
+      120
+    ],
+    "mobile": true,
+    "notes": "Full spark plug replacement on V8 engines. Coil packs not included.",
+    "parts_required": [
+      "Spark Plug (Single)"
+    ]
+  },
+  {
+    "name": "Ignition Coil Replacement (Single)",
+    "category": "Ignition System",
+    "labor_time_hours": 0.6,
+    "price_range_labor": [
+      60,
+      100
+    ],
+    "price_range_parts": [
+      30,
+      90
+    ],
+    "mobile": true,
+    "notes": "Replacement of a single ignition coil. Diagnosis or plug replacement not included.",
+    "parts_required": [
+      "Ignition Coil (Single)"
+    ]
+  },
+  {
+    "name": "Ignition Coil Replacement (Set of 4)",
+    "category": "Ignition System",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      120,
+      240
+    ],
+    "mobile": true,
+    "notes": "Full coil set for 4-cylinder engines. Spark plug replacement may be recommended at the same time.",
+    "parts_required": [
+      "Ignition Coil (Single)"
+    ]
+  },
+  {
+    "name": "Ignition Coil Replacement (Set of 6)",
+    "category": "Ignition System",
+    "labor_time_hours": 1.3,
+    "price_range_labor": [
+      120,
+      180
+    ],
+    "price_range_parts": [
+      180,
+      360
+    ],
+    "mobile": true,
+    "notes": "Full ignition coil replacement for V6 engines. Does not include spark plugs.",
+    "parts_required": [
+      "Ignition Coil (Single)"
+    ]
+  },
+  {
+    "name": "Ignition Coil Replacement (Set of 8)",
+    "category": "Ignition System",
+    "labor_time_hours": 1.6,
+    "price_range_labor": [
+      160,
+      240
+    ],
+    "price_range_parts": [
+      240,
+      480
+    ],
+    "mobile": true,
+    "notes": "Full ignition coil set for V8 engines. Often done with spark plugs together.",
+    "parts_required": [
+      "Ignition Coil (Single)"
+    ]
+  },
+  {
+    "name": "Ignition Switch Replacement",
+    "category": "Ignition System",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      110,
+      160
+    ],
+    "price_range_parts": [
+      40,
+      100
+    ],
+    "mobile": true,
+    "notes": "Replacement of the ignition switch assembly. May require key programming in some models.",
+    "parts_required": [
+      "Ignition Switch"
+    ]
+  },
+  {
+    "name": "Ignition Lock Cylinder Replacement",
+    "category": "Ignition System",
+    "labor_time_hours": 1.3,
+    "price_range_labor": [
+      120,
+      180
+    ],
+    "price_range_parts": [
+      40,
+      100
+    ],
+    "mobile": true,
+    "notes": "Lock cylinder replacement. Includes matching to key if possible.",
+    "parts_required": [
+      "Ignition Lock Cylinder"
+    ]
+  },
+  {
+    "name": "Serpentine Belt Replacement",
+    "category": "Belts & Pulleys",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      80,
+      120
+    ],
+    "price_range_parts": [
+      20,
+      60
+    ],
+    "mobile": true,
+    "notes": "Replaces serpentine/accessory drive belt. Tensioner and pulleys not included unless specified.",
+    "parts_required": [
+      "Serpentine Belt"
+    ]
+  },
+  {
+    "name": "Drive Belt Tensioner Replacement",
+    "category": "Belts & Pulleys",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      100,
+      150
+    ],
+    "price_range_parts": [
+      40,
+      120
+    ],
+    "mobile": true,
+    "notes": "Replaces automatic belt tensioner. Recommended to replace with serpentine belt.",
+    "parts_required": [
+      "Belt Tensioner (Single)"
+    ]
+  },
+  {
+    "name": "Idler Pulley Replacement",
+    "category": "Belts & Pulleys",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      20,
+      80
+    ],
+    "mobile": true,
+    "notes": "Replaces idler pulley for accessory belt system. Noise or wobble may indicate failure.",
+    "parts_required": [
+      "Idler Pulley (Single)"
+    ]
+  },
+  {
+    "name": "Timing Belt Replacement (4-Cylinder)",
+    "category": "Belts & Pulleys",
+    "labor_time_hours": 4.0,
+    "price_range_labor": [
+      350,
+      500
+    ],
+    "price_range_parts": [
+      150,
+      300
+    ],
+    "mobile": false,
+    "notes": "Full timing belt replacement for 4-cylinder engines. Includes belt, tensioner, and water pump if needed.",
+    "parts_required": [
+      "Timing Belt Kit",
+      "Coolant"
+    ]
+  },
+  {
+    "name": "Timing Belt Replacement (V6/V8)",
+    "category": "Belts & Pulleys",
+    "labor_time_hours": 5.5,
+    "price_range_labor": [
+      480,
+      700
+    ],
+    "price_range_parts": [
+      200,
+      400
+    ],
+    "mobile": false,
+    "notes": "Timing belt job on V6/V8 engines. Includes timing components. Not available as mobile service due to labor complexity.",
+    "parts_required": [
+      "Timing Belt Kit",
+      "Coolant"
+    ]
+  },
+  {
+    "name": "Supercharger Belt Replacement",
+    "category": "Belts & Pulleys",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      100,
+      150
+    ],
+    "price_range_parts": [
+      40,
+      120
+    ],
+    "mobile": true,
+    "notes": "Service for replacing supercharger belt on compatible models. May require special tools.",
+    "parts_required": [
+      "Supercharger Belt"
+    ]
+  },
+  {
+    "name": "Shock Absorber Replacement (Pair, Rear)",
+    "category": "Steering & Suspension",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      120,
+      160
+    ],
+    "price_range_parts": [
+      80,
+      180
+    ],
+    "mobile": true,
+    "notes": "Includes replacement of both rear shocks. Common maintenance on high mileage vehicles.",
+    "parts_required": [
+      "Shock Absorber (Single)"
+    ]
+  },
+  {
+    "name": "Shock Absorber Replacement (Single, Rear)",
+    "category": "Steering & Suspension",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      80,
+      120
+    ],
+    "price_range_parts": [
+      40,
+      100
+    ],
+    "mobile": true,
+    "notes": "Single rear shock replacement. Matched replacement on both sides is often recommended.",
+    "parts_required": [
+      "Shock Absorber (Single)"
+    ]
+  },
+  {
+    "name": "Strut Assembly Replacement (Pair, Front)",
+    "category": "Steering & Suspension",
+    "labor_time_hours": 2.0,
+    "price_range_labor": [
+      180,
+      240
+    ],
+    "price_range_parts": [
+      160,
+      300
+    ],
+    "mobile": true,
+    "notes": "Full strut assembly replacement for both front struts. May require alignment afterward (not included).",
+    "parts_required": [
+      "Strut Assembly (Single)"
+    ]
+  },
+  {
+    "name": "Strut Assembly Replacement (Single, Front)",
+    "category": "Steering & Suspension",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      120,
+      180
+    ],
+    "price_range_parts": [
+      80,
+      180
+    ],
+    "mobile": true,
+    "notes": "Single front strut replacement. Spring compression may be required.",
+    "parts_required": [
+      "Strut Assembly (Single)"
+    ]
+  },
+  {
+    "name": "Control Arm Replacement (Front, Lower)",
+    "category": "Steering & Suspension",
+    "labor_time_hours": 1.5,
+    "price_range_labor": [
+      140,
+      200
+    ],
+    "price_range_parts": [
+      100,
+      240
+    ],
+    "mobile": true,
+    "notes": "Lower control arm replacement for front suspension. Includes bushings and ball joint if pre-installed.",
+    "parts_required": [
+      "Control Arm (Single)"
+    ]
+  },
+  {
+    "name": "Ball Joint Replacement (Single, Front Lower)",
+    "category": "Steering & Suspension",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      100,
+      160
+    ],
+    "price_range_parts": [
+      30,
+      80
+    ],
+    "mobile": true,
+    "notes": "Service for one lower ball joint. Press-in joints may increase labor.",
+    "parts_required": [
+      "Ball Joint (Single)"
+    ]
+  },
+  {
+    "name": "Tie Rod End Replacement (Outer)",
+    "category": "Steering & Suspension",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      80,
+      120
+    ],
+    "price_range_parts": [
+      25,
+      60
+    ],
+    "mobile": true,
+    "notes": "Replacement of one outer tie rod end. Alignment not included.",
+    "parts_required": [
+      "Tie Rod End (Single)"
+    ]
+  },
+  {
+    "name": "Tie Rod End Replacement (Inner)",
+    "category": "Steering & Suspension",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      100,
+      160
+    ],
+    "price_range_parts": [
+      40,
+      80
+    ],
+    "mobile": true,
+    "notes": "Replacement of inner tie rod end. May require boot removal.",
+    "parts_required": [
+      "Tie Rod End (Single)"
+    ]
+  },
+  {
+    "name": "Sway Bar Link Replacement (Front)",
+    "category": "Steering & Suspension",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      80,
+      120
+    ],
+    "price_range_parts": [
+      30,
+      70
+    ],
+    "mobile": true,
+    "notes": "Common repair for suspension clunking or rattling. One side only.",
+    "parts_required": [
+      "Sway Bar Link (Single)"
+    ]
+  },
+  {
+    "name": "Sway Bar Link Replacement (Rear)",
+    "category": "Steering & Suspension",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      80,
+      120
+    ],
+    "price_range_parts": [
+      30,
+      70
+    ],
+    "mobile": true,
+    "notes": "Rear sway bar link replacement. Fixes looseness or noise from rear suspension.",
+    "parts_required": [
+      "Sway Bar Link (Single)"
+    ]
+  },
+  {
+    "name": "Valve Cover Gasket Replacement",
+    "category": "Engine (Under the Hood)",
+    "labor_time_hours": 1.5,
+    "price_range_labor": [
+      130,
+      200
+    ],
+    "price_range_parts": [
+      20,
+      80
+    ],
+    "mobile": true,
+    "notes": "Replaces leaking valve cover gasket. Includes light cleaning of valve cover mating surface."
+  },
+  {
+    "name": "Oil Pan Gasket Replacement",
+    "category": "Engine (Under the Hood)",
+    "labor_time_hours": 2.5,
+    "price_range_labor": [
+      200,
+      300
+    ],
+    "price_range_parts": [
+      30,
+      90
+    ],
+    "mobile": true,
+    "notes": "Replaces oil pan gasket. Job complexity varies based on subframe and crossmember access."
+  },
+  {
+    "name": "Timing Cover Gasket Replacement",
+    "category": "Engine (Under the Hood)",
+    "labor_time_hours": 4.0,
+    "price_range_labor": [
+      350,
+      500
+    ],
+    "price_range_parts": [
+      50,
+      120
+    ],
+    "mobile": false,
+    "notes": "Labor intensive job, not available for mobile. Often requires major disassembly."
+  },
+  {
+    "name": "Engine Mount Replacement (Single)",
+    "category": "Engine (Under the Hood)",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      100,
+      160
+    ],
+    "price_range_parts": [
+      40,
+      100
+    ],
+    "mobile": true,
+    "notes": "Replacement of one engine mount. Support equipment required to hold engine in place."
+  },
+  {
+    "name": "Oil Pressure Sensor Replacement",
+    "category": "Engine (Under the Hood)",
+    "labor_time_hours": 0.7,
+    "price_range_labor": [
+      60,
+      100
+    ],
+    "price_range_parts": [
+      20,
+      50
+    ],
+    "mobile": true,
+    "notes": "Replaces faulty oil pressure sensor. Often causes inaccurate gauge readings or warning lights."
+  },
+  {
+    "name": "Crankshaft Position Sensor Replacement",
+    "category": "Engine (Under the Hood)",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      30,
+      90
+    ],
+    "mobile": true,
+    "notes": "Replaces crankshaft position sensor. Needed for timing and engine management."
+  },
+  {
+    "name": "Camshaft Position Sensor Replacement",
+    "category": "Engine (Under the Hood)",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      30,
+      90
+    ],
+    "mobile": true,
+    "notes": "Replaces camshaft sensor. Needed for timing and variable valve control systems."
+  },
+  {
+    "name": "Throttle Body Cleaning",
+    "category": "Engine (Under the Hood)",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      60,
+      100
+    ],
+    "price_range_parts": [
+      10,
+      25
+    ],
+    "mobile": true,
+    "notes": "Cleans carbon buildup from throttle body to improve idle and throttle response."
+  },
+  {
+    "name": "PCV Valve Replacement",
+    "category": "Engine (Under the Hood)",
+    "labor_time_hours": 0.5,
+    "price_range_labor": [
+      50,
+      90
+    ],
+    "price_range_parts": [
+      10,
+      30
+    ],
+    "mobile": true,
+    "notes": "Replaces Positive Crankcase Ventilation valve. Helps prevent oil leaks and crankcase pressure buildup."
+  },
+  {
+    "name": "Engine Oil and Filter Change",
+    "category": "Fluids & Filters",
+    "labor_time_hours": 0.5,
+    "price_range_labor": [
+      50,
+      80
+    ],
+    "price_range_parts": [
+      25,
+      70
+    ],
+    "mobile": true,
+    "notes": "Standard oil change using user-supplied or mechanic-supplied oil. Includes oil filter and disposal.",
+    "parts_required": [
+      "Conventional Oil (5qt)",
+      "Oil Filter",
+      "Drain Plug Washer"
+    ]
+  },
+  {
+    "name": "Cabin Air Filter Replacement",
+    "category": "Fluids & Filters",
+    "labor_time_hours": 0.3,
+    "price_range_labor": [
+      30,
+      60
+    ],
+    "price_range_parts": [
+      10,
+      30
+    ],
+    "mobile": true,
+    "notes": "Replaces in-cabin air filter to improve HVAC airflow and reduce odors.",
+    "parts_required": [
+      "Cabin Air Filter"
+    ]
+  },
+  {
+    "name": "Engine Air Filter Replacement",
+    "category": "Fluids & Filters",
+    "labor_time_hours": 0.3,
+    "price_range_labor": [
+      30,
+      60
+    ],
+    "price_range_parts": [
+      15,
+      40
+    ],
+    "mobile": true,
+    "notes": "Improves fuel economy and airflow. Recommended every 15k–30k miles.",
+    "parts_required": [
+      "Engine Air Filter"
+    ]
+  },
+  {
+    "name": "Coolant Flush",
+    "category": "Fluids & Filters",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      100,
+      160
+    ],
+    "price_range_parts": [
+      20,
+      50
+    ],
+    "mobile": true,
+    "notes": "Drain and refill radiator with fresh coolant. Does not include full system flush with pressurized tools.",
+    "parts_required": [
+      "Coolant"
+    ]
+  },
+  {
+    "name": "Transmission Fluid Change",
+    "category": "Fluids & Filters",
+    "labor_time_hours": 1.5,
+    "price_range_labor": [
+      130,
+      200
+    ],
+    "price_range_parts": [
+      40,
+      100
+    ],
+    "mobile": true,
+    "notes": "Drain and refill of transmission fluid. Filter service not included unless listed separately.",
+    "parts_required": [
+      "Transmission Fluid (OEM Spec)",
+      "Drain Plug Washer"
+    ]
+  },
+  {
+    "name": "Differential Fluid Service (Front or Rear)",
+    "category": "Fluids & Filters",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      20,
+      60
+    ],
+    "mobile": true,
+    "notes": "Replaces fluid in front or rear differential. Recommended every 30k–60k miles.",
+    "parts_required": [
+      "Gear Oil (Correct Spec)",
+      "Drain Plug Washer"
+    ]
+  },
+  {
+    "name": "Transfer Case Fluid Service",
+    "category": "Fluids & Filters",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      80,
+      120
+    ],
+    "price_range_parts": [
+      20,
+      50
+    ],
+    "mobile": true,
+    "notes": "Drains and refills 4WD/AWD transfer case fluid. Important for off-road and AWD reliability.",
+    "parts_required": [
+      "Transfer Case Fluid (OEM)"
+    ]
+  },
+  {
+    "name": "A/C Recharge (R134a, Can Only)",
+    "category": "Heating & AC",
+    "labor_time_hours": 0.6,
+    "price_range_labor": [
+      60,
+      100
+    ],
+    "price_range_parts": [
+      30,
+      60
+    ],
+    "mobile": true,
+    "notes": "Basic refrigerant top-off using store-bought R134a cans. Full evac/fill not available. No leak checks.",
+    "parts_required": [
+      "R134a Refrigerant (Can)"
+    ]
+  },
+  {
+    "name": "Thermostat Replacement",
+    "category": "Heating & AC",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      100,
+      160
+    ],
+    "price_range_parts": [
+      20,
+      80
+    ],
+    "mobile": true,
+    "notes": "Replaces thermostat to fix overheating or no-heat issues. Coolant top-off included.",
+    "parts_required": [
+      "Thermostat (Single)",
+      "Coolant"
+    ]
+  },
+  {
+    "name": "Heater Hose Replacement (Single)",
+    "category": "Heating & AC",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      15,
+      60
+    ],
+    "mobile": true,
+    "notes": "Replaces a single heater hose. May be upper or lower depending on leak location.",
+    "parts_required": [
+      "Heater Hose (Single)",
+      "Coolant"
+    ]
+  },
+  {
+    "name": "Fuel Filter Replacement",
+    "category": "Fuel System",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      20,
+      60
+    ],
+    "mobile": true,
+    "notes": "Replacement of inline or frame-mounted fuel filter. Some newer vehicles have non-serviceable filters.",
+    "parts_required": [
+      "Fuel Filter (Inline)"
+    ]
+  },
+  {
+    "name": "Fuel Pump Replacement (External/Inline)",
+    "category": "Fuel System",
+    "labor_time_hours": 1.5,
+    "price_range_labor": [
+      130,
+      200
+    ],
+    "price_range_parts": [
+      100,
+      250
+    ],
+    "mobile": true,
+    "notes": "Inline fuel pump replacement only. In-tank pump replacements are not offered mobile due to safety.",
+    "parts_required": [
+      "Fuel Pump (External)"
+    ]
+  },
+  {
+    "name": "Fuel Injector Replacement (Single)",
+    "category": "Fuel System",
+    "labor_time_hours": 1.5,
+    "price_range_labor": [
+      120,
+      200
+    ],
+    "price_range_parts": [
+      50,
+      150
+    ],
+    "mobile": true,
+    "notes": "Single injector replacement. Diagnosis required to confirm fault prior to install.",
+    "parts_required": [
+      "Fuel Injector (Single)"
+    ]
+  },
+  {
+    "name": "Fuel Injector Replacement (Set of 4)",
+    "category": "Fuel System",
+    "labor_time_hours": 2.0,
+    "price_range_labor": [
+      160,
+      240
+    ],
+    "price_range_parts": [
+      200,
+      400
+    ],
+    "mobile": true,
+    "notes": "Complete injector set replacement for 4-cylinder engines. Tune-up recommended afterward.",
+    "parts_required": [
+      "Fuel Injector (Single)"
+    ]
+  },
+  {
+    "name": "Fuel Pressure Regulator Replacement",
+    "category": "Fuel System",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      100,
+      160
+    ],
+    "price_range_parts": [
+      40,
+      120
+    ],
+    "mobile": true,
+    "notes": "Replaces faulty regulator causing high or low pressure. Test required to confirm symptoms.",
+    "parts_required": [
+      "Fuel Pressure Regulator"
+    ]
+  },
+  {
+    "name": "EVAP Purge Solenoid Replacement",
+    "category": "Fuel System",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      80,
+      120
+    ],
+    "price_range_parts": [
+      20,
+      70
+    ],
+    "mobile": true,
+    "notes": "Replaces purge valve for evaporative emissions system. Common cause of check engine lights.",
+    "parts_required": [
+      "EVAP Purge Solenoid"
+    ]
+  },
+  {
+    "name": "EVAP Canister Vent Solenoid Replacement",
+    "category": "Fuel System",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      30,
+      90
+    ],
+    "mobile": true,
+    "notes": "Controls EVAP system pressure. Replaced when stuck open or failed closed.",
+    "parts_required": [
+      "EVAP Canister Vent Solenoid"
+    ]
+  },
+  {
+    "name": "Oxygen Sensor Replacement (Upstream)",
+    "category": "Sensors",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      60,
+      120
+    ],
+    "mobile": true,
+    "notes": "Replaces O2 sensor before the catalytic converter. Affects air/fuel ratio control.",
+    "parts_required": [
+      "O2 Sensor (Single)"
+    ]
+  },
+  {
+    "name": "Oxygen Sensor Replacement (Downstream)",
+    "category": "Sensors",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      60,
+      120
+    ],
+    "mobile": true,
+    "notes": "Replaces O2 sensor after catalytic converter. Monitors emissions performance.",
+    "parts_required": [
+      "O2 Sensor (Single)"
+    ]
+  },
+  {
+    "name": "Mass Air Flow Sensor Replacement",
+    "category": "Sensors",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      80,
+      120
+    ],
+    "price_range_parts": [
+      60,
+      150
+    ],
+    "mobile": true,
+    "notes": "MAF sensor replacement. May require relearn procedure after install.",
+    "parts_required": [
+      "MAF Sensor (Single)"
+    ]
+  },
+  {
+    "name": "MAP Sensor Replacement",
+    "category": "Sensors",
+    "labor_time_hours": 0.6,
+    "price_range_labor": [
+      60,
+      100
+    ],
+    "price_range_parts": [
+      30,
+      90
+    ],
+    "mobile": true,
+    "notes": "Manifold Absolute Pressure sensor replacement. Can affect idle and throttle response.",
+    "parts_required": [
+      "MAP Sensor (Single)"
+    ]
+  },
+  {
+    "name": "Coolant Temperature Sensor Replacement",
+    "category": "Sensors",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      20,
+      50
+    ],
+    "mobile": true,
+    "notes": "ECT sensor replacement. Impacts engine warm-up and fan operation.",
+    "parts_required": [
+      "Coolant Temperature Sensor"
+    ]
+  },
+  {
+    "name": "Knock Sensor Replacement (Single)",
+    "category": "Sensors",
+    "labor_time_hours": 1.5,
+    "price_range_labor": [
+      130,
+      200
+    ],
+    "price_range_parts": [
+      30,
+      100
+    ],
+    "mobile": true,
+    "notes": "May require intake manifold removal depending on location. Detects spark knock/pinging.",
+    "parts_required": [
+      "Knock Sensor (Single)"
+    ]
+  },
+  {
+    "name": "Wheel Speed Sensor Replacement",
+    "category": "Sensors",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      40,
+      100
+    ],
+    "mobile": true,
+    "notes": "Replaces ABS wheel speed sensor. Often triggers traction or ABS warning lights.",
+    "parts_required": [
+      "Wheel Speed Sensor"
+    ]
+  },
+  {
+    "name": "Battery Replacement",
+    "category": "Battery & Electrical",
+    "labor_time_hours": 0.5,
+    "price_range_labor": [
+      50,
+      90
+    ],
+    "price_range_parts": [
+      100,
+      200
+    ],
+    "mobile": true,
+    "notes": "Includes testing and installation of new battery. Disposal of old battery may incur fee.",
+    "parts_required": [
+      "Battery (Group Size)"
+    ]
+  },
+  {
+    "name": "Alternator Replacement",
+    "category": "Battery & Electrical",
+    "labor_time_hours": 1.5,
+    "price_range_labor": [
+      130,
+      200
+    ],
+    "price_range_parts": [
+      150,
+      350
+    ],
+    "mobile": true,
+    "notes": "Replaces alternator for charging system. Belt and tensioner not included.",
+    "parts_required": [
+      "Alternator (Single)"
+    ]
+  },
+  {
+    "name": "Starter Replacement",
+    "category": "Battery & Electrical",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      110,
+      170
+    ],
+    "price_range_parts": [
+      120,
+      300
+    ],
+    "mobile": true,
+    "notes": "Starter motor replacement. Battery should be tested to confirm cause of no-start condition.",
+    "parts_required": [
+      "Starter (Single)"
+    ]
+  },
+  {
+    "name": "Horn Replacement",
+    "category": "Battery & Electrical",
+    "labor_time_hours": 0.7,
+    "price_range_labor": [
+      60,
+      100
+    ],
+    "price_range_parts": [
+      30,
+      80
+    ],
+    "mobile": true,
+    "notes": "Replacement of vehicle horn. May include single or dual horn setup."
+  },
+  {
+    "name": "Power Outlet / Cigarette Lighter Repair",
+    "category": "Battery & Electrical",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      60,
+      100
+    ],
+    "price_range_parts": [
+      10,
+      40
+    ],
+    "mobile": true,
+    "notes": "Repair or replacement of 12V power outlet or lighter socket."
+  },
+  {
+    "name": "Fuse Replacement (Per Circuit)",
+    "category": "Battery & Electrical",
+    "labor_time_hours": 0.3,
+    "price_range_labor": [
+      30,
+      60
+    ],
+    "price_range_parts": [
+      5,
+      15
+    ],
+    "mobile": true,
+    "notes": "Replaces one fuse. Complex fuse box access may increase labor.",
+    "parts_required": [
+      "Fuse (Per)"
+    ]
+  },
+  {
+    "name": "Door Lock Actuator Replacement (Front)",
+    "category": "Doors & Locks",
+    "labor_time_hours": 1.5,
+    "price_range_labor": [
+      130,
+      200
+    ],
+    "price_range_parts": [
+      60,
+      150
+    ],
+    "mobile": true,
+    "notes": "Replaces actuator for power door lock function. Includes one front door only.",
+    "parts_required": [
+      "Door Lock Actuator (Single)"
+    ]
+  },
+  {
+    "name": "Door Lock Actuator Replacement (Rear)",
+    "category": "Doors & Locks",
+    "labor_time_hours": 1.5,
+    "price_range_labor": [
+      130,
+      200
+    ],
+    "price_range_parts": [
+      60,
+      150
+    ],
+    "mobile": true,
+    "notes": "Rear door actuator replacement. Central locking system diagnosis not included.",
+    "parts_required": [
+      "Door Lock Actuator (Single)"
+    ]
+  },
+  {
+    "name": "Window Regulator Replacement (Front)",
+    "category": "Windows & Wipers",
+    "labor_time_hours": 1.3,
+    "price_range_labor": [
+      120,
+      180
+    ],
+    "price_range_parts": [
+      80,
+      180
+    ],
+    "mobile": true,
+    "notes": "Front window regulator with or without motor. Door trim removal required.",
+    "parts_required": [
+      "Window Regulator w/ Motor"
+    ]
+  },
+  {
+    "name": "Window Regulator Replacement (Rear)",
+    "category": "Windows & Wipers",
+    "labor_time_hours": 1.3,
+    "price_range_labor": [
+      120,
+      180
+    ],
+    "price_range_parts": [
+      80,
+      180
+    ],
+    "mobile": true,
+    "notes": "Rear window regulator replacement. Motor availability varies by model.",
+    "parts_required": [
+      "Window Regulator w/ Motor"
+    ]
+  },
+  {
+    "name": "Power Window Switch Replacement",
+    "category": "Windows & Wipers",
+    "labor_time_hours": 0.7,
+    "price_range_labor": [
+      60,
+      100
+    ],
+    "price_range_parts": [
+      30,
+      90
+    ],
+    "mobile": true,
+    "notes": "Controls driver or passenger windows. Covers single switch panel.",
+    "parts_required": [
+      "Power Window Switch"
+    ]
+  },
+  {
+    "name": "Side Mirror Replacement (Manual or Power)",
+    "category": "Mirrors & Glass",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      70,
+      120
+    ],
+    "price_range_parts": [
+      80,
+      250
+    ],
+    "mobile": true,
+    "notes": "Side mirror replacement (non-camera). Color-matched mirror may require special order.",
+    "parts_required": [
+      "Side Mirror (Manual/Power)"
+    ]
+  },
+  {
+    "name": "Rear View Mirror Replacement (Interior)",
+    "category": "Mirrors & Glass",
+    "labor_time_hours": 0.4,
+    "price_range_labor": [
+      40,
+      70
+    ],
+    "price_range_parts": [
+      20,
+      80
+    ],
+    "mobile": true,
+    "notes": "Interior mirror reinstallation or replacement. Adhesive included if needed.",
+    "parts_required": [
+      "Interior Mirror (Rear View)"
+    ]
+  },
+  {
+    "name": "Headlight Bulb Replacement",
+    "category": "Lights & Switches",
+    "labor_time_hours": 0.5,
+    "price_range_labor": [
+      40,
+      80
+    ],
+    "price_range_parts": [
+      10,
+      40
+    ],
+    "mobile": true,
+    "notes": "Standard halogen or HID headlight bulb replacement. LED conversion not included.",
+    "parts_required": [
+      "Headlight Bulb"
+    ]
+  },
+  {
+    "name": "Tail Light Bulb Replacement",
+    "category": "Lights & Switches",
+    "labor_time_hours": 0.4,
+    "price_range_labor": [
+      30,
+      60
+    ],
+    "price_range_parts": [
+      10,
+      30
+    ],
+    "mobile": true,
+    "notes": "Tail light/brake light bulb replacement. Does not include lens or housing.",
+    "parts_required": [
+      "Taillight Bulb"
+    ]
+  },
+  {
+    "name": "Turn Signal Bulb Replacement (Front or Rear)",
+    "category": "Lights & Switches",
+    "labor_time_hours": 0.4,
+    "price_range_labor": [
+      30,
+      60
+    ],
+    "price_range_parts": [
+      10,
+      30
+    ],
+    "mobile": true,
+    "notes": "Replaces turn signal bulb on one side. Rapid blinking typically indicates a fault.",
+    "parts_required": [
+      "Turn Signal Bulb"
+    ]
+  },
+  {
+    "name": "License Plate Bulb Replacement",
+    "category": "Lights & Switches",
+    "labor_time_hours": 0.3,
+    "price_range_labor": [
+      30,
+      50
+    ],
+    "price_range_parts": [
+      5,
+      15
+    ],
+    "mobile": true,
+    "notes": "Fixes rear plate visibility issues. Small but required by law.",
+    "parts_required": [
+      "License Plate Bulb"
+    ]
+  },
+  {
+    "name": "Brake Light Switch Replacement",
+    "category": "Lights & Switches",
+    "labor_time_hours": 0.6,
+    "price_range_labor": [
+      50,
+      90
+    ],
+    "price_range_parts": [
+      10,
+      30
+    ],
+    "mobile": true,
+    "notes": "Controls brake lights when pedal is pressed. May affect cruise control or shifter lockout."
+  },
+  {
+    "name": "Headlight Switch Replacement",
+    "category": "Lights & Switches",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      40,
+      100
+    ],
+    "mobile": true,
+    "notes": "Replaces dash-mounted or stalk-based headlight switch. Fixes headlight or dash light failure."
+  },
+  {
+    "name": "Hazard Switch Replacement",
+    "category": "Lights & Switches",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      70,
+      110
+    ],
+    "price_range_parts": [
+      20,
+      60
+    ],
+    "mobile": true,
+    "notes": "Replaces switch that activates all four turn signals. Located on dash or steering column."
+  },
+  {
+    "name": "EGR Valve Replacement",
+    "category": "Engine (Under the Hood)",
+    "labor_time_hours": 1.5,
+    "price_range_labor": [
+      130,
+      200
+    ],
+    "price_range_parts": [
+      60,
+      150
+    ],
+    "mobile": true,
+    "notes": "Exhaust Gas Recirculation valve replacement to fix emissions or rough idle issues."
+  },
+  {
+    "name": "Radiator Cap Replacement",
+    "category": "Fluids & Filters",
+    "labor_time_hours": 0.3,
+    "price_range_labor": [
+      30,
+      50
+    ],
+    "price_range_parts": [
+      10,
+      30
+    ],
+    "mobile": true,
+    "notes": "Replaces faulty radiator cap that may cause overheating or coolant loss."
+  },
+  {
+    "name": "Wiper Blade Replacement (Pair)",
+    "category": "Windows & Wipers",
+    "labor_time_hours": 0.2,
+    "price_range_labor": [
+      20,
+      40
+    ],
+    "price_range_parts": [
+      15,
+      50
+    ],
+    "mobile": true,
+    "notes": "Replacement of both front wiper blades. Rear blade available separately.",
+    "parts_required": [
+      "Wiper Blades (Pair)"
+    ]
+  },
+  {
+    "name": "Windshield Washer Pump Replacement",
+    "category": "Windows & Wipers",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [
+      30,
+      90
+    ],
+    "mobile": true,
+    "notes": "Fixes washer fluid spray failure. Includes pump and hose reconnection.",
+    "parts_required": [
+      "Windshield Washer Pump"
+    ]
+  },
+  {
+    "name": "Blend Door Actuator Replacement",
+    "category": "Heating & AC",
+    "labor_time_hours": 1.5,
+    "price_range_labor": [
+      130,
+      200
+    ],
+    "price_range_parts": [
+      30,
+      90
+    ],
+    "mobile": true,
+    "notes": "Controls airflow direction or temperature blend. Location varies by vehicle."
+  },
+  {
+    "name": "AC Blower Motor Replacement",
+    "category": "Heating & AC",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      100,
+      160
+    ],
+    "price_range_parts": [
+      60,
+      150
+    ],
+    "mobile": true,
+    "notes": "Restores airflow through vents. Blower resistor may also be required."
+  },
+  {
+    "service_id": "oil_change_conventional",
+    "service_name": "Oil Change (Conventional)",
+    "category": "General Maintenance",
+    "est_labor_hours": 0.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor is billed at $150/hr locally and $170/hr outside a 10-mile radius. 1-hour minimum applies.",
+    "skill_level": "Basic",
+    "parts_required": [
+      "Conventional Oil (5qt)",
+      "Oil Filter"
+    ],
+    "tools_required": [
+      "Jack",
+      "Socket Set",
+      "Drain Pan",
+      "Funnel"
+    ],
+    "tags": [
+      "oil",
+      "fluid",
+      "quick",
+      "maintenance"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Always confirm oil weight and filter type before starting.",
+    "customer_facing_notes": "Includes up to 5 quarts of conventional oil and standard oil filter.",
+    "priority_level": "High",
+    "environmental_fee_flag": true,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "basic",
+      "fluid"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "oil_change_synthetic",
+    "service_name": "Oil Change (Synthetic)",
+    "category": "General Maintenance",
+    "est_labor_hours": 0.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor is billed at $150/hr locally and $170/hr outside a 10-mile radius. 1-hour minimum applies.",
+    "skill_level": "Basic",
+    "parts_required": [
+      "Synthetic Oil (5qt)",
+      "Oil Filter"
+    ],
+    "tools_required": [
+      "Jack",
+      "Socket Set",
+      "Drain Pan",
+      "Funnel"
+    ],
+    "tags": [
+      "oil",
+      "fluid",
+      "quick",
+      "maintenance"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Check for oil leaks or stripped drain plug threads.",
+    "customer_facing_notes": "Includes up to 5 quarts of full synthetic oil and standard filter.",
+    "priority_level": "High",
+    "environmental_fee_flag": true,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "basic",
+      "fluid"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "wiper_blades",
+    "service_name": "Windshield Wiper Replacement",
+    "category": "General Maintenance",
+    "est_labor_hours": 0.2,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Minimum 1-hour charge applies.",
+    "skill_level": "Basic",
+    "parts_required": [
+      "Wiper Blades (Pair)"
+    ],
+    "tools_required": [],
+    "tags": [
+      "visibility",
+      "rain",
+      "wipers",
+      "safety"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Check wiper arm tension and verify correct blade size.",
+    "customer_facing_notes": "Improves visibility during rain and snow. Quick and simple service.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "basic"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "brake_rotor_rear",
+    "service_name": "Brake Rotor Replacement (Rear)",
+    "category": "Brakes",
+    "est_labor_hours": 1.8,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. 1-hour minimum applies.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "Rear Brake Rotors"
+    ],
+    "tools_required": [
+      "Jack",
+      "Impact Wrench",
+      "Torque Wrench",
+      "Hammer"
+    ],
+    "tags": [
+      "brakes",
+      "rotors",
+      "rear",
+      "vibration"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Clean hub and check rear caliper piston condition.",
+    "customer_facing_notes": "Fixes pulsation and scoring at rear brakes. Often paired with new pads.",
+    "priority_level": "High",
+    "environmental_fee_flag": true,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "brakes"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "brake_caliper_replace",
+    "service_name": "Brake Caliper Replacement (Single)",
+    "category": "Brakes",
+    "est_labor_hours": 1.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor is billed hourly. Bleeding brakes included.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "Brake Caliper (Single)",
+      "Brake Fluid"
+    ],
+    "tools_required": [
+      "Jack",
+      "Wrenches",
+      "Bleeder Kit"
+    ],
+    "tags": [
+      "brakes",
+      "hydraulics",
+      "seized",
+      "leak"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Bleed system after install. Verify no leak or pull after test drive.",
+    "customer_facing_notes": "Fixes pulling, dragging or leaking brake caliper on one wheel.",
+    "priority_level": "High",
+    "environmental_fee_flag": true,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "brakes",
+      "hydraulics"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "brake_drum_service",
+    "service_name": "Brake Drum Service (Clean & Adjust)",
+    "category": "Brakes",
+    "est_labor_hours": 1.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Billed hourly. Includes removal, cleaning, and adjustment.",
+    "skill_level": "Medium",
+    "parts_required": [],
+    "tools_required": [
+      "Drum Puller",
+      "Brake Cleaner",
+      "Flat File"
+    ],
+    "tags": [
+      "brakes",
+      "drum",
+      "adjustment",
+      "rear"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Check shoe wear and hardware integrity. Clean and reset adjusters.",
+    "customer_facing_notes": "Restores rear drum brake function and corrects pedal feel.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": true,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "brakes"
+    ],
+    "part_sources": [],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "strut_front_pair",
+    "service_name": "Strut Replacement (Front Pair)",
+    "category": "Suspension & Steering",
+    "est_labor_hours": 3.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Some models require sway bar link or control arm disconnection.",
+    "skill_level": "Advanced",
+    "parts_required": [
+      "Front Strut Assemblies (2)"
+    ],
+    "tools_required": [
+      "Jack",
+      "Impact Wrench",
+      "Torque Wrench",
+      "Breaker Bar"
+    ],
+    "tags": [
+      "struts",
+      "front",
+      "suspension",
+      "ride"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Mark camber bolt positions if adjustable. Torque to spec on ground.",
+    "customer_facing_notes": "Restores ride quality, improves control and tire wear.",
+    "priority_level": "High",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "suspension",
+      "front end"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "strut_rear_pair",
+    "service_name": "Strut Replacement (Rear Pair)",
+    "category": "Suspension & Steering",
+    "est_labor_hours": 2.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Access from trunk or wheel well may be required.",
+    "skill_level": "Advanced",
+    "parts_required": [
+      "Rear Strut Assemblies (2)"
+    ],
+    "tools_required": [
+      "Jack",
+      "Socket Set",
+      "Torque Wrench"
+    ],
+    "tags": [
+      "struts",
+      "rear",
+      "suspension",
+      "control"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "May require trim removal or shock tower access.",
+    "customer_facing_notes": "Improves handling and ride comfort, especially over bumps.",
+    "priority_level": "High",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "suspension"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "shock_rear_pair",
+    "service_name": "Shock Replacement (Rear Pair)",
+    "category": "Suspension & Steering",
+    "est_labor_hours": 1.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Minimum 1-hour applies.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "Rear Shocks (2)"
+    ],
+    "tools_required": [
+      "Jack",
+      "Socket Set"
+    ],
+    "tags": [
+      "shocks",
+      "rear",
+      "suspension"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Verify top mount clearance. May require rust penetrating oil.",
+    "customer_facing_notes": "Improves rear ride control and handling over dips and bumps.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "suspension"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "control_arm_single",
+    "service_name": "Control Arm Replacement (Single Side)",
+    "category": "Suspension & Steering",
+    "est_labor_hours": 1.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Final quote depends on accessibility and rust.",
+    "skill_level": "Advanced",
+    "parts_required": [
+      "Control Arm (Left or Right)"
+    ],
+    "tools_required": [
+      "Jack",
+      "Breaker Bar",
+      "Socket Set"
+    ],
+    "tags": [
+      "control arm",
+      "bushing",
+      "ball joint",
+      "alignment"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Tighten bushings only after vehicle is at ride height.",
+    "customer_facing_notes": "Replaces worn bushings or ball joints to restore alignment and steering stability.",
+    "priority_level": "High",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "suspension"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "sway_bar_link_single",
+    "service_name": "Sway Bar Link Replacement (Single Side)",
+    "category": "Suspension & Steering",
+    "est_labor_hours": 1.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. May require hex key to prevent spinning.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "Sway Bar Link"
+    ],
+    "tools_required": [
+      "Jack",
+      "Wrench",
+      "Allen Key Set"
+    ],
+    "tags": [
+      "sway bar",
+      "stabilizer",
+      "noise",
+      "clunk"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Lubricate threads and check opposing link wear.",
+    "customer_facing_notes": "Eliminates clunking noise during turns or over bumps.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "suspension"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "tie_rod_outer",
+    "service_name": "Outer Tie Rod End Replacement",
+    "category": "Suspension & Steering",
+    "est_labor_hours": 1.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Alignment recommended after replacement.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "Outer Tie Rod End"
+    ],
+    "tools_required": [
+      "Jack",
+      "Wrench",
+      "Torque Wrench",
+      "Pliers"
+    ],
+    "tags": [
+      "steering",
+      "tie rod",
+      "alignment",
+      "loose"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Match thread count or measure inner thread to preserve alignment.",
+    "customer_facing_notes": "Fixes loose steering or uneven tire wear. May need alignment afterward.",
+    "priority_level": "High",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "Alignment not included in mobile service.",
+    "tool_classification": [
+      "steering"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "ball_joint_bolt_in",
+    "service_name": "Ball Joint Replacement (Bolt-in Only)",
+    "category": "Suspension & Steering",
+    "est_labor_hours": 2.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Press-in ball joints not offered via mobile service.",
+    "skill_level": "Advanced",
+    "parts_required": [
+      "Bolt-In Ball Joint"
+    ],
+    "tools_required": [
+      "Jack",
+      "Socket Set",
+      "Torque Wrench"
+    ],
+    "tags": [
+      "ball joint",
+      "clunk",
+      "loose",
+      "suspension"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Inspect knuckle bore and arm wear. Use thread locker where required.",
+    "customer_facing_notes": "Replaces worn ball joint causing clunking or steering looseness.",
+    "priority_level": "High",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "Press-in joints not supported. Bolt-in only.",
+    "tool_classification": [
+      "suspension",
+      "steering"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "taillight_bulb",
+    "service_name": "Taillight Bulb Replacement",
+    "category": "Electrical & Charging",
+    "est_labor_hours": 0.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Minimum 1-hour charge applies. May require trim removal.",
+    "skill_level": "Basic",
+    "parts_required": [
+      "Taillight Bulb"
+    ],
+    "tools_required": [
+      "Trim Tool",
+      "Gloves"
+    ],
+    "tags": [
+      "lighting",
+      "bulb",
+      "taillight",
+      "safety"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Avoid touching bulb glass. Check for melted socket.",
+    "customer_facing_notes": "Fixes brake light, turn signal, or running light issues.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "lighting",
+      "basic"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "window_regulator_replace",
+    "service_name": "Power Window Regulator Replacement",
+    "category": "Electrical & Charging",
+    "est_labor_hours": 2.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Covers regulator and motor assembly replacement.",
+    "skill_level": "Advanced",
+    "parts_required": [
+      "Window Regulator w/ Motor"
+    ],
+    "tools_required": [
+      "Panel Tool",
+      "Drill",
+      "Rivet Gun or Bolts"
+    ],
+    "tags": [
+      "window",
+      "regulator",
+      "motor",
+      "electrical"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Verify switch function and power signal before replacing.",
+    "customer_facing_notes": "Restores power window operation after failed motor or cable.",
+    "priority_level": "High",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "electrical",
+      "interior"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": true,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "door_lock_actuator",
+    "service_name": "Power Door Lock Actuator Replacement",
+    "category": "Electrical & Charging",
+    "est_labor_hours": 2.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Some doors may require drilling or bolt-on removal.",
+    "skill_level": "Advanced",
+    "parts_required": [
+      "Door Lock Actuator"
+    ],
+    "tools_required": [
+      "Trim Tool",
+      "Drill",
+      "Socket Set"
+    ],
+    "tags": [
+      "lock",
+      "actuator",
+      "door",
+      "security"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Confirm switch signal and door latch condition before install.",
+    "customer_facing_notes": "Fixes door that won't lock/unlock with remote or switch.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "interior",
+      "electrical"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": true,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "fuse_replace",
+    "service_name": "Fuse Replacement",
+    "category": "Electrical & Charging",
+    "est_labor_hours": 0.3,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Minimum 1-hour charge applies. Covers diagnosis and fuse install.",
+    "skill_level": "Basic",
+    "parts_required": [
+      "Standard Fuse"
+    ],
+    "tools_required": [
+      "Multimeter",
+      "Needle Nose Pliers"
+    ],
+    "tags": [
+      "electrical",
+      "fuse",
+      "short",
+      "diagnostics"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Always verify cause of blown fuse. Do not replace repeatedly without root cause diagnosis.",
+    "customer_facing_notes": "Restores power to failed circuit (radio, lights, etc). Root cause should be addressed.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "electrical"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": true,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "spark_plug_v6",
+    "service_name": "Spark Plug Replacement (V6)",
+    "category": "Engine & Cooling",
+    "est_labor_hours": 2.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Some V6 engines may require plenum removal.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "6x Spark Plugs"
+    ],
+    "tools_required": [
+      "Socket Set",
+      "Swivel Adapter",
+      "Torque Wrench",
+      "Extension"
+    ],
+    "tags": [
+      "spark",
+      "plugs",
+      "misfire",
+      "ignition"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Check for oil in plug wells. Use torque specs.",
+    "customer_facing_notes": "Fixes rough idle, misfires, and poor acceleration in V6 engines.",
+    "priority_level": "High",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "Plenum removal OK, but deep intake runners may require decline.",
+    "tool_classification": [
+      "engine",
+      "ignition"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas"
+    ]
+  },
+  {
+    "service_id": "ignition_coil_set",
+    "service_name": "Ignition Coil Replacement (Full Set)",
+    "category": "Engine & Cooling",
+    "est_labor_hours": 1.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Access varies by engine type.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "Ignition Coil Set"
+    ],
+    "tools_required": [
+      "Socket Set"
+    ],
+    "tags": [
+      "coil",
+      "ignition",
+      "tune-up"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Always recommend new spark plugs when replacing coil set.",
+    "customer_facing_notes": "Refreshes full ignition system and prevents recurring misfires.",
+    "priority_level": "High",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "engine",
+      "ignition"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas"
+    ]
+  },
+  {
+    "service_id": "radiator_replace",
+    "service_name": "Radiator Replacement",
+    "category": "Engine & Cooling",
+    "est_labor_hours": 2.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Includes coolant flush.",
+    "skill_level": "Advanced",
+    "parts_required": [
+      "Radiator",
+      "Coolant",
+      "Hose Clamps"
+    ],
+    "tools_required": [
+      "Drain Pan",
+      "Socket Set",
+      "Pliers"
+    ],
+    "tags": [
+      "coolant",
+      "leak",
+      "radiator",
+      "overheat"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Confirm fan shroud clearance and support tab fitment.",
+    "customer_facing_notes": "Fixes coolant leaks and overheating issues. Replaces corroded or cracked radiator.",
+    "priority_level": "High",
+    "environmental_fee_flag": true,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "Decline if front end removal is required (e.g., some BMW/Mercedes).",
+    "tool_classification": [
+      "cooling"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": true,
+    "vehicle_type_limitations": [
+      "gas"
+    ]
+  },
+  {
+    "service_id": "cv_axle_front",
+    "service_name": "CV Axle Replacement (Front)",
+    "category": "Drivetrain & Fluids",
+    "est_labor_hours": 2.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Access varies depending on strut/brake design.",
+    "skill_level": "Advanced",
+    "parts_required": [
+      "Front CV Axle Shaft"
+    ],
+    "tools_required": [
+      "Breaker Bar",
+      "Socket Set",
+      "Torque Wrench",
+      "Jack"
+    ],
+    "tags": [
+      "cv axle",
+      "boot",
+      "clicking",
+      "drivetrain"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Always replace axle nut with new torque spec. Inspect trans seal.",
+    "customer_facing_notes": "Fixes clicking, vibration, or grease slinging from torn axle boot.",
+    "priority_level": "High",
+    "environmental_fee_flag": true,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "drivetrain",
+      "suspension"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": true,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "trans_fluid_service",
+    "service_name": "Transmission Fluid Drain & Fill",
+    "category": "Drivetrain & Fluids",
+    "est_labor_hours": 1.2,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Includes fluid disposal. Pan/filter service not included.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "Transmission Fluid (OEM Spec)"
+    ],
+    "tools_required": [
+      "Drain Pan",
+      "Funnel",
+      "Fluid Pump"
+    ],
+    "tags": [
+      "transmission",
+      "fluid",
+      "service",
+      "drain"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Confirm fluid spec and fill procedure. Do not overfill.",
+    "customer_facing_notes": "Extends transmission life by removing old fluid. Pan service may be required separately.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": true,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "Pan/filter services are not performed mobile unless easily accessible.",
+    "tool_classification": [
+      "fluid",
+      "drivetrain"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas"
+    ]
+  },
+  {
+    "service_id": "diff_fluid_change",
+    "service_name": "Differential Fluid Change (Front or Rear)",
+    "category": "Drivetrain & Fluids",
+    "est_labor_hours": 1.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Plug access must be unobstructed.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "Gear Oil (Correct Spec)"
+    ],
+    "tools_required": [
+      "Fluid Pump",
+      "Drain Pan",
+      "Ratchet"
+    ],
+    "tags": [
+      "differential",
+      "gear oil",
+      "fluid",
+      "axle"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Check for metal shavings or burnt smell. Torque fill plug first.",
+    "customer_facing_notes": "Replaces worn-out gear oil in differential to prevent noise and wear.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": true,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "fluid",
+      "drivetrain"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "transfer_case_fluid",
+    "service_name": "Transfer Case Fluid Change",
+    "category": "Drivetrain & Fluids",
+    "est_labor_hours": 1.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Includes fluid disposal. Confirm AWD/4WD type.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "Transfer Case Fluid (OEM)"
+    ],
+    "tools_required": [
+      "Fluid Pump",
+      "Drain Pan",
+      "Ratchet"
+    ],
+    "tags": [
+      "transfer case",
+      "4x4",
+      "AWD",
+      "fluid"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Check for metal shavings and fluid color. Some AWD units use specific fluids.",
+    "customer_facing_notes": "Keeps 4WD and AWD systems operating smoothly by replacing worn fluid.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": true,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "fluid",
+      "drivetrain"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "engine_mount_replace",
+    "service_name": "Engine Mount Replacement",
+    "category": "Drivetrain & Fluids",
+    "est_labor_hours": 2.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Limited to top or side-mounted mounts only.",
+    "skill_level": "Advanced",
+    "parts_required": [
+      "Engine Mount"
+    ],
+    "tools_required": [
+      "Jack",
+      "Socket Set",
+      "Torque Wrench"
+    ],
+    "tags": [
+      "mount",
+      "engine vibration",
+      "clunk"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Support engine with jack before removal. Confirm mount type (liquid vs solid).",
+    "customer_facing_notes": "Fixes excessive vibration, clunking, or engine movement due to broken mount.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "Deep subframe jobs or tight firewall access not supported.",
+    "tool_classification": [
+      "engine",
+      "drivetrain"
+    ],
+    "part_sources": [
+      "O'Reilly",
+      "AutoZone"
+    ],
+    "diagnostic_required": true,
+    "vehicle_type_limitations": [
+      "gas"
+    ]
+  },
+  {
+    "service_id": "stereo_install_single_din",
+    "service_name": "Car Stereo Install (Single DIN)",
+    "category": "Car Audio & Accessories",
+    "est_labor_hours": 1.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Requires correct harness and dash kit.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "Aftermarket Stereo",
+      "Harness Adapter",
+      "Dash Kit"
+    ],
+    "tools_required": [
+      "Trim Tools",
+      "Crimper",
+      "Multimeter"
+    ],
+    "tags": [
+      "stereo",
+      "radio",
+      "head unit",
+      "install"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Always confirm harness match before disassembly.",
+    "customer_facing_notes": "Installs an aftermarket single-DIN head unit with proper integration.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "No install if vehicle has advanced CAN-bus systems or OEM amp without bypass.",
+    "tool_classification": [
+      "audio",
+      "electrical"
+    ],
+    "part_sources": [
+      "Crutchfield",
+      "Amazon"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "stereo_install_double_din",
+    "service_name": "Car Stereo Install (Double DIN)",
+    "category": "Car Audio & Accessories",
+    "est_labor_hours": 2.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Backup camera integration may require extra time.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "Double-DIN Stereo",
+      "Dash Kit",
+      "Harness Adapter"
+    ],
+    "tools_required": [
+      "Trim Tools",
+      "Multimeter",
+      "Crimper"
+    ],
+    "tags": [
+      "stereo",
+      "radio",
+      "double din",
+      "touchscreen"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Ensure trim clearance and fitment before starting.",
+    "customer_facing_notes": "Adds touchscreen functionality and upgrades radio/navigation system.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "No install if full dash disassembly is required (e.g. Lexus, some BMWs).",
+    "tool_classification": [
+      "audio",
+      "electrical"
+    ],
+    "part_sources": [
+      "Crutchfield",
+      "Amazon"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "door_speakers_pair",
+    "service_name": "Speaker Installation (Door Pair)",
+    "category": "Car Audio & Accessories",
+    "est_labor_hours": 1.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Includes sound test and panel reassembly.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "Speakers (Pair)",
+      "Speaker Harness"
+    ],
+    "tools_required": [
+      "Panel Tools",
+      "Drill",
+      "Crimper"
+    ],
+    "tags": [
+      "audio",
+      "speakers",
+      "install",
+      "music"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Check mounting depth and adapter ring needs.",
+    "customer_facing_notes": "Replaces factory speakers with better-quality aftermarket units.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "audio",
+      "interior"
+    ],
+    "part_sources": [
+      "Crutchfield",
+      "Amazon"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "amp_sub_install",
+    "service_name": "Amplifier & Subwoofer Install",
+    "category": "Car Audio & Accessories",
+    "est_labor_hours": 2.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Power wire run and tuning included.",
+    "skill_level": "Advanced",
+    "parts_required": [
+      "Amplifier",
+      "Subwoofer",
+      "Amp Kit",
+      "LOC (if needed)"
+    ],
+    "tools_required": [
+      "Trim Tools",
+      "Drill",
+      "Multimeter",
+      "Crimper"
+    ],
+    "tags": [
+      "audio",
+      "bass",
+      "amplifier",
+      "install"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Fuse tap required. Ensure solid chassis ground. Tune amp gain properly.",
+    "customer_facing_notes": "Upgrades your car audio with powerful bass and clean signal amplification.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "Not available on vehicles requiring full interior teardown.",
+    "tool_classification": [
+      "audio",
+      "electrical"
+    ],
+    "part_sources": [
+      "Crutchfield",
+      "Amazon"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "backup_cam_install",
+    "service_name": "Backup Camera Install (License Plate Frame Type)",
+    "category": "Car Audio & Accessories",
+    "est_labor_hours": 1.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Display must be installed or already present.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "License Plate Camera",
+      "Video Cable",
+      "Power Wire"
+    ],
+    "tools_required": [
+      "Trim Tools",
+      "Drill",
+      "Multimeter"
+    ],
+    "tags": [
+      "camera",
+      "safety",
+      "reverse",
+      "backup"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Power from reverse light. Confirm RCA cable reach before mounting.",
+    "customer_facing_notes": "Adds a rearview camera to assist in backing up. Improves visibility and safety.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "Display integration must be supported or installed separately.",
+    "tool_classification": [
+      "camera",
+      "electrical"
+    ],
+    "part_sources": [
+      "Crutchfield",
+      "Amazon"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "dash_cam_front",
+    "service_name": "Dash Cam Install (Front Only)",
+    "category": "Car Audio & Accessories",
+    "est_labor_hours": 1.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Fuse tap kit required.",
+    "skill_level": "Basic",
+    "parts_required": [
+      "Dash Cam",
+      "Fuse Tap Kit"
+    ],
+    "tools_required": [
+      "Trim Tools",
+      "Multimeter",
+      "Crimper"
+    ],
+    "tags": [
+      "dashcam",
+      "security",
+      "recording",
+      "camera"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Hide wires neatly. Tap ACC fuse for ignition-only power.",
+    "customer_facing_notes": "Records front driving footage for protection against accidents or theft.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "camera",
+      "electrical"
+    ],
+    "part_sources": [
+      "Crutchfield",
+      "Amazon"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "check_engine_scan",
+    "service_name": "Check Engine Light Scan",
+    "category": "Diagnostics & Light Repairs",
+    "est_labor_hours": 0.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Minimum 1-hour labor fee. Includes code readout and basic explanation.",
+    "skill_level": "Basic",
+    "parts_required": [],
+    "tools_required": [
+      "OBD2 Scanner"
+    ],
+    "tags": [
+      "check engine",
+      "code",
+      "diagnostics",
+      "emissions"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Explain code meaning and provide recommendations.",
+    "customer_facing_notes": "Identifies the cause of the check engine light and outlines next steps.",
+    "priority_level": "High",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "diagnostics"
+    ],
+    "part_sources": [],
+    "diagnostic_required": true,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "abs_light_scan",
+    "service_name": "ABS Light Scan",
+    "category": "Diagnostics & Light Repairs",
+    "est_labor_hours": 0.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Minimum 1-hour labor. Includes scan and diagnosis for ABS-related faults.",
+    "skill_level": "Medium",
+    "parts_required": [],
+    "tools_required": [
+      "ABS Scan Tool"
+    ],
+    "tags": [
+      "abs",
+      "brakes",
+      "diagnostics",
+      "light"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Check wheel speed sensors, fuses, and wiring visually after scan.",
+    "customer_facing_notes": "Identifies faults in the anti-lock brake system (ABS) for safe stopping.",
+    "priority_level": "High",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "diagnostics",
+      "brakes"
+    ],
+    "part_sources": [],
+    "diagnostic_required": true,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "tpms_light_scan",
+    "service_name": "TPMS Light Scan",
+    "category": "Diagnostics & Light Repairs",
+    "est_labor_hours": 0.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Minimum 1-hour charge. Includes scan of TPMS sensors and reset if applicable.",
+    "skill_level": "Medium",
+    "parts_required": [],
+    "tools_required": [
+      "TPMS Tool",
+      "OBD2 Scanner"
+    ],
+    "tags": [
+      "tpms",
+      "tire light",
+      "pressure",
+      "reset"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Some vehicles require relearn or drive cycle for reset.",
+    "customer_facing_notes": "Resolves TPMS warning light and diagnoses bad tire sensors.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "diagnostics"
+    ],
+    "part_sources": [],
+    "diagnostic_required": true,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "battery_test",
+    "service_name": "Battery & Charging System Test",
+    "category": "Diagnostics & Light Repairs",
+    "est_labor_hours": 0.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Minimum 1-hour charge. Includes battery, alternator, and starter test.",
+    "skill_level": "Basic",
+    "parts_required": [],
+    "tools_required": [
+      "Battery Tester",
+      "Multimeter"
+    ],
+    "tags": [
+      "battery",
+      "alternator",
+      "starter",
+      "test"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Load test battery and verify alternator output.",
+    "customer_facing_notes": "Pinpoints cause of no-start or battery drain issues.",
+    "priority_level": "High",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "electrical",
+      "diagnostics"
+    ],
+    "part_sources": [],
+    "diagnostic_required": true,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "parasitic_draw_test",
+    "service_name": "Parasitic Battery Draw Test",
+    "category": "Diagnostics & Light Repairs",
+    "est_labor_hours": 1.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Includes basic multimeter-based diagnosis.",
+    "skill_level": "Advanced",
+    "parts_required": [
+      "Shop Towels (Roll)"
+    ],
+    "tools_required": [
+      "Multimeter",
+      "Test Leads",
+      "Fuse Pullers"
+    ],
+    "tags": [
+      "battery drain",
+      "draw",
+      "overnight",
+      "diagnostics"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Must verify key-off power draw >50mA before proceeding.",
+    "customer_facing_notes": "Finds hidden battery drains that kill your battery overnight.",
+    "priority_level": "High",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "electrical",
+      "diagnostics"
+    ],
+    "part_sources": [],
+    "diagnostic_required": true,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "code_clear_reset",
+    "service_name": "Code Clear & ECU Reset",
+    "category": "Diagnostics & Light Repairs",
+    "est_labor_hours": 0.3,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Minimum 1-hour labor. Includes clear of engine or transmission DTCs.",
+    "skill_level": "Basic",
+    "parts_required": [],
+    "tools_required": [
+      "OBD2 Scanner"
+    ],
+    "tags": [
+      "code clear",
+      "reset",
+      "ecu",
+      "check engine"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Recommended only after repair confirmation.",
+    "customer_facing_notes": "Clears stored codes from ECU after repair or battery disconnect.",
+    "priority_level": "Low",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "diagnostics"
+    ],
+    "part_sources": [],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "fuse_box_repair",
+    "service_name": "Fuse Box Wiring Repair (Basic)",
+    "category": "Diagnostics & Light Repairs",
+    "est_labor_hours": 1.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed hourly. Simple wire splice or connector repair only.",
+    "skill_level": "Medium",
+    "parts_required": [
+      "Inline Fuse",
+      "Butt Connectors",
+      "Heat Shrink"
+    ],
+    "tools_required": [
+      "Wire Stripper",
+      "Crimper",
+      "Heat Gun"
+    ],
+    "tags": [
+      "fuse",
+      "short",
+      "electrical",
+      "repair"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Only minor localized repairs. No full harness replacements.",
+    "customer_facing_notes": "Restores power to affected system from minor electrical damage.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "Major wiring issues not handled mobile.",
+    "tool_classification": [
+      "electrical",
+      "wiring"
+    ],
+    "part_sources": [
+      "AutoZone",
+      "O'Reilly"
+    ],
+    "diagnostic_required": true,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ]
+  },
+  {
+    "service_id": "idle_relearn",
+    "service_name": "Idle Relearn Procedure",
+    "category": "Diagnostics & Light Repairs",
+    "est_labor_hours": 0.5,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Minimum 1-hour charge. Required after throttle body service or ECU reset.",
+    "skill_level": "Basic",
+    "parts_required": [],
+    "tools_required": [
+      "OBD2 Scanner",
+      "Battery Charger (if needed)"
+    ],
+    "tags": [
+      "idle",
+      "relearn",
+      "throttle",
+      "stall"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": true,
+    "status": "approved",
+    "notes": "Verify vehicle-specific procedure. May require scanner, drive cycle, or idle time.",
+    "customer_facing_notes": "Restores smooth idle after throttle cleaning, sensor install, or battery disconnect.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "engine",
+      "electrical"
+    ],
+    "part_sources": [],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas"
+    ]
+  },
+  {
+    "name": "Shock Replacement (Single)",
+    "category": "Suspension",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      80,
+      140
+    ],
+    "price_range_parts": [
+      40,
+      100
+    ],
+    "mobile": true,
+    "notes": "For replacing a single rear or front shock absorber."
+  },
+  {
+    "name": "Strut Replacement (Single)",
+    "category": "Suspension",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      120,
+      180
+    ],
+    "price_range_parts": [
+      70,
+      180
+    ],
+    "mobile": true,
+    "notes": "Single strut replacement, may require spring compression."
+  },
+  {
+    "name": "Spark Plug Replacement (V8)",
+    "category": "Ignition",
+    "labor_time_hours": 1.8,
+    "price_range_labor": [
+      160,
+      240
+    ],
+    "price_range_parts": [
+      40,
+      120
+    ],
+    "mobile": true,
+    "notes": "For V8 engines, includes 8 spark plugs."
+  },
+  {
+    "name": "A/C Recharge (R134a)",
+    "category": "HVAC",
+    "labor_time_hours": 0.6,
+    "price_range_labor": [
+      60,
+      100
+    ],
+    "price_range_parts": [
+      30,
+      70
+    ],
+    "mobile": true,
+    "notes": "Recharge system with R134a refrigerant; does not include full diagnosis or leak check."
+  },
+  {
+    "name": "Compression Test (All Cylinders)",
+    "category": "Diagnostics & Test Procedures",
+    "labor_time_hours": 1.0,
+    "price_range_labor": [
+      100,
+      160
+    ],
+    "price_range_parts": [],
+    "mobile": true,
+    "notes": "Includes removal of all spark plugs and crank testing. Results provided per cylinder. Useful for detecting internal engine wear.",
+    "parts_required": [
+      "Shop Towels (Roll)",
+      "Brake Cleaner (Per Can)"
+    ]
+  },
+  {
+    "name": "Cylinder Leak-Down Test (Single Cylinder)",
+    "category": "Diagnostics & Test Procedures",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      90,
+      140
+    ],
+    "price_range_parts": [],
+    "mobile": false,
+    "notes": "Requires top dead center setup. Identifies source of compression loss (valves, rings, gaskets). Air compressor required.",
+    "parts_required": [
+      "Shop Towels (Roll)"
+    ]
+  },
+  {
+    "name": "Fuel Pressure Test",
+    "category": "Diagnostics & Test Procedures",
+    "labor_time_hours": 0.6,
+    "price_range_labor": [
+      60,
+      100
+    ],
+    "price_range_parts": [],
+    "mobile": true,
+    "notes": "Measures pressure in fuel system using gauge. Useful for diagnosing fuel delivery issues. Vehicle-specific port may be required.",
+    "parts_required": [
+      "Shop Towels (Roll)"
+    ]
+  },
+  {
+    "name": "Vacuum Leak Test",
+    "category": "Diagnostics & Test Procedures",
+    "labor_time_hours": 0.7,
+    "price_range_labor": [
+      70,
+      110
+    ],
+    "price_range_parts": [],
+    "mobile": true,
+    "notes": "Involves smoke machine or propane tool to check intake system for vacuum leaks. Common with idle or drivability issues.",
+    "parts_required": [
+      "Shop Towels (Roll)",
+      "Brake Cleaner (Per Can)"
+    ]
+  },
+  {
+    "name": "Charging System Voltage Drop Test",
+    "category": "Diagnostics & Test Procedures",
+    "labor_time_hours": 0.6,
+    "price_range_labor": [
+      60,
+      90
+    ],
+    "price_range_parts": [],
+    "mobile": true,
+    "notes": "Verifies alternator output and voltage drop across wiring under load. Requires multimeter and battery tester.",
+    "parts_required": [
+      "Shop Towels (Roll)"
+    ]
+  },
+  {
+    "name": "Exhaust Backpressure Test",
+    "category": "Diagnostics & Test Procedures",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      80,
+      120
+    ],
+    "price_range_parts": [],
+    "mobile": false,
+    "notes": "Determines if catalytic converter or muffler is clogged. Requires threaded port access and special gauge.",
+    "parts_required": [
+      "Shop Towels (Roll)"
+    ]
+  },
+  {
+    "name": "Cylinder Balance Test (OBD-II)",
+    "category": "Diagnostics & Test Procedures",
+    "labor_time_hours": 0.6,
+    "price_range_labor": [
+      60,
+      100
+    ],
+    "price_range_parts": [],
+    "mobile": true,
+    "notes": "Identifies weak or dead cylinders by comparing RPM or fuel trim changes during ignition disable test.",
+    "parts_required": [
+      "Shop Towels (Roll)"
+    ]
+  },
+  {
+    "name": "Intake Manifold Smoke Test",
+    "category": "Diagnostics & Test Procedures",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      80,
+      130
+    ],
+    "price_range_parts": [],
+    "mobile": false,
+    "notes": "Smoke machine test for intake system leaks. Cannot be performed without specialized equipment and sealed system.",
+    "parts_required": [
+      "Shop Towels (Roll)"
+    ]
+  },
+  {
+    "name": "Shock Absorber Replacement (Single)",
+    "category": "Suspension",
+    "labor_time_hours": 0.8,
+    "price_range_labor": [
+      80,
+      120
+    ],
+    "price_range_parts": [
+      50,
+      120
+    ],
+    "mobile": true,
+    "notes": "Replacement of one shock absorber. Includes removal and installation of a single rear or front shock."
+  },
+  {
+    "name": "Strut Assembly Replacement (Single)",
+    "category": "Suspension",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      120,
+      160
+    ],
+    "price_range_parts": [
+      75,
+      300
+    ],
+    "mobile": true,
+    "notes": "Includes removal and replacement of one strut. Typically performed when only one side is faulty."
+  },
+  {
+    "name": "Control Arm Replacement (Single)",
+    "category": "Suspension",
+    "labor_time_hours": 1.2,
+    "price_range_labor": [
+      120,
+      180
+    ],
+    "price_range_parts": [
+      100,
+      300
+    ],
+    "mobile": true,
+    "notes": "Replacement of a single control arm, includes bushing and ball joint if integrated."
+  },
+  {
+    "name": "Brake Pad Replacement (Single Wheel)",
+    "category": "Brakes",
+    "labor_time_hours": 0.6,
+    "price_range_labor": [
+      70,
+      100
+    ],
+    "price_range_parts": [
+      25,
+      60
+    ],
+    "mobile": true,
+    "notes": "Replacement of brake pads on a single wheel. Typically only done in special situations."
+  },
+  {
+    "name": "Brake Rotor Replacement (Single Wheel)",
+    "category": "Brakes",
+    "labor_time_hours": 0.6,
+    "price_range_labor": [
+      70,
+      100
+    ],
+    "price_range_parts": [
+      35,
+      90
+    ],
+    "mobile": true,
+    "notes": "Replacement of a single brake rotor. Usually performed if one side is damaged or warped."
+  },
+  {
+    "name": "Custom Service Request",
+    "category": "Other",
+    "labor_time_hours": null,
+    "price_range_labor": [],
+    "price_range_parts": [],
+    "mobile": true,
+    "notes": "For any service not listed. Submit request and a technician will review and provide a custom quote."
+  }
+]

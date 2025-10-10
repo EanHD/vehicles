@@ -1,0 +1,352 @@
+### Manufacturer Coverage Checklist
+
+- [x] Chevrolet
+  - **1910s**: Series C Classic Six (1911–1914), Light Six (1914–1915), Series H (1914–1916), Series 490 (1915–1922), Series F (1917), Series D (1917–1918), Series FA (1917–1918), Series FB (1919–1922)
+  - **1920s**: Superior (1923–1926), Series M Copper-Cooled (1923), Series AA Capitol (1927), Series AB National (1928), Series AC International (1929)
+  - **1930s**: Series AD Universal (1930), Series AE Independence (1931), Series BA Confederate (1932), CA Eagle/Master (1933), Standard Six (1933–1936), Master (1933–1942), Suburban (1935–present)
+  - **1940s**: AK Series (1941–1947), Deluxe (1941–1952), Fleetmaster (1946–1948), Stylemaster (1946–1948), Advance Design (1947–1955)
+  - **1950s**: Bel Air (1950–1981), 150 (1953–1957), 210 (1953–1957), Townsman (1953–1972), Nomad (1955–1972), Task Force (1955–1959), Biscayne (1958–1975), Brookwood (1958–1972), Impala (1958–2020), El Camino (1959–1987), Kingswood (1959–1972)
+  - **1960s**: C/K (1960–2002), Corvair (1960–1969), Corvair 95 (1961–1965), Chevy II / Nova (1962–1988), Chevelle (1964–1977), Chevy Van (1964–1995), Caprice (1965–1996), Camaro (1966–2024), K5 Blazer (1969–1994), Kingswood Estate (1969–1972), Monte Carlo (1969–2007)
+  - **1970s**: Vega (1971–1977), LUV (1972–1982), Chevelle Laguna (1973–1976), Chevette (1975–1987), Monza (1975–1980), Malibu (1978–2024), Citation (1979–1985)
+  - _Status as of October 10, 2025: Dataset now spans Suburban first–twelfth generations (AK Series through T1XX), Bel Air third–eighth generations, full Impala coverage through the tenth generation, Chevy II/Nova third–fifth generations, El Camino second–fifth generations, Kingswood Estate, Monte Carlo generations through 2007, Malibu fifth–eighth generations, Camaro first–fifth generations, S-10 second generation, and Tahoe GMT800/GMT900/K2XX trucks alongside the previously added Astro, Kodiak, Corsica, Beretta, Lumina APV, Tracker, Lumina (W-body), Express GMT600, Venture, Silverado GMT800/EV/Medium Duty, Avalanche, TrailBlazer, SSR, Colorado GMT355/31XX, Equinox (Theta), Uplander, HHR, Cobalt, Cruze, Volt, Bolt EV, Traverse (Lambda/C1XX), Trax (Gamma II/VSS-F), and BrightDrop Zevo vans. Chevrolet roster alignment complete; shift focus to GMC specialty and heavy-duty coverage next._
+  - **1980s**: Kodiak (1980–2009), Celebrity (1981–1990), Cavalier (1981–2005), S-10 (1982–2004), Astro (1985–2005), Corsica (1987–1996), Beretta (1987–1996), GMT400 (1987–2000), Lumina APV (1989–1996), Tracker (1989–2004)
+  - **1990s**: Lumina (1990–2001), Tahoe (1995–present), Express (1995–present), Venture (1997–2005), Silverado (1999–present)
+  - **2000s**: Avalanche (2001–2013), TrailBlazer (2001–2009), SSR (2003–2006), Colorado (2004–present), Equinox (2004–present), Uplander (2005–2008), HHR (2005–2011), Cobalt (2005–2010), Cruze (2008–2023)
+  - **2010s**: Volt (2010–2019), Traverse (2009–present), Camaro (2016–2024), Malibu (2016 refresh), Colorado (2015 refresh), Equinox (2018 refresh), Bolt EV (2016–2023), Bolt EUV (2021–2023)
+  - **2020s & Current**: Blazer (2018–present), Blazer EV (2023–present), Trailblazer (crossover) (2021–present), Equinox EV (2023–present), Silverado EV (2023–present), Silverado HD (2020 refresh), Silverado Medium Duty (2018–present), Colorado (2023–present), Traverse (2024–present), Trax (2024–present), Tahoe (2021–present), Suburban (2021–present), Corvette (C8, 2020–present), Express (fleet continuation), BrightDrop Zevo (2022–present)
+- [ ] GMC
+  - **1910s**: Model 16 ¾-ton truck (1916–1919), K-16 1-ton troop carrier (1917–1919), World War I ambulance chassis (1917–1918)
+  - **1920s**: K-20 bus chassis (1922–1924), T 19/T 30 1½-ton light trucks (1927–1931), export reconstruction trucks for Japan (1923–1925)
+  - **1930s**: T and F series light-duty trucks (1937–1938), AC/AF cabover range (1939–1940), Yellow Coach parlor buses (late 1930s)
+  - **1940s**: C/E series pickups (1941–1947), New Design pickups (1947–1955), CCKW 2½-ton 6×6 cargo trucks (1941–1945), DUKW amphibious trucks (1942–1945)
+  - **1950s**: Blue Chip pickups (1955–1959), Suburban Carryall/Yukon XL predecessor (1937–1959), transit "Old Look" buses (1940–1969)
+  - **1960s**: C/K Series pickups (1960–1991), Handi-Van/Handi-Bus (1964–1970), Jimmy full-size SUV (1969–1991)
+  - **1970s**: Sprint coupe utility (1971–1977), Caballero (1978–1987), Vandura/Rally vans (1970–1996), General/Brigadier heavy-duty conventionals (1977–1988)
+  - **1980s**: S-15/Sonoma compact pickups (1982–2004), Safari mid-size vans (1985–2005), TopKick/C-Series medium-duty range (1980–2009), Brigadier conventional (1978–1988)
+  - **1990s**: Yukon/Yukon XL (1992–present), Savana full-size vans (1996–present), Syclone/Sonoma GT/Typhoon performance trucks and SUVs (1991–1993), Envoy midsize SUV (1998–2009)
+  - **2000s**: Canyon midsize pickup (2004–present), Acadia crossover (2007–present), Sierra GMT900 generation (2007–2013), Terrain compact crossover (2010–present)
+  - **2010s**: Sierra K2XX refresh (2014–2018), Sierra HD (2015–2019), Terrain facelift (2018–2025), Savana fleet continuation, Yukon K2XX (2015–2020)
+  - **2020s & Current**: Sierra T1XX (2019–present), Sierra HD refresh (2020–present), Yukon GMT T1XX (2021–present), Acadia second/third gen (2017–present & 2024 redesign), Canyon (2023–present), Terrain (2025 refresh), Hummer EV Pickup & SUV (2022–present), EV Denali trims (2022–present)
+- [ ] Buick
+  - **1900s**: Model B (1903–1904), Model F (1906–1910), Model 10 "Buick Four" (1908–1910)
+  - **1910s**: Buick Four Series (1909–1918), Buick Six (1914–1925), D-Series touring cars (1916–1917)
+  - **1920s**: Standard Six (1925–1929), Master Six (1925–1928), Series 50/60 sedans (1926–1929)
+  - **1930s**: Series 40 Special (1930–1935), Century (1936–1958), Roadmaster (1936–1958), Limited (1936–1942), Series 50 Super (1939–1941)
+  - **1940s**: Super (1940–1958), postwar Roadmaster (1946–1958), Sedanette fastbacks (1941–1949), Estate wagons (1940–1953)
+  - **1950s**: Skylark (1953–1954), Special (1950–1958), Century (1954–1958), Roadmaster (1952–1958), Invicta (1959–1963), LeSabre (1959–2005)
+  - **1960s**: Electra (1959–1990), Wildcat (1962–1970), Riviera (1963–1999), Skylark (1961–1972), Sport Wagon (1964–1971)
+  - **1970s**: Century/Regal A-body (1973–1977), Skyhawk (1975–1980), Apollo (1973–1975), downsized Electra/LeSabre (1977–1985), Estate Wagon (1970–1990)
+  - **1980s**: Regal turbo/Grand National (1978–1987), Electra/LeSabre front-drive transition (1985–1990), Skylark/Somerset (1980–1987), Reatta (1988–1991)
+  - **1990s**: Park Avenue (1991–2005), Roadmaster (1991–1996), Riviera (1995–1999), Skylark (1986–1998), Century/Regal W-body (1988–2004), LeSabre H-body (1992–2005)
+  - **2000s**: Rendezvous crossover (2002–2007), Rainier SUV (2004–2007), Terraza minivan (2005–2007), LaCrosse (2005–2019), Lucerne (2006–2011), Enclave (2008–present)
+  - **2010s**: Verano (2012–2017), Regal (2011–2020), LaCrosse (2010–2019), Encore (2013–2022), Cascada (2016–2019), Enclave second gen (2018–present), Envision (2016–present)
+  - **2020s & Current**: Encore GX (2020–present), Envista (2024–present), Envision refresh (2021–present), Enclave 2024 refresh (2024–present), Electra EV lineup (China 2023–present) — evaluate NA relevance
+- [ ] Cadillac
+  - **1900s**: Runabout and Tonneau single-cylinder models (1902–1908), Model B/C (1904–1905), Model K and M four-cylinders (1906–1908)
+  - **1910s**: Type 30 (1909–1911), Type 51 (1914–1916), Type 53 (1916–1923), V-8 powered Type 61 (1916–1917)
+  - **1920s**: Type V-63 (1923–1925), 314/Series 314 (1926–1927), Series 341 (1928–1929), LaSalle companion brand (1927–1940)
+  - **1930s**: Series 355 V8 (1931–1935), Series 370 V12 (1931–1937), Series 452 V16 (1930–1937), Series 60/65/70 (1936–1940), LaSalle Series 50 (1934–1940)
+  - **1940s**: Series 62 (1940–1964), Series 61 (1941–1951), Fleetwood Series 60 Special (1941–1947), Series 75 limousines (1940–1949)
+  - **1950s**: Series 62 Coupe/Sedan de Ville (1950–1964), Eldorado (1953–2002), Series 60 Special Fleetwood (1953–1964), Series 75 (1950–1976), Commercial chassis (hearse/ambulance)
+  - **1960s**: Calais (1965–1976), DeVille (1959–2005), Fleetwood Sixty Special/Brougham (1965–1970), Eldorado personal luxury coupe (1967–2002), Series 75 (1960–1976)
+  - **1970s**: Coupe/Sedan de Ville (1971–1976), Eldorado (1971–1978), Fleetwood Brougham (1977–1986), Seville (1976–1979), Downsized 1977 C-body lineup
+  - **1980s**: Seville bustleback (1980–1985), DeVille/Fleetwood FWD (1985–1993), Cimarron (1982–1988), Eldorado downsized (1979–1985), Allanté (1987–1993), Brougham (1987–1992)
+  - **1990s**: Seville STS (1992–2004), Eldorado Touring Coupe (1992–2002), DeVille Concours (1994–1999), Catera (1997–2001), Escalade (1999–present)
+  - **2000s**: CTS (2003–2019), SRX (2004–2016), STS (2005–2011), DTS (2006–2011), XLR (2004–2009), Escalade EXT/ESV (2002–2013), BLS export (2006–2009)
+  - **2010s**: ATS (2013–2019), CTS third gen (2014–2019), XTS (2013–2019), CT6 (2016–2020), XT5 (2017–present), XT4 (2019–present), Escalade (2015–2020)
+  - **2020s & Current**: CT4/CT4-V Blackwing (2020–present), CT5/CT5-V Blackwing (2020–present), Escalade (2021–present), XT4/XT5/XT6 refreshes (2024–present), Lyriq (2023–present), Celestiq (2024–present limited production), Optiq (2024–present Canada/China)
+- [ ] Ford
+  - **1900s**: Model A (1903–1904), Model C (1904–1905), Models N/R/S (1906–1908), Model T (1908–1927)
+  - **1910s**: Model T production (1908–1927), Model TT 1-ton truck (1917–1927), Fordson tractor (1917–1928)
+  - **1920s**: Model T final years (1920–1927), Model A (1927–1931), Model AA truck (1927–1932), Lincoln Model L (1920–1930)
+  - **1930s**: Model 18 V8 (1932), Model 40/46 (1933–1934), Model 48/De Luxe (1935–1936), Model 78/85 (1937–1938), 1939–1940 Standard/Deluxe, Lincoln Zephyr (1936–1942)
+  - **1940s**: 1941–1948 Ford Super DeLuxe/Deluxe, wartime GPW Jeep production (1941–1945), bonus-built F-Series (1948–1952), 1949 "Shoebox" Ford, Lincoln Cosmopolitan (1949–1954)
+  - **1950s**: Crestline/Victoria (1950–1954), second- and third-gen F-Series (1953–1960), Thunderbird (1955–1957), Fairlane (1955–1970), Ranchero coupe utility (1957–1979), Galaxie (1959–1974)
+  - **1960s**: Falcon (1960–1970), Fairlane (1962–1970), Mustang (1964–present), Bronco (1966–1977), Econoline/Club Wagon (1961–present), GT40 (1964–1969), LTD/Galaxie 500 (1965–1978)
+  - **1970s**: Maverick (1970–1977), Pinto (1971–1980), Gran Torino (1972–1976), Mustang II (1974–1978), F-Series sixth generation (1973–1979), Bronco full-size (1978–1979), Fiesta Mk1 (1978–1983)
+  - **1980s**: Escort (1981–2003), Ranger (1983–2012), Thunderbird aero (1983–1988), Taurus (1986–2019), Tempo/Topaz (1984–1994), Aerostar (1986–1997), Bronco II (1984–1990), F-Series seventh/eighth gen (1980–1991)
+  - **1990s**: Explorer (1991–present), Windstar (1995–2003), Contour/Mystique (1995–2000), Expedition (1997–present), F-150 tenth gen (1997–2003), Super Duty (1999–present), Focus (2000–2018), Crown Victoria (1992–2011)
+  - **2000s**: Escape (2001–2012), Explorer U152 (2002–2005), Freestar (2004–2007), Five Hundred/Taurus revival (2005–2007), Fusion (2006–2020), Edge (2007–present), Flex (2009–2019), F-150 eleventh/twelfth gen (2004–2014), Transit Connect (2010–2023)
+  - **2010s**: Fiesta US run (2011–2019), Focus Mk3 (2012–2018), Explorer U502 (2011–2019), Escape (2013–present), F-150 thirteenth gen aluminum (2015–2020), Mustang S550 (2015–2023), Super Duty aluminum (2017–2022), Transit (2015–present), Ranger return (2019–present), GT MkII (2017–2022)
+  - **2020s & Current**: Bronco (U725, 2021–present), Bronco Sport (2021–present), Maverick (2022–present), Mustang Mach-E (2021–present), F-150 fourteenth gen (2021–present), F-150 Lightning (2022–present), Super Duty 2023 refresh, Ranger P703N (2024–present), Transit/E-Transit updates (2022–present), Explorer EV (Europe 2023–present)
+- [ ] Lincoln
+  - **1920s**: L-Series luxury cars (1920–1930), Model L town cars (1922–1930)
+  - **1930s**: Model K V12 (1931–1939), Lincoln-Zephyr (1936–1942), Zephyr-based Continental (1939–1941)
+  - **1940s**: Continental (1940–1948), Custom (1941–1942), 1949 Cosmopolitan/Capri predecessors (1949–1951)
+  - **1950s**: Cosmopolitan (1950–1954), Capri (1952–1959), Premiere (1956–1960), Continental Mark II (1956–1957), Continental Mark III/IV (1958–1960)
+  - **1960s**: Continental unibody sedans/convertibles (1961–1969), Continental Mark III (1969–1971), Town Car trim (1969–1970), Continental limousine (1964–1969)
+  - **1970s**: Continental (1970–1981), Continental Mark IV (1972–1976), Continental Mark V (1977–1979), Versailles (1977–1980), Town Car (1981 model introduction)
+  - **1980s**: Town Car (1981–2011), Continental (1982–1987, 1988–2002), Mark VII (1984–1992), Mark VIII (1993–1998), Continental-based limousine chassis
+  - **1990s**: Continental (1995–2002), Town Car (1990–2011), Mark VIII (1993–1998), Navigator (1998–present), Blackwood concept/pickup (2002), LS (2000–2006)
+  - **2000s**: LS sport sedan (2000–2006), Mark LT (2006–2008), Zephyr/MKZ (2006–2012), MKX crossover (2007–2015), MKS (2009–2016), MKT (2010–2019), Navigator (2003–2006, 2007–2017)
+  - **2010s**: MKZ (2013–2020), MKX/Nautilus (2016–2023), MKC (2015–2019), Continental revival (2017–2020), Navigator (2018–present), Aviator (2020–present)
+  - **2020s & Current**: Corsair (2020–present), Nautilus (2024–present China-built import), Aviator (2020–present), Navigator (2022 refresh), Continental coach-door (2020 limited), Zephyr (China 2022–present)
+- [ ] Ram
+  - **1910s**: Dodge Brothers 1-ton commercial (1917–1922), Screenside delivery trucks (1918–1923)
+  - **1920s**: Series 30/50 Light Commercials (1923–1928), Graham-built half-ton pickups (1928–1930)
+  - **1930s**: Dodge KC/LC pickups (1933–1938), Airflow trucks (1939–1940), T- and V-series heavy trucks (1939)
+  - **1940s**: WC military ½-ton/¾-ton trucks (1940–1945), Power Wagon (1946–1968), Job-Rated B-Series pickups (1948–1953)
+  - **1950s**: C-Series pickups (1954–1960), Town Panel/Town Wagon (1954–1966), Sweptside pickups (1957–1959), D-Series (1957–1980)
+  - **1960s**: D/W-Series Sweptline (1961–1971), A100/A108 vans and pickups (1964–1970), LCF/Big Horn Class 8 (1960s), Power Wagon WM300 (1960–1969)
+  - **1970s**: D/W-Series facelift (1972–1980), Warlock/Lil’ Red Express/Utiline specials (1976–1979), Ramcharger/Trail Duster SUVs (1974–1980), medium-duty 500/600 series (1975–1977)
+  - **1980s**: First-gen Dodge Ram pickup (1981–1993), Ramcharger second-gen (1981–1993), Ram Van B-series (1979–2003), Ram 50 compact (1987–1994)
+  - **1990s**: Second-gen Dodge Ram (1994–2002), Ram Van (1994–2003), Ramcharger Mexico (1999–2001), Ram 3500/4500/5500 chassis cab (1998–present)
+  - **2000s**: Third-gen Dodge Ram (2002–2008), Ram SRT-10 (2004–2006), Mega Cab (2006–2009), Sprinter rebadged vans (2003–2009), Ram 4500/5500 chassis (2008–present)
+  - **2010s**: Ram 1500 DS (2009–2023), Ram 1500 DT (2019–present), Ram 2500/3500 HD (2010–present), ProMaster (2014–present), ProMaster City (2015–2022), Ram Chassis Cab (2011–present)
+  - **2020s & Current**: Ram 1500 refresh (2021–present), Ram 1500 Classic continuation (DS), Ram HD refresh (2020–present), ProMaster 2023 update, ProMaster City discontinuation (2022), Ram 1500 REV EV (2025 launch), Ramcharger EREV (2025), Rampage compact (2023 Brazil) — NA applicability TBD
+- [ ] Dodge
+  - **1910s**: Dodge Brothers Model 30/35 (1914–1921), Series 116 touring/sedans (1919–1921), early commercial trucks (1917–1920)
+  - **1920s**: Series 116/126/128 updates (1922–1927), Senior Six (1926–1928), Victory Six (1928), Standard Six (1928–1932)
+  - **1930s**: Dodge Eight (1930–1931), Series D1/D2 (1931–1934), Airflow-influenced 1935 models, Luxury Liner/Streamliner (1939–1940), D14/D17 (1939)
+  - **1940s**: D24 Deluxe/Custom (1946–1948), Wayfarer roadster (1949–1952), Coronet (1949–1959), Meadowbrook (1949–1952), WC military trucks (1941–1945)
+  - **1950s**: Royal/Custom Royal (1954–1959), Coronet (1950–1959), Lancer hardtops (1955–1959), Sierra wagons (1954–1959), D100/D300 trucks (1957–1971)
+  - **1960s**: Dart (1960–1976), Polara (1960–1973), Lancer compacts (1961–1962), Coronet (1965–1976), Charger (1966–1978), Monaco (1965–1978), Super Bee (1968–1971), A100 vans/pickups (1964–1970)
+  - **1970s**: Challenger (1970–1974), Demon/Dart Sport (1971–1976), Charger SE/Magnum (1975–1979), Aspen (1976–1980), Omni/Horizon (1978–1990), Diplomat (1977–1989), Lil’ Red Express/Warlock (1978–1979)
+  - **1980s**: Aries K-car (1981–1989), Omni/Horizon (1978–1990), Caravan/Voyager minivans (1984–2020), Daytona (1984–1993), Lancer (1985–1989), Shadow/Sundance (1987–1994), Ram 50 (1987–1994)
+  - **1990s**: Viper (1992–2017), Intrepid (1993–2004), Neon (1995–2005), Stratus (1995–2006), Avenger (1995–2000), Dakota (1997–2011), Durango (1998–present), Caravan/Grand Caravan (1991–2020)
+  - **2000s**: Magnum (2005–2008), Charger LX (2006–2023), Challenger LC/LX (2008–2023), Caliber (2007–2012), Journey (2009–2020), Nitro (2007–2012), Avenger JS (2008–2014), Ram trucks pre-2010 branding
+  - **2010s**: Charger LD (2011–2023), Challenger LC refreshes (2011–2023), Durango WK2 (2011–present), Dart (PF, 2013–2016), Viper Gen V (2013–2017), Grand Caravan final run (2011–2020), SRT Hellcat models (2015–2023)
+  - **2020s & Current**: Hornet (2023–present), Charger Daytona SRT (2024 launch), Charger/Charger Sixpack (2024–present), Durango (2021 refresh), electric muscle program (2025+) — track PHEV/BEV developments
+- [ ] Chrysler
+  - **1920s**: Model B/F/Six (1924–1926), Series 70/80 (1926–1930), Imperial Series E-80/L (1926–1930), 62/75 roadsters (1929)
+  - **1930s**: Airflow/Airstream (1934–1937), Royal (1937–1942), Imperial C-series (1931–1939), Saratoga (1939–1942), Voyager/Traveller pre-war
+  - **1940s**: Windsor (1940–1950), Saratoga (1946–1950), New Yorker (1940–1996), Town & Country woodie wagons (1941–1950), Crown Imperial limousines (1940–1948)
+  - **1950s**: 300 "Letter Series" (C300, 300B-300E) (1955–1965), Windsor (1951–1961), Saratoga (1951–1956), New Yorker (1951–1961), Imperial (1955–1975 separate brand), Town & Country wagons (1950–1965)
+  - **1960s**: Newport (1961–1981), 300 non-letter (1962–1971), Imperial (1961–1969), Town & Country wagons (1960–1977), Valiant (1960–1976), 200/300 Hurst specials (1970–1971)
+  - **1970s**: Imperial (1971–1975), Town & Country (1970–1977), Cordoba (1975–1983), LeBaron (1977–1995), New Yorker Brougham (1974–1978), 300/300 Special Edition (1979)
+  - **1980s**: K-car LeBaron (1982–1995), Fifth Avenue (1983–1989), New Yorker (1983–1993), Laser (1984–1986), Conquest (1987–1989), Town & Country minivan (1989–2016), TC by Maserati (1989–1991)
+  - **1990s**: Concorde (1993–2004), LHS (1994–2001), New Yorker (1990–1996), Cirrus (1995–2000), Sebring coupe/convertible (1995–2010), 300M (1999–2004), Prowler (1997–2002), Town & Country (1991–2016)
+  - **2000s**: PT Cruiser (2001–2010), Sebring (JR/JS, 2001–2010), Pacifica crossover (2004–2008), 300 (LX, 2005–2023), Aspen SUV (2007–2009), Crossfire (2004–2008), Town & Country (2008–2016)
+  - **2010s**: 200 (2011–2017), 300 (2011–2023), Pacifica minivan (2017–present), Town & Country final (2011–2016), 300S/300C performance trims (2012–2023)
+  - **2020s & Current**: Pacifica/Pacifica Hybrid (2021–present refresh), Voyager fleet (2020–present), 300C final edition (2023), Airflow/ Halcyon EV concepts (2022–2024) — production timelines TBD
+- [ ] Jeep
+  - **1940s**: Willys MB/Ford GPW (1941–1945), CJ-2A (1945–1949), CJ-3A (1949–1953), Station Wagon (1946–1965), Pickup (1947–1965), Jeepster (1948–1950)
+  - **1950s**: CJ-3B (1953–1968), CJ-5 (1954–1983), CJ-6 (1955–1981), Forward Control FC-150/170 (1956–1965), M38A1 (1952–1971), Dispatcher DJ-3A (1956–1965)
+  - **1960s**: Wagoneer SJ (1963–1991), Gladiator J-Series (1963–1971), Jeepster Commando C101 (1966–1971), M715 military truck (1967–1969), CJ-5/CJ-6 continuations
+  - **1970s**: Cherokee SJ (1974–1983), J-10/J-20 pickups (1974–1987), CJ-7 (1976–1986), DJ-5 Dispatcher (1965–1984), CJ-8 Scrambler (1981–1986), Renegade/Laredo packages
+  - **1980s**: Cherokee XJ (1984–2001), Wagoneer/Grand Wagoneer (SJ) (1984–1991), Comanche MJ (1986–1992), Wrangler YJ (1987–1995), Grand Wagoneer (1984–1991)
+  - **1990s**: Grand Cherokee ZJ (1993–1998) and early WJ (1999–2004), Wrangler TJ (1997–2006), Cherokee XJ final run (1991–2001), Grand Wagoneer Limited (1993), Wrangler YJ (1990–1995 overlap)
+  - **2000s**: Liberty KJ (2002–2007)/KK (2008–2012), Wrangler TJ (1997–2006) & JK (2007–2018), Grand Cherokee WK (2005–2010), Commander XK (2006–2010), Compass/Patriot (MK, 2007–2017), Cherokee (Liberty export KJ)
+  - **2010s**: Grand Cherokee WK2 (2011–2021), Cherokee KL (2014–2023), Renegade BU (2015–present), Compass MP (2017–present), Wrangler JL (2018–present), Gladiator JT (2020–present), Grand Commander (China 2018–2022)
+  - **2020s & Current**: Grand Cherokee WL (2021–present), Grand Cherokee L (2021–present), Wagoneer/Grand Wagoneer WS (2022–present), Wagoneer L/Grand Wagoneer L (2023–present), Compass 2022 refresh, Recon EV/Magneto concepts (2024+), Avenger (EU 2023–present)
+- [ ] Tesla
+  - **2000s**: Roadster (2008–2012) — Lotus Elise–based BEV sports car
+  - **2010s**: Model S (2012–present), Model X (2015–present), Model 3 (2017–present), Semi Class 8 (limited 2019–present)
+  - **2020s & Current**: Model Y (2020–present), Model S Plaid/refresh (2021–present), Model X refresh (2021–present), Model 3 Highland refresh (2024 NA), Cybertruck (2023–present), Semi production ramp (2022–present), second-gen Roadster (planned 2025)
+- [ ] Toyota
+  - **1930s**: G1 truck (1935–1942), Model AA sedan (1936–1943), Model AB phaeton (1936–1938), KC truck (1938–1943)
+  - **1940s**: SB truck (1947–1954), SA sedan (1947–1952), Toyopet Model SD (1949–1952), BM/BA trucks (1948–1953)
+  - **1950s**: Land Cruiser BJ (1951–1954), Land Cruiser 20 Series (1955–1960), Crown RS Series (1955–1962), Toyopet Master (1955–1956), Toyopet Corona ST10 (1957–1959), Lite Stout (1959–1968)
+  - **1960s**: Land Cruiser 40 Series (1960–1984), Corona RT40 (1964–1970), Corolla E10/E20 (1966–1974), 2000GT (1967–1970), HiAce (1967–present), Hilux N10/N20 (1968–1978), Century (1967–present Japan)
+  - **1970s**: Celica (A20/A30, 1970–1977), Carina (1970–1977), Corolla E30/E50 (1974–1981), Mark II/Cressida (X30/X40, 1976–1980), Hilux N30/N40 (1978–1983), Land Cruiser 55/60 (1967–1990), Tercel (L10/L20, 1978–1982)
+  - **1980s**: Camry V10 (1983–1986), Supra A60/A70 (1982–1992), MR2 AW11 (1985–1989), 4Runner N60 (1984–1989), Pickup (Hilux) N50/N60 (1979–1988), Corolla FX16/GTS AE82/AE86 (1983–1987), Cressida MX73 (1981–1988), Van (YH50, 1984–1989)
+  - **1990s**: Camry XV10/XV20 (1992–2001), Corolla E100/E110 (1991–2002), Avalon (1995–present), Supra A80 (1993–2002), Tacoma (N140, 1995–2004), T100 (1993–1998), Tundra (2000–2006), RAV4 XA10 (1996–2000), Sienna XL10 (1998–2003), 4Runner N180 (1996–2002), Land Cruiser 80 (1991–1997), Prius NHW10/NHW11 (1997–2003)
+  - **2000s**: Camry XV30/XV40 (2002–2011), Corolla E120/E140 (2003–2013), Yaris/Echo (2000–2012), Matrix (2003–2014), Highlander XU20/XU40 (2001–2013), Sequoia XK30/XK60 (2001–2008), 4Runner N210 (2003–2009), Tacoma N220 (2005–2015), Tundra XK30/XK50 (2007–2021), FJ Cruiser (2007–2014), Venza (2009–2017), Land Cruiser 100/200 (1998–2021), Prius (XW20/XW30, 2004–2015)
+  - **2010s**: Camry XV50 (2012–2017) & XV70 (2018–2024), Corolla E160/E210 (2014–present), Avalon XX50 (2013–2022), Prius (XW30/XW50, 2010–2022), Prius v/c (2012–2017), Prius Prime (2017–present), 4Runner N280 (2010–present), Highlander XU50 (2014–2019), RAV4 XA40 (2013–2018) & XA50 (2019–present), Tacoma N300 (2016–2023), Tundra XK50 (2014–2021 refresh), Sienna XL30 (2011–2020), Mirai (2016–present), C-HR (2018–2022), GR86/86 (2017–2020)
+  - **2020s & Current**: Camry XV80 hybrid-only (2025–present), Corolla hybrid refresh (2023–present), Corolla Cross (2022–present), Crown crossover (2023–present), Prius (XW60, 2023–present), Prius Prime (2023–present), RAV4 XA50 (2019–present), RAV4 Prime (2021–present), Highlander XU70 (2020–present), Grand Highlander (2024–present), Sienna XL40 hybrid-only (2021–present), Sequoia XK80 (2023–present), Tacoma N400 (2024–present), Tundra XK70 (2022–present), Land Cruiser J250 (2024–present), 4Runner N400 (2025 launch), bZ4X (2023–present), Venza (2021–present), GR Supra (A90, 2020–present), GR86 (ZN8, 2022–present), Lexus-platform EV collaborations
+- [ ] Lexus
+  - **1980s**: LS 400 development (1989 debut), ES 250 (1989–1991) initial lineup, LS/ES launch strategy (1989–1990)
+  - **1990s**: LS 400 (1990–2000), ES 300 (1992–2003), GS 300/400 (1993–2004), SC 300/400 (1991–2000), LX 450/470 (1996–2007), RX 300 (1999–2003), IS 200/300 (1998–2005)
+  - **2000s**: LS 430 (2001–2006) & LS 460 (2007–2017), ES 330/350 (2004–2012), GS 430/460 (2005–2011), IS 250/350 (2006–2013), RX 330/350 (2004–2015), GX 470 (2003–2009), LX 570 (2008–2021), IS F (2008–2014), HS 250h (2010–2012), LFA (2011–2012)
+  - **2010s**: LS 460/600h L (2010–2017), ES 300h/350 (2013–2020), GS 350/450h/ F Sport (2013–2020), IS 200t/300/350 (2014–2020), RC/RC F (2015–present), NX 200t/300h (2015–2021), RX 350/450h (2016–2022), GX 460 (2010–2023), LX 570 (2008–2021), LC 500/500h (2018–present), UX 200/250h (2019–present)
+  - **2020s & Current**: LS 500/500h (2018–present refreshed 2021), ES 250 AWD/300h/350 (2021 refresh), IS 300/350 F Sport (2021–present), NX 250/350/450h+ second gen (2022–present), RX fifth gen (2023–present), RZ 450e (2023–present), GX 550 Overtrail (2024–present), LX 600 (2022–present), TX three-row (2024–present), LM ultralux van (2024 US introduction)
+- [ ] Honda
+  - **1960s**: S500/S600/S800 sports cars (1963–1970), T360 kei truck (1963–1967), N360/N600 microcars (1967–1973)
+  - **1970s**: Civic first gen (1972–1979), Accord (1976–1981), Prelude (1978–1982), CVCC emissions program, Accord Hatchback (1976–1981)
+  - **1980s**: Accord second/third gen (1982–1989), Civic second/third gen (1980–1987), CRX (1983–1991), Prelude (1983–1991), Wagovan Shuttle (1984–1991)
+  - **1990s**: Accord fourth/fifth gen (1990–1997), Civic EG/EK (1992–2000), Prelude BB4 (1992–1996), Odyssey RA1/RA2 (1995–1998), CR-V RD1 (1997–2001), Passport (1994–2002), Insight hybrid (1999–2006), S2000 AP1 (2000–2003)
+  - **2000s**: Civic seventh/eighth gen (2001–2011), Accord sixth/seventh/eighth gen (1998–2012), Odyssey RB1/RL1 (1999–2010), Pilot first/second gen (2003–2015), Element (2003–2011), Ridgeline first gen (2006–2014), Fit/Jazz (2007–2020 NA), Insight ZE2 (2010–2014), Accord Crosstour (2010–2015)
+  - **2010s**: Civic ninth/tenth gen (2012–2021), Accord ninth/tenth gen (2013–2022), CR-V RM/RT (2012–2022), HR-V first gen NA (2016–2021), Pilot third gen (2016–2022), Passport return (2019–present), Ridgeline second gen (2017–present), Odyssey RL6 (2011–2020), Clarity PHEV/FCX (2017–2021), Insight third gen (2019–2022)
+  - **2020s & Current**: Civic eleventh gen (2022–present), Accord eleventh gen hybrid-led (2023–present), CR-V sixth gen (2023–present), HR-V second-gen NA (2023–present), Pilot fourth gen (2023–present), Passport TrailSport refresh (2022–present), Ridgeline 2021 refresh, Odyssey 2021–present, Prologue BEV (2024–present), hydrogen CR-V FCEV (2024), Clarity legacy support
+- [ ] Acura
+  - **1980s**: Legend (1986–1990), Integra (DA1/DA3, 1986–1989), NS-X concept development (1989), Vigor (1989–1991)
+  - **1990s**: Legend second gen (1991–1995), Integra DC2/DC4 (1994–2001), NSX NA1/NA2 (1991–2005), Vigor (1992–1994), TL (1996–2014), CL (1997–2003), RL (1996–2004), SLX SUV (1996–1999)
+  - **2000s**: MDX first/second gen (2001–2013), RSX (2002–2006), TSX (2004–2014), TL third/fourth gen (2004–2014), RL (2005–2012), RDX (2007–present), ZDX (2010–2013), CSX (Canada, 2006–2011)
+  - **2010s**: ILX (2013–2022), TLX (2015–present), RLX (2014–2020), NSX (NC1, 2017–2022), RDX second/third gen (2013–present), MDX third gen (2014–2021), CDX (China 2017–2022)
+  - **2020s & Current**: MDX fourth gen (2022–present), RDX PMC/refresh (2019–present), TLX second gen Type S (2021–present), Integra DE4 (2023–present), ZDX BEV (2024–present), ADX compact crossover (2025 launch)
+- [ ] Nissan
+  - **1930s**: Datsun Type 10/11 (1932–1934), Type 12/13 (1933–1935), 15/16 roadsters (1935–1938), truck Type 17 (1938–1939)
+  - **1940s**: Datsun 212/312 trucks (1946–1949), 1121 compact car (1946–1947), 5147 truck (1947–1954)
+  - **1950s**: Datsun 110/210 (1955–1959), 113/114 sedans (1957–1959), 220/223 trucks (1957–1965), Sports DC-3 (1959), Patrol 60 (1959–1980)
+  - **1960s**: Fairlady roadsters SP/SP311 (1961–1970), Bluebird 410/510 (1963–1973), Cedric 130 (1965–1971), Silvia CSP311 (1965–1968), Patrol K60 (1960s), Skyline (Prince/Nissan C10/C110, 1968–1977)
+  - **1970s**: 240Z/260Z/280Z (S30, 1969–1978), 510/610/710 sedans (1970–1976), B210/Sunny (1973–1978), 200SX S10 (1975–1979), 620 pickup (1972–1979), Vanette (1978–1988)
+  - **1980s**: 280ZX (1979–1983), 300ZX Z31 (1984–1989), Sentra/ Sunny B11/B12 (1982–1990), Maxima U11/J30 (1981–1988), Stanza T11 (1982–1986), Pulsar NX (1987–1990), Pathfinder WD21 (1986–1995), Hardbody D21 (1986–1997), 200SX S12 (1984–1988)
+  - **1990s**: 300ZX Z32 (1990–1996), Sentra B13/B14 (1991–1999), Altima U13 (1993–1997), Maxima A32/A33 (1995–2003), 240SX S13/S14 (1989–1998), Pathfinder R50 (1996–2004), Frontier D22 (1998–2004), Quest minivan (1993–2002), Xterra WD22 (2000–2004)
+  - **2000s**: 350Z (2003–2008), 370Z (2009–2020), Altima L31/L32 (2002–2012), Sentra B15/B16 (2000–2012), Maxima A34/A35 (2004–2014), Murano Z50/Z51 (2003–2014), Armada (2004–2020), Titan A60 (2004–2015), Frontier D40 (2005–2021), Quest (2004–2009, 2011–2017), Versa (C11, 2007–2012), Rogue S35 (2008–2013), GT-R R35 (2009–present), Cube (2009–2014), NV Cargo/Passenger (2012–2021)
+  - **2010s**: Altima L33 (2013–2018), Sentra B17 (2013–2019), Maxima A36 (2016–2023), Leaf ZE0/ZE1 (2011–present), Juke F15 (2011–2017), Murano Z52 (2015–present), Pathfinder R52 (2013–2020), Rogue T32 (2014–2020), Titan XD/second gen (2016–2024), NV200 (2013–2021), Kicks P15 (2018–present), Armada (2017 refresh), Rogue Sport/Qashqai (2017–2022), 370Z (2009–2020), GT-R updates (2017–2023)
+  - **2020s & Current**: Altima L34 (2019–present), Sentra B18 (2020–present), Versa N18 (2020–present), Maxima final year (2023), Rogue T33 (2021–present), Pathfinder R53 (2022–present), Frontier D41 (2022–present), Ariya (2023–present), Z RZ34 (2023–present), Titan/Titan XD sunset (2024), Kicks 2025 refresh, Leaf (2023 updates), Murano Z52 (2024 refresh), GT-R T-spec (2024), X-Trail/e-POWER import programs
+- [ ] Infiniti
+  - **1980s**: Q45 (1989–1996 launch), M30 coupe/convertible (1990–1992), G20 P10 (1991–1996)
+  - **1990s**: Q45 (1989–2001), G20 P11 (1999–2002), J30 (1993–1997), I30 (1996–2001), QX4 (1997–2003), Q45 second gen (1997–2001)
+  - **2000s**: G35 sedan/coupe (2003–2008), M35/M45 (Y34/Y50, 2003–2010), FX35/FX45 (2003–2008), QX56 (JA60, 2004–2013), EX35 (2008–2013), QX4 final (2000–2003), Q45 third gen (F50, 2002–2006)
+  - **2010s**: Q50 (2014–present), Q60 (2017–2022), Q70/M37/M56 (2011–2019), QX50 (2014–present, VC-Turbo from 2019), QX60/JX35 (2013–present), QX80 (2014–present), QX30 (2017–2019), QX70 (2014–2017)
+  - **2020s & Current**: QX55 (2021–present), QX60 second gen (2022–present), QX80 new generation (2025–present), Q50 continuation (2020s), Q60 production end (2022), Vision Qe/Monograph EV concepts (2023–2024)
+- [ ] Mazda
+  - **1960s**: R360 kei coupe (1960–1966), Carol P360 (1962–1970), Familia 800/1000 (1963–1967), Luce 1500 (1966–1973), Cosmo Sport (1967–1972), Bongo van (1966–present)
+  - **1970s**: RX-2/RX-3/RX-4 (1970–1978), Capella/626 (1970–1982), Cosmo AP (1975–1981), RX-7 SA/FB (1978–1985), B-Series pickup (1972–1985), GLC/Familia (1977–1984), 929/Luce (1973–1986)
+  - **1980s**: RX-7 FC (1986–1991), 626/Capella GD (1983–1992), 323/GLC (1985–1989), MX-6 (1988–1997), B-Series (1986–1993), MPV (1989–1999), Miata MX-5 NA (1989–1997)
+  - **1990s**: MX-5 Miata NA/NB (1989–2005), 626 GE/GF (1993–2002), MX-6 (1993–1997), Millenia (1995–2002), Protegé (1990–2003), B-Series (1994–2009), Bongo Friendee (1995–2005), MPV LW (1999–2006), RX-7 FD (1992–2002), Tribute (2001–2011)
+  - **2000s**: Mazda3 BK (2004–2009), Mazda6 GG/GH (2003–2013), RX-8 (2004–2011), MX-5 NC (2006–2015), Mazda5 (2006–2015), CX-7 (2007–2012), CX-9 (2007–2015), CX-5 first gen (2012–2016), Mazda2/Demio (2011–2014 NA), Tribute final (2008–2011)
+  - **2010s**: Mazda3 BM/BN (2014–2018), Mazda6 GJ (2014–2021), CX-5 KF (2017–present), CX-3 (2016–2021 NA), CX-9 TC (2016–2023), CX-4 China (2016–present), MX-5 ND (2016–present), Mazda2 facelift (2015–2020), CX-30 launch (2020)
+  - **2020s & Current**: Mazda3 BP (2019–present), Mazda6 discontinuation plan (2021 NA), CX-5 2022 refresh (KF), CX-30 (2020–present), CX-50 (2023–present), CX-70 (2024–present), CX-90 (2024–present), MX-30 (2022 CA limited), MX-5 ND update (2024), Iconic SP concept (2023)
+- [ ] Subaru
+  - **1950s**: Subaru 360 (1958–1971) microcar foundation
+  - **1960s**: 360 continued, Sambar kei truck/van (1961–present), Subaru 1000 (1966–1969), ff-1 1300G (1969–1972), R-2 (1969–1972)
+  - **1970s**: Leone 4WD (1971–1994), BRAT/Brumby (1978–1987), Rex kei (1972–1992), Domingo/Libero (1983–1998), DL/GL wagons (1970s)
+  - **1980s**: Justy (1984–1994), XT/Alcyone (1985–1991), Leone/GL 4WD wagons (1980–1990), Legacy first gen development (1989–1994), Alcyone SVX concept (1989)
+  - **1990s**: Legacy (BC/BF/BG, 1990–1999), Impreza (1992–present), Forester (1997–present), Outback (1995–present), SVX (1991–1996), Baja development (2003–2006), Sambar diaspora
+  - **2000s**: Legacy BL/BP (2005–2009), Outback 3rd gen (2000–2009), Impreza GD/GG/GE/GH (2002–2011), WRX/STI US market (2002–2014), Forester SG/SH (2003–2013), Tribeca (2006–2014), Baja (2003–2006), Justy rebadge (2004–2011), XV Crosstrek concept (2011)
+  - **2010s**: Legacy/Outback fifth gen (2010–2019), Impreza GP/GP (2012–2016) & GK/GT (2017–2023), WRX/STI VA (2015–2021), Crosstrek GP/GT (2013–2023), Forester SJ/SK (2014–present), BRZ (2013–2020), Ascent (2019–present)
+  - **2020s & Current**: Legacy sixth gen (2020–2025), Outback sixth gen (2020–present), Forester SK refresh (2022) & 2025 redesign, Impreza sixth gen (2024–present), WRX VB (2022–present), Crosstrek GU (2024–present), Solterra BEV (2023–present), BRZ second gen (2022–present), Ascent facelift (2023–present)
+- [ ] Mitsubishi
+  - **1960s**: Mitsubishi 500 (1960–1962), Colt 600/800 (1962–1966), Minica kei (1962–present), Debonair (1964–1986), Delica van (1968–present), Galant first gen (1969–1973)
+  - **1970s**: Lancer A70 (1973–1979), Galant Λ/Σ (1976–1980), Celeste (1975–1981), Sapporo (1978–1984), Mirage (1978–1983), Delica second gen (1979–1986), Jeep J-Series (license, 1953–1998)
+  - **1980s**: Pajero/Montero first gen (1982–1991), Starion (1982–1989), Galant Σ (1984–1988), Lancer EX (1980–1987), Mirage second gen (1983–1991), Mighty Max/Triton (1983–1996), Precis (1987–1994)
+  - **1990s**: 3000GT/GTO (1990–2001), Eclipse (1990–1999), Galant E3x (1994–2012 NA), Diamante (1991–2005), Montero LS (1992–2006), Montero Sport (1997–2004), Mirage (1997–2002 NA), Lancer Evolution IV–VI (JDM, gray), Expo/LRV (1992–1995)
+  - **2000s**: Lancer (2002–2017), Lancer Evolution VII–X (2003–2015), Outlander (2003–present), Endeavor (2004–2011), Montero final NA (2001–2006), Montero Sport LS (1997–2004), Galant ninth gen (2004–2012), Eclipse third/fourth gen (2000–2012), Raider pickup (2006–2009), Outlander Sport/RVR (2011–present), i-MiEV (2012–2017 NA)
+  - **2010s**: Outlander (2014–present), Outlander Sport (2011–present), Mirage (2014–present), Mirage G4 (2017–present), Lancer (2015–2017), Lancer Evolution Final Edition (2015), i-MiEV (2012–2017), Eclipse Cross (2018–present), Outlander PHEV (2018–present)
+  - **2020s & Current**: Outlander fourth gen (2022–present), Outlander PHEV second gen (2023–present), Eclipse Cross refresh (2022–present), Mirage/Mirage G4 updates (2021–present), Outlander Sport/ASX redesign plans (2024), Alliance-based BEVs (launch 2025+)
+- [ ] Hyundai
+  - **1970s**: Ford Cortina license builds (1968–1970), Pony (1975–1990), Pony Pickup (1976–1988), Stellar development (late 1970s)
+  - **1980s**: Stellar (1983–1988), Excel/Pony Excel (1985–1994), Sonata Y1 (1985–1988), Grandeur (1986–1992), Porter light truck (1977–present), S-Coupe (1988–1995)
+  - **1990s**: Accent X3 (1994–1999), Elantra J2 (1995–2000), Sonata Y3 (1993–1998), Tiburon/Coupe (1996–2008), Grandeur XG (1998–2005), Trajet MPV (1999–2008), Galloper SUV (1991–2003)
+  - **2000s**: Elantra XD/HD (2001–2010), Sonata EF/NF (1999–2010), Accent LC/MC (2000–2011), Santa Fe first/second gen (2001–2012), Tucson JM (2005–2009), Tiburon GK (2003–2008), Azera/Grandeur TG (2006–2011), Veracruz (2007–2012), Genesis BH (2009–2014), Entourage (2007–2008), i10/i20 global compacts
+  - **2010s**: Elantra MD/AD (2011–2020), Sonata YF/LF (2011–2019), Accent RB (2012–2022), Veloster (2012–2022), Azera HG (2012–2017), Genesis DH/G90 (2015–2016), Santa Fe DM/AN (2013–2023), Tucson TL (2016–2021), Kona OS (2018–2023), Ioniq hybrid/PHEV/EV (2017–2022), Palisade (2020–present), Nexo fuel cell (2019–present)
+  - **2020s & Current**: Elantra CN7 (2021–present), Sonata DN8/‘The Edge’ refresh (2020–2024), Accent discontinued NA (2023), Ioniq 5 (2022–present), Ioniq 6 (2023–present), Ioniq 7 concept (2024–), Kona SX2 (2024–present), Santa Fe MX5 boxy redesign (2024–present), Tucson NX4 (2022–present), Santa Cruz (2022–present), Palisade (2023 refresh), Venue QX1 (2021–present), Grandeur GN7 (2023–present), hydrogen HTWO projects
+- [ ] Kia
+  - **1970s**: Brisa (1974–1981), Bongo light truck (1980–present), partnership with Mazda/Ford CKD kits
+  - **1980s**: Pride/121 (1987–2000), Besta van (1986–2007), Concord (1987–1995), Potentia (1989–1997), Capital (1989–1996)
+  - **1990s**: Sephia (1992–2003), Sportage first gen (1993–2004), Credos/Clarusr (1996–2002), Carnival/Sedona (1998–2021), Retona (1998–2003), Enterprise (1997–2002), Avella (1994–2000)
+  - **2000s**: Rio JB (2001–2011), Spectra (2000–2013), Optima/Magentis (2001–2015), Sorento BL (2003–2009), Amanti/Opirus (2004–2009), Sportage KM (2005–2010), Sedona VQ (2006–2014), Carens/Rondo (2006–2013 NA), Soul (2009–present), Forte/Cerato (2009–present), Borrego/Mohave (2009 NA)
+  - **2010s**: Optima TF/JF (2011–2020), K5 global (2015–present), Forte/Cerato (2014–present), Rio UB/YB (2012–2023), Soul second/third gen (2014–present), Sorento UM (2016–2020), Sportage QL (2017–2022), Sedona YP (2015–2021), Stinger (2018–2024), Niro DE (2017–2022), Telluride (2020–present), Seltos SP2 (2021–present), Cadenza/K7 (2014–2020)
+  - **2020s & Current**: Carnival KA4 (2022–present), EV6 (2022–present), EV9 (2024–present), EV5/EV3 in pipeline (2025), Forte/Cerato BD refresh (2024), K5 (2021–present), Niro SG2 (2023–present), Seltos 2024 refresh, Sorento MQ4 (2021–present, 2024 update), Soul (2023 refresh), Sportage NQ5 (2023–present), Telluride (2023 refresh)
+- [ ] Genesis
+  - **2000s**: Hyundai Genesis sedan (BH, 2009–2014) and Genesis Coupe (2009–2016) precursor programs
+  - **2010s**: Genesis brand launch (2015), G80 (2017–present), G90 (2017–present), G70 (2017–present), Genesis Coupe final (2016), concept sedans (New York, Essentia)
+  - **2020s & Current**: G70 refresh (2021–present), G80 (2021 refresh) & Electrified G80 (2021–present), G90 second gen (2023–present), GV80 (2021–present) & GV80 Coupe (2024–present), GV70 (2021–present) & Electrified GV70 (2023–present), GV60 BEV (2022–present), Magma performance sub-brand (2024 concept)
+- [ ] Volkswagen
+  - **1930s**: KdF-Wagen prototypes (1938–1939), Type 60 Beetle development, Type 82 Kübelwagen (1939)
+  - **1940s**: Beetle Type 1 production restart (1945–2003), Type 166 Schwimmwagen (1942–1944), early Type 2 concept (1949)
+  - **1950s**: Type 1 Beetle global expansion, Type 2 Transporter T1 (1950–1967), Karmann Ghia Type 14 (1955–1974), Type 1 Cabriolet, Type 2 Microbus
+  - **1960s**: Type 3 (1961–1973), Type 34 (1962–1969), Type 2 T2 (1967–1979), 411/412 (1968–1974), Beetle 1500/1600 updates
+  - **1970s**: Passat B1/Dasher (1973–1981), Golf/Rabbit Mk1 (1974–1984), Scirocco Mk1 (1974–1981), Polo Mk1 (1975–1981), Jetta Mk1 (1979–1984), Transporter T2/T3 (1970–1992)
+  - **1980s**: Golf Mk2 (1983–1992), Jetta Mk2 (1985–1992), Passat B2/B3 (1981–1993), Scirocco Mk2 (1982–1989), Corrado (1988–1995), Vanagon (T3, 1980–1991), Fox (1987–1993)
+  - **1990s**: Golf Mk3/Mk4 (1993–2006), Jetta Mk3/Mk4 (1993–2005), Passat B4/B5 (1994–2005), New Beetle (1998–2010), EuroVan (T4, 1992–2003 NA), Cabrio (1995–2002), Touareg development (2003 launch), Lupo (1998–2005 Europe)
+  - **2000s**: Golf Mk5 (2006–2010 NA), Jetta Mk5 (2005–2010), Passat B6 (2006–2010), CC (2009–2017), Tiguan Mk1 (2009–2017), Touareg Mk1/Mk2 (2004–2017), Phaeton (2004–2006 NA), Eos (2007–2016), Routan (2009–2014)
+  - **2010s**: Golf Mk6/Mk7 (2010–2021), Jetta Mk6 (2011–2018) & Mk7 (2019–present), Passat NMS (2012–2022), Beetle A5 (2012–2019), CC/Arteon (2012–2024), Tiguan long-wheelbase (2018–present), Atlas (2018–present), Golf Alltrack/SportWagen (2015–2019), e-Golf (2015–2021), ID.3/ID.4 development (2019–present)
+  - **2020s & Current**: Golf Mk8 GTI/R (2022–present NA), Jetta GLI refresh (2022–present), Arteon final run (2024), Atlas/Atlas Cross Sport refreshed (2024–present), Taos (2022–present), Tiguan second gen facelift (2022) and third gen (2025), ID.4 (2021–present), ID. Buzz (2024 EU, 2025 NA), ID.7 (2025 NA launch), Scout revival plans
+- [ ] Audi
+  - **1960s**: Audi F103/60/75/80 (1965–1972), Audi 100 C1 (1968–1976), Super 90 (1966–1971)
+  - **1970s**: Audi 50 (1974–1978), Audi 80 B1/B2 (1972–1986), Audi 100 C2 (1976–1982), Audi 200 (1979–1982), quattro rally development (1979–1980)
+  - **1980s**: Audi quattro (1980–1991), Audi 80/90 B2/B3 (1979–1991), Audi 100/200 C3 (1982–1991), Coupe GT (1980–1987), 5000 (US) (1984–1988), Audi V8 D11 (1988–1993)
+  - **1990s**: A4 B5 (1994–2001), A6 C4 (1994–1997) and C5 (1998–2004), A8 D2 (1994–2002), A3 8L (1996–2003), TT 8N (1998–2006), S4/S6 (B5, C4), Allroad C5 (1999–2005)
+  - **2000s**: A3 8P (2004–2013), A4 B6/B7 (2002–2008), A6 C6 (2005–2011), A8 D3 (2004–2010), TT 8J (2008–2015), R8 first gen (2008–2015), Q7 (2007–2015), Q5 (2009–2017), Q3 (2012–2018), A5/S5 (2008–2016), A7 (2012–2018)
+  - **2010s**: A3 8V (2015–2020), A4 B9 (2017–2023), A5 (2018–2024), A6 C7/C8 (2012–present), A7 C7/C8 (2012–present), A8 D4/D5 (2011–present), Q5 FY (2018–2024), Q7 4M (2017–2023), Q8 (2019–present), e-tron (2019–2023), e-tron GT (2022–present), TT third gen (2016–2023), R8 second gen (2016–2023)
+  - **2020s & Current**: A3 8Y (2022–present), upcoming A4/A5 EV (2025), A6 C8 (2019–present) & A6 e-tron (2025), A8 D5 refresh (2022–present), Q3 (2025 due), Q4 e-tron (2022–present), Q5 next gen (2025), Q7/Q8 facelifts (2024–present), Q8 e-tron (2023–present), e-tron GT/RS e-tron GT (2022–present)
+- [ ] BMW
+  - **1930s**: 303/315/319 (1933–1937), 326 (1936–1941), 327/328 sports cars (1937–1939)
+  - **1950s**: 501/502 "Baroque Angel" (1952–1963), Isetta microcar (1955–1962), 600 (1957–1959), 507 (1956–1959), 700 (1959–1965)
+  - **1960s**: Neue Klasse 1500/1600 (1962–1972), 1800/2000 (1963–1972), 2002 (1968–1976), E3 large sedan (1968–1977), E9 coupe (1968–1975)
+  - **1970s**: 5 Series E12 (1972–1981), 3 Series E21 (1975–1983), 6 Series E24 (1976–1989), 7 Series E23 (1977–1986), M1 (1978–1981)
+  - **1980s**: 3 Series E30 (1982–1994), 5 Series E28/E34 (1981–1996), 7 Series E32 (1986–1994), 6 Series E24 finale (1982–1989), 8 Series E31 (1989–1999), Z1 (1989–1991), M3 E30 (1986–1991)
+  - **1990s**: 3 Series E36 (1991–1999), 5 Series E34/E39 (1988–2003), 7 Series E38 (1994–2001), Z3 (1996–2002), Z8 (2000–2003), X5 E53 (1999–2006), Compact hatch (E36/5, 1994–2000)
+  - **2000s**: 1 Series E87 (2004–2013), 3 Series E46/E90 (1999–2013), 5 Series E60/E61 (2004–2010), 6 Series E63/E64 (2004–2010), 7 Series E65/E66 (2001–2008), X3 E83 (2004–2010), X5 E70 (2007–2013), X6 E71 (2008–2014), Z4 E85/E89 (2003–2016)
+  - **2010s**: 1 Series F20/F21 (2011–2019), 2 Series F22 (2014–2021), 3 Series F30/G20 (2012–present), 4 Series F32 (2014–2020), 5 Series F10/G30 (2011–present), 6 Series Gran Coupe (2012–2019), 7 Series F01/G11 (2009–2022), X1 E84/F48 (2013–2022), X3 F25/G01 (2011–present), X5 F15/G05 (2014–present), X7 G07 (2019–present), i3 (2014–2021), i8 (2014–2020)
+  - **2020s & Current**: 2 Series G42 (2022–present), 3 Series G20 LCI (2023–present), 4 Series G22 (2021–present), 5 Series G60 (2024–present), 7 Series G70 (2023–present), 8 Series LCI (2023–present), X1 U11 (2023–present), X3 next gen (2025), X5/X6 LCI (2024–present), X7 LCI (2023–present), i4 (2022–present), iX (2022–present), i5 (2024–present), XM (2023–present), Neue Klasse EV (2025 launch)
+- [ ] Mercedes-Benz
+  - **1900s**: Mercedes Simplex series (1902–1909), Mercedes 35 PS (1901–1905), Mercedes 28/95 (1912–1914 development)
+  - **1920s**: Mercedes 24/100/140 PS (1924–1929), Mercedes-Benz W03/W05 (1926–1929), S/SS/SSK supercharged sports cars (1927–1934)
+  - **1930s**: 500K/540K (1934–1939), 260 D diesel (1936–1940), 170 V (1936–1955), Grosser 770 (1930–1943)
+  - **1940s**: Postwar 170 V/170 S (1946–1953), 170 D (1949–1955), 300 "Adenauer" (1951 launch)
+  - **1950s**: Ponton sedans W120/W180 (1953–1962), 300SL Gullwing/Roadster (1954–1963), 190SL (1955–1963), W105/W128 (1956–1960), 220S/SE (1956–1965)
+  - **1960s**: Fintail W111/W112 (1959–1968), Pagoda SL W113 (1963–1971), W108/W109 S-Class (1965–1972), W114/W115 "Stroke-8" (1968–1976), 600 Pullman (1963–1981)
+  - **1970s**: R107/C107 SL/SLC (1971–1989), W116 S-Class (1972–1980), W123 (1976–1985), G-Class W460 (1979–1991), C111 experimental (1970s), early T1 vans
+  - **1980s**: W201 190E (1982–1993), W124 E-Class (1985–1995), W126 S-Class (1979–1991), R129 SL (1990–2001), G-Class W463 launch (1990–present), 190E 2.3-16 (1984–1989)
+  - **1990s**: C-Class W202 (1993–2000), E-Class W210 (1996–2002), S-Class W140 (1991–1998), SLK R170 (1996–2004), CLK W208 (1998–2003), M-Class W163 (1998–2005), G-Class W463 (1990–present)
+  - **2000s**: C-Class W203/W204 (2001–2014), E-Class W211 (2003–2009), S-Class W220/W221 (1999–2013), CLS C219 (2006–2011), SLK R171 (2005–2011), SL R230 (2003–2012), GL-Class X164 (2006–2012), GLK X204 (2010–2015), SLR McLaren (2003–2010), Sprinter NCV3 (2007–2018)
+  - **2010s**: C-Class W205 (2015–2021), E-Class W213 (2017–present), S-Class W222 (2014–2020), CLA C117 (2014–2019), GLA X156 (2015–2019), GLC X253 (2016–2022), GLE W166/V167 (2015–present), GLS X166/X167 (2017–present), G-Class W463a (2019–present), AMG GT C190 (2016–2023), EQC (2020–2023), Sprinter VS30 (2019–present)
+  - **2020s & Current**: C-Class W206 (2022–present), E-Class W214 (2024–present), S-Class W223 (2021–present), CLE Coupe/Cabriolet (2024–present), CLA/GLA/GLB mid-cycle (2024), GLC X254 (2023–present), GLE/GLS facelift (2024–present), G-Class W463 facelift (2025), EQB/EQC (global) (2022–present), EQE sedan/SUV (2023–present), EQS sedan/SUV (2022–present), AMG GT C192 (2024–present), electric VAN.eA plans (2025+)
+- [ ] Mini
+  - **1950s**: Original Mini Mk I (ADO15) debut (1959–1967), Austin Seven/Morris Mini-Minor variants
+  - **1960s**: Mini Cooper/Cooper S (1961–1971), Traveller/Countryman estate (1961–1969), Mini Moke (1964–1968), Mk II updates (1967–1970)
+  - **1970s**: Mini Clubman/1275GT (1969–1980), Mk III/IV classic Minis (1969–1984), Innocenti Mini (1970s), Leyland special editions
+  - **1980s**: Classic Mini Mk V/VI (1984–1990), limited editions (Mayfair, Designer), continued commercial variants
+  - **1990s**: Rover Mini Mk VII (1990–2000), Cooper revival (1990–2000), Mini Cabriolet (1993–1996)
+  - **2000s**: BMW MINI R50/R53 Hardtop (2001–2006), R52 Convertible (2005–2008), R56 Hardtop (2007–2013), R55 Clubman (2008–2014), special JCW GP (2006)
+  - **2010s**: F56 Hardtop (2014–2024), F55 5-door (2015–2024), F57 Convertible (2016–present), F60 Countryman (2017–2023), F54 Clubman (2016–2024), Coupe/Roadster (2012–2015), Paceman (2013–2016), JCW GP F56 (2020)
+  - **2020s & Current**: F56 LCI (2019–2024), new F66/F65 Hardtop (2025–present), U25 Countryman (2024–present), Aceman U10 (2024–present), electric J01 Cooper (2024–present), Convertible successor (expected 2025)
+- [ ] Porsche
+  - **1950s**: 356 (1948–1965), 550 Spyder (1953–1956), 718 RSK (1957–1962)
+  - **1960s**: 911 (1964–present), 912 (1965–1969), 904 Carrera GTS (1964), 906/910 race cars (1966–1969), 914 (1969–1976)
+  - **1970s**: 911 G-series (1974–1989), 930 Turbo (1975–1989), 924 (1976–1988), 928 (1977–1995), 935/936 racers (1976–1981)
+  - **1980s**: 944 (1982–1991), 959 (1986–1988), 911 964 (1989–1994), 928 S4/GT (1987–1995), 924 Carrera GT (1980–1981)
+  - **1990s**: 911 993 (1995–1998), 911 996 (1999–2004), Boxster 986 (1997–2004), 968 (1992–1995), Carrera GT prototype (1999), Cayenne development
+  - **2000s**: 911 997 (2005–2012), Boxster/Cayman 987 (2005–2012), Cayenne 955/957 (2003–2010), Carrera GT production (2004–2007), Panamera 970 (2010–2016)
+  - **2010s**: 911 991 (2012–2019), 718 Boxster/Cayman 982 (2017–present), Cayenne 958 (2011–2017) & 9Y0 (2019–present), Macan 95B (2015–2024), Panamera 971 (2017–present), 918 Spyder (2015), Taycan (2020–present)
+  - **2020s & Current**: 911 992 (2020–present), 718 GT4/RS (2020–2024), Macan EV (2024–present), Cayenne E3 II refresh (2024–present), Panamera 972 (2024–present), Taycan refreshed (2024), Mission X concept (2023)
+- [ ] Volvo
+  - **1920s**: ÖV 4 "Jakob" (1927–1929), PV4 (1927–1929)
+  - **1930s**: PV36 Carioca (1935–1938), PV51 (1936–1945), TR670 taxis (1930s)
+  - **1940s**: PV444 (1947–1958), PV60 (1946–1950), Duett development (1953 launch)
+  - **1950s**: Amazon/120 Series (1956–1970), PV544 (1958–1965), P1900 (1956–1957), Duett (1953–1969)
+  - **1960s**: P1800 (1961–1973), 140 Series (1966–1974), 164 (1968–1975), Amazon continuation, Volvo 1800ES (1972–1973)
+  - **1970s**: 240/260 Series (1974–1993), 66 (1975–1981), 300 Series (1976–1991), 262C/264 (1975–1981)
+  - **1980s**: 700 Series (1982–1992), 480 (1986–1995), 780 coupe (1985–1990), 940/960 (1990–1998), 240 final (1980–1993)
+  - **1990s**: 850 (1991–1997), S70/V70 (1997–2000), S40/V40 (1995–2004), C70 (1998–2005), S80 (1999–2016), XC70 (1997–2016), V90/S90 classic (1996–1998)
+  - **2000s**: S40/V50 (2004–2012), S60/V70 (2001–2009), S80 (2007–2016), XC90 first gen (2003–2014), XC60 first gen (2008–2017), C30 (2008–2013), V70/XC70 third gen (2007–2016)
+  - **2010s**: SPA platform launch XC90 II (2016–present), S90/V90 (2017–present), V60 (2019–present), S60 II (2019–present), XC60 II (2018–present), XC40 (2019–present), V40 (2013–2019), Polestar Engineered hybrids, 40/60/90 Series facelifts
+  - **2020s & Current**: XC40 Recharge/EX40 (2021–present), C40 Recharge/EC40 (2022–present), EX30 (2024–present), EX90 (2024–present), EM90 (2024 China), S60/V60 Polestar refresh (2024), S90 (2021 refresh), XC60 (2022 update)
+- [ ] Jaguar
+  - **1930s**: SS Jaguar 2½/3½ Litre (1935–1940), SS100 (1936–1940)
+  - **1940s**: Mark V saloon (1948–1951), XK120 (1948–1954), Mark VII (1950–1954)
+  - **1950s**: XK120/140/150 (1948–1961), D-Type (1954–1957), Mark VII/VIII/IX (1950–1961), Mark 1 (1955–1959), Mark 2 (1959–1967)
+  - **1960s**: E-Type Series I/II (1961–1971), Mark X/420G (1961–1970), S-Type (1963–1968), 420 (1966–1968), XJ Series I (1968–1973)
+  - **1970s**: XJ Series II/III (1973–1992), XJ-S (1975–1996), XJ12 (1972–1992), Daimler Double Six (1970s)
+  - **1980s**: XJ40 (1986–1994), XJ-S HE (1981–1996), XJ-SC cabriolet (1983–1988), limited-run XJR-15 (1990–1992)
+  - **1990s**: XJ X300/X308 (1995–2003), XK8/XKR (1997–2006), S-Type (1999–2008), X-Type (2002–2008), XJ220 (1992–1994)
+  - **2000s**: XJ X350 (2004–2009), XK X150 (2007–2015), S-Type (1999–2008), XF (2009–2015), X-Type (2002–2008), XJ X351 (2011–2019), XF Sportbrake (2013–2020 EU)
+  - **2010s**: XJ X351 (2011–2019), XF second gen (2016–2023), XE (2017–2023), F-Type (2014–2024), F-Pace (2017–present), E-Pace (2018–present), I-Pace (2019–present)
+  - **2020s & Current**: F-Type farewell (2024), F-Pace 2021 refresh (2021–present), E-Pace updates (2021–present), I-Pace 2024 update (2024–present), XE/XF global continuation, all-electric architecture (2025+)
+- [ ] Land Rover
+  - **1940s**: Series I (1948–1958) utility 4x4 debut
+  - **1950s**: Series I (continued), Series II (1958–1961), Series IIa (1961–1971), Forward Control prototypes
+  - **1960s**: Series IIa (1961–1971), 109 Forward Control (1962–1976), Lightweight/Air Portable (1968–1984), early Range Rover "Velar" development (1967–1969)
+  - **1970s**: Series III (1971–1985), Range Rover Classic (1970–1996), 101 Forward Control (1972–1978), Stage One V8 (1979–1985)
+  - **1980s**: Land Rover 90/110/127 (1983–1990), Defender branding (1990), Range Rover facelift (1986–1994), Discovery Series I (1989–1998)
+  - **1990s**: Defender (1990–2016), Discovery Series I/II (1989–2004), Range Rover P38A (1995–2002), Freelander (1997–2006), Range Rover Classic finale (1996)
+  - **2000s**: Range Rover L322 (2003–2012), Range Rover Sport L320 (2006–2013), Discovery 3/LR3 (2005–2009), LR2/Freelander 2 (2008–2015), Discovery 4/LR4 (2010–2016)
+  - **2010s**: Range Rover L405 (2013–2021), Range Rover Sport L494 (2014–2022), Discovery 5 (2017–present), Discovery Sport (2015–present), Range Rover Evoque L538/L551 (2012–present), Range Rover Velar (2018–present)
+  - **2020s & Current**: Defender L663 (2020–present), Range Rover L460 (2022–present), Range Rover Sport L461 (2023–present), Range Rover Velar updates (2023–present), Discovery Sport refresh (2020–present), Evoque L551 refresh (2020–present), forthcoming electric Range Rover/Defender (2025+)
+- [ ] Alfa Romeo
+  - **1910s**: 24 HP (1910–1913), 15 HP (1911–1913), 40/60 HP (1913–1922)
+  - **1920s**: RL (1922–1927), P2 Grand Prix (1924–1930), 6C 1500 (1927–1930)
+  - **1930s**: 6C 1750 (1929–1933), 8C 2300 (1931–1934), 8C 2900 (1936–1939), 6C 2500 (1939–1953)
+  - **1940s**: 6C 2500 postwar (1945–1953), Freccia d’Oro (1947–1952), 1900 (1950 introduction)
+  - **1950s**: 1900 (1950–1959), Giulietta family (1954–1965), 2000/102 (1958–1962), Sprint/Sprint Speciale (1957–1962)
+  - **1960s**: Giulia (1962–1978), 105/115 Series Coupes (1963–1976), Spider Duetto (1966–1994), Montreal (1970–1977), 1750/2000 Berlina (1968–1977)
+  - **1970s**: Alfetta (1972–1987), Alfasud (1972–1989), GT/GTV (1974–1987), Giulietta Nuova (1977–1985), 6 (1979–1986)
+  - **1980s**: 33 (1983–1995), 75/Milano (1985–1992), Spider Series 3/4 (1982–1994), 90 (1984–1987), SZ/RZ (1989–1994)
+  - **1990s**: 145/146 (1994–2000), 155 (1992–1998), GTV/Spider 916 (1995–2006), 156 (1997–2007), 166 (1998–2007)
+  - **2000s**: 147 (2001–2010), 159 (2006–2011), Brera/Spider (2006–2010), GT (2004–2010), MiTo (2008–2018), 8C Competizione (2007–2010)
+  - **2010s**: Giulietta (2010–2021), MiTo (2008–2018), 4C (2014–2020), Giulia (2017–present), Stelvio (2018–present), Tonale development (2023 launch), Stelvio Quadrifoglio (2018–present)
+  - **2020s & Current**: Giulia/Stelvio refresh (2023–present), Tonale (2023–present), 33 Stradale revival (2024 limited), Milano/Junior EV (2025 launch), large BEV SUV announced (2027)
+- [ ] Fiat
+  - **1930s**: 508 Balilla (1932–1937), 500 Topolino (1936–1955), 1500 (1935–1950)
+  - **1940s**: 500B Topolino (1948–1949), 1100B (1948–1953), 1400 (1950 launch)
+  - **1950s**: 500 Nuova (1957–1975), 600 (1955–1969), 1100/1200 (1953–1969), Multipla (1956–1967), 1800/2100 (1959–1968)
+  - **1960s**: 850 (1964–1973), 124 (1966–1974), 125 (1967–1972), 128 (1969–1983), Dino (1966–1973), 500/600 continuity
+  - **1970s**: 127 (1971–1983), 126 (1972–2000), X1/9 (1972–1989), 132 (1972–1981), 131 Mirafiori (1974–1984), Ritmo/Strada (1978–1988), Spider 2000 (1979–1985)
+  - **1980s**: Uno (1983–present), Panda (1980–2003), Tipo (1988–1995), Croma (1985–1996), Tempra (1990–1996), Regata (1983–1990)
+  - **1990s**: Punto (1993–2018), Bravo/Brava (1995–2001), Palio/Siena (1996–2020), Marea (1996–2007), Coupe (1994–2000), Barchetta (1995–2005), Multipla (1999–2010), Seicento (1998–2010)
+  - **2000s**: Panda Mk2 (2003–2012), Grande Punto/Punto Evo (2006–2018), Bravo Mk2 (2007–2014), 500 "Nuova" (2007–present), Sedici (2006–2014), Idea (2003–2012), Croma Mk2 (2005–2010), Linea (2007–2018)
+  - **2010s**: 500 North America (2011–2019), 500L (2014–2020 NA), 500X (2016–present), 124 Spider (2017–2020), Tipo/Egea (2016–present), Toro pickup (2016–present), Argo/Cronos (2017–present)
+  - **2020s & Current**: 500e (2020 EU, 2024 US), 500X refresh (2022–present), 600e/600 Hybrid (2024–present), Fastback (2023 Brazil), Pulse SUV (2022 Brazil), Topolino quadricycle (2023), Panda replacement (2025), North America focus on 500e
+- [ ] Rivian
+  - **2010s**: R1T and R1S prototypes (2018 debut), Skateboard platform development, Amazon EDV contract (2019)
+  - **2020s & Current**: R1T production (2021–present), R1S (2022–present), Amazon EDV 500/700 vans (2021–present), Dual Motor/Max Pack updates (2023–present), R1 platform refresh (2024), R2 midsize SUV (2026 launch), R3 crossover (2027 target)
+- [ ] Lucid
+  - **2010s**: Atieva Formula E battery supply (2014–2017), Lucid Air concept reveal (2016), Alpha prototypes (2017)
+  - **2020s & Current**: Lucid Air production (2021–present), Air Sapphire (2023–present), Air Pure/Touring/Grand Touring trims, Gravity SUV launch (2025), Project Gravity development, future midsize model (2026 target)
+- [ ] Polestar
+  - **2010s**: Polestar performance tuning (pre-2017), Polestar 1 hybrid coupe development (2017 reveal, 2020–2021 production), Polestar 2 concept (2019)
+  - **2020s & Current**: Polestar 2 fastback (2020–present), Polestar 1 final (2020–2021), Polestar 3 SUV (2024–present), Polestar 4 coupe-SUV (2024–present China, 2025 NA), Polestar 5 GT (2025 launch), Polestar 6 roadster (2026), O2 and Synergy concepts
