@@ -138,9 +138,11 @@ vehicles/
 │       └── [service].html             # HTML documents
 │
 ├── 📁 docs/                           # System documentation
-│   ├── workflow/                      # Research workflow
+│   ├── archive/                       # Historical agent notes
+│   │   └── agent_notes/               # Legacy reports & handoffs
 │   ├── agents/                        # AI agent instructions
-│   └── service_system/                # Service system docs
+│   ├── service_system/                # Service system docs
+│   └── workflow/                      # Research workflow
 │
 ├── 📁 wip/                            # Research workspace
 │   └── [manufacturer]/                # Per-brand work folders
@@ -156,6 +158,10 @@ vehicles/
 ├── 📋 IMPLEMENTATION_GUIDE.md         # Technical implementation
 ├── 📋 SYSTEM_COMPLETE.md              # Architecture overview
 ├── 📋 CHECKLIST.md                    # Manufacturer coverage checklist
+├── 📋 ACCESS_INFO.md                  # Access URLs & walkthrough
+├── 📋 TODO.md                         # Open tasks
+├── 📋 TROUBLESHOOTING.md              # Common issues
+├── 📄 tracking.md                     # Research priorities & notes
 └── .env                               # API keys (DO NOT COMMIT!)
 ```
 
@@ -353,6 +359,9 @@ The next time you request that service/vehicle combination, it will be freshly g
 - **[docs/agents/CLAUDE.md](docs/agents/CLAUDE.md)** - AI agent workflows
 - **[docs/workflow/WORKFLOW.md](docs/workflow/WORKFLOW.md)** - Research process
 - **[docs/service_system/](docs/service_system/)** - Service system details
+
+### Historical Notes
+- **[docs/archive/agent_notes/](docs/archive/agent_notes/)** - Previous agent handoffs, status reports, and quick references
 
 ---
 
