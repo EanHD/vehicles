@@ -1,0 +1,454 @@
+[
+  {
+    "years": [
+      1984,
+      1985,
+      1986,
+      1987
+    ],
+    "make": "Toyota",
+    "model": "Corolla (E80, Fifth Generation)",
+    "engines": [
+      "1.3L 2E I4 (68 hp)",
+      "1.6L 4A-C I4 (78 hp)",
+      "1.6L 4A-GE I4 (112 hp)",
+      "1.6L 4A-GEC I4 (124 hp, JDM)",
+      "1.8L 1C diesel I4 (62 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic",
+      "6-speed manual (AE86)"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD",
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "3-door liftback",
+      "4-door sedan",
+      "5-door wagon"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.0,
+    "notes": "Fifth generation E80. Notable for AE86 RWD sport coupe (4A-GE engine, 1984-1987) - cult classic drift car. FWD models with transverse engines introduced. 1C diesel available. 4A-GE DOHC 16V performance engine in SR5 Sport GT-S. Timing belt service required. Data sourced from Wikipedia Toyota Corolla (E80) article, January 2025 revision."
+  },
+  {
+    "years": [
+      1988,
+      1989,
+      1990,
+      1991
+    ],
+    "make": "Toyota",
+    "model": "Corolla (E90, Sixth Generation)",
+    "engines": [
+      "1.3L 2E I4 (70 hp)",
+      "1.6L 4A-F I4 (90 hp)",
+      "1.6L 4A-FE I4 (102 hp)",
+      "1.6L 4A-GE I4 (115 hp)",
+      "1.6L 4A-FHE lean-burn I4 (110 hp)",
+      "1.8L 1C diesel I4 (64 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "3-speed automatic",
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "3-door liftback",
+      "4-door sedan",
+      "5-door wagon"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.0,
+    "notes": "Sixth generation E90. All-new FWD platform. Optional All-Trac 4WD system on sedan and wagon. 4A-FE became standard engine. GT-S model with 4A-GE DOHC engine. Lean-burn 4A-FHE in some markets. Timing belt service required. Data sourced from Wikipedia Toyota Corolla (E90) article, January 2025 revision."
+  },
+  {
+    "years": [
+      1993,
+      1994,
+      1995,
+      1996,
+      1997
+    ],
+    "make": "Toyota",
+    "model": "Corolla (E100, Seventh Generation)",
+    "engines": [
+      "1.3L 4E-FE I4 (82 hp)",
+      "1.5L 5A-FE I4 (88 hp)",
+      "1.6L 4A-FE I4 (105 hp, North America)",
+      "1.6L 4A-FE I4 (110 hp)",
+      "1.6L 4A-GE I4 (115-160 hp, AE101)",
+      "1.8L 7A-FE I4 (115-120 hp)",
+      "1.8L 1C diesel I4 (64 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "4-door sedan",
+      "5-door liftback",
+      "5-door wagon"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.0,
+    "notes": "Seventh generation E100. Rounded aerodynamic design. North America received 1.6L 4A-FE (105 hp) and 1.8L 7A-FE engines. Available All-Trac 4WD system. AE101 Levin/Trueno performance models with 4A-GE (up to 160 hp 20-valve). Timing belt service required. Data sourced from Wikipedia Toyota Corolla (E100) article, January 2025 revision."
+  },
+  {
+    "years": [
+      1998,
+      1999,
+      2000,
+      2001,
+      2002
+    ],
+    "make": "Toyota",
+    "model": "Corolla (E110, Eighth Generation)",
+    "engines": [
+      "1.3L 4E-FE I4 (86 hp)",
+      "1.4L 4ZZ-FE I4 (97 hp)",
+      "1.6L 4A-FE I4 (110 hp)",
+      "1.8L 1ZZ-FE I4 (120-125 hp)",
+      "1.8L 7A-FE I4 (115 hp)",
+      "2.0L 3S-FE I4 (128 hp, wagon)",
+      "2.2L 3C-E diesel I4 (79 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "5-door liftback",
+      "5-door wagon"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.0,
+    "notes": "Eighth generation E110. North America received 1.8L 1ZZ-FE VVT-i engine (125 hp). New ZZ engine family introduced with variable valve timing. Euro NCAP 3-star crash rating. Timing chain on 1ZZ-FE (no belt service). Some markets retained timing belts on 4A-FE and 7A-FE engines. Data sourced from Wikipedia Toyota Corolla (E110) article, January 2025 revision."
+  },
+  {
+    "years": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008
+    ],
+    "make": "Toyota",
+    "model": "Corolla (E120/E130, Ninth Generation)",
+    "engines": [
+      "1.3L 2NZ-FE I4 (87 hp)",
+      "1.4L 4ZZ-FE I4 (97 hp)",
+      "1.5L 1NZ-FE I4 (109 hp)",
+      "1.6L 3ZZ-FE I4 (110 hp)",
+      "1.8L 1ZZ-FE I4 (130-136 hp, North America)",
+      "1.8L 2ZR-FE I4 (132 hp, 2008+)",
+      "2.0L 1CD-FTV diesel I4 (90 hp)",
+      "2.2L 2AD-FTV diesel I4 (136 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "6-speed manual (2008+)",
+      "4-speed automatic",
+      "5-speed automatic (2008+)"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "5-door hatchback",
+      "5-door wagon"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.0,
+    "notes": "Ninth generation E120/E130. North America E120 with 1.8L 1ZZ-FE VVT-i (130 hp, 2003-2008). 2008 facelift introduced 2ZR-FE engine and 5-speed automatic. E130 JDM variant. Common D-4 direct injection on some engines. Timing chain on ZZ and ZR engines (no belt service). Euro diesel options with 1CD-FTV and 2AD-FTV. Data sourced from Wikipedia Toyota Corolla (E120) and (E130) articles, January 2025 revision."
+  },
+  {
+    "years": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2013
+    ],
+    "make": "Toyota",
+    "model": "Corolla (E140/E150, Tenth Generation)",
+    "engines": [
+      "1.3L 1NR-FE I4 (98 hp)",
+      "1.4L 4ZZ-FE I4 (97 hp)",
+      "1.5L 1NZ-FE I4 (109 hp)",
+      "1.6L 1ZR-FE I4 (122 hp, North America)",
+      "1.8L 2ZR-FE I4 (132 hp, North America)",
+      "2.0L 1ZR-FE I4 (144 hp)",
+      "1.4L 1ND-TV diesel I4 (90 hp)",
+      "2.0L 1CD-FTV diesel I4 (126 hp)",
+      "2.2L 2AD-FTV diesel I4 (150 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "6-speed manual",
+      "4-speed automatic",
+      "5-speed automatic",
+      "CVT"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "5-door hatchback",
+      "5-door wagon"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.0,
+    "notes": "Tenth generation E140/E150. North America E140 with 1.8L 2ZR-FE (132 hp) or 2.4L 2AZ-FE (158 hp, Matrix). 2011 facelift updated styling. E150 primarily Asia-Pacific markets. Optional CVT transmission. Valvematic variable valve lift on some engines. Timing chain on all engines (no belt service). Common D-4 or D-4S dual injection. Data sourced from Wikipedia Toyota Corolla (E140) and (E150) articles, January 2025 revision."
+  },
+  {
+    "years": [
+      1992,
+      1993,
+      1994,
+      1995,
+      1996
+    ],
+    "make": "Ford",
+    "model": "F-150 (Ninth Generation, OBS)",
+    "engines": [
+      "4.9L 300 Inline-6 (145-150 hp)",
+      "5.0L Windsor V8 (185-205 hp)",
+      "5.8L Windsor V8 (210 hp)",
+      "7.5L 460 V8 (245 hp)",
+      "7.3L IDI diesel V8 (185-210 hp)",
+      "7.3L Power Stroke diesel V8 (210 hp, 1994+)"
+    ],
+    "transmissions": [
+      "5-speed manual (M5OD-R2, Mazda M5OD)",
+      "4-speed automatic (E4OD, 4R70W)",
+      "5-speed automatic (E4OD)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "Regular Cab",
+      "SuperCab (extended cab)",
+      "Crew Cab"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Ninth generation F-150 (1992-1996), nicknamed 'OBS' (Old Body Style). Last generation with 300 I-6. Last generation with carbureted engines (1992 only). Introduction of 7.3L Power Stroke diesel in 1994 (first modern turbodiesel in F-Series). Hydraulic clutch fan. Twin I-beam front suspension. Extremely common in service today. Difficulty 1.2 due to Power Stroke diesel complexity and age-related component wear. Data sourced from Wikipedia Ford F-Series (ninth generation) article, January 2025 revision."
+  },
+  {
+    "years": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014
+    ],
+    "make": "Ford",
+    "model": "F-150 (Twelfth Generation)",
+    "engines": [
+      "4.6L 2V Triton V8 (248 hp, 2009-2010)",
+      "5.4L 3V Triton V8 (310 hp, 2009-2010)",
+      "3.7L Cyclone V6 (302 hp, 2011-2014)",
+      "5.0L Coyote V8 (360-385 hp, 2011-2014)",
+      "6.2L Boss V8 (411 hp, 2011-2014)",
+      "3.5L EcoBoost V6 (365 hp, 2011-2014)"
+    ],
+    "transmissions": [
+      "6-speed automatic (6R80, 6R100)",
+      "6-speed manual (only with 3.7L V6)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "Regular Cab",
+      "SuperCab (extended cab)",
+      "SuperCrew (crew cab)",
+      "SVT Raptor (2010-2014)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Twelfth generation F-150 (2009-2014). Major powertrain revolution in 2011 with introduction of 3.5L EcoBoost twin-turbo V6 (365 hp) and 5.0L Coyote V8. First F-150 with turbocharged engine. All-new 6R80 6-speed automatic. SVT Raptor with 6.2L V8 (411 hp, 2011+). Timing chains on all engines. EcoBoost requires premium fuel and has turbo/intercooler complexity. Difficulty 1.1 for EcoBoost turbos and direct injection carbon buildup. Data sourced from Wikipedia Ford F-Series (twelfth generation) article, January 2025 revision."
+  },
+  {
+    "years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013
+    ],
+    "make": "Chevrolet",
+    "model": "Silverado 1500 (GMT900, Second Generation)",
+    "engines": [
+      "4.3L Vortec 4300 V6 (195 hp, 2007 only)",
+      "4.8L Vortec 4800 V8 (295 hp)",
+      "5.3L Vortec 5300 V8 (315-320 hp)",
+      "6.0L Vortec 6000 V8 (353-366 hp, HD models)",
+      "6.2L Vortec 6200 V8 (403 hp, 2009+)"
+    ],
+    "transmissions": [
+      "4-speed automatic (4L60E, 4L70E)",
+      "6-speed automatic (6L80E, 6L90E)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "Regular Cab",
+      "Extended Cab",
+      "Crew Cab"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "GMT900 platform Silverado 1500 (2007-2013). All-new body-on-frame architecture. Active Fuel Management (cylinder deactivation) on 5.3L and 6.0L engines. Hybrid model available (2007-2013) with 6.0L Vortec + electric motors (332 hp combined). Six-speed automatics standard from 2009. Electronic throttle control. Timing chain on all engines. DoD/AFM lifter failure common on 5.3L. Data sourced from Wikipedia Chevrolet Silverado GMT900 article, January 2025 revision."
+  },
+  {
+    "years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014
+    ],
+    "make": "Chevrolet",
+    "model": "Silverado 2500HD/3500HD (GMT900, Second Generation)",
+    "engines": [
+      "6.0L Vortec 6000 V8 (353-360 hp)",
+      "6.6L Duramax LMM diesel V8 (365 hp, 660 lb-ft, 2007-2010)",
+      "6.6L Duramax LML diesel V8 (397 hp, 765 lb-ft, 2011-2014)"
+    ],
+    "transmissions": [
+      "6-speed automatic (6L90, Allison 1000)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "Regular Cab",
+      "Extended Cab",
+      "Crew Cab"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "GMT900 platform Silverado HD (2007-2014). Heavy-duty truck with Duramax diesel option. LMM Duramax (2007-2010) with DPF exhaust aftertreatment. LML Duramax (2011+) with DEF (urea) injection for emissions. Allison 1000 six-speed automatic with diesel. CP4.2 high-pressure fuel pump on LML. Independent front torsion bar suspension. Difficulty 1.2 due to Duramax diesel complexity, DPF/DEF systems, and CP4.2 fuel pump failures. Data sourced from Wikipedia Chevrolet Silverado GMT900 article, January 2025 revision."
+  },
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "make": "Chevrolet",
+    "model": "Silverado 1500 (K2XX, Third Generation)",
+    "engines": [
+      "4.3L EcoTec3 V6 (285 hp)",
+      "5.3L EcoTec3 V8 (355 hp)",
+      "6.2L EcoTec3 V8 (420 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic (6L80E, 6L90E)",
+      "8-speed automatic (8L90, 2015+)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "Regular Cab",
+      "Double Cab",
+      "Crew Cab"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "K2XX platform Silverado 1500 (2014-2018). All-new EcoTec3 engine family with direct injection and cylinder deactivation. Eight-speed automatic (8L90) introduced 2015. Aluminum hood and tailgate for weight reduction. Magnetic Ride Control suspension optional. Variable valve timing on all engines. Direct injection carbon buildup on intake valves. Timing chains on all engines. AFM/DFM lifter issues continue. Data sourced from Wikipedia Chevrolet Silverado K2XX article, January 2025 revision."
+  },
+  {
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "make": "Chevrolet",
+    "model": "Silverado 2500HD/3500HD (K2XX, Third Generation)",
+    "engines": [
+      "6.0L Vortec 6000 V8 (360 hp)",
+      "6.6L Duramax L5P diesel V8 (445 hp, 910 lb-ft, 2017-2019)"
+    ],
+    "transmissions": [
+      "6-speed automatic (6L90)",
+      "Allison 1000 6-speed automatic (with diesel)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "Regular Cab",
+      "Double Cab",
+      "Crew Cab"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "K2XX platform Silverado HD (2015-2019). All-new L5P Duramax diesel introduced 2017 (445 hp, 910 lb-ft) - first Duramax without EGR cooler. Allison 1000 six-speed automatic with diesel. Improved DEF system. Diesel exhaust brake. Towing capacity up to 23,100 lbs. 6.0L Vortec gas option continues. Difficulty 1.2 due to Duramax diesel complexity and DEF/DPF emissions systems. Data sourced from Wikipedia Chevrolet Silverado K2XX article, January 2025 revision."
+  }
+]

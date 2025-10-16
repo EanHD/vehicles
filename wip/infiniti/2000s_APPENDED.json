@@ -1,0 +1,441 @@
+[
+  {
+    "years": [
+      2000,
+      2001,
+      2002
+    ],
+    "make": "Infiniti",
+    "model": "G20 (P11)",
+    "engines": [
+      "2.0L I4 SR20DE (140 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact luxury sedan based on Nissan Primera P11. SR20DE engine features variable valve timing. Front-wheel drive only. Production ended in 2002. Data sourced from Wikipedia Infiniti G article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2000,
+      2001
+    ],
+    "make": "Infiniti",
+    "model": "I30 (A32)",
+    "engines": [
+      "3.0L V6 VQ30DE (227 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Mid-size luxury sedan based on Nissan Cefiro/Maxima A32. VQ30DE V6 features variable valve timing. Front-wheel drive only. Replaced by I35 in 2002. Data sourced from Wikipedia Infiniti I article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2002,
+      2003,
+      2004
+    ],
+    "make": "Infiniti",
+    "model": "I35 (A33)",
+    "engines": [
+      "3.5L V6 VQ35DE (255 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Mid-size luxury sedan replacing I30. Based on Nissan Maxima A33. VQ35DE V6 features variable valve timing and aluminum block. Front-wheel drive only. Production ended in 2004. Data sourced from Wikipedia Infiniti I article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2000,
+      2001,
+      2002,
+      2003
+    ],
+    "make": "Infiniti",
+    "model": "QX4 (R50)",
+    "engines": [
+      "3.3L V6 VG33E (170 hp)",
+      "3.5L V6 VQ35DE (240 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "4-door luxury SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Luxury SUV based on Nissan Pathfinder R50. Body-on-frame construction. VQ35DE engine introduced for 2001+ models. Part-time 4WD system with low-range transfer case. Production ended in 2003. Data sourced from Wikipedia Infiniti QX4 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2002,
+      2003,
+      2004,
+      2005,
+      2006
+    ],
+    "make": "Infiniti",
+    "model": "Q45 (F50)",
+    "engines": [
+      "4.5L V8 VK45DE (340 hp)"
+    ],
+    "transmissions": [
+      "5-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Flagship luxury sedan third generation. Features VK45DE V8 with variable valve timing. Advanced suspension and interior technology. Production ended in 2006. Data sourced from Wikipedia Infiniti Q45 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2003,
+      2004,
+      2005,
+      2006
+    ],
+    "make": "Infiniti",
+    "model": "G35 Sedan (V35)",
+    "engines": [
+      "3.5L V6 VQ35DE (260-298 hp)"
+    ],
+    "transmissions": [
+      "5-speed automatic",
+      "6-speed manual"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Sports luxury sedan based on Nissan Skyline V35. VQ35DE V6 features variable valve timing and REV-UP in later years. FM platform with rear-wheel drive. ATTESA E-TS AWD system optional. Data sourced from Wikipedia Infiniti G-series (Q40/Q60) article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007
+    ],
+    "make": "Infiniti",
+    "model": "G35 Coupe (V35)",
+    "engines": [
+      "3.5L V6 VQ35DE (280-298 hp)"
+    ],
+    "transmissions": [
+      "5-speed automatic",
+      "6-speed manual"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Sports coupe sharing FM platform with G35 sedan. Rear-wheel drive only. Available with 6-speed manual or 5-speed automatic transmission. Features Brembo brakes on Sport models. Data sourced from Wikipedia Infiniti G-series (Q40/Q60) article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2007,
+      2008
+    ],
+    "make": "Infiniti",
+    "model": "G35 Sedan (V36)",
+    "engines": [
+      "3.5L V6 VQ35HR (306 hp)"
+    ],
+    "transmissions": [
+      "5-speed automatic",
+      "6-speed manual"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation sports sedan on FM platform. VQ35HR features high-revving capability and variable valve event/lift (VVEL). Available with manual transmission and AWD. Data sourced from Wikipedia Infiniti G-series (Q40/Q60) article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2008,
+      2009
+    ],
+    "make": "Infiniti",
+    "model": "G37 Coupe (V36)",
+    "engines": [
+      "3.7L V6 VQ37VHR (330 hp)"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Performance coupe featuring VQ37VHR engine with variable valve event/lift (VVEL). Available with 6-speed manual or 7-speed automatic. Sport package includes limited-slip differential and sport brakes. Data sourced from Wikipedia Infiniti G-series (Q40/Q60) article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2003,
+      2004
+    ],
+    "make": "Infiniti",
+    "model": "M45 (Y34)",
+    "engines": [
+      "4.5L V8 VK45DE (340 hp)"
+    ],
+    "transmissions": [
+      "5-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Performance luxury sedan first generation. Based on Nissan Gloria/Fuga Y34. Features VK45DE V8 with variable valve timing. All-wheel steering system available. Data sourced from Wikipedia Infiniti M article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2006,
+      2007,
+      2008,
+      2009
+    ],
+    "make": "Infiniti",
+    "model": "M35/M45 (Y50)",
+    "engines": [
+      "3.5L V6 VQ35DE (275 hp, later 303 hp)",
+      "4.5L V8 VK45DE (325 hp)"
+    ],
+    "transmissions": [
+      "5-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation luxury sedan on FM platform. Features advanced suspension and safety systems. Available with AWD. M35x offers all-wheel drive with ATTESA E-TS system. Data sourced from Wikipedia Infiniti M article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008
+    ],
+    "make": "Infiniti",
+    "model": "FX35/FX45 (S50)",
+    "engines": [
+      "3.5L V6 VQ35DE (280 hp)",
+      "4.5L V8 VK45DE (315 hp)"
+    ],
+    "transmissions": [
+      "5-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door luxury performance crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Performance luxury crossover on FM platform. Features sport-tuned suspension and bold styling. Available with rear-wheel drive or ATTESA E-TS all-wheel drive. Data sourced from Wikipedia Infiniti FX article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2009
+    ],
+    "make": "Infiniti",
+    "model": "FX35/FX50 (S51)",
+    "engines": [
+      "3.5L V6 VQ35HR (303 hp)",
+      "5.0L V8 VK50VE (390 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door luxury performance crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation performance crossover. FX50 features VK50VE V8 with VVEL variable valve technology. Advanced suspension and performance features. Data sourced from Wikipedia Infiniti FX article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009
+    ],
+    "make": "Infiniti",
+    "model": "QX56 (JA60)",
+    "engines": [
+      "5.6L V8 VK56DE (315 hp)"
+    ],
+    "transmissions": [
+      "5-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "4-door full-size luxury SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Full-size luxury SUV based on Nissan Armada/Titan platform. Body-on-frame construction. Features hydraulic body motion control and part-time 4WD with low range. Data sourced from Wikipedia Infiniti QX56 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2010
+    ],
+    "make": "Infiniti",
+    "model": "QX56 (JA60)",
+    "engines": [
+      "5.6L V8 VK56VD (400 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "4-door full-size luxury SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Updated with VK56VD engine featuring VVEL variable valve technology for 2010. Power increased to 400 hp. 7-speed automatic transmission. Redesigned for 2011 (Z62 generation). Data sourced from Wikipedia Infiniti QX56 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2008,
+      2009
+    ],
+    "make": "Infiniti",
+    "model": "EX35 (J50)",
+    "engines": [
+      "3.5L V6 VQ35HR (297 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door luxury crossover coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact luxury crossover coupe based on FM platform (Nissan Skyline/G37). Features Around View Monitor and advanced safety systems. ATTESA E-TS all-wheel drive system on AWD models. Data sourced from Wikipedia Infiniti EX article, January 17, 2025 revision."
+  }
+]

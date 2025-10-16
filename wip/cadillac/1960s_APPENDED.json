@@ -1,0 +1,100 @@
+[
+  {
+    "years": [1965, 1966, 1967, 1968, 1969, 1970],
+    "make": "Cadillac",
+    "model": "Calais (C-body)",
+    "engines": [
+      "7.0L V8 (429 cu in, 340 hp, 1965-1967)",
+      "7.7L V8 (472 cu in, 375 hp, 1968-1970)"
+    ],
+    "transmissions": [
+      "3-speed Turbo Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door hardtop coupe", "4-door hardtop sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Entry-level full-size luxury car on C-body platform, replaced Series 62. Identical styling and mechanics to more expensive DeVille. 129.5 in wheelbase. 429 cu in V8 (340 hp) for 1965-1967, upgraded to 472 cu in V8 (375 hp) for 1968-1970. Turbo Hydra-Matic became standard 1965. 1960s portion only (1965-1970). Data sourced from web research, December 19, 2024."
+  },
+  {
+    "years": [1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970],
+    "make": "Cadillac",
+    "model": "DeVille (C-body)",
+    "engines": [
+      "6.4L V8 (390 cu in, 325 hp, 1959-1963)",
+      "7.0L V8 (429 cu in, 340 hp, 1964-1967)",
+      "7.7L V8 (472 cu in, 375 hp, 1968-1970)"
+    ],
+    "transmissions": [
+      "4-speed Hydra-Matic automatic (1959-1964)",
+      "3-speed Turbo Hydra-Matic automatic (1965-1970)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door hardtop coupe", "2-door convertible", "4-door hardtop sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Full-size luxury car on C-body platform. Engine progression: 390 cu in V8 (325 hp, 1959-1963), 429 cu in V8 (340 hp, 1964-1967), 472 cu in V8 (375 hp at 4400 rpm, 525 lb-ft torque at 3000 rpm, 1968-1970). Turbo Hydra-Matic transmission standard from 1965. Iconic tailfins in early 1960s. 1960s portion only (1959-1970). Data sourced from Wikipedia and web research, December 19, 2024."
+  },
+  {
+    "years": [1965, 1966, 1967, 1968, 1969, 1970],
+    "make": "Cadillac",
+    "model": "Fleetwood Sixty Special / Brougham",
+    "engines": [
+      "7.0L V8 (429 cu in, 340 hp, 1965-1967)",
+      "7.7L V8 (472 cu in, 375 hp, 1968-1970)"
+    ],
+    "transmissions": [
+      "3-speed Turbo Hydra-Matic 400 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door hardtop sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Premium luxury sedan on stretched C-body platform with 133 in wheelbase (longer than other Cadillacs). Brougham option package introduced 1965, became separate model 1966. Standard features: real wood trim, power windows, power ventipanes, power front seat, automatic level control. Brougham added padded vinyl roof, walnut trim, rear writing tables (through 1967), foot rests, reading lamps. 429 cu in V8 (1965-1967), 472 cu in V8 (1968-1970). 1960s portion only (1965-1970). Data sourced from web research, December 19, 2024."
+  },
+  {
+    "years": [1967, 1968, 1969, 1970],
+    "make": "Cadillac",
+    "model": "Eldorado (Seventh generation, E-body FWD)",
+    "engines": [
+      "7.0L V8 (429 cu in, 340 hp, 480 lb-ft, 1967)",
+      "7.7L V8 (472 cu in, 375 hp, 525 lb-ft, 1968-1970)"
+    ],
+    "transmissions": [
+      "3-speed Turbo Hydra-Matic 425 automatic (FWD)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door hardtop coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Personal luxury coupe radically redesigned 1967 as Cadillac's first front-wheel drive production car. Adapted Oldsmobile Toronado FWD unified powerplant package. 221 inches long, 4,700 lbs. 0-60 mph under 9 seconds, 120 mph top speed. 429 cu in V8 (340 hp) for 1967, upgraded to 472 cu in V8 (375 hp) for 1968-1970. Platform remained through 1978. 1960s portion only (1967-1970). Data sourced from Wikipedia and web research, December 19, 2024."
+  },
+  {
+    "years": [1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970],
+    "make": "Cadillac",
+    "model": "Series 75 (Fleetwood Seventy-Five limousine)",
+    "engines": [
+      "6.4L V8 (390 cu in, 325 hp, 1960-1963)",
+      "7.0L V8 (429 cu in, 340 hp, 1964-1967)",
+      "7.7L V8 (472 cu in, 375 hp, 1968-1970)"
+    ],
+    "transmissions": [
+      "4-speed Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan (9-passenger)", "4-door limousine"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Ultra-luxury limousine on extended wheelbase (149.75-156 in). Available as 9-passenger sedan or limousine with division window. Chauffeur compartment upholstered in leather, rear in Bedford cord or wool cloth. Weight approximately 5,500 lbs. Engine progression: 390 cu in V8 (1960-1963), 429 cu in V8 (1964-1967), 472 cu in V8 (1968-1970). Priced $9,533-$9,748 in 1960. Series 75 designation dropped 1977. 1960s portion only (1960-1970). Data sourced from web research, December 19, 2024."
+  }
+]

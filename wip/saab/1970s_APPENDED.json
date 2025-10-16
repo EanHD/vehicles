@@ -1,0 +1,44 @@
+[
+  {
+    "years": [1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979],
+    "make": "Saab",
+    "model": "99",
+    "engines": ["1.7L I4 (87 hp)", "1.85L I4 (95 hp)", "2.0L I4 (108 hp)", "2.0L I4 turbo (145 hp)"],
+    "transmissions": ["4-speed manual", "5-speed manual", "3-speed automatic"],
+    "region": "European",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door sedan", "3-door hatchback"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Saab 99 compact executive car. First turbocharged production Saab (1978). Front-wheel drive with longitudinal engine. Triumph-derived engine initially, later Saab B engine. Timing chain. Strong North American presence. Data sourced from Wikipedia Saab 99 article, January 2025 revision."
+  },
+  {
+    "years": [1970, 1971, 1972, 1973, 1974],
+    "make": "Saab",
+    "model": "Sonett III",
+    "engines": ["1.7L V4 (65 hp Ford Taunus)"],
+    "transmissions": ["4-speed manual"],
+    "region": "European",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door sports coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Saab Sonett III sports coupe (1970-1974). Fiberglass body, designed by Sergio Coggiola. Ford V4 engine. Front-wheel drive. Majority exported to North America. Timing chain. Data sourced from Wikipedia Saab Sonett article, January 2025 revision."
+  },
+  {
+    "years": [1979],
+    "make": "Saab",
+    "model": "900",
+    "engines": ["2.0L I4 (100 hp)", "2.0L I4 turbo (145 hp)"],
+    "transmissions": ["4-speed manual", "5-speed manual", "3-speed automatic"],
+    "region": "European",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door hatchback", "3-door hatchback", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "First-generation Saab 900 launch year (1979-1993). Based on Saab 99 platform. Turbo variants available. Front-wheel drive with longitudinal engine. Iconic Swedish design. Timing chain engines. Data sourced from Wikipedia Saab 900 article, January 2025 revision."
+  }
+]

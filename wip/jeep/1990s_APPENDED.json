@@ -1,0 +1,72 @@
+[
+  {
+    "years": [1990, 1991, 1992, 1993, 1994, 1995],
+    "make": "Jeep",
+    "model": "Wrangler (YJ)",
+    "engines": ["2.5L AMC I4 (150 CID)", "4.0L AMC I6 (242 CID, 177-190 hp) - introduced 1991"],
+    "transmissions": ["5-speed manual (Aisin AX-15)", "5-speed manual (Peugeot BA-10/5)", "3-speed automatic (TorqueFlite TF904)", "3-speed automatic (TorqueFlite TF999/32RH)"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door convertible", "2-door SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "YJ generation with distinctive rectangular headlights. Transfer case: New Process NP231. Data sourced from Wikipedia Jeep Wrangler (YJ) article, January 2025 revision."
+  },
+  {
+    "years": [1997, 1998, 1999],
+    "make": "Jeep",
+    "model": "Wrangler (TJ)",
+    "engines": ["2.5L AMC I4 (150 CID, 2.5L)", "4.0L AMC I6 (242 CID, 190 hp, 235 lb-ft)"],
+    "transmissions": ["5-speed manual (Aisin AX-15)", "3-speed automatic (TorqueFlite 30RH)", "3-speed automatic (TorqueFlite 32RH)"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door convertible", "2-door SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "TJ generation reintroduced round headlights. Available with rear-wheel drive or four-wheel drive configurations. Data sourced from Wikipedia Jeep Wrangler (TJ) article, January 2025 revision."
+  },
+  {
+    "years": [1993, 1994, 1995, 1996, 1997, 1998],
+    "make": "Jeep",
+    "model": "Grand Cherokee (ZJ)",
+    "engines": ["4.0L AMC I6 (242 CID, 1993-1995: 190 hp/225 lb-ft, 1996-1998: 185 hp/220 lb-ft)", "5.2L Chrysler Magnum V8 (318 CID, 225 hp, 300 lb-ft)", "5.9L Chrysler Magnum V8 (360 CID, 245 hp, 345 lb-ft) - 1998 only"],
+    "transmissions": ["5-speed manual (Aisin AX15, 1993-1994)", "4-speed automatic (AW4)", "4-speed automatic (42RE)", "4-speed automatic (46RH)", "4-speed automatic (44RE)", "4-speed automatic (46RE)"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["4-door SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "ZJ generation offered multiple 4WD systems: Command-Trac (part-time, until 1996), Selec-Trac (full-time/part-time), and Quadra-Trac (permanent all-time). Trim levels included Base/SE, Laredo, Limited, Special Edition, TSi, Orvis Edition, and 5.9 Limited. Data sourced from Wikipedia Jeep Grand Cherokee (ZJ) article, January 2025 revision."
+  },
+  {
+    "years": [1999],
+    "make": "Jeep",
+    "model": "Grand Cherokee (WJ)",
+    "engines": ["4.0L AMC Power-Tech I6 (242 CID, 195 hp @ 4600 rpm, 230 lb-ft @ 3000 rpm)", "4.7L PowerTech V8 (287 CID, 235 hp @ 4800 rpm, 295 lb-ft @ 3200 rpm)"],
+    "transmissions": ["4-speed automatic (42RE with I6)", "4-speed automatic (45RFE with V8)"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["4-door SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "WJ generation introduced in 1999 model year with improved refinement and new V8 engine option. Available in 2WD rear-wheel drive or 4WD configurations. Data sourced from Wikipedia Jeep Grand Cherokee (WJ) article, January 2025 revision."
+  },
+  {
+    "years": [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999],
+    "make": "Jeep",
+    "model": "Cherokee (XJ)",
+    "engines": ["2.5L I4 (150 CID, 130 hp @ 5,250 rpm) - 1991-1996", "4.0L I6 (242 CID, 177 hp @ 4,500 rpm) - 1988-1990 Renix MPI", "4.0L I6 (242 CID, 190 hp @ 4,750 rpm) - 1991-1999 Chrysler MPI"],
+    "transmissions": ["5-speed manual (Aisin AX-5)", "5-speed manual (Aisin AX-15, late 1989-1999)", "4-speed automatic (Aisin AW-4 with 4.0L I6)", "3-speed automatic (Chrysler 30RH with 2.5L I4)"],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": ["2-door SUV", "4-door SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "XJ generation compact SUV available throughout 1990s. 4WD models offered Command-Trac or Selec-Trac transfer cases. Fuel system transitioned from Renix MPI to Chrysler MPI in 1991. Data sourced from Wikipedia Jeep Cherokee (XJ) article, January 2025 revision."
+  }
+]

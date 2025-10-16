@@ -1,0 +1,30 @@
+[
+  {
+    "years": [1986, 1987, 1988, 1989, 1990],
+    "make": "Acura",
+    "model": "Legend (First Generation, KA3/KA4)",
+    "engines": ["2.5L C25A V6 (151 hp)", "2.7L C27A V6 (161 hp)"],
+    "transmissions": ["4-speed automatic", "5-speed manual"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan", "2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First Acura model and first production Honda with V6 engine. Sedan launched 1986 with 2.5L C25A (151 hp). Coupe introduced 1987 with 2.7L C27A (161 hp), later adopted by sedans. 1987 coupe was first Japanese car with driver's side airbag. Data sourced from Wikipedia Acura Legend article, January 2025 revision."
+  },
+  {
+    "years": [1986, 1987, 1988, 1989],
+    "make": "Acura",
+    "model": "Integra (First Generation, DA/DB)",
+    "engines": ["1.6L D16A1 DOHC I4 (113-118 hp)"],
+    "transmissions": ["4-speed automatic", "5-speed manual"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["3-door liftback", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation Integra launched alongside Legend in 1986 as Acura's founding models. 1.6L DOHC 16-valve engine: early 'Browntop' D16A1 (1986-1987) produced 113 hp, updated 'Blacktop' (1988-1989) produced 118 hp. Available as 3-door liftback or 4-door sedan. Data sourced from Wikipedia Acura Integra article, January 2025 revision."
+  }
+]

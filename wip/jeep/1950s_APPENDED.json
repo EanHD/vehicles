@@ -1,0 +1,72 @@
+[
+  {
+    "years": [1953, 1954, 1955, 1956, 1957, 1958, 1959],
+    "make": "Jeep",
+    "model": "CJ-3B",
+    "engines": ["2.2L (134 cu in) Hurricane I4"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door open-top utility vehicle"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Replaced CJ-3A in 1953 with higher grille and hood to accommodate new Willys Hurricane engine. Total production of ~196,000 (155,494 U.S. assembled). Could be converted to M606 military variant. 4-speed manual transmission added as option in 1963. 1950s-era leaf spring suspension, Dana axles, manual locking hubs. Manual choke carburetors, 6-volt electrical system, points-based ignition require specialized vintage vehicle expertise. Data sourced from Wikipedia Jeep CJ article, January 2025 revision."
+  },
+  {
+    "years": [1954, 1955, 1956, 1957, 1958, 1959],
+    "make": "Jeep",
+    "model": "CJ-5",
+    "engines": ["2.2L (134 cu in) Hurricane I4"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door open-top utility vehicle"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Introduced 1954, influenced by Kaiser and Korean War M38A1 Jeep. Initial engine was Willys Hurricane 4-cylinder. Leaf spring suspension, Dana axles, manual locking hubs. Manual choke carburetors, 6-volt electrical system, points-based ignition. 1950s-era vintage vehicle requiring specialized restoration and maintenance knowledge. Buick V6 and AMC engines not introduced until 1960s. Data sourced from Wikipedia Jeep CJ article, January 2025 revision."
+  },
+  {
+    "years": [1955, 1956, 1957, 1958, 1959],
+    "make": "Jeep",
+    "model": "CJ-6",
+    "engines": ["2.2L (134 cu in) Hurricane I4"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door long-wheelbase open-top utility vehicle"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Introduced 1955 as stretched CJ-5 with 20 inches added to wheelbase (101 inches). Primarily exported to Sweden and South America. Total production of 50,172 units across entire run (1955-1981). Leaf spring suspension, Dana axles, manual locking hubs. Manual choke carburetors, 6-volt electrical system, points-based ignition. 1950s-era vintage vehicle requiring specialized knowledge. Data sourced from Wikipedia Jeep CJ article, January 2025 revision."
+  },
+  {
+    "years": [1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959],
+    "make": "Jeep",
+    "model": "Station Wagon",
+    "engines": ["2.2L (134 cu in) F-134 Hurricane I4", "2.6L (161 cu in) F-161 Hurricane I4", "3.7L (226 cu in) Super Hurricane flathead I6"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door station wagon", "4-door station wagon", "Panel truck"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "One of Willys' most successful post-WWII models. 1950 introduced F-134 Hurricane engine and V-shaped grille. 1952 added F-161 Hurricane. 1954 introduced 6-226 Super Hurricane flathead I6. 1955 renamed 'Utility Wagon' after Willys withdrew from passenger car market. 1958 introduced luxury 'Maverick' model (2WD, two-tone paint, AM radio). Vintage leaf spring suspension, drum brakes. 6-volt electrical systems, manual choke, points ignition require vintage vehicle expertise. Data sourced from Wikipedia Willys Jeep Station Wagon article, January 2025 revision."
+  },
+  {
+    "years": [1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959],
+    "make": "Jeep",
+    "model": "Truck",
+    "engines": ["2.2L (134 cu in) Go-Devil I4", "2.2L (134 cu in) Hurricane F4-134 I4 (63-72 hp)", "3.7L (226 cu in) Super Hurricane I6"],
+    "transmissions": ["3-speed manual (Borg-Warner T-90)"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door pickup", "Platform stake truck", "Cab and chassis", "Bare chassis"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Model 473 (1950-1952) and Model 475 (1953-1959+). Go-Devil I4 standard in 1950, Hurricane F4-134 I4 became standard (power increased from 63 to 72 hp in 1951). Super Hurricane 6-226 I6 introduced 1954. Borg-Warner T-90 3-speed manual transmission. Final drive ratios: 5.38:1 standard, 4.88:1 and 6.17:1 optional. 1950 restyled with V-shaped grille (5 horizontal bars), changed to 3 bars in 1953. Vintage leaf spring suspension, drum brakes, 6-volt electrical system, manual choke, points ignition require vintage vehicle expertise. Data sourced from Wikipedia Willys Jeep Truck article, January 2025 revision."
+  }
+]

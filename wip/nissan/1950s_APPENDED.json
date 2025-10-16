@@ -1,0 +1,113 @@
+[
+  {
+    "years": [1958, 1959, 1960],
+    "make": "Nissan",
+    "model": "Datsun 210 (PL210)",
+    "engines": [
+      "1.0L E-series I4 (34 hp)"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "The first U.S.-market Datsun passenger car, the PL210 arrived in 1958 with a 988 cc E-series engine (34 hp), column-shift 4-speed manual, and 12-volt electrics—requiring scarce parts and careful valve adjustments, so vintage microcar complexity sets difficulty at 1.2. Data sourced from Wikipedia Datsun 210 article, October 9, 2025 revision."
+  },
+  {
+    "years": [1957, 1958, 1959],
+    "make": "Nissan",
+    "model": "Datsun 113/114",
+    "engines": [
+      "1.0L C-series I4 (37 hp)"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "The Datsun 113/114 sedans improved on the 110 with a slightly larger C-series OHV four and full synchromesh transmission, imported in small volumes to North America; fragile trim and limited documentation require specialty restoration skills, keeping difficulty at 1.2. Data sourced from Wikipedia Datsun 1000 article, October 8, 2025 revision."
+  },
+  {
+    "years": [1959, 1960, 1961, 1962, 1963, 1964],
+    "make": "Nissan",
+    "model": "Datsun 220/223 Pickup",
+    "engines": [
+      "1.0L E-series I4",
+      "1.2L E-series I4"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "Single cab pickup"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "The 220 and improved 223 Datsun pickups established Nissan’s U.S. truck presence with E-series inline-fours, column-shift 4-speeds, and 1-ton payload ratings; vintage drum brakes and scarce drivetrain parts increase service difficulty to 1.2. Data sourced from Wikipedia Datsun truck article, October 9, 2025 revision."
+  },
+  {
+    "years": [1959, 1960],
+    "make": "Nissan",
+    "model": "Datsun Sports DC-3",
+    "engines": [
+      "1.0L C-series I4 (37 hp)"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door roadster"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "The limited-run Datsun Sports DC-3 roadster reached select U.S. dealers in 1959 with a 1.0L C-series engine and 4-speed manual; hand-built bodywork, cable-operated brakes, and extremely limited parts push difficulty to 1.3. Data sourced from Wikipedia Datsun Sports article, October 9, 2025 revision."
+  },
+  {
+    "years": [1959, 1960],
+    "make": "Nissan",
+    "model": "Patrol 60 (early)",
+    "engines": [
+      "4.0L P40 I6 (145 hp)"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "4WD"
+    ],
+    "body_styles": [
+      "2-door soft top"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Early U.S. Patrol shipments in 1959 featured the P40 inline-six, 4-speed manual, and part-time 4WD; heavy-duty leaf springs, drum brakes, and minimal documentation elevate service difficulty to 1.3. Data sourced from Wikipedia Nissan Patrol article, October 11, 2025 revision."
+  }
+]

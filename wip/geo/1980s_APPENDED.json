@@ -1,0 +1,58 @@
+[
+  {
+    "years": [1989],
+    "make": "Geo",
+    "model": "Metro",
+    "engines": ["1.0L I3 (55 hp)", "1.0L I3 turbo (70 hp)"],
+    "transmissions": ["5-speed manual", "3-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door hatchback", "3-door hatchback", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Geo Metro rebadged Suzuki Swift/Cultus. Built in Canada (CAMI Automotive) and imported from Japan. Fuel-efficient subcompact with 1.0L three-cylinder engine. Timing belt maintenance required. Data sourced from Wikipedia Geo Metro article, January 2025 revision."
+  },
+  {
+    "years": [1989],
+    "make": "Geo",
+    "model": "Prizm",
+    "engines": ["1.6L I4 (102 hp)"],
+    "transmissions": ["5-speed manual", "3-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Geo Prizm rebadged Toyota Corolla (E90). Built at NUMMI plant in Fremont, California (GM-Toyota joint venture). Shares platform, engines, and transmissions with Corolla. Timing belt engine. Data sourced from Wikipedia Geo Prizm article, January 2025 revision."
+  },
+  {
+    "years": [1989],
+    "make": "Geo",
+    "model": "Tracker",
+    "engines": ["1.6L I4 (80 hp)"],
+    "transmissions": ["5-speed manual", "3-speed automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door convertible SUV", "2-door hardtop SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Geo Tracker rebadged Suzuki Sidekick/Vitara. Built at CAMI Automotive in Ontario, Canada. Compact SUV with body-on-frame construction, part-time 4WD available. Timing belt maintenance required. Data sourced from Wikipedia Geo Tracker article, January 2025 revision."
+  },
+  {
+    "years": [1989],
+    "make": "Geo",
+    "model": "Spectrum",
+    "engines": ["1.5L I4 (70 hp)"],
+    "transmissions": ["5-speed manual", "3-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door coupe", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Geo Spectrum rebadged Isuzu I-Mark. Only sold in 1989 model year under Geo brand. Front-wheel drive subcompact. Timing belt engine. Replaced by Geo Storm for 1990. Data sourced from Wikipedia Geo Spectrum article, January 2025 revision."
+  }
+]

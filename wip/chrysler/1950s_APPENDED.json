@@ -1,0 +1,194 @@
+[
+  {
+    "years": [
+      1950,
+      1951,
+      1952,
+      1953,
+      1954,
+      1955,
+      1956,
+      1957,
+      1958,
+      1959
+    ],
+    "make": "Chrysler",
+    "model": "New Yorker",
+    "engines": [
+      "5.4L V8",
+      "5.8L V8",
+      "6.4L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "2-door hardtop",
+      "4-door hardtop",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Data sourced from Wikipedia Chrysler New Yorker article, October 13, 2025 revision."
+  },
+  {
+    "years": [
+      1955,
+      1956,
+      1957,
+      1958,
+      1959
+    ],
+    "make": "Chrysler",
+    "model": "Imperial",
+    "engines": [
+      "5.8L V8",
+      "6.4L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "2-door hardtop",
+      "4-door hardtop",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Data sourced from Wikipedia Chrysler Imperial article, October 13, 2025 revision."
+  },
+  {
+    "years": [
+      1955,
+      1956,
+      1957,
+      1958,
+      1959
+    ],
+    "make": "Chrysler",
+    "model": "300 (Letter Series)",
+    "engines": [
+      "5.4L V8 (300 hp)",
+      "5.8L V8 (340-355 hp)",
+      "6.4L V8 (375-390 hp)"
+    ],
+    "transmissions": [
+      "3-speed automatic",
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door hardtop",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Iconic high-performance 300 letter series (C-300, 300B, 300C, 300D, 300E). First American car with 300+ hp. Data sourced from Wikipedia Chrysler 300 letter series article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1951,
+      1952,
+      1953,
+      1954
+    ],
+    "make": "Chrysler",
+    "model": "Saratoga",
+    "engines": [
+      "5.4L V8"
+    ],
+    "transmissions": [
+      "4-speed semi-automatic",
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door club coupe",
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Mid-level Chrysler with FirePower Hemi V8 engine. Data sourced from Wikipedia Chrysler Saratoga article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1951,
+      1952,
+      1953,
+      1954
+    ],
+    "make": "Chrysler",
+    "model": "Town & Country",
+    "engines": [
+      "5.4L V8"
+    ],
+    "transmissions": [
+      "4-speed semi-automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "5-door station wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Luxury station wagon with wood paneling. FirePower Hemi V8. Data sourced from Wikipedia Chrysler Town & Country article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1950,
+      1951,
+      1952,
+      1953,
+      1954,
+      1955
+    ],
+    "make": "Chrysler",
+    "model": "Windsor",
+    "engines": [
+      "4.1L I6",
+      "5.4L V8"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed semi-automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door club coupe",
+      "4-door sedan",
+      "2-door convertible",
+      "5-door station wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Entry-level Chrysler. Started with inline-6, moved to FirePower V8 in 1951. Data sourced from Wikipedia Chrysler Windsor article, January 17, 2025 revision."
+  }
+]

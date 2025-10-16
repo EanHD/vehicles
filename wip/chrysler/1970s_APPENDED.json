@@ -1,0 +1,219 @@
+[
+  {
+    "years": [
+      1970,
+      1971,
+      1972,
+      1973,
+      1974,
+      1975,
+      1976,
+      1977,
+      1978,
+      1979
+    ],
+    "make": "Chrysler",
+    "model": "New Yorker",
+    "engines": [
+      "7.2L V8",
+      "6.6L V8",
+      "5.9L V8",
+      "5.2L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "2-door hardtop",
+      "4-door hardtop"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Data sourced from Wikipedia Chrysler New Yorker article, October 13, 2025 revision."
+  },
+  {
+    "years": [
+      1975,
+      1976,
+      1977,
+      1978,
+      1979
+    ],
+    "make": "Chrysler",
+    "model": "Cordoba",
+    "engines": [
+      "5.2L V8",
+      "5.9L V8",
+      "6.6L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First generation Chrysler Cordoba. Data sourced from Wikipedia Chrysler Cordoba article, October 13, 2025 revision."
+  },
+  {
+    "years": [
+      1970,
+      1971
+    ],
+    "make": "Chrysler",
+    "model": "300",
+    "engines": [
+      "7.2L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door hardtop",
+      "4-door hardtop",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Data sourced from Wikipedia Chrysler 300 non-letter series article, October 13, 2025 revision."
+  },
+  {
+    "years": [
+      1970,
+      1971,
+      1972,
+      1973,
+      1974,
+      1975
+    ],
+    "make": "Chrysler",
+    "model": "Imperial",
+    "engines": [
+      "7.2L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door hardtop",
+      "4-door hardtop"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Data sourced from Wikipedia Chrysler Imperial article, October 13, 2025 revision."
+  },
+  {
+    "years": [
+      1977,
+      1978,
+      1979
+    ],
+    "make": "Chrysler",
+    "model": "LeBaron",
+    "engines": [
+      "3.7L I6",
+      "5.2L V8",
+      "5.9L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic",
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First generation Chrysler LeBaron (1977-1981). Available with Slant Six or V8 engines. Data sourced from Wikipedia Chrysler LeBaron article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1970,
+      1971,
+      1972,
+      1973,
+      1974,
+      1975,
+      1976,
+      1977,
+      1978
+    ],
+    "make": "Chrysler",
+    "model": "Newport",
+    "engines": [
+      "6.3L V8",
+      "6.6L V8",
+      "7.2L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door hardtop",
+      "4-door hardtop",
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fifth and sixth generation Newport. Full-size luxury sedan with big-block V8 engines. Data sourced from Wikipedia Chrysler Newport article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1978,
+      1979
+    ],
+    "make": "Chrysler",
+    "model": "Town & Country",
+    "engines": [
+      "5.2L V8",
+      "5.9L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "5-door station wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Station wagon variant based on LeBaron platform. Featured simulated wood paneling. Data sourced from Wikipedia Chrysler Town & Country article, January 17, 2025 revision."
+  }
+]

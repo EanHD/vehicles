@@ -1,0 +1,144 @@
+[
+  {
+    "years": [
+      1963,
+      1964,
+      1965,
+      1966,
+      1967,
+      1968,
+      1969,
+      1970,
+      1971,
+      1972
+    ],
+    "make": "BMW",
+    "model": "Neue Klasse Sedans (1500/1600/1800/2000)",
+    "engines": [
+      "1.5L M10 inline-4 (80 hp) 1500",
+      "1.6L M10 inline-4 (84 hp) 1600",
+      "1.8L M10 inline-4 (90-110 hp) 1800/1800Ti",
+      "2.0L M10 inline-4 (100-120 hp) 2000/2000Ti"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "3-speed automatic (2000 USA)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Neue Klasse introduced unit-body construction and front disc brakes; North American 2000 models used Solex two-barrel carbs requiring balance and throttle linkage sync. Generator charging upgrades recommended for air-conditioned cars. Mechanical valve lash adjustment every 6k miles critical on M10 engines. Data sourced from Wikipedia BMW Neue Klasse article, October 5, 2025 revision."
+  },
+  {
+    "years": [
+      1968,
+      1969,
+      1970,
+      1971,
+      1972,
+      1973,
+      1974,
+      1975,
+      1976
+    ],
+    "make": "BMW",
+    "model": "2002 (E10)",
+    "engines": [
+      "2.0L M10 inline-4 (100 hp) 2002",
+      "2.0L M10 inline-4 (130 hp) 2002 tii",
+      "2.0L M10 turbocharged inline-4 (170 hp) 2002 Turbo"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "5-speed manual (optional tii)",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Lightweight sport sedan with MacPherson struts and semi-trailing rear arms. Kugelfischer mechanical injection on tii requires precise pump timing; Turbo models need boost-control check valves and forged pistons. Convert drum rear brakes to finned aluminum drums for improved cooling. Data sourced from Wikipedia BMW 2002 article, October 10, 2025 revision."
+  },
+  {
+    "years": [
+      1968,
+      1969,
+      1970,
+      1971,
+      1972,
+      1973,
+      1974
+    ],
+    "make": "BMW",
+    "model": "E3 Bavaria (2500/2800/3.0S)",
+    "engines": [
+      "2.5L M30 inline-6 (148 hp) 2500 (limited NA)",
+      "2.8L M30 inline-6 (170 hp) 2800",
+      "3.0L M30 inline-6 (180 hp) 3.0S/Si"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Executive sedan with dual Zenith carburetors (2800) or Bosch D-Jetronic injection (3.0Si). Aluminum front calipers require stainless line upgrades; replace timing chain guides and adjust valves every 7.5k miles. Heater box foam deteriorates—restoration improves defrost performance. Data sourced from Wikipedia BMW New Six article, October 12, 2025 revision."
+  },
+  {
+    "years": [
+      1968,
+      1969,
+      1970,
+      1971,
+      1972,
+      1973,
+      1974,
+      1975
+    ],
+    "make": "BMW",
+    "model": "E9 Coupes (2800 CS/3.0 CS/CSi/CSL)",
+    "engines": [
+      "2.8L M30 inline-6 (168 hp) 2800 CS",
+      "3.0L M30 inline-6 (180 hp) 3.0 CS",
+      "3.0L M30 fuel-injected inline-6 (200 hp) 3.0 CSi",
+      "3.0L M30 lightweight (206 hp) 3.0 CSL (limited NA)"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "3-speed automatic",
+      "5-speed manual (CSL)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Hand-built Karmann body prone to rust—inspect shock towers and rocker panels. D-Jetronic injection on CSi requires manifold pressure sensor calibration; CSL aluminum panels need specialized rivet/bonding repairs. Frameless doors require careful window alignment. Data sourced from Wikipedia BMW E9 article, October 9, 2025 revision."
+  }
+]

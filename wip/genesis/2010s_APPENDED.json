@@ -1,0 +1,122 @@
+[
+  {
+    "years": [
+      2019,
+      2020,
+      2021
+    ],
+    "make": "Genesis",
+    "model": "G70 (IK)",
+    "engines": [
+      "2.0L Theta II T-GDi I4 (252 hp; 6-speed manual available)",
+      "3.3L Lambda II T-GDi V6 (365 hp)"
+    ],
+    "transmissions": [
+      "6-speed manual (2019-2021 2.0T)",
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Compact sport sedan on the M2 platform shared with the Kia Stinger. North American G70 offered Brembo brakes, launch control and limited-slip differential with the 3.3T AWD, while 2.0T models retained a 6-speed manual through 2021. Turbo cooling, electronic damping and advanced safety suites require post-service calibrations. Data sourced from Wikipedia Genesis G70 article, August 28, 2025 revision."
+  },
+  {
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "make": "Genesis",
+    "model": "G80 (DH)",
+    "engines": [
+      "3.8L Lambda V6 (311 hp)",
+      "3.3L Lambda II T-GDi V6 (365 hp Sport)",
+      "5.0L Tau V8 (420 hp)"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Second-generation DH sedan carried into Genesis branding for 2017 with standard 8-speed automatic, optional HTRAC AWD and a Sport trim using the twin-turbo 3.3L V6 with adaptive dampers. Tau V8 models add continuous damping control and premium fuel requirements, and the suite of radar cruise and lane keeping systems needs calibration after windshield or bumper service. Data sourced from Wikipedia Genesis G80 article, September 22, 2025 revision."
+  },
+  {
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "make": "Genesis",
+    "model": "G90 (HI/RS2)",
+    "engines": [
+      "3.3L Lambda II T-GDi V6 (365 hp)",
+      "5.0L Tau V8 (420 hp)"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "4-door long-wheelbase sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Flagship HI/RS2 G90 introduced in North America for 2017 with standard adaptive suspension, Highway Driving Assist and active noise control. HTRAC AWD variants add electronically controlled transfer cases, while limousine trims incorporate power rear seats and dual-screen infotainment that require OEM scan-tool initialization after service. Data sourced from Wikipedia Genesis G90 article, September 13, 2025 revision."
+  },
+  {
+    "years": [
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "make": "Genesis",
+    "model": "Genesis Coupe (BK2)",
+    "engines": [
+      "2.0L Theta II T-GDi I4 (274 hp)",
+      "3.8L Lambda II GDi V6 (348 hp)"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Post-refresh BK2 coupe retained rear-drive layout with available Brembo brakes, Torsen limited-slip differential and eight-speed automatic with paddle-shift logic requiring fluid service to SP-IV specs. Direct-injected 3.8L V6 and turbocharged 2.0T engines demand premium fuel and heat-management awareness during service. Data sourced from Wikipedia Hyundai Genesis Coupe article, August 4, 2025 revision."
+  }
+]

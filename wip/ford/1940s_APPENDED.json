@@ -1,0 +1,58 @@
+[
+  {
+    "years": [1941, 1942],
+    "make": "Ford",
+    "model": "Deluxe/Super Deluxe (1941-1942)",
+    "engines": ["226 cu in (3.7L) Flathead I6 (90 hp)", "239 cu in (3.9L) Flathead V8 (90 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sedan", "4-door sedan", "2-door coupe", "2-door convertible", "2-door station wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Last pre-WWII Ford design. Wider bodies and new front-end styling. Production halted February 1942 for wartime production. Sealed-beam headlights introduced 1940. Flathead engines require period-specific knowledge. Data sourced from Wikipedia Ford De Luxe article, January 2025 revision."
+  },
+  {
+    "years": [1946, 1947, 1948],
+    "make": "Ford",
+    "model": "Deluxe/Super Deluxe (1946-1948)",
+    "engines": ["226 cu in (3.7L) Flathead I6 (90 hp)", "239 cu in (3.9L) Flathead V8 (100 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sedan", "4-door sedan", "2-door coupe", "2-door convertible", "2-door station wagon", "2-door Sportsman convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Postwar continuation of 1942 design with minor updates. Woodie Sportsman convertible featured wood body panels. First full production year was 1946. Flathead engines require vintage expertise and period-correct parts. Data sourced from Wikipedia Ford De Luxe article, January 2025 revision."
+  },
+  {
+    "years": [1949],
+    "make": "Ford",
+    "model": "Custom/Deluxe (1949)",
+    "engines": ["226 cu in (3.7L) Flathead I6 (95 hp)", "239 cu in (3.9L) Flathead V8 (100 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sedan", "4-door sedan", "2-door coupe", "2-door convertible", "2-door station wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "First all-new postwar Ford design with modern styling. Independent front suspension. Slab-sided bodies with integrated fenders. Revolutionary design influenced entire industry. Flathead engines require period-specific service knowledge. Data sourced from Wikipedia Ford Custom article, January 2025 revision."
+  },
+  {
+    "years": [1948, 1949],
+    "make": "Ford",
+    "model": "F-Series (First Generation, 1948-1949)",
+    "engines": ["226 cu in (3.7L) Flathead I6 (95 hp)", "239 cu in (3.9L) Flathead V8 (100 hp)"],
+    "transmissions": ["3-speed manual", "4-speed manual (heavy-duty)"],
+    "region": "American",
+    "drivetrain": ["2WD"],
+    "body_styles": ["Regular Cab pickup", "Panel truck", "Chassis cab"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "First dedicated Ford truck series, replacing car-based pickups. F-1 through F-8 designations for different weight classes. All-new cab design. Flathead engines require vintage truck expertise. Data sourced from Wikipedia Ford F-Series article, January 2025 revision."
+  }
+]

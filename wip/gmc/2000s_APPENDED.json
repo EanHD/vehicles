@@ -1,0 +1,142 @@
+[
+  {
+    "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
+    "make": "GMC",
+    "model": "Canyon (First generation GMT355)",
+    "engines": [
+      "2.8L LK5 I4",
+      "2.9L LLV I4",
+      "3.5L L52 I5",
+      "3.7L LLR I5",
+      "5.3L LH8/LH9 V8"
+    ],
+    "transmissions": [
+      "5-speed Aisin AR-5 manual",
+      "4-speed 4L60-E automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": [
+      "Regular Cab",
+      "Extended Cab",
+      "Crew Cab"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation Canyon midsize pickup shares GMT355 platform with Chevrolet Colorado and Isuzu i-Series. Available in Z71 Off-Road and ZQ8 Sport suspension packages. Three cab configurations with multiple I4, I5, and V8 engine choices. Data sourced from Wikipedia GMC Canyon article, October 11, 2025 revision."
+  },
+  {
+    "years": [2002, 2003, 2004, 2005, 2006],
+    "make": "GMC",
+    "model": "Envoy XL (GMT360)",
+    "engines": [
+      "4.2L Vortec I6 (270 hp)",
+      "5.3L V8 (290-300 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "5-door extended-length SUV (third-row seating)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Envoy XL extended-wheelbase variant (129 inches, 16 inches longer than standard) designed for third-row seating. GMT360 platform shared with TrailBlazer. 5.3L V8 power increased to 300 hp in 2005. Data sourced from Wikipedia GMC Envoy article, October 11, 2025 revision."
+  },
+  {
+    "years": [2004, 2005],
+    "make": "GMC",
+    "model": "Envoy XUV (GMT360)",
+    "engines": [
+      "5.3L V8"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "Retractable-roof SUV with midgate"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Unique retractable-roof vehicle inspired by Studebaker Wagonaire. Features midgate system similar to Avalanche and plastic-lined cargo area with drainage. Discontinued after two years due to low sales. Complexity of retractable roof mechanism increases service difficulty. Data sourced from Wikipedia GMC Envoy article, October 11, 2025 revision."
+  },
+  {
+    "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
+    "make": "GMC",
+    "model": "Acadia (First generation Lambda)",
+    "engines": [
+      "3.6L LY7 V6 (275 hp, 2007-2008)",
+      "3.6L LLT V6 (288 hp, 2009-2015)",
+      "3.6L V6 (310 hp, 2016)"
+    ],
+    "transmissions": [
+      "6-speed 6T75 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "5-door crossover SUV (7-8 passenger)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation Acadia is GMC's first unibody vehicle, replacing Safari van and Envoy. Lambda platform shared with Chevrolet Traverse and Buick Enclave. Denali trim introduced 2011. 2013 facelift with redesigned grille. 5,200 lb towing capacity. Data sourced from Wikipedia GMC Acadia article, October 11, 2025 revision."
+  },
+  {
+    "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013],
+    "make": "GMC",
+    "model": "Sierra 1500 (GMT900)",
+    "engines": [
+      "4.3L V6",
+      "4.8L V8",
+      "5.3L Vortec V8",
+      "6.0L Vortec V8",
+      "6.2L V8"
+    ],
+    "transmissions": [
+      "4-speed automatic",
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": [
+      "Regular Cab",
+      "Extended Cab",
+      "Crew Cab"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "GMT900 Sierra featured redesigned exterior, interior, frame, and suspension with improved aerodynamics. Launched late 2006 as 2007 model. Multiple Vortec engine options with 4-speed or 6-speed automatic transmissions. Data sourced from Wikipedia GMC Sierra article, October 11, 2025 revision."
+  },
+  {
+    "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
+    "make": "GMC",
+    "model": "Terrain (First generation Theta)",
+    "engines": [
+      "2.4L Ecotec I4 (182 hp, 172 lb-ft)",
+      "3.0L V6 (264 hp, 2010-2012)",
+      "3.6L V6 (301 hp, 2013-2017)"
+    ],
+    "transmissions": [
+      "6-speed 6T45 automatic (I4)",
+      "6-speed 6T70 automatic (V6)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "5-door compact crossover SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation Terrain compact crossover on GM Theta platform. Denali trim added 2013. 2016 mid-cycle refresh with updated styling and LED daytime running lights. Natural gas bi-fuel version available 2013-2014. Engine upgrade from 3.0L to 3.6L V6 in 2013. Data sourced from Wikipedia GMC Terrain article, October 11, 2025 revision."
+  }
+]

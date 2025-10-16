@@ -1,0 +1,30 @@
+[
+  {
+    "years": [1995, 1996, 1997, 1998, 1999],
+    "make": "Kia",
+    "model": "Sportage (JA)",
+    "engines": ["2.0L I4 (95-130 hp)"],
+    "transmissions": ["5-speed manual", "4-speed automatic"],
+    "region": "Korean import",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door convertible SUV", "4-door SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First generation compact SUV. Body-on-frame construction with part-time 4WD. Timing belt engine requires regular replacement. Unique convertible soft-top variant available. Data sourced from Wikipedia Kia Sportage article, January 2025 revision."
+  },
+  {
+    "years": [1994, 1995, 1996, 1997, 1998, 1999],
+    "make": "Kia",
+    "model": "Sephia (FA)",
+    "engines": ["1.6L I4 (82 hp)", "1.8L I4 (88-125 hp)"],
+    "transmissions": ["5-speed manual", "4-speed automatic"],
+    "region": "Korean import",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door compact sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First generation compact sedan. First Kia model designed for North American market. Timing belt engine requires regular replacement. Data sourced from Wikipedia Kia Sephia article, January 2025 revision."
+  }
+]

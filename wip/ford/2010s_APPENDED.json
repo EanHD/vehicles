@@ -1,0 +1,466 @@
+[
+  {
+    "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Ford",
+    "model": "Fiesta (sixth generation)",
+    "engines": [
+      "1.6L Duratec Ti-VCT I4 (118 hp)",
+      "1.6L EcoBoost Ti-VCT turbo I4 (180 hp, ST model)",
+      "1.0L EcoBoost 3-cylinder (99 hp, 2014+)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "6-speed PowerShift dual-clutch automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": [
+      "4-door sedan",
+      "5-door hatchback",
+      "5-door hatchback ST (performance variant)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "PowerShift dual-clutch transmission requires specialized service knowledge and has known reliability concerns. Manufactured at Cuautitlán Assembly Plant in Mexico. EcoBoost turbocharged engines require synthetic oil and premium fuel recommended for ST variant. Data sourced from Wikipedia Ford Fiesta (sixth generation) article, 2021 revision."
+  },
+  {
+    "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018],
+    "make": "Ford",
+    "model": "Focus (Mk3)",
+    "engines": [
+      "2.0L Duratec Direct Injection I4 (160 hp)",
+      "1.0L EcoBoost turbo I3 (123 hp)",
+      "2.0L EcoBoost turbo I4 (252 hp, ST model)",
+      "2.3L EcoBoost turbo I4 (350 hp, RS model)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "6-speed manual",
+      "6-speed automatic",
+      "6-speed PowerShift dual-clutch"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door sedan",
+      "5-door hatchback"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "RS model features all-wheel drive with torque vectoring. PowerShift dual-clutch transmission requires specialized service knowledge and has known reliability concerns. ST and RS performance variants require synthetic oil and high-performance brake service. First Ford vehicle designed under CEO Alan Mulally's 'One Ford' global platform strategy. Data sourced from Wikipedia Ford Focus (third generation) article, revision date not specified."
+  },
+  {
+    "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018],
+    "make": "Ford",
+    "model": "Focus Electric",
+    "engines": [
+      "Electric motor (143 hp, 107 kW synchronous motor)"
+    ],
+    "transmissions": [
+      "Single-speed electric drive"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": [
+      "5-door electric hatchback"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Electric vehicle with 23 kWh lithium-ion battery (2012-2016) or 33.5 kWh battery (2017-2018) requires EV-certified technicians for high-voltage system service. EPA range 76 miles (initial) or 115 miles (2017+). Platform originally designed for piston engines with battery packaged in trunk area affecting cargo space. Manufactured at Michigan Assembly Plant. Data sourced from Wikipedia Ford Focus Electric article, May 31, 2025 revision."
+  },
+  {
+    "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Ford",
+    "model": "Explorer (U502)",
+    "engines": [
+      "2.0L EcoBoost turbo I4 (240 hp, FWD only)",
+      "2.3L EcoBoost turbo I4",
+      "3.5L Duratec Ti-VCT V6 (290 hp)",
+      "3.5L EcoBoost twin-turbo V6 (AWD only)",
+      "3.7L Cyclone Ti-VCT FFV V6 (Police Interceptor Utility, AWD only)"
+    ],
+    "transmissions": [
+      "6-speed automatic",
+      "6-speed SelectShift automatic with paddle shifters"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "5-door crossover SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fifth generation transitions from body-on-frame to unibody construction on Ford D4 platform (modified D3). Twin-turbo EcoBoost V6 requires premium fuel and synthetic oil. Police Interceptor Utility variant features heavy-duty cooling and electrical systems. Assembled at Chicago Assembly Plant. Data sourced from Wikipedia Ford Explorer article, revision date not specified."
+  },
+  {
+    "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Ford",
+    "model": "Escape (third generation)",
+    "engines": [
+      "2.5L Duratec I4 (168 hp)",
+      "1.6L EcoBoost turbo I4 (173 hp, 177 lb-ft)",
+      "2.0L EcoBoost turbo I4 (237 hp, 250 lb-ft)",
+      "1.5L EcoBoost turbo I4 (179 hp, 2017+ refresh)"
+    ],
+    "transmissions": [
+      "6-speed automatic",
+      "6-speed dual-clutch automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "5-door compact crossover SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Built on Ford C1 platform (Global C platform). EcoBoost turbocharged engines require synthetic oil and 87 octane minimum fuel. Third generation replaces Escape Hybrid with focus on turbocharged gasoline engines only. Dual-clutch transmission option requires specialized service procedures. Data sourced from Wikipedia Ford Escape article, revision date not specified."
+  },
+  {
+    "years": [2015, 2016, 2017, 2018, 2019],
+    "make": "Ford",
+    "model": "F-150 (thirteenth generation)",
+    "engines": [
+      "3.5L Cyclone V6 (282 hp, 2015-2017)",
+      "2.7L EcoBoost V6 (325 hp)",
+      "3.5L EcoBoost V6 (365 hp 2015-2016, 375 hp 2018-2019)",
+      "5.0L Coyote V8 (385 hp 2015-2017, 395 hp 2018-2019)",
+      "3.3L Ti-VCT V6 (290 hp, 2018-2019)",
+      "3.0L Power Stroke diesel V6 (250 hp, 2018-2019)"
+    ],
+    "transmissions": [
+      "6-speed automatic (2015-2017)",
+      "10-speed automatic (2017+)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "Regular Cab pickup truck",
+      "SuperCab extended cab pickup truck",
+      "SuperCrew crew cab pickup truck"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Revolutionary aluminum-intensive body construction reduces weight by approximately 750 lbs compared to predecessor. First aluminum-bodied vehicle in large-scale production. Power Stroke diesel V6 requires diesel-specific oil and fuel system service. EcoBoost engines require synthetic oil and premium fuel recommended. 10-speed automatic transmission requires specialized diagnostic equipment. Aluminum body repair requires specialized training and equipment. Data sourced from Wikipedia Ford F-Series (thirteenth generation) article, September 23, 2025 revision."
+  },
+  {
+    "years": [2015, 2016, 2017, 2018, 2019],
+    "make": "Ford",
+    "model": "Mustang (S550)",
+    "engines": [
+      "3.7L Ti-VCT V6 (300 hp, 2015-2017)",
+      "2.3L EcoBoost turbo I4 (310 hp)",
+      "5.0L Coyote V8 (435 hp, GT model)",
+      "5.2L Voodoo flat-plane V8 (526 hp, GT350 model)"
+    ],
+    "transmissions": [
+      "6-speed manual (Getrag MT82)",
+      "6-speed Tremec TR-3160 manual (GT350)",
+      "6-speed automatic",
+      "10-speed automatic (2018+)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": [
+      "2-door coupe",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Built on Ford D2C platform (S550 code). GT350 features high-revving 5.2L flat-plane crank V8 requiring specialized service knowledge and synthetic oil. All engines require premium fuel recommended. Independent rear suspension replaces live axle. Performance variants require high-performance brake and cooling system service. Data sourced from Wikipedia Ford Mustang (sixth generation) article, revision date not specified."
+  },
+  {
+    "years": [2017, 2018, 2019],
+    "make": "Ford",
+    "model": "Super Duty (fourth generation)",
+    "engines": [
+      "6.2L Boss V8 gasoline (385 hp, 430 lb-ft)",
+      "6.7L Power Stroke V8 diesel (440 hp, 925 lb-ft 2017; 450 hp, 935 lb-ft 2018-2019)",
+      "6.8L Triton V10 gasoline (288 hp, 424 lb-ft, F-450/F-550 chassis cab)"
+    ],
+    "transmissions": [
+      "6-speed TorqShift automatic",
+      "10-speed TorqShift automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "Regular Cab heavy-duty pickup truck",
+      "SuperCab extended cab heavy-duty pickup truck",
+      "Crew Cab heavy-duty pickup truck",
+      "Chassis cab (F-250/F-350/F-450/F-550/F-600)"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.3,
+    "notes": "Aluminum alloy body (6000-series military-grade) with 95% high-strength steel frame saves up to 350 lbs. Power Stroke diesel requires specialized diesel service including high-pressure fuel system and diesel exhaust fluid (DEF) system. Heavy-duty models (F-450/F-550/F-600) may feature air brakes requiring CDL certification. Built on Ford T3 platform. Chassis cab configurations require commercial vehicle service expertise. Data sourced from Wikipedia Ford Super Duty article, revision date not specified."
+  },
+  {
+    "years": [2015, 2016, 2017, 2018, 2019],
+    "make": "Ford",
+    "model": "Transit",
+    "engines": [
+      "3.7L Ti-VCT V6 (275 hp)",
+      "3.5L EcoBoost twin-turbo V6 (310 hp)",
+      "3.2L Power Stroke inline-5 diesel (185 hp, 2015-2019)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": [
+      "Cargo van (low/medium/high roof)",
+      "Passenger van (low/medium/high roof)",
+      "Cutaway van",
+      "Chassis cab"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "First Transit generation offered in North America, replacing E-Series. Available in multiple wheelbases (129.9 in regular, 147.6 in long) and three roof heights. Designated as T-150/T-250/T-350/T-350HD based on payload capacity. Power Stroke diesel inline-5 requires diesel-specific service and DEF system. Commercial van configurations require specialized service knowledge. Rear-wheel drive layout differs from front-drive Transit Connect. Data sourced from Wikipedia Ford Transit article, revision date not specified."
+  },
+  {
+    "years": [2019],
+    "make": "Ford",
+    "model": "Ranger (fourth generation)",
+    "engines": [
+      "2.3L EcoBoost turbo I4 (270 hp)"
+    ],
+    "transmissions": [
+      "10-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "SuperCab extended cab mid-size pickup truck",
+      "SuperCrew crew cab mid-size pickup truck"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Returns to North American market after 8-year absence. Developed from global Ranger T6 platform with modifications to frame and bumpers for North American standards. First Ranger offered with four full doors in United States and Canada. No manual transmission or V6 option offered unlike previous generations. Manufactured at Michigan Assembly Plant. Data sourced from Wikipedia Ford Ranger (Americas) article, revision date not specified."
+  },
+  {
+    "years": [2017, 2018, 2019],
+    "make": "Ford",
+    "model": "GT (second generation)",
+    "engines": [
+      "3.5L EcoBoost twin-turbo V6 (647 hp)"
+    ],
+    "transmissions": [
+      "7-speed Getrag 7DCL750 dual-clutch"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": [
+      "2-door mid-engine supercar coupe with butterfly doors"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.5,
+    "notes": "Carbon fiber monocoque with aluminum front and rear subframes and carbon fiber body panels. Rear mid-engine configuration requires specialized service procedures. Limited production supercar with exotic materials and construction methods demands specialist technician expertise. Seven-speed dual-clutch transmission requires specialized diagnostic equipment. Butterfly doors and aerodynamic active elements require careful service protocols. Data sourced from Wikipedia Ford GT article, revision 1313551951."
+  },
+  {
+    "years": [2015, 2016, 2017, 2018, 2019],
+    "make": "Ford",
+    "model": "Edge (second generation)",
+    "engines": [
+      "2.0L EcoBoost turbo I4 (245 hp)",
+      "3.5L Duratec V6 (280 hp)",
+      "2.7L EcoBoost twin-turbo V6 (315 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic",
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "5-door mid-size crossover SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Built on Ford CD4 platform (Global C/D platform). EcoBoost turbocharged engines require synthetic oil and premium fuel recommended for twin-turbo 2.7L V6. Sport trim with 2.7L engine features performance-tuned suspension and steering. Note that diesel variants (2.0L Duratorq/EcoBlue) were offered in European markets only, not North America. Data sourced from Wikipedia Ford Edge article, revision date not specified."
+  },
+  {
+    "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Ford",
+    "model": "Flex",
+    "engines": [
+      "3.5L Duratec V6 (262 hp 2010-2012, 287 hp 2013-2019)",
+      "3.5L EcoBoost twin-turbo V6 (355 hp 2010-2012, 365 hp 2013-2019, AWD only)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door full-size crossover wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Built on Ford D4 platform (variant of D3). Distinctive boxy design with horizontal door grooves evoking classic woody wagon styling. EcoBoost twin-turbo V6 available only with all-wheel drive and requires synthetic oil and premium fuel recommended. Full-size crossover with three-row seating capacity. Data sourced from Wikipedia Ford Flex article, September 30, 2025 revision."
+  },
+  {
+    "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Ford",
+    "model": "Taurus (sixth generation)",
+    "engines": [
+      "3.5L Cyclone V6 (263 hp 2010-2012, 288 hp 2013-2019)",
+      "2.0L EcoBoost turbo I4 (240 hp, 2013-2017)",
+      "3.5L EcoBoost twin-turbo V6 (365 hp, SHO model)",
+      "3.7L Cyclone Ti-VCT V6 (305 hp, Police Interceptor, AWD only)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door full-size sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Built on Ford D3 platform. Taurus SHO performance variant features twin-turbo EcoBoost V6 with all-wheel drive standard, requiring synthetic oil and premium fuel. Police Interceptor Sedan variant features heavy-duty cooling, electrical systems, and AWD standard. Final generation before Taurus discontinuation in 2019. Data sourced from Wikipedia Ford Taurus (sixth generation) article, September 20, 2025 revision."
+  },
+  {
+    "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Ford",
+    "model": "Fusion (second generation)",
+    "engines": [
+      "2.5L Duratec I4 (175 hp)",
+      "1.5L EcoBoost turbo I4 (181 hp)",
+      "1.6L EcoBoost turbo I4 (179 hp, 2013-2014)",
+      "2.0L EcoBoost turbo I4 (240 hp 2013-2016, 245 hp 2017-2019)",
+      "2.7L EcoBoost twin-turbo V6 (325 hp, Sport, 2017-2019)"
+    ],
+    "transmissions": [
+      "6-speed automatic",
+      "6-speed manual (1.6L EcoBoost only, 2013-2014)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door mid-size sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Built on Ford CD4 platform (Global C/D platform). Fusion Sport with 2.7L EcoBoost twin-turbo V6 features all-wheel drive and requires premium fuel and synthetic oil. EcoBoost turbocharged engines require synthetic oil. Note: Hybrid and Energi plug-in hybrid variants are tracked separately. Data sourced from Wikipedia Ford Fusion (Americas) article, revision date not specified."
+  },
+  {
+    "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Ford",
+    "model": "Fusion Hybrid",
+    "engines": [
+      "2.0L Duratec Atkinson-cycle I4 hybrid (141 hp engine, 188 hp total system)"
+    ],
+    "transmissions": [
+      "eCVT (electronic continuously variable transmission)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": [
+      "4-door mid-size hybrid sedan"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Full hybrid system with 2.0L Atkinson-cycle engine paired with electric motor and lithium-ion battery. eCVT requires specialized hybrid service knowledge. High-voltage battery system requires certified hybrid technicians. Regenerative braking system requires specialized brake service procedures. Built on Ford CD4 platform. Data sourced from Wikipedia Ford Fusion (Americas) article, revision date not specified."
+  },
+  {
+    "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Ford",
+    "model": "Fusion Energi",
+    "engines": [
+      "2.0L Duratec Atkinson-cycle I4 plug-in hybrid (141 hp engine, 188 hp total system)"
+    ],
+    "transmissions": [
+      "eCVT (electronic continuously variable transmission)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": [
+      "4-door mid-size plug-in hybrid sedan"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Plug-in hybrid electric vehicle (PHEV) with 2.0L Atkinson-cycle engine and larger battery pack than Fusion Hybrid. Features 7.6 kWh lithium-ion battery with external charging capability and all-electric driving mode. High-voltage system requires certified EV/hybrid technicians. eCVT and regenerative braking require specialized service knowledge. Charging system and EVSE (Electric Vehicle Supply Equipment) require additional diagnostic capabilities. Built on Ford CD4 platform. Data sourced from Wikipedia Ford Fusion (Americas) article, revision date not specified."
+  },
+  {
+    "years": [2013, 2014, 2015, 2016, 2017, 2018],
+    "make": "Ford",
+    "model": "C-Max Hybrid",
+    "engines": [
+      "2.0L Atkinson-cycle I4 hybrid (141 hp engine, 188 hp total system with 88 kW electric motor)"
+    ],
+    "transmissions": [
+      "eCVT (electronic continuously variable transmission)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": [
+      "5-door compact hybrid MPV"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Full hybrid system with 2.0L Atkinson-cycle engine paired with 88 kW electric motor and 1.4 kWh lithium-ion battery. Top electric-only speed of 65 mph with overall top speed of 115 mph. High-voltage hybrid system requires certified hybrid technicians. eCVT and regenerative braking require specialized service knowledge. Assembled at Wayne, Michigan. Discontinued in U.S. market late 2017. Data sourced from Wikipedia Ford C-Max article, revision date not specified."
+  },
+  {
+    "years": [2013, 2014, 2015, 2016, 2017, 2018],
+    "make": "Ford",
+    "model": "C-Max Energi",
+    "engines": [
+      "2.0L Atkinson-cycle I4 plug-in hybrid (141 hp engine, 195 hp total system in charge-depleting mode)"
+    ],
+    "transmissions": [
+      "eCVT (electronic continuously variable transmission)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": [
+      "5-door compact plug-in hybrid MPV"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Plug-in hybrid electric vehicle (PHEV) with 2.0L Atkinson-cycle engine and 7.6 kWh lithium-ion battery providing 20-mile all-electric range. Features external charging capability and charge-depleting/charge-sustaining modes. High-voltage system requires certified EV/hybrid technicians. eCVT and regenerative braking require specialized service knowledge. Charging system diagnostics require additional equipment and training. Assembled at Wayne, Michigan. Data sourced from Wikipedia Ford C-Max article, revision date not specified."
+  },
+  {
+    "years": [2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Ford",
+    "model": "Transit Connect (second generation)",
+    "engines": [
+      "2.5L Duratec I4 (169 hp, North America)",
+      "1.6L EcoBoost turbo I4 (178 hp, 2014-2018)",
+      "2.0L EcoBoost turbo I4 (2019)"
+    ],
+    "transmissions": [
+      "6-speed automatic",
+      "8-speed automatic (2019+)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": [
+      "4-door cargo van",
+      "5-door passenger wagon (5 or 7 passengers)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Built on Ford Global C-car platform (C2 platform). Compact commercial van with optional CNG/LPG conversion hardware available for 2.5L engine for fleet applications. Passenger wagon variant available with 5 or 7 passenger seating. Diesel engine plans for North America were abandoned in July 2019. Note: Diesel variants (1.5L Duratorq/EcoBlue) offered in other markets only, not North America. Data sourced from Wikipedia Ford Transit Connect article, revision date not specified."
+  }
+]

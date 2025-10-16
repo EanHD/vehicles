@@ -1,0 +1,74 @@
+{
+  "926958d5a0da65fb4bd2cb350b58e663": {
+    "path": "/home/eanhd/projects/vehicles/service_docs/Toyota/Camry/2020_Oil_Change.html",
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Camry",
+    "service": "Oil Change",
+    "generated": "2025-10-16T11:35:02.281002",
+    "vehicle_difficulty": 1.0
+  },
+  "e7506b800b18d59255d7409e54f6d718": {
+    "path": "/home/eanhd/projects/vehicles/service_docs/Honda/Accord/2019_Oil_Change.html",
+    "year": 2019,
+    "make": "Honda",
+    "model": "Accord",
+    "service": "Oil Change",
+    "generated": "2025-10-16T11:35:09.407603",
+    "vehicle_difficulty": 1.0
+  },
+  "676e059a357ac223b1a3ecdd55637224": {
+    "path": "/home/eanhd/projects/vehicles/service_docs/Ford/F-150/2021_Oil_Change.html",
+    "year": 2021,
+    "make": "Ford",
+    "model": "F-150",
+    "service": "Oil Change",
+    "generated": "2025-10-16T11:35:48.344954",
+    "vehicle_difficulty": 1.3
+  },
+  "1dad7bcc954e390752d71a756d6c439e": {
+    "path": "/home/eanhd/projects/vehicles/service_docs/Toyota/Camry/2020_Brake_Pad_Replacement.html",
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Camry",
+    "service": "Brake Pad Replacement",
+    "generated": "2025-10-16T11:35:55.549490",
+    "vehicle_difficulty": 1.0
+  },
+  "0e71b55ddcc28e26eaaa9804e5e3dfdc": {
+    "path": "/home/eanhd/projects/vehicles/service_docs/Honda/Accord/2019_Alternator_Replacement.html",
+    "year": 2019,
+    "make": "Honda",
+    "model": "Accord",
+    "service": "Alternator Replacement",
+    "generated": "2025-10-16T11:36:03.432566",
+    "vehicle_difficulty": 1.0
+  },
+  "a7355bfa9c543132642d430f7d313f7c": {
+    "path": "/home/eanhd/projects/vehicles/service_docs/Chevrolet/Silverado_1500/2020_Battery_Replacement.html",
+    "year": 2020,
+    "make": "Chevrolet",
+    "model": "Silverado 1500",
+    "service": "Battery Replacement",
+    "generated": "2025-10-16T11:36:29.679922",
+    "vehicle_difficulty": 1.3
+  },
+  "79473bba3ad6c44a8378cfa5ff2521de": {
+    "path": "/home/eanhd/projects/vehicles/service_docs/Chevrolet/Aveo/2007_Alternator_Repair.html",
+    "year": 2007,
+    "make": "Chevrolet",
+    "model": "Aveo",
+    "service": "Alternator Repair",
+    "generated": "2025-10-16T11:36:36.682072",
+    "vehicle_difficulty": 1.0
+  },
+  "b372c1f76be6b40a76ec0a8a00f4aa63": {
+    "path": "/home/eanhd/projects/vehicles/service_docs/BMW/1_Series/2010_Fuel_Injector_Replacement_Set_of_4.html",
+    "year": 2010,
+    "make": "BMW",
+    "model": "1 Series",
+    "service": "Fuel Injector Replacement (Set of 4)",
+    "generated": "2025-10-16T11:37:33.921100",
+    "vehicle_difficulty": 1.1
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013],
+    "make": "Chevrolet",
+    "model": "Silverado 1500 (GMT900, Second Generation)",
+    "engines": [
+      "4.3L Vortec 4300 V6 (195 hp, 2007 only)",
+      "4.8L Vortec 4800 V8 (295 hp)",
+      "5.3L Vortec 5300 V8 (315-320 hp)",
+      "6.0L Vortec 6000 V8 (353-366 hp, HD models)",
+      "6.2L Vortec 6200 V8 (403 hp, 2009+)"
+    ],
+    "transmissions": [
+      "4-speed automatic (4L60E, 4L70E)",
+      "6-speed automatic (6L80E, 6L90E)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "Regular Cab",
+      "Extended Cab",
+      "Crew Cab"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "GMT900 platform Silverado 1500 (2007-2013). All-new body-on-frame architecture. Active Fuel Management (cylinder deactivation) on 5.3L and 6.0L engines. Hybrid model available (2007-2013) with 6.0L Vortec + electric motors (332 hp combined). Six-speed automatics standard from 2009. Electronic throttle control. Timing chain on all engines. DoD/AFM lifter failure common on 5.3L. Data sourced from Wikipedia Chevrolet Silverado GMT900 article, January 2025 revision."
+  },
+  {
+    "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014],
+    "make": "Chevrolet",
+    "model": "Silverado 2500HD/3500HD (GMT900, Second Generation)",
+    "engines": [
+      "6.0L Vortec 6000 V8 (353-360 hp)",
+      "6.6L Duramax LMM diesel V8 (365 hp, 660 lb-ft, 2007-2010)",
+      "6.6L Duramax LML diesel V8 (397 hp, 765 lb-ft, 2011-2014)"
+    ],
+    "transmissions": [
+      "6-speed automatic (6L90, Allison 1000)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "Regular Cab",
+      "Extended Cab",
+      "Crew Cab"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "GMT900 platform Silverado HD (2007-2014). Heavy-duty truck with Duramax diesel option. LMM Duramax (2007-2010) with DPF exhaust aftertreatment. LML Duramax (2011+) with DEF (urea) injection for emissions. Allison 1000 six-speed automatic with diesel. CP4.2 high-pressure fuel pump on LML. Independent front torsion bar suspension. Difficulty 1.2 due to Duramax diesel complexity, DPF/DEF systems, and CP4.2 fuel pump failures. Data sourced from Wikipedia Chevrolet Silverado GMT900 article, January 2025 revision."
+  },
+  {
+    "years": [2014, 2015, 2016, 2017, 2018],
+    "make": "Chevrolet",
+    "model": "Silverado 1500 (K2XX, Third Generation)",
+    "engines": [
+      "4.3L EcoTec3 V6 (285 hp)",
+      "5.3L EcoTec3 V8 (355 hp)",
+      "6.2L EcoTec3 V8 (420 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic (6L80E, 6L90E)",
+      "8-speed automatic (8L90, 2015+)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "Regular Cab",
+      "Double Cab",
+      "Crew Cab"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "K2XX platform Silverado 1500 (2014-2018). All-new EcoTec3 engine family with direct injection and cylinder deactivation. Eight-speed automatic (8L90) introduced 2015. Aluminum hood and tailgate for weight reduction. Magnetic Ride Control suspension optional. Variable valve timing on all engines. Direct injection carbon buildup on intake valves. Timing chains on all engines. AFM/DFM lifter issues continue. Data sourced from Wikipedia Chevrolet Silverado K2XX article, January 2025 revision."
+  },
+  {
+    "years": [2015, 2016, 2017, 2018, 2019],
+    "make": "Chevrolet",
+    "model": "Silverado 2500HD/3500HD (K2XX, Third Generation)",
+    "engines": [
+      "6.0L Vortec 6000 V8 (360 hp)",
+      "6.6L Duramax L5P diesel V8 (445 hp, 910 lb-ft, 2017-2019)"
+    ],
+    "transmissions": [
+      "6-speed automatic (6L90)",
+      "Allison 1000 6-speed automatic (with diesel)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "Regular Cab",
+      "Double Cab",
+      "Crew Cab"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "K2XX platform Silverado HD (2015-2019). All-new L5P Duramax diesel introduced 2017 (445 hp, 910 lb-ft) - first Duramax without EGR cooler. Allison 1000 six-speed automatic with diesel. Improved DEF system. Diesel exhaust brake. Towing capacity up to 23,100 lbs. 6.0L Vortec gas option continues. Difficulty 1.2 due to Duramax diesel complexity and DEF/DPF emissions systems. Data sourced from Wikipedia Chevrolet Silverado K2XX article, January 2025 revision."
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "years": [2003, 2004, 2005, 2006, 2007],
+    "make": "Cadillac",
+    "model": "CTS (First generation, Sigma GMX320)",
+    "engines": [
+      "2.6L LY9 V6",
+      "2.8L LP1 V6",
+      "3.2L LA3 V6 (220 hp)",
+      "3.6L LY7 V6 (255 hp)",
+      "5.7L LS6 V8 (400 hp, CTS-V)",
+      "6.0L LS2 V8 (CTS-V 2006-2007)"
+    ],
+    "transmissions": [
+      "5-speed 5L40-E automatic",
+      "5-speed Getrag 260 manual",
+      "6-speed Aisin AY-6 manual",
+      "6-speed Tremec T-56 manual (CTS-V)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation CTS on GM Sigma platform introduced Cadillac's 'Art and Science' design language. CTS-V performance variant offered with LS6/LS2 V8 engines and manual transmission. Data sourced from Wikipedia Cadillac CTS article, December 19, 2024 revision."
+  },
+  {
+    "years": [2008, 2009],
+    "make": "Cadillac",
+    "model": "CTS (Second generation, Sigma II)",
+    "engines": [
+      "2.8L LP1 V6",
+      "3.0L LF1 V6",
+      "3.6L LY7 V6 (263 hp)",
+      "3.6L direct-injection V6 (304 hp)"
+    ],
+    "transmissions": [
+      "6-speed 6L50 automatic",
+      "6-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second-generation CTS on GM Sigma II platform. 2000s portion only (2008-2009). Optional all-wheel drive introduced. Direct-injection V6 available. Data sourced from Wikipedia Cadillac CTS article, December 19, 2024 revision."
+  },
+  {
+    "years": [2004, 2005, 2006, 2007, 2008, 2009],
+    "make": "Cadillac",
+    "model": "SRX (First generation, Sigma GMT265)",
+    "engines": [
+      "3.6L V6 (255 hp)",
+      "4.6L Northstar V8 (320 hp)"
+    ],
+    "transmissions": [
+      "5-speed automatic",
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["5-door mid-size luxury crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation mid-size luxury crossover on GM Sigma platform (GMT265). Three-row, seven-passenger configuration. Longitudinally mounted front engine with rear differential. 2000s portion only (2004-2009). Data sourced from Wikipedia Cadillac SRX article, December 19, 2024 revision."
+  },
+  {
+    "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011],
+    "make": "Cadillac",
+    "model": "STS (Sigma GMX295)",
+    "engines": [
+      "2.0L LDK I4",
+      "2.8L LP1 V6",
+      "3.0L LF1 V6",
+      "3.6L LLT V6",
+      "3.6L LY7 V6 (255 hp)",
+      "4.6L Northstar LH2 V8 (320 hp)",
+      "4.4L Northstar LC3 supercharged V8 (469 hp, STS-V)"
+    ],
+    "transmissions": [
+      "5-speed 5L40-E automatic",
+      "5-speed 5L50 automatic",
+      "6-speed 6L45 automatic",
+      "6-speed 6L50 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Mid-size luxury sedan on GM Sigma platform. First Cadillac sedan with all-wheel drive option (STS4 badge). STS-V features supercharged 4.4L Northstar V8 producing 469 hp. Optional Magnetic Ride Control suspension. Supercharged variant requires specialized service knowledge. Data sourced from Wikipedia Cadillac STS article, December 19, 2024 revision."
+  },
+  {
+    "years": [2006, 2007, 2008, 2009, 2010, 2011],
+    "make": "Cadillac",
+    "model": "DTS (G platform)",
+    "engines": [
+      "4.6L Northstar LD8 V8 (275 hp)",
+      "4.6L Northstar L37 V8 (291-292 hp)"
+    ],
+    "transmissions": [
+      "4-speed 4T80 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan", "4-door long-wheelbase sedan (DTS-L)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Full-size luxury sedan on GM G platform with transverse FWD layout. Replaced DeVille. Standard wheelbase (115.6 in) and long wheelbase DTS-L (123.6 in) variants available. Optional Magnetic Ride Control. Northstar V8 requires service attention for head gasket and coolant system issues. Data sourced from Wikipedia Cadillac DTS article, December 19, 2024 revision."
+  },
+  {
+    "years": [2004, 2005, 2006, 2007, 2008, 2009],
+    "make": "Cadillac",
+    "model": "XLR (Y-body GMX215)",
+    "engines": [
+      "4.6L Northstar V8 (320 hp)",
+      "4.4L Northstar supercharged V8 (443 hp, XLR-V)"
+    ],
+    "transmissions": [
+      "5-speed 5L50 automatic",
+      "6-speed 6L80 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door roadster with power retractable hardtop"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Luxury roadster on GM Y-body platform shared with Corvette C6. Rear-mounted transmission for near 50/50 weight distribution. Power retractable hardtop. XLR-V features supercharged 4.4L Northstar producing 443 hp. Magnetic Ride Control suspension. Built at Bowling Green Assembly Plant. Corvette-based platform and supercharged variant require specialized service knowledge. Data sourced from Wikipedia Cadillac XLR article, December 19, 2024 revision."
+  },
+  {
+    "years": [2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009],
+    "make": "Cadillac",
+    "model": "Escalade (Second/Third generation, GMT800/900)",
+    "engines": [
+      "5.3L LM7 V8 (285 hp, 2002-2003)",
+      "5.3L LM7 V8 (295 hp, 2004-2005)",
+      "6.0L LQ9 Vortec V8 (345 hp, 2002-2006)",
+      "6.2L Vortec V8 (403 hp, 2007-2009)"
+    ],
+    "transmissions": [
+      "4-speed 4L60-E automatic (RWD, second gen)",
+      "4-speed 4L65-E automatic (AWD, second gen)",
+      "6-speed automatic (third gen)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": [
+      "5-door SUV (standard)",
+      "5-door SUV (ESV extended)",
+      "4-door sport utility truck (EXT)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Full-size luxury SUV spanning second generation GMT800 (2002-2006) and third generation GMT900 (2007-2014, 2000s portion 2007-2009). Available in standard, ESV (extended), and EXT (sport utility truck) body styles. 2000s portion only. Escalade Hybrid introduced 2009 (different entry). Data sourced from Wikipedia Cadillac Escalade article, December 19, 2024 revision."
+  }
+]

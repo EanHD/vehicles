@@ -1,0 +1,457 @@
+[
+  {
+    "years": [2003, 2004, 2005, 2006, 2007, 2008, 2009],
+    "make": "Nissan",
+    "model": "350Z (Z33)",
+    "engines": [
+      "3.5L VQ35DE V6 (287-300 hp)",
+      "3.5L VQ35HR V6 (306 hp)"
+    ],
+    "transmissions": [
+      "6-speed FS6R31A manual",
+      "5-speed RE5R05A automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door hatchback coupe",
+      "2-door roadster"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Fifth-generation Z-car uses the FM platform with the VQ35DE V6 (287–300 hp) before the 2007-up VQ35HR update (306 hp), paired with either the FS6R31A 6-speed or RE5R05A 5-speed automatic. Track models added Brembo brakes, forged wheels, and viscous limited-slip differential, while all cars feature aluminum hood, doors, and hatch plus front-mid engine packaging—higher-performance hardware that calls for specialty brake bleeding and driveline service beyond a typical coupe. Data sourced from Wikipedia Nissan 350Z article, September 22, 2024 revision."
+  },
+  {
+    "years": [2009, 2010],
+    "make": "Nissan",
+    "model": "370Z (Z34 launch)",
+    "engines": [
+      "3.7L VQ37VHR V6 (332 hp, 270 lb⋅ft)",
+      "3.7L VQ37VHR V6 Nismo tune (350 hp, 276 lb⋅ft)"
+    ],
+    "transmissions": [
+      "6-speed manual with SynchroRev Match",
+      "7-speed automatic with paddle shift"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "2-door roadster"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "The initial Z34 370Z launched for 2009 with the 332 hp VQ37VHR V6, a carbon-fiber composite driveshaft, standard viscous limited-slip differential on manual cars, and the first production use of SynchroRev Match rev-matching on a 6-speed manual; a 7-speed automatic with paddle shift and downshift rev matching was optional. The 2010 model year added the power soft-top Roadster and the Nismo performance variant tuned to 350 hp with chassis bracing and larger brakes, raising service complexity to 1.2. Data sourced from Wikipedia Nissan 370Z article, October 5, 2025 revision."
+  },
+  {
+    "years": [2002, 2003, 2004, 2005, 2006],
+    "make": "Nissan",
+    "model": "Altima (L31)",
+    "engines": [
+      "2.5L QR25DE I4 (175 hp)",
+      "3.5L VQ35DE V6 (240-260 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic",
+      "5-speed automatic (3.5 SE/SE-R)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fourth-generation Altima rode on Nissan’s FF-L platform with a 112.2 in wheelbase, offering the QR25DE four-cylinder (175 hp) or VQ35DE V6 (240 hp, 260 hp in 2005–2006 SE-R) paired to 5-speed manual, 4-speed automatic, or 5-speed automatic gearboxes. Higher trims added sport suspension, larger brakes, and stability control while retaining conventional service procedures appropriate for a midsize sedan. Data sourced from Wikipedia Nissan Altima article, October 13, 2025 revision."
+  },
+  {
+    "years": [2007, 2008, 2009, 2010, 2011, 2012],
+    "make": "Nissan",
+    "model": "Altima (L32)",
+    "engines": [
+      "2.5L QR25DE I4 (175 hp)",
+      "3.5L VQ35DE V6 (270 hp)",
+      "2.5L QR25DE hybrid + electric motor (198 hp net)"
+    ],
+    "transmissions": [
+      "6-speed manual (2.5 base, 3.5 SE/3.5 SR)",
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "2-door coupe"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Fifth-generation Altima moved to Nissan’s D platform with an aluminum hood and decklid, standard keyless start, and availability of a 2.5L hybrid (shared Toyota hybrid system) rated at 198 hp combined alongside the QR25DE four-cylinder and 270 hp VQ35DE V6. A 6-speed manual remained on base sedans and 3.5 SE/SR with sport suspension, while the volume trims adopted the Xtronic CVT; the 2008 coupe introduced a shorter wheelbase and unique bodywork. Hybrid high-voltage systems and CVT service elevate complexity to 1.1. Data sourced from Wikipedia Nissan Altima article, October 13, 2025 revision."
+  },
+  {
+    "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006],
+    "make": "Nissan",
+    "model": "Sentra (B15)",
+    "engines": [
+      "1.8L QG18DE I4 (126 hp)",
+      "2.5L QR25DE I4 (165 hp SE-R)",
+      "2.5L QR25DE Spec V I4 (175 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "6-speed manual (Spec V)",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "The B15 Sentra (2000–2006) used Nissan’s MS platform and introduced the 1.8L QG18DE with 5-speed manual or 4-speed automatic, while the SE-R returned in 2002 with a QR25DE (165 hp) and the Spec V increased output to 175 hp with a close-ratio 6-speed manual, helical limited-slip differential, stiffer springs, and optional Brembo front brakes. Performance hardware and the larger QR25DE require more specialized brake and driveline service than base models, supporting a 1.1 difficulty modifier. Data sourced from Wikipedia Nissan Sentra article, October 14, 2025 revision."
+  },
+  {
+    "years": [2007, 2008, 2009, 2010, 2011, 2012],
+    "make": "Nissan",
+    "model": "Sentra (B16)",
+    "engines": [
+      "2.0L MR20DE I4 (140 hp)",
+      "2.5L QR25DE I4 (177 hp SE-R, 200 hp Spec V)"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "The B16 Sentra adopted Nissan’s new C platform for 2007 with a larger cabin, standard keyless ignition, and the MR20DE (140 hp) paired to a 6-speed manual or Xtronic CVT. SE-R models used a 177 hp QR25DE and sport-tuned suspension, while the SE-R Spec V received a 200 hp tune, close-ratio 6-speed, helical limited-slip differential, and performance brakes, leading to higher maintenance complexity than the base sedan. Data sourced from Wikipedia Nissan Sentra article, October 14, 2025 revision."
+  },
+  {
+    "years": [2004, 2005, 2006, 2007, 2008],
+    "make": "Nissan",
+    "model": "Maxima (A34)",
+    "engines": [
+      "3.5L VQ35DE V6 (265 hp 2004-2006, 255 hp 2007-2008)"
+    ],
+    "transmissions": [
+      "6-speed manual (SE)",
+      "5-speed automatic with manual mode"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Sixth-generation Maxima (A34) shared the FF-L architecture with Altima but positioned as a performance sedan—offering the 3.5L VQ35DE V6 (265 hp, later 255 hp), standard independent multi-link rear suspension, and available 6-speed manual on SE models plus optional SkyView roof and Xenon HID lighting. Service remains conventional aside from the sport-oriented suspension tuning. Data sourced from Wikipedia Nissan Maxima article, October 14, 2025 revision."
+  },
+  {
+    "years": [2009, 2010, 2011, 2012, 2013, 2014],
+    "make": "Nissan",
+    "model": "Maxima (A35)",
+    "engines": [
+      "3.5L VQ35DE V6 (290 hp)"
+    ],
+    "transmissions": [
+      "Xtronic CVT with manual mode"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Seventh-generation Maxima (A35) debuted for 2009 with a stiffer \"super 4-Door Sports Car\" chassis, 290 hp VQ35DE, and a standard Xtronic CVT featuring a manual shift mode plus Drive Mode Selector for sport tuning. Standard Vehicle Dynamic Control, paddle shifters on premium trims, and dual-panel panoramic moonroof increase calibration and interior service effort, earning a 1.1 difficulty modifier. Data sourced from Wikipedia Nissan Maxima article, October 14, 2025 revision."
+  },
+  {
+    "years": [2003, 2004, 2005, 2006, 2007],
+    "make": "Nissan",
+    "model": "Murano (Z50)",
+    "engines": [
+      "3.5L VQ35DE V6 (245 hp, 246 lb⋅ft)"
+    ],
+    "transmissions": [
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "First-generation Murano (Z50) introduced Nissan’s high-capacity Xtronic CVT paired with the 245 hp VQ35DE V6, optional all-wheel drive, and a fully independent suspension, combining minivan practicality with sport-sedan tuning. The CVT’s high-torque application and electronic AWD coupling increase service demands relative to conventional automatics. Data sourced from Wikipedia Nissan Murano article, October 14, 2025 revision."
+  },
+  {
+    "years": [2009, 2010, 2011, 2012, 2013, 2014],
+    "make": "Nissan",
+    "model": "Murano (Z51)",
+    "engines": [
+      "3.5L VQ35DE V6 (265 hp)"
+    ],
+    "transmissions": [
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Second-generation Murano (Z51) launched for 2009 with a refined Xtronic CVT, 265 hp VQ35DE, available Intelligent AWD, and features like the dual-panel \"SkyView\" roof, Bose audio, and Around View Monitor (2011). Expanded electronics and the carryover high-torque CVT keep service complexity at 1.1. Data sourced from Wikipedia Nissan Murano article, October 14, 2025 revision."
+  },
+  {
+    "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015],
+    "make": "Nissan",
+    "model": "Armada (TA60)",
+    "engines": [
+      "5.6L VK56DE V8 (305-317 hp)"
+    ],
+    "transmissions": [
+      "5-speed RE5R05A automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "4-door full-size SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "First-generation Armada rode on the F-Alpha platform shared with the Titan, using a 5.6L VK56DE V8 (305 hp early, 317 hp from 2008) and RE5R05A 5-speed automatic with optional All-Mode 4WD, independent rear suspension, available auto-leveling rear air suspension, and towing capacity up to 9,100 lb. The combination of heavy-duty tow equipment and rear air leveling increases service complexity versus a standard SUV, supporting a 1.1 difficulty modifier. Data sourced from Wikipedia Nissan Armada article, October 14, 2025 revision."
+  },
+  {
+    "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015],
+    "make": "Nissan",
+    "model": "Titan (A60)",
+    "engines": [
+      "5.6L VK56DE V8 (305-317 hp)"
+    ],
+    "transmissions": [
+      "5-speed RE5R05A automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "2WD",
+      "4WD"
+    ],
+    "body_styles": [
+      "King Cab pickup",
+      "Crew Cab pickup"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "The original Titan A60 full-size pickup launched for 2004 with the 5.6L VK56DE (305 hp, 317 hp from 2008) and RE5R05A 5-speed automatic, riding on the F-Alpha chassis with fully boxed frame, Dana 44 rear axle, and available off-road FOR package (Rancho shocks, skid plates, electronic locking rear differential). Utili-track adjustable bed channels and high tow ratings require additional setup and specialized driveline service versus a standard half-ton, supporting a 1.1 difficulty modifier. Data sourced from Wikipedia Nissan Titan article, October 14, 2025 revision."
+  },
+  {
+    "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
+    "make": "Nissan",
+    "model": "Frontier (D40)",
+    "engines": [
+      "2.5L QR25DE I4 (152 hp)",
+      "4.0L VQ40DE V6 (261 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual (I4)",
+      "6-speed manual (V6)",
+      "5-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "2WD",
+      "4WD"
+    ],
+    "body_styles": [
+      "King Cab pickup",
+      "Crew Cab pickup"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Third-generation Frontier (D40) for North America debuted for 2005 on the F-Alpha chassis with the 261 hp 4.0L VQ40DE V6 (standard from 2015) or 2.5L QR25DE four-cylinder, in King Cab or Crew Cab configurations with 2WD or 4WD. PRO-4X models added Bilstein off-road dampers, skid plates, and an electronic locking rear differential, while the long lifespan means technicians encounter corrosion and frame-rust inspections on older trucks—factors elevating service complexity to 1.1. Data sourced from Wikipedia Nissan Frontier article, October 6, 2025 revision."
+  },
+  {
+    "years": [2004, 2005, 2006, 2007, 2008, 2009],
+    "make": "Nissan",
+    "model": "Quest (V42)",
+    "engines": [
+      "3.5L VQ35DE V6 (240-253 hp)"
+    ],
+    "transmissions": [
+      "5-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door minivan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "The third-generation Quest minivan (V42) built in Canton, Mississippi, used the 3.5L VQ35DE V6 (240 hp, later 253 hp) with a 5-speed automatic, available power sliding doors and tailgate, and optional full-length SkyView glass roof panels plus fold-flat third-row seating. Servicing the power door modules and panoramic glass drains requires more care than a conventional minivan, warranting a 1.1 difficulty. Data sourced from Wikipedia Nissan Quest article, October 14, 2025 revision."
+  },
+  {
+    "years": [2007, 2008, 2009, 2010, 2011, 2012],
+    "make": "Nissan",
+    "model": "Versa (C11 hatchback)",
+    "engines": [
+      "1.8L MR18DE I4 (122 hp, 127 lb⋅ft)"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "4-speed automatic",
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "5-door hatchback"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "North American Versa hatchbacks correspond to the C11 Tiida, using the 1.8L MR18DE (122 hp) with standard 6-speed manual, optional 4-speed automatic, or Xtronic CVT, 60/40 split folding rear seats, and available Intelligent Key/keyless start—remaining straightforward to service as a subcompact hatchback. Data sourced from Wikipedia Nissan Tiida article, October 5, 2025 revision."
+  },
+  {
+    "years": [2008, 2009, 2010, 2011, 2012, 2013],
+    "make": "Nissan",
+    "model": "Rogue (S35)",
+    "engines": [
+      "2.5L QR25DE I4 (170 hp, 175 lb⋅ft)"
+    ],
+    "transmissions": [
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "The first-generation Rogue (S35) launched for the 2008 model year with the 170 hp QR25DE and Xtronic CVT, available Intelligent All-Wheel Drive, and an optional paddle-shift manual mode; 2011 brought an S35 refresh with sport mode for the CVT, navigation, and Around View Monitor, while 2013 added NissanConnect telematics. The CVT and AWD coupling require specialized service beyond a conventional compact crossover, justifying a 1.1 difficulty. Data sourced from Wikipedia Nissan Rogue article, October 14, 2025 revision."
+  },
+  {
+    "years": [2009, 2010, 2011],
+    "make": "Nissan",
+    "model": "GT-R (R35 launch)",
+    "engines": [
+      "3.8L VR38DETT twin-turbo V6 (480 hp, 430 lb⋅ft – 2009-2010)",
+      "3.8L VR38DETT twin-turbo V6 (530 hp, 448 lb⋅ft – 2011)"
+    ],
+    "transmissions": [
+      "6-speed GR6 dual-clutch transaxle"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "North American GT-R sales began for 2009 with the hand-built VR38DETT twin-turbo V6 (480 hp, raised to 530 hp for 2011) feeding a rear-mounted GR6 dual-clutch transaxle and ATTESA E-TS all-wheel-drive system. Launch Control, Brembo monoblock brakes, and large composite rotors demand specialized diagnostics, fluid service, and torque procedures beyond standard sports cars, justifying a 1.2 difficulty. Data sourced from Wikipedia Nissan GT-R article, October 14, 2025 revision."
+  },
+  {
+    "years": [2009, 2010, 2011, 2012, 2013, 2014],
+    "make": "Nissan",
+    "model": "Cube (Z12)",
+    "engines": [
+      "1.8L MR18DE I4 (122 hp, 127 lb⋅ft)"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "5-door wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "The third-generation Cube (Z12) arrived in the U.S. for 2009 with the MR18DE (122 hp) driving the front wheels via 6-speed manual or Xtronic CVT, featuring asymmetrical wrap-around rear glass, lounge-inspired interior with shag dashboard insert, and available Intelligent Key with 20-color ambient lighting. Mechanical content mirrors the Versa hatchback, keeping service straightforward. Data sourced from Wikipedia Nissan Cube article, October 6, 2025 revision."
+  },
+  {
+    "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
+    "make": "Nissan",
+    "model": "NV Cargo/Passenger (F80)",
+    "engines": [
+      "4.0L VQ40DE V6 (261 hp)",
+      "5.6L VK56DE V8 (317 hp)"
+    ],
+    "transmissions": [
+      "5-speed RE5R05A automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-seat cargo van (standard or high roof)",
+      "12-passenger van"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "The NV full-size van family (NV1500/2500/3500) arrived for 2012 on an F-Alpha-derived frame with 261 hp VQ40DE V6 or 317 hp VK56DE V8, five-speed automatic, and a tall roof option offering 76.9 inches of interior height plus configurations for cargo or 12-passenger seating. Commercial duty cycles, ladder frame service, and high-roof panel repairs increase complexity versus a typical consumer van, justifying a 1.1 difficulty modifier. Data sourced from Wikipedia Nissan NV (North America) article, October 5, 2025 revision."
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "years": [1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989],
+    "make": "GMC",
+    "model": "S-15 / Sonoma (First generation)",
+    "engines": [
+      "1.9L Isuzu I4 (1982-1985)",
+      "2.0L GM 122 I4 (1983-1984)",
+      "2.8L V6 (110-125 hp, 1982-1989)",
+      "4.3L V6 (added 1988)"
+    ],
+    "transmissions": [
+      "3-speed THM-200C automatic",
+      "4-speed manual (Isuzu S101/BorgWarner T4)",
+      "4-speed 700R4/4L60 automatic",
+      "5-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD Insta-Trac (from 1983)"],
+    "body_styles": [
+      "Regular Cab",
+      "Extended Cab (Maxi-Cab, from 1983)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact pickup sharing platform with Chevrolet S-10. Called S-15 in 1980s, renamed Sonoma in 1991. Four-wheel drive Insta-Trac system added 1983. Extended cab introduced 1983. Name continued into 1990s-2000s. Data sourced from Wikipedia Chevrolet S-10 article, October 11, 2025 revision."
+  },
+  {
+    "years": [1983, 1984, 1985, 1986, 1987, 1988, 1989],
+    "make": "GMC",
+    "model": "S-15 Jimmy (First generation)",
+    "engines": [
+      "1.9L Isuzu I4 (California)",
+      "2.0L OHV I4",
+      "2.2L Isuzu Diesel I4 (58 hp)",
+      "2.8L V6 (110 hp, TBI from 1986)",
+      "4.3L V6 (150 hp, 1988-1989)"
+    ],
+    "transmissions": [
+      "BorgWarner T-5 manual",
+      "Automatic transmission"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "2-door SUV"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact SUV based on S-10 platform, smaller than full-size Jimmy. Only 2-door available in 1980s (4-door added 1991). Optional diesel engine available. V6 received throttle-body fuel injection in 1986. 4.3L V6 became sole engine 1989. Data sourced from Wikipedia Chevrolet S-10 Blazer article, October 11, 2025 revision."
+  },
+  {
+    "years": [1985, 1986, 1987, 1988, 1989],
+    "make": "GMC",
+    "model": "Safari (M-body)",
+    "engines": [
+      "2.5L Tech IV I4 (98 hp)",
+      "4.3L V6 (165 hp)"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "4-speed automatic",
+      "BorgWarner T-5 manual (through 1989)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": [
+      "Cargo van",
+      "Passenger van (standard/extended length)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Mid-size van sharing platform with Chevrolet Astro. GM's first response to Chrysler minivans using S-10 light-truck components. 111-inch wheelbase. AWD became available in 1990. Standard and extended length options. Data sourced from Wikipedia Chevrolet Astro article, October 11, 2025 revision."
+  },
+  {
+    "years": [1988, 1989],
+    "make": "GMC",
+    "model": "Sierra (GMT400 - first years)",
+    "engines": [
+      "4.3L V6",
+      "5.0L V8",
+      "5.7L V8",
+      "6.2L Detroit Diesel V8",
+      "7.4L V8"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": [
+      "Regular Cab",
+      "Extended Cab",
+      "Crew Cab"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.0,
+    "notes": "GMT400 Sierra launched in 1988, replacing C/K designation with Sierra branding for GMC. Introduced independent front suspension on 4WD models and fuel injection. Optional 6.2L Detroit Diesel. Continued production through 1999-2000. Data sourced from Wikipedia GMC Sierra/Chevrolet Silverado articles, October 11, 2025 revision."
+  },
+  {
+    "years": [1989],
+    "make": "GMC",
+    "model": "Tracker (Canadian market)",
+    "engines": [
+      "1.6L SOHC I4 (80 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "3-speed automatic"
+    ],
+    "region": "Canadian",
+    "drivetrain": ["4WD"],
+    "body_styles": [
+      "2-door convertible",
+      "2-door hardtop"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Rebadged Suzuki Sidekick sold exclusively in Canadian market through GMC dealerships. Base and SLE trims available. Discontinued 1991 when renamed Asüna Sunrunner. Light-duty off-road vehicle. Data sourced from Wikipedia Geo Tracker article, October 11, 2025 revision."
+  },
+  {
+    "years": [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989],
+    "make": "GMC",
+    "model": "TopKick / C-Series Medium Duty",
+    "engines": [
+      "Various diesel and gasoline options (medium-duty commercial)"
+    ],
+    "transmissions": [
+      "Manual and automatic transmissions"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": [
+      "Medium-duty commercial truck chassis"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Medium-duty commercial truck series for vocational applications. TopKick branding introduced in 1980s. C-Series designation covers multiple weight ratings (C4500-C8500). Commercial chassis cab configuration requiring specialized knowledge for air brakes and commercial drivetrains. Limited consumer documentation available."
+  },
+  {
+    "years": [1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988],
+    "make": "GMC",
+    "model": "Brigadier (Heavy Duty Conventional)",
+    "engines": [
+      "Various heavy-duty diesel engines"
+    ],
+    "transmissions": [
+      "Manual transmissions"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": [
+      "Heavy-duty conventional truck chassis"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.3,
+    "notes": "Heavy-duty conventional truck for commercial/vocational use. Part of GMC's commercial truck lineup alongside General. Requires specialized commercial vehicle service knowledge including air brake systems, heavy-duty transmissions, and commercial diesel engines. Limited consumer market documentation available."
+  }
+]

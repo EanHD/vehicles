@@ -1,0 +1,136 @@
+[
+  {
+    "years": [1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999],
+    "make": "GMC",
+    "model": "Yukon (First generation)",
+    "engines": [
+      "5.7L V8",
+      "6.5L Detroit Diesel turbodiesel V8"
+    ],
+    "transmissions": [
+      "4-speed 4L60E automatic",
+      "4-speed 4L80E automatic",
+      "5-speed manual (early years)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "3-door SUV (1992-1997)",
+      "5-door SUV (1995-1999)"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation Yukon replaced full-size Jimmy in 1992. Available with optional 6.5L turbodiesel. Special Yukon GT edition 1992-1994. Transitioned from 3-door to 5-door body style mid-generation. Data sourced from Wikipedia GMC Yukon article, October 11, 2025 revision."
+  },
+  {
+    "years": [1996, 1997, 1998, 1999],
+    "make": "GMC",
+    "model": "Savana (GMT600 - first years)",
+    "engines": [
+      "4.3L Vortec V6",
+      "5.0L V8",
+      "5.7L V8",
+      "6.5L Detroit Diesel V8"
+    ],
+    "transmissions": [
+      "4-speed 4L60-E automatic",
+      "4-speed 4L80-E automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": [
+      "Cargo van",
+      "Passenger van (various configurations)"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.0,
+    "notes": "GMC Savana introduced in 1996 as rebadged Chevrolet Express on GMT600 platform. Available in cargo and passenger configurations with multiple engine options including diesel. Fleet-oriented full-size van. Data sourced from Wikipedia Chevrolet Express article, October 11, 2025 revision."
+  },
+  {
+    "years": [1991],
+    "make": "GMC",
+    "model": "Syclone",
+    "engines": [
+      "4.3L LB4 Turbo V6 (280 hp, 350 lb-ft)"
+    ],
+    "transmissions": [
+      "4-speed 4L60 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["AWD"],
+    "body_styles": [
+      "2-door performance pickup"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "High-performance turbocharged pickup with AWD (35% front, 65% rear split). 0-60 mph in 5.3 seconds. First production truck with 4-wheel ABS. Only 2,995 units produced in 1991, all in black. Mitsubishi TD06-17C turbocharger with Garrett intercooler. Data sourced from Wikipedia GMC Syclone article, October 11, 2025 revision."
+  },
+  {
+    "years": [1992, 1993],
+    "make": "GMC",
+    "model": "Typhoon",
+    "engines": [
+      "4.3L LB4 Turbo V6 (280 hp, 350 lb-ft)"
+    ],
+    "transmissions": [
+      "4-speed 4L60 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["AWD"],
+    "body_styles": [
+      "3-door performance SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "High-performance SUV variant based on GMC Jimmy with same turbocharged 4.3L V6 and AWD system as Syclone. Limited production performance vehicle with specialized turbocharger and intercooler requiring performance-oriented service knowledge. Data sourced from Wikipedia GMC Syclone article, October 11, 2025 revision."
+  },
+  {
+    "years": [1998, 1999],
+    "make": "GMC",
+    "model": "Envoy (First generation - Jimmy trim)",
+    "engines": [
+      "4.3L Vortec 4300 V6"
+    ],
+    "transmissions": [
+      "4-speed 4L60-E automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "5-door luxury SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation Envoy was highest luxury trim of GMC Jimmy (1998-2000). Features included leather interior, Bose sound system, HID headlights, heated seats, and monochromatic exterior. Discontinued after 2000, name revived for standalone SUV in 2002. Data sourced from Wikipedia GMC Envoy article, October 11, 2025 revision."
+  },
+  {
+    "years": [1999],
+    "make": "GMC",
+    "model": "Sierra 1500 (GMT800 - first year)",
+    "engines": [
+      "4.3L Vortec V6",
+      "4.8L Vortec V8",
+      "5.3L Vortec V8",
+      "6.0L Vortec V8"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed 4L60-E automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": [
+      "Regular Cab",
+      "Extended Cab (3-door)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "GMT800 Sierra launched August 1998 as 1999 model. First year featured Regular and Extended cab only (Crew cab added 2001). GMT400 'classic' models continued production alongside new GMT800 for two years. Vortec engine family with improved efficiency. Data sourced from Wikipedia GMC Sierra and Chevrolet Silverado articles, October 11, 2025 revision."
+  }
+]

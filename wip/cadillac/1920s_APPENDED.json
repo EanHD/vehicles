@@ -1,0 +1,78 @@
+[
+  {
+    "years": [1923, 1924, 1925],
+    "make": "Cadillac",
+    "model": "Type V-63",
+    "engines": [
+      "5.1L flathead V8 (80 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "4-door sedan", "4-door touring"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Type V-63 with Cadillac's first V8 engine (1923-1925). Introduced 90-degree V8 replacing inline engines. Multiple body styles. Mechanical brakes, 6-volt electrical. Difficulty modifier 1.3 reflects early 1920s brass-era proximity, first-generation V8 technology, hand-fitted components, and extreme parts scarcity. Data sourced from Wikipedia Cadillac Type V-63 article, December 19, 2024 revision."
+  },
+  {
+    "years": [1926, 1927],
+    "make": "Cadillac",
+    "model": "Series 314",
+    "engines": [
+      "5.1L flathead V8 (80 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "4-door sedan", "4-door touring"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Series 314 luxury sedan (1926-1927). Continued V8 engine development. Multiple coachwork styles. Mechanical brakes, brass/nickel trim. Difficulty modifier 1.3 reflects mid-1920s complexity, brass-era proximity, hand-assembled construction, and extreme parts scarcity. Data sourced from Wikipedia Cadillac Series 314 article, December 19, 2024 revision."
+  },
+  {
+    "years": [1928, 1929],
+    "make": "Cadillac",
+    "model": "Series 341",
+    "engines": [
+      "5.6L flathead V8 (90 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "3-speed synchromesh manual (1929)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan", "4-door town sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.25,
+    "notes": "Series 341 with larger V8 (1928-1929). Introduced synchromesh transmission for 1929 (industry first). Safety glass standard. Multiple luxury body styles. Mechanical brakes transitioning to mechanical with vacuum assist. Difficulty modifier 1.25 reflects late-1920s vintage, transition technologies, and very limited parts availability. Data sourced from Wikipedia Cadillac Series 341 article, December 19, 2024 revision."
+  },
+  {
+    "years": [1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939, 1940],
+    "make": "Cadillac",
+    "model": "LaSalle (Early series)",
+    "engines": [
+      "5.0L flathead V8 (75-90 hp, 1927-1933)",
+      "3.9L flathead V8 (85-95 hp, 1934-1936)",
+      "5.3L flathead V8 (125-130 hp, 1937-1940)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "3-speed synchromesh manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan", "4-door phaeton"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.25,
+    "notes": "LaSalle companion brand (1927-1940). Styled by Harley Earl, positioned below Cadillac. Various V8 engines through production. Multiple body styles. Became Cadillac Series 52 briefly. Discontinued 1940. Difficulty modifier 1.25 reflects 1920s-1930s vintage, companion brand rarity, multiple engine variations, and parts scarcity. Data sourced from Wikipedia LaSalle automobile article, December 19, 2024 revision."
+  }
+]

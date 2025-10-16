@@ -1,0 +1,704 @@
+[
+  {
+    "years": [2000, 2001, 2002, 2003, 2004],
+    "make": "Ford",
+    "model": "Focus (First generation, Mk1)",
+    "engines": [
+      "2.0L SOHC I4 (110 hp)",
+      "2.0L Zetec DOHC I4 (130-136 hp)",
+      "2.3L Duratec I4 (151 hp, ST 2005-2007)"
+    ],
+    "transmissions": [
+      "5-speed manual (MTX-75)",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": [
+      "2-door coupe (ZX3)",
+      "4-door sedan (ZX4)",
+      "5-door hatchback (ZX5)",
+      "5-door wagon (ZX5)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation Focus used split-port SOHC engine (110 hp) on base models and Zetec DOHC (130 hp later 136 hp) on upper trims. SVT Focus offered 170 hp Zetec for performance enthusiasts. Timing belt on DOHC engines requires periodic replacement. Data sourced from Wikipedia Ford Focus (first generation) article, October 2025 revision."
+  },
+  {
+    "years": [2005, 2006, 2007],
+    "make": "Ford",
+    "model": "Focus (First generation, Mk1 - facelift)",
+    "engines": [
+      "2.0L Zetec DOHC I4 (136 hp)",
+      "2.3L Duratec I4 (151 hp, ST only)"
+    ],
+    "transmissions": [
+      "5-speed manual (MTX-75)",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": [
+      "2-door coupe (ZX3)",
+      "4-door sedan (ZX4)",
+      "5-door hatchback (ZX5)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "2005-2007 Focus received updated styling and dropped base SOHC engine. ST sedan replaced SVT with 151 hp 2.3L Duratec and 5-speed manual only. Final years of first-generation before 2008 redesign. Timing belt on DOHC Zetec requires replacement every 120k miles. Data sourced from Wikipedia Ford Focus (first generation) article, October 2025 revision."
+  },
+  {
+    "years": [2008, 2009],
+    "make": "Ford",
+    "model": "Focus (Second generation, North America)",
+    "engines": [
+      "2.0L Duratec 20 I4 (140 hp sedan/143 hp coupe)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": [
+      "2-door coupe",
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "North American second-generation Focus was a unique design different from European Mk2. Dropped hatchback and wagon variants, offering only coupe and sedan. Weight reduced by 30 lbs, highway fuel economy rated at 35 mpg. Production ended late 2010 with switchover to third-generation in early 2011. Timing chain engine eliminates belt maintenance. Data sourced from Wikipedia Ford Focus (second generation, North America) article, October 2025 revision."
+  },
+  {
+    "years": [2001, 2002, 2003, 2004],
+    "make": "Ford",
+    "model": "Escape (First generation, CD2)",
+    "engines": [
+      "2.0L Zetec I4 (130 hp, 2001-2004)",
+      "3.0L Duratec V6 (200 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual (Mazda-supplied)",
+      "4-speed automatic (4F27E)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door compact SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation Escape jointly developed with Mazda (Tribute twin). CD2 platform derived from Mazda. 2.0L I4 standard on XLS, 3.0L V6 optional. Manual transmission only available with I4 and FWD. Intelligent 4WD system on AWD models. Timing belt on both engines requires periodic replacement. Data sourced from Wikipedia Ford Escape article, October 2025 revision."
+  },
+  {
+    "years": [2005, 2006, 2007],
+    "make": "Ford",
+    "model": "Escape (First generation, facelift)",
+    "engines": [
+      "2.3L Duratec 23 I4 (153 hp)",
+      "3.0L Duratec V6 (200 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual (Mazda-supplied)",
+      "4-speed automatic (4F27E)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door compact SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Mid-cycle refresh replaced 2.0L with 2.3L Duratec increasing output to 153 hp. Updated exterior styling and interior improvements. Manual transmission available with I4/FWD only. Intelligent 4WD system continues on AWD models. Timing belt maintenance required on both engines. Data sourced from Wikipedia Ford Escape article, October 2025 revision."
+  },
+  {
+    "years": [2005, 2006, 2007],
+    "make": "Ford",
+    "model": "Escape Hybrid (First generation)",
+    "engines": [
+      "2.3L Duratec 23 Atkinson cycle I4 hybrid (153 hp combined with electric motor)"
+    ],
+    "transmissions": [
+      "eCVT (electronically controlled continuously variable transmission)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door compact SUV"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "First hybrid SUV in North America. 2.3L Atkinson cycle engine combined with electric motor and 330V NiMH battery pack. eCVT transmission integrates electric motor and generator. Regenerative braking system. HV battery isolation procedures required for service. High-voltage orange cables visible under hood. Difficulty modifier reflects hybrid system complexity and HV safety requirements. Data sourced from Wikipedia Ford Escape article, October 2025 revision."
+  },
+  {
+    "years": [2008, 2009],
+    "make": "Ford",
+    "model": "Escape (Second generation, pre-refresh)",
+    "engines": [
+      "2.3L Duratec 23 I4 (153 hp, 2008 only)",
+      "3.0L Duratec V6 (200 hp, 2008 only)"
+    ],
+    "transmissions": [
+      "5-speed manual (I4 FWD only)",
+      "4-speed automatic (4F27E)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door compact SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second-generation Escape launched for 2008 with carry-over engines initially. Retained first-gen powertrain for 2008 only before 2009 upgrades. Updated exterior styling and improved interior. Manual transmission only with I4/FWD configuration. Data sourced from Wikipedia Ford Escape article, October 2025 revision."
+  },
+  {
+    "years": [2009],
+    "make": "Ford",
+    "model": "Escape (Second generation, 2009 update)",
+    "engines": [
+      "2.5L Duratec 25 I4 (171 hp)",
+      "3.0L Duratec V6 (240 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic (6F35)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door compact SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Major powertrain update for 2009. I4 displacement increased from 2.3L to 2.5L (+18 hp to 171 hp). V6 output jumped from 200 hp to 240 hp. Manual transmission discontinued, 6-speed automatic became standard across all trims. Improved fuel economy and performance. Data sourced from Wikipedia Ford Escape article, October 2025 revision."
+  },
+  {
+    "years": [2008, 2009],
+    "make": "Ford",
+    "model": "Escape Hybrid (Second generation)",
+    "engines": [
+      "2.5L Duratec 25 Atkinson cycle I4 hybrid (175 hp combined, 2009+)"
+    ],
+    "transmissions": [
+      "eCVT (electronically controlled continuously variable transmission)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door compact SUV"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Second-generation Escape Hybrid continued with updated hybrid system. 2009 displacement increased to 2.5L with electric motor for 175 hp combined output. 330V NiMH battery pack with eCVT. Regenerative braking and electric-only mode at low speeds. HV isolation and orange cables require certified hybrid technician training. Data sourced from Wikipedia Ford Escape article, October 2025 revision."
+  },
+  {
+    "years": [2002, 2003, 2004, 2005],
+    "make": "Ford",
+    "model": "Explorer (Third generation, U152)",
+    "engines": [
+      "4.0L SOHC V6 (210 hp)",
+      "4.6L Modular SOHC V8 (239 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual (2002 only, 4.0L V6)",
+      "5-speed automatic (5R55 series)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "4-door SUV (5-passenger)",
+      "4-door SUV (7-passenger with third row)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Ground-up redesign on new rear-drive platform, ending Ranger commonality. First Explorer with independent rear suspension and optional third-row seating (7-passenger capacity). Manual transmission final year 2002, 5-speed automatic standard 2003+. Timing chain on both engines. Control Trac 4WD system on AWD models. Data sourced from Wikipedia Ford Explorer article, October 2025 revision."
+  },
+  {
+    "years": [2006, 2007, 2008, 2009],
+    "make": "Ford",
+    "model": "Explorer (Fourth generation, U251)",
+    "engines": [
+      "4.0L Cologne SOHC V6 (210 hp)",
+      "4.6L Modular SOHC V8 (292 hp, 3-valve with VCT)"
+    ],
+    "transmissions": [
+      "5-speed automatic (4.0L V6)",
+      "6-speed automatic (4.6L V8)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "4-door SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fourth-generation Explorer launched mid-2005 for 2006 model year. 4.6L V8 featured 3-valve heads with variable cam timing (300 lb-ft torque). V6 retained 5-speed auto, V8 received new 6-speed automatic. Electronically controlled 4WD optional. Independent rear suspension continued. Timing chain on both engines eliminates belt maintenance. Production ended December 2010. Data sourced from Wikipedia Ford Explorer article, October 2025 revision."
+  },
+  {
+    "years": [2001, 2002, 2003, 2004, 2005],
+    "make": "Ford",
+    "model": "Explorer Sport Trac (First generation)",
+    "engines": [
+      "4.0L SOHC V6 (210 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual (2001-2003)",
+      "5-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "4-door crew cab pickup truck"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Sport Trac combined Explorer SUV front with integrated pickup bed. Shared UN105 platform with second-generation Explorer. Only engine option was 4.0L SOHC V6 with 210 hp. Manual transmission standard through 2003, dropped for 2004-2005. 5-speed automatic optional then standard. Control Trac 4WD system available. Data sourced from Wikipedia Ford Explorer Sport Trac article, October 2025 revision."
+  },
+  {
+    "years": [2007, 2008, 2009],
+    "make": "Ford",
+    "model": "Explorer Sport Trac (Second generation)",
+    "engines": [
+      "4.0L SOHC V6 (210 hp)",
+      "4.6L Modular SOHC V8 (292 hp, 3-valve)"
+    ],
+    "transmissions": [
+      "5-speed automatic (5R55W, 4.0L V6)",
+      "6-speed automatic (6R80, 4.6L V8 2009+)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "4-door crew cab pickup truck"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second-generation Sport Trac skipped 2006 model year. First V8 option with 292 hp 4.6L from F-150. 4.0L V6 standard with 5-speed auto. V8 initially received 5-speed, upgraded to 6-speed (6R80) for 2009. Independent rear suspension. Manual transmission no longer offered. Data sourced from Wikipedia Ford Explorer Sport Trac article, October 2025 revision."
+  },
+  {
+    "years": [2003, 2004, 2005, 2006],
+    "make": "Ford",
+    "model": "Expedition (Second generation, U222)",
+    "engines": [
+      "4.6L Triton SOHC V8 (232 hp, 2003-2004)",
+      "5.4L Triton SOHC V8 (300 hp, 24-valve with VVT, 2005-2006)"
+    ],
+    "transmissions": [
+      "4-speed automatic (4R75E)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "4-door full-size SUV (regular wheelbase)",
+      "4-door full-size SUV (extended wheelbase - Expedition Max)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second-generation Expedition launched May 2002 for 2003 model year. First full-size SUV with fully independent suspension. Base 4.6L V8 dropped for 2005, making 5.4L V8 standard. 2005+ 5.4L featured 24-valve heads and variable valve timing (300 hp, 365 lb-ft). 4R75E 4-speed automatic with Smart Shift technology. Data sourced from Wikipedia Ford Expedition article, October 2025 revision."
+  },
+  {
+    "years": [2007, 2008, 2009],
+    "make": "Ford",
+    "model": "Expedition (Third generation, U324)",
+    "engines": [
+      "5.4L Triton SOHC V8 (300 hp, 2007-2008)",
+      "5.4L Triton SOHC V8 (310 hp, 2009, FlexFuel E85 capable)"
+    ],
+    "transmissions": [
+      "6-speed automatic (6R75, 2007-2008)",
+      "6-speed automatic (6R80, 2009+)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "4-door full-size SUV (regular wheelbase)",
+      "4-door full-size SUV (extended wheelbase - Expedition EL)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Third-generation Expedition on new T1 ladder frame with improved torsional rigidity. 5.4L Triton V8 sole engine, upgraded to 310 hp and E85 FlexFuel for 2009. New 6-speed automatic (6R75 2007-2008, stronger 6R80 2009+ with tow/haul mode). Four-wheel independent suspension. AdvanceTrac stability control standard. Timing chain engine. Data sourced from Wikipedia Ford Expedition article, October 2025 revision."
+  },
+  {
+    "years": [2000, 2001, 2002, 2003, 2004],
+    "make": "Ford",
+    "model": "Mustang (Fourth generation, SN95 - New Edge)",
+    "engines": [
+      "3.8L Essex OHV V6 (190 hp)",
+      "4.6L Modular SOHC V8 (260 hp, GT)",
+      "4.6L Modular DOHC V8 (320-390 hp, SVT Cobra/Cobra R)"
+    ],
+    "transmissions": [
+      "5-speed manual (T-45/T-3650)",
+      "6-speed manual (T-56, Cobra only)",
+      "4-speed automatic (4R70W)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": [
+      "2-door coupe",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fourth-generation SN95 New Edge styling (1999-2004). Base V6 produced 190-193 hp from 3.8L Essex. GT used 4.6L SOHC 2-valve V8 (260 hp). SVT Cobra featured 4.6L DOHC 4-valve (320 hp naturally aspirated, 390 hp supercharged 2003-2004). 2003-2004 Mach 1 offered 305 hp DOHC variant. Fox platform final evolution. Data sourced from Wikipedia Ford Mustang (fourth generation) article, October 2025 revision."
+  },
+  {
+    "years": [2005, 2006, 2007, 2008, 2009],
+    "make": "Ford",
+    "model": "Mustang (Fifth generation, S197)",
+    "engines": [
+      "4.0L Cologne SOHC V6 (210 hp)",
+      "4.6L Modular SOHC V8 (300 hp, GT, 3-valve with VCT)",
+      "5.4L Modular DOHC supercharged V8 (500-550 hp, Shelby GT500)"
+    ],
+    "transmissions": [
+      "5-speed manual (T-5 V6, TR-3650 GT, T-56 Shelby)",
+      "5-speed automatic (5R55S)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": [
+      "2-door coupe",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fifth-generation S197 retro-inspired design launched 2005. Base 4.0L V6 produced 210 hp. GT featured all-aluminum 4.6L 3-valve SOHC V8 with variable cam timing (300 hp, 320 lb-ft). Shelby GT500 returned 2007 with 5.4L supercharged DOHC V8 (500 hp initial, 540-550 hp later). New D2C platform based on DEW98. Timing chain on all engines. Data sourced from Wikipedia Ford Mustang (fifth generation) article, October 2025 revision."
+  },
+  {
+    "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007],
+    "make": "Ford",
+    "model": "Taurus (Fourth generation)",
+    "engines": [
+      "3.0L Vulcan OHV V6 (155 hp, standard)",
+      "3.0L Duratec DOHC V6 (200-201 hp, optional 2000-2007)"
+    ],
+    "transmissions": [
+      "4-speed automatic (AX4S, pre-2004)",
+      "4-speed automatic (AX4N, 2003+)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": [
+      "4-door sedan",
+      "5-door wagon (through 2005)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fourth-generation Taurus (2000-2007) on DN5 platform. Base 3.0L Vulcan OHV V6 standard on LX/SE/SES (155 hp). Optional 3.0L Duratec DOHC V6 on SES/SEL (200 hp, increased to 201 hp for 2004). Wagon discontinued after 2005. AX4S transmission phased out October 2002, replaced by AX4N. Timing chain on Duratec, timing belt on Vulcan. Data sourced from Wikipedia Ford Taurus (fourth generation) article, October 2025 revision."
+  },
+  {
+    "years": [2005, 2006, 2007],
+    "make": "Ford",
+    "model": "Five Hundred",
+    "engines": [
+      "3.0L Duratec 30 DOHC V6 (203 hp)"
+    ],
+    "transmissions": [
+      "CVT (Continuously Variable Transmission, FWD and AWD)",
+      "6-speed automatic (Aisin, FWD SE/SEL/Limited only)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door full-size sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Five Hundred full-size sedan on D3 platform (revised Volvo P2). Single engine option: 3.0L Duratec 30 V6 (203 hp, 207 lb-ft). CVT standard on FWD SE and all AWD models. Aisin 6-speed automatic on FWD SEL/Limited. 61.5-inch height over 5 inches taller than contemporary Taurus. Renamed Taurus for 2008. Data sourced from Wikipedia Ford Five Hundred article, October 2025 revision."
+  },
+  {
+    "years": [2006, 2007, 2008, 2009],
+    "make": "Ford",
+    "model": "Fusion (First generation, CD3)",
+    "engines": [
+      "2.3L Duratec 23 I4 (160 hp)",
+      "3.0L Duratec 30 V6 (221 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual (Mazda, I4 only)",
+      "5-speed automatic (Mazda, I4)",
+      "6-speed automatic (Aisin, V6)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD (V6 only)"],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation Fusion on CD3 platform (Mazda6-derived, stretched 30mm width, 55mm length). Base 2.3L Duratec I4 (160 hp) with Mazda 5-speed manual or automatic. Optional 3.0L V6 (221 hp) with Aisin 6-speed automatic and available AWD. Sold October 2005 through 2009 model year. Timing chain on both engines. Data sourced from Wikipedia Ford Fusion (Americas) article, October 2025 revision."
+  },
+  {
+    "years": [2007, 2008, 2009],
+    "make": "Ford",
+    "model": "Edge (First generation, CD3)",
+    "engines": [
+      "3.5L Duratec 35 V6 (265 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic (6F50)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door mid-size crossover SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation Edge on CD3 platform shared with Fusion, Mazda6, Mazda CX-9. Standard 3.5L Duratec 35 V6 (265 hp, 250 lb-ft). 6-speed automatic (6F50) standard across all trims. FWD standard, AWD optional. Debuted January 2006 at Detroit Auto Show, production started late 2006 for 2007 model year. Timing chain engine. Data sourced from Wikipedia Ford Edge article, October 2025 revision."
+  },
+  {
+    "years": [2009],
+    "make": "Ford",
+    "model": "Flex",
+    "engines": [
+      "3.5L Duratec 35 V6 (262 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic (co-developed with GM)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door full-size crossover SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Flex launched 2009 on D4 platform (re-engineered D3 for multiple wheelbases). Standard 3.5L Duratec V6 (262 hp, 248 lb-ft). 6-speed automatic co-developed with GM. FWD standard, AWD optional. Boxy retro-modern styling. EcoBoost 3.5L turbo not available until 2010. Timing chain engine. Data sourced from Wikipedia Ford Flex article, October 2025 revision."
+  },
+  {
+    "years": [2004, 2005, 2006, 2007],
+    "make": "Ford",
+    "model": "Freestar",
+    "engines": [
+      "3.9L Essex OHV V6 (193 hp, standard US)",
+      "4.2L Essex OHV V6 (201 hp, Canada/export, optional US)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": [
+      "4-door minivan (cargo)",
+      "4-door minivan (passenger)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Freestar replaced Windstar minivan for 2004-2007. Standard 3.9L Essex V6 (193 hp, 240 lb-ft) shared with Mustang. Optional/Canada standard 4.2L V6 (201 hp, 263 lb-ft) from E-150. 4-speed automatic with improved shifting and reliability. Production ended November 2006, sold through 2007 model year. Timing chain engines. Data sourced from Wikipedia Ford Freestar article, October 2025 revision."
+  },
+  {
+    "years": [2005, 2006, 2007],
+    "make": "Ford",
+    "model": "Freestyle",
+    "engines": [
+      "3.0L Duratec 30 DOHC V6 (203 hp)"
+    ],
+    "transmissions": [
+      "CVT (Continuously Variable Transmission)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "4-door crossover SUV/wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Freestyle crossover wagon on D3 platform (related to Five Hundred sedan). Single 3.0L Duratec 30 V6 (203 hp). CVT standard on all FWD and AWD models. Three-row seating for 6-7 passengers. Renamed Taurus X for 2008 with 3.5L V6 and 6-speed automatic. CVT shared with AWD Five Hundred. Data sourced from Wikipedia Ford Freestyle article, October 2025 revision."
+  },
+  {
+    "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009],
+    "make": "Ford",
+    "model": "Crown Victoria (Panther platform)",
+    "engines": [
+      "4.6L Modular SOHC V8 (200-215 hp, 1998-2002)",
+      "4.6L Modular SOHC V8 (224-239 hp, 2003-2011)",
+      "4.6L Modular SOHC V8 (250 hp, Police Interceptor 2004-2011)"
+    ],
+    "transmissions": [
+      "4-speed automatic (4R70W, 1998-2004)",
+      "4-speed automatic (4R70E, 2005)",
+      "4-speed automatic (4R75E, 2006-2011)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": [
+      "4-door full-size sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Crown Victoria on Panther platform (body-on-frame RWD shared with Grand Marquis, Town Car). 4.6L Modular V8 received power increase to 224 hp (239 hp dual exhaust) for 2003 with engine knock sensor. Police Interceptor rated 250 hp 2004-2011. FlexFuel E85 capable from 2008. Panther platform re-engineered 2003. Timing chain engine. Production ended September 2011. Data sourced from Wikipedia Ford Crown Victoria article, October 2025 revision."
+  },
+  {
+    "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009],
+    "make": "Ford",
+    "model": "Ranger (Third generation)",
+    "engines": [
+      "2.3L Duratec DOHC I4 (143 hp, 2001+)",
+      "3.0L Vulcan OHV V6 (150 hp)",
+      "4.0L Cologne SOHC V6 (207 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual (Mazda)",
+      "4-speed automatic (I4, 3.0L V6)",
+      "5-speed automatic (4.0L V6)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "2-door regular cab",
+      "2-door SuperCab (extended cab)",
+      "4-door SuperCab"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Third-generation Ranger (1998-2012, 2000s coverage). 2.3L Duratec I4 replaced 2.5L in late 2001 (143 hp). 3.0L Vulcan V6 base V6 (150 hp). 4.0L SOHC V6 top option (207 hp). Multiple facelifts 2001, 2004, 2006. Manual transmission standard, automatic optional. Timing belt on 3.0L and early 4.0L, timing chain on 2.3L and later 4.0L SOHC. Data sourced from Wikipedia Ford Ranger (Americas) article, October 2025 revision."
+  },
+  {
+    "years": [1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007],
+    "make": "Ford",
+    "model": "Super Duty (First generation)",
+    "engines": [
+      "5.4L Triton SOHC V8 (gasoline)",
+      "6.8L Triton SOHC V10 (gasoline)",
+      "7.3L Power Stroke turbodiesel V8 (235-275 hp, 1999-2003)",
+      "6.0L Power Stroke turbodiesel V8 (325 hp, 2003.5-2007)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "6-speed manual (6.0L diesel)",
+      "4-speed automatic (4R100)",
+      "5-speed automatic (5R110W, 6.0L diesel)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "2-door regular cab pickup (F-250, F-350)",
+      "4-door crew cab pickup (F-250, F-350, F-450, F-550)"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "First-generation Super Duty launched 1999 on dedicated heavy-duty platform. 7.3L Power Stroke diesel (235 hp/500 lb-ft initial, 250-275 hp later) through mid-2003. Replaced by 6.0L Power Stroke (325 hp, 560-570 lb-ft) mid-2003 through 2007. Gasoline options: 5.4L V8, 6.8L V10. Manual and automatic transmissions. Diesel maintenance complexity and emissions systems warrant difficulty modifier. Data sourced from Wikipedia Ford Super Duty article, October 2025 revision."
+  },
+  {
+    "years": [2008, 2009],
+    "make": "Ford",
+    "model": "Super Duty (Second generation)",
+    "engines": [
+      "5.4L Triton SOHC V8 (300 hp, gasoline)",
+      "6.8L Triton SOHC V10 (362 hp, gasoline)",
+      "6.4L Power Stroke turbodiesel V8 (350 hp, 650 lb-ft)"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "5-speed automatic (TorqShift)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "2-door regular cab pickup (F-250, F-350)",
+      "4-door crew cab pickup (F-250, F-350, F-450, F-550)"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Second-generation Super Duty launched 2008 (delayed from 2007). All-new 6.4L Power Stroke twin-turbo diesel V8 (350 hp, 650 lb-ft) with DPF diesel particulate filter. Gasoline: 5.4L V8 (300 hp), 6.8L V10 (362 hp). 6-speed manual or 5-speed TorqShift automatic. DPF regeneration and diesel emissions complexity justify difficulty modifier. Production 2008-2010. Data sourced from Wikipedia Ford Super Duty article, October 2025 revision."
+  },
+  {
+    "years": [2002, 2003, 2004, 2005],
+    "make": "Ford",
+    "model": "Thunderbird (Eleventh generation, DEW platform)",
+    "engines": [
+      "3.9L Jaguar AJ-30 DOHC V8 (252 hp, 2002)",
+      "3.9L Jaguar AJ-35 DOHC V8 (280 hp, 2003-2005, with VVT)"
+    ],
+    "transmissions": [
+      "5-speed automatic (5R55N with SelectShift)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": [
+      "2-door convertible (with removable hardtop)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Eleventh-generation Thunderbird revival on DEW platform (shared with Lincoln LS, Jaguar S-Type). 2002 used 3.9L Jaguar AJ-30 V8 (252 hp). 2003-2005 upgraded to 280 hp with intake-side VVT, higher compression (10.8:1), electronic throttle. 5-speed automatic with SelectShift manual mode. Two-seater convertible with removable hardtop. Production ended July 2005. Data sourced from Wikipedia Ford Thunderbird (eleventh generation) article, October 2025 revision."
+  },
+  {
+    "years": [2000, 2001, 2002, 2003, 2004, 2005],
+    "make": "Ford",
+    "model": "Excursion",
+    "engines": [
+      "5.4L Triton SOHC V8 (255 hp, gasoline)",
+      "6.8L Triton SOHC V10 (310 hp, 425 lb-ft, gasoline)",
+      "7.3L Power Stroke turbodiesel V8 (2000-2003)",
+      "6.0L Power Stroke turbodiesel V8 (325 hp, 560 lb-ft, 2003-2005)"
+    ],
+    "transmissions": [
+      "4-speed automatic (4R100, 5.4L/6.8L/7.3L)",
+      "5-speed automatic (5R110W, 6.0L diesel)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "4-door full-size SUV (extended length)"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Excursion full-size SUV derived from F-250 Super Duty 3/4-ton platform (2000-2005). Gasoline: 5.4L V8 (255 hp), 6.8L V10 (310 hp, 425 lb-ft). Diesel: 7.3L Power Stroke (2000-2003), 6.0L Power Stroke (325 hp, 560 lb-ft, 2003-2005). Max towing 11,000 lbs with V10/diesel. Diesel complexity and emissions warrant difficulty modifier. Data sourced from Wikipedia Ford Excursion article, October 2025 revision."
+  },
+  {
+    "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009],
+    "make": "Ford",
+    "model": "Econoline E-Series (Fourth generation)",
+    "engines": [
+      "4.2L Essex OHV V6 (gasoline)",
+      "4.6L Triton SOHC V8 (gasoline)",
+      "5.4L Triton SOHC V8 (gasoline)",
+      "6.8L Triton SOHC V10 (gasoline)",
+      "7.3L Power Stroke turbodiesel V8 (through 2003)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": [
+      "Full-size van (cargo)",
+      "Full-size van (passenger - wagon)",
+      "Cutaway chassis cab"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.1,
+    "notes": "Fourth-generation E-Series (1992-2014, 2000s coverage). Triton engine lineup: 4.2L V6, 4.6L V8, 5.4L V8, 6.8L V10. 7.3L Power Stroke diesel through 2003. No manual transmission after 1989. Available as cargo van (E-150, E-250, E-350), passenger wagon, cutaway chassis. Commercial duty cycle and diesel option justify difficulty modifier. Data sourced from Wikipedia Ford E-Series article, October 2025 revision."
+  }
+]

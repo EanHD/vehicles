@@ -1,0 +1,56 @@
+[
+  {
+    "years": [1925, 1926, 1927, 1928, 1929],
+    "make": "Buick",
+    "model": "Standard Six",
+    "engines": [
+      "3.1L inline-6 (60-77 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door roadster", "4-door sedan", "4-door touring"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Entry-level Buick Standard Six series (1925-1929). Inline-6 engine. Multiple body styles including open touring cars. RWD. Mechanical brakes, 6-volt electrical, magneto ignition. Difficulty modifier 1.3 reflects mid-1920s brass-era proximity, hand-fitted components, mechanical brakes only, and extreme parts scarcity. Data sourced from Wikipedia Buick Standard Six article, December 19, 2024 revision."
+  },
+  {
+    "years": [1925, 1926, 1927, 1928],
+    "make": "Buick",
+    "model": "Master Six",
+    "engines": [
+      "3.9L inline-6 (70-80 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door roadster", "4-door sedan", "4-door touring"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Mid-range Buick Master Six series (1925-1928). Larger inline-6 than Standard Six. Multiple body styles including touring and roadster. RWD. Mechanical brakes, brass-era construction techniques. Difficulty modifier 1.3 reflects mid-1920s brass-era proximity, hand-fitted construction, obsolete systems, and extreme parts scarcity. Data sourced from Wikipedia Buick Master Six article, December 19, 2024 revision."
+  },
+  {
+    "years": [1926, 1927, 1928, 1929],
+    "make": "Buick",
+    "model": "Series 50/60",
+    "engines": [
+      "3.9L inline-6 (77-87 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "4-door sedan", "4-door touring"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Series 50 and Series 60 models (1926-1929). Inline-6 engines. Multiple body styles. RWD. Body-on-frame construction with wood framing. Mechanical brakes, 6-volt electrical. Difficulty modifier 1.3 reflects late-1920s brass-era proximity, wooden body framing, hand-assembled construction, and extreme parts scarcity. Data sourced from Wikipedia Buick history articles, December 19, 2024 revision."
+  }
+]

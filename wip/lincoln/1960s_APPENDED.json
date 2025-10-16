@@ -1,0 +1,30 @@
+[
+  {
+    "years": [1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969],
+    "make": "Lincoln",
+    "model": "Continental (Fourth Generation, Suicide Doors)",
+    "engines": ["430 cu in (7.0L) MEL V8 (300-320 hp, 1961-1965)", "462 cu in (7.6L) MEL V8 (340 hp, 1966-1968)"],
+    "transmissions": ["3-speed automatic (Turbo-Drive)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "4-door convertible (1961-1967)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Iconic suicide doors (rear-hinged) design. Presidential limousine variant (JFK assassination vehicle). Last four-door convertible in America until 1980s. Unibody construction. Highly collectible. Vintage complexity requires specialized service knowledge. Data sourced from Wikipedia Lincoln Continental article, January 2025 revision."
+  },
+  {
+    "years": [1969, 1970, 1971],
+    "make": "Lincoln",
+    "model": "Continental Mark III",
+    "engines": ["460 cu in (7.5L) 385-series V8 (365 hp)"],
+    "transmissions": ["3-speed automatic (C6)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Revival of Mark series as personal luxury coupe. Based on Ford Thunderbird platform. Signature Rolls-Royce-style grille. Hidden headlights. Long hood, short deck proportions. Vintage service requirements. Data sourced from Wikipedia Lincoln Mark series article, January 2025 revision."
+  }
+]

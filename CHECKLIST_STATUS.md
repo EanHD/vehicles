@@ -3,39 +3,52 @@
 Use this file to note which manufacturers in `CHECKLIST.md` have had their full historical rosters verified and refreshed, and whose complete model coverage is reflected in `vehicles.json`.
 
 - [x] Chevrolet — historical model roster audited and `CHECKLIST.md` updated
-- [ ] GMC — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Buick — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Cadillac — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Ford — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Lincoln — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Ram — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Dodge — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Chrysler — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Jeep — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Tesla — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Toyota — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Lexus — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Honda — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Acura — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Nissan — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Infiniti — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Mazda — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Subaru — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Mitsubishi — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Hyundai — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Kia — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Genesis — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Volkswagen — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Audi — historical model roster audited and `CHECKLIST.md` updated
-- [ ] BMW — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Mercedes-Benz — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Mini — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Porsche — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Volvo — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Jaguar — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Land Rover — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Alfa Romeo — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Fiat — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Rivian — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Lucid — historical model roster audited and `CHECKLIST.md` updated
-- [ ] Polestar — historical model roster audited and `CHECKLIST.md` updated
+- [x] GMC — historical model roster audited and `CHECKLIST.md` updated (Phase 1 + Phase 2 complete: 55 models, 1916-present, Dec 19 2024)
+- [x] Buick — historical model roster audited and `CHECKLIST.md` updated (Phase 1 + Phase 2 complete: 67 models, 1903-present, Dec 19 2024)
+- [x] Cadillac — historical model roster audited and `CHECKLIST.md` updated (Phase 1 + Phase 2 complete: 68 models, 1902-present, Dec 19 2024)
+- [x] Ford — historical model roster audited and `CHECKLIST.md` updated (Phase 1 + Phase 2 complete: 177 models, 1903-2025, Jan 17 2025)
+- [x] Lincoln — historical model roster audited and `CHECKLIST.md` updated (Phase 1 + Phase 2 complete: 49 models, 1920-2025, Jan 17 2025)
+- [x] Ram — historical model roster audited and `CHECKLIST.md` updated (Phase 1 + Phase 2 complete: 21 models, 1917-2025, Jan 17 2025)
+- [x] Dodge — historical model roster audited and `CHECKLIST.md` updated (Phase 1 + Phase 2 complete: 42 models, 1914-2025, Jan 17 2025)
+- [x] Chrysler — historical model roster audited and `CHECKLIST.md` updated (Complete: 79 models, 1924-2025, Jan 17 2025)
+- [x] Jeep — historical model roster audited and `CHECKLIST.md` updated (Phase 1 + Phase 2 complete: 70 models, 1941-2025, Oct 14 2025)
+- [x] Tesla — historical model roster audited and `CHECKLIST.md` updated (Complete: 10 models, 2008-2025, Jan 17 2025)
+- [x] Toyota — historical model roster audited and `CHECKLIST.md` updated (Complete: 55 models, 1983-2025, Jan 17 2025)
+- [x] Lexus — historical model roster audited and `CHECKLIST.md` updated (Complete: 82 models, 1989-2025, Jan 17 2025)
+- [x] Honda — historical model roster audited and `CHECKLIST.md` updated (Complete: 56 models, 1982-2025, Jan 17 2025)
+- [x] Acura — historical model roster audited and `CHECKLIST.md` updated (Complete: 45 models, 1986-2025, Jan 17 2025)
+- [x] Nissan — historical model roster audited and `CHECKLIST.md` updated (Complete: 96 entries appended, 1932-2025, Oct 14 2025)
+- [x] Infiniti — historical model roster audited and `CHECKLIST.md` updated (Complete: 48 models, 1990-2025, Jan 17 2025)
+- [x] Mazda — historical model roster audited and `CHECKLIST.md` updated (Complete: 73 models, 1970-2025, Jan 17 2025)
+- [x] Subaru — historical model roster audited and `CHECKLIST.md` updated (Complete: 50 models, 1970-2025, Jan 17 2025)
+- [x] Mitsubishi — historical model roster audited and `CHECKLIST.md` updated (Complete: 52 models, 1982-2025, Jan 17 2025)
+- [x] Hyundai — historical model roster audited and `CHECKLIST.md` updated (Complete: 43 models, 1986-2025, Oct 14 2025)
+- [x] Kia — historical model roster audited and `CHECKLIST.md` updated (Complete: 52 models, 1994-2025, Jan 17 2025)
+- [x] Genesis — historical model roster audited and `CHECKLIST.md` updated
+- [x] Volkswagen — historical model roster audited and `CHECKLIST.md` updated (Complete: 78 models, 1949-2025, Jan 17 2025)
+- [x] Audi — historical model roster audited and `CHECKLIST.md` updated (Complete: 105 models, 1970-2025, Jan 17 2025)
+- [x] BMW — historical model roster audited and `CHECKLIST.md` updated
+- [x] Mercedes-Benz — historical model roster audited and `CHECKLIST.md` updated (Complete: 74 models, 1970-2025, Jan 17 2025)
+- [x] Mini — historical model roster audited and `CHECKLIST.md` updated (Complete: 28 models, 2002-2025, Jan 17 2025)
+- [x] Porsche — historical model roster audited and `CHECKLIST.md` updated (Complete: 44 models, 2000-2025, Jan 17 2025)
+- [x] Volvo — historical model roster audited and `CHECKLIST.md` updated (Complete: 63 models, 1927-2025, Jan 17 2025)
+- [x] Jaguar — historical model roster audited and `CHECKLIST.md` updated (Complete: 33 models, 1968-2025, Jan 17 2025)
+- [x] Land Rover — historical model roster audited and `CHECKLIST.md` updated (Complete: 37 models, 1948-2025, Jan 15 2025)
+- [x] Alfa Romeo — historical model roster audited and `CHECKLIST.md` updated (Complete: 9 models, 1991-2025, Jan 17 2025)
+- [x] Saturn — historical model roster audited and `CHECKLIST.md` updated (Complete: 12 models, 1990-2010, Jan 15 2025)
+- [x] Saab — historical model roster audited and `CHECKLIST.md` updated (Complete: 20 models, 1960-2014, Jan 15 2025)
+- [x] Geo — historical model roster audited and `CHECKLIST.md` updated (Complete: 8 models, 1989-1997, already in dataset)
+- [x] Isuzu — historical model roster audited and `CHECKLIST.md` updated (Complete: 9 models, 1990-2009, Jan 17 2025)
+- [x] Suzuki — historical model roster audited and `CHECKLIST.md` updated (Complete: 18 models, 1990-2013, Jan 17 2025)
+- [x] Pontiac — historical model roster audited and `CHECKLIST.md` updated (Complete: 38 models, 1960-2010, Jan 15 2025)
+- [x] Mercury — historical model roster audited and `CHECKLIST.md` updated (Complete: 20 models, 1990-2011, Jan 17 2025)
+- [x] Oldsmobile — historical model roster audited and `CHECKLIST.md` updated (Complete: 18 models, 1990-2004, Jan 17 2025)
+- [x] Plymouth — historical model roster audited and `CHECKLIST.md` updated (Complete: 14 models, 1990-2001, Jan 17 2025)
+- [x] Eagle — historical model roster audited and `CHECKLIST.md` updated (Complete: 8 models, 1988-1998, Jan 15 2025)
+- [x] Hummer — historical model roster audited and `CHECKLIST.md` updated (Complete: 5 models, 1992-2010, Jan 17 2025)
+- [x] Scion — historical model roster audited and `CHECKLIST.md` updated (Complete: 8 models, 2003-2016, Jan 17 2025)
+- [x] Holden — historical model roster audited and `CHECKLIST.md` updated (Complete: 0 models - rebadged as Pontiac/Chevrolet, Jan 17 2025)
+- [x] Fiat — historical model roster audited and `CHECKLIST.md` updated (Complete: 7 models, 2011-2025, Jan 17 2025)
+- [x] Rivian — historical model roster audited and `CHECKLIST.md` updated (Complete: 2 models, 2021-2025, Jan 17 2025)
+- [x] Lucid — historical model roster audited and `CHECKLIST.md` updated (Complete: 2 models, 2021-2025, Jan 17 2025)
+- [x] Polestar — historical model roster audited and `CHECKLIST.md` updated (Complete: 4 models, 2019-2025, Jan 17 2025)

@@ -1,0 +1,72 @@
+[
+  {
+    "years": [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998],
+    "make": "Land Rover",
+    "model": "Defender 90/110/130",
+    "engines": ["2.5L I4 turbo diesel (107 hp)", "2.5L I4 turbo diesel (122 hp Td5)", "3.5L V8 (134 hp)", "3.9L V8 (182 hp)"],
+    "transmissions": ["5-speed manual", "4-speed automatic"],
+    "region": "British",
+    "drivetrain": ["4WD"],
+    "body_styles": ["3-door SUV (90)", "5-door SUV (110)", "5-door extended SUV (130)"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Defender branding introduced 1990 for 90/110/130 models. Body-on-frame construction with permanent four-wheel drive. Td5 engine introduced 1998. Limited US availability (primarily grey market imports). Basic mechanical design with minimal electronics. Diesel timing belt service. Data sourced from Wikipedia Land Rover Defender article, January 2025 revision."
+  },
+  {
+    "years": [1990, 1991, 1992, 1993, 1994, 1995, 1996],
+    "make": "Land Rover",
+    "model": "Range Rover Classic",
+    "engines": ["3.5L V8 (182 hp)", "3.9L V8 (182 hp)", "4.2L V8 (200 hp)", "2.5L I4 turbo diesel (107 hp)"],
+    "transmissions": ["4-speed automatic", "5-speed manual"],
+    "region": "British",
+    "drivetrain": ["4WD"],
+    "body_styles": ["5-door full-size luxury SUV"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "First-generation Range Rover final years (1970-1996). Body-on-frame construction with coil spring suspension. Features permanent four-wheel drive, optional air suspension (from 1992). Diesel available internationally. Vintage electronics and mechanical complexity. Timing chain V8 engines. Data sourced from Wikipedia Range Rover article, January 2025 revision."
+  },
+  {
+    "years": [1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002],
+    "make": "Land Rover",
+    "model": "Range Rover (P38A)",
+    "engines": ["4.0L V8 (188 hp)", "4.0L V8 (218 hp)", "4.6L V8 (225 hp)", "2.5L I6 turbo diesel (136 hp BMW M51)"],
+    "transmissions": ["4-speed automatic", "5-speed automatic"],
+    "region": "British",
+    "drivetrain": ["AWD"],
+    "body_styles": ["5-door full-size luxury SUV"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.3,
+    "notes": "Second-generation Range Rover (P38A). Body-on-frame construction with electronic air suspension standard. First Range Rover with electronic traction control (ETC). Features GEMS/Bosch engine management. BMW diesel engine. Complex air suspension and electronics notorious for reliability issues requiring specialized diagnostics. Data sourced from Wikipedia Range Rover article, January 2025 revision."
+  },
+  {
+    "years": [1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006],
+    "make": "Land Rover",
+    "model": "Freelander / LR1 (L314)",
+    "engines": ["1.8L I4 (120 hp)", "2.5L V6 (177 hp)"],
+    "transmissions": ["5-speed manual", "CVT (Jatco)", "Steptronic automatic"],
+    "region": "British",
+    "drivetrain": ["AWD"],
+    "body_styles": ["3-door SUV", "5-door SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "First-generation Freelander, marketed as LR1 in North America (2002-2005 only). Monocoque construction. Features Hill Descent Control, viscous coupling center differential. Timing belt I4 engine requires regular service. CVT transmission known for reliability issues. Data sourced from Wikipedia Land Rover Freelander article, January 2025 revision."
+  },
+  {
+    "years": [1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004],
+    "make": "Land Rover",
+    "model": "Discovery Series II",
+    "engines": ["4.0L V8 (182 hp)", "4.6L V8 (218 hp)", "2.5L I5 turbo diesel (136 hp)"],
+    "transmissions": ["4-speed automatic", "5-speed manual"],
+    "region": "British",
+    "drivetrain": ["4WD"],
+    "body_styles": ["5-door midsize SUV"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Discovery Series II (1999-2004) and late Series I models (1994-1998). Body-on-frame construction. Features Active Cornering Enhancement (ACE), Hill Descent Control. Diesel available internationally. Timing chain V8 engines. Transfer case and differential service critical for longevity. Data sourced from Wikipedia Land Rover Discovery article, January 2025 revision."
+  }
+]

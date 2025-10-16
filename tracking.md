@@ -17,17 +17,17 @@
 | Lexus | RX (AL20 refresh), GX (J250), TX (KA3), NX (AZ20) | 2022–present | Extensive hybrid/PHEV offerings | None | Pending |
 | Honda | CR-V (RS3), Accord (CV3), Civic (FL1/FE), Pilot (YG3) | 2022–present | CR-V/Accord hybrids, Prologue BEV | None | Partial (8th-gen Civic entry) |
 | Acura | MDX (YD4), RDX (TC1), Integra (DE4), ZDX (GM BEV3) | 2021–present | ZDX BEV, MDX Type S mild hybrid (planned) | None | Pending |
-| Nissan | Rogue (T33), Pathfinder (R53), Frontier (D41), Altima (L34) | 2021–present | e-POWER not sold in NA; Ariya BEV | Titan XD Cummins discontinued 2019 | Partial (L32 Altima entry) |
+| Nissan | Rogue (T33), Pathfinder (R53), Frontier (D41), Altima (L34) | 2025 model year refreshes active | Ariya BEV; Safety Shield 360 standard across lineup | Titan XD Cummins discontinued 2019 | Complete — appended 96 Nissan entries covering 1930s–2020s (S30 Z through Ariya, NV vans, historic exports) on Oct 14 2025 |
 | Infiniti | QX60 (L51B), QX80 (Z62), QX50 (J55), Q50 (V37) | 2014–present (latest refresh 2022) | Hybrid trims discontinued (Q50/Q70) | None | Pending |
 | Mazda | CX-30 (DM), CX-5 (KF), CX-50 (HA), CX-90 (KK), Mazda3 (BP) | 2019–present | PHEV on CX-90, mild hybrid upcoming | Diesel not sold in NA | Pending |
 | Subaru | Crosstrek (GU), Outback (BT), Forester (SK), Ascent (WM) | 2018–present | Solterra BEV | Diesel not sold in NA | Pending |
 | Mitsubishi | Outlander (GN0W), Eclipse Cross (GK), Mirage (A00/A10) | 2014–present (latest refresh 2022) | Outlander PHEV | None | Pending |
 | Hyundai | Tucson (NX4), Santa Fe (MX5), Palisade (LX2), Ioniq 5 (NE) | 2020–present | HEV/PHEV/BEV options across lineup | None | Pending |
 | Kia | Sportage (NQ5), Sorento (MQ4), Telluride (ON), EV9 (MV) | 2021–present | HEV/PHEV/BEV options across lineup | None | Pending |
-| Genesis | GV70 (JK1), GV80 (JX1), G70 (IK), Electrified G80 (RG3 BEV) | 2018–present | BEV (GV60, Electrified GV70/G80) | None | Pending |
+| Genesis | GV70 (JK1), GV80 (JX1), G70 (IK), Electrified G80 (RG3 BEV) | 2018–present | BEV (GV60, Electrified GV70/G80) | None | Complete — appended 11 Genesis entries (BH sedan through RS4 G90/GV60) on Oct 15 2025 |
 | Volkswagen | Atlas (CA1), Tiguan (BW2), ID.4 (E114), Golf GTI/R (MK8) | 2017–present (facelift 2024) | ID.4 BEV | Diesel discontinued 2015 | Pending |
 | Audi | Q5 (FY), Q7 (4M), Q8 e-tron (GE), A4 (B9) | 2017–present (facelifts 2021+) | PHEV/BEV lineup (Q5 TFSI e, Q4 e-tron) | Diesel not sold in NA | Pending |
-| BMW | X3 (G01), X5 (G05), 3 Series (G20), i4 (G26 BEV) | 2019–present | PHEV (X5 45e), BEV (i4, iX) | Diesel discontinued 2018 | Pending |
+| BMW | X3 (G01), X5 (G05), 3 Series (G20), i4 (G26 BEV) | 2019–present | PHEV (X5 45e), BEV (i4, iX) | Diesel discontinued 2018 | Complete — appended 68 BMW entries (1930s–2020s) on Oct 15 2025 |
 | Mercedes-Benz | GLC (X254), GLE (V167), C-Class (W206), EQE/EQS (V295/X295) | 2020–present | Wide EQ BEV lineup | Diesel not sold in NA passenger line | Pending |
 | Mini | Cooper (F56/F66), Countryman (U25), Aceman (U25) | 2024–present | BEV variants (Cooper SE, Countryman Electric) | None | Pending |
 | Porsche | Macan (95B/EVP), Cayenne (E3 II), 911 (992), Taycan (J1) | 2019–present | PHEV (Cayenne), BEV (Taycan) | Diesel discontinued 2017 | Pending |

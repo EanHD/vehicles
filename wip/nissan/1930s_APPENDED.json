@@ -1,0 +1,91 @@
+[
+  {
+    "years": [1932, 1933, 1934],
+    "make": "Nissan",
+    "model": "Datsun Type 11/12",
+    "engines": [
+      "495 cc DAT I4"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Early export Datsun Type 11/12 models used a 495 cc side-valve engine with three-speed manual and lightweight bodywork; pre-war parts scarcity, mechanical brakes, and hand-built components make preservation highly specialized, warranting a 1.3 difficulty. Data sourced from Wikipedia Datsun Type 11 article, October 7, 2025 revision."
+  },
+  {
+    "years": [1933, 1934, 1935],
+    "make": "Nissan",
+    "model": "Datsun Type 13",
+    "engines": [
+      "722 cc Type 7 I4"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door sedan",
+      "2-door phaeton"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "The Datsun Type 13 expanded engine displacement to 722 cc and introduced multiple body styles; hand-formed panels, cable brakes, and 6-volt electrics demand specialist knowledge, keeping difficulty at 1.3. Data sourced from Wikipedia Datsun Type 11 article, October 7, 2025 revision."
+  },
+  {
+    "years": [1935, 1936, 1937, 1938],
+    "make": "Nissan",
+    "model": "Datsun Roadster 15/16",
+    "engines": [
+      "722 cc Type 7 I4"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door roadster"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "The Datsun 15/16 roadsters offered export-friendly styling with fold-down windscreens and tonneau covers, powered by 722 cc engines and 3-speed manuals; convertible tops, manual brakes, and limited production increase restoration complexity to 1.3. Data sourced from Wikipedia Datsun Sports article, October 9, 2025 revision."
+  },
+  {
+    "years": [1938, 1939],
+    "make": "Nissan",
+    "model": "Datsun Type 17 Truck",
+    "engines": [
+      "722 cc Type 7 I4"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "Light pickup"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "The Datsun Type 17 truck updated the earlier 13T with rounded fenders and the 722 cc engine paired to a 3-speed manual, offering light commercial capability; mechanical brakes and wood-framed beds require careful craftsmanship, maintaining a 1.3 difficulty. Data sourced from Wikipedia Datsun Truck article, October 9, 2025 revision."
+  }
+]

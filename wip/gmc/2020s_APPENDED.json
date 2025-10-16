@@ -1,0 +1,182 @@
+[
+  {
+    "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "GMC",
+    "model": "Sierra 1500 (T1XX)",
+    "engines": [
+      "2.7L L3B Turbo I4 (310 hp)",
+      "4.3L LV3 EcoTec3 V6 (285 hp, 2019-2021)",
+      "5.3L L82/L84 EcoTec3 V8 (355 hp)",
+      "6.2L L87 EcoTec3 V8 (420 hp)",
+      "3.0L LM2/LZ0 Duramax Diesel I6 (277 hp 2020-2022, 305 hp 2023+)"
+    ],
+    "transmissions": [
+      "6-speed automatic",
+      "8-speed automatic",
+      "10-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": [
+      "Regular Cab (5'8\" / 8' bed)",
+      "Double Cab (5'8\" / 6'6\" bed)",
+      "Crew Cab (5'8\" / 6'6\" / 8' bed)"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.0,
+    "notes": "Fourth-generation T1XX Sierra shares platform with Chevrolet Silverado. Features optional carbon fiber bed, two-piece MultiPro tailgate, and Duramax diesel option from 2020. Multiple transmission options depending on engine choice. Data sourced from Wikipedia GMC Sierra article, October 11, 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "GMC",
+    "model": "Sierra HD 2500/3500 (T1XX)",
+    "engines": [
+      "6.6L L8T Gas V8 (401 hp, 464 lb-ft)",
+      "6.6L L5P Duramax Diesel V8 (445 hp 2020-2023, 470 hp 2024+, 910-975 lb-ft)"
+    ],
+    "transmissions": [
+      "10-speed Allison automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": [
+      "Regular Cab",
+      "Double Cab",
+      "Crew Cab"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.1,
+    "notes": "Heavy-duty T1XX Sierra HD models feature Allison 10-speed transmission and Duramax diesel with up to 975 lb-ft torque. Maximum towing capacity of 35,500 lbs. Diesel exhaust fluid (DEF) system and emissions equipment require specialized service knowledge. Data sourced from Wikipedia GMC Sierra article, October 11, 2025 revision."
+  },
+  {
+    "years": [2021, 2022, 2023, 2024, 2025],
+    "make": "GMC",
+    "model": "Yukon / Yukon XL (GMT T1XX)",
+    "engines": [
+      "5.3L L84 EcoTec3 V8",
+      "6.2L L87 EcoTec3 V8 (Denali)",
+      "3.0L Duramax I6 Turbodiesel"
+    ],
+    "transmissions": [
+      "10-speed Hydra-Matic 10L80 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "5-door SUV (standard wheelbase)",
+      "5-door SUV (extended wheelbase XL)"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.0,
+    "notes": "Fifth-generation Yukon on GMT T1XX platform shares architecture with Chevrolet Tahoe/Suburban. Available Duramax diesel option and independent rear suspension improve ride quality. Denali trim features 6.2L V8. Data sourced from Wikipedia GMC Yukon article, October 11, 2025 revision."
+  },
+  {
+    "years": [2024, 2025],
+    "make": "GMC",
+    "model": "Acadia (Third generation VSS-S)",
+    "engines": [
+      "2.5L LK0 Turbo I4 (328 hp, 326 lb-ft)"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "5-door crossover SUV (7-8 passenger)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Third-generation Acadia returns to full-size crossover segment on GM VSS-S platform. Features 15-inch infotainment, optional Super Cruise semi-autonomous driving. Available in Elevation, AT4, and Denali trims. Data sourced from Wikipedia GMC Acadia article, October 11, 2025 revision."
+  },
+  {
+    "years": [2023, 2024, 2025],
+    "make": "GMC",
+    "model": "Canyon (Third generation GMT 31XX-2)",
+    "engines": [
+      "2.7L L2R Turbo I4",
+      "2.7L L3B Turbo I4"
+    ],
+    "transmissions": [
+      "8-speed 8L80 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": [
+      "Crew Cab midsize pickup"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Third-generation Canyon shares GMT 31XX-2 platform with Chevrolet Colorado. Crew Cab only configuration for North American market. Multiple engine options using 2.7L turbo I4 variants. Data sourced from Wikipedia GMC Canyon article, October 11, 2025 revision."
+  },
+  {
+    "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "GMC",
+    "model": "Terrain (Second generation)",
+    "engines": [
+      "1.5L Turbo I4 (2018-2022)",
+      "1.5L LSD Turbo I4 (2023-2024)",
+      "2.0L Turbo I4 (2018-2020)"
+    ],
+    "transmissions": [
+      "9-speed automatic (gasoline)",
+      "6-speed automatic (diesel, 2018-2019)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "5-door compact crossover SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second-generation Terrain received 2022 refresh with updated styling and AT4 trim. Diesel 1.6L option discontinued after 2019. Standard 9-speed automatic on gasoline models. Data sourced from Wikipedia GMC Terrain article, October 11, 2025 revision."
+  },
+  {
+    "years": [2022, 2023, 2024, 2025],
+    "make": "GMC",
+    "model": "Hummer EV Pickup (SUT)",
+    "engines": [
+      "EV3X: 3 electric motors (1,000 hp)",
+      "EV2X/EV2: 2 electric motors (625 hp)"
+    ],
+    "transmissions": [
+      "Single-speed electric drive"
+    ],
+    "region": "American",
+    "drivetrain": ["AWD"],
+    "body_styles": [
+      "4-door electric pickup truck"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "All-electric Hummer EV features Ultium battery platform with up to 246.8 kWh total capacity. CrabWalk four-wheel steering and Extract Mode suspension require specialized diagnostic equipment. High-voltage system (400V/800V switchable) demands EV-certified technicians. Range up to 329 miles. Data sourced from Wikipedia GMC Hummer EV article, October 11, 2025 revision."
+  },
+  {
+    "years": [2023, 2024, 2025],
+    "make": "GMC",
+    "model": "Hummer EV SUV",
+    "engines": [
+      "EV3X: 3 electric motors (830 hp)",
+      "EV2X/EV2: 2 electric motors (625 hp)"
+    ],
+    "transmissions": [
+      "Single-speed electric drive"
+    ],
+    "region": "American",
+    "drivetrain": ["AWD"],
+    "body_styles": [
+      "5-door electric SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "SUV variant of Hummer EV with 5-door configuration and removable roof panels. Shares Ultium platform and CrabWalk/Extract Mode features with pickup. Range 298-314 miles depending on wheel configuration. 18-camera system and high-voltage battery require EV certification for service work. Data sourced from Wikipedia GMC Hummer EV article, October 11, 2025 revision."
+  }
+]

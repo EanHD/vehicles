@@ -1,0 +1,205 @@
+[
+  {
+    "years": [
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "make": "BMW",
+    "model": "3 Series (E36)",
+    "engines": [
+      "1.8L M42/M44 inline-4 (138 hp) 318i/318is",
+      "2.5L M50 inline-6 (189 hp) 325i",
+      "2.8L M52 inline-6 (190 hp) 328i",
+      "3.2L S52 inline-6 (240 hp) M3"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "5-speed automatic",
+      "6-speed manual (M3)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "2-door coupe",
+      "2-door convertible",
+      "3-door hatchback (318ti)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "E36 introduced multilink rear Z-axle and VANOS cam timing. Cooling systems are fragile—replace radiators, expansion tanks, and water pumps around 90k miles. M3 S52 requires valve adjustments and rear subframe reinforcement; Convertible tops need tension cable inspection. Data sourced from Wikipedia BMW 3 Series (E36) article, October 8, 2025 revision."
+  },
+  {
+    "years": [
+      1989,
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995
+    ],
+    "make": "BMW",
+    "model": "5 Series (E34)",
+    "engines": [
+      "2.5L M20/M50 inline-6 (168-189 hp) 525i",
+      "3.0L M60 V8 (215 hp) 530i",
+      "4.0L M60 V8 (282 hp) 540i",
+      "3.6L/3.8L S38 inline-6 (311 hp) M5"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "6-speed manual (M5/540i)",
+      "4-speed automatic",
+      "5-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "5-door wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "E34 uses recirculating-ball steering and EML throttle controls on V8s; check for timing chain guide wear. M5 hand-built engines require valve adjustments and twin fuel pumps. Self-leveling rear suspension on wagons demands fluid bleed and ride-height calibration. Data sourced from Wikipedia BMW 5 Series (E34) article, October 7, 2025 revision."
+  },
+  {
+    "years": [
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001
+    ],
+    "make": "BMW",
+    "model": "7 Series (E38)",
+    "engines": [
+      "3.0L M60 V8 (215 hp) 730i (limited NA)",
+      "4.4L M62 V8 (282-290 hp) 740i/740iL",
+      "5.4L M73 V12 (322 hp) 750iL"
+    ],
+    "transmissions": [
+      "5-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "4-door long-wheelbase sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Last BMW flagship with traditional design; features double wishbone front suspension and extensive multiplex wiring. V12 cars use hydraulic brake booster and rear self-leveling—bleed LDS fluid carefully. Pixel failures in MID/cluster common; repairs require soldering or module exchange. Data sourced from Wikipedia BMW 7 Series (E38) article, October 8, 2025 revision."
+  },
+  {
+    "years": [
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997
+    ],
+    "make": "BMW",
+    "model": "8 Series (E31)",
+    "engines": [
+      "5.0L M70 V12 (296 hp) 850i/850Ci",
+      "5.4L M62 V8 (282 hp) 840Ci",
+      "5.4L S70 V12 (372 hp) 850CSi"
+    ],
+    "transmissions": [
+      "4-speed automatic",
+      "5-speed automatic",
+      "6-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Grand tourer with pillarless doors, active rear axle kinematics, and pop-up headlights. Twin battery electrical system requires synchronized charging; V12 timing chain guides and EML throttle modules demand specialized service. Check rear hydraulic rear-steer accumulators for leaks. Data sourced from Wikipedia BMW 8 Series (E31) article, October 13, 2025 revision."
+  },
+  {
+    "years": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002
+    ],
+    "make": "BMW",
+    "model": "Z3 (E36/7/E36/8)",
+    "engines": [
+      "1.9L M44 inline-4 (138 hp) Z3 1.9",
+      "2.5L/2.8L M52 inline-6 (170-189 hp) Z3 2.5/2.8",
+      "3.0L M54 inline-6 (225 hp) Z3 3.0i",
+      "3.2L S52 inline-6 (240 hp) M Roadster/Coupe"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic",
+      "5-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door roadster",
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Roadster built in Spartanburg with semi-trailing rear axle requiring regular bushing inspection. Canvas tops rely on tension straps and drain tubes—clear to prevent trunk module damage. M variants need subframe reinforcement and differential mount checks. Data sourced from Wikipedia BMW Z3 article, October 9, 2025 revision."
+  },
+  {
+    "years": [
+      1999
+    ],
+    "make": "BMW",
+    "model": "X5 (E53 launch year)",
+    "engines": [
+      "4.4L M62 V8 (282 hp) xDrive4.4i"
+    ],
+    "transmissions": [
+      "5-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "North American launch year imported from Spartanburg; combines Range Rover-derived chassis with BMW electronics. Monitor front CV axle boots and air suspension compressor (if equipped) on early builds. Data sourced from Wikipedia BMW X5 article, September 29, 2025 revision."
+  }
+]

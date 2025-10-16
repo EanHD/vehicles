@@ -1,0 +1,44 @@
+[
+  {
+    "years": [1936, 1937, 1938, 1939, 1940],
+    "make": "Lincoln",
+    "model": "Zephyr (First Generation)",
+    "engines": ["267 cu in (4.4L) Flathead V12 (110-120 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "2-door sedan", "2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Revolutionary streamlined design by John Tjaarda. Unibody construction. More affordable Lincoln to compete with Packard. Flathead V12 engine. Continental was derived from Zephyr. Vintage service requires specialized knowledge. Data sourced from Wikipedia Lincoln Zephyr article, January 2025 revision."
+  },
+  {
+    "years": [1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939],
+    "make": "Lincoln",
+    "model": "Model KB (V12)",
+    "engines": ["447.9 cu in (7.3L) Flathead V12 (150 hp)", "414 cu in (6.8L) Flathead V12 (150 hp, 1933-1934)"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "2-door coupe", "2-door convertible", "limousine", "town car"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Top-of-line Lincoln with massive V12 engine. Competed with Cadillac V16 and Packard Twelve. Custom coachbuilt bodies available. Largest displacement Lincoln engine until 1970s. Depression-era luxury car requires highly specialized vintage expertise. Data sourced from Wikipedia Lincoln Model K article, January 2025 revision."
+  },
+  {
+    "years": [1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939],
+    "make": "Lincoln",
+    "model": "Model KA (V12)",
+    "engines": ["381.7 cu in (6.3L) Flathead V12 (125-150 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "2-door coupe", "2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Mid-range Lincoln V12 model. Smaller engine than KB. More affordable Depression-era luxury option. Vintage complexity requires period-specific service knowledge. Data sourced from Wikipedia Lincoln Model K article, January 2025 revision."
+  }
+]

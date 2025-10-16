@@ -1,0 +1,22 @@
+[
+  {
+    "years": [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+    "make": "Toyota",
+    "model": "Sequoia (XK60, Second Generation)",
+    "engines": [
+      "4.6L 1UR-FE V8 (310 hp, 2008-2009)",
+      "5.7L 3UR-FE V8 (381-401 hp)"
+    ],
+    "transmissions": [
+      "5-speed automatic (2008-2009)",
+      "6-speed automatic (2010+)"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": ["4-door full-size SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation full-size SUV. Built on Tundra platform sharing 5.7L V8 and chassis components. Larger than first generation with three-row seating for 7-8 passengers. TRD Sport and Limited trim levels available. 6-speed automatic became standard 2010. Timing belt replaced by timing chain on both engines. Data sourced from Wikipedia Toyota Sequoia article, January 2025 revision."
+  }
+]

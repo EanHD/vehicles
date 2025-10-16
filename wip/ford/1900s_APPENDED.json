@@ -1,0 +1,58 @@
+[
+  {
+    "years": [1908, 1909],
+    "make": "Ford",
+    "model": "Model T",
+    "engines": ["177 cu in (2.9L) Flathead I4 (22 hp)"],
+    "transmissions": ["2-speed planetary manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door runabout", "4-door touring", "2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "First production years of iconic Model T. Introduced October 1908. Planetary transmission operated by three foot pedals. Vanadium steel construction. Hand-crank starting. Brass radiator and fixtures. Requires specialized brass-era expertise and extremely rare parts. Data sourced from Wikipedia Ford Model T article, January 2025 revision."
+  },
+  {
+    "years": [1903, 1904],
+    "make": "Ford",
+    "model": "Model A (Original)",
+    "engines": ["100.4 cu in (1.6L) Flat-twin (8 hp)"],
+    "transmissions": ["2-speed planetary manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door runabout"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Ford Motor Company's first production vehicle. Horizontal opposed twin-cylinder engine mounted under seat. Chain drive. Tiller steering initially, steering wheel added later. Extremely rare brass-era vehicle requiring highly specialized restoration expertise. Data sourced from Wikipedia Ford Model A (1903–04) article, January 2025 revision."
+  },
+  {
+    "years": [1905, 1906],
+    "make": "Ford",
+    "model": "Model N",
+    "engines": ["149 cu in (2.4L) I4 (15 hp)"],
+    "transmissions": ["2-speed planetary manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door runabout"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Low-priced runabout that preceded Model T. Four-cylinder engine front-mounted. Planetary transmission. Sold for $500, making it affordable for middle class. Brass-era vehicle requiring specialized vintage expertise. Data sourced from Wikipedia Ford Model N article, January 2025 revision."
+  },
+  {
+    "years": [1906, 1907, 1908],
+    "make": "Ford",
+    "model": "Model K",
+    "engines": ["405 cu in (6.6L) I6 (40 hp)"],
+    "transmissions": ["2-speed planetary manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door touring", "2-door roadster"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Ford's first six-cylinder model and most expensive early offering at $2,500. Large luxury car competing with upscale brands. Commercial failure that convinced Henry Ford to focus on affordable vehicles. Brass-era complexity requires highly specialized knowledge. Data sourced from Wikipedia Ford Model K article, January 2025 revision."
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "years": [
+      1984,
+      1985,
+      1986,
+      1987,
+      1988,
+      1989,
+      1990,
+      1991
+    ],
+    "make": "BMW",
+    "model": "3 Series (E30)",
+    "engines": [
+      "2.7L M20 inline-6 (121 hp) 325e/325es",
+      "2.5L M20 inline-6 (168 hp) 325i/325is",
+      "2.5L M20 inline-6 (168 hp) 325ix AWD",
+      "2.3L S14 inline-4 (192-215 hp) M3"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic",
+      "5-speed automatic (late models)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "4-door sedan",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Iconic E30 uses timing belt-driven M20 engines (60k-mile interval) and K-Jetronic/Motronic injection. M3’s S14 requires shimmed valves and twin throttle synch. 325ix AWD adds transfer case viscous coupling—replace fluids to prevent bind. Data sourced from Wikipedia BMW 3 Series (E30) article, October 3, 2025 revision."
+  },
+  {
+    "years": [
+      1982,
+      1983,
+      1984,
+      1985,
+      1986,
+      1987,
+      1988
+    ],
+    "make": "BMW",
+    "model": "5 Series (E28)",
+    "engines": [
+      "2.7L M20 inline-6 (121 hp) 528e",
+      "3.4L M30 inline-6 (182 hp) 533i/535i",
+      "3.5L M30 inline-6 (256 hp) 535is",
+      "3.5L M88/S38 inline-6 (256 hp) M5"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "E28 features Bosch Motronic, ABS, and optional limited-slip differential. Timing belt service critical on M20, while M5’s hand-built M88/S38 needs 5k-mile valve adjustments and sodium-filled exhaust valves. Brake hydroboost accumulators require pressure testing. Data sourced from Wikipedia BMW 5 Series (E28) article, October 7, 2025 revision."
+  },
+  {
+    "years": [
+      1977,
+      1978,
+      1979,
+      1980,
+      1981,
+      1982,
+      1983,
+      1984,
+      1985,
+      1986,
+      1987,
+      1988,
+      1989
+    ],
+    "make": "BMW",
+    "model": "6 Series (E24)",
+    "engines": [
+      "3.2L/3.4L M30 inline-6 (181-215 hp) 633CSi/635CSi",
+      "3.5L M30 inline-6 (208 hp) L6 (US luxury package)",
+      "3.5L M88/S38 inline-6 (256 hp) M6"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Sharknose GT uses forward-hinged hood over M30 engines; timing chain with oil spray bar—clean banjo bolts to avoid cam starvation. TRX metric tires on early cars require conversion. Self-leveling rear suspension (SLS) on M6/L6 needs nitrogen sphere replacement and ride-height reset. Data sourced from Wikipedia BMW 6 Series (E24) article, October 8, 2025 revision."
+  },
+  {
+    "years": [
+      1978,
+      1979,
+      1980,
+      1981,
+      1982,
+      1983,
+      1984,
+      1985,
+      1986,
+      1987
+    ],
+    "make": "BMW",
+    "model": "7 Series (E23)",
+    "engines": [
+      "3.2L/3.4L M30 inline-6 (181-215 hp) 733i/735i",
+      "3.4L M102/M106 turbo inline-6 (252 hp) 745i (limited NA gray-market)"
+    ],
+    "transmissions": [
+      "4-speed automatic",
+      "5-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "First 7 Series with onboard computer and optional hydraulic self-leveling. K-Jetronic fuel injection requires CO adjustment; timing chain tensioner updates recommended. Turbocharged grey-market 745i uses air-to-air intercooling—ensure wastegate diaphragm integrity. Data sourced from Wikipedia BMW 7 Series (E23) article, October 9, 2025 revision."
+  },
+  {
+    "years": [
+      1988,
+      1989,
+      1990,
+      1991,
+      1992,
+      1993,
+      1994
+    ],
+    "make": "BMW",
+    "model": "7 Series (E32 early)",
+    "engines": [
+      "3.0L M30 inline-6 (188 hp) 730i (limited NA)",
+      "3.4L M30 inline-6 (208 hp) 735i",
+      "3.0L/4.0L V8 (215-282 hp) 730i/740i (1993+)",
+      "5.0L M70 V12 (296 hp) 750iL"
+    ],
+    "transmissions": [
+      "4-speed automatic",
+      "5-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "4-door long-wheelbase sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "E32 introduced double-glazed glass, ASC+T stability control, and V12 powertrains. Dual-battery system requires synchronized replacement, and self-leveling rear with LAD spheres needs nitrogen recharge. Early CAN-bus-style diagnostics require BMW DIS testers. Data sourced from Wikipedia BMW 7 Series (E32) article, October 8, 2025 revision."
+  }
+]

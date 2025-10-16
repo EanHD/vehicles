@@ -1,0 +1,72 @@
+[
+  {
+    "years": [1990, 1991, 1992, 1993],
+    "make": "Saab",
+    "model": "900 Classic",
+    "engines": ["2.0L I4 turbo (160 hp)", "2.1L I4 turbo (165 hp)", "2.3L I4 turbo (175 hp)"],
+    "transmissions": ["5-speed manual", "3-speed automatic"],
+    "region": "European",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door hatchback", "3-door hatchback", "4-door sedan", "2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Final years of classic Saab 900 (1979-1993). Turbo engines, convertible variants. Front-wheel drive with longitudinal engine. Replaced by GM900 platform 1994. Timing chain engines. Data sourced from Wikipedia Saab 900 article, January 2025 revision."
+  },
+  {
+    "years": [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998],
+    "make": "Saab",
+    "model": "9000",
+    "engines": ["2.0L I4 turbo (150 hp)", "2.3L I4 turbo (200 hp)", "2.3L I4 turbo (225 hp Aero)"],
+    "transmissions": ["5-speed manual", "4-speed automatic"],
+    "region": "European",
+    "drivetrain": ["FWD"],
+    "body_styles": ["5-door hatchback", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Saab 9000 continued through 1998. Aero performance variant introduced. Type Four platform. Front-wheel drive executive car. Timing chain turbo engines. Strong North American sales. Data sourced from Wikipedia Saab 9000 article, January 2025 revision."
+  },
+  {
+    "years": [1994, 1995, 1996, 1997, 1998],
+    "make": "Saab",
+    "model": "900 (GM900)",
+    "engines": ["2.0L I4 turbo (185 hp)", "2.3L I4 turbo (200 hp)", "2.5L V6 (170 hp)"],
+    "transmissions": ["5-speed manual", "4-speed automatic"],
+    "region": "European",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door hatchback", "4-door sedan", "2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second-generation Saab 900 (1994-1998). GM2900 platform shared with Opel Vectra. Controversial departure from classic 900. V6 option introduced. Front-wheel drive. Timing chain engines. Replaced by 9-3 in 1999. Data sourced from Wikipedia Saab 900 article, January 2025 revision."
+  },
+  {
+    "years": [1998, 1999],
+    "make": "Saab",
+    "model": "9-3",
+    "engines": ["2.0L I4 turbo (185 hp)", "2.3L I4 turbo (200 hp)"],
+    "transmissions": ["5-speed manual", "4-speed automatic"],
+    "region": "European",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door hatchback", "4-door sedan", "2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation Saab 9-3 launch years (1998-2002). Renamed 900 successor on GM2900 platform. Turbo engines standard. Front-wheel drive. Timing chain engines. Viggen high-performance variant available. Data sourced from Wikipedia Saab 9-3 article, January 2025 revision."
+  },
+  {
+    "years": [1997, 1998, 1999],
+    "make": "Saab",
+    "model": "9-5",
+    "engines": ["2.3L I4 turbo (170 hp)", "2.3L I4 turbo (230 hp)", "3.0L V6 turbo (200 hp)"],
+    "transmissions": ["5-speed manual", "5-speed automatic"],
+    "region": "European",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan", "5-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "First-generation Saab 9-5 launch (1997-2010). GM2900 platform, 9000 replacement. Turbo engines standard, V6 turbo available. Front-wheel drive executive car. Timing chain engines. Aero performance variant. Data sourced from Wikipedia Saab 9-5 article, January 2025 revision."
+  }
+]

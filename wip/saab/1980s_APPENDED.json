@@ -1,0 +1,30 @@
+[
+  {
+    "years": [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989],
+    "make": "Saab",
+    "model": "900",
+    "engines": ["2.0L I4 (100 hp)", "2.0L I4 turbo (145 hp)", "2.0L I4 turbo (160 hp SPG)", "2.3L I4 turbo (175 hp)"],
+    "transmissions": ["5-speed manual", "3-speed automatic"],
+    "region": "European",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door hatchback", "3-door hatchback", "4-door sedan", "2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Classic Saab 900 (1980-1993). Convertible introduced 1986. Turbo SPG performance variant. Front-wheel drive with longitudinal engine. Quirky Swedish engineering, ignition key between seats. Timing chain engines. Data sourced from Wikipedia Saab 900 article, January 2025 revision."
+  },
+  {
+    "years": [1985, 1986, 1987, 1988, 1989],
+    "make": "Saab",
+    "model": "9000",
+    "engines": ["2.0L I4 (130 hp)", "2.0L I4 turbo (160 hp)", "2.3L I4 turbo (175 hp)"],
+    "transmissions": ["5-speed manual", "4-speed automatic"],
+    "region": "European",
+    "drivetrain": ["FWD"],
+    "body_styles": ["5-door hatchback", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "First-generation Saab 9000 (1985-1998). Type Four platform shared with Fiat Croma, Lancia Thema, Alfa Romeo 164. Turbo engines standard. Front-wheel drive executive car. Timing chain engines. Data sourced from Wikipedia Saab 9000 article, January 2025 revision."
+  }
+]

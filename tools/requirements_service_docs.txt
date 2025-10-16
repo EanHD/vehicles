@@ -1,0 +1,16 @@
+# Service Documentation Generator Requirements
+
+# Core dependencies
+requests>=2.31.0
+jinja2>=3.1.2
+
+# Optional: OpenAI SDK (if using OpenAI or Perplexity with OpenAI-compatible API)
+openai>=1.0.0
+
+# Optional: Flask for web API
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Development tools
+pytest>=7.4.0
+black>=23.0.0

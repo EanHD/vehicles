@@ -1,0 +1,125 @@
+[
+  {
+    "years": [1980, 1981, 1982, 1983, 1984, 1985],
+    "make": "Cadillac",
+    "model": "Seville (Second generation, K-body bustleback)",
+    "engines": [
+      "5.7L diesel V8 (105 hp, 1980-1985)",
+      "6.0L L62 V8 (368 cu in, 145 hp, 1980)",
+      "4.1L HT-4100 V8 (135 hp, 1981-1985)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Second-generation Seville on K-body platform, first FWD Seville. Distinctive 'bustleback' styling inspired by 1930s Cadillacs. First American car to offer diesel engine (5.7L). HT-4100 V8 notorious for reliability issues including intake manifold gasket failure, aluminum oil pump failure, and weak block castings. Diesel and problematic HT-4100 require specialized service knowledge. Data sourced from Wikipedia and web research, December 19, 2024."
+  },
+  {
+    "years": [1985, 1986, 1987, 1988, 1989],
+    "make": "Cadillac",
+    "model": "DeVille/Fleetwood (FWD C-body)",
+    "engines": [
+      "4.1L HT-4100 V8 (135 hp, 1985-1987)",
+      "4.5L HT-4500 V8 (155 hp, 1988-1989)"
+    ],
+    "transmissions": [
+      "THM440 T4 automatic (1985-1986)",
+      "4T60 automatic (1987-1989)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Front-wheel drive C-body platform introduced 1985. First transverse-mounted V8 ever. HT-4100 (1985-1987) prone to intake manifold gasket failure, aluminum oil pump failure, and block casting issues. Replaced by improved 4.5L HT-4500 for 1988-1989. First car with federally-mandated high-mounted rear stop lamp (1986). HT-4100 and HT-4500 require specialized service knowledge. 1980s portion only (1985-1989). Data sourced from Wikipedia and web research, December 19, 2024."
+  },
+  {
+    "years": [1982, 1983, 1984, 1985, 1986, 1987, 1988],
+    "make": "Cadillac",
+    "model": "Cimarron (J-body)",
+    "engines": [
+      "1.8L I4 (88 hp, 1982)",
+      "2.0L I4 throttle-body fuel injection (86 hp, 1983-1985)",
+      "2.8L V6 (130 hp, 1985-1988, standard 1988)"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "5-speed manual",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact luxury sedan on GM J-body platform, badge-engineered Chevrolet Cavalier. Controversial entry-level Cadillac with McPherson strut front suspension and torsion-beam rear axle. First Cadillac with manual transmission since 1950. V6 became optional in 1985, standard in 1988. Approximately 100,000 units produced 1982-1988. Data sourced from Wikipedia and web research, December 19, 2024."
+  },
+  {
+    "years": [1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989],
+    "make": "Cadillac",
+    "model": "Eldorado (Tenth/Eleventh generation downsized)",
+    "engines": [
+      "5.7L Oldsmobile V8 (170 hp, 1979)",
+      "5.7L diesel V8 (1979-1985)",
+      "6.0L V8 (368 cu in, digital fuel injection, 1980-1981)",
+      "4.1L HT-4100 V8 (1982-1987)",
+      "4.5L HT-4500 V8 (155 hp, 1988-1989)"
+    ],
+    "transmissions": [
+      "THM 325 automatic (1979-1985)",
+      "4-speed automatic (1986-1989)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door coupe"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Dramatically downsized for 1979 (1,000 lbs lighter, 20 inches shorter). Tenth generation (1979-1985) on E-body, eleventh generation (1986-1991, 1980s portion 1986-1989) on shortened E-body. First GM digital fuel injection (1980). HT-4100 (1982-1987) and diesel engines notorious for reliability issues. 4.5L HT-4500 introduced 1988. Diesel and HT-series engines require specialized service knowledge. Data sourced from Wikipedia and web research, December 19, 2024."
+  },
+  {
+    "years": [1987, 1988, 1989],
+    "make": "Cadillac",
+    "model": "Allanté (Pininfarina)",
+    "engines": [
+      "4.1L HT-4100 V8 (170 hp, 1987-1988)",
+      "4.5L HT-4500 V8 (200 hp, 1989)"
+    ],
+    "transmissions": [
+      "4-speed THM F7 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door roadster"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Italian-bodied luxury roadster with Pininfarina-designed bodies built in Italy and flown to Detroit in Boeing 747s (56 bodies per flight). Two-seat convertible with removable hardtop. HT-4100 and HT-4500 engines underpowered for luxury roadster. Transatlantic production process and Italian coachwork require specialized knowledge. 1980s portion only (1987-1989). 21,000 total units produced 1987-1993. Data sourced from Wikipedia and web research, December 19, 2024."
+  },
+  {
+    "years": [1987, 1988, 1989],
+    "make": "Cadillac",
+    "model": "Brougham (RWD D-body)",
+    "engines": [
+      "5.0L Oldsmobile 307 V8 (140 hp, 1987-1989)",
+      "5.0L Chevrolet 305 V8 (170 hp, available later)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Traditional rear-wheel drive luxury sedan on D-body platform. Previously marketed as Fleetwood Brougham 1977-1986, renamed Brougham for 1987. Last traditional RWD Cadillac sedan until 1993 Fleetwood. 5.7L Chevrolet 350 V8 became optional 1990. 1980s portion only (1987-1989). Data sourced from Wikipedia and web research, December 19, 2024."
+  }
+]

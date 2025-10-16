@@ -1,0 +1,56 @@
+[
+  {
+    "years": [1903, 1904],
+    "make": "Buick",
+    "model": "Model B",
+    "engines": [
+      "2.6L flat-twin (16 hp)"
+    ],
+    "transmissions": [
+      "2-speed planetary"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-seat touring"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.5,
+    "notes": "Buick's first production automobile (1903-1904). Horizontal opposed flat-twin 'valve-in-head' engine (OHV innovation). Tiller steering, 2-speed planetary transmission. Chain drive to rear axle. Open two-seat touring body. Brass radiator, oil/kerosene lamps, hand-crank starting, no brakes on front wheels. Wooden-spoke artillery wheels. Only ~37 Model B vehicles produced. Difficulty modifier 1.5 (highest) reflects turn-of-century construction, extreme rarity, pioneering technology, hand-crafted components, wooden construction, and virtually no parts availability. Data sourced from Wikipedia Buick Model B article, December 19, 2024 revision."
+  },
+  {
+    "years": [1906, 1907, 1908, 1909, 1910],
+    "make": "Buick",
+    "model": "Model F",
+    "engines": [
+      "2.5L flat-twin (22 hp)"
+    ],
+    "transmissions": [
+      "2-speed planetary"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-seat runabout"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.45,
+    "notes": "Brass-era Model F touring runabout (1906-1910). Horizontally-opposed flat-twin 'valve-in-head' engine. 2-speed planetary transmission, chain drive. Open runabout body. Brass trim, oil/acetylene lamps, hand-crank starting, mechanical brakes rear only. Wooden-spoke wheels. Early Buick success model. Difficulty modifier 1.45 reflects early brass-era construction, hand-fitted components, obsolete systems, wooden construction, and near-zero parts availability. Data sourced from Wikipedia Buick Model F article, December 19, 2024 revision."
+  },
+  {
+    "years": [1908, 1909, 1910],
+    "make": "Buick",
+    "model": "Model 10 (Buick Four)",
+    "engines": [
+      "2.7L inline-4 (22 hp)"
+    ],
+    "transmissions": [
+      "2-speed planetary"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door runabout", "4-door touring"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.45,
+    "notes": "Model 10 'White Streak' brass-era runabout/touring (1908-1910). First Buick four-cylinder model. Inline-4 'valve-in-head' engine. 2-speed planetary transmission. Open bodies. Brass radiator, acetylene/oil lamps, hand-crank starting. Famous for winning 1908 New York to Paris race (actually a Model 10 support vehicle). Difficulty modifier 1.45 reflects early brass-era construction, hand-fitted components, obsolete systems, and near-zero parts availability. Data sourced from Wikipedia Buick Model 10 article, December 19, 2024 revision."
+  }
+]

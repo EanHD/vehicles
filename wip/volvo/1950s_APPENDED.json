@@ -1,0 +1,58 @@
+[
+  {
+    "years": [1956, 1957, 1958, 1959, 1960],
+    "make": "Volvo",
+    "model": "Amazon/120 Series (121/122)",
+    "engines": ["1.6L B16 I4 (60-66 hp)", "1.8L B18 I4 (75-90 hp)"],
+    "transmissions": ["4-speed manual", "3-speed automatic"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sedan", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Amazon/120 Series (1956-1970, 1950s coverage). Named Amazon in Sweden, exported as 122S beginning in 1958. Rear-wheel drive with inline-4 engines. Three-box design influenced by American cars of the era. Introduced many safety innovations including three-point seatbelt. Data sourced from Wikipedia Volvo Amazon article, January 2025 revision."
+  },
+  {
+    "years": [1958, 1959, 1960],
+    "make": "Volvo",
+    "model": "PV544",
+    "engines": ["1.6L B16 I4 (60-66 hp)", "1.8L B18 I4 (75-90 hp)"],
+    "transmissions": ["4-speed manual", "3-speed automatic"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "PV544 (1958-1965, 1950s coverage). Evolution of PV444 with updated styling and more powerful engines. Fastback 2-door sedan design. Rear-wheel drive with inline-4 engines. Rally success in 1960s. Replaced by Amazon/120 Series. Data sourced from Wikipedia Volvo PV444/544 article, January 2025 revision."
+  },
+  {
+    "years": [1956, 1957],
+    "make": "Volvo",
+    "model": "P1900",
+    "engines": ["1.4L B14 I4 (70 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door convertible roadster"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "P1900 sports roadster (1956-1957). Volvo's first sports car with fiberglass body. Limited production of only 68 units. Rear-wheel drive with inline-4 engine. Discontinued due to quality issues and poor sales. Extremely rare, requires vintage restoration expertise. Data sourced from Wikipedia Volvo P1900 article, January 2025 revision."
+  },
+  {
+    "years": [1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960],
+    "make": "Volvo",
+    "model": "Duett (P210)",
+    "engines": ["1.4L B4B I4 (44 hp)", "1.6L B16 I4 (60 hp)", "1.8L B18 I4 (75 hp)"],
+    "transmissions": ["4-speed manual"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door panel van", "2-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Duett (1953-1969, 1950s coverage). Commercial vehicle based on PV444/544 platform. Available as panel van or passenger wagon. Rear-wheel drive with inline-4 engines. Dual-purpose design for commercial and family use. Data sourced from Wikipedia Volvo Duett article, January 2025 revision."
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "years": [1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003],
+    "make": "Dodge",
+    "model": "Ram Van/Wagon (B-Series)",
+    "engines": [
+      "3.9L V6 (Magnum, 1994+)",
+      "5.2L V8 (Magnum, 1994+)",
+      "5.9L V8 (Magnum, 1994+)",
+      "5.9L Cummins Turbo Diesel I6 (1989-1993, rare)"
+    ],
+    "transmissions": [
+      "3-speed automatic (727, early years)",
+      "4-speed automatic (late models)"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD (rare)"],
+    "body_styles": ["Full-size cargo van", "Full-size passenger van (wagon)"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.1,
+    "notes": "B-series full-size van produced 1971-2003. Available as Ram Van (cargo) or Ram Wagon (passenger). B150/B250/B350 weight classes. Conversion vans were popular in 1980s-1990s. Replaced by Mercedes Sprinter-based models. Requires attention to older carburetor systems (pre-1988) vs. fuel injection. Diesel option rare but available 1989-1993. Data sourced from Wikipedia Dodge B-Series article, January 2025 revision."
+  }
+]

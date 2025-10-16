@@ -1,0 +1,30 @@
+[
+  {
+    "years": [1920, 1921, 1922, 1923, 1924, 1925, 1926, 1927],
+    "make": "Ford",
+    "model": "Model T",
+    "engines": ["177 cu in (2.9L) Flathead I4 (20 hp)"],
+    "transmissions": ["2-speed planetary manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door runabout", "4-door touring", "2-door coupe", "4-door sedan", "2-door roadster"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Iconic mass-produced vehicle. Planetary transmission with three foot pedals (clutch, reverse, brake). Hand throttle on steering column. Requires specialized brass-era/vintage expertise. Limited parts availability. Final production year 1927. Data sourced from Wikipedia Ford Model T article, January 2025 revision."
+  },
+  {
+    "years": [1928, 1929],
+    "make": "Ford",
+    "model": "Model A",
+    "engines": ["200.5 cu in (3.3L) Flathead I4 (40 hp)"],
+    "transmissions": ["3-speed sliding-gear manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door roadster", "2-door coupe", "4-door sedan", "4-door town sedan", "2-door business coupe", "2-door station wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Replaced Model T with modern features. Conventional sliding-gear transmission. Four-wheel mechanical brakes. Safety glass. Over 4 million produced 1927-1931. Requires vintage service expertise and period-correct parts. Data sourced from Wikipedia Ford Model A article, January 2025 revision."
+  }
+]

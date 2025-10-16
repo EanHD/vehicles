@@ -1,0 +1,222 @@
+[
+  {
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996
+    ],
+    "make": "Infiniti",
+    "model": "Q45 (G50)",
+    "engines": [
+      "4.5L V8 VH45DE (278 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Flagship luxury sedan first generation. Features VH45DE V8 (Nissan's first V8) with aluminum block and four-valve DOHC design. Advanced active suspension system. Rear-wheel drive only. Data sourced from Wikipedia Infiniti Q45 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1997,
+      1998,
+      1999
+    ],
+    "make": "Infiniti",
+    "model": "Q45 (Y33)",
+    "engines": [
+      "4.1L V8 VH41DE (266 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation flagship sedan. Downsized to 4.1L VH41DE V8. Features advanced electronics and luxury appointments. Rear-wheel drive only. Data sourced from Wikipedia Infiniti Q45 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1990,
+      1991,
+      1992
+    ],
+    "make": "Infiniti",
+    "model": "M30 Coupe/Convertible (F31)",
+    "engines": [
+      "3.0L V6 VG30E (162 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Luxury coupe and convertible based on Nissan Leopard F31. Features VG30E V6 with single overhead cam. Rear-wheel drive only. Available as coupe or convertible. Production ended in 1992. Data sourced from Wikipedia Infiniti M article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996
+    ],
+    "make": "Infiniti",
+    "model": "G20 (P10)",
+    "engines": [
+      "2.0L I4 SR20DE (140 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Entry-level compact luxury sedan based on Nissan Primera P10. Features SR20DE engine with variable valve timing. Front-wheel drive with multi-link independent suspension. Available with manual or automatic transmission. Data sourced from Wikipedia Infiniti G article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1993,
+      1994,
+      1995,
+      1996,
+      1997
+    ],
+    "make": "Infiniti",
+    "model": "J30 (Y32)",
+    "engines": [
+      "3.0L V6 VG30DE (210 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Mid-size luxury sedan based on Nissan Leopard J Ferie Y32. Features VG30DE V6 with variable valve timing. Distinctive rounded styling. Rear-wheel drive with multi-link suspension. Production ended in 1997. Data sourced from Wikipedia Infiniti J30 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "make": "Infiniti",
+    "model": "I30 (A32)",
+    "engines": [
+      "3.0L V6 VQ30DE (190 hp, later 227 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Mid-size luxury sedan based on Nissan Cefiro/Maxima A32. Features VQ30DE V6 with variable valve timing. Front-wheel drive only. Power increased to 227 hp for 1999-2001 models. Data sourced from Wikipedia Infiniti I article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1997,
+      1998,
+      1999
+    ],
+    "make": "Infiniti",
+    "model": "QX4 (R50)",
+    "engines": [
+      "3.3L V6 VG33E (170 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "4-door luxury SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Infiniti's first SUV based on Nissan Pathfinder R50. Body-on-frame construction with VG33E V6. Part-time 4WD system with low-range transfer case. Available in 2WD or 4WD configurations. Data sourced from Wikipedia Infiniti QX4 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1999
+    ],
+    "make": "Infiniti",
+    "model": "G20 (P11)",
+    "engines": [
+      "2.0L I4 SR20DE (140 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation compact luxury sedan based on Nissan Primera P11. SR20DE engine features variable valve timing. Front-wheel drive only. Updated styling and interior. Data sourced from Wikipedia Infiniti G article, January 17, 2025 revision."
+  }
+]

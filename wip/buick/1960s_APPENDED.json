@@ -1,0 +1,108 @@
+[
+  {
+    "years": [1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969],
+    "make": "Buick",
+    "model": "Electra (First/Second generation)",
+    "engines": [
+      "6.6L Nailhead V8 (325 hp, 1959-1966)",
+      "7.0L V8 (360-370 hp, 1967-1969)"
+    ],
+    "transmissions": [
+      "2-speed automatic",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door hardtop", "4-door sedan", "4-door hardtop", "Convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.05,
+    "notes": "Full-size luxury sedan on GM C-platform. Buick Nailhead V8 engine (vertical valves). Multiple body styles including convertible. Premium Electra 225 variant with longer wheelbase. RWD body-on-frame construction. Difficulty modifier 1.05 reflects 1960s vintage parts availability. Data sourced from Wikipedia Buick Electra article, December 19, 2024 revision."
+  },
+  {
+    "years": [1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970],
+    "make": "Buick",
+    "model": "Wildcat",
+    "engines": [
+      "6.6L Nailhead V8 (325-340 hp)",
+      "7.0L V8 (360 hp)"
+    ],
+    "transmissions": [
+      "2-speed automatic",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door hardtop", "2-door convertible", "4-door hardtop", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.05,
+    "notes": "Full-size performance sedan positioned between LeSabre and Electra. Nailhead V8 engines with high performance. Multiple body styles including convertible. RWD only. Discontinued after 1970 model year. Difficulty modifier 1.05 reflects 1960s vintage complexity. Data sourced from Wikipedia Buick Wildcat article, December 19, 2024 revision."
+  },
+  {
+    "years": [1963, 1964, 1965, 1966, 1967, 1968, 1969],
+    "make": "Buick",
+    "model": "Riviera (First generation)",
+    "engines": [
+      "6.6L Nailhead V8 (325-340 hp)",
+      "7.0L V8 (360 hp, 1967-1969)"
+    ],
+    "transmissions": [
+      "2-speed automatic",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door hardtop coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.05,
+    "notes": "First generation personal luxury coupe with distinctive styling by Bill Mitchell. E-body platform. Nailhead V8 engines. 2-door hardtop only, no B-pillar. Competed with Ford Thunderbird. Iconic 1963-1965 design considered one of most beautiful American cars. Difficulty modifier 1.05 reflects 1960s vintage parts availability. Data sourced from Wikipedia Buick Riviera article, December 19, 2024 revision."
+  },
+  {
+    "years": [1964, 1965, 1966, 1967, 1968, 1969],
+    "make": "Buick",
+    "model": "Skylark (Third generation, A-body)",
+    "engines": [
+      "3.7L V6 (155 hp)",
+      "4.9L V8 (210-250 hp)",
+      "5.6L V8 (300-325 hp)",
+      "6.6L V8 (340-360 hp)",
+      "7.0L V8 (360 hp)"
+    ],
+    "transmissions": [
+      "2-speed automatic",
+      "3-speed automatic",
+      "3-speed manual",
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan", "4-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.05,
+    "notes": "Third generation midsize sedan on GM A-platform. Gran Sport (GS) performance variants with big-block V8 engines. Multiple body styles including convertible and wagon. RWD only. Competed with Chevrolet Chevelle. Stage 1 performance package available. Difficulty modifier 1.05 reflects 1960s vintage complexity. Data sourced from Wikipedia Buick Skylark article, December 19, 2024 revision."
+  },
+  {
+    "years": [1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971],
+    "make": "Buick",
+    "model": "Sport Wagon",
+    "engines": [
+      "4.9L V8 (210-250 hp)",
+      "5.6L V8 (280-300 hp)",
+      "5.7L V8 (various outputs, 1970s)"
+    ],
+    "transmissions": [
+      "2-speed automatic",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door midsize wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.05,
+    "notes": "Midsize station wagon variant on A-platform. Part of Skylark/Special family. Multiple V8 engine options. RWD only. Sporty wagon design with performance options available. Discontinued after 1971 model year. Difficulty modifier 1.05 reflects 1960s-early 1970s vintage. Data sourced from Wikipedia Buick Special / Skylark article, December 19, 2024 revision."
+  }
+]

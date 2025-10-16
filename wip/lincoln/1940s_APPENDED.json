@@ -1,0 +1,58 @@
+[
+  {
+    "years": [1940, 1941, 1942],
+    "make": "Lincoln",
+    "model": "Continental (First Generation)",
+    "engines": ["292 cu in (4.8L) Flathead V12 (120 hp)"],
+    "transmissions": ["3-speed manual", "3-speed automatic (optional)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Original Continental created for Edsel Ford. Iconic long hood, short deck design. Flathead V12 engine. Exposed spare tire on trunk. Considered one of most beautiful cars ever designed. Production halted 1942 for WWII. Requires specialized vintage expertise. Data sourced from Wikipedia Lincoln Continental article, January 2025 revision."
+  },
+  {
+    "years": [1940, 1941, 1942],
+    "make": "Lincoln",
+    "model": "Zephyr",
+    "engines": ["292 cu in (4.8L) Flathead V12 (120 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "2-door coupe", "2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Streamlined mid-priced Lincoln. Unibody construction. Flathead V12 engine. Production ended 1942 for WWII. Continental was originally upscale Zephyr variant. Vintage service requirements. Data sourced from Wikipedia Lincoln Zephyr article, January 2025 revision."
+  },
+  {
+    "years": [1946, 1947, 1948],
+    "make": "Lincoln",
+    "model": "Continental (Postwar, First Generation)",
+    "engines": ["292 cu in (4.8L) Flathead V12 (125 hp)"],
+    "transmissions": ["3-speed manual", "3-speed automatic (Hydra-Matic, optional)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Postwar continuation of prewar Continental design with minor updates. Flathead V12 engine. Production ended 1948. Highly collectible. Requires specialized brass-era/vintage expertise and rare parts. Data sourced from Wikipedia Lincoln Continental article, January 2025 revision."
+  },
+  {
+    "years": [1946, 1947, 1948],
+    "make": "Lincoln",
+    "model": "Standard/Custom",
+    "engines": ["292 cu in (4.8L) Flathead V12 (125 hp)"],
+    "transmissions": ["3-speed manual", "3-speed automatic (Hydra-Matic, optional)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "2-door coupe", "2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Postwar continuation of Zephyr design renamed Standard/Custom. Flathead V12 engine. Last Lincoln V12s. Production ended 1948. Vintage complexity requires period-specific knowledge. Data sourced from Wikipedia Lincoln automobile article, January 2025 revision."
+  }
+]

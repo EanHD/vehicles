@@ -1,0 +1,157 @@
+[
+  {
+    "years": [
+      1952,
+      1953,
+      1954,
+      1955,
+      1956,
+      1957,
+      1958,
+      1959,
+      1960,
+      1961,
+      1962,
+      1963
+    ],
+    "make": "BMW",
+    "model": "501/502 \"Baroque Angel\"",
+    "engines": [
+      "2.0L M337 inline-6 (72 hp) 501",
+      "2.6L OHV V8 (100 hp) 502",
+      "3.2L OHV V8 (140 hp) 502 Super"
+    ],
+    "transmissions": [
+      "4-speed manual (column shift)"
+    ],
+    "region": "European import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Hand-built luxury sedans with perimeter frame and torsion-bar rear suspension. Brake system uses hydraulic assist with drum brakes—verify wheel cylinder availability. V8 models rely on cork gaskets and require leaded-fuel substitutes; engine removal demands nose clip removal. Data sourced from Wikipedia BMW 501 article, October 6, 2025 revision."
+  },
+  {
+    "years": [
+      1955,
+      1956,
+      1957,
+      1958,
+      1959,
+      1960,
+      1961,
+      1962
+    ],
+    "make": "BMW",
+    "model": "Isetta 250/300",
+    "engines": [
+      "0.25L single-cylinder (12 hp) Isetta 250",
+      "0.3L single-cylinder (13 hp) Isetta 300"
+    ],
+    "transmissions": [
+      "4-speed unsynchronized manual"
+    ],
+    "region": "European import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "1-door bubble microcar"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Front-hinged door microcar with sliding side windows and motorcycle-derived engine. Final drive uses duplex chain enclosed in oil bath requiring periodic tensioning. Cable-operated brakes need careful adjustment; check rubber suspension elements for dry rot. Data sourced from Wikipedia BMW Isetta article, October 6, 2025 revision."
+  },
+  {
+    "years": [
+      1957,
+      1958,
+      1959
+    ],
+    "make": "BMW",
+    "model": "600 (Limousine)",
+    "engines": [
+      "0.6L flat-twin (19.5 hp)"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "European import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door microvan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Extended-wheelbase Isetta derivative with rear swing-axle; inspect portal gearbox oil and constant velocity bellows. Bathtub-style chassis prone to rust in heater duct; ensure body-off restoration for structural repairs. Data sourced from Wikipedia BMW 600 article, October 6, 2025 revision."
+  },
+  {
+    "years": [
+      1956,
+      1957,
+      1958,
+      1959
+    ],
+    "make": "BMW",
+    "model": "507 Roadster",
+    "engines": [
+      "3.2L OHV V8 (150 hp)"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "European import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door roadster"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Aluminum-bodied roadster with magnesium components and drum brakes. Requires coach-built panel fabrication and careful torque on aluminum frame rails. V8 uses dual Zenith carbs and mechanical fuel pump—synchronize linkage and fit ethanol-safe hoses. Data sourced from Wikipedia BMW 507 article, October 9, 2025 revision."
+  },
+  {
+    "years": [
+      1959,
+      1960,
+      1961,
+      1962,
+      1963,
+      1964,
+      1965
+    ],
+    "make": "BMW",
+    "model": "700 Coupe/Sedan",
+    "engines": [
+      "0.7L flat-twin (30 hp) 700",
+      "0.7L flat-twin (40 hp) 700 Sport"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "European import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "2-door sedan",
+      "2-door cabriolet"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Rear-engine monocoque microcar using motorcycle-derived flat-twin with chain-driven camshaft; valve clearance adjustment every 6,000 miles. Cooling shrouds crack with age—replace to prevent overheating. Early synchromesh gearbox still requires double-clutching into first gear. Data sourced from Wikipedia BMW 700 article, October 11, 2025 revision."
+  }
+]

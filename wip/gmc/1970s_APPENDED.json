@@ -1,0 +1,100 @@
+[
+  {
+    "years": [1971, 1972, 1973, 1974, 1975, 1976, 1977],
+    "make": "GMC",
+    "model": "Sprint",
+    "engines": [
+      "4.1L (250 cu in) inline-6",
+      "5.0L (307 cu in) V8",
+      "5.7L (350 cu in) V8",
+      "6.5L (396/402 cu in) V8",
+      "7.4L (454 cu in) V8"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed manual",
+      "3-speed Turbo-Hydramatic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe utility"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "GM A-body platform shared with Chevrolet El Camino. Coupe utility (pickup/car hybrid) based on Chevelle/Malibu platform. Sprint was renamed to Caballero in 1978. Standard service complexity for 1970s light-duty truck. Data sourced from Wikipedia GMC Sprint / Caballero article, December 19, 2024 revision."
+  },
+  {
+    "years": [1978, 1979],
+    "make": "GMC",
+    "model": "Caballero",
+    "engines": [
+      "3.3L (200 cu in) V6",
+      "3.8L (231 cu in) V6",
+      "4.3L (260 cu in) V8",
+      "5.0L (305 cu in) V8",
+      "5.7L (350 cu in) V8"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed manual",
+      "3-speed Turbo-Hydramatic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe utility"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "GM G-body platform (1978-1987), downsized from A-body Sprint. Coupe utility design shared with Chevrolet El Camino. Renamed from Sprint starting 1978 model year. Standard service complexity for late-1970s light-duty truck. Data sourced from Wikipedia GMC Sprint / Caballero article, December 19, 2024 revision."
+  },
+  {
+    "years": [1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979],
+    "make": "GMC",
+    "model": "Vandura / Rally Van (Second generation)",
+    "engines": [
+      "4.1L (250 cu in) inline-6",
+      "4.8L (292 cu in) inline-6",
+      "5.0L (307 cu in) V8",
+      "5.7L (350 cu in) V8",
+      "6.6L (400/403 cu in) V8",
+      "7.4L (454 cu in) V8"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed manual",
+      "3-speed Turbo-Hydramatic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["Full-size van", "Passenger van (Rally)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation full-size van platform shared with Chevrolet Van/Sportvan. Vandura was cargo van, Rally was passenger variant with windows. Body-on-frame construction with cab-forward design. Standard service complexity for 1970s full-size commercial van. Data sourced from Wikipedia Chevrolet van article, December 19, 2024 revision."
+  },
+  {
+    "years": [1977, 1978, 1979],
+    "make": "GMC",
+    "model": "General / Brigadier",
+    "engines": [
+      "Detroit Diesel 6V-53 (5.3L inline-6 diesel)",
+      "Detroit Diesel 6V-71 (7.1L inline-6 diesel)",
+      "Detroit Diesel 8V-71 (9.3L V8 diesel)",
+      "Caterpillar 3208 (10.4L V8 diesel)",
+      "Cummins NH-250 (14.0L inline-6 diesel)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "6-speed manual",
+      "Fuller Roadranger manual",
+      "Allison automatic (various)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["Conventional cab heavy-duty truck"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.3,
+    "notes": "Heavy-duty conventional cab Class 7/8 trucks for commercial applications. General was medium-duty variant, Brigadier was heavy-duty. Featured air brake systems, multiple diesel engine options from Detroit Diesel, Caterpillar, and Cummins. Requires specialized commercial diesel and air brake system service. Difficulty modifier 1.3 reflects heavy-duty commercial diesel complexity. Data sourced from Wikipedia GMC Brigadier and GMC General articles, December 19, 2024 revision."
+  }
+]

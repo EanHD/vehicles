@@ -1,0 +1,44 @@
+[
+  {
+    "years": [1988, 1989],
+    "make": "Eagle",
+    "model": "Premier",
+    "engines": ["2.5L I4 (100 hp)", "3.0L V6 PRV (150 hp)"],
+    "transmissions": ["5-speed manual", "3-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Eagle Premier based on AMC/Renault design. PRV (Peugeot-Renault-Volvo) V6 engine shared with Renault 25. Front-wheel drive with longitudinal engine layout. Timing belt maintenance required on PRV V6. Data sourced from Wikipedia Eagle Premier article, January 2025 revision."
+  },
+  {
+    "years": [1988, 1989],
+    "make": "Eagle",
+    "model": "Medallion",
+    "engines": ["2.2L I4 (103 hp)"],
+    "transmissions": ["5-speed manual", "3-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan", "4-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Eagle Medallion rebadged Renault 21. Front-wheel drive compact sedan/wagon. Short production run (1988-1989 only). Renault-sourced components require specialist knowledge. Timing belt engine. Data sourced from Wikipedia Eagle Medallion article, January 2025 revision."
+  },
+  {
+    "years": [1989],
+    "make": "Eagle",
+    "model": "Summit",
+    "engines": ["1.5L I4 (81 hp)", "1.6L I4 (102 hp)"],
+    "transmissions": ["5-speed manual", "3-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door coupe", "3-door hatchback", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Eagle Summit rebadged Mitsubishi Mirage. Built at Diamond-Star Motors plant in Normal, Illinois. Shared platform with Plymouth Colt. Front-wheel drive subcompact. Timing belt maintenance required. Data sourced from Wikipedia Eagle Summit article, January 2025 revision."
+  }
+]

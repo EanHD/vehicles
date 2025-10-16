@@ -1,0 +1,334 @@
+
+[
+  {
+    "years": [2013, 2014, 2015, 2016, 2017, 2018],
+    "make": "Nissan",
+    "model": "Altima (L33)",
+    "engines": [
+      "2.5L QR25DE I4 (182 hp)",
+      "3.5L VQ35DE V6 (270 hp)"
+    ],
+    "transmissions": [
+      "Xtronic CVT (Jatco CVT8)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fifth-generation Altima for North America debuted for the 2013 model year with 2.5L QR25DE or 3.5L VQ35DE power, an Xtronic CVT, and extensive use of high-strength steel that shed about 120 lb versus the prior L32 while retaining the mid-size footprint. NASA-inspired \"zero gravity\" front seats introduced with this generation reduce fatigue on longer drives, and the 2016 facelift added the SR trim with sport tuning and updated fascias. Data sourced from Wikipedia Nissan Altima article, October 13, 2025 revision."
+  },
+  {
+    "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Nissan",
+    "model": "Sentra (B17)",
+    "engines": [
+      "1.8L MRA8DE I4 (130 hp, 128 lb⋅ft)",
+      "1.6L MR16DDT turbo I4 (188 hp, 177 lb⋅ft) – SR Turbo/NISMO"
+    ],
+    "transmissions": [
+      "6-speed manual (S base, SR Turbo, NISMO)",
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "North America’s seventh-generation Sentra (B17) launched for 2013 with the 1.8L MRA8DE four-cylinder (130 hp) and either a 6-speed manual on base trims or Xtronic CVT, while the 2014 update added NissanConnect with smartphone integration and the 2016 facelift brought LED headlights, a D-shaped steering wheel, and an SR sport trim. For 2017 the SR Turbo and NISMO models introduced the 1.6L MR16DDT turbo (188 hp) with performance chassis tuning, adding turbocharger service and calibration needs that raise the difficulty to 1.1. Data sourced from Wikipedia Nissan Sentra article, October 14, 2025 revision."
+  },
+  {
+    "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Nissan",
+    "model": "Versa (N17 sedan)",
+    "engines": [
+      "1.6L HR16DE I4 (109 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic (S trim)",
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second-generation Versa sedan for North America (N17) arrived for the 2012 model year with the 1.6L HR16DE four-cylinder (109 hp) paired to a 5-speed manual standard, optional 4-speed automatic on S, or an Xtronic CVT on higher trims; it continued through 2019 with updates such as the 2015 fascia redesign and the 2018 addition of a standard 7-inch infotainment display, rearview monitor, and Bluetooth hands-free messaging. Data sourced from Wikipedia Nissan Almera/Nissan Versa (N17) article, October 14, 2025 revision."
+  },
+  {
+    "years": [2016, 2017, 2018, 2019, 2020],
+    "make": "Nissan",
+    "model": "Maxima (A36)",
+    "engines": [
+      "3.5L VQ35DE V6 (300 hp, 261 lb⋅ft)"
+    ],
+    "transmissions": [
+      "Xtronic CVT with D-Step shift logic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Eighth-generation Maxima (A36) arrived for 2016 with the 300 hp 3.5L VQ35DE and an updated Xtronic CVT using D-Step logic, plus a stiffer body with structural adhesives and Integrated Dynamics-control Module systems such as Active Ride and Active Trace Control. The 2019 refresh sharpened the exterior, and the 2020 update made Nissan Safety Shield 360 standard—so radar/camera calibration elevates difficulty to 1.1. Data sourced from Wikipedia Nissan Maxima article, October 14, 2025 revision."
+  },
+  {
+    "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017],
+    "make": "Nissan",
+    "model": "Leaf (ZE0)",
+    "engines": [
+      "EM61 80 kW electric motor (107 hp, 207 lb⋅ft)"
+    ],
+    "transmissions": [
+      "Single-speed reduction gear"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "5-door hatchback"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "First-generation Leaf (ZE0) launched in the U.S. for 2011 with an 80 kW (107 hp) EM61 motor driving the front axle through a single-speed reduction gear and a 24 kWh lithium-ion battery (EPA range 73 mi), later offering a 6.6 kW onboard charger for 2013 and a 30 kWh pack in 2016 that raised EPA range to 107 miles. High-voltage battery service procedures, thermal management, and CHAdeMO fast-charge diagnostics justify the 1.4 difficulty rating. Data sourced from Wikipedia Nissan Leaf article, October 14, 2025 revision."
+  },
+  {
+    "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017],
+    "make": "Nissan",
+    "model": "Juke (F15)",
+    "engines": [
+      "1.6L MR16DDT turbo I4 (188 hp, 184 lb⋅ft)",
+      "1.6L MR16DDT turbo I4 NISMO (197 hp manual / 193 hp CVT)",
+      "1.6L MR16DDT turbo I4 NISMO RS (215 hp manual / 211 hp CVT)"
+    ],
+    "transmissions": [
+      "6-speed manual (FWD and NISMO variants)",
+      "Xtronic CVT with S-mode and manual shift logic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "North American Juke (F15) arrived for 2011 with a direct-injected, turbocharged 1.6L MR16DDT (188 hp) tied to either a 6-speed manual on FWD trims or an Xtronic CVT with S-mode; AWD models used Nissan’s torque-vectoring I-AWD system with rear drive module, and NISMO/NISMO RS trims increased output up to 215 hp with enhanced brakes and Recaro seating. The combination of turbocharging, torque-vectoring AWD hardware, and performance NISMO calibrations elevates service complexity to a 1.2 difficulty. Data sourced from Wikipedia Nissan Juke article, October 9, 2025 revision."
+  },
+  {
+    "years": [2015, 2016, 2017, 2018, 2019],
+    "make": "Nissan",
+    "model": "Murano (Z52)",
+    "engines": [
+      "3.5L VQ35DE V6 (260 hp, 240 lb⋅ft)"
+    ],
+    "transmissions": [
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Third-generation Murano (Z52) went on sale in North America for 2015 with the carryover 3.5L VQ35DE (260 hp) and Xtronic CVT, NASA-inspired zero-gravity seating, and an available panoramic roof, while offering optional all-wheel drive. The 2019 refresh introduced Safety Shield 360 with automatic emergency braking, rear automatic braking, blind-spot warning, and rear cross-traffic alert, increasing post-repair calibration needs enough to warrant a 1.1 difficulty rating. Data sourced from Wikipedia Nissan Murano article, October 14, 2025 revision."
+  },
+  {
+    "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+    "make": "Nissan",
+    "model": "Pathfinder (R52)",
+    "engines": [
+      "3.5L VQ35DE V6 (260 hp, 240 lb⋅ft)",
+      "3.5L VQ35DD direct-injected V6 (284 hp, 259 lb⋅ft) – 2017 refresh",
+      "2.5L QR25DER supercharged hybrid I4 + 15 kW motor (net 250 hp) – 2014-2015"
+    ],
+    "transmissions": [
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Fourth-generation Pathfinder (R52) returned to unibody construction for 2013 on Nissan’s D platform with a 260 hp VQ35DE V6 and Xtronic CVT, offered in front- or all-wheel drive and optional 2.5L QR25DER supercharged hybrid system (net 250 hp) for 2014–2015. The 2017 refresh added direct injection to the V6 (284 hp) plus motion-activated liftgate, stronger towing, and expanded driver assists, so technicians must handle hybrid service procedures and CVT cooling requirements—supporting the 1.1 difficulty. Data sourced from Wikipedia Nissan Pathfinder article, October 14, 2025 revision."
+  },
+  {
+    "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020],
+    "make": "Nissan",
+    "model": "Rogue (T32)",
+    "engines": [
+      "2.5L QR25DE I4 (170 hp, 175 lb⋅ft)",
+      "2.0L MR20DD I4 hybrid with 30 kW motor (176 hp net) – 2017-2019"
+    ],
+    "transmissions": [
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Second-generation Rogue (T32) launched in North America for 2014 with the 170 hp QR25DE, seating for five or an optional third row, and an updated Xtronic CVT with Sport and Eco modes; 2017 brought a hybrid using the 2.0L MR20DD with a 30 kW motor (176 hp net) plus a freshened exterior. Rogue adopted Nissan Safety Shield technologies—including forward emergency braking with pedestrian detection and lane departure prevention—along with ProPILOT Assist availability for 2018, driving up ADAS calibration requirements and justifying a 1.1 difficulty. Data sourced from Wikipedia Nissan Rogue article, October 14, 2025 revision."
+  },
+  {
+    "years": [2016, 2017, 2018, 2019],
+    "make": "Nissan",
+    "model": "Titan (A61 & XD)",
+    "engines": [
+      "5.6L VK56VD V8 (390 hp, 401 lb⋅ft)",
+      "5.0L Cummins ISV diesel V8 (310 hp, 555 lb⋅ft) – Titan XD"
+    ],
+    "transmissions": [
+      "7-speed automatic",
+      "6-speed Aisin automatic (diesel)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "2WD",
+      "4WD"
+    ],
+    "body_styles": [
+      "Single Cab pickup",
+      "King Cab pickup",
+      "Crew Cab pickup"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Second-generation Titan entered the 2016 model year with a fully boxed frame, standard 390 hp VK56VD V8 and 7-speed automatic, while the Titan XD added a 5.0L Cummins turbodiesel (310 hp/555 lb⋅ft) with an Aisin 6-speed gearbox, longer 151.6 in wheelbase, and heavy-duty cooling/towing hardware. PRO-4X trims layered Bilstein shocks, electronic locking rear differential, and skid plates. The mix of gasoline and diesel powertrains, HD tow ratings, and chassis-specific service procedures justify a 1.2 difficulty. Data sourced from Wikipedia Nissan Titan article, October 14, 2025 revision."
+  },
+  {
+    "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
+    "make": "Nissan",
+    "model": "NV200",
+    "engines": [
+      "2.0L MR20DE I4 (131 hp, 139 lb⋅ft)"
+    ],
+    "transmissions": [
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "2-seat compact cargo van",
+      "NYC Taxi (partitioned passenger van)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "North American NV200 cargo van production started in 2013 with a 2.0L MR20DE (131 hp) driving the front wheels through an Xtronic CVT, 122.7 in wheelbase, and 122.7 cu ft cargo volume accessible by dual sliding doors and 40/60 split rear doors. Nissan also built an NV200 Taxi variant for New York City featuring a panoramic roof panel, antimicrobial vinyl, and wheelchair ramp provisions—service considerations include fleet telematics wiring and taxi-specific HVAC filters. Data sourced from Wikipedia Nissan NV200 article, October 10, 2025 revision."
+  },
+  {
+    "years": [2018, 2019],
+    "make": "Nissan",
+    "model": "Kicks (P15 launch)",
+    "engines": [
+      "1.6L HR16DE I4 (125 hp, 115 lb⋅ft)"
+    ],
+    "transmissions": [
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "The Kicks subcompact crossover entered the U.S. and Canada for the 2018 model year with a 1.6L HR16DE four-cylinder (125 hp) and Xtronic CVT driving the front wheels. SV and SR trims added standard 7-inch infotainment with Apple CarPlay/Android Auto, Intelligent Cruise Control, and the optional Bose Personal Plus headrest speakers, while all models include Automatic Emergency Braking—yet overall service demands remain conventional, keeping difficulty at 1.0. Data sourced from Wikipedia Nissan Kicks article, October 14, 2025 revision."
+  },
+  {
+    "years": [2017, 2018, 2019],
+    "make": "Nissan",
+    "model": "Rogue Sport (J11)",
+    "engines": [
+      "2.0L MR20DD I4 (141 hp, 147 lb⋅ft)"
+    ],
+    "transmissions": [
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "The U.S.-market Rogue Sport (rebadged Qashqai J11) arrived for 2017 with a 2.0L MR20DD (141 hp) and Xtronic CVT, offering front- or all-wheel drive, 61.1 cu ft of cargo space with seats folded, and Safety Shield technologies such as Forward Emergency Braking, blind-spot warning, and rear cross-traffic alert. The 2019 refresh added standard Safety Shield 360 and ProPILOT Assist availability, requiring ADAS calibrations that push service difficulty to 1.1. Data sourced from Wikipedia Nissan Rogue Sport article, October 10, 2025 revision."
+  },
+  {
+    "years": [2017, 2018, 2019, 2020],
+    "make": "Nissan",
+    "model": "GT-R (R35 facelift)",
+    "engines": [
+      "3.8L VR38DETT twin-turbo V6 (565 hp GT-R Premium)",
+      "3.8L VR38DETT twin-turbo V6 (600 hp Nismo/Track Edition)"
+    ],
+    "transmissions": [
+      "6-speed GR6 dual-clutch transaxle"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "The 2017 refresh of the R35 GT-R added stiffer body structure, revised aerodynamics, a new hand-stitched interior, and recalibrated suspension while retaining the 565 hp VR38DETT and 6-speed GR6 dual-clutch ATTESA E-TS drivetrain; Nismo and Track Edition models continued with 600 hp, carbon fiber bracing, and available carbon-ceramic brakes. For 2020 Nissan added new turbochargers that improve response, a Track Edition with carbon-fiber roof, and the 50th Anniversary package. The high-output twin-turbo AWD driveline and motorsport-grade hardware justify a 1.2 difficulty. Data sourced from Wikipedia Nissan GT-R article, October 14, 2025 revision."
+  }
+]

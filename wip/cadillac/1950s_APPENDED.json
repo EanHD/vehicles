@@ -1,0 +1,101 @@
+[
+  {
+    "years": [1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959],
+    "make": "Cadillac",
+    "model": "Series 62 / Coupe de Ville",
+    "engines": [
+      "5.4L V8 (331 cu in, 160-190 hp, 1950-1955)",
+      "6.0L V8 (365 cu in, 285-310 hp, 1956-1959)"
+    ],
+    "transmissions": [
+      "4-speed Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Full-size luxury car Series 62 with Coupe de Ville as premium hardtop variant. First Coupe de Ville introduced late 1949 with new OHV V8. 331 cu in V8 (160-190 hp, 1950-1955), upgraded to 365 cu in V8 (285-310 hp, 1956-1959). Iconic tailfins. Coupe de Ville production: 2,150 (1949), 4,507 (1950), 10,241 (1951). Brass-era service complexity requires specialized knowledge. 1950s portion only. Data sourced from web research, December 19, 2024."
+  },
+  {
+    "years": [1953, 1954, 1955, 1956, 1957, 1958, 1959],
+    "make": "Cadillac",
+    "model": "Eldorado (First generation)",
+    "engines": [
+      "5.4L V8 (331 cu in, 210 hp, 1953)",
+      "5.4L V8 (331 cu in, 270 hp dual 4-barrel, 1955)",
+      "6.0L V8 (365 cu in, 305 hp twin 4-barrel, 1956)",
+      "6.0L V8 (365 cu in, 325 hp, 1957)",
+      "6.0L V8 (365 cu in, 335 hp 3x2-barrel, 1958)",
+      "6.4L V8 (390 cu in, 345 hp tri-power, 1959)"
+    ],
+    "transmissions": [
+      "4-speed Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door convertible", "2-door hardtop coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Ultra-luxury convertible and hardtop, top-of-line Cadillac. 1953 launched with 331 cu in V8 (210 hp). Multiple carburetor setups: dual 4-barrel (1955-1956), tri-power 3x2-barrel (1958-1959). Engine progression: 331 cu in (1953-1955), 365 cu in (1956-1958), 390 cu in (1959). Performance-oriented with premium equipment. Brass-era service complexity requires specialized knowledge. 1950s portion only (1953-1959). Data sourced from web research, December 19, 2024."
+  },
+  {
+    "years": [1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959],
+    "make": "Cadillac",
+    "model": "Series 60 Special Fleetwood",
+    "engines": [
+      "5.4L V8 (331 cu in, 160-210 hp, 1950-1955)",
+      "6.0L V8 (365 cu in, 285-310 hp, 1956-1959)"
+    ],
+    "transmissions": [
+      "4-speed Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Premium luxury sedan on 130 in wheelbase. 1950: 331 cu in V8 (160 hp), 13,755 produced at $3,800. 1953: 12-volt electrical system, 331 cu in V8 upgraded to 210 hp, 20,000 produced at $4,303. Engine upgraded to 365 cu in (285-310 hp) for 1956-1959. Fleetwood luxury appointments with extended wheelbase. Brass-era service complexity requires specialized knowledge. 1950s portion only. Data sourced from web research, December 19, 2024."
+  },
+  {
+    "years": [1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959],
+    "make": "Cadillac",
+    "model": "Series 75 (Fleetwood Seventy-Five limousine)",
+    "engines": [
+      "5.4L V8 (331 cu in, 160-190 hp, 1950-1955)",
+      "6.0L V8 (365 cu in, 285-310 hp, 1956-1959)"
+    ],
+    "transmissions": [
+      "4-speed Hydra-Matic automatic (optional initially, standard later)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan (9-passenger)", "4-door limousine"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Flagship limousine on extended 146.8 in wheelbase (1950+). All-new Series 75 introduced 1950. 331 cu in OHV V8 (160 hp 1950-1951, 190 hp 1952-1955). Upgraded to 365 cu in V8 (285-310 hp) for 1956-1959. Available as 9-passenger sedan or limousine with division window. Hydra-Matic automatic optional early, standard later. Brass-era service complexity requires specialized knowledge. 1950s portion only. Data sourced from web research, December 19, 2024."
+  },
+  {
+    "years": [1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959],
+    "make": "Cadillac",
+    "model": "Commercial Chassis (hearse/ambulance)",
+    "engines": [
+      "5.4L V8 (331 cu in, 160-190 hp, 1950-1955)",
+      "6.0L V8 (365 cu in, 285-310 hp, 1956-1959)"
+    ],
+    "transmissions": [
+      "4-speed Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["Commercial incomplete vehicle (hearse/ambulance/combination)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Incomplete vehicle chassis produced 1931-1979 for coachbuilders (Eureka, Superior, Miller-Meteor). Heavier-duty frame with lower rear rails for cargo access. Bodywork from dashboard rearward completed by coachbuilders for funeral coaches (hearses), ambulances, and combination vehicles. Same engines as passenger cars: 331 cu in V8 (1950-1955), 365 cu in V8 (1956-1959). Commercial duty and coachbuilt construction require specialized service knowledge. 1950s portion only. Data sourced from Wikipedia and web research, December 19, 2024."
+  }
+]

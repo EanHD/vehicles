@@ -1,0 +1,92 @@
+[
+  {
+    "years": [1941, 1942, 1943, 1944, 1945, 1946, 1947],
+    "make": "GMC",
+    "model": "C/E Series (Wartime/Postwar)",
+    "engines": [
+      "3.5L (215 cu in) inline-6",
+      "3.9L (236 cu in) inline-6",
+      "4.4L (270 cu in) inline-6"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "Regular cab pickup",
+      "Panel truck",
+      "Chassis cab"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.15,
+    "notes": "Wartime and early postwar GMC light/medium-duty trucks (1941-1947). Production severely limited during WWII (1942-1945) with most output diverted to military contracts. Featured inline-6 engines only due to wartime material restrictions. Difficulty modifier 1.15 reflects 1940s vintage vehicle complexity, obsolete parts, and wartime production variations. Data sourced from Wikipedia GMC truck / Chevrolet AK Series articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1947, 1948, 1949],
+    "make": "GMC",
+    "model": "New Design (FC series)",
+    "engines": [
+      "3.9L (236 cu in) inline-6",
+      "4.4L (270 cu in) inline-6",
+      "4.4L (270 cu in) inline-6 heavy-duty"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "Regular cab pickup",
+      "Panel truck",
+      "Chassis cab"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "GMC's 'New Design' postwar light/medium-duty truck series (1947-1955), first major styling update after WWII. Featured all-new cab design with improved visibility and comfort. Platform shared with Chevrolet Advance Design trucks. FC-series designation for GMC variant. Difficulty modifier 1.1 reflects late-1940s vintage service requirements. Data sourced from Wikipedia Chevrolet Advance Design / GMC truck articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1941, 1942, 1943, 1944, 1945],
+    "make": "GMC",
+    "model": "CCKW 2½-ton 6x6",
+    "engines": [
+      "4.4L (270 cu in) inline-6 GMC 270"
+    ],
+    "transmissions": [
+      "5-speed manual with 2-speed transfer case"
+    ],
+    "region": "American",
+    "drivetrain": ["6WD"],
+    "body_styles": [
+      "Military cargo truck",
+      "6x6 chassis variants"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "GMC CCKW 2½-ton 6x6 military cargo truck, workhorse of Allied forces in WWII (1941-1945). Featured all-wheel-drive 6x6 configuration, dual rear axles, and heavy-duty construction. Over 560,000 units produced. Used for cargo transport, weapon platforms, recovery vehicles. Difficulty modifier 1.2 reflects military-spec construction, 6WD complexity, and WWII-era vintage. Data sourced from Wikipedia GMC CCKW article, December 19, 2024 revision."
+  },
+  {
+    "years": [1942, 1943, 1944, 1945],
+    "make": "GMC",
+    "model": "DUKW Amphibious 6x6",
+    "engines": [
+      "4.4L (270 cu in) inline-6 GMC 270"
+    ],
+    "transmissions": [
+      "5-speed manual with 2-speed transfer case",
+      "Marine propeller drive"
+    ],
+    "region": "American",
+    "drivetrain": ["6WD", "Amphibious"],
+    "body_styles": ["Military amphibious cargo truck"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "GMC DUKW 'Duck' amphibious 6x6 military cargo truck (1942-1945). Based on CCKW chassis with watertight hull and marine propeller for amphibious operations. Critical for beach landings and supply operations in WWII. Over 21,000 units produced. Difficulty modifier 1.3 reflects amphibious system complexity, 6WD drivetrain, specialized marine components, and WWII military-spec construction. Data sourced from Wikipedia DUKW article, December 19, 2024 revision."
+  }
+]

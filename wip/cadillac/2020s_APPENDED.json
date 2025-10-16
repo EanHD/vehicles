@@ -1,0 +1,163 @@
+[
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Cadillac",
+    "model": "CT4 (Alpha platform)",
+    "engines": [
+      "2.0L LSY turbocharged I4 (237 hp)",
+      "2.7L turbocharged I4 (310 hp)",
+      "2.7L turbocharged I4 (325 hp, CT4-V)",
+      "3.6L twin-turbocharged V6 (472 hp, CT4-V Blackwing)"
+    ],
+    "transmissions": [
+      "6-speed manual (CT4-V Blackwing)",
+      "8-speed automatic",
+      "10-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact luxury sedan on GM Alpha platform. CT4-V Blackwing is ultra-high performance variant with twin-turbo V6 producing 472 hp, 0-60 in 3.9 seconds. Available with manual transmission on Blackwing. Data sourced from Wikipedia Cadillac CT4 article, December 19, 2024 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Cadillac",
+    "model": "CT5 (Alpha 2 platform)",
+    "engines": [
+      "2.0L LSY turbocharged I4 (237 hp)",
+      "3.0L LGY twin-turbocharged V6 (335 hp)",
+      "3.0L LGY twin-turbocharged V6 (360 hp, CT5-V)",
+      "6.2L LT4 supercharged V8 (668 hp, CT5-V Blackwing)"
+    ],
+    "transmissions": [
+      "6-speed manual (CT5-V Blackwing)",
+      "10-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Mid-size luxury sedan on GM Alpha 2 platform with fastback styling. CT5-V Blackwing features supercharged 6.2L LT4 V8 producing 668 hp, making it one of the most powerful sedans available. Requires performance-oriented service knowledge for supercharged variants. Data sourced from Wikipedia Cadillac CT5 article, December 19, 2024 revision."
+  },
+  {
+    "years": [2021, 2022, 2023, 2024, 2025],
+    "make": "Cadillac",
+    "model": "Escalade (Fifth generation, GMT T1XX)",
+    "engines": [
+      "6.2L L87 EcoTec3 V8 (420 hp)",
+      "3.0L LM2 Duramax I6 Diesel (277 hp, 460 lb-ft, discontinued 2025)",
+      "6.2L LT4 supercharged V8 (682 hp, Escalade-V)"
+    ],
+    "transmissions": [
+      "10-speed Hydra-Matic 10L80 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "5-door SUV (standard wheelbase)",
+      "5-door SUV (ESV extended wheelbase)"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.1,
+    "notes": "Fifth-generation full-size luxury SUV on GMT T1XX platform. Available in standard and ESV (extended) body styles. Optional 3.0L Duramax diesel discontinued in 2025 facelift. Escalade-V features supercharged LT4 V8 with 682 hp. All-electric Escalade IQ introduced as separate model for 2025. Diesel and supercharged variants require specialized service knowledge. Data sourced from Wikipedia Cadillac Escalade article, December 19, 2024 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Cadillac",
+    "model": "XT4 (E2XX platform)",
+    "engines": [
+      "2.0L LSY turbocharged I4 (237 hp)"
+    ],
+    "transmissions": [
+      "9-speed automatic (9T50)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["5-door subcompact luxury crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Subcompact luxury crossover SUV on E2XX platform. North American production ends in 2025 model year. Diesel variant available in Europe only (not included). Data sourced from Wikipedia Cadillac XT4 article, December 19, 2024 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Cadillac",
+    "model": "XT5 (First generation, C1-2/VSS-S)",
+    "engines": [
+      "2.0L turbocharged I4 (237 hp)",
+      "3.6L V6 (310 hp)"
+    ],
+    "transmissions": [
+      "9-speed Hydramatic 9T65 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["5-door mid-size luxury crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Mid-size luxury crossover SUV on GM VSS-S (C1-2) platform. First generation continued through 2024 in North America. Second generation with mild hybrid system introduced in China (2025+) but mild hybrid not available in North American market. Data sourced from Wikipedia Cadillac XT5 article, December 19, 2024 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Cadillac",
+    "model": "XT6 (C1XX platform)",
+    "engines": [
+      "2.0L turbocharged I4 (237 hp)",
+      "3.6L LGX V6 (310 hp)"
+    ],
+    "transmissions": [
+      "9-speed automatic (9T50)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["5-door mid-size luxury crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Three-row mid-size luxury crossover SUV on C1XX platform. North American production continues through 2025 model year. Data sourced from Wikipedia Cadillac XT6 article, December 19, 2024 revision."
+  },
+  {
+    "years": [2023, 2024, 2025],
+    "make": "Cadillac",
+    "model": "Lyriq (BEV3 platform)",
+    "engines": [
+      "Single electric motor RWD (340 hp, 325 lb-ft)",
+      "Dual electric motors AWD (500 hp, 450 lb-ft)"
+    ],
+    "transmissions": [
+      "Single-speed electric drive"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["5-door mid-size luxury electric crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Cadillac's first mass-market all-electric vehicle on GM BEV3 Ultium platform. Features 102 kWh battery with 314-mile EPA range (RWD) or 307 miles (AWD). DC fast charging up to 190 kW. High-voltage electric vehicle system requires EV-certified technicians. Permanent magnet synchronous AC motors. Production started May 2022. Data sourced from Wikipedia Cadillac Lyriq article, December 19, 2024 revision."
+  },
+  {
+    "years": [2024, 2025],
+    "make": "Cadillac",
+    "model": "Celestiq (BEV3 platform)",
+    "engines": [
+      "Dual electric motors AWD (655 hp, 488 kW)"
+    ],
+    "transmissions": [
+      "Single-speed electric drive"
+    ],
+    "region": "American",
+    "drivetrain": ["AWD"],
+    "body_styles": ["5-door ultra-luxury electric liftback"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.5,
+    "notes": "Ultra-luxury flagship electric sedan on GM BEV3 Ultium platform. Hand-built at GM Technical Center in Warren, Michigan with limited production of fewer than 500 units per year. Price approximately $340,000 as of 2025. Features 111 kWh Ultium battery. High-voltage electric system and hand-built bespoke construction require specialized EV-certified technicians and luxury vehicle expertise. Data sourced from Wikipedia Cadillac Celestiq article, December 19, 2024 revision."
+  }
+]

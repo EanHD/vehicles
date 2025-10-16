@@ -1,0 +1,30 @@
+[
+  {
+    "years": [1927, 1928, 1929],
+    "make": "Volvo",
+    "model": "ÖV 4 'Jakob'",
+    "engines": ["1.9L I4 (28 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door open tourer", "2-door roadster"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "ÖV 4 'Jakob' (1927-1929). Volvo's first production car, nicknamed after factory worker Jakob who test-drove prototypes. Side-valve inline-4 engine, rear-wheel drive. Open tourer body style. Only 275 units produced. Brass-era vehicle requiring specialized vintage restoration expertise and extremely rare parts. Data sourced from Wikipedia Volvo ÖV 4 article, January 2025 revision."
+  },
+  {
+    "years": [1927, 1928, 1929],
+    "make": "Volvo",
+    "model": "PV4",
+    "engines": ["1.9L I4 (28 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door closed sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "PV4 (1927-1929). Closed sedan variant of ÖV 4, also known as 'Göteborgsvagnen'. Side-valve inline-4 engine, rear-wheel drive. Weatherproof closed body for Swedish climate. Only 500 units produced. Brass-era vehicle requiring specialized vintage restoration expertise. Data sourced from Wikipedia Volvo PV4 article, January 2025 revision."
+  }
+]

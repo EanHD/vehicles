@@ -1,0 +1,153 @@
+[
+  {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "Genesis",
+    "model": "GV80 (JX1)",
+    "engines": [
+      "2.5L Smartstream G2.5 T-GDi I4 (300 hp)",
+      "3.5L Smartstream G3.5 T-GDi V6 (375 hp)",
+      "3.5L Smartstream G3.5 T-GDi V6 w/ 48V e-supercharger (409 hp)"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV (5- or 7-passenger)",
+      "5-door coupe SUV"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "First Genesis SUV on the M3 platform shared with the G80. North American GV80 launched for 2021 model year with 2.5T rear- or all-wheel drive and 3.5T AWD. 2025 GV80 Coupe introduces a 3.5T with 48V e-supercharger mild-hybrid hardware plus expanded ADAS (navigation-based cruise, remote smart parking) that require calibration and high-voltage precautions. Extensive aluminum body panels and multi-camera parking systems demand OEM procedures during collision service. Data sourced from Wikipedia Genesis GV80 article, May 27, 2025 revision."
+  },
+  {
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "Genesis",
+    "model": "GV70 (JK1)",
+    "engines": [
+      "2.5L Smartstream G2.5 T-GDi I4 (300 hp)",
+      "3.5L Smartstream G3.5 T-GDi V6 (375 hp)",
+      "Dual electric motors AWD (429 hp Boost Mode) 77.4/84 kWh battery (Electrified GV70)"
+    ],
+    "transmissions": [
+      "8-speed automatic",
+      "Single-speed reduction gear"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Compact crossover on the M3 platform with standard AWD for the U.S. market. Electrified GV70 adds dual motors with 350 kW 800V charging (18-minute 10–80% capability) and 77.4/84 kWh packs assembled in Montgomery, Alabama, requiring high-voltage PPE and insulated tooling. 2024 refresh brings a 27-inch OLED widescreen and expanded Highway Driving Assist calibrations. Data sourced from Wikipedia Genesis GV70 article, August 12, 2025 revision."
+  },
+  {
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "make": "Genesis",
+    "model": "GV60 (JW1)",
+    "engines": [
+      "Single-motor RWD (225 hp) 77.4/84 kWh battery",
+      "Dual-motor AWD (314 hp) 77.4/84 kWh battery",
+      "Performance dual-motor AWD (429 hp Boost Mode) 77.4/84 kWh battery"
+    ],
+    "transmissions": [
+      "Single-speed reduction gear"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door coupe SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "E-GMP-based EV with 400V/800V multi-charging architecture (10–80% in 18 minutes at 350 kW) and V2L 3.6 kW power export. North American GV60 adds Face Connect biometric entry, Crystal Sphere shift-by-wire and advanced ADAS sensors needing calibration after collision repair. High-voltage battery isolation checks and insulated PPE are mandatory. Data sourced from Wikipedia Genesis GV60 article, August 6, 2025 revision."
+  },
+  {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "Genesis",
+    "model": "G80 (RG3)",
+    "engines": [
+      "2.5L Smartstream G2.5 T-GDi I4 (300 hp)",
+      "3.5L Smartstream G3.5 T-GDi V6 (375 hp)",
+      "Dual electric motors AWD (365 hp) 87.2/94.5 kWh battery (Electrified G80)"
+    ],
+    "transmissions": [
+      "8-speed automatic",
+      "Single-speed reduction gear"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Third-generation G80 rides on the M3 platform with standard 8-speed automatic and available HTRAC AWD. North American lineup features 2.5T and 3.5T gasoline engines plus the limited Electrified G80 dual-motor AWD with 400/800V rapid charging hardware and 87.2/94.5 kWh packs (California and select state availability through 2025). 2024 refresh adds a 27-inch OLED dash that requires OEM programming after replacement. Data sourced from Wikipedia Genesis G80 article, September 22, 2025 revision."
+  },
+  {
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "make": "Genesis",
+    "model": "G90 (RS4)",
+    "engines": [
+      "3.5L Smartstream G3.5 T-GDi V6 (375 hp)",
+      "3.5L Smartstream G3.5 T-GDi V6 w/ 48V e-supercharger (409 hp)"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "4-door long-wheelbase sedan"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Flagship sedan with standard HTRAC AWD, rear-wheel steering and multi-chamber air suspension that require calibration after chassis work. Long-wheelbase models add a 48V e-supercharger mild-hybrid version of the 3.5T V6 (409 hp) alongside executive rear-seat electronics, demanding careful battery isolation and diagnostics. Data sourced from Wikipedia Genesis G90 article, September 13, 2025 revision."
+  }
+]

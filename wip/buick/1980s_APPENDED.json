@@ -1,0 +1,106 @@
+[
+  {
+    "years": [1982, 1983, 1984, 1985, 1986, 1987],
+    "make": "Buick",
+    "model": "Regal (Third generation)",
+    "engines": [
+      "3.8L V6 (110-125 hp)",
+      "3.8L turbocharged V6 (180-200 hp, T-Type)",
+      "3.8L turbocharged/intercooled V6 (235 hp, Grand National)",
+      "3.8L turbocharged/intercooled V6 (276 hp, GNX 1987)"
+    ],
+    "transmissions": [
+      "3-speed automatic",
+      "4-speed automatic",
+      "4-speed manual (turbo models)",
+      "5-speed manual (1983-1984 turbo)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Third generation performance coupe on GM G-platform (RWD). Famous for turbocharged variants: T-Type, Grand National (all-black), limited-edition GNX (1987, 547 units). 3.8L V6 with various turbo configurations. RWD only. Grand National/GNX are highly collectible performance vehicles. Difficulty modifier 1.1 reflects turbocharged performance systems requiring specialized service. Data sourced from Wikipedia Buick Regal / Buick Grand National articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1985, 1986, 1987, 1988, 1989, 1990],
+    "make": "Buick",
+    "model": "Electra (Sixth generation, C-body FWD)",
+    "engines": [
+      "3.0L V6 (125 hp)",
+      "3.8L V6 (150 hp, later 165 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Sixth generation full-size sedan, downsized and converted to FWD on GM C-platform. 3.0L V6 initially, 3.8L V6 standard by 1986. Replaced by Park Avenue for 1991. Standard service complexity for 1980s full-size FWD sedan. Data sourced from Wikipedia Buick Electra article, December 19, 2024 revision."
+  },
+  {
+    "years": [1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992],
+    "make": "Buick",
+    "model": "LeSabre (Seventh generation, H-body FWD)",
+    "engines": [
+      "3.0L V6 (125 hp)",
+      "3.8L V6 (150 hp, later 165 hp)"
+    ],
+    "transmissions": [
+      "3-speed automatic",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan", "2-door coupe (1987-1991)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Seventh generation full-size sedan, downsized and converted to FWD on GM H-platform. 3.0L V6 initially, 3.8L V6 by 1986. Coupe variant offered 1987-1991. Transitioned to eighth generation (1992) on same platform. Standard service complexity for 1980s full-size FWD sedan. Data sourced from Wikipedia Buick LeSabre article, December 19, 2024 revision."
+  },
+  {
+    "years": [1985, 1986, 1987, 1988, 1989, 1990, 1991],
+    "make": "Buick",
+    "model": "Skylark (Fifth generation, N-body)",
+    "engines": [
+      "2.0L inline-4 (85 hp)",
+      "2.3L Quad 4 inline-4 (150-180 hp, 1987+)",
+      "2.5L inline-4 (92 hp)",
+      "3.0L V6 (125 hp)"
+    ],
+    "transmissions": [
+      "3-speed automatic",
+      "4-speed automatic",
+      "5-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door coupe", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fifth generation compact sedan/coupe on GM N-platform shared with Pontiac Grand Am, Oldsmobile Calais. Multiple engine options including high-performance Quad 4 inline-4. FWD only. Somerset nameplate used 1985-1987, renamed Skylark 1987+. Standard service complexity for 1980s compact FWD sedan. Data sourced from Wikipedia Buick Skylark article, December 19, 2024 revision."
+  },
+  {
+    "years": [1988, 1989, 1990, 1991],
+    "make": "Buick",
+    "model": "Reatta",
+    "engines": [
+      "3.8L V6 (165 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door coupe (1988-1989)", "2-door convertible (1990-1991)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Two-seat personal luxury coupe/convertible hand-assembled at Lansing Craft Centre. GM E-platform (shortened). 3.8L V6 with 4-speed automatic. FWD only. Coupe 1988-1989, convertible 1990-1991. Low production numbers (21,751 total). Touchscreen CRT interface (innovative for 1988). Discontinued after 1991 model year. Standard service complexity for 1980s-1990s personal luxury vehicle. Data sourced from Wikipedia Buick Reatta article, December 19, 2024 revision."
+  }
+]

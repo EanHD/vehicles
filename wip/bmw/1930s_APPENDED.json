@@ -1,0 +1,122 @@
+[
+  {
+    "years": [
+      1933,
+      1934,
+      1935,
+      1936,
+      1937
+    ],
+    "make": "BMW",
+    "model": "303/315/319",
+    "engines": [
+      "1.2L M75 inline-6 (30 hp) 303",
+      "1.5L M78 inline-6 (34-40 hp) 315/319",
+      "1.9L M78 inline-6 (45 hp) 319/1"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "European import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door saloon",
+      "4-door saloon",
+      "2-door cabriolet"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Early BMW six-cylinder saloons with tubular backbone chassis. Mechanical drum brakes require meticulous adjustment and woven lining relining. Engines use poured babbitt bearings—line-bore service needed during rebuilds. Data sourced from Wikipedia BMW 303 article, October 3, 2025 revision."
+  },
+  {
+    "years": [
+      1936,
+      1937,
+      1938,
+      1939,
+      1940,
+      1941
+    ],
+    "make": "BMW",
+    "model": "326 Sedan",
+    "engines": [
+      "2.0L M328 inline-6 (50-55 hp)"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "European import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "2-door cabriolet"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Streamlined saloon with hydraulic brakes and box-section frame. Cable-operated gearbox linkage needs periodic lubrication; independent front suspension kingpins must be greased every 500 miles. Fabric roof cabriolets require canvas reproofing. Data sourced from Wikipedia BMW 326 article, October 8, 2025 revision."
+  },
+  {
+    "years": [
+      1937,
+      1938,
+      1939,
+      1940,
+      1941
+    ],
+    "make": "BMW",
+    "model": "327 Coupe/Cabriolet",
+    "engines": [
+      "2.0L M78 inline-6 (55 hp) 327",
+      "2.0L M328 inline-6 (80 hp) 327/28"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "European import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "2-door cabriolet"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Coachbuilt grand tourer sharing 326 chassis; timber framing needs preservation with modern epoxies. Dual Solex carburetors require synching; convertible tops use leather straps needing conditioning. Data sourced from Wikipedia BMW 327 article, October 8, 2025 revision."
+  },
+  {
+    "years": [
+      1936,
+      1937,
+      1938,
+      1939,
+      1940
+    ],
+    "make": "BMW",
+    "model": "328 Roadster",
+    "engines": [
+      "2.0L M328 inline-6 (80-90 hp)"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "European import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door roadster"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Lightweight alloy-bodied sports roadster with hemispherical combustion chambers and triple Solex carbs. Requires wire-wheel truing, finned drum cooling, and pre-war electrical maintenance. Limited spare parts necessitate reproduction castings. Data sourced from Wikipedia BMW 328 article, October 6, 2025 revision."
+  }
+]

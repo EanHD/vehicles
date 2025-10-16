@@ -1,0 +1,174 @@
+[
+  {
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "Infiniti",
+    "model": "Q50 (V37)",
+    "engines": [
+      "2.0L I4 turbo M274 (208 hp)",
+      "3.0L V6 twin-turbo VR30DDTT (300 hp)",
+      "3.0L V6 twin-turbo VR30DDTT Red Sport 400 (400 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Luxury sports sedan on FM platform shared with Nissan Skyline. VR30DDTT twin-turbo V6 features direct injection and variable valve timing. Red Sport 400 trim adds performance suspension and upgraded brakes. AWD system is ATTESA E-TS electronic torque split. Data sourced from Wikipedia Infiniti Q50 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2020,
+      2021,
+      2022
+    ],
+    "make": "Infiniti",
+    "model": "Q60 (V37)",
+    "engines": [
+      "2.0L I4 turbo M274 (208 hp)",
+      "3.0L V6 twin-turbo VR30DDTT (300 hp)",
+      "3.0L V6 twin-turbo VR30DDTT Red Sport 400 (400 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Luxury sports coupe sharing FM platform and powertrains with Q50 sedan. Features Direct Adaptive Steering (steer-by-wire system) and Dynamic Digital Suspension. Production ended in 2022. Data sourced from Wikipedia Infiniti Q60 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "Infiniti",
+    "model": "QX55",
+    "engines": [
+      "2.0L I4 turbo VC-Turbo (268 hp)"
+    ],
+    "transmissions": [
+      "CVT"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door coupe SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Luxury coupe SUV featuring world's first production variable compression ratio engine (VC-Turbo). Engine compression ratio varies from 8:1 to 14:1 for performance and efficiency. Requires specialized diagnostic equipment for VC-Turbo system. Based on QX50 platform but with fastback roofline. Data sourced from Wikipedia Infiniti QX55 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "Infiniti",
+    "model": "QX60 (L51)",
+    "engines": [
+      "3.5L V6 VQ35DD (295 hp)"
+    ],
+    "transmissions": [
+      "9-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door 3-row crossover SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Three-row luxury crossover SUV on D platform shared with Nissan Pathfinder. Features ProPILOT Assist semi-autonomous driving system. VQ35DD engine features direct injection and variable valve timing. Replaces CVT with conventional 9-speed automatic transmission. Data sourced from Wikipedia Infiniti QX60 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "make": "Infiniti",
+    "model": "QX80 (Z62)",
+    "engines": [
+      "5.6L V8 VK56VD (400 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "4-door full-size luxury SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Full-size luxury SUV based on Nissan Armada/Patrol Y62 platform. Features hydraulic body motion control system and advanced 4WD system. VK56VD V8 features VVEL variable valve event and lift. Body-on-frame construction with independent rear suspension. Data sourced from Wikipedia Infiniti QX80 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2025
+    ],
+    "make": "Infiniti",
+    "model": "QX80 (Z63)",
+    "engines": [
+      "3.5L V6 twin-turbo VR35DETT (450 hp estimated)"
+    ],
+    "transmissions": [
+      "9-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "4-door full-size luxury SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Redesigned full-size luxury SUV for 2025 model year. Expected to feature twin-turbo V6 replacing previous V8. Based on updated Nissan Patrol platform. Advanced driver assistance systems and updated interior technology. Data based on typical generation patterns - verify with Wikipedia Infiniti QX80 article when 2025 details are finalized."
+  }
+]

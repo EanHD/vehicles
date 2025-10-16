@@ -1,0 +1,514 @@
+[
+  {
+    "years": [
+      2010,
+      2011,
+      2012,
+      2013
+    ],
+    "make": "Infiniti",
+    "model": "EX35/EX37 (J50)",
+    "engines": [
+      "3.5L V6 VQ35HR (297 hp, 2010-2012)",
+      "3.7L V6 VQ37VHR (325 hp, 2013)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door luxury crossover coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact luxury crossover coupe based on FM platform (Nissan Skyline/G37). Engine upgraded to 3.7L VQ37VHR for 2013 model year. ATTESA E-TS all-wheel drive system on AWD models. Replaced by QX50 in 2014. Data sourced from Wikipedia Infiniti EX article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2010
+    ],
+    "make": "Infiniti",
+    "model": "M35/M45 (Y50)",
+    "engines": [
+      "3.5L V6 VQ35DE (303 hp)",
+      "4.5L V8 VK45DE (325 hp)"
+    ],
+    "transmissions": [
+      "5-speed automatic",
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Luxury sports sedan on FM platform. Features advanced suspension and available AWD. Data sourced from Wikipedia Infiniti M article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2011,
+      2012,
+      2013
+    ],
+    "make": "Infiniti",
+    "model": "M37/M56 (Y51)",
+    "engines": [
+      "3.7L V6 VQ37VHR (330 hp)",
+      "5.6L V8 VK56VD (420 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Mid-size luxury sedan on FM platform. Features Direct Adaptive Steering (steer-by-wire). VK56VD V8 features VVEL variable valve technology. Data sourced from Wikipedia Infiniti M article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2012,
+      2013
+    ],
+    "make": "Infiniti",
+    "model": "M35h Hybrid (Y51)",
+    "engines": [
+      "3.5L V6 VQ35HR + electric motor (360 hp combined)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Luxury hybrid sedan featuring Intelligent Dual Clutch Control one-motor two-clutch parallel hybrid system. High-voltage hybrid battery requires certified technician for service. Combined system output 360 hp. Replaced by Q70 hybrid in 2014. Data sourced from Wikipedia Infiniti M article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "make": "Infiniti",
+    "model": "Q50 (V37)",
+    "engines": [
+      "2.0L I4 turbo M274 (208 hp)",
+      "3.0L V6 twin-turbo VR30DDTT (300 hp)",
+      "3.0L V6 twin-turbo VR30DDTT Red Sport 400 (400 hp)",
+      "3.7L V6 VQ37VHR (328 hp, 2014-2016)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Luxury sports sedan replacing M37/M56. Features Direct Adaptive Steering (steer-by-wire) and Active Lane Control. VR30DDTT twin-turbo V6 introduced for 2016+ models. Red Sport 400 trim adds performance suspension. Data sourced from Wikipedia Infiniti Q50 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "make": "Infiniti",
+    "model": "Q50 Hybrid (V37)",
+    "engines": [
+      "3.5L V6 VQ35HR + electric motor (360 hp combined)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Hybrid variant using Intelligent Dual Clutch Control parallel hybrid system from M35h. High-voltage battery system requires specialized service equipment. Hybrid discontinued after 2018 model year. Data sourced from Wikipedia Infiniti Q50 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2017,
+      2018,
+      2019
+    ],
+    "make": "Infiniti",
+    "model": "Q60 (V37)",
+    "engines": [
+      "2.0L I4 turbo M274 (208 hp)",
+      "3.0L V6 twin-turbo VR30DDTT (300 hp)",
+      "3.0L V6 twin-turbo VR30DDTT Red Sport 400 (400 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Luxury sports coupe replacing G37 coupe. Shares platform and powertrains with Q50 sedan. Features Direct Adaptive Steering and Dynamic Digital Suspension. Data sourced from Wikipedia Infiniti Q60 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "make": "Infiniti",
+    "model": "Q70/Q70L (Y51)",
+    "engines": [
+      "3.7L V6 VQ37VHR (330 hp)",
+      "5.6L V8 VK56VD (420 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "4-door long-wheelbase sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Renamed from M37/M56, continues Y51 platform. Q70L adds 5.9 inches to wheelbase. Production ended in 2019. Data sourced from Wikipedia Infiniti Q70 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "make": "Infiniti",
+    "model": "Q70 Hybrid (Y51)",
+    "engines": [
+      "3.5L V6 VQ35HR + electric motor (360 hp combined)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Hybrid variant renamed from M35h. Features Intelligent Dual Clutch Control parallel hybrid system. High-voltage system requires certified technician. Production ended in 2019. Data sourced from Wikipedia Infiniti Q70 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "make": "Infiniti",
+    "model": "QX50 (J50)",
+    "engines": [
+      "3.7L V6 VQ37VHR (325 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door luxury crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Luxury crossover renamed from EX37. Based on FM platform shared with Q50/Q60. ATTESA E-TS AWD system. Replaced by new generation in 2019. Data sourced from Wikipedia Infiniti QX50 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2019
+    ],
+    "make": "Infiniti",
+    "model": "QX50 (J55)",
+    "engines": [
+      "2.0L I4 turbo VC-Turbo (268 hp)"
+    ],
+    "transmissions": [
+      "CVT"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door compact luxury crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "All-new generation featuring world's first production variable compression ratio engine. VC-Turbo compression varies from 8:1 to 14:1. Requires specialized diagnostic equipment for VC-Turbo system. Switched to transverse FWD/AWD platform. Data sourced from Wikipedia Infiniti QX50 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2011,
+      2012,
+      2013
+    ],
+    "make": "Infiniti",
+    "model": "QX56 (Z62)",
+    "engines": [
+      "5.6L V8 VK56VD (400 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "4-door full-size luxury SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Full-size luxury SUV based on Nissan Armada/Patrol Y62 platform. Features hydraulic body motion control. Renamed to QX80 in 2014. Body-on-frame construction with independent rear suspension. Data sourced from Wikipedia Infiniti QX56 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "make": "Infiniti",
+    "model": "QX60 (L50)",
+    "engines": [
+      "3.5L V6 VQ35DE (265 hp)"
+    ],
+    "transmissions": [
+      "CVT"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door 3-row crossover SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Three-row luxury crossover renamed from JX35. Based on Nissan Pathfinder D platform. Features advanced safety systems including Around View Monitor. Data sourced from Wikipedia Infiniti QX60 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "make": "Infiniti",
+    "model": "QX60 Hybrid (L50)",
+    "engines": [
+      "2.5L I4 supercharged QR25DER + electric motor (250 hp combined)"
+    ],
+    "transmissions": [
+      "CVT"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door 3-row crossover SUV"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Hybrid variant using supercharged 4-cylinder with electric motor. One-motor two-clutch parallel hybrid system. High-voltage battery requires certified technician. Hybrid discontinued after 2017. Data sourced from Wikipedia Infiniti QX60 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "make": "Infiniti",
+    "model": "QX70 (S51)",
+    "engines": [
+      "3.7L V6 VQ37VHR (325 hp)",
+      "5.0L V8 VK50VE (390 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door luxury crossover SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Performance luxury crossover renamed from FX. Based on FM platform with sport-tuned suspension. Production ended in 2017. Data sourced from Wikipedia Infiniti QX70 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "make": "Infiniti",
+    "model": "QX80 (Z62)",
+    "engines": [
+      "5.6L V8 VK56VD (400 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "4-door full-size luxury SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Full-size luxury SUV renamed from QX56. Features hydraulic body motion control system. Based on Nissan Armada/Patrol Y62 platform. Body-on-frame construction with independent rear suspension. Data sourced from Wikipedia Infiniti QX80 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2017,
+      2018,
+      2019
+    ],
+    "make": "Infiniti",
+    "model": "QX30",
+    "engines": [
+      "2.0L I4 turbo M274 (208 hp)"
+    ],
+    "transmissions": [
+      "7-speed dual-clutch automatic"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door compact luxury crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact luxury crossover based on Mercedes-Benz GLA platform (MFA). Built by Mercedes in UK. Features Mercedes M274 engine and 7G-DCT transmission. Production ended in 2019. Data sourced from Wikipedia Infiniti QX30 article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      2013
+    ],
+    "make": "Infiniti",
+    "model": "JX35 (L50)",
+    "engines": [
+      "3.5L V6 VQ35DE (265 hp)"
+    ],
+    "transmissions": [
+      "CVT"
+    ],
+    "region": "Japanese import",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door 3-row crossover SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Three-row luxury crossover. Renamed to QX60 mid-2013 model year as part of Infiniti's Q naming convention. Based on Nissan Pathfinder D platform. Data sourced from Wikipedia Infiniti QX60 article, January 17, 2025 revision."
+  }
+]

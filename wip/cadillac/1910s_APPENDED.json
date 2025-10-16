@@ -1,0 +1,74 @@
+[
+  {
+    "years": [1909, 1910, 1911],
+    "make": "Cadillac",
+    "model": "Type 30",
+    "engines": [
+      "3.0L inline-4 (25-30 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-seat runabout", "4-seat touring", "2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Type 30 brass-era model (1909-1911). Inline-4 engine with innovation in interchangeable parts (won Dewar Trophy 1908). Multiple body styles available. Brass radiator, acetylene/oil lamps, hand-crank starting, mechanical brakes rear only. Difficulty modifier 1.4 reflects brass-era construction, hand-fitted components, pioneering interchangeable parts (but still vintage), and near-zero parts availability. Data sourced from Wikipedia Cadillac Type 30 article, December 19, 2024 revision."
+  },
+  {
+    "years": [1914, 1915, 1916],
+    "make": "Cadillac",
+    "model": "Type 51",
+    "engines": [
+      "5.1L V8 (70 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "4-door touring", "4-door sedan", "4-door limousine"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.35,
+    "notes": "Type 51 with first production V8 engine (1914-1916). Industry-first mass-produced V8. Electric starter and lights standard (major innovation). Multiple luxury body styles. Brass-era construction with modern features. Difficulty modifier 1.35 reflects WWI-era brass construction, pioneering V8 technology, hand-assembled components, and extreme parts scarcity. Data sourced from Wikipedia Cadillac Type 51 article, December 19, 2024 revision."
+  },
+  {
+    "years": [1916, 1917, 1918, 1919, 1920, 1921, 1922, 1923],
+    "make": "Cadillac",
+    "model": "Type 53/55/57/59/61",
+    "engines": [
+      "5.1L V8 (70-80 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "4-door touring", "4-door sedan", "4-door limousine"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.35,
+    "notes": "Type 53/55/57/59/61 series evolution (1916-1923). Continued V8 engine development through WWI and early 1920s. Multiple body styles with coachwork. Transitioned from brass-era to modern construction. Type numbers changed yearly. Difficulty modifier 1.35 reflects WWI/early-1920s vintage, brass-era proximity, transition technologies, and very limited parts availability. Data sourced from Wikipedia Cadillac history articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1916, 1917],
+    "make": "Cadillac",
+    "model": "Type 61 (V8)",
+    "engines": [
+      "5.1L V8 (70 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door touring", "4-door sedan", "2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.35,
+    "notes": "Type 61 V8-powered luxury sedan (1916-1917). Established Cadillac's V8 reputation. Electric starter and lights standard. Multiple body styles available. WWI-era production. Difficulty modifier 1.35 reflects WWI brass-era construction, early V8 technology, hand-fitted components, and extreme parts scarcity. Data sourced from Wikipedia Cadillac Type 61 article, December 19, 2024 revision."
+  }
+]

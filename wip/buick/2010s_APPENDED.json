@@ -1,0 +1,177 @@
+[
+  {
+    "years": [2012, 2013, 2014, 2015, 2016, 2017],
+    "make": "Buick",
+    "model": "Verano",
+    "engines": [
+      "2.4L Ecotec inline-4 (180 hp)",
+      "2.0L turbocharged inline-4 (250 hp)"
+    ],
+    "transmissions": [
+      "6-speed manual (turbo only)",
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door compact sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact sedan on GM Delta II platform shared with Chevrolet Cruze. Base 2.4L Ecotec inline-4 with 6-speed automatic; optional 2.0L turbo (Verano Turbo) offered 6-speed manual or automatic. Discontinued in North America after 2017 model year. Standard service complexity for modern compact sedan. Data sourced from Wikipedia Buick Verano article, December 19, 2024 revision."
+  },
+  {
+    "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017],
+    "make": "Buick",
+    "model": "Regal (Fifth generation)",
+    "engines": [
+      "2.0L turbocharged inline-4 (220 hp)",
+      "2.4L Ecotec inline-4 (182 hp)",
+      "2.0L turbocharged inline-4 eAssist mild hybrid (182 hp)"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door midsize sedan"],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fifth generation midsize sedan based on Opel Insignia. Multiple powertrain options including eAssist mild hybrid system (2.4L + electric motor). Turbo GS model available with manual transmission and AWD. Standard service complexity for modern midsize sedan; eAssist mild hybrid does not require elevated difficulty modifier. Data sourced from Wikipedia Buick Regal article, December 19, 2024 revision."
+  },
+  {
+    "years": [2018, 2019, 2020],
+    "make": "Buick",
+    "model": "Regal (Sixth generation)",
+    "engines": [
+      "2.0L turbocharged inline-4 (250 hp)",
+      "3.6L V6 (310 hp, GS model)"
+    ],
+    "transmissions": [
+      "8-speed automatic",
+      "9-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["5-door liftback sedan (Sportback)", "5-door wagon (TourX)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Sixth generation based on Opel/Vauxhall Insignia B. Offered as Sportback (liftback sedan) and TourX (wagon with raised suspension). 2.0L turbo I4 standard; 3.6L V6 in GS performance model with AWD. Discontinued in North America after 2020 model year. Standard service complexity for modern midsize sedan/wagon. Data sourced from Wikipedia Buick Regal article, December 19, 2024 revision."
+  },
+  {
+    "years": [2010, 2011, 2012, 2013],
+    "make": "Buick",
+    "model": "LaCrosse (Second generation)",
+    "engines": [
+      "2.4L Ecotec inline-4 eAssist mild hybrid (182 hp)",
+      "3.6L V6 (280 hp, later 304 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door full-size sedan"],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation full-size sedan on GM Epsilon II platform. eAssist mild hybrid system available with 2.4L inline-4. 3.6L V6 standard engine, output increased from 280 hp to 304 hp during model run. AWD optional. Standard service complexity; eAssist mild hybrid does not require elevated modifier. Data sourced from Wikipedia Buick LaCrosse article, December 19, 2024 revision."
+  },
+  {
+    "years": [2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Buick",
+    "model": "LaCrosse (Third generation)",
+    "engines": [
+      "2.4L Ecotec inline-4 (194 hp)",
+      "2.5L Ecotec inline-4 (194 hp)",
+      "3.6L V6 (305 hp, later 310 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic",
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door full-size sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Third generation full-size sedan introduced for 2017 model year. Base inline-4 (2.4L then 2.5L) or optional 3.6L V6. Platform shared with Chevrolet Impala and Cadillac XTS (GM W-platform). AWD available with V6 only. Discontinued after 2019 model year in North America. Standard service complexity for modern full-size sedan. Data sourced from Wikipedia Buick LaCrosse article, December 19, 2024 revision."
+  },
+  {
+    "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+    "make": "Buick",
+    "model": "Encore (First generation)",
+    "engines": [
+      "1.4L turbocharged inline-4 (138 hp)",
+      "1.4L turbocharged inline-4 (153 hp, 2016+)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door subcompact crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First generation subcompact crossover on GM Gamma II platform shared with Chevrolet Trax. 1.4L turbocharged Ecotec inline-4 with 6-speed automatic. Output increased from 138 hp to 153 hp for 2016 model year. FWD standard, AWD optional. Sold alongside Encore GX starting 2020. Discontinued after 2022 model year. Standard service complexity for modern subcompact crossover. Data sourced from Wikipedia Buick Encore article, December 19, 2024 revision."
+  },
+  {
+    "years": [2016, 2017, 2018, 2019],
+    "make": "Buick",
+    "model": "Cascada",
+    "engines": [
+      "1.6L turbocharged inline-4 (200 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact convertible based on Opel Cascada. 1.6L turbocharged inline-4 with 6-speed automatic transmission. FWD only. Power-retractable hardtop convertible roof. Sold in North America 2016-2019, imported from Poland. Standard service complexity for modern convertible. Data sourced from Wikipedia Buick Cascada article, December 19, 2024 revision."
+  },
+  {
+    "years": [2018, 2019],
+    "make": "Buick",
+    "model": "Enclave (Second generation, early years)",
+    "engines": [
+      "3.6L V6 (310 hp, 266 lb-ft)"
+    ],
+    "transmissions": [
+      "9-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door full-size crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation full-size crossover introduced for 2018 model year on C1XX platform. 3.6L V6 with 9-speed automatic replaces previous 6-speed. Three trim levels including new top Avenir trim. Intelligent AWD with active twin-clutch rear differential. Standard service complexity for modern full-size crossover. Data sourced from Wikipedia Buick Enclave article, December 19, 2024 revision."
+  },
+  {
+    "years": [2016, 2017, 2018, 2019],
+    "make": "Buick",
+    "model": "Envision (First generation)",
+    "engines": [
+      "2.5L inline-4 (197 hp, 192 lb-ft)",
+      "2.0L turbocharged inline-4 (252 hp, 260 lb-ft)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door midsize crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First generation midsize crossover, first Chinese-built GM vehicle sold in America. Debuted at 2016 Detroit Auto Show. Base 2.5L inline-4 or available 2.0L turbocharged inline-4. AWD initially standard, FWD added for 2017. Five trim levels by 2017. Standard service complexity for modern midsize crossover. Data sourced from Wikipedia Buick Envision article, December 19, 2024 revision."
+  }
+]

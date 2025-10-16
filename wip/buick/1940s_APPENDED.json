@@ -1,0 +1,80 @@
+[
+  {
+    "years": [1940, 1941, 1942, 1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958],
+    "make": "Buick",
+    "model": "Super",
+    "engines": [
+      "4.0L inline-8 (107-141 hp, 1940-1953)",
+      "4.3L V8 (150-200 hp, 1954-1958)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "2-speed Dynaflow automatic (1948+)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan", "4-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.15,
+    "notes": "Mid-range Buick series spanning 1940-1958 (production halted 1943-1945 for WWII). Buick inline-8 engines until 1953, V8 from 1954. Multiple body styles. RWD. Positioned between Special and Roadmaster. Difficulty modifier 1.15 reflects 1940s-1950s vintage complexity, WWII-era production variations, and obsolete mechanical systems. Data sourced from Wikipedia Buick Super article, December 19, 2024 revision."
+  },
+  {
+    "years": [1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958],
+    "make": "Buick",
+    "model": "Roadmaster (Postwar)",
+    "engines": [
+      "5.2L inline-8 (144-170 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "2-speed Dynaflow automatic (1948+)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan", "4-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.15,
+    "notes": "Postwar flagship full-size luxury sedan (1946-1958). Buick straight-8 engine through entire run. Introduced Dynaflow automatic transmission 1948. Multiple upscale body styles including convertible. RWD body-on-frame. Difficulty modifier 1.15 reflects postwar 1940s-1950s vintage complexity. Data sourced from Wikipedia Buick Roadmaster article, December 19, 2024 revision."
+  },
+  {
+    "years": [1941, 1942, 1946, 1947, 1948, 1949],
+    "make": "Buick",
+    "model": "Sedanette",
+    "engines": [
+      "4.0L inline-8 (110-130 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "2-speed Dynaflow automatic (1948-1949)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door fastback sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Fastback body style variant (1941-1942, 1946-1949, no 1943-1945 production due to WWII). Buick inline-8 engine. Sleek fastback design popular in postwar era. RWD. Available in Super and Roadmaster series. Collectible for distinctive styling. Difficulty modifier 1.2 reflects 1940s vintage construction, WWII-era gaps in production, and specialized body restoration. Data sourced from Wikipedia Buick Sedanette article, December 19, 2024 revision."
+  },
+  {
+    "years": [1940, 1941, 1942, 1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953],
+    "make": "Buick",
+    "model": "Estate Wagon (Early)",
+    "engines": [
+      "4.0L inline-8 (107-141 hp)",
+      "5.2L inline-8 (144-170 hp, Roadmaster)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "2-speed Dynaflow automatic (1948+)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door station wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.15,
+    "notes": "Early wood-bodied estate wagons (1940-1953, wartime production gap). Buick inline-8 engines. Real wood construction through early 1950s. RWD body-on-frame. Available in Super and Roadmaster series. Difficulty modifier 1.15 reflects 1940s-1950s vintage complexity and wood body restoration requirements. Data sourced from Wikipedia Buick Estate Wagon article, December 19, 2024 revision."
+  }
+]

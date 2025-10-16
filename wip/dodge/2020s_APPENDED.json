@@ -1,0 +1,58 @@
+[
+  {
+    "years": [2023, 2024, 2025],
+    "make": "Dodge",
+    "model": "Hornet",
+    "engines": ["2.0L Turbo I4 (268 hp)", "1.3L Turbo I4 plug-in hybrid (288 hp combined)"],
+    "transmissions": ["9-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door compact crossover SUV"],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Compact crossover based on Alfa Romeo Tonale platform (STLA Medium). Available as plug-in hybrid R/T model with 288 hp combined output. Turbo I4 gasoline or PHEV powertrain. Hybrid systems require PHEV-trained technicians. Data sourced from Wikipedia Dodge Hornet article, January 2025 revision."
+  },
+  {
+    "years": [2024, 2025],
+    "make": "Dodge",
+    "model": "Charger Sixpack (LB)",
+    "engines": ["3.0L Hurricane twin-turbo I6 (420 hp Standard Output)", "3.0L Hurricane twin-turbo I6 (550 hp High Output)"],
+    "transmissions": ["8-speed automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "All-new seventh-generation Charger on STLA Large platform. Twin-turbo Hurricane I6 replaces Hemi V8. Sixpack name honors historic performance. Standard Output (420 hp) or High Output (550 hp) twin-turbo configurations. Modern turbocharged complexity. Data sourced from Wikipedia Dodge Charger article, January 2025 revision."
+  },
+  {
+    "years": [2024, 2025],
+    "make": "Dodge",
+    "model": "Charger Daytona (LB, Electric)",
+    "engines": ["EV 400V (456 hp)", "EV 800V Scat Pack (670 hp)"],
+    "transmissions": ["Single-speed electric drive"],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door electric sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "All-electric Charger variant on STLA Large platform. 400V or 800V battery architecture. Scat Pack model produces 670 hp. Simulated exhaust sound (Fratzonic Chambered Exhaust). High-voltage EV system requires EV-certified technicians. Data sourced from Wikipedia Dodge Charger article, January 2025 revision."
+  },
+  {
+    "years": [2021, 2022, 2023, 2024],
+    "make": "Dodge",
+    "model": "Durango (WD, Third Generation)",
+    "engines": ["3.6L Pentastar V6 (295 hp)", "5.7L Hemi V8 (360 hp)", "6.4L Hemi V8 (475-710 hp SRT/Hellcat)"],
+    "transmissions": ["8-speed automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door three-row SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Final years of third-generation Durango. Based on Mercedes ML platform. SRT 392 and Hellcat high-performance variants with 6.4L Hemi (475-710 hp). Last Hellcat Durango produced 2023. Three-row SUV capability. Data sourced from Wikipedia Dodge Durango article, January 2025 revision."
+  }
+]

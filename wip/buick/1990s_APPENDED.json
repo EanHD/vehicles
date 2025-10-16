@@ -1,0 +1,139 @@
+[
+  {
+    "years": [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005],
+    "make": "Buick",
+    "model": "Park Avenue",
+    "engines": [
+      "3.8L V6 (170 hp base, 205 hp supercharged Ultra)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door full-size sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Full-size luxury sedan on GM C-platform. 3.8L V6 standard; supercharged 3.8L in Ultra trim. FWD only. Replaced Electra nameplate. Discontinued after 2005 model year. Standard service complexity for 1990s-2000s full-size sedan. Data sourced from Wikipedia Buick Park Avenue article, December 19, 2024 revision."
+  },
+  {
+    "years": [1991, 1992, 1993, 1994, 1995, 1996],
+    "make": "Buick",
+    "model": "Roadmaster",
+    "engines": [
+      "5.0L LO5 V8 (170 hp, 1991-1992)",
+      "5.7L LT1 V8 (260 hp, 1994-1996)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "5-door wagon (Estate)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Full-size RWD sedan and wagon on GM B-platform shared with Chevrolet Caprice. 5.0L V8 for 1991-1992, upgraded to 5.7L LT1 V8 for 1994-1996 (no 1993 model year). Estate wagon variant popular. Last RWD Buick sedan. Discontinued after 1996. Standard service complexity for 1990s full-size RWD sedan. Data sourced from Wikipedia Buick Roadmaster article, December 19, 2024 revision."
+  },
+  {
+    "years": [1995, 1996, 1997, 1998, 1999],
+    "make": "Buick",
+    "model": "Riviera (Eighth generation)",
+    "engines": [
+      "3.8L supercharged V6 (225 hp, 1995-1998)",
+      "3.8L supercharged V6 (240 hp, 1998-1999)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Eighth generation personal luxury coupe on GM G-platform. Supercharged 3.8L V6 standard (output increased for 1998-1999). FWD only. Final generation of Riviera. Discontinued after 1999 model year. Standard service complexity for 1990s personal luxury coupe. Data sourced from Wikipedia Buick Riviera article, December 19, 2024 revision."
+  },
+  {
+    "years": [1992, 1993, 1994, 1995, 1996, 1997, 1998],
+    "make": "Buick",
+    "model": "Skylark (Sixth generation, N-body)",
+    "engines": [
+      "2.3L Quad 4 inline-4 (180 hp)",
+      "3.1L V6 (155 hp, later 160 hp)",
+      "3.3L V6 (160 hp)"
+    ],
+    "transmissions": [
+      "3-speed automatic",
+      "4-speed automatic",
+      "5-speed manual (Quad 4 only)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door coupe", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Sixth generation compact sedan/coupe on GM N-platform shared with Pontiac Grand Am, Oldsmobile Achieva. Multiple engine options: 2.3L Quad 4 inline-4 (performance), 3.1L V6, 3.3L V6. FWD only. Discontinued after 1998 model year. Standard service complexity for 1990s compact sedan. Data sourced from Wikipedia Buick Skylark article, December 19, 2024 revision."
+  },
+  {
+    "years": [1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004],
+    "make": "Buick",
+    "model": "Century (Sixth generation, W-body)",
+    "engines": [
+      "3.1L V6 (160 hp, 1997-2003)",
+      "3.1L V6 (175 hp, 2004)",
+      "3.8L V6 (205 hp, Custom trim)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Sixth generation midsize sedan on GM W-platform. Base 3.1L V6; optional 3.8L V6 in Custom trim. FWD only. Platform shared with Buick Regal, Chevrolet Lumina/Monte Carlo. Discontinued after 2005 model year. Standard service complexity for 1990s-2000s midsize sedan. Data sourced from Wikipedia Buick Century article, December 19, 2024 revision."
+  },
+  {
+    "years": [1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004],
+    "make": "Buick",
+    "model": "Regal (Fourth generation, W-body)",
+    "engines": [
+      "3.1L V6 (160 hp)",
+      "3.8L V6 (195 hp)",
+      "3.8L supercharged V6 (240 hp, GS trim)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fourth generation midsize sedan on GM W-platform. Base 3.1L V6, optional 3.8L V6, high-performance supercharged 3.8L in GS trim. FWD only. Platform shared with Century, Chevrolet Monte Carlo. Discontinued after 2004 model year. Standard service complexity for 1990s-2000s midsize sedan. Data sourced from Wikipedia Buick Regal article, December 19, 2024 revision."
+  },
+  {
+    "years": [1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005],
+    "make": "Buick",
+    "model": "LeSabre (Eighth generation, H-body)",
+    "engines": [
+      "3.8L V6 (170 hp base, 205 hp supercharged Custom)",
+      "3.8L V6 (200 hp, 2000+)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door full-size sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Eighth generation full-size sedan on GM H-platform. 3.8L V6 standard; supercharged variant in Custom trim (1992-1999). Engine output updated for 2000 model year. FWD only. One of Buick's best-selling models. Discontinued after 2005 model year. Standard service complexity for 1990s-2000s full-size sedan. Data sourced from Wikipedia Buick LeSabre article, December 19, 2024 revision."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "years": [1983, 1984, 1985, 1986, 1987, 1988, 1989],
+    "make": "Land Rover",
+    "model": "Land Rover 90/110",
+    "engines": ["2.25L I4 diesel (62 hp)", "2.5L I4 diesel (68 hp)", "2.5L I4 turbo diesel (85 hp)", "3.5L V8 (134 hp)"],
+    "transmissions": ["4-speed manual", "5-speed manual"],
+    "region": "British",
+    "drivetrain": ["4WD"],
+    "body_styles": ["3-door SUV (90)", "5-door SUV (110)"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Coil-sprung Land Rover 90 and 110 models (introduced 1983). Replaced Series III with improved ride quality. Body-on-frame construction with permanent four-wheel drive. Limited US availability (grey market). Basic mechanical systems with minimal electronics. Diesel timing belt maintenance critical. Data sourced from Wikipedia Land Rover Defender article, January 2025 revision."
+  },
+  {
+    "years": [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989],
+    "make": "Land Rover",
+    "model": "Range Rover Classic",
+    "engines": ["3.5L V8 (125 hp)", "3.5L V8 (155 hp fuel injection)", "2.4L I4 turbo diesel (85 hp)"],
+    "transmissions": ["4-speed manual", "4-speed automatic"],
+    "region": "British",
+    "drivetrain": ["4WD"],
+    "body_styles": ["5-door full-size luxury SUV"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "First-generation Range Rover (1970-1996) during 1980s. Body-on-frame construction with coil spring suspension. Permanent four-wheel drive with lockable center differential. Fuel injection introduced 1985. Diesel available internationally. Vintage carbureted and early fuel injection systems require specialized knowledge. Data sourced from Wikipedia Range Rover article, January 2025 revision."
+  },
+  {
+    "years": [1989],
+    "make": "Land Rover",
+    "model": "Discovery Series I",
+    "engines": ["3.5L V8 (155 hp)", "2.5L I4 turbo diesel (107 hp)"],
+    "transmissions": ["5-speed manual", "4-speed automatic"],
+    "region": "British",
+    "drivetrain": ["4WD"],
+    "body_styles": ["5-door midsize SUV"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "First-generation Discovery launched 1989. Body-on-frame construction based on Range Rover chassis. Features permanent four-wheel drive, coil spring suspension. Diesel available internationally. Timing chain V8 engine. Transfer case and differential maintenance critical. Limited early US availability. Data sourced from Wikipedia Land Rover Discovery article, January 2025 revision."
+  }
+]

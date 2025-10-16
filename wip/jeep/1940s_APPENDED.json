@@ -1,0 +1,72 @@
+[
+  {
+    "years": [1941, 1942, 1943, 1944, 1945],
+    "make": "Jeep",
+    "model": "Willys MB",
+    "engines": ["2.2L (134 cu in) L134 Go-Devil I4 (60 hp gross, 54 hp net)"],
+    "transmissions": ["3-speed manual with 2-range transfer case"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["Open-top military utility vehicle"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Iconic WWII quarter-ton military Jeep (1,200 lb payload). 80-inch wheelbase, 3-4 person capacity. 15-gallon fuel tank, 300-mile range, 65 mph max speed. Live axles with leaf springs front and rear. 6-volt electrical system, manual choke carburetor, points-based ignition. Military-grade construction requiring vintage vehicle and military equipment expertise. Highly collectible wartime vehicle with specialized maintenance requirements. Difficulty modifier reflects WWII-era technology, parts scarcity, and historical preservation standards. Data sourced from Wikipedia Willys MB article, January 2025 revision."
+  },
+  {
+    "years": [1945, 1946, 1947, 1948, 1949],
+    "make": "Jeep",
+    "model": "CJ-2A",
+    "engines": ["2.2L (134 cu in) L134 I4"],
+    "transmissions": ["3-speed manual (Borg-Warner T-90)"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door open-top utility vehicle"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "First full-production civilian Jeep. Total production of 214,760 units. Civilianized version of military MB with seven-slot grille (vs. nine-slot MB). 80-inch wheelbase. Available in multiple colors (Pasture Green, Harvest Tan). Agricultural and industrial options available. Leaf spring suspension, Dana axles. 6-volt electrical system, manual choke carburetor, points-based ignition. 1940s-era vintage vehicle requiring specialized restoration and maintenance expertise. Difficulty modifier reflects post-war technology and collectible status. Data sourced from Wikipedia Jeep CJ article, January 2025 revision."
+  },
+  {
+    "years": [1949],
+    "make": "Jeep",
+    "model": "CJ-3A",
+    "engines": ["2.2L (134 cu in) L134 Go-Devil I4"],
+    "transmissions": ["3-speed manual (Borg-Warner T-90)"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door open-top utility vehicle"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Introduced 1949 as successor to CJ-2A. Total production of 131,843 units (1949-1953). One-piece windshield with bottom vent, beefed-up 10-leaf suspension. 80-inch wheelbase. Farm Jeep and Jeep Tractor versions available. Leaf spring suspension, Dana axles. 6-volt electrical system, manual choke carburetor, points-based ignition. Late 1940s vintage vehicle requiring specialized knowledge. Difficulty modifier reflects vintage technology and collectible status. Data sourced from Wikipedia Jeep CJ article, January 2025 revision."
+  },
+  {
+    "years": [1946, 1947, 1948, 1949],
+    "make": "Jeep",
+    "model": "Station Wagon",
+    "engines": ["2.2L (134 cu in) L-134 Go-Devil flathead I4"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door station wagon", "Panel van"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Introduced July 1946 as first mass-market all-steel station wagon. Designed by Brooks Stevens. Independent front suspension with transverse seven-leaf 'Planadyne' spring system. Panel van introduced 1947 (one seat, doors instead of tailgate, no rear side windows). Initially RWD only, 4WD option added 1949. 6-volt electrical system, manual choke carburetor, points-based ignition. 1940s vintage vehicle with unique suspension system requiring specialized expertise. Data sourced from Wikipedia Willys Jeep Station Wagon article, January 2025 revision."
+  },
+  {
+    "years": [1947, 1948, 1949],
+    "make": "Jeep",
+    "model": "Truck",
+    "engines": ["2.2L (134 cu in) Go-Devil L4-134 side-valve I4 (63 hp)"],
+    "transmissions": ["3-speed manual (Borg-Warner T-90)"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door pickup", "Platform stake truck", "Cab and chassis", "Bare chassis"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Introduced 1947 based on Station Wagon and CJ-2A. 118-inch wheelbase. 4T model (1-ton 4WD) and 2T model (¾-ton 2WD, by 1949). Final drive ratios: 5.38:1 standard, 4.88:1 and 6.17:1 optional. Various body configurations: pickup, stake truck, cab/chassis, bare chassis. Leaf spring suspension, 6-volt electrical system, manual choke carburetor, points-based ignition. Late 1940s vintage commercial vehicle requiring specialized knowledge. Data sourced from Wikipedia Willys Jeep Truck article, January 2025 revision."
+  }
+]

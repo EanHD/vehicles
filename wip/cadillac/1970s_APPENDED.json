@@ -1,0 +1,100 @@
+[
+  {
+    "years": [1971, 1972, 1973, 1974, 1975, 1976],
+    "make": "Cadillac",
+    "model": "Coupe de Ville / Sedan de Ville (C-body)",
+    "engines": [
+      "7.7L V8 (472 cu in, 345 hp, 1971)",
+      "8.2L V8 (500 cu in, 210 hp, 1975-1976)",
+      "8.2L V8 (500 cu in, 190 hp, 1976)",
+      "8.2L V8 (500 cu in, 215 hp, 1976 EFI)"
+    ],
+    "transmissions": [
+      "3-speed Turbo Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door hardtop coupe", "4-door hardtop sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Full-size luxury car on C-body platform. 1971 featured 7.7L (472 cu in) V8 with 345 hp. Switched to massive 8.2L (500 cu in) V8 for 1975-1976 with dramatically reduced output due to emissions regulations (190-215 hp). Electronic fuel injection optional on 1976 model boosted output to 215 hp. One of the largest production engines ever installed in American automobile. Data sourced from web research, December 19, 2024."
+  },
+  {
+    "years": [1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978],
+    "make": "Cadillac",
+    "model": "Eldorado (Eighth/Ninth generation)",
+    "engines": [
+      "8.2L V8 (500 cu in, 365 hp SAE gross, 235 hp SAE net, 1971)",
+      "8.2L V8 (500 cu in, 190 hp, 1976)",
+      "8.2L V8 (500 cu in, 215 hp, 1976 EFI)",
+      "7.0L V8 (425 cu in, 180 hp, 1977-1978)"
+    ],
+    "transmissions": [
+      "3-speed Turbo Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door hardtop coupe", "2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Personal luxury coupe on E-body platform with front-wheel drive. Massive 8.2L (500 cu in) V8 exclusive to Eldorado 1971-1976, one of largest production engines ever (400 hp gross in 1970, reduced to 365 hp in 1971, 190 hp by 1976 due to emissions). Optional Bendix EFI boosted 1976 output to 215 hp. Switched to 425 cu in V8 for 1977-1978. Last Eldorado convertible until 1984. 126.3 in wheelbase. Data sourced from Wikipedia and web research, December 19, 2024."
+  },
+  {
+    "years": [1977, 1978, 1979],
+    "make": "Cadillac",
+    "model": "Fleetwood Brougham (Downsized C-body)",
+    "engines": [
+      "7.0L V8 (425 cu in, 180 hp)"
+    ],
+    "transmissions": [
+      "3-speed Turbo Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Full-size luxury sedan on downsized C-body platform. 1977 redesign shrank car by 9.8 inches and 750 lbs. 121.5 in wheelbase. 425 cu in (7.0L) V8 was de-bored version of previous 472/500 V8s. Major downsizing effort by GM for improved fuel economy while maintaining luxury. Renamed to just 'Brougham' for 1987. 1970s portion only (1977-1979). Data sourced from Wikipedia and web research, December 19, 2024."
+  },
+  {
+    "years": [1976, 1977, 1978, 1979],
+    "make": "Cadillac",
+    "model": "Seville (First generation, K-body)",
+    "engines": [
+      "5.7L Oldsmobile V8 (350 cu in, 180 hp, fuel injection)",
+      "5.7L LF9 diesel V8 (350 cu in, 120 hp, 1978-1979)"
+    ],
+    "transmissions": [
+      "3-speed Turbo Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.1,
+    "notes": "Compact luxury sedan on K-body platform, Cadillac's first 'international-size' luxury car. Oldsmobile-sourced 350 cu in V8 with Bendix analog port fuel injection and Cadillac-designed intake manifold. Diesel option added 1978 (5.7L, 120 hp). Fuel economy: 15 city/21 highway (gas), 21 city/30 highway (diesel). 114.3 in wheelbase. Diesel option requires specialized service knowledge. Data sourced from Wikipedia and web research, December 19, 2024."
+  },
+  {
+    "years": [1977, 1978, 1979],
+    "make": "Cadillac",
+    "model": "Coupe de Ville / Sedan de Ville (Downsized C-body)",
+    "engines": [
+      "7.0L V8 (425 cu in, 180 hp carburetor)",
+      "7.0L V8 (425 cu in, 195 hp EFI)"
+    ],
+    "transmissions": [
+      "3-speed Turbo Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Downsized full-size luxury car on C-body platform. 1977 redesign reduced size by 9.8 inches and 750 lbs compared to 1976. 121.5 in wheelbase, 221.2 in length. 425 cu in (7.0L) V8 based on 472 architecture with smaller bore, 100 lbs lighter. Optional electronic multi-port fuel injection (L35) produced 195 hp vs 180 hp carburetor version (L33). 234,171 DeVilles produced in 1977. Major downsizing initiative. Data sourced from Wikipedia and web research, December 19, 2024."
+  }
+]

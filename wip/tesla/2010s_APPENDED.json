@@ -1,0 +1,44 @@
+[
+  {
+    "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+    "make": "Tesla",
+    "model": "Model S (First Generation)",
+    "engines": ["EV Single Motor RWD (362-382 hp)", "EV Dual Motor AWD (417-762 hp)", "EV Performance P85D/P90D/P100D (691-762 hp)"],
+    "transmissions": ["Single-speed electric drive"],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "First mass-market Tesla sedan. 60-100 kWh battery pack options. 400V architecture. Ludicrous Mode on P100D (0-60 in 2.5 seconds). Over-the-air software updates. Autopilot introduced 2014. Up to 402-mile range. High-voltage EV system requires EV-certified technicians. Data sourced from Wikipedia Tesla Model S article, January 2025 revision."
+  },
+  {
+    "years": [2015, 2016, 2017, 2018, 2019, 2020],
+    "make": "Tesla",
+    "model": "Model X (First Generation)",
+    "engines": ["EV Dual Motor AWD (518-762 hp)", "EV Performance P90D/P100D (691-762 hp)"],
+    "transmissions": ["Single-speed electric drive"],
+    "region": "American",
+    "drivetrain": ["AWD"],
+    "body_styles": ["4-door SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "First Tesla SUV with distinctive falcon-wing rear doors. 75-100 kWh battery pack. 400V architecture. Three-row seating for 6-7. Bioweapon Defense Mode air filtration. Ludicrous Mode available. Up to 351-mile range. Falcon-wing doors add mechanical complexity. High-voltage systems require specialized service. Data sourced from Wikipedia Tesla Model X article, January 2025 revision."
+  },
+  {
+    "years": [2017, 2018, 2019, 2020],
+    "make": "Tesla",
+    "model": "Model 3 (First Generation)",
+    "engines": ["EV Single Motor RWD (283 hp)", "EV Dual Motor AWD Long Range (346-450 hp)", "EV Performance (450-480 hp)"],
+    "transmissions": ["Single-speed electric drive"],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Mass-market affordable Tesla sedan. 50-82 kWh battery pack options. 400V architecture. Minimalist interior with 15-inch center touchscreen. Most affordable Tesla model. Best-selling premium sedan in USA. Up to 358-mile range. High-voltage EV system requires EV-certified technicians. Data sourced from Wikipedia Tesla Model 3 article, January 2025 revision."
+  }
+]

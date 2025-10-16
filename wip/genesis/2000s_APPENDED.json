@@ -1,0 +1,62 @@
+[
+  {
+    "years": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014
+    ],
+    "make": "Genesis",
+    "model": "Genesis Sedan (BH)",
+    "engines": [
+      "3.8L Lambda V6 (290 hp)",
+      "4.6L Tau V8 (375-385 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic",
+      "8-speed automatic (2012-2014 V8)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "First-generation BH luxury sedan launched under Hyundai badging for 2009 with rear-wheel drive, ZF 6HP automatic and optional Tau V8 delivering up to 385 hp in North America. 2012 update added in-house 8-speed for the V8, Lexicon audio, and adaptive front lighting that needs calibration after headlamp or bumper work. Data sourced from Wikipedia Hyundai Genesis article, August 1, 2025 revision."
+  },
+  {
+    "years": [
+      2010,
+      2011,
+      2012
+    ],
+    "make": "Genesis",
+    "model": "Genesis Coupe (BK1)",
+    "engines": [
+      "2.0L Theta II TCI I4 (210 hp)",
+      "3.8L Lambda II V6 (306 hp)"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "5-speed automatic (2.0T)",
+      "6-speed automatic (3.8L)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Initial BK1 rear-drive coupe offered turbocharged four-cylinder and 3.8L V6 powertrains with optional Brembo brake package and limited-slip differential. Early automatics used Aisin 5-speed on 2.0T and ZF 6-speed on 3.8, both requiring specific SP-III/SP-IV fluids; long doors and structural braces demand correct lift points. Data sourced from Wikipedia Hyundai Genesis Coupe article, August 4, 2025 revision."
+  }
+]

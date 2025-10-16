@@ -1,0 +1,192 @@
+[
+  {
+    "years": [
+      1940,
+      1941,
+      1942,
+      1946,
+      1947,
+      1948,
+      1949
+    ],
+    "make": "Chrysler",
+    "model": "New Yorker",
+    "engines": [
+      "5.3L I8"
+    ],
+    "transmissions": [
+      "4-speed semi-automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "2-door coupe",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Data sourced from Wikipedia Chrysler New Yorker article, October 13, 2025 revision."
+  },
+  {
+    "years": [
+      1940,
+      1941,
+      1942,
+      1946,
+      1947,
+      1948
+    ],
+    "make": "Chrysler",
+    "model": "Crown Imperial",
+    "engines": [
+      "5.3L I8"
+    ],
+    "transmissions": [
+      "4-speed semi-automatic",
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "4-door limousine"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Top-of-line flagship limousine with inline-8 flathead engine. Extended wheelbase for executive transport. Vintage complexity and rare parts justify increased difficulty. Data sourced from Wikipedia Chrysler Imperial article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1940,
+      1941,
+      1942,
+      1946,
+      1947,
+      1948
+    ],
+    "make": "Chrysler",
+    "model": "Royal",
+    "engines": [
+      "3.9L I6",
+      "4.1L I6"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed semi-automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Entry-level Chrysler with inline-6 flathead engine. Vintage complexity with semi-automatic transmission option. Data sourced from Wikipedia Chrysler Royal article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1940,
+      1941,
+      1942,
+      1946,
+      1947,
+      1948
+    ],
+    "make": "Chrysler",
+    "model": "Saratoga",
+    "engines": [
+      "4.1L I6"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed semi-automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Mid-range Chrysler with inline-6 flathead. Fluid Drive transmission option. Vintage complexity. Data sourced from Wikipedia Chrysler Saratoga article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1941,
+      1942,
+      1946,
+      1947,
+      1948
+    ],
+    "make": "Chrysler",
+    "model": "Town & Country",
+    "engines": [
+      "4.1L I6",
+      "5.3L I8"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed semi-automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door convertible",
+      "4-door sedan",
+      "5-door station wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Iconic wood-bodied luxury car with structural wood framing. Complex wooden body structure requires specialized restoration knowledge. Data sourced from Wikipedia Chrysler Town & Country article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1940,
+      1941,
+      1942,
+      1946,
+      1947,
+      1948
+    ],
+    "make": "Chrysler",
+    "model": "Windsor",
+    "engines": [
+      "4.1L I6"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed semi-automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "4-door sedan",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Popular mid-level Chrysler with inline-6 flathead and Fluid Drive semi-automatic. Vintage complexity. Data sourced from Wikipedia Chrysler Windsor article, January 17, 2025 revision."
+  }
+]

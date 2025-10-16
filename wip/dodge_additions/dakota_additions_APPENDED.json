@@ -1,0 +1,70 @@
+[
+  {
+    "years": [1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996],
+    "make": "Dodge",
+    "model": "Dakota (First Generation)",
+    "engines": [
+      "2.2L I4 (96-100 hp, 1987-1990)",
+      "2.5L I4 (117-121 hp)",
+      "3.9L V6 (125-180 hp)",
+      "5.2L V8 (175-230 hp, 1991+)"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "5-speed manual",
+      "3-speed automatic",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": ["Regular Cab pickup", "Club Cab pickup (1991+)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First generation compact pickup. Available in standard and extended wheelbases. Club Cab introduced 1991. Convertible variant offered 1989-1991. V8 option made it unique in compact truck segment. Data sourced from Wikipedia Dodge Dakota article, January 2025 revision."
+  },
+  {
+    "years": [2001, 2002, 2003, 2004],
+    "make": "Dodge",
+    "model": "Dakota (AN, Second Generation)",
+    "engines": [
+      "2.5L I4 (120 hp)",
+      "3.9L V6 (175-180 hp)",
+      "4.7L V8 (235-260 hp, 2000+)",
+      "5.9L V8 (245-250 hp, 1998-2002)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic",
+      "5-speed automatic (2002+)"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": ["Regular Cab pickup", "Club Cab pickup", "Quad Cab pickup"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation extended years. Quad Cab offered 2000+ with four full doors. 4.7L PowerTech V8 replaced 5.9L by 2003. Dakota R/T performance variant available with 5.9L V8. Data sourced from Wikipedia Dodge Dakota article, January 2025 revision."
+  },
+  {
+    "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011],
+    "make": "Dodge",
+    "model": "Dakota (ND, Third Generation)",
+    "engines": [
+      "3.7L PowerTech V6 (210-215 hp)",
+      "4.7L PowerTech V8 (230-310 hp)"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "4-speed automatic",
+      "5-speed automatic (2008+)"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": ["Extended Cab pickup", "Crew Cab pickup"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Third generation final Dakota. Grew to midsize platform sharing components with Ram 1500. Available only in Extended and Crew Cab configurations. Discontinued 2011 as Chrysler exited midsize truck market. Data sourced from Wikipedia Dodge Dakota article, January 2025 revision."
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Cadillac",
+    "model": "ATS (Alpha platform)",
+    "engines": [
+      "2.0L LTG turbocharged I4 (272 hp)",
+      "2.5L LCV I4 (202 hp)",
+      "3.6L LFX V6 (321 hp)",
+      "3.6L twin-turbocharged V6 (464 hp, ATS-V)"
+    ],
+    "transmissions": [
+      "6-speed manual (ATS-V)",
+      "6-speed automatic",
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door sedan", "2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact luxury sedan and coupe on GM Alpha platform competing with BMW 3-Series. ATS-V features twin-turbocharged V6 with 464 hp, available with 6-speed manual transmission. Production ended 2019. Data sourced from Wikipedia Cadillac ATS article, December 19, 2024 revision."
+  },
+  {
+    "years": [2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Cadillac",
+    "model": "CTS (Third generation, Alpha platform)",
+    "engines": [
+      "2.0L LTG turbocharged I4 (272 hp)",
+      "3.6L LGX V6 (335 hp)",
+      "3.6L twin-turbocharged V6 (420 hp, Vsport)",
+      "6.2L LT4 supercharged V8 (640 hp, CTS-V)"
+    ],
+    "transmissions": [
+      "6-speed manual (CTS-V)",
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Third-generation mid-size luxury sedan on GM Alpha platform. CTS-V features supercharged LT4 V8 producing 640 hp, available with 6-speed manual transmission. Vsport trim offered twin-turbo V6. Supercharged variant requires performance-oriented service knowledge. Data sourced from Wikipedia Cadillac CTS article, December 19, 2024 revision."
+  },
+  {
+    "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Cadillac",
+    "model": "XTS (Epsilon II LWB platform)",
+    "engines": [
+      "3.6L LFX V6 (304 hp)",
+      "3.6L LF3 twin-turbocharged V6 (410 hp, Vsport)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Full-size luxury sedan on Epsilon II LWB platform. Replaced DTS and STS models. Vsport trim featured twin-turbocharged V6 producing 410 hp. Production ended 2019. Data sourced from Wikipedia Cadillac XTS article, December 19, 2024 revision."
+  },
+  {
+    "years": [2016, 2017, 2018, 2019, 2020],
+    "make": "Cadillac",
+    "model": "CT6 (Omega platform)",
+    "engines": [
+      "2.0L LTG/LSY turbocharged I4 (265 hp)",
+      "3.6L LGX V6 (335 hp)",
+      "3.0L LGW twin-turbocharged V6 (404 hp)",
+      "4.2L LTA twin-turbocharged V8 (500 hp, Platinum trim)",
+      "4.2L LTA twin-turbocharged V8 (550 hp, CT6-V)"
+    ],
+    "transmissions": [
+      "8-speed Hydra-Matic 8L45 automatic",
+      "8-speed Hydra-Matic 8L90 automatic",
+      "10-speed Hydra-Matic 10L90 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Full-size luxury sedan on GM Omega platform. First Cadillac with Super Cruise semi-autonomous driving. 4.2L 'Blackwing' twin-turbo V8 exclusive to CT6, producing up to 550 hp in CT6-V. North American production ended February 2020 at Detroit/Hamtramck Assembly. Twin-turbo V8 requires specialized service knowledge. Data sourced from Wikipedia Cadillac CT6 article, December 19, 2024 revision."
+  },
+  {
+    "years": [2017, 2018, 2019],
+    "make": "Cadillac",
+    "model": "XT5 (First generation, C1XX platform)",
+    "engines": [
+      "3.6L LGX V6 (310 hp)"
+    ],
+    "transmissions": [
+      "8-speed automatic (AF50-8)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["5-door mid-size luxury crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Mid-size luxury crossover SUV on GM C1XX platform. Replaced SRX. Features Active Fuel Management cylinder deactivation and automatic stop-start. AWD system includes twin-clutch differential with active torque vectoring and can disconnect rear drive unit for efficiency. 2010s portion only (2017-2019). Data sourced from Wikipedia Cadillac XT5 article, December 19, 2024 revision."
+  },
+  {
+    "years": [2019],
+    "make": "Cadillac",
+    "model": "XT4 (E2XX platform)",
+    "engines": [
+      "2.0L LSY turbocharged I4 (237 hp)"
+    ],
+    "transmissions": [
+      "9-speed automatic (9T50)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["5-door subcompact luxury crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Subcompact luxury crossover SUV on E2XX platform, slotting below XT5. Went on sale fall 2018 as 2019 model. 2010s portion only (first year). Data sourced from Wikipedia Cadillac XT4 article, December 19, 2024 revision."
+  },
+  {
+    "years": [2015, 2016, 2017, 2018, 2019, 2020],
+    "make": "Cadillac",
+    "model": "Escalade (Fourth generation, GMT K2XX)",
+    "engines": [
+      "6.2L L86 EcoTec3 V8 (420 hp)"
+    ],
+    "transmissions": [
+      "6-speed GM 6L80 automatic (2015)",
+      "8-speed GM 8L90 automatic (2015-2017)",
+      "10-speed Hydra-Matic 10L80 automatic (2018-2020)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "5-door SUV (standard wheelbase)",
+      "5-door SUV (ESV extended wheelbase)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fourth-generation full-size luxury SUV on GMT K2XX platform. Available in standard and ESV (extended) body styles. Transmission upgraded from 6-speed to 8-speed (2015-2017), then to 10-speed (2018-2020). Production ran January 2014 to December 2019. Hennessey HPE550 supercharger upgrade available. Data sourced from Wikipedia Cadillac Escalade article, December 19, 2024 revision."
+  }
+]

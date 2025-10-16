@@ -1,0 +1,30 @@
+[
+  {
+    "years": [1947, 1948, 1949, 1950],
+    "make": "Volvo",
+    "model": "PV444",
+    "engines": ["1.4L B4B I4 (40-44 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "PV444 (1947-1958, 1940s coverage). Volvo's first mass-produced car after WWII. Unibody construction, independent front suspension. Fastback 2-door sedan design. Rear-wheel drive with inline-4 engine. Brass-era manufacturing techniques and vintage parts availability require specialized restoration expertise. Data sourced from Wikipedia Volvo PV444/544 article, January 2025 revision."
+  },
+  {
+    "years": [1946, 1947, 1948, 1949, 1950],
+    "make": "Volvo",
+    "model": "PV60",
+    "engines": ["3.7L I6 (90 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "PV60 (1946-1950). Post-war continuation of pre-war PV models with updated styling. Large sedan with inline-6 engine. Rear-wheel drive. Separate body-on-frame construction. Vintage restoration requires specialized knowledge of 1940s automotive technology. Data sourced from Wikipedia Volvo PV60 article, January 2025 revision."
+  }
+]

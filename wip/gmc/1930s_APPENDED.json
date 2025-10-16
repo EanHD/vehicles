@@ -1,0 +1,66 @@
+[
+  {
+    "years": [1937, 1938, 1939],
+    "make": "GMC",
+    "model": "T/F Series Light-Duty Trucks",
+    "engines": [
+      "3.5L (213 cu in) inline-6",
+      "3.5L (228 cu in) inline-6"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": [
+      "Pickup",
+      "Panel truck",
+      "Chassis cab"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "GMC T and F series light-duty trucks from late 1930s (1937-1939). Featured Art Deco-influenced styling of the pre-WWII era. Inline-6 engines only, typical of 1930s truck design. Difficulty modifier 1.2 reflects brass-era proximity, obsolete mechanical systems, 6-volt electrical, and very limited parts availability. Data sourced from Wikipedia GMC truck history articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1939],
+    "make": "GMC",
+    "model": "AC/AF Cabover",
+    "engines": [
+      "4.4L (270 cu in) inline-6",
+      "5.2L (320 cu in) inline-6"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "5-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["Cabover truck chassis"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "GMC AC/AF series cabover (COE) medium/heavy-duty trucks introduced in 1939. Featured cab-over-engine design for improved maneuverability and cargo space. Heavy-duty commercial chassis for freight and delivery applications. Difficulty modifier 1.2 reflects late-1930s vintage complexity, cabover service access challenges, and obsolete systems. Data sourced from Wikipedia GMC truck / cabover articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1937, 1938, 1939],
+    "make": "GMC",
+    "model": "Yellow Coach Parlor Bus",
+    "engines": [
+      "GMC inline-6 (various displacements)",
+      "Detroit Diesel 2-stroke (late 1930s)"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "Pre-selector automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["Intercity coach bus"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.25,
+    "notes": "GMC Yellow Coach parlor buses for intercity passenger service (late 1930s). Yellow Coach was GM's transit bus division, merged with GMC truck operations. Featured streamlined Art Deco styling and advanced (for 1930s) comfort features. Early adoption of diesel engines for commercial transit. Difficulty modifier 1.25 reflects 1930s commercial bus complexity, early diesel technology, air brakes, and extreme parts scarcity. Data sourced from Wikipedia Yellow Coach / GMC transit bus articles, December 19, 2024 revision."
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Lincoln",
+    "model": "Corsair",
+    "engines": [
+      "2.0L turbocharged inline-4 (250 hp, 280 lb-ft)",
+      "2.3L turbocharged inline-4 (295 hp, 310 lb-ft, Grand Touring)"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door compact luxury crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact luxury crossover replacing Lincoln MKC. Based on Ford Escape platform (C2 platform). Standard 2.0L turbo inline-4, optional 2.3L turbo in Grand Touring trim. FWD standard, AWD optional. Three trim levels: Standard, Reserve, Grand Touring. Standard service complexity for modern luxury crossover. Data sourced from Wikipedia Lincoln Corsair article, December 19, 2024 revision."
+  },
+  {
+    "years": [2024, 2025],
+    "make": "Lincoln",
+    "model": "Nautilus (Second generation)",
+    "engines": [
+      "2.0L turbocharged inline-4 (250 hp, 280 lb-ft)"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door midsize luxury crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation midsize luxury crossover (2024 redesign). Based on Ford Edge platform (CD6 platform). Single 2.0L turbocharged inline-4 engine option. FWD standard, AWD optional. Multiple luxury trim levels. Replaces previous MKX nameplate completely. Standard service complexity for modern luxury crossover. Data sourced from Wikipedia Lincoln Nautilus article, December 19, 2024 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Lincoln",
+    "model": "Aviator (Second generation)",
+    "engines": [
+      "3.0L twin-turbo V6 (400 hp, 415 lb-ft)",
+      "3.0L twin-turbo V6 plug-in hybrid (494 hp combined, Grand Touring)"
+    ],
+    "transmissions": [
+      "10-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door midsize luxury SUV"],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Second generation midsize luxury SUV (2020-present). RWD-based platform (CD6) shared with Ford Explorer. Standard 3.0L twin-turbo V6 with 400 hp; Grand Touring PHEV variant with 494 hp combined output and 13.6 kWh battery. Three-row seating. RWD standard, AWD optional. Difficulty modifier 1.1 reflects plug-in hybrid variant requiring HV system expertise and 10-speed transmission complexity. Data sourced from Wikipedia Lincoln Aviator article, December 19, 2024 revision."
+  },
+  {
+    "years": [2022, 2023, 2024, 2025],
+    "make": "Lincoln",
+    "model": "Navigator (Fourth generation, L-refresh)",
+    "engines": [
+      "3.5L twin-turbo V6 (440 hp, 510 lb-ft, 2022+)"
+    ],
+    "transmissions": [
+      "10-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["4-door full-size luxury SUV", "4-door extended wheelbase (Navigator L)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fourth generation Navigator with 2022 mid-cycle refresh (L-refresh). Body-on-frame construction on T1 platform shared with Ford Expedition. 3.5L EcoBoost twin-turbo V6 with increased output (440 hp). Standard RWD, optional 4WD. Regular and extended wheelbase (Navigator L) variants. Three-row seating. Standard service complexity for modern full-size luxury SUV. Data sourced from Wikipedia Lincoln Navigator article, December 19, 2024 revision."
+  }
+]

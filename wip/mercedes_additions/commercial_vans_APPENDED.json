@@ -1,0 +1,41 @@
+[
+  {
+    "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Mercedes-Benz",
+    "model": "Sprinter (VS30/W907, Third Generation)",
+    "engines": [
+      "2.0L M274 turbo I4 gasoline (188 hp)",
+      "3.0L OM642 V6 turbo diesel (188 hp, 2019-2020)",
+      "3.0L OM656 I6 turbo diesel (211 hp, 2021+)"
+    ],
+    "transmissions": [
+      "7-speed automatic (7G-Tronic)",
+      "9-speed automatic (9G-Tronic, 2021+)"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": ["Cargo van", "Passenger van", "Crew van", "Cab chassis"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Third generation Sprinter. Available in multiple wheelbases (144\", 170\", 170\" EXT) and roof heights. 1500/2500/3500/4500 weight ratings. Diesel models require DEF and DPF maintenance. 4-cylinder diesel introduced 2023. eSprinter electric variant available 2023+. Requires Mercedes STAR diagnostic system for proper service. Data sourced from Wikipedia Mercedes-Benz Sprinter article, January 2025 revision."
+  },
+  {
+    "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
+    "make": "Mercedes-Benz",
+    "model": "Metris (W447)",
+    "engines": [
+      "2.0L M274 turbo I4 gasoline (208 hp)"
+    ],
+    "transmissions": [
+      "7-speed automatic (7G-Tronic)"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD"],
+    "body_styles": ["Cargo van", "Passenger van"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Midsize commercial van (rebadged Vito for North America). Positioned between Transit Connect and Sprinter. Cargo and passenger configurations with 5-8 seat options. Discontinued in North America after 2023 model year. Replaced by eSprinter for commercial applications. Data sourced from Wikipedia Mercedes-Benz Vito article, January 2025 revision."
+  }
+]

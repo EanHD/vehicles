@@ -1,0 +1,100 @@
+[
+  {
+    "years": [1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999],
+    "make": "Cadillac",
+    "model": "Seville STS (K-body)",
+    "engines": [
+      "4.9L HT-4900 V8 (200 hp, 1992 only)",
+      "4.6L L37 Northstar V8 (295 hp, 1993)",
+      "4.6L L37 Northstar V8 (300 hp, 1994-1999)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Fourth-generation Seville on FWD K-body platform. Introduced Northstar System in 1993 with quad-cam 32-valve aluminum V8. At 300 hp, became one of the most powerful front-wheel-drive cars in 1994. Motor Trend Car of the Year 1992. Northstar V8 requires service attention for head gasket and coolant system issues. 1990s portion only (1992-1999). Data sourced from Wikipedia Cadillac Seville article and web research, December 19, 2024."
+  },
+  {
+    "years": [1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999],
+    "make": "Cadillac",
+    "model": "Eldorado (Twelfth generation, K-body)",
+    "engines": [
+      "4.9L V8 (200 hp, 1992-1993)",
+      "4.6L Northstar V8 (270 hp, ESC 1993)",
+      "4.6L Northstar V8 (275 hp, ESC 1994-1999)",
+      "4.6L Northstar V8 (295 hp, ETC 1993)",
+      "4.6L Northstar V8 (300 hp, ETC 1994-1999)"
+    ],
+    "transmissions": [
+      "4-speed 4T80-E automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Twelfth-generation luxury coupe on K-body platform. Touring Coupe (ETC) introduced 1992, featuring higher-output Northstar V8. Northstar System coupled 4T80-E transmission with Northstar engines starting 1993. Northstar V8 requires service attention for head gasket and coolant system issues. 1990s portion only (1992-1999). Data sourced from Wikipedia and web research, December 19, 2024."
+  },
+  {
+    "years": [1994, 1995, 1996, 1997, 1998, 1999],
+    "make": "Cadillac",
+    "model": "DeVille Concours (K-body)",
+    "engines": [
+      "4.6L Northstar V8 (270 hp, 1994)",
+      "4.6L Northstar V8 (275 hp, 1995)",
+      "4.6L Northstar V8 (300 hp, 1996-1999)"
+    ],
+    "transmissions": [
+      "4-speed 4T80-E automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Eighth-generation DeVille Concours on FWD K-body platform. Equipped with Northstar V8 producing 270-275 hp (1994-1995), upgraded to 300 hp (1996-1999). Paired with 4T80-E four-speed automatic. Northstar V8 requires service attention for head gasket and coolant system issues. 1990s portion only (1994-1999). Data sourced from Wikipedia and web research, December 19, 2024."
+  },
+  {
+    "years": [1997, 1998, 1999, 2000, 2001],
+    "make": "Cadillac",
+    "model": "Catera (V platform)",
+    "engines": [
+      "3.0L L81 V6 (200 hp)"
+    ],
+    "transmissions": [
+      "4-speed GM 4L30-E automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact executive sedan on GM V platform, rebadged Opel Omega B. Manufactured by Opel in Rüsselsheim, Germany. Engine built in England, transmission in France. Entry-level luxury sedan marketed to compete with European imports. Approximately 95,000 units built. Replaced by CTS. Data sourced from Wikipedia Cadillac Catera article, December 19, 2024 revision."
+  },
+  {
+    "years": [1999, 2000],
+    "make": "Cadillac",
+    "model": "Escalade (First generation, GMT435)",
+    "engines": [
+      "5.7L L31 Vortec V8 (255 hp)"
+    ],
+    "transmissions": [
+      "4-speed 4L60-E automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["5-door SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation full-size luxury SUV on GMT435 platform. Rushed to market to compete with Lincoln Navigator. Essentially badge-engineered GMC Yukon Denali with minimal differentiation. Two-row seating for five passengers. Auto-Trac selectable 4x4 system. Priced at $46,225. 1990s portion only (1999-2000). Data sourced from Wikipedia Cadillac Escalade article, December 19, 2024 revision."
+  }
+]

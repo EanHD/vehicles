@@ -1,0 +1,63 @@
+[
+  {
+    "years": [1922, 1923, 1924],
+    "make": "GMC",
+    "model": "K-20 Bus Chassis",
+    "engines": [
+      "4.9L (299 cu in) inline-4"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["Bus chassis"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "GMC K-20 bus chassis for commercial transit and school bus applications (1922-1924). Featured heavy-duty inline-4 engine and robust frame construction. Body installed by coachbuilders. Difficulty modifier 1.3 reflects early 1920s brass-era construction, hand-fitted components, magneto ignition, obsolete mechanical brake systems, and extreme parts scarcity. Data sourced from Wikipedia GMC truck history articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1927, 1928, 1929],
+    "make": "GMC",
+    "model": "T-19 / T-30 Light Trucks",
+    "engines": [
+      "3.3L (200 cu in) inline-4",
+      "3.5L (207 cu in) inline-6"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": [
+      "Pickup",
+      "Panel delivery",
+      "Chassis cab"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.25,
+    "notes": "GMC T-19 and T-30 1½-ton light trucks (1927-1931). Represented GMC's late-1920s light commercial truck offerings. Featured inline-4 and inline-6 engines, mechanical brakes, and solid construction. Difficulty modifier 1.25 reflects late-1920s vintage complexity, transition era from brass to modern, mechanical brake systems only, 6-volt electrical, and very limited parts availability. Data sourced from Wikipedia GMC truck history articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1923, 1924, 1925],
+    "make": "GMC",
+    "model": "Export Reconstruction Trucks",
+    "engines": [
+      "4.9L (299 cu in) inline-4",
+      "3.5L inline-4 (various)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["Commercial truck chassis"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "GMC export trucks built for Japanese reconstruction efforts after 1923 Great Kanto Earthquake (1923-1925). Heavy-duty commercial chassis exported for rebuilding Japanese infrastructure. Featured robust inline-4 engines and reinforced frames. Difficulty modifier 1.3 reflects early 1920s brass-era construction, export-spec variations, hand-fitted components, and extreme rarity/parts scarcity. Data sourced from Wikipedia GMC truck history / international operations articles, December 19, 2024 revision."
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "years": [1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989],
+    "make": "Lincoln",
+    "model": "Town Car (First generation)",
+    "engines": [
+      "5.0L V8 (130-150 hp, 1981-1990)"
+    ],
+    "transmissions": [
+      "4-speed automatic",
+      "4-speed overdrive automatic (AOD, 1984+)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door full-size luxury sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First generation standalone Town Car on Ford Panther platform (1981-1989, continued to 1990). Separated from Continental nameplate. 5.0L V8 with electronic fuel injection. RWD only. Body-on-frame construction. AOD 4-speed overdrive automatic from 1984. Available in base, Signature, and Cartier trims. Standard service complexity for 1980s Panther-platform full-size sedan. Data sourced from Wikipedia Lincoln Town Car article, December 19, 2024 revision."
+  },
+  {
+    "years": [1982, 1983, 1984, 1985, 1986, 1987],
+    "make": "Lincoln",
+    "model": "Continental (Eighth generation)",
+    "engines": [
+      "3.8L V6 (110-130 hp, 1982-1987)",
+      "5.0L V8 (140-150 hp, 1984-1987)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door midsize luxury sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Eighth generation Continental on Ford Fox platform (1982-1987). Dramatically downsized, first FWD Continental. Initially 3.8L V6, optional 5.0L V8 from 1984 (marketed as 'HO' High Output). Digital instrumentation. Available with BMW-sourced diesel briefly (1984-1985, rare). Standard service complexity for 1980s FWD luxury sedan. Data sourced from Wikipedia Lincoln Continental article, December 19, 2024 revision."
+  },
+  {
+    "years": [1988, 1989, 1990, 1991, 1992, 1993, 1994],
+    "make": "Lincoln",
+    "model": "Continental (Seventh generation)",
+    "engines": [
+      "3.8L V6 (140-160 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door full-size luxury sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Seventh generation Continental on Ford FN9 platform (1988-1994). FWD only. 3.8L V6 engine throughout production. Electronic air suspension standard. Introduced driver airbag 1988 (industry leader). Available in base, Signature, and Executive trim levels. Standard service complexity for late-1980s/early-1990s FWD luxury sedan. Data sourced from Wikipedia Lincoln Continental article, December 19, 2024 revision."
+  },
+  {
+    "years": [1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992],
+    "make": "Lincoln",
+    "model": "Mark VII",
+    "engines": [
+      "5.0L V8 (150 hp, 1984-1986)",
+      "5.0L HO V8 (200 hp, LSC, 1984-1986)",
+      "5.0L V8 (225-280 hp, 1987-1992)"
+    ],
+    "transmissions": [
+      "4-speed automatic (AOD)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door luxury coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Personal luxury coupe on Ford Fox platform (1984-1992). 5.0L V8 with significant power increases through production. RWD only. LSC (Luxury Sport Coupe) performance variant with upgraded suspension. Electronic air suspension, BMW-sourced diesel option briefly (rare). Last traditional Mark series before Mark VIII. Standard service complexity for 1980s RWD luxury coupe. Data sourced from Wikipedia Lincoln Mark VII article, December 19, 2024 revision."
+  }
+]

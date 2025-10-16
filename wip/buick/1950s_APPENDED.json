@@ -1,0 +1,119 @@
+[
+  {
+    "years": [1953, 1954],
+    "make": "Buick",
+    "model": "Skylark (First generation)",
+    "engines": [
+      "5.3L Nailhead V8 (188 hp)"
+    ],
+    "transmissions": [
+      "2-speed Dynaflow automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "First generation Skylark as limited-production luxury convertible. Based on Roadmaster chassis with lowered suspension. Buick Nailhead V8. Wire wheels, leather interior. Only 1,690 units in 1953, 836 in 1954. Collectible 1950s American luxury car. Difficulty modifier 1.1 reflects 1950s vintage rarity and specialized restoration requirements. Data sourced from Wikipedia Buick Skylark article, December 19, 2024 revision."
+  },
+  {
+    "years": [1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958],
+    "make": "Buick",
+    "model": "Special",
+    "engines": [
+      "4.0L inline-8 (120-128 hp, 1950-1953)",
+      "4.3L V8 (150-188 hp, 1954-1958)",
+      "5.3L Nailhead V8 (various outputs)"
+    ],
+    "transmissions": [
+      "2-speed Dynaflow automatic",
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan", "4-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Entry-level Buick through the 1950s. Initially inline-8 engines, transitioned to V8 for 1954. Multiple body styles. RWD body-on-frame construction. Difficulty modifier 1.1 reflects 1950s vintage complexity and parts availability. Data sourced from Wikipedia Buick Special article, December 19, 2024 revision."
+  },
+  {
+    "years": [1954, 1955, 1956, 1957, 1958],
+    "make": "Buick",
+    "model": "Century (Third generation)",
+    "engines": [
+      "5.3L Nailhead V8 (195-300 hp)"
+    ],
+    "transmissions": [
+      "2-speed Dynaflow automatic",
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door hardtop", "2-door convertible", "4-door sedan", "4-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Third generation midsize sedan with powerful Nailhead V8 in lighter Special body. Performance orientation (Century name = 100 mph capability). Multiple body styles. RWD. Difficulty modifier 1.1 reflects 1950s vintage complexity. Data sourced from Wikipedia Buick Century article, December 19, 2024 revision."
+  },
+  {
+    "years": [1952, 1953, 1954, 1955, 1956, 1957, 1958],
+    "make": "Buick",
+    "model": "Roadmaster (Third generation)",
+    "engines": [
+      "5.2L inline-8 (170 hp, 1952-1953)",
+      "5.3L Nailhead V8 (200-300 hp, 1954-1958)"
+    ],
+    "transmissions": [
+      "2-speed Dynaflow automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door hardtop", "2-door convertible", "4-door sedan", "4-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Third generation full-size luxury sedan. Initially inline-8, transitioned to Nailhead V8 for 1954. Top Buick model below limited. Multiple upscale body styles including convertible. RWD body-on-frame. Difficulty modifier 1.1 reflects 1950s vintage complexity and luxury feature restoration. Data sourced from Wikipedia Buick Roadmaster article, December 19, 2024 revision."
+  },
+  {
+    "years": [1959, 1960, 1961, 1962, 1963],
+    "make": "Buick",
+    "model": "Invicta",
+    "engines": [
+      "6.0L Nailhead V8 (325 hp)"
+    ],
+    "transmissions": [
+      "2-speed automatic",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door hardtop", "2-door convertible", "4-door sedan", "4-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.05,
+    "notes": "Full-size sedan positioned between LeSabre and Electra (1959-1963). Powerful 401 cu in Nailhead V8. Multiple body styles including convertible and wagon. RWD. Replaced Century nameplate temporarily. Difficulty modifier 1.05 reflects late-1950s/early-1960s vintage. Data sourced from Wikipedia Buick Invicta article, December 19, 2024 revision."
+  },
+  {
+    "years": [1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969],
+    "make": "Buick",
+    "model": "LeSabre (Third/Fourth generation)",
+    "engines": [
+      "5.6L V8 (250 hp, 1959)",
+      "6.0L Nailhead V8 (325 hp, 1960-1966)",
+      "6.6L V8 (340 hp, 1967-1969)"
+    ],
+    "transmissions": [
+      "2-speed automatic",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door hardtop", "2-door convertible", "4-door sedan", "4-door hardtop", "4-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.05,
+    "notes": "Third and fourth generation full-size sedan. Entry-level full-size Buick. Nailhead V8 engines through 1966. Multiple body styles. RWD body-on-frame construction. Difficulty modifier 1.05 reflects 1960s vintage complexity. Data sourced from Wikipedia Buick LeSabre article, December 19, 2024 revision."
+  }
+]

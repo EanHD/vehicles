@@ -1,0 +1,76 @@
+[
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Buick",
+    "model": "Encore GX",
+    "engines": [
+      "1.2L turbocharged inline-3 (137 hp)",
+      "1.3L turbocharged inline-3 (155 hp)"
+    ],
+    "transmissions": [
+      "CVT (with 1.2L engine)",
+      "9-speed automatic (with 1.3L engine)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door compact crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Subcompact crossover positioned between Encore and Envision. VSS-F platform. First GM vehicle in North America with 3-cylinder engines since 2000 Chevrolet Metro. 1.2L turbo I3 standard on FWD with CVT; 1.3L turbo I3 on AWD with 9-speed automatic. Standard service complexity for modern compact crossover. Data sourced from Wikipedia Buick Encore GX article, December 19, 2024 revision."
+  },
+  {
+    "years": [2021, 2022, 2023, 2024, 2025],
+    "make": "Buick",
+    "model": "Envision (Second generation)",
+    "engines": [
+      "2.0L turbocharged inline-4 (228 hp, 258 lb-ft)"
+    ],
+    "transmissions": [
+      "9-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door midsize crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation midsize crossover on E2XX platform shared with Cadillac XT4. Assembled in China, first Chinese-built GM vehicle sold in America (first generation 2016). Four trim levels: base, Preferred, Essence, Avenir. Standard suite of safety features including blind spot monitor, lane departure warning, forward collision alert. Standard service complexity for modern midsize crossover. Data sourced from Wikipedia Buick Envision article, December 19, 2024 revision."
+  },
+  {
+    "years": [2024, 2025],
+    "make": "Buick",
+    "model": "Envista",
+    "engines": [
+      "1.2L turbocharged inline-3 (137 hp, 162 lb-ft)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door subcompact crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Subcompact crossover SUV introduced for 2024 model year. GM E-Turbo engine (LIH) 1.2L turbo inline-3 (North American spec; China gets 1.5L I4). Three trim levels: Preferred, Sport Touring (ST), Avenir. FWD only. VSS-F platform. Standard service complexity for modern subcompact crossover. Data sourced from Wikipedia Buick Envista article, December 19, 2024 revision."
+  },
+  {
+    "years": [2025],
+    "make": "Buick",
+    "model": "Enclave (Third generation)",
+    "engines": [
+      "2.5L turbocharged inline-4 (328 hp, 326 lb-ft)"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door full-size crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Third generation full-size crossover unveiled April 2024 for 2025 model year. Three trim levels: Preferred, Sport Touring, Avenir. First Buick with Super Cruise hands-free ADAS. 2025 model awarded IIHS Top Safety Pick+. Turbocharged 2.5L inline-4 replaces previous V6. Features Driver Attention Assist, Enhanced Automatic Park Assist, digital rearview camera mirror (Avenir). Standard service complexity for modern full-size crossover. Data sourced from Wikipedia Buick Enclave article, December 19, 2024 revision."
+  }
+]

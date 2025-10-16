@@ -1,0 +1,79 @@
+[
+  {
+    "years": [1955, 1956, 1957, 1958, 1959],
+    "make": "GMC",
+    "model": "Blue Chip (First series)",
+    "engines": [
+      "4.8L (288 cu in) inline-6",
+      "4.8L (302 cu in) inline-6",
+      "5.0L (305 cu in) V6 (GMC V6)",
+      "5.7L (347 cu in) V6 (GMC V6)",
+      "4.3L (265 cu in) V8",
+      "4.6L (283 cu in) V8"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed manual",
+      "2-speed Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "Regular cab pickup",
+      "Chassis cab",
+      "Panel truck"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.05,
+    "notes": "GMC's 'Blue Chip' light-duty truck series (1955-1959), Task Force styling counterpart to Chevrolet. Featured GMC's unique V6 engines (305/347 cu in) alongside inline-6 and V8 options. Available in 1/2-ton through 2-ton configurations. Difficulty modifier 1.05 reflects vintage parts availability and obsolete GMC V6 service requirements. Data sourced from Wikipedia GMC truck / Chevrolet Task Force articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1955, 1956, 1957, 1958, 1959],
+    "make": "GMC",
+    "model": "Suburban Carryall",
+    "engines": [
+      "4.8L (288 cu in) inline-6",
+      "5.0L (305 cu in) V6 (GMC V6)",
+      "5.7L (347 cu in) V6 (GMC V6)",
+      "4.3L (265 cu in) V8",
+      "4.6L (283 cu in) V8"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed manual",
+      "2-speed Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["4-door SUV/wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.05,
+    "notes": "Full-size SUV/wagon variant of GMC pickup platform, predecessor to Yukon XL. Body-on-frame construction with enclosed passenger area and rear cargo space. Shared platform with Chevrolet Suburban. Difficulty modifier 1.05 reflects 1950s vintage vehicle service requirements. Data sourced from Wikipedia Chevrolet Suburban / GMC truck articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959],
+    "make": "GMC",
+    "model": "Transit Bus (Old Look)",
+    "engines": [
+      "GMC 302 inline-6 (4.9L)",
+      "GMC 351 V6 (5.8L)",
+      "Detroit Diesel 3-53 inline-3 (2.6L diesel)",
+      "Detroit Diesel 4-71 inline-4 (4.7L diesel)",
+      "Detroit Diesel 6-71 inline-6 (7.0L diesel)"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "5-speed manual",
+      "Allison V-Drive automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["Transit bus", "School bus"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "GMC 'Old Look' transit bus series (1940-1969), iconic urban transit and school bus platform. Featured rear-engine layout with Detroit Diesel or GMC gasoline engines. Heavy-duty commercial chassis with air brakes. Difficulty modifier 1.2 reflects commercial bus service complexity, air brake systems, and diesel engine maintenance. Data sourced from Wikipedia GMC transit bus / TDH series articles, December 19, 2024 revision."
+  }
+]

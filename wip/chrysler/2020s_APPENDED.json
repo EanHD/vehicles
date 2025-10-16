@@ -1,0 +1,73 @@
+
+[
+  {
+    "years": [2021, 2022, 2023, 2024],
+    "make": "Chrysler",
+    "model": "Pacifica (RU Facelift)",
+    "engines": ["3.6L V6 (287 hp)"],
+    "transmissions": ["9-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["5-door minivan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second-generation Pacifica minivan, facelifted for 2021 model year. Data sourced from Wikipedia Chrysler Pacifica (minivan) article, October 13, 2025 revision."
+  },
+  {
+    "years": [2021, 2022, 2023, 2024],
+    "make": "Chrysler",
+    "model": "Pacifica Hybrid (RU Facelift)",
+    "engines": ["3.6L V6 + Electric Motors (260 hp combined)"],
+    "transmissions": ["e-CVT"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["5-door minivan"],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Second-generation Pacifica minivan, plug-in hybrid variant, facelifted for 2021 model year. 16 kWh lithium-ion battery with 33 miles electric range. Not available with AWD, 8-passenger seating, or Stow 'n Go. Difficulty modifier 1.4 due to high-voltage EV components. Data sourced from Wikipedia Chrysler Pacifica (minivan) article, October 13, 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024],
+    "make": "Chrysler",
+    "model": "Voyager (RU)",
+    "engines": ["3.6L V6 (287 hp)"],
+    "transmissions": ["9-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["5-door minivan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Rebadged, lower-trim version of the Chrysler Pacifica. Data sourced from Wikipedia Chrysler Voyager article, October 13, 2025 revision."
+  },
+  {
+    "years": [2021, 2022, 2023, 2024],
+    "make": "Chrysler",
+    "model": "Grand Caravan (RU)",
+    "engines": ["3.6L V6 (287 hp)"],
+    "transmissions": ["9-speed automatic"],
+    "region": "Canadian",
+    "drivetrain": ["FWD"],
+    "body_styles": ["5-door minivan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Rebadged, lower-trim version of the Chrysler Pacifica, sold in Canada. Data sourced from Wikipedia Chrysler Grand Caravan article, October 13, 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023],
+    "make": "Chrysler",
+    "model": "300 (LD)",
+    "engines": ["3.6L V6 (292 hp)", "5.7L V8 (363 hp)"],
+    "transmissions": ["8-speed automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation Chrysler 300. Data sourced from Wikipedia Chrysler 300 article, October 13, 2025 revision."
+  }
+]

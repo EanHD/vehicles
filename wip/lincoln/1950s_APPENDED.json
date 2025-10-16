@@ -1,0 +1,72 @@
+[
+  {
+    "years": [1952, 1953, 1954, 1955],
+    "make": "Lincoln",
+    "model": "Cosmopolitan",
+    "engines": ["317.5 cu in (5.2L) Y-block V8 (160-205 hp)", "341 cu in (5.6L) Y-block V8 (225 hp, 1955)"],
+    "transmissions": ["3-speed automatic (Hydra-Matic)", "4-speed automatic (Turbo-Drive, 1955)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "2-door hardtop"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Top-level Lincoln model in early 1950s. Overhead-valve Y-block V8. First use of ball-joint front suspension (1952). Vintage complexity requires period-specific service knowledge. Data sourced from Wikipedia Lincoln Cosmopolitan article, January 2025 revision."
+  },
+  {
+    "years": [1952, 1953, 1954, 1955],
+    "make": "Lincoln",
+    "model": "Capri",
+    "engines": ["317.5 cu in (5.2L) Y-block V8 (160-205 hp)", "341 cu in (5.6L) Y-block V8 (225 hp, 1955)"],
+    "transmissions": ["3-speed automatic (Hydra-Matic)", "4-speed automatic (Turbo-Drive, 1955)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "2-door hardtop", "2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Mid-level Lincoln model. Shared platform with Cosmopolitan. Four-speed automatic transmission introduced 1955. Vintage service requirements. Data sourced from Wikipedia Lincoln Capri article, January 2025 revision."
+  },
+  {
+    "years": [1956, 1957],
+    "make": "Lincoln",
+    "model": "Premiere",
+    "engines": ["368 cu in (6.0L) Lincoln Y-block V8 (285-300 hp)"],
+    "transmissions": ["3-speed automatic (Turbo-Drive)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "2-door hardtop", "2-door convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Top-level Lincoln replacing Cosmopolitan/Capri. Larger 368 V8 engine. Failed attempt to compete with Cadillac. Unibody construction. Vintage complexity requires period expertise. Data sourced from Wikipedia Lincoln Premiere article, January 2025 revision."
+  },
+  {
+    "years": [1956, 1957],
+    "make": "Lincoln",
+    "model": "Continental Mark II",
+    "engines": ["368 cu in (6.0L) Lincoln Y-block V8 (285-300 hp)"],
+    "transmissions": ["3-speed automatic (Turbo-Drive)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door hardtop"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Ultra-luxury limited production vehicle marketed by separate Continental Division. Hand-built with extensive quality control. Cost $10,000 (twice Cadillac Eldorado price). Only 2,996 produced. Highly collectible, requires specialized restoration expertise. Data sourced from Wikipedia Continental Mark II article, January 2025 revision."
+  },
+  {
+    "years": [1958, 1959, 1960],
+    "make": "Lincoln",
+    "model": "Continental Mark III/IV/V (1958-1960)",
+    "engines": ["430 cu in (7.0L) MEL V8 (375 hp)"],
+    "transmissions": ["3-speed automatic (Turbo-Drive)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "2-door hardtop", "4-door hardtop", "2-door convertible", "4-door limousine"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Largest Lincolns ever produced. Mark III (1958), Mark IV (1959), Mark V (1960) were model year designations. Massive 430 MEL (Mercury-Edsel-Lincoln) V8. Unibody construction. Commercial failure due to quality issues and styling. Vintage complexity. Data sourced from Wikipedia Lincoln Continental article, January 2025 revision."
+  }
+]

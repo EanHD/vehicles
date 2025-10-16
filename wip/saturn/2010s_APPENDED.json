@@ -1,0 +1,30 @@
+[
+  {
+    "years": [2010],
+    "make": "Saturn",
+    "model": "Vue",
+    "engines": ["2.4L I4 Ecotec (169 hp)", "3.6L V6 (257 hp)", "2.4L I4 hybrid (170 hp combined)"],
+    "transmissions": ["6-speed automatic", "CVT (hybrid)"],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["5-door compact SUV"],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Final year of Saturn Vue (rebadged Opel Antara). Green Line hybrid with two-mode system. AWD available. Brand discontinued October 2010. Timing chain engines. Data sourced from Wikipedia Saturn Vue article, January 2025 revision."
+  },
+  {
+    "years": [2008, 2009],
+    "make": "Saturn",
+    "model": "Astra",
+    "engines": ["1.8L I4 (138 hp)"],
+    "transmissions": ["5-speed manual", "4-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["3-door hatchback", "5-door hatchback"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Saturn Astra rebadged Opel Astra H. Imported from Belgium. Compact hatchback with European design. Short North American run (2008-2009). Timing chain engine. Data sourced from Wikipedia Saturn Astra article, January 2025 revision."
+  }
+]

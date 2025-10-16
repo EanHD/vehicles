@@ -1,0 +1,72 @@
+[
+  {
+    "years": [1934, 1935, 1936, 1937],
+    "make": "Chrysler",
+    "model": "Airflow",
+    "engines": ["4.9L I8", "5.3L I8"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Revolutionary aerodynamic design with unibody construction. Advanced engineering for era. Inline-8 flathead engines. Complex vintage restoration requires specialized knowledge. Data sourced from Wikipedia Chrysler Airflow article, January 17, 2025 revision."
+  },
+  {
+    "years": [1935, 1936, 1937],
+    "make": "Chrysler",
+    "model": "Airstream",
+    "engines": ["3.3L I6", "3.9L I6", "4.9L I8"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Conventional styling companion to Airflow. Available with inline-6 or inline-8 flathead engines. Complex vintage mechanics. Data sourced from Wikipedia Chrysler Airstream article, January 17, 2025 revision."
+  },
+  {
+    "years": [1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939],
+    "make": "Chrysler",
+    "model": "Imperial",
+    "engines": ["5.3L I8", "6.3L I8"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "4-door limousine", "2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Flagship luxury model with large inline-8 flathead engines. Custom coachwork available. Complex vintage restoration with rare parts. Data sourced from Wikipedia Chrysler Imperial article, January 17, 2025 revision."
+  },
+  {
+    "years": [1933, 1934, 1935, 1936, 1937, 1938, 1939],
+    "make": "Chrysler",
+    "model": "Royal",
+    "engines": ["3.3L I6", "3.9L I6"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Entry-level Chrysler with inline-6 flathead engine. Standard pre-war complexity. Data sourced from Wikipedia Chrysler Royal article, January 17, 2025 revision."
+  },
+  {
+    "years": [1939],
+    "make": "Chrysler",
+    "model": "Saratoga",
+    "engines": ["3.9L I6"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Short-lived mid-range model with inline-6 flathead. One year only in 1930s. Complex vintage mechanics. Data sourced from Wikipedia Chrysler Saratoga article, January 17, 2025 revision."
+  }
+]

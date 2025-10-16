@@ -1,0 +1,122 @@
+[
+  {
+    "years": [2014, 2015, 2016, 2017, 2018],
+    "make": "GMC",
+    "model": "Sierra 1500 (K2XX)",
+    "engines": [
+      "4.3L EcoTec3 V6 (285 hp, 305 lb-ft)",
+      "5.3L EcoTec3 V8 (355 hp, 383 lb-ft)",
+      "6.2L EcoTec3 V8 (420 hp, 460 lb-ft)"
+    ],
+    "transmissions": [
+      "6-speed 6L80/6L90 automatic",
+      "8-speed 8L90 automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": [
+      "Regular Cab",
+      "Double Cab",
+      "Crew Cab"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "K2XX Sierra 1500 introduced Denali luxury trim and All Terrain X edition. Features EcoTec3 engine family with direct injection and variable valve timing. Apple CarPlay/Android Auto available from mid-cycle refresh. Data sourced from Wikipedia GMC Sierra article, October 11, 2025 revision."
+  },
+  {
+    "years": [2015, 2016, 2017, 2018, 2019],
+    "make": "GMC",
+    "model": "Sierra HD 2500/3500 (K2XX)",
+    "engines": [
+      "6.0L Vortec V8 (360 hp, 380 lb-ft)",
+      "6.6L Duramax Diesel V8 (397 hp 2015-2016, 445 hp 2017-2019, 765-910 lb-ft)"
+    ],
+    "transmissions": [
+      "6-speed 6L90 automatic (gas)",
+      "6-speed Allison 1000 automatic (diesel)"
+    ],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": [
+      "Regular Cab",
+      "Double Cab",
+      "Crew Cab"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.1,
+    "notes": "K2XX Sierra HD received significant Duramax power increase in 2017 (445 hp, 910 lb-ft). Allison 1000 transmission on diesel models requires specific fluid and service procedures. DEF system on diesel models. Data sourced from Wikipedia GMC Sierra article, October 11, 2025 revision."
+  },
+  {
+    "years": [2015, 2016, 2017, 2018, 2019, 2020],
+    "make": "GMC",
+    "model": "Yukon / Yukon XL (K2XX)",
+    "engines": [
+      "5.3L EcoTec3 V8 (355 hp, 383 lb-ft)",
+      "6.2L EcoTec3 V8 (420 hp, 460 lb-ft, Denali)"
+    ],
+    "transmissions": [
+      "6-speed automatic (2015-2017)",
+      "8-speed automatic (Denali 2015-2017)",
+      "10-speed automatic (Denali from 2018)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "5-door SUV (standard wheelbase)",
+      "5-door SUV (extended wheelbase XL)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fourth-generation Yukon K2XX features aluminum hood and liftgate, magnetic ride control on Denali, active noise cancellation. Received 10-speed automatic transmission on Denali from 2018. Fold-flat second and third-row seats. Data sourced from Wikipedia GMC Yukon article, October 11, 2025 revision."
+  },
+  {
+    "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "GMC",
+    "model": "Savana (GMT610)",
+    "engines": [
+      "4.3L Vortec V6 (until 2014)",
+      "5.3L V8 Flex-fuel (2008-2014)",
+      "6.0L V8 Flex-fuel (2010-2020)",
+      "6.6L Duramax Diesel V8 (until 2016)"
+    ],
+    "transmissions": [
+      "4-speed 4L60-E automatic (1500/light 2500)",
+      "4-speed 4L80-E automatic (heavy 2500/3500)",
+      "6-speed 6L90-E automatic (heavy 2500/3500 from 2010)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": [
+      "Cargo van (standard/extended wheelbase)",
+      "Passenger van (5/8/12/15 passenger)"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.0,
+    "notes": "GMC Savana is rebadged Chevrolet Express, continuing GMT610 platform through 2010s. Available in 1500/2500/3500 configurations with various wheelbases (135\"/155\"). Diesel option discontinued 2016. Fleet-oriented vehicle. Data sourced from Wikipedia Chevrolet Express article, October 11, 2025 revision."
+  },
+  {
+    "years": [2018, 2019],
+    "make": "GMC",
+    "model": "Terrain (Second generation - early years)",
+    "engines": [
+      "1.5L Turbo I4",
+      "2.0L Turbo I4 (2018-2020)"
+    ],
+    "transmissions": [
+      "9-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": [
+      "5-door compact crossover SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second-generation Terrain launched in 2018 with downsized turbocharged engines. 1.6L diesel option available 2018-2019 but discontinued. Replaced first-generation Lambda platform with C1XX platform. Note: Full second-gen coverage in 2020s decade file. Data sourced from Wikipedia GMC Terrain article, October 11, 2025 revision."
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "years": [1931, 1932, 1933, 1934, 1935],
+    "make": "Cadillac",
+    "model": "Series 355 V8",
+    "engines": [
+      "5.8L flathead V8 (115-135 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "3-speed synchromesh manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan", "4-door limousine"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.25,
+    "notes": "Series 355 V8 luxury sedan during Great Depression (1931-1935). Flathead V8 engine. Multiple body styles with custom coachwork available. X-braced frame. Vacuum-assisted brakes. Difficulty modifier 1.25 reflects early 1930s complexity, Depression-era variations, mechanical systems, and extreme parts scarcity. Data sourced from Wikipedia Cadillac Series 355 article, December 19, 2024 revision."
+  },
+  {
+    "years": [1931, 1932, 1933, 1934, 1935, 1936, 1937],
+    "make": "Cadillac",
+    "model": "Series 370 V12",
+    "engines": [
+      "6.0L flathead V12 (135-150 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "3-speed synchromesh manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan", "4-door limousine"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Series 370 V12 ultra-luxury model (1931-1937). Twelve-cylinder flathead engine for ultra-smooth operation. Multiple custom coachwork bodies. Positioned between V8 and V16 models. Difficulty modifier 1.3 reflects 1930s V12 complexity, custom coachwork, Depression-era production, obsolete systems, and extreme parts scarcity. Data sourced from Wikipedia Cadillac V-12 article, December 19, 2024 revision."
+  },
+  {
+    "years": [1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937],
+    "make": "Cadillac",
+    "model": "Series 452 V16",
+    "engines": [
+      "7.4L flathead V16 (165-185 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "3-speed synchromesh manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["Custom coachwork - various styles"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Legendary Series 452 V16 ultra-luxury flagship (1930-1937). First production V16 engine. Flathead sixteen-cylinder for ultimate smoothness. Only 4,076 units built. Custom coachwork by Fleetwood and others. Ultra-exclusive Depression-era luxury. Difficulty modifier 1.4 reflects V16 complexity, extreme rarity, custom coachwork restoration, 1930s vintage systems, and virtually no parts availability. Data sourced from Wikipedia Cadillac V-16 article, December 19, 2024 revision."
+  },
+  {
+    "years": [1936, 1937, 1938, 1939, 1940],
+    "make": "Cadillac",
+    "model": "Series 60/65/70",
+    "engines": [
+      "5.7L flathead V8 (135-140 hp)",
+      "5.8L flathead V8 (140-150 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "3-speed synchromesh manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "4-door sedan", "4-door touring sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Series 60, 65, and 70 models (1936-1940). Flathead V8 engines. Various wheelbase lengths. Series 60 introduced as mid-range model. Series 65/70 for longer wheelbase variants. Pre-war luxury sedans. Difficulty modifier 1.2 reflects late-1930s vintage complexity, pre-war construction, and limited parts availability. Data sourced from Wikipedia Cadillac history articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1934, 1935, 1936, 1937, 1938, 1939, 1940],
+    "make": "Cadillac",
+    "model": "LaSalle Series 50",
+    "engines": [
+      "4.1L flathead V8 (90-125 hp, 1934-1936)",
+      "5.3L flathead V8 (125-130 hp, 1937-1940)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "3-speed synchromesh manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "LaSalle Series 50 companion brand to Cadillac (1934-1940, LaSalle existed 1927-1940). Smaller flathead V8 initially, larger V8 from 1937. Positioned as more affordable luxury alternative to Cadillac. Discontinued 1940. Difficulty modifier 1.2 reflects 1930s vintage complexity, companion brand parts scarcity, and obsolete systems. Data sourced from Wikipedia LaSalle automobile article, December 19, 2024 revision."
+  }
+]

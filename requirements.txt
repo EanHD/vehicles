@@ -1,0 +1,21 @@
+# Swoop Service Auto - Python Dependencies
+
+# Environment management
+python-dotenv==1.0.0
+
+# HTTP requests
+requests==2.31.0
+
+# Flask API (for service_api.py)
+flask==3.0.0
+flask-cors==4.0.0
+
+# Streamlit Web App
+streamlit>=1.31.0
+
+# Data Processing
+pandas>=2.0.0
+
+# Optional: AI SDK packages (only if using direct SDKs instead of REST API)
+# anthropic==0.21.3
+# openai==1.12.0

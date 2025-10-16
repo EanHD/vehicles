@@ -1,0 +1,352 @@
+[
+  {
+    "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Nissan",
+    "model": "Altima (L34)",
+    "engines": [
+      "2.5L PR25DD I4 (188 hp FWD, 182 hp AWD)",
+      "2.0L KR20DDET VC-Turbo I4 (248 hp SR/Platinum 2019-2024)"
+    ],
+    "transmissions": [
+      "Xtronic CVT (Jatco CVT8)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Sixth-generation Altima L34 pairs the PR25DD direct-injection four-cylinder (188 hp FWD/182 hp with available AWD) or the KR20DDET variable-compression turbo (248 hp on SR Platinum through 2024), both mated to the Xtronic CVT. ProPILOT Assist bundles lane centering with radar adaptive cruise and automated braking, and NHTSA opened a 13 December 2023 probe into potential bearing failures for the KR20DDET used on the Altima—factors that elevate diagnostic complexity above a standard midsize sedan and justify the 1.1 difficulty modifier. Data sourced from Wikipedia Nissan Altima article, October 13, 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Nissan",
+    "model": "Sentra (B18)",
+    "engines": [
+      "2.0L MR20DD I4 (149 hp, 146 lb⋅ft)"
+    ],
+    "transmissions": [
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "B18 Sentra for North America launched for 2020 with a standard 2.0L MR20DD four-cylinder (149 hp, 146 lb⋅ft) paired exclusively to the Xtronic CVT, multi-link rear suspension, and standard Nissan Safety Shield 360 driver-assist suite with automated emergency braking, blind-spot warning, and rear cross-traffic alert. Data sourced from Wikipedia Nissan Sentra article, October 9, 2025 revision."
+  },
+  {
+    "years": [2021, 2022, 2023, 2024, 2025],
+    "make": "Nissan",
+    "model": "Rogue (T33)",
+    "engines": [
+      "2.5L PR25DD I4 (181 hp, 181 lb⋅ft) – 2021 US, 2021-2023 Canada",
+      "1.5L KR15DDT VC-Turbo I3 (201 hp, 225 lb⋅ft) – 2022-present"
+    ],
+    "transmissions": [
+      "Xtronic CVT (updated 17% wider ratio spread, 32% less friction for 2022+)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Third-generation Rogue T33 launched for the 2021 model year with the 181 hp PR25DD four-cylinder and standard Safety Shield 360 suite, plus available ProPILOT Assist with Navi-link; for 2022 North American production adopted the KR15DDT 1.5L variable-compression turbo (201 hp/225 lb⋅ft) alongside an updated Xtronic CVT with a wider gear ratio spread and lower friction. NHTSA opened a 13 December 2023 investigation into main-bearing failures on KR-series VC-T engines, contributing to the elevated 1.1 difficulty modifier as technicians must navigate the VC-T hardware and safety-critical ADAS electronics. Data sourced from Wikipedia Nissan Rogue article, October 14, 2025 revision."
+  },
+  {
+    "years": [2022, 2023, 2024, 2025],
+    "make": "Nissan",
+    "model": "Pathfinder (R53)",
+    "engines": [
+      "3.5L VQ35DD V6 (284 hp, 259 lb⋅ft)"
+    ],
+    "transmissions": [
+      "9-speed automatic (JR913E)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Fifth-generation Pathfinder R53 (2022-on) returns to a boxier SUV profile with standard Safety Shield 360 and NissanConnect services, pairing the direct-injected 3.5L VQ35DD V6 (284 hp/259 lb⋅ft) with a JR913E 9-speed automatic—replacing the previous CVT—and available Intelligent 4x4 system with seven terrain modes and 6,000 lb towing capacity. The combination of electronic drive-mode management and high-capacity towing hardware increases service complexity versus prior unibody crossovers, supporting a 1.1 difficulty modifier. Data sourced from Wikipedia Nissan Pathfinder article, October 14, 2025 revision."
+  },
+  {
+    "years": [2022, 2023, 2024, 2025],
+    "make": "Nissan",
+    "model": "Frontier (D41)",
+    "engines": [
+      "3.8L VQ38DD V6 (310 hp, 281 lb⋅ft)"
+    ],
+    "transmissions": [
+      "9-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "2WD",
+      "4WD"
+    ],
+    "body_styles": [
+      "King Cab (extended cab pickup)",
+      "Crew Cab (4-door pickup)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "North American Frontier D41 (2022-on) continues the F-Alpha frame with a redesigned body, standard 3.8L VQ38DD V6 (310 hp/281 lb⋅ft) and 9-speed automatic, offering S, SV, Pro-X and Pro-4X trims. Safety Shield 360 is standard on SV/Pro-X/Pro-4X (optional on S), while Pro-4X adds Bilstein off-road shocks, larger front skid plate, a Dana 44 rear axle with electronic locking differential, and underbody skid plates. These integrated off-road systems and electronic assists exceed the baseline midsize pickup complexity, supporting a 1.1 difficulty modifier. Data sourced from Wikipedia Nissan Frontier article, October 6, 2025 revision."
+  },
+  {
+    "years": [2023, 2024, 2025],
+    "make": "Nissan",
+    "model": "Ariya (FE0)",
+    "engines": [
+      "Single-motor FWD 63 kWh (160 kW/214 hp, 300 N⋅m)",
+      "Single-motor FWD 87 kWh (178 kW/239 hp, 300 N⋅m)",
+      "Dual-motor e-4ORCE 63 kWh (205 kW/275 hp, 560 N⋅m)",
+      "Dual-motor e-4ORCE 87 kWh (225 kW/302 hp, 600 N⋅m)",
+      "Dual-motor e-4ORCE Performance 87 kWh (290 kW/389 hp, 600 N⋅m)"
+    ],
+    "transmissions": [
+      "Single-speed reduction gear"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Ariya FE0 arrives in North America for 2023 with 63 kWh (usable 63) and 87 kWh (usable 87) lithium-ion battery packs supporting up to 130 kW DC fast charging, offering single-motor FWD outputs from 160–178 kW and dual-motor e-4ORCE variants up to 290 kW/600 N⋅m. Safety Shield 360 is standard and ProPILOT 2.0 hands-free driver assist is available alongside e-4ORCE torque vectoring, placing the crossover in high-voltage EV territory that justifies the 1.4 difficulty modifier. Data sourced from Wikipedia Nissan Ariya article, October 12, 2025 revision."
+  },
+  {
+    "years": [2023, 2024, 2025],
+    "make": "Nissan",
+    "model": "Z (RZ34)",
+    "engines": [
+      "3.0L VR30DDTT twin-turbo V6 (400 hp, 350 lb⋅ft)",
+      "3.0L VR30DDTT twin-turbo V6 Nismo tune (420 hp, 384 lb⋅ft)"
+    ],
+    "transmissions": [
+      "6-speed manual with carbon-fiber composite driveshaft and rev-matching",
+      "9-speed automatic with paddle shifters and launch control"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "RZ34 generation Z (2023-on) uses the VR30DDTT twin-turbo V6 delivering 400 hp/350 lb⋅ft (420 hp/384 lb⋅ft in the 2024 Nismo), paired with either a 6-speed manual featuring an Exedy performance clutch, rev-matching and a carbon-fiber composite driveshaft or a 9-speed automatic with paddle shifters and launch control. Performance and Nismo trims add limited-slip differentials, upgraded brakes and aero pieces, so the twin-turbocharged driveline and track-oriented hardware raise service complexity to a 1.2 difficulty level. Data sourced from Wikipedia Nissan Z (RZ34) article, October 13, 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Nissan",
+    "model": "Leaf (ZE1 refresh)",
+    "engines": [
+      "EM57 single-motor FWD with 40 kWh lithium-ion pack (110 kW/147 hp, 236 lb⋅ft)",
+      "EM57 single-motor FWD with 62 kWh e+ pack (160 kW/214 hp, 250 lb⋅ft)"
+    ],
+    "transmissions": [
+      "Single-speed reduction gear"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "5-door hatchback"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "ZE1 Leaf in North America offers 40 kWh (147 hp/236 lb⋅ft) and 62 kWh e+ (214 hp/250 lb⋅ft) battery-electric configurations using the EM57 motor, CHAdeMO fast charging up to 100 kW, and available ProPILOT driver assistance with the e-Pedal one-pedal drive mode plus Nissan Safety Shield 360 features. Its high-voltage lithium-ion pack and EV-specific diagnostics sustain the 1.4 difficulty modifier. Data sourced from Wikipedia Nissan Leaf article, October 14, 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Nissan",
+    "model": "Versa (N18)",
+    "engines": [
+      "1.6L HR16DE I4"
+    ],
+    "transmissions": [
+      "5-speed manual (S trim 2020-2024)",
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "The third-generation Versa sedan (N18) for the U.S. and Canada uses the 1.6L HR16DE four-cylinder with either a 5-speed manual on the base S through the 2024 model year or an Xtronic CVT. Nissan made Safety Shield 360 driver assistance standard across trims, adding radar/camera calibration needs but overall remaining a conventional small sedan; the manual option is dropped for 2025. Data sourced from Wikipedia Nissan Almera (N18/Versa) article, October 14, 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023],
+    "make": "Nissan",
+    "model": "Maxima (A36)",
+    "engines": [
+      "3.5L VQ35DE V6 (300 hp, 261 lb⋅ft)"
+    ],
+    "transmissions": [
+      "Xtronic CVT (JF018E)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Eighth-generation Maxima A36 continued for 2020–2023 with the 3.5L VQ35DE V6 rated at 300 hp and an Xtronic CVT, Nissan Safety Shield 360 driver-assist features made standard in the 2020 update, and optional 40th Anniversary appearance-and-interior package before production ended after the 2023 model year. Data sourced from Wikipedia Nissan Maxima article, October 14, 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024],
+    "make": "Nissan",
+    "model": "Murano (Z52)",
+    "engines": [
+      "3.5L VQ35DE V6 (260 hp, 240 lb⋅ft)"
+    ],
+    "transmissions": [
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "The third-generation Murano Z52 received a 2020 update adding Nissan Safety Shield 360 with rear automatic braking, standard LED headlights, and a revised V-Motion front fascia while continuing the 3.5L VQ35DE V6 (260 hp) and Xtronic CVT with available Intuitive AWD. The ADAS suite and CVT service considerations elevate complexity modestly for diagnostics. Data sourced from Wikipedia Nissan Murano article, October 14, 2025 revision."
+  },
+  {
+    "years": [2025],
+    "make": "Nissan",
+    "model": "Murano (4th generation)",
+    "engines": [
+      "2.0L KR20DDET VC-Turbo I4 (300 hp, 295 lb⋅ft)"
+    ],
+    "transmissions": [
+      "9-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "The fourth-generation Murano debuts for the 2025 model year on the CMF-D platform with a 2.0L KR20DDET variable-compression turbo four-cylinder (300 hp/295 lb⋅ft), 9-speed automatic, and standard Intelligent All-Wheel Drive for 2026 along with ProPILOT Assist, dual 12.3-inch displays, and optional two-tone paint. The higher-output VC-T powertrain and integrated ProPILOT systems increase service complexity. Data sourced from Wikipedia Nissan Murano article, October 14, 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024],
+    "make": "Nissan",
+    "model": "Titan (A61 facelift & XD)",
+    "engines": [
+      "5.6L VK56VD V8 (400 hp, 413 lb⋅ft)"
+    ],
+    "transmissions": [
+      "9-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "2WD",
+      "4WD"
+    ],
+    "body_styles": [
+      "King Cab pickup",
+      "Crew Cab pickup"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "For 2020–2024 the refreshed second-generation Titan and Titan XD adopted a 400 hp 5.6L VK56VD Endurance V8 paired with a 9-speed automatic. Titan XD rides on a longer 151.6-inch wheelbase, shares hardware with the NV heavy van, and in PRO-4X trim adds Bilstein off-road shocks, electronic rear locker, skid plates, and unique front styling. Production of both Titan and Titan XD ends after the 2024 model year. Data sourced from Wikipedia Nissan Titan article, October 14, 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Nissan",
+    "model": "Kicks (P15)",
+    "engines": [
+      "1.6L HR16DE I4"
+    ],
+    "transmissions": [
+      "Xtronic CVT"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "5-door crossover"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "The subcompact Kicks (P15) for North America uses the 1.6L HR16DE engine with an Xtronic CVT driving the front wheels, and its 2021 refresh brought standard Apple CarPlay/Android Auto with 8-inch touchscreen while SV/SR trims include Intelligent Cruise Control and Nissan Safety Shield 360 driver assistance with optional Bose Personal Plus audio. Data sourced from Wikipedia Nissan Kicks article, October 14, 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Nissan",
+    "model": "GT-R (R35 late-cycle)",
+    "engines": [
+      "3.8L VR38DETT twin-turbo V6 (565 hp GT-R Premium/T-spec)",
+      "3.8L VR38DETT twin-turbo V6 (Nismo/Track Edition 600 PS, 592 hp)"
+    ],
+    "transmissions": [
+      "6-speed GR6 dual-clutch automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "The late-cycle R35 GT-R continues in North America with the hand-built 3.8L VR38DETT V6 in 565 hp tune for Premium/T-spec and 600 PS (592 hp) for Nismo and Track Edition models, paired with a GR6 6-speed dual-clutch transaxle feeding the ATTESA E-TS all-wheel-drive system. 2020 updates added new turbochargers, larger carbon-ceramic rotors, and reworked aero for Nismo, while 2024 introduced the T-spec with carbon-ceramic brakes, gold RAYS wheels, and unique Midnight Purple/Millennium Jade finishes; the high-output driveline and carbon-ceramic service requirements justify a 1.2 difficulty modifier. Data sourced from Wikipedia Nissan GT-R article, October 14, 2025 revision."
+  }
+]

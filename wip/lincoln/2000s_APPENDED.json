@@ -1,0 +1,191 @@
+[
+  {
+    "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006],
+    "make": "Lincoln",
+    "model": "LS",
+    "engines": [
+      "3.0L V6 (220 hp)",
+      "3.9L V8 (280 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual (V6 only, early years)",
+      "5-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sport luxury sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Sport luxury sedan on Ford DEW98 platform shared with Jaguar S-Type. RWD only. Base 3.0L V6 or optional 3.9L V8. Rare 5-speed manual available with V6 in early years. Independent rear suspension. Aimed at BMW 3/5 Series market. Discontinued after 2006 model year. Standard service complexity for RWD luxury sedan. Data sourced from Wikipedia Lincoln LS article, December 19, 2024 revision."
+  },
+  {
+    "years": [2003, 2004, 2005],
+    "make": "Lincoln",
+    "model": "Aviator (First generation)",
+    "engines": [
+      "4.6L DOHC V8 (302 hp, 300 lb-ft)"
+    ],
+    "transmissions": [
+      "5-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "AWD"],
+    "body_styles": ["4-door midsize luxury SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First generation midsize luxury SUV (2003-2005). Body-on-frame construction on Ford U152 platform shared with Ford Explorer. 4.6L DOHC V8 engine standard. RWD standard, AWD optional with ControlTrac. Three-row seating, 7-passenger capacity. Independent rear suspension. Discontinued after 2005, revived 2020 as second generation. Standard service complexity for body-on-frame V8 SUV. Data sourced from Wikipedia Lincoln Aviator article, December 19, 2024 revision."
+  },
+  {
+    "years": [2002],
+    "make": "Lincoln",
+    "model": "Blackwood",
+    "engines": [
+      "5.4L V8 (300 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door luxury pickup truck"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Luxury pickup truck based on Ford F-150 (2002 model year only). 5.4L Triton V8 engine. RWD only (no 4WD option). Power-operated tonneau cover, stainless steel cargo bed. Limited production, only 3,356 units built. Discontinued after single model year due to poor sales. Standard service complexity for F-150-based luxury truck. Data sourced from Wikipedia Lincoln Blackwood article, December 19, 2024 revision."
+  },
+  {
+    "years": [2006, 2007, 2008],
+    "make": "Lincoln",
+    "model": "Mark LT",
+    "engines": [
+      "5.4L V8 (300 hp, 2006-2008)"
+    ],
+    "transmissions": [
+      "4-speed automatic",
+      "6-speed automatic (2007-2008)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["4-door luxury pickup truck"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Luxury pickup truck based on Ford F-150 (2006-2008 in North America). 5.4L Triton V8 engine. RWD standard, 4WD optional. Crew cab only. Updated with 6-speed automatic for 2007. Continued in Mexico through 2014. Discontinued in US/Canada after 2008 due to low sales. Standard service complexity for F-150-based luxury truck. Data sourced from Wikipedia Lincoln Mark LT article, December 19, 2024 revision."
+  },
+  {
+    "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012],
+    "make": "Lincoln",
+    "model": "MKZ / Zephyr (First generation)",
+    "engines": [
+      "3.0L V6 (221 hp, 2006)",
+      "3.5L V6 (263 hp, 2007-2012)",
+      "3.5L V6 AWD (263 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door midsize luxury sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Midsize luxury sedan initially named Zephyr (2006), renamed MKZ for 2007. Based on Ford CD3 platform (Fusion/Milan). 3.0L V6 for 2006, upgraded to 3.5L V6 from 2007. FWD standard, AWD optional. Replaced Lincoln LS. Standard service complexity for modern midsize luxury sedan. Data sourced from Wikipedia Lincoln MKZ article, December 19, 2024 revision."
+  },
+  {
+    "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015],
+    "make": "Lincoln",
+    "model": "MKX (First generation)",
+    "engines": [
+      "3.5L V6 (265 hp, 2007-2010)",
+      "3.7L V6 (305 hp, 2011-2015)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door midsize luxury crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First generation midsize luxury crossover on Ford CD3 platform (shared with Ford Edge). 3.5L V6 initially, upgraded to 3.7L V6 for 2011. FWD standard, AWD optional. Two-row seating. Replaced by second generation for 2016 (later renamed Nautilus). Standard service complexity for midsize luxury crossover. Data sourced from Wikipedia Lincoln MKX article, December 19, 2024 revision."
+  },
+  {
+    "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
+    "make": "Lincoln",
+    "model": "MKS",
+    "engines": [
+      "3.7L V6 (273-274 hp)",
+      "3.5L twin-turbo EcoBoost V6 (355-365 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door full-size luxury sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Full-size luxury flagship sedan on Ford D3 platform. Base 3.7L V6 or optional 3.5L EcoBoost twin-turbo V6. FWD standard, AWD optional. Replaced Lincoln Town Car as flagship sedan. Discontinued after 2016 model year, succeeded by Continental. Standard service complexity for modern full-size luxury sedan. Data sourced from Wikipedia Lincoln MKS article, December 19, 2024 revision."
+  },
+  {
+    "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "Lincoln",
+    "model": "MKT",
+    "engines": [
+      "3.7L V6 (268 hp)",
+      "3.5L twin-turbo EcoBoost V6 (355-365 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door full-size luxury crossover wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Full-size luxury crossover wagon on Ford D4 platform (Flex-based). Base 3.7L V6 or optional 3.5L EcoBoost twin-turbo. FWD standard, AWD optional. Three-row seating. Popular for livery/limousine service. Discontinued after 2019 model year. Standard service complexity for full-size luxury crossover. Data sourced from Wikipedia Lincoln MKT article, December 19, 2024 revision."
+  },
+  {
+    "years": [2003, 2004, 2005, 2006],
+    "make": "Lincoln",
+    "model": "Navigator (Second generation)",
+    "engines": [
+      "5.4L V8 (300 hp, 2003-2006)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["4-door full-size luxury SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation Navigator on U222 platform (Ford Expedition-based). 5.4L Triton V8 engine. Body-on-frame construction. RWD standard, 4WD optional. Regular wheelbase only (no L variant this generation). Three-row seating. Updated styling and interior. Standard service complexity for body-on-frame full-size luxury SUV. Data sourced from Wikipedia Lincoln Navigator article, December 19, 2024 revision."
+  },
+  {
+    "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017],
+    "make": "Lincoln",
+    "model": "Navigator (Third generation)",
+    "engines": [
+      "5.4L V8 (300 hp, 2007-2014)",
+      "3.5L twin-turbo EcoBoost V6 (380 hp, 2015-2017)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["4-door full-size luxury SUV", "4-door extended wheelbase (Navigator L)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Third generation Navigator on U326 platform (Ford Expedition-based). Initially 5.4L V8, switched to 3.5L EcoBoost twin-turbo V6 for 2015. Body-on-frame construction. RWD standard, 4WD optional. Regular and extended wheelbase (Navigator L) variants. Three-row seating. 6-speed automatic throughout. Standard service complexity for body-on-frame full-size luxury SUV. Data sourced from Wikipedia Lincoln Navigator article, December 19, 2024 revision."
+  }
+]

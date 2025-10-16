@@ -1,0 +1,68 @@
+[
+  {
+    "years": [1946, 1947],
+    "make": "Nissan",
+    "model": "Datsun 1121",
+    "engines": [
+      "0.9L Type C I4"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Postwar Datsun 1121 passenger cars reintroduced exports with a 0.9L side-valve four, 3-speed manual, and simple ladder frame; sourcing components and adapting to 6-volt electrics and mechanical brakes increase restoration difficulty to 1.3. Data sourced from Wikipedia Datsun 1121 article, October 8, 2025 revision."
+  },
+  {
+    "years": [1946, 1947, 1948, 1949],
+    "make": "Nissan",
+    "model": "Datsun 212/312 Truck",
+    "engines": [
+      "1.0L Type C I4"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "Cabover light truck"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "The Datsun 212/312 cabover trucks resumed light commercial exports with a 1.0L Type C engine, 4-speed manual, and payloads around 1,000 kg; mechanical brakes, left-hand drive conversion, and limited documentation require specialized restoration skills, earning a 1.3 rating. Data sourced from Wikipedia Datsun Truck article, October 9, 2025 revision."
+  },
+  {
+    "years": [1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954],
+    "make": "Nissan",
+    "model": "Datsun 5147 Truck",
+    "engines": [
+      "1.0L Type C I4"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "Cabover medium truck"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "The 5147 truck expanded payload and wheelbase over the 212 series while retaining the Type C engine and 4-speed transmission; cabover service, mechanical brakes, and wood-and-steel bed construction increase complexity for modern technicians, warranting a 1.3 difficulty. Data sourced from Wikipedia Datsun Truck article, October 9, 2025 revision."
+  }
+]

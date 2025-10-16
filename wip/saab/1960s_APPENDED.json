@@ -1,0 +1,30 @@
+[
+  {
+    "years": [1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969],
+    "make": "Saab",
+    "model": "96",
+    "engines": ["0.8L I3 two-stroke (38 hp)", "0.8L I3 two-stroke (40 hp)", "1.5L V4 (65 hp Ford Taunus)"],
+    "transmissions": ["4-speed manual", "3-speed automatic"],
+    "region": "European",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Saab 96 compact sedan. Two-stroke three-cylinder engine (1960-1967), then Ford V4 (1967-1980). Front-wheel drive with freewheel mechanism. Aircraft-inspired design, rally heritage. Limited US imports. Vintage mechanical complexity. Data sourced from Wikipedia Saab 96 article, January 2025 revision."
+  },
+  {
+    "years": [1966, 1967, 1968, 1969, 1970],
+    "make": "Saab",
+    "model": "Sonett II/V4",
+    "engines": ["0.8L I3 two-stroke (60 hp Sonett II)", "1.5L V4 (65 hp Ford Taunus)"],
+    "transmissions": ["4-speed manual"],
+    "region": "European",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door sports coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Saab Sonett II (1966-1967) and Sonett V4 (1967-1970). Lightweight fiberglass body sports car. Two-stroke initially, Ford V4 from 1967. Front-wheel drive. Limited production, rare in North America. Data sourced from Wikipedia Saab Sonett article, January 2025 revision."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "years": [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997],
+    "make": "Lincoln",
+    "model": "Town Car (Second generation)",
+    "engines": [
+      "4.6L V8 (190-210 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door full-size luxury sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation Town Car on Ford Panther platform (1990-1997). Introduced modular 4.6L V8 replacing 5.0L. RWD only. Body-on-frame construction. Popular for livery and executive transport. Available in Executive, Signature, and Cartier trim levels. Standard service complexity for Panther-platform full-size sedan. Data sourced from Wikipedia Lincoln Town Car article, December 19, 2024 revision."
+  },
+  {
+    "years": [1998, 1999, 2000, 2001, 2002],
+    "make": "Lincoln",
+    "model": "Town Car (Third generation)",
+    "engines": [
+      "4.6L V8 (200-215 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door full-size luxury sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Third generation Town Car on Ford Panther platform (1998-2011, covering 1998-2002 here). Continued 4.6L V8, improved output. RWD only. Body-on-frame construction. Very popular for limousine conversions and livery service. Signature, Cartier, and Executive L trim levels. Standard service complexity for Panther-platform full-size sedan. Data sourced from Wikipedia Lincoln Town Car article, December 19, 2024 revision."
+  },
+  {
+    "years": [1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002],
+    "make": "Lincoln",
+    "model": "Continental (Ninth generation)",
+    "engines": [
+      "4.6L V8 (260-275 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door full-size luxury sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Ninth generation Continental on Ford FN10 platform (1995-2002). 4.6L InTech DOHC V8 engine. FWD only. Independent rear suspension. Available in base and Collector's Edition. Discontinued after 2002 model year, later revived 2017. Standard service complexity for FWD luxury sedan. Data sourced from Wikipedia Lincoln Continental article, December 19, 2024 revision."
+  },
+  {
+    "years": [1993, 1994, 1995, 1996, 1997, 1998],
+    "make": "Lincoln",
+    "model": "Mark VIII",
+    "engines": [
+      "4.6L DOHC V8 (280-290 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door luxury coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Personal luxury coupe on Ford FN10 platform (1993-1998). 4.6L InTech DOHC V8 with 280 hp (increased to 290 hp in 1996). RWD only. Independent rear suspension, air suspension optional. Advanced for its time with HID headlights (1996+), side airbags. Last of the Lincoln Mark series. Standard service complexity for RWD luxury coupe. Data sourced from Wikipedia Lincoln Mark VIII article, December 19, 2024 revision."
+  },
+  {
+    "years": [1998, 1999, 2000, 2001, 2002],
+    "make": "Lincoln",
+    "model": "Navigator (First generation)",
+    "engines": [
+      "5.4L V8 (230-300 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["4-door full-size luxury SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First generation Navigator on Ford U platform (1998-2002). Body-on-frame construction based on Ford Expedition. 5.4L Triton V8 engine (initially 230 hp, increased to 300 hp for 2001). RWD standard, 4WD optional. Three-row seating. Lincoln's first SUV, highly successful launch. Standard service complexity for body-on-frame full-size luxury SUV. Data sourced from Wikipedia Lincoln Navigator article, December 19, 2024 revision."
+  }
+]

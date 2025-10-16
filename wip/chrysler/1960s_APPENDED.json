@@ -1,0 +1,203 @@
+[
+  {
+    "years": [
+      1960,
+      1961,
+      1962,
+      1963,
+      1964,
+      1965,
+      1966,
+      1967,
+      1968,
+      1969
+    ],
+    "make": "Chrysler",
+    "model": "New Yorker",
+    "engines": [
+      "6.8L V8",
+      "7.2L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "2-door hardtop",
+      "4-door hardtop",
+      "5-door station wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Data sourced from Wikipedia Chrysler New Yorker article, October 13, 2025 revision."
+  },
+  {
+    "years": [
+      1960,
+      1961,
+      1962,
+      1963,
+      1964,
+      1965,
+      1966,
+      1967,
+      1968,
+      1969
+    ],
+    "make": "Chrysler",
+    "model": "Imperial",
+    "engines": [
+      "6.8L V8",
+      "7.2L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door hardtop",
+      "4-door hardtop",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Data sourced from Wikipedia Chrysler Imperial article, October 13, 2025 revision."
+  },
+  {
+    "years": [
+      1962,
+      1963,
+      1964
+    ],
+    "make": "Chrysler",
+    "model": "300 (non-letter)",
+    "engines": [
+      "6.8L V8",
+      "7.0L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door hardtop",
+      "4-door hardtop",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Non-letter series 300. More affordable than the letter series. Data sourced from Wikipedia Chrysler 300 non-letter series article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1961,
+      1962,
+      1963,
+      1964,
+      1965,
+      1966,
+      1967,
+      1968,
+      1969
+    ],
+    "make": "Chrysler",
+    "model": "Newport",
+    "engines": [
+      "6.3L V8",
+      "6.8L V8",
+      "7.0L V8",
+      "7.2L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door hardtop",
+      "4-door hardtop",
+      "4-door sedan",
+      "2-door convertible",
+      "5-door station wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Third and fourth generation Newport. Full-size Chrysler with various V8 options. Data sourced from Wikipedia Chrysler Newport article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1967,
+      1968,
+      1969
+    ],
+    "make": "Chrysler",
+    "model": "Town & Country",
+    "engines": [
+      "7.2L V8"
+    ],
+    "transmissions": [
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "5-door station wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Full-size station wagon with wood grain trim. Based on Newport platform. Data sourced from Wikipedia Chrysler Town & Country article, January 17, 2025 revision."
+  },
+  {
+    "years": [
+      1960,
+      1961,
+      1962,
+      1963,
+      1964,
+      1965,
+      1966
+    ],
+    "make": "Chrysler",
+    "model": "Valiant",
+    "engines": [
+      "2.8L I6",
+      "3.7L I6"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door sedan",
+      "4-door sedan",
+      "5-door station wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact car with Slant-6 engines. Became Plymouth Valiant after 1961. Data sourced from Wikipedia Chrysler Valiant article, January 17, 2025 revision."
+  }
+]

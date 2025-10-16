@@ -1,0 +1,179 @@
+[
+  {
+    "years": [1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978],
+    "make": "Nissan",
+    "model": "240Z/260Z/280Z (S30)",
+    "engines": [
+      "2.4L L24 I6 (151 hp SAE gross, 151 hp net 1972)",
+      "2.6L L26 I6 (139 hp net 1974)",
+      "2.8L L28E I6 (149 hp net 1975-1978)"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "5-speed manual (1977-1978)",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "The S30 Z-line began in the U.S. with the 240Z (L24), evolving to the 260Z (L26) in 1974 and fuel-injected 280Z (L28E) for 1975-1978 with optional 5-speed manuals, 3-speed automatics, and dealer-installed air conditioning; later cars offered 2+2 seating. Carburetor synchronization (240Z/260Z), aging EFI, and emissions retrofits make service more involved than a typical classic coupe, warranting a 1.1 difficulty modifier. Data sourced from Wikipedia Nissan S30 article, October 11, 2025 revision."
+  },
+  {
+    "years": [1968, 1969, 1970, 1971, 1972, 1973],
+    "make": "Nissan",
+    "model": "510 (PL510)",
+    "engines": [
+      "1.6L L16 I4 (96 hp)"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "2-door sedan",
+      "5-door wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "The Datsun 510 (PL510) used the 1.6L L16 with independent rear suspension and available automatic transmission, becoming popular for SCCA racing; its vintage carburetion, emissions retrofits, and rust-prone body require skilled restoration work, justifying a 1.1 difficulty. Data sourced from Wikipedia Datsun 510 article, October 12, 2025 revision."
+  },
+  {
+    "years": [1973, 1974, 1975, 1976, 1977, 1978],
+    "make": "Nissan",
+    "model": "610/710 (Bluebird U)",
+    "engines": [
+      "1.8L L18 I4",
+      "2.0L L20B I4"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "4-door sedan",
+      "5-door wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Successor Bluebird U models (610/710) sold as Datsun 610/710 in the U.S. with L18/L20B inline-fours, four-speed manuals, and available Borg-Warner automatics; MacPherson strut front suspension and conventional driveline keep service straightforward, so difficulty remains 1.0. Data sourced from Wikipedia Datsun 610 article, October 10, 2025 revision."
+  },
+  {
+    "years": [1974, 1975, 1976, 1977, 1978],
+    "make": "Nissan",
+    "model": "B210 (Sunny)",
+    "engines": [
+      "1.2L A12 I4",
+      "1.4L A14 I4"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "5-speed manual (GX)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "3-door hatchback",
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "The Datsun B210 (Sunny) targeted fuel economy with A-series engines, manual transmissions, and light curb weight; emissions-era carburetion remains simple to service, so difficulty stays at 1.0. Data sourced from Wikipedia Datsun Sunny article, October 9, 2025 revision."
+  },
+  {
+    "years": [1975, 1976, 1977, 1978, 1979],
+    "make": "Nissan",
+    "model": "200SX (S10)",
+    "engines": [
+      "2.0L L20B I4"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "5-speed manual",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door fastback",
+      "2-door notchback"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "The S10 200SX (sold as Datsun 200SX) used the L20B with 5-speed manual availability, rear-wheel drive, and both fastback and notchback body styles; mechanical simplicity keeps difficulty at 1.0. Data sourced from Wikipedia Nissan Silvia article, October 8, 2025 revision."
+  },
+  {
+    "years": [1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979],
+    "make": "Nissan",
+    "model": "620 Pickup",
+    "engines": [
+      "1.6L L16 I4",
+      "1.8L L18 I4",
+      "2.0L L20B I4"
+    ],
+    "transmissions": [
+      "4-speed manual",
+      "5-speed manual",
+      "3-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "Regular Cab pickup"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "The Datsun 620 compact pickup offered L16/L18/L20B engines, choice of manual or automatic transmissions, and long-bed or King Cab configurations, remaining mechanically simple with carbureted inline-fours. Data sourced from Wikipedia Datsun Truck article, October 9, 2025 revision."
+  },
+  {
+    "years": [1978, 1979, 1980],
+    "make": "Nissan",
+    "model": "Vanette (C20)",
+    "engines": [
+      "1.6L A16 I4",
+      "1.8L L18 I4"
+    ],
+    "transmissions": [
+      "4-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "5-door van"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Limited U.S. availability of the compact Vanette (C20) brought sliding doors, configurable seating, and carbureted four-cylinders; mechanical layout is simple, so difficulty remains 1.0. Data sourced from Wikipedia Nissan Vanette article, October 7, 2025 revision."
+  }
+]

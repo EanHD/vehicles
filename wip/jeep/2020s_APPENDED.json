@@ -1,0 +1,197 @@
+[
+  {
+    "years": [2020, 2021, 2022, 2023, 2024, 2025],
+    "make": "Jeep",
+    "model": "Wrangler (JL)",
+    "engines": [
+      "2.0L turbocharged I4 (270 hp, 295 lb-ft)",
+      "3.6L Pentastar V6 (285 hp, 260 lb-ft)",
+      "2.2L turbodiesel I4 (North America 2020+)"
+    ],
+    "transmissions": ["6-speed manual (Aisin AL6)", "8-speed automatic (850RE Torqueflite)"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door SUV", "4-door SUV (Unlimited)"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.1,
+    "notes": "Fourth generation JL platform (2018-present). Diesel option warrants 1.1 modifier. Part-time four-wheel drive with multiple systems available. Removable roof and doors require specific service procedures. Data sourced from Wikipedia Jeep Wrangler article, January 2025 revision."
+  },
+  {
+    "years": [2021, 2022, 2023, 2024, 2025],
+    "make": "Jeep",
+    "model": "Wrangler 4xe (JL PHEV)",
+    "engines": ["2.0L turbocharged I4 + electric motors (375 hp combined, 470 lb-ft)"],
+    "transmissions": ["8-speed automatic (850RE Torqueflite)"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door SUV", "4-door SUV (Unlimited)"],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Plug-in hybrid variant with 17 kWh battery (15 kWh usable) providing 21 miles electric range. PHEV complexity warrants 1.1 modifier. 400V battery system requires HV safety protocols. Data sourced from Wikipedia Jeep Wrangler article, January 2025 revision."
+  },
+  {
+    "years": [2021, 2022, 2023, 2024, 2025],
+    "make": "Jeep",
+    "model": "Wrangler Rubicon 392 (JL)",
+    "engines": ["6.4L Hemi V8 (470 hp, 470 lb-ft)"],
+    "transmissions": ["8-speed automatic (850RE Torqueflite)"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["4-door SUV (Unlimited only)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "High-performance variant with 6.4L V8 engine achieving 0-60 mph in 4.5 seconds. Only available in 4-door Unlimited configuration. Data sourced from Wikipedia Jeep Wrangler article, January 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023, 2024],
+    "make": "Jeep",
+    "model": "Gladiator (JT)",
+    "engines": ["3.6L Pentastar V6 (285 hp, 260 lb-ft)"],
+    "transmissions": ["6-speed manual (Aisin AL6)", "8-speed automatic (ZF 8HP)"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["4-door pickup truck"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Midsize pickup truck based on Wrangler JL platform. Standard four-wheel drive with Command-Trac, Selec-Trac, or Rock-Trac systems. Removable roof and doors. Manual transmission discontinued for 2025. Data sourced from Wikipedia Jeep Gladiator (JT) article, January 2025 revision."
+  },
+  {
+    "years": [2021, 2022, 2023],
+    "make": "Jeep",
+    "model": "Gladiator EcoDiesel (JT)",
+    "engines": ["3.0L EcoDiesel turbodiesel V6 (260 hp, 442 lb-ft)"],
+    "transmissions": ["8-speed automatic (ZF 8HP75)"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["4-door pickup truck"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.1,
+    "notes": "Diesel variant available 2021-2023 only, discontinued after 2023. Diesel complexity warrants 1.1 modifier. Diesel exhaust fluid (DEF) system requires specialized service knowledge. Data sourced from Wikipedia Jeep Gladiator (JT) article, January 2025 revision."
+  },
+  {
+    "years": [2021, 2022, 2023, 2024, 2025],
+    "make": "Jeep",
+    "model": "Grand Cherokee (WL)",
+    "engines": [
+      "3.6L Pentastar V6 with eTorque mild hybrid (290 hp, 257 lb-ft)",
+      "5.7L Hemi V8 (357 hp, 390 lb-ft, 2021-2023 only)"
+    ],
+    "transmissions": ["8-speed automatic (ZF 850RE Torqueflite)"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["4-door midsize SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fifth generation WL platform. eTorque mild hybrid system provides torque assist but not electric-only driving. Four-wheel drive options include Quadra-Trac I, Quadra-Trac II, and Quadra-Drive II with electronic limited slip. 2.0L Hurricane turbo I4 coming in 2026. Data sourced from Wikipedia Jeep Grand Cherokee article, January 2025 revision."
+  },
+  {
+    "years": [2022, 2023, 2024, 2025],
+    "make": "Jeep",
+    "model": "Grand Cherokee 4xe (WL PHEV)",
+    "engines": ["2.0L turbocharged I4 + electric motors (375 hp combined, 470 lb-ft)"],
+    "transmissions": ["8-speed automatic (ZF 850RE Torqueflite)"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["4-door midsize SUV"],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Plug-in hybrid variant with 17.3 kWh 400V lithium-ion battery providing 25 miles electric range. PHEV complexity warrants 1.1 modifier. High-voltage system requires HV-certified technicians. Data sourced from Wikipedia Jeep Grand Cherokee article, January 2025 revision."
+  },
+  {
+    "years": [2021, 2022, 2023, 2024, 2025],
+    "make": "Jeep",
+    "model": "Grand Cherokee L (WL75)",
+    "engines": [
+      "3.6L Pentastar V6 with eTorque mild hybrid (290 hp, 257 lb-ft)",
+      "5.7L Hemi V8 (357 hp, 390 lb-ft, 2021-2023 only)"
+    ],
+    "transmissions": ["8-speed automatic (ZF 850RE Torqueflite)"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["4-door midsize SUV (3-row)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Three-row extended-wheelbase variant of WL Grand Cherokee. eTorque mild hybrid system provides torque assist. Same platform and drivetrain options as standard Grand Cherokee. Data sourced from Wikipedia Jeep Grand Cherokee article, January 2025 revision."
+  },
+  {
+    "years": [2021, 2022, 2023, 2024, 2025],
+    "make": "Jeep",
+    "model": "Compass (MP/552)",
+    "engines": [
+      "2.4L Tigershark I4 (177 hp, 2022 only)",
+      "2.0L GME turbocharged I4 (200 hp, 2023-2025)"
+    ],
+    "transmissions": [
+      "6-speed automatic (Aisin, FWD models)",
+      "9-speed automatic (ZF 948TE, until 2023)",
+      "8-speed automatic (Hyundai 8F30, 2023+)"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["5-door compact crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second generation facelift (MP/552). Became Jeep's entry-level model in North America for 2024 after Renegade withdrawal. AWD optional on Sport/Latitude, standard on Trailhawk/Limited/High Altitude. 4xe PHEV available in Europe only. Data sourced from Wikipedia Jeep Compass article, January 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022, 2023],
+    "make": "Jeep",
+    "model": "Renegade (BU)",
+    "engines": [
+      "1.3L GSE Turbo MultiAir I4 (177 hp)",
+      "2.4L Tigershark I4 (discontinued after 2021)"
+    ],
+    "transmissions": ["6-speed manual (limited availability)", "9-speed automatic (ZF)"],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["5-door subcompact crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Subcompact crossover facelift (2019-2023). Discontinued in US and Canada after 2023 model year. FWD available until 2023, then AWD became standard. Latitude became base trim in 2023. Data sourced from Wikipedia Jeep Renegade article, January 2025 revision."
+  },
+  {
+    "years": [2022, 2023, 2024, 2025],
+    "make": "Jeep",
+    "model": "Wagoneer (WS)",
+    "engines": [
+      "5.7L Hemi V8 with eTorque mild hybrid (392 hp, 2022-2023 only)",
+      "3.0L Hurricane twin-turbo I6 (420 hp, 468 lb-ft, 2023+)"
+    ],
+    "transmissions": ["8-speed automatic (ZF 8HP75)"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["4-door full-size SUV", "4-door full-size SUV (L extended wheelbase)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Full-size luxury SUV revival on WS platform. Optional Quadra-Trac full-time four-wheel drive. Extended 'L' wheelbase approximately 1 foot longer. Standard RWD with optional 4WD. Data sourced from Wikipedia Jeep Wagoneer (WS) article, January 2025 revision."
+  },
+  {
+    "years": [2022, 2023, 2024, 2025],
+    "make": "Jeep",
+    "model": "Grand Wagoneer (WS)",
+    "engines": [
+      "6.4L Hemi V8 (471 hp, 455 lb-ft, 2022-2023 only)",
+      "3.0L Hurricane twin-turbo I6 (510 hp, 500 lb-ft, 2022-2024)",
+      "3.0L Hurricane twin-turbo I6 (540 hp, 521 lb-ft, 2025+)"
+    ],
+    "transmissions": ["8-speed automatic (ZF 8HP75)"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["4-door full-size luxury SUV", "4-door full-size luxury SUV (L extended wheelbase)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Premium variant of Wagoneer with standard four-wheel drive (Quadra-Trac). Extended 'L' wheelbase available. Higher-output Hurricane twin-turbo engines. NHTSA investigation into potential engine shutdown issues in late 2024. Data sourced from Wikipedia Jeep Wagoneer (WS) article, January 2025 revision."
+  }
+]

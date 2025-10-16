@@ -1,0 +1,81 @@
+[
+  {
+    "years": [1940, 1941, 1942, 1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964],
+    "make": "Cadillac",
+    "model": "Series 62",
+    "engines": [
+      "5.7L flathead V8 (135-150 hp, 1940-1948)",
+      "5.7L OHV V8 (160-210 hp, 1949-1964)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.15,
+    "notes": "Long-running luxury sedan series (1940-1964, WWII production gap 1943-1945). Initially flathead V8, switched to overhead-valve V8 for 1949. Introduced tail fins 1948. Multiple body styles including Coupe de Ville hardtop. X-frame chassis. Difficulty modifier 1.15 reflects 1940s-1960s vintage complexity, WWII-era variations, and transition technologies. Data sourced from Wikipedia Cadillac Series 62 article, December 19, 2024 revision."
+  },
+  {
+    "years": [1941, 1942, 1946, 1947, 1948, 1949, 1950, 1951],
+    "make": "Cadillac",
+    "model": "Series 61",
+    "engines": [
+      "5.7L flathead V8 (135-150 hp, 1941-1948)",
+      "5.7L OHV V8 (160 hp, 1949-1951)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.15,
+    "notes": "Entry-level Cadillac series (1941-1951, wartime gap 1943-1945). Shorter wheelbase than Series 62. Flathead V8 until 1948, OHV V8 from 1949. Discontinued after 1951. Difficulty modifier 1.15 reflects 1940s vintage complexity, WWII production variations, and postwar transition era. Data sourced from Wikipedia Cadillac Series 61 article, December 19, 2024 revision."
+  },
+  {
+    "years": [1941, 1942, 1946, 1947],
+    "make": "Cadillac",
+    "model": "Fleetwood Series 60 Special",
+    "engines": [
+      "5.7L flathead V8 (135-150 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Luxury Fleetwood Series 60 Special (1941-1947, no 1943-1945 production due to WWII). Long wheelbase luxury sedan. Flathead V8 engine. Formal styling with division window optional. Replaced by updated Sixty Special for 1948. Difficulty modifier 1.2 reflects 1940s luxury vehicle complexity, wartime production gap, and specialized trim restoration. Data sourced from Wikipedia Cadillac Sixty Special article, December 19, 2024 revision."
+  },
+  {
+    "years": [1940, 1941, 1942, 1946, 1947, 1948, 1949],
+    "make": "Cadillac",
+    "model": "Series 75",
+    "engines": [
+      "5.7L flathead V8 (135-150 hp, 1940-1948)",
+      "5.7L OHV V8 (160 hp, 1949)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed Hydra-Matic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "4-door limousine", "7-passenger sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Flagship Series 75 limousine and 7-passenger sedan (1940-1949 portion, series continued to 1976). Longest wheelbase Cadillac. Flathead V8 until 1948, OHV from 1949. Formal limousine coachwork. Commercial chassis available for funeral/ambulance use. Difficulty modifier 1.2 reflects 1940s luxury limousine complexity, WWII production variations, and extended wheelbase service. Data sourced from Wikipedia Cadillac Series 75 article, December 19, 2024 revision."
+  }
+]

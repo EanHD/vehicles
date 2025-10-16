@@ -1,0 +1,44 @@
+[
+  {
+    "years": [2010, 2011, 2012, 2013, 2014],
+    "make": "Saab",
+    "model": "9-3 (Second Gen)",
+    "engines": ["2.0L I4 turbo (175 hp)", "2.0L I4 turbo (210 hp)", "2.8L V6 turbo (250 hp)"],
+    "transmissions": ["6-speed manual", "6-speed automatic"],
+    "region": "European",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door sedan", "2-door convertible", "5-door wagon (SportCombi)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Final years Saab 9-3 (2003-2014). GM Epsilon platform. Production continued briefly after bankruptcy under NEVS ownership. V6 turbo Aero with AWD. Brand bankruptcy 2011, final production 2014. Data sourced from Wikipedia Saab 9-3 article, January 2025 revision."
+  },
+  {
+    "years": [2010, 2011, 2012],
+    "make": "Saab",
+    "model": "9-5 (Second Gen)",
+    "engines": ["2.0L I4 turbo (220 hp)", "2.8L V6 turbo (300 hp)"],
+    "transmissions": ["6-speed automatic"],
+    "region": "European",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Second-generation Saab 9-5 (2010-2012). GM Epsilon II platform. XWD all-wheel drive available. Modern design, but short production due to Saab bankruptcy 2011. Limited production numbers. Timing chain turbo engines. Data sourced from Wikipedia Saab 9-5 article, January 2025 revision."
+  },
+  {
+    "years": [2011],
+    "make": "Saab",
+    "model": "9-4X",
+    "engines": ["2.8L V6 turbo (300 hp)"],
+    "transmissions": ["6-speed automatic"],
+    "region": "American",
+    "drivetrain": ["AWD"],
+    "body_styles": ["5-door crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Saab 9-4X crossover SUV (2011 only). Theta Premium platform shared with Cadillac SRX. All-wheel drive standard. V6 turbo engine. Built in Mexico. Only ~800 units produced before Saab bankruptcy. Timing chain engine. Data sourced from Wikipedia Saab 9-4X article, January 2025 revision."
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "BMW",
+    "model": "2 Series (G42/G87)",
+    "engines": [
+      "2.0L B48 turbo I4 (255 hp) 230i",
+      "3.0L B58 turbo I6 (382 hp) M240i xDrive",
+      "3.0L S58 twin-turbo I6 (453 hp) M2"
+    ],
+    "transmissions": [
+      "8-speed automatic",
+      "6-speed manual (M2)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second-generation CLAR-based coupe built in San Luis Potosí with available xDrive. Includes M2 performance variant retaining a manual option; follow BMW calibration procedures for adaptive damping and driver assistance sensors after collision repairs. Data sourced from Wikipedia BMW 2 Series (G42) article, October 11, 2025 revision."
+  },
+  {
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "BMW",
+    "model": "3 Series (G20 LCI)",
+    "engines": [
+      "2.0L B48 turbo I4 (255 hp) 330i",
+      "3.0L B58 turbo I6 mild hybrid (382 hp) M340i",
+      "2.0L B48 turbo I4 + e-motor (288 hp combined) 330e PHEV"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "2023 LCI adds curved display with iDrive 8 and removes manual option. 330e plug-in hybrid uses 12 kWh high-voltage pack requiring insulated tooling and battery isolation during service; mild-hybrid starter-generator integrated into ZF 8HP on M340i. Data sourced from Wikipedia BMW 3 Series (G20) article, September 28, 2025 revision."
+  },
+  {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "BMW",
+    "model": "4 Series (G22/G23/G26)",
+    "engines": [
+      "2.0L B48 turbo I4 (255 hp) 430i",
+      "3.0L B58 turbo I6 mild hybrid (382 hp) M440i xDrive"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "2-door convertible",
+      "5-door liftback (Gran Coupe)"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Large-kidney-grille G22 family shares CLAR platform with G20 and integrates 48V mild-hybrid hardware on six-cylinder models, requiring attention to inverter shutdown and auxiliary battery management. Adaptive LED/Laserlight driver-assistance sensors need recalibration after repairs. Data sourced from Wikipedia BMW 4 Series (G22) article, August 20, 2025 revision."
+  },
+  {
+    "years": [
+      2024,
+      2025
+    ],
+    "make": "BMW",
+    "model": "5 Series / i5 (G60)",
+    "engines": [
+      "2.0L B48 turbo I4 mild hybrid (255 hp) 530i/530i xDrive",
+      "3.0L B58 turbo I6 mild hybrid (375 hp) 540i xDrive",
+      "3.0L B58 turbo I6 + e-motor (489 hp) 550e xDrive PHEV",
+      "Dual-motor AWD (590 hp) i5 M60 xDrive",
+      "Single-motor RWD (335 hp) i5 eDrive40"
+    ],
+    "transmissions": [
+      "8-speed automatic",
+      "Single-speed electric drive"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Eighth-generation sedan adds OS 8.5 curved display and standard 48V mild hybrid systems; 550e PHEV and i5 variants use high-voltage lithium packs (19.4 kWh and 84.3 kWh) that demand HV PPE, pack isolation, and battery thermal management checks during service. Active steering and adaptive dampers require BMW ISTA calibration post-repair. Data sourced from Wikipedia BMW 5 Series (G60) article, October 14, 2025 revision."
+  },
+  {
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "make": "BMW",
+    "model": "7 Series / i7 (G70)",
+    "engines": [
+      "3.0L B58 turbo I6 mild hybrid (375 hp) 740i",
+      "4.4L S68 twin-turbo V8 mild hybrid (536 hp) 760i xDrive",
+      "3.0L B58 turbo I6 + e-motor (483 hp) 750e xDrive PHEV",
+      "Dual-motor AWD (536–650 hp) i7 xDrive60/M70"
+    ],
+    "transmissions": [
+      "8-speed automatic",
+      "Single-speed electric drive"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Flagship G70 adds 48V active suspension, rear steering, and Level 3-ready sensor suite; plug-in and i7 models use 18.7–105.7 kWh HV batteries requiring specialized PPE and coolant handling. Automated doors and Executive Lounge electronics need BMW diagnostics for initialization after service. Data sourced from Wikipedia BMW 7 Series (G70) article, August 20, 2025 revision."
+  },
+  {
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "BMW",
+    "model": "i4 (G26)",
+    "engines": [
+      "Single-motor RWD (282 hp) eDrive35",
+      "Single-motor RWD (335 hp) eDrive40",
+      "Dual-motor AWD (396 hp) xDrive40",
+      "Dual-motor AWD (536 hp) M50"
+    ],
+    "transmissions": [
+      "Single-speed reduction gear"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door liftback"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "400V fifth-generation eDrive pack (70–83.9 kWh usable) supports up to 205 kW DC charging; requires HV battery isolation, cooling bleed, and regenerative braking calibration after service. Integrated Curved Display with iDrive 8 and numerous ADAS sensors necessitate ISTA verification after windshield or radar replacement. Data sourced from Wikipedia BMW i4 article, August 20, 2025 revision."
+  },
+  {
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "BMW",
+    "model": "X5 (G05 LCI)",
+    "engines": [
+      "3.0L B58 turbo I6 mild hybrid (375 hp) sDrive40i/xDrive40i",
+      "3.0L B58 turbo I6 + e-motor (483 hp) xDrive50e PHEV",
+      "4.4L S68 twin-turbo V8 mild hybrid (523 hp) M60i",
+      "4.4L S68 twin-turbo V8 + e-motor (644 hp) X5 M Competition"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Spartanburg-built SAV offers optional air suspension, four-wheel steering, and advanced ADAS packages requiring calibration after suspension or fascia work. xDrive50e plug-in features 25.7 kWh HV battery needing insulated PPE and coolant management; 48V mild hybrid systems integrate with ZF 8HP. Data sourced from Wikipedia BMW X5 (G05) article, September 10, 2025 revision."
+  },
+  {
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "BMW",
+    "model": "iX (I20)",
+    "engines": [
+      "Dual-motor AWD (322 hp) xDrive40",
+      "Dual-motor AWD (516 hp) xDrive50",
+      "Dual-motor AWD (610 hp) M60",
+      "Dual-motor AWD (650 hp) xDrive60 facelift"
+    ],
+    "transmissions": [
+      "Single-speed reduction gear"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Carbon core SUV with 71–111.5 kWh packs on 400V architecture supporting up to 200 kW DC fast charging; technicians must follow BMW HV lockout/tagout and thermal management procedures. Standard iDrive 8 curved display, 5G telematics, and Level 2+ ADAS require software validation post-repair. Data sourced from Wikipedia BMW iX article, October 7, 2025 revision."
+  },
+  {
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "make": "BMW",
+    "model": "8 Series (G14/G15/G16 LCI)",
+    "engines": [
+      "3.0L B58 turbo I6 (335 hp) 840i/840i xDrive",
+      "4.4L N63 twin-turbo V8 (523 hp) M850i xDrive",
+      "4.4L S63 twin-turbo V8 (617 hp) M8 Competition"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "2-door convertible",
+      "4-door Gran Coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "LCI luxury grand tourer retains carbon core structure, Integral Active Steering, adaptive dampers, and available carbon-ceramic M brakes—all of which require ISTA calibration after chassis work. Night Vision, Laserlight headlamps, and surround cameras necessitate OEM aiming. Data sourced from Wikipedia BMW 8 Series (G15) article, October 14, 2025 revision."
+  },
+  {
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "make": "BMW",
+    "model": "X1 (U11)",
+    "engines": [
+      "2.0L B48 turbo I4 (241 hp) xDrive28i",
+      "2.0L B48 turbo I4 (312 hp) M35i xDrive"
+    ],
+    "transmissions": [
+      "7-speed dual-clutch automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "U11 X1 arrives with standard xDrive and a compact dual-clutch gearbox; M35i adds adaptive dampers and quad exhaust. Curved Display with iDrive 8 and Driving Assistant Professional requires front radar/camera recalibration after collision work. Data sourced from Wikipedia BMW X1 article, September 9, 2025 revision."
+  },
+  {
+    "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "make": "BMW",
+    "model": "X3 (G01 LCI)",
+    "engines": [
+      "2.0L B48 turbo I4 (248 hp) sDrive30i/xDrive30i",
+      "3.0L B58 turbo I6 mild hybrid (382 hp) M40i",
+      "2.0L B48 turbo I4 + e-motor (288 hp) xDrive30e PHEV"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "CLAR-based SAV built in Spartanburg offers optional Dynamic Handling Package and adaptive dampers requiring alignment/calibration. xDrive30e plug-in hybrid uses a 12 kWh HV battery beneath the rear seat, demanding insulated PPE and battery cooling bleed; 48V mild hybrid on M40i integrates starter-generator into 8HP. Data sourced from Wikipedia BMW X3 article, September 29, 2025 revision."
+  },
+  {
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "BMW",
+    "model": "X6 (G06 LCI)",
+    "engines": [
+      "3.0L B58 turbo I6 mild hybrid (375 hp) xDrive40i",
+      "4.4L S68 twin-turbo V8 mild hybrid (523 hp) M60i",
+      "4.4L S68 twin-turbo V8 + e-motor (617 hp) X6 M Competition"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door coupe SUV"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Coupe-SUV pairs 48V mild-hybrid powertrains with optional active anti-roll, rear steering, and air suspension; those systems require ride-height calibration and torque sensor relearns post-service. Laserlight headlamps and Driving Assistant Professional need ISTA alignment when repaired. Data sourced from Wikipedia BMW X6 article, October 10, 2025 revision."
+  },
+  {
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "make": "BMW",
+    "model": "X7 (G07 LCI)",
+    "engines": [
+      "3.0L B58 turbo I6 mild hybrid (375 hp) xDrive40i",
+      "4.4L S68 twin-turbo V8 mild hybrid (530 hp) xDrive60i",
+      "4.4L S68 twin-turbo V8 mild hybrid (523 hp) M60i"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV (3-row)"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Full-size SAV features optional Executive Lounge seating, air suspension, and integral active steering that need ride-height calibration and chassis coding after service. 48V mild-hybrid S68 powertrains and expansive ADAS sensor suite require ISTA diagnostics following repairs. Data sourced from Wikipedia BMW X7 article, September 29, 2025 revision."
+  },
+  {
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "make": "BMW",
+    "model": "XM (G09)",
+    "engines": [
+      "4.4L S68 twin-turbo V8 + e-motor (644 hp) XM",
+      "4.4L S68 twin-turbo V8 + e-motor (738 hp) XM Label Red"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "BMW M standalone PHEV uses 29.5 kWh HV battery and 7.4 kW charging; requires high-voltage PPE, coolant isolation, and rear-axle steering calibration. Active roll control, adaptive M dampers, and performance brake-by-wire system demand ISTA setup post-repair. Data sourced from Wikipedia BMW XM article, September 2, 2025 revision."
+  }
+]

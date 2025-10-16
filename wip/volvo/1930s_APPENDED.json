@@ -1,0 +1,30 @@
+[
+  {
+    "years": [1935, 1936, 1937, 1938],
+    "make": "Volvo",
+    "model": "PV36 Carioca",
+    "engines": ["3.7L I6 (84 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "PV36 Carioca (1935-1938). Volvo's first car with streamlined Art Deco styling. Inline-6 engine, rear-wheel drive. Independent front suspension. Named after Brazilian Carioca dance. Rare vintage model requiring specialized restoration expertise and period-correct parts. Data sourced from Wikipedia Volvo PV36 article, January 2025 revision."
+  },
+  {
+    "years": [1936, 1937, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1945],
+    "make": "Volvo",
+    "model": "PV51/52/53/54/55/56/57/58",
+    "engines": ["3.7L I6 (84-86 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "2-door coupe", "convertible"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "PV51-58 Series (1936-1945). Pre-war and wartime production cars with various body styles. Inline-6 engines, rear-wheel drive. PV51 sedan, PV52 sedan, PV53 convertible, PV54 taxi, PV55 coupe, PV56 sedan, PV57 sedan, PV58 taxi. Production limited during WWII. Vintage restoration requires specialized knowledge. Data sourced from Wikipedia Volvo PV50 series article, January 2025 revision."
+  }
+]

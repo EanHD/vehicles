@@ -1,0 +1,269 @@
+[
+  {
+    "years": [1990, 1991, 1992, 1993, 1994, 1995, 1996],
+    "make": "Nissan",
+    "model": "300ZX (Z32)",
+    "engines": [
+      "3.0L VG30DE V6 (222 hp)",
+      "3.0L VG30DETT twin-turbo V6 (300 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "2-door 2+2 coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "The Z32 300ZX arrived in the U.S. for 1990 featuring a 222 hp naturally aspirated VG30DE or a 300 hp VG30DETT twin-turbo with dual intercoolers, four-wheel steering (HICAS), aluminum suspension components, and available removable T-tops; 2+2 models extended the wheelbase while the SMZ special edition offered dealer-installed Stillen performance upgrades. Twin-turbo plumbing, HICAS rear steering hydraulics, and timing belt service complexity warrant the 1.2 difficulty modifier. Data sourced from Wikipedia Nissan 300ZX article, October 10, 2025 revision."
+  },
+  {
+    "years": [1991, 1992, 1993, 1994],
+    "make": "Nissan",
+    "model": "Sentra (B13)",
+    "engines": [
+      "1.6L GA16DE I4 (110 hp)",
+      "2.0L SR20DE I4 (140 hp SE-R)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Fourth-generation Sentra (B13) sold in the U.S. from 1991 with the GA16DE (110 hp) and optional 4-speed automatic, while the SE-R added a 140 hp SR20DE, viscous limited-slip differential, sport suspension, and four-wheel disc brakes—performance hardware justifying a 1.1 difficulty rating despite the compact platform. Data sourced from Wikipedia Nissan Sentra article, October 14, 2025 revision."
+  },
+  {
+    "years": [1995, 1996, 1997, 1998, 1999],
+    "make": "Nissan",
+    "model": "Sentra (B14)",
+    "engines": [
+      "1.6L GA16DE I4 (115 hp)",
+      "2.0L SR20DE I4 (140 hp SE-R)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Fifth-generation Sentra (B14) arrived for 1995 on a lighter platform with a 115 hp GA16DE and available 4-speed automatic, while the SE-R retained the 140 hp SR20DE with viscous limited-slip diff and sport suspension. Safety revisions added dual airbags and optional ABS, so performance trim components continue to raise complexity to 1.1. Data sourced from Wikipedia Nissan Sentra article, October 14, 2025 revision."
+  },
+  {
+    "years": [1993, 1994, 1995, 1996, 1997],
+    "make": "Nissan",
+    "model": "Altima (U13)",
+    "engines": [
+      "2.4L KA24DE I4 (150 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation Altima (U13) replaced the Stanza for 1993 with a 150 hp KA24DE, manual or automatic transmission, and raised-roof four-door sports car styling, adding optional ABS and leather on SE/GXE trims while retaining conventional service characteristics. Data sourced from Wikipedia Nissan Altima article, October 13, 2025 revision."
+  },
+  {
+    "years": [1995, 1996, 1997, 1998, 1999, 2000],
+    "make": "Nissan",
+    "model": "Maxima (A32/A33)",
+    "engines": [
+      "3.0L VQ30DE V6 (190 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Fourth- and fifth-generation Maxima (A32 1995–1999, early A33 2000) continued the 4-Door Sports Car formula with the 190 hp VQ30DE, manual or automatic transmission, and multi-link beam rear suspension; 1997+ models added side airbags and minor styling updates but remain conventional to service for a midsize V6 sedan. Data sourced from Wikipedia Nissan Maxima article, October 14, 2025 revision."
+  },
+  {
+    "years": [1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998],
+    "make": "Nissan",
+    "model": "240SX (S13/S14)",
+    "engines": [
+      "2.4L KA24E I4 (140 hp) 1989-1990",
+      "2.4L KA24DE I4 (155 hp) 1991-1998"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "3-door hatchback",
+      "2-door coupe",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "North American 240SX models used the KA24E/KA24DE 2.4L engines with five-speed manual or four-speed automatic transmissions, multi-link rear suspension, and optional limited-slip differential or HICAS rear steering on SE trims plus an ASC-built convertible. Sport suspension tuning and performance add-ons increase alignment and driveline service complexity, supporting a 1.1 difficulty modifier. Data sourced from Wikipedia Nissan 240SX article, October 8, 2025 revision."
+  },
+  {
+    "years": [1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004],
+    "make": "Nissan",
+    "model": "Pathfinder (R50)",
+    "engines": [
+      "3.3L VG33E V6 (168 hp)",
+      "3.5L VQ35DE V6 (240 hp) 2001-2004"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "4WD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Second-generation Pathfinder (R50) adopted unibody construction with a 168 hp VG33E V6, part-time 4WD system with auto hubs, and optional rear air leveling; a 240 hp VQ35DE with All-Mode automatic AWD arrived for 2001 along with higher tow ratings. Mixed driveline systems and timing belt/chain service elevate complexity to 1.1. Data sourced from Wikipedia Nissan Pathfinder article, October 14, 2025 revision."
+  },
+  {
+    "years": [1998, 1999, 2000, 2001, 2002, 2003, 2004],
+    "make": "Nissan",
+    "model": "Frontier (D22)",
+    "engines": [
+      "2.4L KA24DE I4 (143 hp)",
+      "3.3L VG33E V6 (170 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "2WD",
+      "4WD"
+    ],
+    "body_styles": [
+      "King Cab pickup",
+      "Crew Cab pickup"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "North American Frontier (D22) arrived for 1998 with the KA24DE and later VG33E V6, five-speed manual or four-speed automatic, optional 4WD, and the first compact Crew Cab pickup in the market; Desert Runner and PRO-4X packages added off-road shocks, skid plates, and limited-slip differentials. Added off-road hardware increases service complexity to 1.1. Data sourced from Wikipedia Nissan Frontier article, October 6, 2025 revision."
+  },
+  {
+    "years": [1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002],
+    "make": "Nissan",
+    "model": "Quest (A32)",
+    "engines": [
+      "3.0L VG30E V6 (151 hp)"
+    ],
+    "transmissions": [
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "FWD"
+    ],
+    "body_styles": [
+      "4-door minivan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "The first-generation Quest shared the Ford TN platform with the Mercury Villager, using the 151 hp VG30E V6, 4-speed automatic, and optional rear air suspension and dual sliding doors. Shared components and conventional systems keep difficulty at 1.0. Data sourced from Wikipedia Nissan Quest article, October 14, 2025 revision."
+  },
+  {
+    "years": [2000, 2001, 2002, 2003, 2004],
+    "make": "Nissan",
+    "model": "Xterra (WD22 early)",
+    "engines": [
+      "2.4L KA24DE I4 (143 hp) 4x2",
+      "3.3L VG33E V6 (170 hp)",
+      "3.3L VG33ER supercharged V6 (210 hp) 2002-2004"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "4-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "2WD",
+      "4WD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "The first-generation Xterra launched for the 2000 model year with body-on-frame construction, washable interior, roof basket, and choice of KA24DE inline-four or VG33E V6 (plus VG33ER supercharged from 2002) with manual or automatic gearboxes and part-time 4WD. Supercharged cooling needs, off-road suspension, and accessory roof hardware increase complexity to 1.2. Data sourced from Wikipedia Nissan Xterra article, October 13, 2025 revision."
+  },
+  {
+    "years": [1990, 1991, 1992, 1993],
+    "make": "Nissan",
+    "model": "Skyline GT-R (R32 Motorex)",
+    "engines": [
+      "2.6L RB26DETT twin-turbo I6 (276 hp)"
+    ],
+    "transmissions": [
+      "5-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Federalized Skyline GT-R R32 imports legalized by Motorex in the late 1990s brought the RB26DETT (276 hp) with ATTESA E-TS AWD and Super-HICAS rear steering to a limited U.S. customer base under show-and-display exemptions; specialized twin-turbo AWD systems and grey-market compliance requirements justify a 1.3 difficulty modifier. Data sourced from Wikipedia Nissan Skyline GT-R article, October 12, 2025 revision."
+  }
+]

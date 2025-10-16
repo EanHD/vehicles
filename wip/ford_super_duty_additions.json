@@ -1,0 +1,176 @@
+[
+  {
+    "years": [2020, 2021, 2022],
+    "make": "Ford",
+    "model": "F-250 Super Duty (Fourth generation)",
+    "engines": [
+      "6.2L Boss V8 (385 hp, 430 lb-ft)",
+      "7.3L Godzilla V8 (430 hp, 475 lb-ft)", 
+      "6.7L Power Stroke V8 turbodiesel (475 hp, 1,050 lb-ft)"
+    ],
+    "transmissions": ["10-speed TorqShift automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door regular cab pickup", "4-door crew cab pickup", "4-door SuperCab pickup"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.3,
+    "notes": "Fourth generation Super Duty (2017-2022 refresh). Heavy-duty pickup with GVWR ≥8,500 lbs. 6.7L Power Stroke diesel produces 1,050 lb-ft torque - highest in class. Diesel requires DEF fluid, particulate filter regeneration. 10R140 TorqShift transmission. Aluminum body on fully-boxed steel frame. 4WD uses electronic shift-on-fly with torque-on-demand transfer case. Commercial-grade braking system. Mobile mechanic note: Diesel oil capacity 13 quarts, requires specialized DEF system service, air filter service critical in dusty conditions. Data sourced from Wikipedia Ford Super Duty article, January 2025 revision."
+  },
+  {
+    "years": [2023, 2024, 2025],
+    "make": "Ford",
+    "model": "F-250 Super Duty (Fourth generation, 2023 refresh)",
+    "engines": [
+      "6.8L V8 (405 hp, 445 lb-ft)",
+      "7.3L Godzilla V8 (430 hp, 485 lb-ft)",
+      "6.7L Power Stroke V8 turbodiesel (500 hp, 1,200 lb-ft)"
+    ],
+    "transmissions": ["10-speed TorqShift automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door regular cab pickup", "4-door crew cab pickup", "4-door SuperCab pickup"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.3,
+    "notes": "Fourth generation 2023 major refresh. Heavy-duty pickup GVWR ≥8,500 lbs. Updated 6.7L Power Stroke now produces 1,200 lb-ft - class-leading torque. New 6.8L V8 replaces 6.2L. Upgraded 10R140 transmission with revised calibration. 12-inch digital instrument cluster standard. Tremor off-road package available with modified suspension, locking differentials. Mobile mechanic note: 2023+ models have updated emissions equipment, revised DEF injection system. Oil change intervals 10,000 miles (diesel)/7,500 miles (gas). Data sourced from Wikipedia Ford Super Duty article, January 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022],
+    "make": "Ford",
+    "model": "F-350 Super Duty SRW (Fourth generation)",
+    "engines": [
+      "6.2L Boss V8 (385 hp, 430 lb-ft)",
+      "7.3L Godzilla V8 (430 hp, 475 lb-ft)",
+      "6.7L Power Stroke V8 turbodiesel (475 hp, 1,050 lb-ft)"
+    ],
+    "transmissions": ["10-speed TorqShift automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door regular cab pickup", "4-door crew cab pickup", "4-door SuperCab pickup"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.3,
+    "notes": "Fourth generation Super Duty F-350 Single Rear Wheel (2017-2022). GVWR ≥9,900 lbs, heavier-duty frame and rear axle than F-250. Dana M275 rear axle (vs Dana M300 DRW). Same powertrain options as F-250 but higher payload capacity (7,850 lbs max). Larger brake rotors (15.9-inch front on 4WD). Mobile mechanic note: Rear differential service requires 75W-90 synthetic, capacity 4.25 quarts. Transfer case uses Mercon LV ATF. Particulate filter regeneration cycles more frequent under heavy load. Data sourced from Wikipedia Ford Super Duty article, January 2025 revision."
+  },
+  {
+    "years": [2023, 2024, 2025],
+    "make": "Ford",
+    "model": "F-350 Super Duty SRW (Fourth generation, 2023 refresh)",
+    "engines": [
+      "6.8L V8 (405 hp, 445 lb-ft)",
+      "7.3L Godzilla V8 (430 hp, 485 lb-ft)",
+      "6.7L Power Stroke V8 turbodiesel (500 hp, 1,200 lb-ft)"
+    ],
+    "transmissions": ["10-speed TorqShift automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door regular cab pickup", "4-door crew cab pickup", "4-door SuperCab pickup"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.3,
+    "notes": "Fourth generation 2023 refresh F-350 SRW. Same powertrain updates as F-250 (500 hp/1,200 lb-ft diesel). Revised suspension tuning for improved ride quality under load. Updated Pro Trailer Backup Assist. Tremor package adds rear electronic locking differential, modified dampers, 35-inch tires. Mobile mechanic note: Tremor models require specific tire rotation pattern due to wheel offset differences. Check rear differential fluid level after towing heavy loads. Data sourced from Wikipedia Ford Super Duty article, January 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022],
+    "make": "Ford",
+    "model": "F-350 Super Duty DRW (Fourth generation)",
+    "engines": [
+      "6.2L Boss V8 (385 hp, 430 lb-ft)",
+      "7.3L Godzilla V8 (430 hp, 475 lb-ft)",
+      "6.7L Power Stroke V8 turbodiesel (475 hp, 1,050 lb-ft)"
+    ],
+    "transmissions": ["10-speed TorqShift automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["4-door crew cab dually pickup"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.35,
+    "notes": "Fourth generation F-350 Dual Rear Wheel (2017-2022). Commercial-grade dually with GVWR up to 14,000 lbs. Dana M300 rear axle with dual wheels for maximum payload (7,850 lbs) and towing (37,000 lbs diesel/4WD). Wider track requires special service considerations. 17-inch dual rear wheels with load range G tires (14-ply). Mobile mechanic note: DRW requires inner/outer wheel torque specs (165 lb-ft), check for proper wheel seating. Rear brake pad replacement requires wheel removal sequence (outer then inner). Differential service 6.9 quarts 75W-140 synthetic. Higher difficulty due to dual wheel service complexity. Data sourced from Wikipedia Ford Super Duty article, January 2025 revision."
+  },
+  {
+    "years": [2023, 2024, 2025],
+    "make": "Ford",
+    "model": "F-350 Super Duty DRW (Fourth generation, 2023 refresh)",
+    "engines": [
+      "6.8L V8 (405 hp, 445 lb-ft)",
+      "7.3L Godzilla V8 (430 hp, 485 lb-ft)",
+      "6.7L Power Stroke V8 turbodiesel (500 hp, 1,200 lb-ft)"
+    ],
+    "transmissions": ["10-speed TorqShift automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["4-door crew cab dually pickup"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.35,
+    "notes": "Fourth generation 2023 refresh F-350 DRW. Updated 6.7L diesel rated at 40,000 lbs towing (conventional), 50,000 lbs with gooseneck/fifth wheel. Upgraded rear suspension with progressive-rate springs. Available with factory-installed 5th wheel hitch prep. Mobile mechanic note: 5th wheel models have frame-mounted rails requiring specific service procedures. Dual rear wheel alignment critical for tire wear - requires commercial alignment rack. Check inner wheel bearing preload during brake service. Data sourced from Wikipedia Ford Super Duty article, January 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022],
+    "make": "Ford",
+    "model": "F-450 Super Duty (Fourth generation)",
+    "engines": [
+      "6.7L Power Stroke V8 turbodiesel (475 hp, 1,050 lb-ft)",
+      "7.3L Godzilla V8 (430 hp, 475 lb-ft)"
+    ],
+    "transmissions": ["6-speed TorqShift automatic (6.7L)", "10-speed TorqShift automatic (7.3L)"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door regular cab chassis", "4-door crew cab chassis"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.35,
+    "notes": "Fourth generation F-450 chassis cab (2017-2022). Medium-duty commercial truck, GVWR 14,000-16,500 lbs. Designed for upfitter body installation (dump, flatbed, service body). 6.7L diesel uses TorqShift 6-speed (6R140) due to extreme torque demands. Dana M300 rear axle with 4.88-6.20 axle ratios. Hydraulic power take-off (PTO) capable. Mobile mechanic note: Chassis cab requires commercial-grade service procedures. Transmission service uses Mercon ULV (not standard ATF). Air brake prep available. Upfitter electrical interface requires specific diagnostic tools. Higher difficulty due to commercial specifications. Data sourced from Wikipedia Ford Super Duty article, January 2025 revision."
+  },
+  {
+    "years": [2023, 2024, 2025],
+    "make": "Ford",
+    "model": "F-450 Super Duty (Fourth generation, 2023 refresh)",
+    "engines": [
+      "6.7L Power Stroke V8 turbodiesel (500 hp, 1,200 lb-ft)",
+      "7.3L Godzilla V8 (430 hp, 485 lb-ft)"
+    ],
+    "transmissions": ["6-speed TorqShift automatic (6.7L)", "10-speed TorqShift automatic (7.3L)"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door regular cab chassis", "4-door crew cab chassis"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.35,
+    "notes": "Fourth generation 2023 refresh F-450. Updated 6.7L diesel with 1,200 lb-ft torque. GCWR up to 50,000 lbs with gooseneck/5th wheel. Available with Limited Slip or electronic locking rear differential. Integrated trailer brake controller standard. Mobile mechanic note: 2023+ models require updated scan tool software for DPF regeneration procedures. Dual alternator systems common on commercial builds. PTO clutch service requires Ford-specific diagnostic adapter. Data sourced from Wikipedia Ford Super Duty article, January 2025 revision."
+  },
+  {
+    "years": [2020, 2021, 2022],
+    "make": "Ford",
+    "model": "F-550 Super Duty (Fourth generation)",
+    "engines": [
+      "6.7L Power Stroke V8 turbodiesel (475 hp, 1,050 lb-ft)"
+    ],
+    "transmissions": ["6-speed TorqShift automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door regular cab chassis", "4-door crew cab chassis"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.4,
+    "notes": "Fourth generation F-550 chassis cab (2017-2022). Heaviest Super Duty, GVWR 17,500-19,500 lbs. Medium-duty commercial class. Diesel-only (6.7L Power Stroke). Dana M350 planetary rear axle with up to 7.27 ratio. 19.5-inch wheels with commercial load range tires. Hydraulic brakes with larger calipers (not air brakes, but commercial-rated). Mobile mechanic note: F-550 requires commercial-grade brake fluid (DOT 3 Heavy Duty). Rear axle service 11.5 quarts 75W-140 synthetic. Transmission oil cooler critical - check for leaks during service. Upfitter wiring can interfere with diagnostic procedures. Very high difficulty due to commercial specifications and specialized components. Data sourced from Wikipedia Ford Super Duty article, January 2025 revision."
+  },
+  {
+    "years": [2023, 2024, 2025],
+    "make": "Ford",
+    "model": "F-550 Super Duty (Fourth generation, 2023 refresh)",
+    "engines": [
+      "6.7L Power Stroke V8 turbodiesel (500 hp, 1,200 lb-ft)"
+    ],
+    "transmissions": ["6-speed TorqShift automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door regular cab chassis", "4-door crew cab chassis"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.4,
+    "notes": "Fourth generation 2023 refresh F-550. Updated 6.7L diesel producing 1,200 lb-ft. GCWR up to 52,500 lbs with gooseneck. Available with factory-installed compressed air system for air tools. Dual 397-amp alternator option for mobile service bodies. Mobile mechanic note: Air system (if equipped) requires drain moisture traps during service. Check PTO engagement clutch if equipped. Transmission service interval 50,000 miles under severe duty (towing). Diesel particulate filter regeneration more frequent due to commercial use - educate customers on active regen procedure. Data sourced from Wikipedia Ford Super Duty article, January 2025 revision."
+  }
+]

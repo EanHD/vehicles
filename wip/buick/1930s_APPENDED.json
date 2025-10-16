@@ -1,0 +1,93 @@
+[
+  {
+    "years": [1930, 1931, 1932, 1933, 1934, 1935],
+    "make": "Buick",
+    "model": "Series 40 Special",
+    "engines": [
+      "3.6L inline-8 (77-93 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.25,
+    "notes": "Entry-level Buick Series 40 through Great Depression era (1930-1935). Inline-8 engine. Multiple body styles. RWD. Mechanical brakes, 6-volt electrical system. Difficulty modifier 1.25 reflects early 1930s brass-era proximity, Depression-era production variations, mechanical brake systems, and extreme parts scarcity. Data sourced from Wikipedia Buick Series 40 article, December 19, 2024 revision."
+  },
+  {
+    "years": [1936, 1937, 1938, 1939, 1940, 1941, 1942, 1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958],
+    "make": "Buick",
+    "model": "Century (First/Second generation)",
+    "engines": [
+      "4.0L inline-8 (120-165 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "2-speed Dynaflow automatic (1948+)"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan", "4-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "First and second generation Century (1936-1958, wartime gap 1943-1945). Performance model with Roadmaster engine in lighter Special body. Name signified 100 mph capability. Buick straight-8 engines. Multiple body styles. Difficulty modifier 1.2 reflects 1930s-1950s vintage complexity, WWII production gap, and transition-era mechanical systems. Data sourced from Wikipedia Buick Century article, December 19, 2024 revision."
+  },
+  {
+    "years": [1936, 1937, 1938, 1939, 1940, 1941, 1942, 1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953],
+    "make": "Buick",
+    "model": "Roadmaster (First generation)",
+    "engines": [
+      "5.2L inline-8 (120-170 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan", "4-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "First generation flagship Roadmaster (1936-1953, wartime production gap). Buick straight-8 engine. Luxury full-size sedan. Multiple upscale body styles. RWD body-on-frame. Difficulty modifier 1.2 reflects 1930s-1950s vintage complexity, WWII era production variations, and obsolete systems. Data sourced from Wikipedia Buick Roadmaster article, December 19, 2024 revision."
+  },
+  {
+    "years": [1936, 1937, 1938, 1939, 1940, 1941, 1942],
+    "make": "Buick",
+    "model": "Limited",
+    "engines": [
+      "5.2L inline-8 (141 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "4-door limousine"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.25,
+    "notes": "Top-of-line luxury series (1936-1942). Buick straight-8 engine. Ultra-luxury appointments, long wheelbase. RWD. Sedan and limousine body styles. Discontinued due to WWII, not revived postwar. Difficulty modifier 1.25 reflects 1930s-1940s vintage luxury complexity, ultra-rare limited production, and specialized restoration requirements. Data sourced from Wikipedia Buick Limited article, December 19, 2024 revision."
+  },
+  {
+    "years": [1939, 1940, 1941],
+    "make": "Buick",
+    "model": "Series 50 Super",
+    "engines": [
+      "4.0L inline-8 (107-115 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "2-door convertible", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Series 50 Super mid-range model (1939-1941, later continued as just 'Super' postwar). Buick inline-8 engine. Multiple body styles. RWD. Positioned between Special and Roadmaster. Production halted 1942 for WWII. Difficulty modifier 1.2 reflects late-1930s/early-1940s vintage complexity and pre-war construction. Data sourced from Wikipedia Buick Super article, December 19, 2024 revision."
+  }
+]

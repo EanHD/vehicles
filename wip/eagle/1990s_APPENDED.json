@@ -1,0 +1,72 @@
+[
+  {
+    "years": [1990, 1991, 1992],
+    "make": "Eagle",
+    "model": "Premier",
+    "engines": ["2.5L I4 (100 hp)", "3.0L V6 PRV (150 hp)"],
+    "transmissions": ["5-speed manual", "4-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Eagle Premier continued production through 1992. AMC/Renault design with PRV V6 engine. Replaced by LH platform cars. Front-wheel drive with longitudinal engine layout. Timing belt service required. Data sourced from Wikipedia Eagle Premier article, January 2025 revision."
+  },
+  {
+    "years": [1990, 1991, 1992, 1993, 1994, 1995, 1996],
+    "make": "Eagle",
+    "model": "Summit",
+    "engines": ["1.5L I4 (92 hp)", "1.8L I4 (113 hp)", "2.4L I4 (141 hp)"],
+    "transmissions": ["5-speed manual", "4-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["2-door coupe", "3-door hatchback", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Eagle Summit rebadged Mitsubishi Mirage/Lancer. Built at Diamond-Star Motors (Normal, IL) and imported from Japan. AWD available 1990-1994. Timing belt engines require regular maintenance. Data sourced from Wikipedia Eagle Summit article, January 2025 revision."
+  },
+  {
+    "years": [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998],
+    "make": "Eagle",
+    "model": "Talon",
+    "engines": ["2.0L I4 DOHC (135 hp)", "2.0L I4 DOHC turbo (190 hp)", "2.0L I4 DOHC turbo (210 hp)"],
+    "transmissions": ["5-speed manual", "4-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Eagle Talon DSM (Diamond-Star Motors) platform shared with Mitsubishi Eclipse and Plymouth Laser. Built in Normal, Illinois. AWD TSi/TSi AWD models feature turbo 4G63 engine, viscous limited-slip center differential. Timing belt critical service item (interference engine). Transfer case and turbo maintenance adds complexity. Data sourced from Wikipedia Eagle Talon article, January 2025 revision."
+  },
+  {
+    "years": [1993, 1994, 1995, 1996],
+    "make": "Eagle",
+    "model": "Summit Wagon",
+    "engines": ["1.8L I4 (113 hp)", "2.4L I4 (136 hp)"],
+    "transmissions": ["5-speed manual", "4-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["5-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Eagle Summit Wagon rebadged Mitsubishi RVR/Expo. Tall-wagon body style with available AWD. Imported from Japan. Timing belt maintenance required. AWD system adds modest service complexity. Data sourced from Wikipedia Eagle Summit article, January 2025 revision."
+  },
+  {
+    "years": [1993, 1994, 1995, 1996, 1997],
+    "make": "Eagle",
+    "model": "Vision",
+    "engines": ["3.3L V6 (153 hp)", "3.5L V6 (214 hp)"],
+    "transmissions": ["4-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Eagle Vision LH platform shared with Dodge Intrepid and Chrysler Concorde. Front-wheel drive full-size sedan with cab-forward design. Timing chain V6 engines. TSi performance variant available with 3.5L V6. Data sourced from Wikipedia Eagle Vision article, January 2025 revision."
+  }
+]

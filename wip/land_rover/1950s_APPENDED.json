@@ -1,0 +1,30 @@
+[
+  {
+    "years": [1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958],
+    "make": "Land Rover",
+    "model": "Series I",
+    "engines": ["1.6L I4 petrol (50 hp)", "2.0L I4 petrol (52 hp)", "2.0L I4 diesel (52 hp)"],
+    "transmissions": ["4-speed manual"],
+    "region": "British",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door pickup", "2-door soft-top", "4-door station wagon"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "First-generation Series I Land Rover (1948-1958). Leaf spring body-on-frame construction, permanent four-wheel drive. Available in 80-inch and 86-inch wheelbases (88-inch from 1956). Utilitarian agricultural/military vehicle. Minimal electronics, basic mechanical systems. Virtually unavailable in North America during production. Vintage parts scarcity and specialist knowledge required. Data sourced from Wikipedia Land Rover Series article, January 2025 revision."
+  },
+  {
+    "years": [1958, 1959, 1960, 1961],
+    "make": "Land Rover",
+    "model": "Series II",
+    "engines": ["2.0L I4 petrol (52 hp)", "2.25L I4 petrol (77 hp)", "2.0L I4 diesel (52 hp)"],
+    "transmissions": ["4-speed manual"],
+    "region": "British",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door pickup", "2-door soft-top", "4-door station wagon"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Series II Land Rover (1958-1961). Refined version of Series I with improved headlamp positioning and larger engine. Leaf spring body-on-frame, permanent four-wheel drive. 88-inch and 109-inch wheelbases. Basic mechanical design with minimal electronics. Limited North American availability (grey market). Diesel timing gear service critical. Data sourced from Wikipedia Land Rover Series article, January 2025 revision."
+  }
+]

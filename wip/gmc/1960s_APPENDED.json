@@ -1,0 +1,79 @@
+[
+  {
+    "years": [1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969],
+    "make": "GMC",
+    "model": "C/K Series (First generation)",
+    "engines": [
+      "4.8L (292 cu in) inline-6",
+      "5.0L (305 cu in) V6",
+      "5.7L (351 cu in) V6",
+      "4.6L (283 cu in) V8",
+      "5.0L (307 cu in) V8",
+      "5.4L (327 cu in) V8",
+      "5.7L (350 cu in) V8",
+      "6.5L (396 cu in) V8"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed manual",
+      "2-speed Powerglide automatic",
+      "3-speed Turbo-Hydramatic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": [
+      "Regular cab pickup",
+      "Crew cab pickup",
+      "Chassis cab"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First generation C/K series full-size pickup trucks. C-series was 2WD, K-series was 4WD. Platform shared with Chevrolet C/K trucks. Available in C10/K10 (1/2-ton), C20/K20 (3/4-ton), and C30/K30 (1-ton) configurations. Fleetside and Stepside bed options. Standard service complexity for 1960s light/medium-duty truck. Data sourced from Wikipedia Chevrolet C/K article, December 19, 2024 revision."
+  },
+  {
+    "years": [1964, 1965, 1966, 1967, 1968, 1969, 1970],
+    "make": "GMC",
+    "model": "Handi-Van / Handi-Bus",
+    "engines": [
+      "2.5L (153 cu in) inline-4",
+      "3.2L (194 cu in) inline-6",
+      "3.8L (230 cu in) inline-6",
+      "4.1L (250 cu in) inline-6"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "2-speed Powerglide automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["Compact van", "Passenger van (Handi-Bus)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Compact forward-control van based on Chevrolet Corvair platform and later Chevy II platform. Handi-Van was cargo variant, Handi-Bus was passenger variant. Rear-engine layout until 1967, then front-engine. Unique compact van design for 1960s. Standard service complexity. Data sourced from Wikipedia Chevrolet Corvair / GMC Handi-Van articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1969],
+    "make": "GMC",
+    "model": "Jimmy (First generation, K5 platform)",
+    "engines": [
+      "4.8L (292 cu in) inline-6",
+      "5.0L (307 cu in) V8",
+      "5.7L (350 cu in) V8",
+      "6.5L (396 cu in) V8"
+    ],
+    "transmissions": [
+      "3-speed manual",
+      "4-speed manual",
+      "3-speed Turbo-Hydramatic automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First generation full-size SUV based on C/K pickup platform (K5 Blazer twin). Body-on-frame construction with removable hardtop. Introduced in 1969 model year as GMC's answer to Chevrolet K5 Blazer and Ford Bronco. Standard 4WD with part-time transfer case. Standard service complexity for 1960s full-size SUV. Data sourced from Wikipedia Chevrolet K5 Blazer article, December 19, 2024 revision."
+  }
+]

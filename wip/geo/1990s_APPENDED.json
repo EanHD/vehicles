@@ -1,0 +1,58 @@
+[
+  {
+    "years": [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997],
+    "make": "Geo",
+    "model": "Metro",
+    "engines": ["1.0L I3 (55 hp)", "1.0L I3 (70 hp)"],
+    "transmissions": ["5-speed manual", "3-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door hatchback", "3-door hatchback", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Geo Metro continued through 1997 (rebadged Suzuki Swift). Built at CAMI Automotive Canada. LSi variant introduced 1995 with updated styling. Fuel-efficient three-cylinder subcompact. Timing belt maintenance required. Became Chevrolet Metro 1998. Data sourced from Wikipedia Geo Metro article, January 2025 revision."
+  },
+  {
+    "years": [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997],
+    "make": "Geo",
+    "model": "Prizm",
+    "engines": ["1.6L I4 (102 hp)", "1.8L I4 (115 hp)"],
+    "transmissions": ["5-speed manual", "3-speed automatic", "4-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Geo Prizm rebadged Toyota Corolla through 1997. Built at NUMMI California. Second generation (1993-1997) based on E100 Corolla platform. Timing belt engines. Became Chevrolet Prizm 1998. Data sourced from Wikipedia Geo Prizm article, January 2025 revision."
+  },
+  {
+    "years": [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997],
+    "make": "Geo",
+    "model": "Tracker",
+    "engines": ["1.6L I4 (80 hp)", "1.6L I4 (95 hp)"],
+    "transmissions": ["5-speed manual", "3-speed automatic", "4-speed automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door convertible SUV", "2-door hardtop SUV", "4-door SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Geo Tracker continued through 1997 (rebadged Suzuki Sidekick). Built at CAMI Automotive Canada. Second generation (1996-1997) added 4-door model. Body-on-frame compact SUV with part-time 4WD. Became Chevrolet Tracker 1998. Data sourced from Wikipedia Geo Tracker article, January 2025 revision."
+  },
+  {
+    "years": [1990, 1991, 1992, 1993],
+    "make": "Geo",
+    "model": "Storm",
+    "engines": ["1.6L I4 SOHC (95 hp)", "1.6L I4 DOHC (130 hp)", "1.8L I4 DOHC (140 hp)"],
+    "transmissions": ["5-speed manual", "3-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door coupe", "3-door hatchback"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Geo Storm rebadged Isuzu Impulse (second generation). Sporty coupe with pop-up headlights. GSi variant featured DOHC engine and sport suspension. Front-wheel drive. Timing belt maintenance required. Discontinued 1993 with no direct replacement. Data sourced from Wikipedia Geo Storm article, January 2025 revision."
+  }
+]

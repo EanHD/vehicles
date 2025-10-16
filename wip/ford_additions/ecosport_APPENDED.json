@@ -1,0 +1,21 @@
+[
+  {
+    "years": [2018, 2019, 2020, 2021, 2022],
+    "make": "Ford",
+    "model": "EcoSport (Second Generation North America)",
+    "engines": [
+      "1.0L EcoBoost turbo I3 (123 hp)",
+      "2.0L GDI I4 (166 hp)"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": ["FWD", "AWD"],
+    "body_styles": ["4-door subcompact crossover SUV"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Subcompact crossover sold in North America 2018-2022. Built in India (2018-2021) and Brazil (early 2018). Based on Ford B-platform (Fiesta). Smallest SUV in Ford lineup. Discontinued in North America 2022 replaced by Maverick. 1.0L EcoBoost requires careful timing belt maintenance. Data sourced from Wikipedia Ford EcoSport article, January 2025 revision."
+  }
+]

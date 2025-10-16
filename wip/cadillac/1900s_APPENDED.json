@@ -1,0 +1,57 @@
+[
+  {
+    "years": [1902, 1903, 1904, 1905, 1906, 1907, 1908],
+    "make": "Cadillac",
+    "model": "Runabout and Tonneau",
+    "engines": [
+      "1.6L single-cylinder (10 hp, 1902-1908)"
+    ],
+    "transmissions": [
+      "2-speed planetary"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-seat runabout", "4-seat tonneau"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.5,
+    "notes": "Cadillac's first production automobiles (1902-1908). Single-cylinder engine under seat. Planetary transmission. Runabout (2-seat) and Tonneau (rear-entry 4-seat) body styles. Tiller steering initially, steering wheel from 1904. Won Dewar Trophy 1908 for interchangeable parts demonstration. Difficulty modifier 1.5 (highest) reflects turn-of-century construction, single-cylinder engine, pioneering technology, hand-crafted components, and virtually no parts availability. Data sourced from Wikipedia Cadillac Runabout article, December 19, 2024 revision."
+  },
+  {
+    "years": [1904, 1905],
+    "make": "Cadillac",
+    "model": "Model B/C",
+    "engines": [
+      "1.6L single-cylinder (10 hp)"
+    ],
+    "transmissions": [
+      "2-speed planetary"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-seat runabout", "4-seat touring"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.5,
+    "notes": "Model B and Model C designations (1904-1905). Single-cylinder engines. Improved versions of original runabout design. Chain drive to rear axle. Brass radiators, oil/kerosene lamps, hand-crank starting. Difficulty modifier 1.5 reflects early brass-era construction, single-cylinder technology, extreme rarity, hand-fitted components, and virtually no parts availability. Data sourced from Wikipedia Cadillac Model B/C articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1906, 1907, 1908],
+    "make": "Cadillac",
+    "model": "Model K and M",
+    "engines": [
+      "4.0L inline-4 (30 hp, Model K)",
+      "2.5L inline-4 (20 hp, Model M)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-seat touring", "4-door limousine"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.45,
+    "notes": "Model K and M four-cylinder models (1906-1908). First Cadillac four-cylinder engines. Model K with larger 4.0L engine, Model M with 2.5L. Transitioning from single-cylinder to four-cylinder production. Brass-era construction with improved reliability. Difficulty modifier 1.45 reflects early brass-era four-cylinder complexity, pioneering multi-cylinder technology, hand-fitted construction, and near-zero parts availability. Data sourced from Wikipedia Cadillac Model K/M articles, December 19, 2024 revision."
+  }
+]

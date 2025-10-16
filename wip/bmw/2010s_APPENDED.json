@@ -1,0 +1,457 @@
+[
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "make": "BMW",
+    "model": "2 Series (F22/F23)",
+    "engines": [
+      "2.0L N20/B48 turbo I4 (240-248 hp) 228i/230i",
+      "3.0L N55/B58 turbo I6 (320-335 hp) M235i/M240i",
+      "3.0L N55 twin-turbo I6 (365 hp) M2"
+    ],
+    "transmissions": [
+      "8-speed automatic",
+      "6-speed manual",
+      "7-speed dual-clutch (M2 Competition)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Compact rear-drive coupe/convertible with optional xDrive and performance-oriented M Sport cooling, limited-slip differential, and adaptive dampers that require BMW ISTA calibrations after suspension or alignment work. Turbocharged engines use direct injection and require premium fuel with carbon-cleaning intervals. Data sourced from Wikipedia BMW 2 Series (F22) article, October 9, 2025 revision."
+  },
+  {
+    "years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "make": "BMW",
+    "model": "3 Series (F30/F31/F34)",
+    "engines": [
+      "2.0L N20/B48 turbo I4 (180-248 hp) 320i/328i/330i",
+      "3.0L N55/B58 turbo I6 (300-320 hp) 335i/340i",
+      "2.0L B48 turbo I4 + e-motor (248 hp combined) 330e iPerformance"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "5-door hatchback (Gran Turismo)",
+      "5-door wagon (limited availability)"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "F30 family introduced electric power steering, optional adaptive dampers, and xDrive across trims. 330e PHEV uses a 7.6 kWh HV battery under the trunk with HV safety requirements; manual transmissions retained on select trims through 2018. Advanced driver assistance (Active Cruise, Lane Departure) demand ISTA calibration following sensor replacement. Data sourced from Wikipedia BMW 3 Series (F30) article, October 5, 2025 revision."
+  },
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "make": "BMW",
+    "model": "4 Series (F32/F33/F36)",
+    "engines": [
+      "2.0L N20/B48 turbo I4 (240-248 hp) 428i/430i",
+      "3.0L N55/B58 turbo I6 (300-320 hp) 435i/440i",
+      "3.0L S55 twin-turbo I6 (425 hp) M4"
+    ],
+    "transmissions": [
+      "8-speed automatic",
+      "6-speed manual",
+      "7-speed dual-clutch (M4)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "2-door convertible",
+      "5-door liftback (Gran Coupe)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "F32/F33/F36 lineup leverages wider front track and adaptive suspension tuning; M4 models add carbon-ceramic brakes and active M differential requiring torque sensor resets after service. Options such as full LED headlamps and HUD demand coding/aiming post-replacement. Data sourced from Wikipedia BMW 4 Series (F32) article, October 5, 2025 revision."
+  },
+  {
+    "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "make": "BMW",
+    "model": "5 Series (F10/F11)",
+    "engines": [
+      "2.0L N20 turbo I4 (240 hp) 528i",
+      "3.0L N55 turbo I6 (300 hp) 535i",
+      "4.4L N63 twin-turbo V8 (400-445 hp) 550i",
+      "4.4L S63 twin-turbo V8 (560 hp) M5"
+    ],
+    "transmissions": [
+      "8-speed automatic",
+      "6-speed manual (535i/550i)",
+      "7-speed dual-clutch (M5)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Sixth-generation F10 brought optional xDrive, adaptive dampers, and integral active steering. Twin-turbo V8 models require valve stem seal and timing chain inspection; aluminum front subframes demand proper torque sequence. Active driver aids (night vision, lane keep) need BMW ISTA calibration after service. Data sourced from Wikipedia BMW 5 Series (F10) article, October 5, 2025 revision."
+  },
+  {
+    "years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "make": "BMW",
+    "model": "6 Series (F06/F12/F13)",
+    "engines": [
+      "3.0L N55 turbo I6 (315 hp) 640i",
+      "4.4L N63 twin-turbo V8 (445 hp) 650i",
+      "4.4L S63 twin-turbo V8 (560-600 hp) M6"
+    ],
+    "transmissions": [
+      "8-speed automatic",
+      "6-speed manual (M6)",
+      "7-speed dual-clutch (M6)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "2-door convertible",
+      "4-door Gran Coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Gran Turismo flagship uses carbon fiber roof options, adaptive anti-roll, and active rear steering on xDrive models, all requiring calibration. N63 service includes valve stem seal, injectors, and turbo cooling campaigns. Heads-up display and night vision components need coding after replacement. Data sourced from Wikipedia BMW 6 Series (F12) article, September 25, 2025 revision."
+  },
+  {
+    "years": [
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "make": "BMW",
+    "model": "7 Series (G11/G12 pre-LCI)",
+    "engines": [
+      "3.0L B58 turbo I6 (320 hp) 740i",
+      "4.4L N63 twin-turbo V8 (445-523 hp) 750i/750i xDrive",
+      "2.0L B48 turbo I4 + e-motor (322 hp combined) 740e xDrive iPerformance"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "4-door long-wheelbase sedan"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Carbon Core chassis integrates CFRP with steel and aluminum, while Executive Drive Pro and rear-axle steering require ISTA calibration after suspension service. 740e plug-in hybrid uses lithium-ion HV battery under rear seats with refrigerant-cooled modules; HV isolation protocols mandatory. Gesture Control, Bowers & Wilkins audio, and HUD need coding post replacement. Data sourced from Wikipedia BMW 7 Series (G11) article, October 11, 2025 revision."
+  },
+  {
+    "years": [
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "make": "BMW",
+    "model": "X1 (F48)",
+    "engines": [
+      "2.0L B48 turbo I4 (228 hp) xDrive28i"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Second-generation X1 moved to UKL front-drive architecture but North American models remained AWD. Offers optional adjustable damping and head-up display needing coding. Tight packaging around transverse engine requires special service tools for timing chain and water pump access. Data sourced from Wikipedia BMW X1 article, September 9, 2025 revision."
+  },
+  {
+    "years": [
+      2018,
+      2019
+    ],
+    "make": "BMW",
+    "model": "X2 (F39)",
+    "engines": [
+      "2.0L B48 turbo I4 (228 hp) xDrive28i",
+      "2.0L B48 turbo I4 (302 hp) M35i xDrive"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door coupe SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Coupe-style crossover shares UKL platform with X1. M35i gets larger brakes and limited-slip front differential requiring correct torque specs and ISTA calibration for xDrive clutch packs. Driver assistance camera/sensor suite located in grille demands recalibration after front fascia repairs. Data sourced from Wikipedia BMW X2 article, September 16, 2025 revision."
+  },
+  {
+    "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "make": "BMW",
+    "model": "X3 (F25)",
+    "engines": [
+      "2.0L N20 turbo I4 (240 hp) xDrive28i/sDrive28i",
+      "3.0L N55 turbo I6 (300 hp) xDrive35i",
+      "3.0L N57 turbo diesel I6 (255 hp) xDrive35d"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.1,
+    "notes": "Second-gen X3 introduced electric power steering, optional Dynamic Handling pack, and start-stop. Diesel xDrive35d adds DEF system and high-pressure injectors; correct service intervals are critical. Optional adaptive damping and head-up display require coding after component replacement. Data sourced from Wikipedia BMW X3 article, September 29, 2025 revision."
+  },
+  {
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "make": "BMW",
+    "model": "X4 (F26)",
+    "engines": [
+      "2.0L B48 turbo I4 (240 hp) xDrive28i",
+      "3.0L N55 turbo I6 (300 hp) xDrive35i",
+      "3.0L B58 turbo I6 (355 hp) M40i"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door coupe SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Coupe-profile SAV adds torque vectoring and optional adaptive suspension. M40i uses performance cooling and larger M Sport brakes requiring careful bleed and ISTA ABS initialization. Surround View cameras and Parking Assistant need calibration after body repair. Data sourced from Wikipedia BMW X4 article, October 14, 2025 revision."
+  },
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "make": "BMW",
+    "model": "X5 (F15)",
+    "engines": [
+      "3.0L N55/B58 turbo I6 (300-335 hp) sDrive35i/xDrive35i",
+      "4.4L N63 twin-turbo V8 (445-567 hp) xDrive50i/X5 M",
+      "3.0L N57 turbo diesel I6 (255 hp) xDrive35d",
+      "2.0L N20 turbo I4 + e-motor (308 hp combined) xDrive40e PHEV"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": true,
+    "diesel": true,
+    "difficulty_modifier": 1.3,
+    "notes": "Spartanburg-built F15 introduced optional third-row, air suspension, and advanced ADAS. xDrive40e plug-in hybrid uses a 9.2 kWh HV battery and high-voltage A/C compressor requiring isolation procedures; diesels use SCR/DEF aftertreatment. Adaptive M suspension and active roll stabilization need calibration after component replacement. Data sourced from Wikipedia BMW X5 article, September 29, 2025 revision."
+  },
+  {
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "make": "BMW",
+    "model": "X6 (F16)",
+    "engines": [
+      "3.0L N55/B58 turbo I6 (300-335 hp) xDrive35i/xDrive40i",
+      "4.4L N63 twin-turbo V8 (445-567 hp) xDrive50i/X6 M",
+      "3.0L N57 turbo diesel I6 (255 hp) xDrive35d"
+    ],
+    "transmissions": [
+      "8-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door coupe SUV"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "Second-gen Sports Activity Coupe adds adaptive dampers, rear air suspension, and optional active roll stabilization requiring ride-height calibration. X6 M’s AWD with torque vectoring and 6-piston front brakes demand specialized bleed procedures. Diesel DEF and particulate filters increase maintenance complexity. Data sourced from Wikipedia BMW X6 article, October 10, 2025 revision."
+  },
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "make": "BMW",
+    "model": "i3 (I01)",
+    "engines": [
+      "125 kW rear electric motor (170 hp) 22/33/42 kWh battery",
+      "135 kW rear electric motor (181 hp) i3s 33/42 kWh battery",
+      "Range extender: 0.65L two-cylinder gasoline generator"
+    ],
+    "transmissions": [
+      "Single-speed reduction gear"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "5-door hatchback"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Carbon fiber Life module EV with aluminum Drive module. HV battery packs (60–120 Ah upgrades) need insulated PPE, cooling loop bleed, and HV isolation tests; range-extender models require vented fuel service procedures. Lightweight CFRP panels demand specialized adhesives during collision repair. Data sourced from Wikipedia BMW i3 article, October 15, 2025 revision."
+  },
+  {
+    "years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "make": "BMW",
+    "model": "i8 (I12/I15)",
+    "engines": [
+      "1.5L B38 turbo I3 + dual electric motors (357-369 hp combined)"
+    ],
+    "transmissions": [
+      "6-speed automatic (ICE)",
+      "2-speed automatic (front electric axle)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "2-door roadster"
+    ],
+    "hybrid": true,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Plug-in hybrid sports car with carbon-fiber Life module, gullwing doors, and complex cooling circuits. 11.6 kWh HV battery (post-2018 upgrade) requires isolation and battery conditioning; dual transmissions necessitate precise synchronization using ISTA. Scissor doors demand hinge alignment fixtures during collision repair. Data sourced from Wikipedia BMW i8 article, October 7, 2025 revision."
+  }
+]

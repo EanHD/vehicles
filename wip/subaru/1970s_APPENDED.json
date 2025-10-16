@@ -1,0 +1,30 @@
+[
+  {
+    "years": [1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979],
+    "make": "Subaru",
+    "model": "Leone/DL/GL",
+    "engines": ["1.4L EA-63 boxer H4 (61 hp)", "1.6L EA-71 boxer H4 (67 hp)"],
+    "transmissions": ["4-speed manual", "5-speed manual", "3-speed automatic"],
+    "region": "Japanese import",
+    "drivetrain": ["FWD", "4WD"],
+    "body_styles": ["2-door coupe", "4-door sedan", "5-door wagon", "3-door hatchback"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Leone (DL/GL in North America) compact car. First Subaru models widely sold in North American market. Available in multiple body styles. Front-wheel drive standard, part-time four-wheel drive optional on some models. Established Subaru's presence in U.S. market. Data sourced from Wikipedia Subaru Leone article, December 19, 2024 revision."
+  },
+  {
+    "years": [1978, 1979],
+    "make": "Subaru",
+    "model": "BRAT",
+    "engines": ["1.6L EA-71 boxer H4 (67 hp)"],
+    "transmissions": ["4-speed manual", "5-speed manual", "3-speed automatic"],
+    "region": "Japanese import",
+    "drivetrain": ["FWD", "4WD"],
+    "body_styles": ["2-door compact pickup"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Bi-drive Recreational All-terrain Transporter (BRAT) compact pickup launched 1978. Features open bed with rear-facing jump seats to circumvent chicken tax on light trucks. Available with FWD or part-time 4WD. Unique and practical vehicle that became cult classic. Data sourced from Wikipedia Subaru BRAT article, December 19, 2024 revision."
+  }
+]

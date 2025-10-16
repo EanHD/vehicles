@@ -1,0 +1,16 @@
+[
+  {
+    "years": [1948, 1949],
+    "make": "Land Rover",
+    "model": "Series I",
+    "engines": ["1.6L I4 petrol (50 hp)"],
+    "transmissions": ["4-speed manual"],
+    "region": "British",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door soft-top utility vehicle"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Original Series I Land Rover launch (1948-1958). Aluminum body panels over steel framework, permanent four-wheel drive with lockable center differential. 80-inch wheelbase only at launch. Designed as agricultural utility vehicle for post-war Britain. Not officially exported to North America. Basic mechanical systems with minimal complexity. Vintage parts scarcity requires specialist knowledge. Data sourced from Wikipedia Land Rover Series article, January 2025 revision."
+  }
+]

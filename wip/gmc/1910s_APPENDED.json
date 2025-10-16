@@ -1,0 +1,60 @@
+[
+  {
+    "years": [1916, 1917, 1918, 1919],
+    "make": "GMC",
+    "model": "Model 16 ¾-ton Truck",
+    "engines": [
+      "3.3L (200 cu in) inline-4"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": [
+      "Pickup",
+      "Chassis cab",
+      "Panel delivery"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "GMC Model 16 three-quarter-ton light commercial truck (1916-1919). Featured inline-4 gasoline engine, brass-era construction with wooden-spoke wheels. Hand-crank starting, mechanical brakes on rear wheels only, magneto ignition. Difficulty modifier 1.4 reflects brass-era fragile construction, hand-fitted components, obsolete ignition/brake systems, wooden components requiring specialized restoration, and near-zero parts availability. Data sourced from Wikipedia GMC truck history articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1917, 1918, 1919],
+    "make": "GMC",
+    "model": "K-16 1-ton Troop Carrier",
+    "engines": [
+      "4.9L (299 cu in) inline-4"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["Military troop carrier"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "GMC K-16 one-ton military troop carrier for WWI U.S. Army use (1917-1919). Heavy-duty inline-4 engine, reinforced frame for military service. Featured open-cab design with troop seating area. Difficulty modifier 1.4 reflects WWI-era brass construction, military-spec variations, hand-fitted components, magneto ignition, mechanical brakes, wooden components, and extreme parts scarcity. Data sourced from Wikipedia GMC truck / WWI military vehicle articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1917, 1918],
+    "make": "GMC",
+    "model": "World War I Ambulance Chassis",
+    "engines": [
+      "4.9L (299 cu in) inline-4"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["Military ambulance chassis"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "GMC ambulance chassis for U.S. Army Medical Corps in WWI (1917-1918). Heavy-duty truck chassis with ambulance body by various coachbuilders. Featured inline-4 engine and reinforced suspension for medical transport. Difficulty modifier 1.4 reflects WWI brass-era construction, military ambulance specifications, hand-fitted components, magneto ignition, mechanical brakes only, wooden body components, and near-zero parts availability. Data sourced from Wikipedia GMC truck / WWI medical vehicle articles, December 19, 2024 revision."
+  }
+]

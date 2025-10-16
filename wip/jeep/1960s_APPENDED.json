@@ -1,0 +1,72 @@
+[
+  {
+    "years": [1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969],
+    "make": "Jeep",
+    "model": "CJ-5",
+    "engines": ["2.2L (134 cu in) Hurricane I4", "3.2L (192 cu in) Perkins diesel I4", "3.7L (225 cu in) Buick Dauntless V6 (155 hp)"],
+    "transmissions": ["3-speed manual", "4-speed manual"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door open-top utility vehicle"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.3,
+    "notes": "Optional Perkins 192 diesel I4 available 1961-1965. Buick 225 Dauntless V6 introduced in 1965, became dominant by 1968 (75% of sales). Power steering was $81 option. Vintage leaf spring suspension, Dana axles, manual locking hubs. Manual choke carburetors, points-based ignition, and 1960s-era electrical systems require specialized vintage vehicle knowledge. Diesel variants require diesel service expertise. Data sourced from Wikipedia Jeep CJ article, January 2025 revision."
+  },
+  {
+    "years": [1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969],
+    "make": "Jeep",
+    "model": "CJ-6",
+    "engines": ["2.2L (134 cu in) Hurricane I4", "3.2L (192 cu in) Perkins diesel I4", "3.7L (225 cu in) Buick Dauntless V6 (155 hp)"],
+    "transmissions": ["3-speed manual", "4-speed manual"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door long-wheelbase open-top utility vehicle"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.3,
+    "notes": "Long-wheelbase variant with 101-inch wheelbase. Shared engine options with CJ-5 including optional Perkins diesel. Buick Dauntless V6 introduced 1965. Primarily exported to Sweden and South America. Vintage leaf spring suspension, Dana axles, manual locking hubs. Manual choke carburetors, points-based ignition, 1960s-era electrical systems require vintage vehicle expertise. Diesel variants require specialized diesel service knowledge. Data sourced from Wikipedia Jeep CJ article, January 2025 revision."
+  },
+  {
+    "years": [1963, 1964, 1965, 1966, 1967, 1968, 1969],
+    "make": "Jeep",
+    "model": "Wagoneer (SJ)",
+    "engines": ["3.8L (230 cu in) Tornado SOHC I6 (140 hp)", "3.8L (232 cu in) AMC OHV I6", "5.4L (327 cu in) AMC V8 (250 hp)"],
+    "transmissions": ["3-speed manual", "4-speed manual", "3-speed automatic (GM TH400)"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door wagon", "4-door wagon", "2-door panel truck"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Introduced 1963 with industry-first overhead cam Tornado I6 engine (140 hp), replaced by AMC 232 I6 in 1965. 327 AMC V8 added in 1965 (250 hp). Independent front suspension standard on RWD, optional on 4WD with torsion bar springs. 11-inch drum brakes all around. Manual locking front hubs on 4WD. 1965 added safety package (seat belts, padded dashboard). 1966 introduced luxury 'Super Wagoneer' model. Vintage points ignition and 1960s electrical systems. Data sourced from Wikipedia Jeep Wagoneer (SJ) article, January 2025 revision."
+  },
+  {
+    "years": [1963, 1964, 1965, 1966, 1967, 1968, 1969],
+    "make": "Jeep",
+    "model": "Gladiator",
+    "engines": ["3.8L (230 cu in) Tornado SOHC I6 (140 hp)", "3.8L (232 cu in) AMC OHV I6", "5.4L (327 cu in) AMC V8 (250 hp, 340 lb-ft)"],
+    "transmissions": ["3-speed manual", "4-speed manual", "3-speed automatic"],
+    "region": "American",
+    "drivetrain": ["RWD", "4WD"],
+    "body_styles": ["2-door pickup (Townside and Thriftside beds)", "Cab and chassis", "Stake bed"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Introduced 1963 as first American light truck/SUV with production overhead cam engine (Tornado SOHC I6). Industry-first optional automatic transmission for 4WD pickup. Optional dual rear wheels, wrecker, camper configurations. Townside (smooth) and Thriftside (flareside) bed options. Up to 8,600 lb GVW, nearly 2-ton payload capacity. Optional independent front suspension (deleted by 1965). Optional power brakes and power steering. Vintage points ignition and 1960s electrical systems. Data sourced from Wikipedia Jeep Gladiator (SJ) article, January 2025 revision."
+  },
+  {
+    "years": [1967, 1968, 1969],
+    "make": "Jeep",
+    "model": "Jeepster Commando (C101)",
+    "engines": ["2.2L (134 cu in) F134 Hurricane I4 (75 hp, 114 lb-ft)", "3.7L (225 cu in) Dauntless V6 (160 hp, 235 lb-ft)"],
+    "transmissions": ["3-speed manual", "4-speed manual"],
+    "region": "American",
+    "drivetrain": ["4WD"],
+    "body_styles": ["2-door station wagon", "2-door convertible", "2-door pickup", "2-door roadster"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Designed to compete in recreational vehicle market against International Scout and Ford Bronco. Multiple body styles: station wagon (metal hardtop), convertible (soft top), pickup truck, roadster (optional half/full soft tops). 4WD standard. Flagship 'Jeepster' and 'Commando Convertible' trims. Vintage leaf spring suspension, Dana axles. Manual choke carburetors, points-based ignition, 1960s electrical systems require vintage vehicle expertise. Data sourced from Wikipedia Jeepster Commando article, January 2025 revision."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+    "make": "RAM",
+    "model": "1500 (DS, Fourth Generation)",
+    "engines": ["3.7L V6 (215 hp)", "4.7L V8 (310 hp)", "5.7L Hemi V8 (390-395 hp)", "3.0L EcoDiesel V6 (240 hp, 2014+)"],
+    "transmissions": ["6-speed automatic", "8-speed automatic (2013+)"],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": ["4-door crew cab pickup", "4-door quad cab pickup", "2-door regular cab pickup"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.1,
+    "notes": "First generation as separate RAM brand (split from Dodge 2009). Major redesign with coil spring rear suspension. EcoDiesel V6 added 2014. 8-speed automatic from 2013. Ram Box storage system. EcoDiesel requires diesel-trained technicians. Data sourced from Wikipedia Ram pickup article, January 2025 revision."
+  },
+  {
+    "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    "make": "RAM",
+    "model": "2500/3500 HD (DJ/D2, Fourth Generation)",
+    "engines": ["5.7L Hemi V8 (383 hp)", "6.4L Hemi V8 (410 hp, 2014+)", "6.7L Cummins Turbo Diesel I6 (350-400 hp)"],
+    "transmissions": ["6-speed manual", "6-speed automatic", "8-speed automatic (Aisin, 2019+)"],
+    "region": "American",
+    "drivetrain": ["2WD", "4WD"],
+    "body_styles": ["4-door crew cab pickup", "4-door mega cab pickup", "2-door regular cab pickup"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.3,
+    "notes": "Heavy-duty Ram with Cummins 6.7L diesel. Manual transmission available. Mega Cab configuration with extended cab space. Towing capacity up to 35,100 lbs. 6.4L Hemi replaced 5.7L in 2014. Heavy-duty diesel requires specialized service expertise. Data sourced from Wikipedia Ram pickup article, January 2025 revision."
+  },
+  {
+    "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+    "make": "RAM",
+    "model": "ProMaster City",
+    "engines": ["2.4L Tigershark I4 (178 hp)"],
+    "transmissions": ["9-speed automatic"],
+    "region": "American",
+    "drivetrain": ["FWD"],
+    "body_styles": ["Compact cargo van", "Compact passenger van"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "Rebadged Fiat Doblò. Compact commercial van competing with Ford Transit Connect. Available as cargo or passenger (Wagon) variant. Discontinued 2022. Data sourced from Wikipedia Ram ProMaster City article, January 2025 revision."
+  }
+]

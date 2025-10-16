@@ -1,0 +1,444 @@
+[
+  {
+    "years": [
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013
+    ],
+    "make": "BMW",
+    "model": "1 Series (E82/E88)",
+    "engines": [
+      "3.0L N52 inline-6 (230 hp) 128i",
+      "3.0L N54 twin-turbo inline-6 (300 hp) 135i",
+      "3.0L N55 twin-scroll inline-6 (300 hp) 135is"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "6-speed automatic",
+      "7-speed dual-clutch (135is)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Entry-level rear-drive coupe/convertible with hydraulic steering and optional M Sport brakes. Twin-turbo N54/N55 models require high-pressure fuel pump and injector campaigns; convertible top frame demands BMW alignment fixtures during repair. Data sourced from Wikipedia BMW 1 Series (E81) article, October 9, 2025 revision."
+  },
+  {
+    "years": [
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006
+    ],
+    "make": "BMW",
+    "model": "3 Series (E46)",
+    "engines": [
+      "2.5L M52TU/M54 inline-6 (170-184 hp) 325i/xi",
+      "3.0L M54 inline-6 (225 hp) 330i/xi",
+      "3.2L S54 inline-6 (333 hp) M3"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "6-speed manual (M3/late 330i)",
+      "5-speed automatic",
+      "6-speed SMG II (M3)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "2-door coupe",
+      "2-door convertible",
+      "5-door wagon"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "E46 remains a core service vehicle with VANOS variable cam timing, SMG hydraulics on M3, and optional xi AWD requiring front diff fluid service. Rear subframe reinforcement is critical to prevent cracking; ensure rain tray drains clear to avoid DME water intrusion. Data sourced from Wikipedia BMW 3 Series (E46) article, October 15, 2025 revision."
+  },
+  {
+    "years": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011
+    ],
+    "make": "BMW",
+    "model": "3 Series (E90/E91/E92/E93)",
+    "engines": [
+      "3.0L N52 inline-6 (215-255 hp) 325i/328i",
+      "3.0L N54/N55 twin-turbo inline-6 (300 hp) 335i/335is",
+      "3.0L M57 turbo diesel inline-6 (265 hp) 335d",
+      "4.0L S65 V8 (414 hp) M3"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "6-speed automatic",
+      "7-speed dual-clutch (M3 DCT)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "5-door wagon",
+      "2-door coupe",
+      "2-door retractable hardtop convertible"
+    ],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "E90 family introduced electric steering on xi models and EfficientDynamics systems. N54 twin-turbo engines need walnut blasting and HPFP replacement, while SCR-equipped 335d requires DEF/DPF maintenance. M3's carbon driveshaft and S65 rod bearings demand inspection schedules. Data sourced from Wikipedia BMW 3 Series (E90) article, October 3, 2025 revision."
+  },
+  {
+    "years": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ],
+    "make": "BMW",
+    "model": "5 Series (E60/E61)",
+    "engines": [
+      "3.0L N52 inline-6 (215-255 hp) 525i/528i/530i",
+      "3.0L N54 twin-turbo inline-6 (300 hp) 535i",
+      "4.8L N62 V8 (360 hp) 550i",
+      "5.0L S85 V10 (500 hp) M5"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "6-speed automatic",
+      "7-speed SMG III (M5)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD",
+      "AWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "5-door wagon (limited NA)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "E60 brought active steering, adaptive headlights, and early iDrive with MOST bus networking. SMG III clutches require clutch teach-in, while S85 V10 needs rod bearing and throttle actuator service. Aluminum front suspension arms demand torque-to-yield fasteners. Data sourced from Wikipedia BMW 5 Series (E60) article, October 14, 2025 revision."
+  },
+  {
+    "years": [
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003
+    ],
+    "make": "BMW",
+    "model": "5 Series (E39)",
+    "engines": [
+      "2.8L M52/M54 inline-6 (190-225 hp) 528i/530i",
+      "3.0L M57 turbo diesel inline-6 (184 hp) 530d (limited NA diesel testing)",
+      "4.4L M62 V8 (282-290 hp) 540i",
+      "4.9L S62 V8 (394 hp) M5"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "6-speed manual (540i/M5)",
+      "5-speed automatic",
+      "6-speed SMG (M5 gearbox adaptation in Europe)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "5-door wagon (2000-2003)"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "E39 introduced rack-and-pinion steering and extensive aluminum front suspension—torque fasteners to spec to avoid shimmy. 540i/M5 models use DSC and Servotronic steering that need calibration; S62 V8 requires VANOS seal monitoring and rod bearing service. Self-leveling rear air suspension on wagons needs ride-height calibration. Data sourced from Wikipedia BMW 5 Series (E39) article, October 8, 2025 revision."
+  },
+  {
+    "years": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ],
+    "make": "BMW",
+    "model": "6 Series (E63/E64)",
+    "engines": [
+      "4.4L N62 V8 (325 hp) 645Ci",
+      "4.8L N62 V8 (360 hp) 650i",
+      "5.0L S85 V10 (500 hp) M6"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "6-speed automatic",
+      "7-speed SMG (M6)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door coupe",
+      "2-door convertible"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Luxury grand tourer with active roll stabilization, adaptive dampers, and aluminum body panels requiring OEM repair procedures. S85 V10-powered M6 uses SMG clutch adaptation and specific 10W-60 oil. Convertible top hydraulic lines run through trunk hinge area—check for leaks during service. Data sourced from Wikipedia BMW 6 Series (E63) article, October 14, 2025 revision."
+  },
+  {
+    "years": [
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008
+    ],
+    "make": "BMW",
+    "model": "7 Series (E65/E66)",
+    "engines": [
+      "4.4L N62 V8 (325 hp) 745i/745Li",
+      "4.8L N62 V8 (360 hp) 750i/750Li",
+      "6.0L N73 V12 (438 hp) 760Li"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "4-door sedan",
+      "4-door long-wheelbase sedan"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "First iDrive generation with fiber-optic MOST bus; requires specialized diagnostics for infotainment faults. Active anti-roll bars and comfort access door closers need ISTA calibration after replacement. N62 valve stem seal and coolant pipe issues common—BMW repair sleeves recommended. Data sourced from Wikipedia BMW 7 Series (E65) article, October 12, 2025 revision."
+  },
+  {
+    "years": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008
+    ],
+    "make": "BMW",
+    "model": "Z4 (E85/E86)",
+    "engines": [
+      "2.5L M54 inline-6 (184 hp) 2.5i",
+      "3.0L M54/N52 inline-6 (225-255 hp) 3.0i/3.0si",
+      "3.2L S54 inline-6 (330 hp) Z4 M Coupe/Roadster"
+    ],
+    "transmissions": [
+      "5-speed manual",
+      "6-speed manual",
+      "5-speed automatic",
+      "6-speed automatic",
+      "6-speed SMG (M models)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door roadster",
+      "2-door coupe"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Roadster with power soft top utilizing hydraulic pump in trunk—susceptible to water intrusion. Coupe adds fixed roof stiffness; M variants use S54 with valve adjustment intervals and CSL-derived braking hardware. Alignment requires specialty front camber tools. Data sourced from Wikipedia BMW Z4 (E85) article, October 13, 2025 revision."
+  },
+  {
+    "years": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2013
+    ],
+    "make": "BMW",
+    "model": "Z4 (E89)",
+    "engines": [
+      "3.0L N52 inline-6 (255 hp) sDrive30i",
+      "3.0L N54/N55 twin-turbo inline-6 (300-335 hp) sDrive35i/sDrive35is"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "6-speed automatic",
+      "7-speed dual-clutch (sDrive35is)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "RWD"
+    ],
+    "body_styles": [
+      "2-door retractable hardtop roadster"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Folding hardtop integrates triple-hydraulic pump system; requires initialization and leak checks after service. Turbo engines need HPFP monitoring and charge pipe inspections. Adaptive M suspension with electronic damping requires ride-height calibration post repair. Data sourced from Wikipedia BMW Z4 (E89) article, October 8, 2025 revision."
+  },
+  {
+    "years": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ],
+    "make": "BMW",
+    "model": "X3 (E83)",
+    "engines": [
+      "2.5L M54 inline-6 (184 hp) xDrive2.5i",
+      "3.0L M54/N52 inline-6 (225-260 hp) xDrive3.0i/xDrive30i"
+    ],
+    "transmissions": [
+      "6-speed manual",
+      "5-speed automatic",
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.0,
+    "notes": "First-generation SAV with xDrive transfer case requiring ATF flush intervals; front differential output seals prone to leaks. Panoramic roof drains clog easily—clean to prevent headliner water damage. Data sourced from Wikipedia BMW X3 article, September 29, 2025 revision."
+  },
+  {
+    "years": [
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006
+    ],
+    "make": "BMW",
+    "model": "X5 (E53)",
+    "engines": [
+      "3.0L M54 inline-6 (225 hp) xDrive3.0i",
+      "4.4L M62/N62 V8 (282-315 hp) xDrive4.4i",
+      "4.6L/4.8L M62/N62 V8 (340-355 hp) xDrive4.6is/4.8is"
+    ],
+    "transmissions": [
+      "5-speed automatic",
+      "6-speed automatic",
+      "6-speed manual (3.0i)"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Early SAV with air suspension on 7-seat models, requiring ride-height calibration and leak checks. V8 models prone to valve cover and timing chain guide wear; ensure cooling system overhaul at 100k miles. Transfer case fluid (BMW DTF1) needs periodic service to avoid xDrive binding. Data sourced from Wikipedia BMW X5 article, September 29, 2025 revision."
+  },
+  {
+    "years": [
+      2007,
+      2008,
+      2009
+    ],
+    "make": "BMW",
+    "model": "X5 (E70 early)",
+    "engines": [
+      "3.0L N52/N55 inline-6 (260-300 hp) xDrive30i/xDrive35i",
+      "4.8L N62 V8 (350 hp) xDrive48i"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.1,
+    "notes": "Second-generation X5 introduced optional third-row seats, active steering, and Dynamic Handling Package; calibrations needed after suspension work. Early models used 6-speed auto with xDrive clutch adaptation. Keep panoramic roof drains clear and monitor electronic parking brake for recalibration. Data sourced from Wikipedia BMW X5 article, September 29, 2025 revision."
+  },
+  {
+    "years": [
+      2008,
+      2009
+    ],
+    "make": "BMW",
+    "model": "X6 (E71 early)",
+    "engines": [
+      "3.0L N54 twin-turbo inline-6 (300 hp) xDrive35i",
+      "4.4L N63 twin-turbo V8 (400 hp) xDrive50i"
+    ],
+    "transmissions": [
+      "6-speed automatic"
+    ],
+    "region": "American",
+    "drivetrain": [
+      "AWD"
+    ],
+    "body_styles": [
+      "5-door coupe SUV"
+    ],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Launch Sports Activity Coupe with standard xDrive, active roll stabilization, and optional self-leveling rear air suspension. Twin-turbo N63 requires turbo coolant line inspections; ensure active roll bar neutralization using ISTA before disconnecting links. Data sourced from Wikipedia BMW X6 article, October 10, 2025 revision."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "years": [1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973],
+    "make": "Volvo",
+    "model": "P1800/1800S/1800E/1800ES",
+    "engines": ["1.8L B18 I4 (100-115 hp)", "2.0L B20 I4 (118-130 hp)"],
+    "transmissions": ["4-speed manual", "4-speed automatic with overdrive"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sports coupe", "2-door shooting brake"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "P1800 sports coupe (1961-1973). Iconic sports car famously driven by Roger Moore in The Saint. P1800 (1961-1963 Jensen-built), 1800S (1963-1969 Sweden-built), 1800E (1970-1972), 1800ES (1972-1973 shooting brake). Inline-4 B18 or B20 engines. Rear-wheel drive. Vintage parts availability requires specialized service knowledge. Data sourced from Wikipedia Volvo P1800 article, January 2025 revision."
+  },
+  {
+    "years": [1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974],
+    "make": "Volvo",
+    "model": "140 Series (142/144/145)",
+    "engines": ["1.8L B18 I4 (90-115 hp)", "2.0L B20 I4 (88-130 hp)"],
+    "transmissions": ["4-speed manual", "3-speed automatic"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sedan", "4-door sedan", "5-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "140 Series (1966-1974). Angular design replacing Amazon/120 Series. 142 (2-door), 144 (4-door), 145 (wagon). Rear-wheel drive with inline-4 engines. Introduced modern safety features including collapsible steering column and disc brakes. Data sourced from Wikipedia Volvo 140 Series article, January 2025 revision."
+  },
+  {
+    "years": [1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975],
+    "make": "Volvo",
+    "model": "164",
+    "engines": ["3.0L B30 I6 (145-160 hp)"],
+    "transmissions": ["4-speed manual", "3-speed automatic"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door luxury sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "164 luxury sedan (1968-1975). Upmarket 6-cylinder variant of 140 Series. Volvo's first inline-6 engine (B30). Longer hood to accommodate inline-6. Rear-wheel drive. Positioned as flagship luxury sedan. Data sourced from Wikipedia Volvo 164 article, January 2025 revision."
+  },
+  {
+    "years": [1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970],
+    "make": "Volvo",
+    "model": "Amazon/120 Series (121/122/123/221/222)",
+    "engines": ["1.6L B16 I4 (60-75 hp)", "1.8L B18 I4 (75-115 hp)"],
+    "transmissions": ["4-speed manual", "3-speed automatic"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sedan", "4-door sedan", "5-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Amazon/120 Series (1956-1970, 1960s coverage). Named Amazon in Sweden, exported as 122S. 121 (1-door), 122S (2/4-door), 123GT (2-door wagon), 221/222 (4-door/wagon). Rear-wheel drive with inline-4 engines. Classic three-box design. Highly regarded for durability. Data sourced from Wikipedia Volvo Amazon article, January 2025 revision."
+  }
+]

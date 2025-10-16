@@ -1,0 +1,59 @@
+[
+  {
+    "years": [1909, 1910, 1911, 1912, 1913, 1914, 1915, 1916, 1917, 1918],
+    "make": "Buick",
+    "model": "Buick Four Series (Model 10-19)",
+    "engines": [
+      "2.7L inline-4 (22-35 hp)",
+      "3.0L inline-4 (25-40 hp)"
+    ],
+    "transmissions": [
+      "2-speed planetary",
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door roadster", "4-door touring", "2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "Brass-era four-cylinder models (Models 10, 14, 16, 17, 19, etc.). Inline-4 engines. Open touring and roadster bodies predominant. RWD with chain or shaft drive. Brass radiators, acetylene/oil lamps, hand-crank starting, mechanical brakes on rear wheels only. Wooden-spoke wheels, wooden body framing. Difficulty modifier 1.4 reflects brass-era fragile construction, hand-fitted components, obsolete ignition/brake systems, wooden components, and near-zero parts availability. Data sourced from Wikipedia Buick Model history articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1914, 1915, 1916, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925],
+    "make": "Buick",
+    "model": "Buick Six Series",
+    "engines": [
+      "3.4L inline-6 (48-55 hp)",
+      "3.7L inline-6 (60-70 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door roadster", "4-door touring", "4-door sedan", "2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.35,
+    "notes": "Brass-era six-cylinder models (1914-1925). Inline-6 engines, smoother than contemporary four-cylinders. Multiple body styles including enclosed sedans in later years. RWD. Brass/nickel trim, wooden-spoke wheels initially, transitioning to disc wheels by early 1920s. Hand-crank starting, mechanical brakes. Difficulty modifier 1.35 reflects brass-era construction, transition to 'modern' era, hand-fitted components, and very limited parts availability. Data sourced from Wikipedia Buick Six history articles, December 19, 2024 revision."
+  },
+  {
+    "years": [1916, 1917],
+    "make": "Buick",
+    "model": "D-Series",
+    "engines": [
+      "3.1L inline-6 (45-50 hp)"
+    ],
+    "transmissions": [
+      "3-speed manual"
+    ],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door roadster", "4-door touring"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.4,
+    "notes": "D-Series brass-era touring cars (D-44, D-45, D-46, D-47 models, 1916-1917). Inline-6 engines. Open touring and roadster bodies. RWD. Brass radiator, acetylene lighting, hand-crank starting. Wooden-spoke wheels, leather upholstery. WWI-era production. Difficulty modifier 1.4 reflects WWI brass-era construction, extreme rarity, hand-fitted components, obsolete systems, and near-zero parts availability. Data sourced from Wikipedia Buick D-Series articles, December 19, 2024 revision."
+  }
+]

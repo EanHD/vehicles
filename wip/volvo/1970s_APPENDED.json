@@ -1,0 +1,72 @@
+[
+  {
+    "years": [1974, 1975, 1976, 1977, 1978, 1979],
+    "make": "Volvo",
+    "model": "240 Series (242/244/245)",
+    "engines": ["2.0L B20 I4 (88-118 hp)", "2.1L B21 I4 (97-107 hp)", "2.3L B23 I4 (111-123 hp)", "2.4L D24 I6 diesel (82 hp)"],
+    "transmissions": ["4-speed manual", "3-speed automatic", "4-speed automatic"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sedan", "4-door sedan", "5-door wagon"],
+    "hybrid": false,
+    "diesel": true,
+    "difficulty_modifier": 1.2,
+    "notes": "240 Series (1974-1993, 1970s coverage). Iconic boxy Volvo design replacing 140 Series. 242 (2-door), 244 (4-door), 245 (wagon). Rear-wheel drive with inline-4 or diesel inline-6. Renowned for safety with energy-absorbing crumple zones. Data sourced from Wikipedia Volvo 200 Series article, January 2025 revision."
+  },
+  {
+    "years": [1975, 1976, 1977, 1978, 1979],
+    "make": "Volvo",
+    "model": "260 Series (262/264/265)",
+    "engines": ["2.7L PRV V6 (140 hp)", "2.8L PRV V6 (145 hp)"],
+    "transmissions": ["4-speed manual", "3-speed automatic"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe", "4-door sedan", "5-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "260 Series (1974-1982, 1970s coverage). Upmarket variant of 240 with PRV V6 engine. 262C Bertone coupe, 264 sedan, 265 wagon. PRV (Peugeot-Renault-Volvo) V6 co-developed engine. Rear-wheel drive. Data sourced from Wikipedia Volvo 200 Series article, January 2025 revision."
+  },
+  {
+    "years": [1975, 1976, 1977, 1978, 1979, 1980, 1981],
+    "make": "Volvo",
+    "model": "66 (DAF-based)",
+    "engines": ["1.1L Renault I4 (45 hp)", "1.3L Renault I4 (55 hp)"],
+    "transmissions": ["Variomatic CVT", "4-speed manual"],
+    "region": "European import",
+    "drivetrain": ["FWD"],
+    "body_styles": ["2-door sedan", "4-door sedan", "3-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "66 compact (1975-1981). Based on DAF 66 after Volvo acquired DAF passenger car division. Front-wheel drive with Renault engines and DAF Variomatic CVT or manual transmission. Not sold in North America. Data sourced from Wikipedia Volvo 66 article, January 2025 revision."
+  },
+  {
+    "years": [1976, 1977, 1978, 1979],
+    "make": "Volvo",
+    "model": "300 Series (340/360)",
+    "engines": ["1.4L Renault I4 (66-70 hp)", "1.6L Renault I4 (75 hp)", "1.7L Renault I4 (75 hp)", "2.0L B200 I4 (108-120 hp)"],
+    "transmissions": ["4-speed manual", "5-speed manual", "Variomatic CVT", "3-speed automatic"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["3-door hatchback", "5-door hatchback", "4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "300 Series (1976-1991, 1970s coverage). Developed from DAF 77, rear-wheel drive compact. 340 hatchback, 360 sedan/wagon. Renault engines initially, later Volvo inline-4. Some models featured Variomatic CVT. Not officially sold in North America. Data sourced from Wikipedia Volvo 300 Series article, January 2025 revision."
+  },
+  {
+    "years": [1970, 1971, 1972, 1973, 1974],
+    "make": "Volvo",
+    "model": "140 Series (142/144/145)",
+    "engines": ["1.8L B18 I4 (90-115 hp)", "2.0L B20 I4 (88-130 hp)"],
+    "transmissions": ["4-speed manual", "3-speed automatic"],
+    "region": "European import",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sedan", "4-door sedan", "5-door wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "140 Series (1966-1974, 1970s coverage). Angular design replacing Amazon/120 Series. 142 (2-door), 144 (4-door), 145 (wagon). Rear-wheel drive with inline-4 B18 or B20 engines. Introduced modern safety features including collapsible steering column. Data sourced from Wikipedia Volvo 140 Series article, January 2025 revision."
+  }
+]

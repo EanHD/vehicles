@@ -1,0 +1,44 @@
+[
+  {
+    "years": [1932, 1933, 1934],
+    "make": "Ford",
+    "model": "Model 18/Model 40/Model 46 (1932-1934)",
+    "engines": ["221 cu in (3.6L) Flathead V8 (65-75 hp)", "200.5 cu in (3.3L) Flathead I4 (50 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sedan", "4-door sedan", "2-door coupe", "2-door roadster", "2-door convertible", "2-door station wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Introduced legendary Flathead V8 engine in 1932 (Model 18). Four-cylinder Model B also available. Revolutionary affordable V8 performance. Hot rod favorite. Requires brass-era/early vintage expertise and specialized parts. Data sourced from Wikipedia Ford Model 18 article, January 2025 revision."
+  },
+  {
+    "years": [1935, 1936],
+    "make": "Ford",
+    "model": "Model 48/Model 68 (1935-1936)",
+    "engines": ["221 cu in (3.6L) Flathead V8 (85 hp)", "136 cu in (2.2L) Flathead I4 (50 hp)"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sedan", "4-door sedan", "2-door coupe", "2-door roadster", "2-door convertible", "2-door station wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Updated styling with more streamlined appearance. Improved V8 engine with higher compression. Four-cylinder option continued. Mechanical brakes. Vintage service requires period-specific knowledge. Data sourced from Wikipedia Ford Model 48 article, January 2025 revision."
+  },
+  {
+    "years": [1937, 1938, 1939, 1940],
+    "make": "Ford",
+    "model": "Deluxe/Standard (1937-1940)",
+    "engines": ["221 cu in (3.6L) Flathead V8 (85-90 hp)", "136 cu in (2.2L) Flathead I4 (60 hp, 1937-1940)"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door sedan", "4-door sedan", "2-door coupe", "2-door convertible", "2-door station wagon"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "More streamlined styling each year. Hydraulic brakes introduced 1939. Sealed-beam headlights in 1940. Two trim levels: Standard and Deluxe. Flathead engines require vintage expertise. Data sourced from Wikipedia Ford De Luxe article, January 2025 revision."
+  }
+]

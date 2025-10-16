@@ -1,0 +1,58 @@
+[
+  {
+    "years": [1924, 1925],
+    "make": "Chrysler",
+    "model": "Model B",
+    "engines": ["3.3L I6"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door roadster", "4-door sedan", "2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "First Chrysler model, launched in 1924. High-compression inline-6 with innovative four-wheel hydraulic brakes. Brass-era complexity requires specialized vintage expertise. Data sourced from Wikipedia Chrysler article, January 17, 2025 revision."
+  },
+  {
+    "years": [1926, 1927, 1928],
+    "make": "Chrysler",
+    "model": "Series 70",
+    "engines": ["3.7L I6"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door roadster", "4-door sedan", "2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Mid-range Chrysler with inline-6 flathead. Four-wheel hydraulic brakes standard. Vintage brass-era complexity. Data sourced from Wikipedia Chrysler article, January 17, 2025 revision."
+  },
+  {
+    "years": [1926, 1927, 1928, 1929],
+    "make": "Chrysler",
+    "model": "Series 80",
+    "engines": ["4.7L I6"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door roadster", "4-door sedan", "2-door coupe", "4-door phaeton"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Premium Chrysler with larger inline-6. Advanced engineering for the era with hydraulic brakes. Brass-era restoration complexity. Data sourced from Wikipedia Chrysler article, January 17, 2025 revision."
+  },
+  {
+    "years": [1926, 1927, 1928, 1929],
+    "make": "Chrysler",
+    "model": "Imperial",
+    "engines": ["4.7L I6", "5.3L I6"],
+    "transmissions": ["3-speed manual"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "4-door limousine", "2-door roadster", "4-door phaeton"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.3,
+    "notes": "Top-of-line luxury model with large inline-6 engines. Custom coachwork available. Brass-era complexity with rare parts and specialized restoration needs. Data sourced from Wikipedia Chrysler Imperial article, January 17, 2025 revision."
+  }
+]

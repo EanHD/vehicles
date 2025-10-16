@@ -1,0 +1,72 @@
+[
+  {
+    "years": [1970, 1971],
+    "make": "Lincoln",
+    "model": "Continental (Fifth Generation, 1970-1971)",
+    "engines": ["460 cu in (7.5L) 385-series V8 (365 hp)"],
+    "transmissions": ["3-speed automatic (C6)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Final years of fifth-generation Continental. Massive 460 V8 engine. Full-size luxury car with 127-inch wheelbase. Vintage complexity requires period-specific service knowledge. Data sourced from Wikipedia Lincoln Continental article, January 2025 revision."
+  },
+  {
+    "years": [1972, 1973, 1974, 1975, 1976],
+    "make": "Lincoln",
+    "model": "Continental Mark IV",
+    "engines": ["460 cu in (7.5L) 385-series V8 (212-220 hp)"],
+    "transmissions": ["3-speed automatic (C6)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Personal luxury coupe based on Ford Thunderbird platform. Signature opera windows and vinyl roof. Emissions-era detuned 460 V8. Popular luxury coupe requiring vintage service expertise. Data sourced from Wikipedia Lincoln Mark series article, January 2025 revision."
+  },
+  {
+    "years": [1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979],
+    "make": "Lincoln",
+    "model": "Continental (Sixth Generation)",
+    "engines": ["460 cu in (7.5L) 385-series V8 (212-224 hp)", "400 cu in (6.6L) 335-series V8 (159-173 hp, 1977-79)"],
+    "transmissions": ["3-speed automatic (C6)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan", "2-door coupe (1972-1976)"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Full-size luxury sedan and coupe. 460 V8 standard, smaller 400 V8 added 1977 for fuel economy. Last Continental coupe ended 1976. Town Car became separate model 1980. Vintage service requirements. Data sourced from Wikipedia Lincoln Continental article, January 2025 revision."
+  },
+  {
+    "years": [1977, 1978, 1979],
+    "make": "Lincoln",
+    "model": "Continental Mark V",
+    "engines": ["460 cu in (7.5L) 385-series V8 (208-210 hp)", "400 cu in (6.6L) 335-series V8 (159-166 hp)"],
+    "transmissions": ["3-speed automatic (C6)", "4-speed automatic (AOD, 1979)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["2-door coupe"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Downsized personal luxury coupe. Designer editions by Bill Blass, Cartier, Givenchy, Pucci. Last year for 460 V8. First Lincoln with overdrive automatic (1979). Vintage complexity requires period expertise. Data sourced from Wikipedia Lincoln Mark series article, January 2025 revision."
+  },
+  {
+    "years": [1977, 1978, 1979, 1980],
+    "make": "Lincoln",
+    "model": "Versailles",
+    "engines": ["302 cu in (5.0L) Windsor V8 (133-140 hp)", "351 cu in (5.8L) Windsor V8 (140 hp, 1980)"],
+    "transmissions": ["3-speed automatic (C4/C6)"],
+    "region": "American",
+    "drivetrain": ["RWD"],
+    "body_styles": ["4-door sedan"],
+    "hybrid": false,
+    "diesel": false,
+    "difficulty_modifier": 1.2,
+    "notes": "Compact luxury sedan based on Ford Granada/Mercury Monarch. Lincoln's response to Cadillac Seville. Not commercially successful. Standard vinyl roof and opera windows. Vintage service requirements. Data sourced from Wikipedia Lincoln Versailles article, January 2025 revision."
+  }
+]
