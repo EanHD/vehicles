@@ -848,6 +848,151 @@ CRITICAL REQUIREMENTS:
             .diagram-title {{ color: #cccccc; }}
             .diagram-note {{ color: #888888; }}
         }}
+        
+        /* Mobile Responsive Design */
+        @media (max-width: 768px) {{
+            body {{
+                padding: 10px;
+            }}
+            
+            .header {{
+                padding: 18px 16px;
+            }}
+            
+            .header h1 {{
+                font-size: 18px;
+                line-height: 1.3;
+            }}
+            
+            .header .subtitle {{
+                font-size: 10px;
+            }}
+            
+            .content {{
+                padding: 16px;
+            }}
+            
+            .section {{
+                padding: 16px;
+                margin-bottom: 16px;
+            }}
+            
+            .section h3 {{
+                font-size: 14px;
+                padding: 10px 14px;
+            }}
+            
+            .info-grid {{
+                grid-template-columns: 1fr;
+                gap: 12px;
+                padding: 16px;
+            }}
+            
+            .procedure-step {{
+                padding: 12px;
+            }}
+            
+            .step-number {{
+                width: 32px;
+                height: 32px;
+                font-size: 14px;
+                line-height: 32px;
+                margin-right: 12px;
+            }}
+            
+            .step-description {{
+                font-size: 13px;
+            }}
+            
+            .step-meta {{
+                font-size: 11px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+            }}
+            
+            .torque-spec {{
+                padding: 10px;
+            }}
+            
+            .torque-component {{
+                font-size: 13px;
+            }}
+            
+            .torque-value {{
+                font-size: 13px;
+            }}
+            
+            .warning, .tip {{
+                padding: 12px;
+            }}
+            
+            .warning-icon, .tip-icon {{
+                width: 32px;
+                height: 32px;
+                font-size: 16px;
+                line-height: 32px;
+            }}
+            
+            .part-item {{
+                padding: 10px;
+            }}
+            
+            .part-name {{
+                font-size: 13px;
+            }}
+            
+            .part-number {{
+                font-size: 11px;
+            }}
+            
+            .issue-item {{
+                padding: 12px;
+                font-size: 13px;
+            }}
+            
+            table {{
+                font-size: 12px;
+            }}
+            
+            table th, table td {{
+                padding: 8px 6px;
+            }}
+            
+            /* Make tables horizontally scrollable on mobile */
+            .section table {{
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }}
+        }}
+        
+        @media (max-width: 480px) {{
+            body {{
+                padding: 8px;
+            }}
+            
+            .header {{
+                padding: 14px 12px;
+            }}
+            
+            .header h1 {{
+                font-size: 16px;
+            }}
+            
+            .content {{
+                padding: 12px;
+            }}
+            
+            .section {{
+                padding: 12px;
+            }}
+            
+            .section h3 {{
+                font-size: 13px;
+                padding: 8px 12px;
+            }}
+        }}
     </style>
 </head>
 <body>

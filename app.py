@@ -24,74 +24,149 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for professional look
+# Custom CSS for professional look with mobile responsiveness
 st.markdown("""
 <style>
+    /* Mobile-first responsive design */
     .main-header {
         background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%);
-        padding: 20px;
+        padding: 15px;
         border-radius: 10px;
         color: white;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
+    
+    /* Responsive header text */
+    @media (min-width: 768px) {
+        .main-header {
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+    }
+    
     .stButton>button {
         width: 100%;
         background-color: #1a73e8;
         color: white;
         font-weight: bold;
         border-radius: 5px;
-        padding: 10px;
+        padding: 12px 10px;
+        font-size: 14px;
+        min-height: 44px; /* Minimum touch target for mobile */
     }
+    
+    @media (min-width: 768px) {
+        .stButton>button {
+            padding: 10px;
+        }
+    }
+    
     .stButton>button:hover {
         background-color: #0d47a1;
     }
+    
     .info-box {
         background-color: #e3f2fd;
         color: #1a237e;
-        padding: 15px;
+        padding: 12px;
         border-radius: 5px;
         border-left: 4px solid #1a73e8;
         margin-bottom: 10px;
+        font-size: 14px;
     }
+    
+    @media (min-width: 768px) {
+        .info-box {
+            padding: 15px;
+        }
+    }
+    
     .success-box {
         background-color: #e8f5e9;
-        padding: 15px;
+        padding: 12px;
         border-radius: 5px;
         border-left: 4px solid #34a853;
+        font-size: 14px;
     }
+    
+    @media (min-width: 768px) {
+        .success-box {
+            padding: 15px;
+        }
+    }
+    
     .warning-box {
         background-color: #fff3e0;
-        padding: 15px;
+        padding: 12px;
         border-radius: 5px;
         border-left: 4px solid #fbbc04;
+        font-size: 14px;
     }
+    
+    @media (min-width: 768px) {
+        .warning-box {
+            padding: 15px;
+        }
+    }
+    
     .stat-card {
         background-color: white;
-        padding: 20px;
+        padding: 15px;
         border-radius: 10px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         text-align: center;
+        margin-bottom: 10px;
     }
+    
+    @media (min-width: 768px) {
+        .stat-card {
+            padding: 20px;
+        }
+    }
+    
     .stat-value {
-        font-size: 32px;
+        font-size: 24px;
         font-weight: bold;
         color: #1a73e8;
     }
+    
+    @media (min-width: 768px) {
+        .stat-value {
+            font-size: 32px;
+        }
+    }
+    
     .stat-label {
-        font-size: 14px;
+        font-size: 12px;
         color: #666;
         margin-top: 5px;
     }
+    
+    @media (min-width: 768px) {
+        .stat-label {
+            font-size: 14px;
+        }
+    }
+    
     /* Fix for chat messages visibility - improved contrast */
     .stChatMessage {
         background-color: #ffffff !important;
         border: 2px solid #d0d0d0 !important;
         border-radius: 8px !important;
-        padding: 14px !important;
-        margin-bottom: 12px !important;
+        padding: 12px !important;
+        margin-bottom: 10px !important;
         color: #1a1a1a !important;
+        font-size: 14px !important;
     }
+    
+    @media (min-width: 768px) {
+        .stChatMessage {
+            padding: 14px !important;
+            margin-bottom: 12px !important;
+        }
+    }
+    
     .stChatMessage[data-testid="user-message"] {
         background-color: #e3f2fd !important;
         border: 2px solid #1a73e8 !important;
@@ -122,6 +197,65 @@ st.markdown("""
     .stChatInput {
         border: 2px solid #1a73e8 !important;
         border-radius: 8px !important;
+    }
+    
+    /* Mobile-friendly selectbox and input fields */
+    .stSelectbox, .stTextInput, .stNumberInput {
+        font-size: 16px !important; /* Prevents zoom on iOS */
+    }
+    
+    /* Better mobile sidebar */
+    @media (max-width: 768px) {
+        [data-testid="stSidebar"] {
+            width: 85vw !important;
+        }
+        
+        /* Sidebar content padding */
+        [data-testid="stSidebar"] > div:first-child {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
+    
+    /* Mobile-friendly tabs */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 8px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    .stTabs [data-baseweb="tab"] {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    
+    /* Improve touch targets for mobile */
+    @media (max-width: 768px) {
+        .stRadio > label, .stCheckbox > label {
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+        }
+    }
+    
+    /* Better mobile table display */
+    @media (max-width: 768px) {
+        .dataframe {
+            font-size: 12px;
+            overflow-x: auto;
+        }
+    }
+    
+    /* Fix expander for mobile */
+    .streamlit-expanderHeader {
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    /* Viewport meta improvements */
+    html {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
     }
 </style>
 """, unsafe_allow_html=True)
