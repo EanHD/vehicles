@@ -332,13 +332,16 @@ Research and provide the following in JSON format ONLY (no explanatory text, jus
    - Example: Oil drain plugs are typically 25-33 ft-lbs for most vehicles, but VERIFY for this specific model
    - Wheel lug nuts vary by vehicle (typically 70-110 ft-lbs depending on vehicle size)
    - Always specify the exact value from factory service manual if available
-3. SPECIAL TOOLS REQUIRED (specific to this vehicle)
-4. PARTS LIST (OEM part numbers if available)
-5. COMMON ISSUES & TROUBLESHOOTING (specific to this model/year)
-6. SAFETY WARNINGS (critical safety information)
-7. TIME BREAKDOWN (realistic time per major step)
-8. TIPS & TRICKS (professional insights)
-9. DIAGRAMS NEEDED (identify where diagrams would be helpful)
+3. FLUIDS & CAPACITIES (if applicable to this service - oils, coolants, brake fluid, etc.)
+4. SPECIAL TOOLS REQUIRED (specific to this vehicle)
+5. PARTS LIST (OEM part numbers if available)
+6. CONSUMABLES (shop supplies: cleaner, rags, drain plug washers, O-rings, thread locker, etc.)
+7. VARIANTS (platform/VIN differences that affect this procedure)
+8. COMMON ISSUES & TROUBLESHOOTING (specific to this model/year)
+9. SAFETY WARNINGS (critical safety information)
+10. TIME BREAKDOWN (realistic time per major step)
+11. TIPS & TRICKS (professional insights)
+12. DIAGRAMS NEEDED (identify where diagrams would be helpful - be selective)
 
 Return ONLY valid JSON in exactly this structure (no markdown, no preamble, no explanation):
 {{
@@ -347,38 +350,50 @@ Return ONLY valid JSON in exactly this structure (no markdown, no preamble, no e
         {{"step": 2, "description": "Next step...", "time_minutes": 10, "needs_diagram": false}}
     ],
     "torque_specs": [
-        {{"component": "Oil drain plug", "value": "27 ft-lbs", "pattern": "Straight", "notes": "Verify torque - critical specification"}},
-        {{"component": "Oil filter housing", "value": "18 ft-lbs", "pattern": "Hand-tighten then 3/4 turn"}},
-        {{"component": "Wheel lug nuts", "value": "76 ft-lbs", "pattern": "Star pattern"}}
+        {{"component": "Oil drain plug", "value": "27 ft-lbs (37 Nm)", "pattern": "Straight", "notes": "Replace crush washer", "source": "Factory Service Manual"}},
+        {{"component": "Oil filter housing", "value": "18 ft-lbs (24 Nm)", "pattern": "Hand-tighten then 3/4 turn", "notes": "Do not overtighten", "source": "OEM Specification"}},
+        {{"component": "Wheel lug nuts", "value": "76 ft-lbs (103 Nm)", "pattern": "Star pattern", "notes": "Torque in 3 stages", "source": "Owner Manual"}}
     ],
-    "special_tools": ["Torque wrench (0-150 ft-lbs)", "Oil filter wrench", "Jack and jack stands"],
+    "fluids": [
+        {{"system": "Engine oil", "spec": "0W-20 Full Synthetic (API SP, ILSAC GF-6A)", "total_capacity": "4.4 L", "refill_capacity": "4.2 L", "notes": "With filter change", "source": "Owner Manual"}},
+        {{"system": "Coolant", "spec": "Toyota Super Long Life Coolant (pink)", "total_capacity": "7.1 L", "refill_capacity": "varies", "notes": "Pre-diluted - do not mix", "source": "FSM"}}
+    ],
+    "special_tools": ["Torque wrench (0-150 ft-lbs)", "Oil filter wrench", "Jack and jack stands", "Oil drain pan (6 qt minimum)"],
     "parts_list": [
-        {{"name": "Engine oil (5W-30 synthetic)", "oem_number": "00279-0WQTE-01", "qty": 1}},
-        {{"name": "Oil filter", "oem_number": "04152-YZZA6", "qty": 1}},
-        {{"name": "Drain plug washer", "oem_number": "90430-12031", "qty": 1}}
+        {{"name": "Engine oil (0W-20 synthetic)", "oem_number": "00279-0W020-01", "qty": 5, "aftermarket": "Mobil 1, Pennzoil Platinum", "notes": "5 quarts total"}},
+        {{"name": "Oil filter", "oem_number": "04152-YZZA6", "qty": 1, "aftermarket": "WIX 57060, Purolator L24651", "notes": "Verify fitment"}},
+        {{"name": "Drain plug washer", "oem_number": "90430-12031", "qty": 1, "aftermarket": "Dorman 095-147", "notes": "Replace every change"}}
+    ],
+    "consumables": ["Shop towels or rags", "Degreaser/brake cleaner", "Nitrile gloves", "Funnel", "Oil absorbent pads"],
+    "variants": [
+        "Early 2020 models (built before 07/2020) use different oil filter part number 04152-31090 - verify production date",
+        "Hybrid models require 0W-16 synthetic oil instead of 0W-20 - check owner manual",
+        "AWD models have slightly higher oil capacity (4.6L vs 4.4L)"
     ],
     "common_issues": [
         "**Oil leaks from drain plug**: Often caused by worn or reused crush washer. Always replace washer at each service. If threads are damaged, consider using an oversized drain plug or helicoil insert.",
-        "**Stripped drain plug threads**: If overtorqued or cross-threaded during previous service. Use correct 14mm socket and verify torque. Consider oil pan replacement if severe.",
-        "**Incorrect oil viscosity**: Using wrong oil grade can affect engine performance and fuel economy. Verify correct viscosity in owner's manual (typically 0W-20 or 5W-30 for this model)."
+        "**Stripped drain plug threads**: If overtorqued or cross-threaded during previous service. Use correct 14mm socket and verify torque spec of 27 ft-lbs. Consider oil pan replacement if severe.",
+        "**Incorrect oil viscosity**: Using wrong oil grade can affect engine performance and fuel economy. This model requires 0W-20 (non-hybrid) or 0W-16 (hybrid). Do not substitute 5W-30.",
+        "**Overfilled oil level**: Can cause aeration and oil foaming. Always check level on flat ground after engine reaches operating temp, then allow 5 minutes to settle."
     ],
-    "safety_warnings": ["Never work under vehicle supported only by jack", "Use proper jack stands", "Allow engine to cool before draining oil", "Wear gloves and eye protection"],
-    "tips": ["Replace drain plug washer every oil change", "Hand-tighten oil filter first, then 3/4 turn with wrench", "Run engine for 30 seconds after refilling, then check for leaks"],
-    "diagrams": [
-        {{"step": 2, "description": "Oil drain plug location and orientation"}},
-        {{"step": 5, "description": "Oil filter mounting and removal"}}
-    ],
-    "citations": ["https://www.toyota.com/owners/resources/warranty-owners-manuals"]
+    "safety_warnings": ["Never work under vehicle supported only by jack", "Use proper jack stands rated for vehicle weight", "Allow engine to cool before draining oil to prevent burns", "Wear gloves and eye protection when handling used oil", "Dispose of used oil and filter at certified recycling center"],
+    "tips": ["Replace drain plug washer every oil change to prevent leaks", "Hand-tighten oil filter first, then 3/4 turn with wrench - do not overtighten", "Run engine for 60 seconds after refilling, then shut off and check for leaks", "Check oil level after driving 5-10 minutes and allowing to settle"],
+    "diagrams": [],
+    "citations": ["Factory Service Manual", "Owner's Manual", "Technical Service Bulletins"]
 }}
 
 CRITICAL REQUIREMENTS:
 1. Use REAL NUMBERS for all torque specifications - NO PLACEHOLDERS like "25-30" or "{{value}}"
-2. Each torque spec must have an EXACT value like "27 ft-lbs" or "18 ft-lbs"
+2. Each torque spec must have EXACT dual units like "27 ft-lbs (37 Nm)" or "18 ft-lbs (24 Nm)"
 3. Use actual OEM part numbers when available
 4. All specifications must be specific to the {year} {make} {model}
 5. Oil drain plugs are typically 25-33 ft-lbs depending on vehicle - research the specific value
 6. Common issues must include DETAILED descriptions with causes, symptoms, and solutions (use bold **Issue**: format)
-7. Return ONLY the JSON - no extra text before or after
+7. Include fluids section only if relevant to this service (oil changes need it, brake pads may not)
+8. Include variants section if there are platform/VIN/production year differences
+9. Include consumables - the shop supplies needed (rags, cleaners, O-rings, etc.)
+10. Minimize diagrams request - only essential ones. Empty array [] is acceptable.
+11. Return ONLY the JSON - no extra text before or after
 """
         return prompt
     
