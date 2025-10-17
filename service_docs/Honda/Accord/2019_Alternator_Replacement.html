@@ -423,6 +423,151 @@
             .diagram-title { color: #cccccc; }
             .diagram-note { color: #888888; }
         }
+        
+        /* Mobile Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .header {
+                padding: 18px 16px;
+            }
+            
+            .header h1 {
+                font-size: 18px;
+                line-height: 1.3;
+            }
+            
+            .header .subtitle {
+                font-size: 10px;
+            }
+            
+            .content {
+                padding: 16px;
+            }
+            
+            .section {
+                padding: 16px;
+                margin-bottom: 16px;
+            }
+            
+            .section h3 {
+                font-size: 14px;
+                padding: 10px 14px;
+            }
+            
+            .info-grid {
+                grid-template-columns: 1fr;
+                gap: 12px;
+                padding: 16px;
+            }
+            
+            .procedure-step {
+                padding: 12px;
+            }
+            
+            .step-number {
+                width: 32px;
+                height: 32px;
+                font-size: 14px;
+                line-height: 32px;
+                margin-right: 12px;
+            }
+            
+            .step-description {
+                font-size: 13px;
+            }
+            
+            .step-meta {
+                font-size: 11px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+            }
+            
+            .torque-spec {
+                padding: 10px;
+            }
+            
+            .torque-component {
+                font-size: 13px;
+            }
+            
+            .torque-value {
+                font-size: 13px;
+            }
+            
+            .warning, .tip {
+                padding: 12px;
+            }
+            
+            .warning-icon, .tip-icon {
+                width: 32px;
+                height: 32px;
+                font-size: 16px;
+                line-height: 32px;
+            }
+            
+            .part-item {
+                padding: 10px;
+            }
+            
+            .part-name {
+                font-size: 13px;
+            }
+            
+            .part-number {
+                font-size: 11px;
+            }
+            
+            .issue-item {
+                padding: 12px;
+                font-size: 13px;
+            }
+            
+            table {
+                font-size: 12px;
+            }
+            
+            table th, table td {
+                padding: 8px 6px;
+            }
+            
+            /* Make tables horizontally scrollable on mobile */
+            .section table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 8px;
+            }
+            
+            .header {
+                padding: 14px 12px;
+            }
+            
+            .header h1 {
+                font-size: 16px;
+            }
+            
+            .content {
+                padding: 12px;
+            }
+            
+            .section {
+                padding: 12px;
+            }
+            
+            .section h3 {
+                font-size: 13px;
+                padding: 8px 12px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -479,37 +624,33 @@
                         <span class="info-value">1.5 HRS</span>
                     </div>
                     <div class="info-item">
-                        <span class="info-label">LABOR RATE</span>
-                        <span class="info-value">$150/HR</span>
-                    </div>
-                    <div class="info-item">
                         <span class="info-label">SKILL LEVEL</span>
                         <span class="info-value">Intermediate</span>
                     </div>
                 </div>
             </div>
             
-            <div class="section"><h3>⚠️ Safety Warnings</h3><div class="warning"><span class="warning-icon">⚠️</span>Always disconnect the battery before starting work to prevent electrical shock</div><div class="warning"><span class="warning-icon">⚠️</span>Use proper jack stands when working under the vehicle</div><div class="warning"><span class="warning-icon">⚠️</span>Wear protective gloves and eyewear</div></div>
+            <div class="section"><h3>⚠️ Safety Warnings</h3><div class="warning"><span class="warning-icon">⚠️</span>Always disconnect the negative battery cable before starting work to prevent electrical shock or short circuits.</div><div class="warning"><span class="warning-icon">⚠️</span>Use jack stands if lifting vehicle; never rely solely on a jack.</div><div class="warning"><span class="warning-icon">⚠️</span>Allow engine to cool before working in engine bay to avoid burns.</div><div class="warning"><span class="warning-icon">⚠️</span>Wear safety glasses and gloves when handling belts and electrical components.</div></div>
             
-            <div class="section"><h3>📋 Step-by-Step Procedure</h3><div class="procedure-step"><span class="step-number">1</span><span class="step-description">Disconnect the negative (black) battery cable first, followed by the positive (red) cable using a 10mm socket. Ensure the cables do not touch any metal parts.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">2</span><span class="step-description">Remove the engine cover to access the serpentine belt and alternator. This may require additional tools depending on the model.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">3</span><span class="step-description">Relax the serpentine belt tension by using a 14mm wrench on the tensioner pulley. Remove the belt from the alternator pulley.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">4</span><span class="step-description">Disconnect the electrical plug from the alternator by pressing the clip and pulling it off. Remove the rubber boot from the battery cable to the alternator and loosen the 10mm nut.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">5</span><span class="step-description">Remove the three 12mm mounting bolts holding the alternator in place. The longer bolt typically goes on top.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">6</span><span class="step-description">Carefully pull the alternator out from under the AC line. Compare the old and new alternators to ensure they match in mounting holes and connectors.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">7</span><span class="step-description">Install the new alternator by sliding it under the AC line and into its mounting position. Connect the power cable to the alternator before securing it with the mounting bolts.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">8</span><span class="step-description">Secure the alternator with the three 12mm bolts. Tighten all bolts to the specified torque (16 ft-lbs). Reconnect the electrical plug until it clicks into place.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">9</span><span class="step-description">Reinstall the serpentine belt and ensure proper tension. Reconnect the battery cables, starting with the positive (red) cable.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">10</span><span class="step-description">Start the engine and check for proper alternator function by monitoring the battery voltage with a multimeter.</span><div class="step-meta">⏱️ 5 min</div></div></div>
+            <div class="section"><h3>📋 Step-by-Step Procedure</h3><div class="procedure-step"><span class="step-number">1</span><span class="step-description">Disconnect the negative battery cable using a 10mm socket. Ensure cable is secured away from battery terminal to prevent accidental contact.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">2</span><span class="step-description">Remove the engine cover (if equipped) for access to the alternator and serpentine belt.</span><div class="step-meta">⏱️ 2 min</div></div><div class="procedure-step"><span class="step-number">3</span><span class="step-description">Locate and remove the serpentine belt using a serpentine belt tool or appropriate wrench to release tension on the tensioner pulley. Slide belt off alternator pulley.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">4</span><span class="step-description">Disconnect the electrical connector from the alternator by pressing the release tab and pulling it straight out.</span><div class="step-meta">⏱️ 2 min</div></div><div class="procedure-step"><span class="step-number">5</span><span class="step-description">Remove the alternator output terminal nut (typically 10mm) and disconnect the battery cable from the alternator.</span><div class="step-meta">⏱️ 3 min | 🔧 6 ft-lbs</div></div><div class="procedure-step"><span class="step-number">6</span><span class="step-description">Remove the alternator mounting bolts (typically three: one upper, two lower). Use a 12mm socket for all bolts. Support alternator as last bolt is removed.</span><div class="step-meta">⏱️ 10 min | 🔧 16 ft-lbs</div></div><div class="procedure-step"><span class="step-number">7</span><span class="step-description">Carefully maneuver the alternator out of the engine bay. Note orientation for reinstallation.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">8</span><span class="step-description">Compare new alternator to old unit for correct fitment, connector type, and pulley alignment.</span><div class="step-meta">⏱️ 3 min</div></div><div class="procedure-step"><span class="step-number">9</span><span class="step-description">Install new alternator, aligning mounting holes. Hand-start all mounting bolts.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">10</span><span class="step-description">Tighten alternator mounting bolts to 16 ft-lbs in proper sequence (upper first, then lower).</span><div class="step-meta">⏱️ 5 min | 🔧 16 ft-lbs</div></div><div class="procedure-step"><span class="step-number">11</span><span class="step-description">Reconnect the battery cable to the alternator output terminal and tighten nut to 6 ft-lbs.</span><div class="step-meta">⏱️ 2 min | 🔧 6 ft-lbs</div></div><div class="procedure-step"><span class="step-number">12</span><span class="step-description">Reconnect the electrical connector to the alternator until it clicks into place.</span><div class="step-meta">⏱️ 2 min</div></div><div class="procedure-step"><span class="step-number">13</span><span class="step-description">Reinstall the serpentine belt, ensuring proper routing and tension. Refer to underhood diagram.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">14</span><span class="step-description">Reinstall engine cover (if removed).</span><div class="step-meta">⏱️ 2 min</div></div><div class="procedure-step"><span class="step-number">15</span><span class="step-description">Reconnect the negative battery cable.</span><div class="step-meta">⏱️ 2 min</div></div><div class="procedure-step"><span class="step-number">16</span><span class="step-description">Start engine and verify charging system operation with a voltmeter (should read 13.5–14.5V at battery with engine running).</span><div class="step-meta">⏱️ 5 min</div></div></div>
             
-            <div class="section"><h3>🔧 Torque Specifications</h3><div style="background: #fff9e6; border: 2px solid #d4a600; border-left: 6px solid #ff6b00; padding: 14px; margin-bottom: 16px; border-radius: 8px;"><strong style="color: #1a1a1a;">⚠️ CRITICAL:</strong> <span style="color: #1a1a1a;">Always verify torque specifications in factory service manual. Incorrect torque can cause damage or safety issues.</span></div><div class="torque-spec"><div><span class="torque-component">Alternator mounting bolts</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Verify torque specification</div></div><div style="text-align: right;"><span class="torque-value">16 ft-lbs (Straight)</span></div></div><div class="torque-spec"><div><span class="torque-component">Battery cable nut</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Minimal torque required</div></div><div style="text-align: right;"><span class="torque-value">6 ft-lbs (Straight)</span></div></div></div>
+            <div class="section"><h3>🔧 Torque Specifications</h3><div style="background: #fff9e6; border: 2px solid #d4a600; border-left: 6px solid #ff6b00; padding: 14px; margin-bottom: 16px; border-radius: 8px;"><strong style="color: #1a1a1a;">⚠️ CRITICAL:</strong> <span style="color: #1a1a1a;">Always verify torque specifications in factory service manual. Incorrect torque can cause damage or safety issues.</span></div><div class="torque-spec"><div><span class="torque-component">Alternator mounting bolts</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Critical for alternator alignment</div></div><div style="text-align: right;"><span class="torque-value">16 ft-lbs (Upper first, then lower)</span></div></div><div class="torque-spec"><div><span class="torque-component">Alternator output terminal nut</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Prevents terminal damage</div></div><div style="text-align: right;"><span class="torque-value">6 ft-lbs (Straight)</span></div></div><div class="torque-spec"><div><span class="torque-component">Wheel lug nuts</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Verify in owner's manual for exact spec</div></div><div style="text-align: right;"><span class="torque-value">80 ft-lbs (Star)</span></div></div></div>
             
             
             
-            <div class="section"><h3>🛠️ Required Parts</h3><div class="parts-list"><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Alternator (x1)</span><span class="part-number">OEM: Not specified</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Serpentine Belt (x1)</span><span class="part-number">OEM: Not specified</span></div></div></div>
+            <div class="section"><h3>🛠️ Required Parts</h3><div class="parts-list"><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Alternator (1.5L Turbo) (x1)</span><span class="part-number">OEM: 31100-5AA-A01</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Alternator (2.0L Turbo) (x1)</span><span class="part-number">OEM: 31100-5AA-A01</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Alternator (2.0L Hybrid) (x1)</span><span class="part-number">OEM: 31100-5AA-A01</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Serpentine belt (1.5L Turbo) (x1)</span><span class="part-number">OEM: 38920-RPY-A01</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Serpentine belt (2.0L Turbo) (x1)</span><span class="part-number">OEM: 38920-RPY-A01</span></div></div></div>
             
-            <div class="section"><h3>🔨 Special Tools Required</h3><ul style="list-style-position: inside; padding-left: 0;"><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Torque wrench (0-150 ft-lbs)</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">14mm wrench with cheater bar or serpentine belt tool</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">10mm and 12mm sockets</li></ul></div>
+            <div class="section"><h3>🔨 Special Tools Required</h3><ul style="list-style-position: inside; padding-left: 0;"><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Serpentine belt tool</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">10mm, 12mm sockets</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Torque wrench (3–150 ft-lbs)</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Needle-nose pliers (for wiring clips)</li></ul></div>
             
-            <div class="section"><h3>🔍 Common Issues & Troubleshooting</h3><div class="issue-item"><strong>Alternator Not Charging</strong>: Often due to faulty voltage regulator or worn brushes. Check for proper belt tension and alternator connections.</div><div class="issue-item"><strong>Overheating Alternator</strong>: Caused by excessive load or poor cooling. Ensure proper airflow around the alternator and check for any blockages.</div><div class="issue-item"><strong>Incorrect Belt Tension</strong>: Can lead to premature wear on the belt and alternator. Use a tension gauge to ensure proper tension.</div></div>
+            <div class="section"><h3>🔍 Common Issues & Troubleshooting</h3><div class="issue-item"><strong>Intermittent charging</strong>: Loose or corroded battery/alternator connections. Clean terminals and ensure tight connections.</div><div class="issue-item"><strong>Belt squeal after replacement</strong>: Incorrect belt tension or routing. Double-check belt diagram and tensioner operation.</div><div class="issue-item"><strong>Alternator not charging</strong>: Faulty replacement unit or incorrect installation. Verify all connections and test alternator output with engine running.</div><div class="issue-item"><strong>Check charging system light</strong>: Often caused by a failing alternator, but also check battery health and all wiring harnesses for damage.</div><div class="issue-item"><strong>Difficulty removing alternator</strong>: Tight clearance around A/C lines and power steering reservoir. Temporarily move components as needed for access.</div></div>
             
-            <div class="section"><h3>💡 Pro Tips</h3><div class="tip"><span class="tip-icon">💡</span>Verify the new alternator matches the old one in terms of mounting holes and electrical connectors</div><div class="tip"><span class="tip-icon">💡</span>Use a torque wrench to ensure accurate bolt tightening</div><div class="tip"><span class="tip-icon">💡</span>Check for any signs of wear or damage on the serpentine belt before reinstalling</div></div>
+            <div class="section"><h3>💡 Pro Tips</h3><div class="tip"><span class="tip-icon">💡</span>Take photos of belt routing before removal to ensure correct reinstallation.</div><div class="tip"><span class="tip-icon">💡</span>Inspect serpentine belt and tensioner while alternator is removed; replace if worn.</div><div class="tip"><span class="tip-icon">💡</span>Hand-start all bolts before final tightening to avoid cross-threading.</div><div class="tip"><span class="tip-icon">💡</span>Test charging system with a voltmeter after reassembly to confirm repair.</div></div>
         </div>
         
         <div class="footer">
             <div class="watermark">
                 GENERATED BY SWOOP SERVICE AUTO AI DOCUMENTATION SYSTEM<br>
-                OCTOBER 16, 2025 - 11:36 AM
+                OCTOBER 16, 2025 - 10:48 PM
             </div>
             
         </div>

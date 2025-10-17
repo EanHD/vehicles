@@ -17,6 +17,7 @@ from datetime import datetime
 sys.path.insert(0, str(Path(__file__).parent))
 from ai_client import AIClient
 from diagram_generator import DiagramGenerator
+from service_doc_generator_refactored import generate_professional_html
 
 
 class ServiceDocGenerator:
@@ -430,7 +431,7 @@ CRITICAL REQUIREMENTS:
         output_path: Path,
         diagram_paths: Dict[int, str] = None
     ):
-        """Generate professional HTML document"""
+        """Generate professional HTML document using refactored OEM/AllData-style"""
         
         if diagram_paths is None:
             diagram_paths = {}
@@ -438,6 +439,25 @@ CRITICAL REQUIREMENTS:
         year = vehicle_data['years'][-1]
         make = vehicle_data['make']
         model = vehicle_data['model']
+        
+        # Use the refactored professional HTML generator
+        html = generate_professional_html(
+            year=year,
+            make=make,
+            model=model,
+            vehicle_data=vehicle_data,
+            service_data=service_data,
+            research_data=research_data,
+            diagram_paths=diagram_paths
+        )
+        
+        # Write to file
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(html)
+        
+        return  # Exit early since we've written the file
+        
+        # OLD CODE BELOW - kept temporarily for reference
         
         html = f"""<!DOCTYPE html>
 <html lang="en">

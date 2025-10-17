@@ -423,6 +423,151 @@
             .diagram-title { color: #cccccc; }
             .diagram-note { color: #888888; }
         }
+        
+        /* Mobile Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .header {
+                padding: 18px 16px;
+            }
+            
+            .header h1 {
+                font-size: 18px;
+                line-height: 1.3;
+            }
+            
+            .header .subtitle {
+                font-size: 10px;
+            }
+            
+            .content {
+                padding: 16px;
+            }
+            
+            .section {
+                padding: 16px;
+                margin-bottom: 16px;
+            }
+            
+            .section h3 {
+                font-size: 14px;
+                padding: 10px 14px;
+            }
+            
+            .info-grid {
+                grid-template-columns: 1fr;
+                gap: 12px;
+                padding: 16px;
+            }
+            
+            .procedure-step {
+                padding: 12px;
+            }
+            
+            .step-number {
+                width: 32px;
+                height: 32px;
+                font-size: 14px;
+                line-height: 32px;
+                margin-right: 12px;
+            }
+            
+            .step-description {
+                font-size: 13px;
+            }
+            
+            .step-meta {
+                font-size: 11px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+            }
+            
+            .torque-spec {
+                padding: 10px;
+            }
+            
+            .torque-component {
+                font-size: 13px;
+            }
+            
+            .torque-value {
+                font-size: 13px;
+            }
+            
+            .warning, .tip {
+                padding: 12px;
+            }
+            
+            .warning-icon, .tip-icon {
+                width: 32px;
+                height: 32px;
+                font-size: 16px;
+                line-height: 32px;
+            }
+            
+            .part-item {
+                padding: 10px;
+            }
+            
+            .part-name {
+                font-size: 13px;
+            }
+            
+            .part-number {
+                font-size: 11px;
+            }
+            
+            .issue-item {
+                padding: 12px;
+                font-size: 13px;
+            }
+            
+            table {
+                font-size: 12px;
+            }
+            
+            table th, table td {
+                padding: 8px 6px;
+            }
+            
+            /* Make tables horizontally scrollable on mobile */
+            .section table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 8px;
+            }
+            
+            .header {
+                padding: 14px 12px;
+            }
+            
+            .header h1 {
+                font-size: 16px;
+            }
+            
+            .content {
+                padding: 12px;
+            }
+            
+            .section {
+                padding: 12px;
+            }
+            
+            .section h3 {
+                font-size: 13px;
+                padding: 8px 12px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -479,37 +624,33 @@
                         <span class="info-value">1.5 HRS</span>
                     </div>
                     <div class="info-item">
-                        <span class="info-label">LABOR RATE</span>
-                        <span class="info-value">$150/HR</span>
-                    </div>
-                    <div class="info-item">
                         <span class="info-label">SKILL LEVEL</span>
                         <span class="info-value">Intermediate</span>
                     </div>
                 </div>
             </div>
             
-            <div class="section"><h3>⚠️ Safety Warnings</h3><div class="warning"><span class="warning-icon">⚠️</span>Never work under a vehicle supported only by a jack</div><div class="warning"><span class="warning-icon">⚠️</span>Use proper jack stands</div><div class="warning"><span class="warning-icon">⚠️</span>Wear gloves and eye protection</div></div>
+            <div class="section"><h3>⚠️ Safety Warnings</h3><div class="warning"><span class="warning-icon">⚠️</span>Never work under vehicle supported only by hydraulic jack - always use properly rated jack stands at manufacturer-specified lift points</div><div class="warning"><span class="warning-icon">⚠️</span>Wear safety glasses and nitrile gloves - brake dust contains harmful particles and brake fluid damages paint and skin</div><div class="warning"><span class="warning-icon">⚠️</span>Ensure parking brake is in service mode before attempting rear brake service on EPB-equipped vehicles to prevent motor damage</div><div class="warning"><span class="warning-icon">⚠️</span>Do not allow caliper to hang by brake hose - can cause internal hose damage and brake failure</div><div class="warning"><span class="warning-icon">⚠️</span>Brake fluid is hygroscopic and corrosive - keep away from painted surfaces, immediately flush with water if skin contact occurs</div><div class="warning"><span class="warning-icon">⚠️</span>Compressed caliper piston can cause brake fluid overflow - monitor reservoir constantly during compression</div><div class="warning"><span class="warning-icon">⚠️</span>Always pump brake pedal until firm before attempting to drive vehicle - failure to do so results in no braking on first pedal application</div><div class="warning"><span class="warning-icon">⚠️</span>Use only DOT 3 brake fluid - never mix different brake fluid types or use contaminated fluid</div><div class="warning"><span class="warning-icon">⚠️</span>Perform brake bedding procedure in safe area away from traffic - initial braking performance is reduced with new pads</div><div class="warning"><span class="warning-icon">⚠️</span>If brake pedal feels soft or spongy after service, do not drive vehicle - air in system requires bleeding</div></div>
             
-            <div class="section"><h3>📋 Step-by-Step Procedure</h3><div class="procedure-step"><span class="step-number">1</span><span class="step-description">Raise the vehicle and secure it with jack stands at the manufacturer-specified lift points. Ensure the vehicle is on a level surface.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">2</span><span class="step-description">Remove the wheel and inspect the brake assembly for wear patterns and damage.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">3</span><span class="step-description">Remove the caliper bolts using a 14mm socket and secure the caliper with wire—do not hang by the brake line.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">4</span><span class="step-description">Remove the old brake pads and note the wear pattern for diagnostic purposes.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">5</span><span class="step-description">Compress the caliper piston using a brake caliper tool; monitor the brake fluid reservoir to avoid overflow.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">6</span><span class="step-description">Clean the caliper slides and apply high-temperature brake grease per manufacturer specifications.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">7</span><span class="step-description">Install new brake pads with anti-squeal shims in the correct orientation.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">8</span><span class="step-description">Reinstall the caliper and torque the mounting bolts to the specified value (typically around 25-35 ft-lbs for sliding pins).</span><div class="step-meta">⏱️ 10 min | 🔧 25-35 ft-lbs</div></div><div class="procedure-step"><span class="step-number">9</span><span class="step-description">Pump the brake pedal until firm before driving. Bed-in brakes with 30 gentle stops from 30 mph.</span><div class="step-meta">⏱️ 15 min</div></div></div>
+            <div class="section"><h3>📋 Step-by-Step Procedure</h3><div class="procedure-step"><span class="step-number">1</span><span class="step-description">Engage electronic parking brake (EPB) service mode: Turn ignition ON, press brake pedal, release parking brake. Turn ignition OFF. Turn ignition back ON and within 8 seconds, press brake pedal, raise parking brake switch 3 times, lower 3 times. Press and hold switch until EPB motor winds back (indicator will blink). Turn ignition OFF.</span><div class="step-meta">⏱️ 3 min</div></div><div class="procedure-step"><span class="step-number">2</span><span class="step-description">Loosen wheel lug nuts while vehicle is on ground. Raise vehicle using floor jack at manufacturer-specified lift points and secure with jack stands rated for vehicle weight. Remove wheel completely.</span><div class="step-meta">⏱️ 8 min</div></div><div class="procedure-step"><span class="step-number">3</span><span class="step-description">Inspect brake assembly for wear patterns, damage, fluid leaks, and rotor condition. Measure rotor thickness with micrometer - minimum thickness is 10.5mm (0.414 in) for vehicles with EPB or 8.5mm (0.335 in) without EPB. Document condition.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">4</span><span class="step-description">Remove lower 14mm caliper bolt, then upper 14mm caliper bolt. Carefully pivot caliper upward and secure with wire or bungee cord to suspension - never let caliper hang by brake hose.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">5</span><span class="step-description">Remove inner and outer brake pads from caliper bracket. Note orientation and location of wear indicator bars (typically at top of both pads). Remove old pad abutment clips from bracket if replacement hardware is included.</span><div class="step-meta">⏱️ 3 min</div></div><div class="procedure-step"><span class="step-number">6</span><span class="step-description">Clean caliper bracket, lug studs, and rotor hub face with brake cleaner and wire brush. Remove rust and debris. Inspect caliper slider pins - if sticking or corroded, remove and clean thoroughly.</span><div class="step-meta">⏱️ 7 min</div></div><div class="procedure-step"><span class="step-number">7</span><span class="step-description">Remove caliper slider pins from rubber dust boots. Apply thin layer of high-temperature synthetic brake grease to smooth sections of pins (avoid threads). Reinstall pins into dust boots ensuring proper seating.</span><div class="step-meta">⏱️ 4 min</div></div><div class="procedure-step"><span class="step-number">8</span><span class="step-description">Locate brake fluid reservoir in engine bay (behind battery on passenger side). Remove cap and place clean rag around opening. Using brake caliper piston compression tool or C-clamp with old brake pad, slowly compress caliper piston flush with dust boot. Monitor reservoir for overflow.</span><div class="step-meta">⏱️ 6 min</div></div><div class="procedure-step"><span class="step-number">9</span><span class="step-description">Install new pad abutment clips into bracket if included with brake pad set. Apply thin layer of brake grease to clip contact points. Install new brake pads into bracket with wear indicators positioned at top of pads. Verify anti-squeal shims are properly attached.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">10</span><span class="step-description">Lower caliper over new brake pads and align bolt holes with slider pins. Hand-thread both 14mm caliper bolts counterclockwise (as viewed from outside) to prevent cross-threading.</span><div class="step-meta">⏱️ 3 min</div></div><div class="procedure-step"><span class="step-number">11</span><span class="step-description">Torque both caliper bolts to specification using calibrated torque wrench. If slider pins rotate during tightening, hold pin stationary with 17mm wrench while torquing bolt.</span><div class="step-meta">⏱️ 3 min | 🔧 25 ft-lbs</div></div><div class="procedure-step"><span class="step-number">12</span><span class="step-description">Reinstall brake fluid reservoir cap. Install wheel and hand-thread all lug nuts. Lower vehicle until tire contacts ground but weight is not fully transferred.</span><div class="step-meta">⏱️ 4 min</div></div><div class="procedure-step"><span class="step-number">13</span><span class="step-description">Torque wheel lug nuts in star pattern to specification. Fully lower vehicle and remove jack stands.</span><div class="step-meta">⏱️ 3 min | 🔧 76 ft-lbs</div></div><div class="procedure-step"><span class="step-number">14</span><span class="step-description">Exit EPB service mode: Turn ignition ON, press and hold parking brake switch until EPB motor engages and parking brake light becomes solid. Turn ignition OFF.</span><div class="step-meta">⏱️ 2 min</div></div><div class="procedure-step"><span class="step-number">15</span><span class="step-description">With engine OFF, pump brake pedal 10-15 times until firm resistance is felt. Start engine and verify brake pedal firmness. Test parking brake engagement. Perform bedding procedure: 30 gentle stops from 30 mph with 30 seconds cool-down between stops.</span><div class="step-meta">⏱️ 25 min</div></div></div>
             
-            <div class="section"><h3>🔧 Torque Specifications</h3><div style="background: #fff9e6; border: 2px solid #d4a600; border-left: 6px solid #ff6b00; padding: 14px; margin-bottom: 16px; border-radius: 8px;"><strong style="color: #1a1a1a;">⚠️ CRITICAL:</strong> <span style="color: #1a1a1a;">Always verify torque specifications in factory service manual. Incorrect torque can cause damage or safety issues.</span></div><div class="torque-spec"><div><span class="torque-component">Caliper bolts</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Verify torque specification</div></div><div style="text-align: right;"><span class="torque-value">25-35 ft-lbs (Straight)</span></div></div><div class="torque-spec"><div><span class="torque-component">Wheel lug nuts</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Typical for Toyota Camry</div></div><div style="text-align: right;"><span class="torque-value">76 ft-lbs (Star pattern)</span></div></div></div>
+            <div class="section"><h3>🔧 Torque Specifications</h3><div style="background: #fff9e6; border: 2px solid #d4a600; border-left: 6px solid #ff6b00; padding: 14px; margin-bottom: 16px; border-radius: 8px;"><strong style="color: #1a1a1a;">⚠️ CRITICAL:</strong> <span style="color: #1a1a1a;">Always verify torque specifications in factory service manual. Incorrect torque can cause damage or safety issues.</span></div><div class="torque-spec"><div><span class="torque-component">Rear caliper mounting bolts (14mm)</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Do not overtighten - can damage slider pins</div></div><div style="text-align: right;"><span class="torque-value">25 ft-lbs (Tighten both evenly)</span></div></div><div class="torque-spec"><div><span class="torque-component">Front caliper mounting bolts (14mm)</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Hold slider pin with 17mm wrench if rotation occurs</div></div><div style="text-align: right;"><span class="torque-value">25 ft-lbs (Tighten both evenly)</span></div></div><div class="torque-spec"><div><span class="torque-component">Wheel lug nuts</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Final torque with vehicle weight on ground</div></div><div style="text-align: right;"><span class="torque-value">76 ft-lbs (Star pattern in multiple passes)</span></div></div><div class="torque-spec"><div><span class="torque-component">Brake bleeder valve (8mm)</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ If bleeding is required - do not overtighten</div></div><div style="text-align: right;"><span class="torque-value">73 in-lbs (Straight)</span></div></div></div>
             
             
             
-            <div class="section"><h3>🛠️ Required Parts</h3><div class="parts-list"><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Rear brake pads (x1)</span><span class="part-number">OEM: 04466-0E070</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Shim kit (optional) (x1)</span><span class="part-number">OEM: 04946-02120</span></div></div></div>
+            <div class="section"><h3>🛠️ Required Parts</h3><div class="parts-list"><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Rear brake pad set (x1)</span><span class="part-number">OEM: 04466-0E070</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Front brake pad set (x1)</span><span class="part-number">OEM: 04465-06120</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Brake pad shim kit (optional) (x1)</span><span class="part-number">OEM: 04946-02120</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">High-temperature synthetic brake grease (x1)</span><span class="part-number">OEM: 08887-01206</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Brake cleaner spray (x1)</span><span class="part-number">OEM: 00289-1AQ00</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">DOT 3 brake fluid (if bleeding required) (x1)</span><span class="part-number">OEM: 00475-1BF03</span></div></div></div>
             
-            <div class="section"><h3>🔨 Special Tools Required</h3><ul style="list-style-position: inside; padding-left: 0;"><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Torque wrench (0-150 ft-lbs)</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">14mm socket</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Brake caliper tool</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Jack and jack stands</li></ul></div>
+            <div class="section"><h3>🔨 Special Tools Required</h3><ul style="list-style-position: inside; padding-left: 0;"><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Floor jack (2-ton minimum capacity)</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Jack stands (pair, rated for vehicle weight)</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">14mm socket with 3/8-inch drive ratchet</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">17mm wrench (for holding slider pins)</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">8mm wrench (for bleeder valve if needed)</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Torque wrench (0-150 ft-lbs range)</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Brake caliper piston compression tool or C-clamp</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Wire brush and brake cleaner</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Bungee cord or mechanic's wire</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Micrometer or caliper for rotor measurement</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">OBD-II scanner (optional, for clearing EPB codes if needed)</li></ul></div>
             
-            <div class="section"><h3>🔍 Common Issues & Troubleshooting</h3><div class="issue-item"><strong>Incorrect Caliper Piston Compression</strong>: Failing to compress the piston slowly can damage the ABS system. Always monitor brake fluid levels during compression.</div><div class="issue-item"><strong>Worn or Damaged Brake Rotors</strong>: If rotors are below minimum thickness, they must be replaced. Minimum rotor thickness for models with electronic parking brake is 10.5 mm.</div></div>
+            <div class="section"><h3>🔍 Common Issues & Troubleshooting</h3><div class="issue-item"><strong>Electronic Parking Brake (EPB) service mode failure</strong>: Caused by not following timing sequence precisely or low battery voltage. Symptoms include EPB not releasing or error messages. Solution: Ensure battery is fully charged (12.5V+), follow 8-second timing window exactly, listen for motor wind-back confirmation sound. If repeated failures occur, use OBD-II scanner to check for EPB system codes.</div><div class="issue-item"><strong>Brake fluid reservoir overflow during piston compression</strong>: Occurs when reservoir is overfilled or piston compressed too quickly. Can cause fluid spill on painted surfaces (corrosive). Solution: Remove some brake fluid with turkey baster before compression, compress piston slowly while monitoring reservoir level, keep clean rags around reservoir cap area.</div><div class="issue-item"><strong>Seized caliper slider pins</strong>: Caused by lack of lubrication, contamination, or torn dust boots allowing moisture intrusion. Symptoms include uneven pad wear, pulling during braking, reduced brake performance. Solution: Remove pins completely, clean with wire brush and brake cleaner, inspect dust boots for tears (replace if damaged), apply generous amount of synthetic brake grease to smooth pin sections only, ensure free movement in bracket.</div><div class="issue-item"><strong>Premature inner pad wear</strong>: Typically caused by seized slider pins preventing caliper float or corroded caliper bracket. One pad wears significantly faster than other. Solution: Thoroughly clean bracket contact surfaces, replace abutment clips, verify slider pins move freely, check caliper for binding. Consider caliper replacement if bracket is severely corroded.</div><div class="issue-item"><strong>Brake pedal travels to floor after pad replacement</strong>: Caused by not pumping pedal to reset piston position or air in brake lines. Solution: Pump brake pedal 10-15 times with engine OFF until firm. If pedal remains soft, bleed brake system starting with wheel furthest from master cylinder. Check for fluid leaks at caliper and brake lines.</div><div class="issue-item"><strong>Brake noise after replacement (squeal or grinding)</strong>: Multiple causes including missing or improperly installed anti-squeal shims, pad contact points not lubricated, wrong pad compound, glazed rotors. Solution: Verify shims are attached to all pads, apply brake grease to pad backing plates and abutment clip contact points (never on friction material), resurface or replace glazed rotors, ensure correct OEM-specification pads are installed.</div><div class="issue-item"><strong>Rotor thickness below minimum specification</strong>: Rotors on 2020 Camry with EPB must be minimum 10.5mm (0.414 in). Below this causes pedal pulsation, reduced stopping power, potential brake failure. Solution: Always measure rotor thickness with micrometer at multiple points including thinnest section. Replace rotors if at or below minimum specification - never machine below minimum. Note that non-EPB models have different specification (8.5mm).</div></div>
             
-            <div class="section"><h3>💡 Pro Tips</h3><div class="tip"><span class="tip-icon">💡</span>Always check brake fluid level after caliper piston compression</div><div class="tip"><span class="tip-icon">💡</span>Use a torque wrench for precise bolt tightening</div></div>
+            <div class="section"><h3>💡 Pro Tips</h3><div class="tip"><span class="tip-icon">💡</span>Battery voltage should be above 12.5V before attempting EPB service mode - low voltage causes system errors</div><div class="tip"><span class="tip-icon">💡</span>Take photos of brake assembly before disassembly to reference pad orientation and hardware placement</div><div class="tip"><span class="tip-icon">💡</span>Replace brake pads in axle sets (both front or both rear) - never replace single wheel to maintain balanced braking</div><div class="tip"><span class="tip-icon">💡</span>Inspect brake fluid color during service - dark or contaminated fluid indicates need for complete system flush</div><div class="tip"><span class="tip-icon">💡</span>New brake pads should have 10-12mm of friction material thickness - verify before installation</div><div class="tip"><span class="tip-icon">💡</span>Apply anti-seize compound to wheel hub face (not lug studs) to prevent wheel seizure and facilitate future removal</div><div class="tip"><span class="tip-icon">💡</span>Keep brake parts clean - use brake cleaner liberally and avoid touching friction surfaces with greasy hands</div><div class="tip"><span class="tip-icon">💡</span>Compressed air can be used to clean caliper bracket and rotor but wear respirator to avoid inhaling brake dust</div><div class="tip"><span class="tip-icon">💡</span>Bedding procedure is critical for new pads - improper bedding causes glazing, noise, and reduced performance</div><div class="tip"><span class="tip-icon">💡</span>Mark torque wrench settings before use and verify calibration annually for safety-critical fasteners</div><div class="tip"><span class="tip-icon">💡</span>If replacing only pads and reusing rotors, light scuff-sanding of rotor surface with 120-grit sandpaper improves initial pad contact</div><div class="tip"><span class="tip-icon">💡</span>Keep shop towels away from moving parts and hot components during test drive after service</div></div>
         </div>
         
         <div class="footer">
             <div class="watermark">
                 GENERATED BY SWOOP SERVICE AUTO AI DOCUMENTATION SYSTEM<br>
-                OCTOBER 16, 2025 - 11:35 AM
+                OCTOBER 16, 2025 - 10:48 PM
             </div>
             
         </div>
