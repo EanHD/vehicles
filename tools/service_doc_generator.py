@@ -1065,10 +1065,6 @@ CRITICAL REQUIREMENTS:
                         <span class="info-value">{service_data.get('labor_time_hours') or service_data.get('est_labor_hours', 0)} HRS</span>
                     </div>
                     <div class="info-item">
-                        <span class="info-label">LABOR RATE</span>
-                        <span class="info-value">${service_data.get('labor_rate_local', 150)}/HR</span>
-                    </div>
-                    <div class="info-item">
                         <span class="info-label">SKILL LEVEL</span>
                         <span class="info-value">{service_data.get('skill_level', 'INTERMEDIATE')}</span>
                     </div>
