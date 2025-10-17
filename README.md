@@ -38,6 +38,13 @@ The system:
 - Choose service by category
 - Generate docs with one click
 
+✅ **REST API**
+- FastAPI-based REST API for mobile app integration
+- Full vehicle/service database access
+- Automatic documentation generation
+- Smart caching for performance
+- OpenAPI/Swagger documentation
+
 ✅ **Professional Output**
 - HTML documents styled for readability
 - Mobile-friendly for shop floor use
@@ -48,34 +55,45 @@ The system:
 
 ## 🚀 Quick Start
 
-### 1. Start the Web App
+### Option 1: Web Interface (Recommended for Quick Testing)
 
 ```bash
 cd /home/eanhd/projects/vehicles
 source venv/bin/activate
-streamlit run app.py
+./start_app.sh  # or: streamlit run app.py
 ```
 
-Or use the convenience script:
+Open your browser to http://localhost:8501
+
+**See detailed walkthrough**: [`QUICK_START_APP.md`](QUICK_START_APP.md)
+
+### Option 2: REST API (Recommended for Mobile App Integration)
+
 ```bash
-./start_web_app.sh
+cd /home/eanhd/projects/vehicles
+source venv/bin/activate
+./start_api.sh  # or: python api.py
 ```
 
-### 2. Access the App
+Open your browser to http://localhost:8000/docs for interactive API documentation
 
-Open your browser to:
-- **Local**: http://localhost:8501
-- **Network**: http://172.31.17.60:8501
-- **Tailscale**: http://73.151.108.165:8501
+**See API guide**: [`API_QUICK_START.md`](API_QUICK_START.md)
 
 ### 3. Generate Documentation
 
+**Web Interface:**
 1. Select a vehicle (Make → Model → Year)
 2. Choose a service from the catalog
 3. Click "Generate Service Documentation"
 4. Get professional docs in 10-30 seconds!
 
-**See detailed walkthrough**: [`QUICK_START_APP.md`](QUICK_START_APP.md)
+**API:**
+```bash
+curl -X POST http://localhost:8000/api/v1/documentation/generate \
+  -H "X-API-Key: your-api-key" \
+  -H "Content-Type: application/json" \
+  -d '{"year":2015,"make":"Toyota","model":"Camry","service":"Oil Change"}'
+```
 
 ---
 
@@ -122,7 +140,8 @@ Open your browser to:
 
 ```
 vehicles/
-├── 📱 app.py                          # ⭐ Streamlit web interface (START HERE!)
+├── 📱 app.py                          # ⭐ Streamlit web interface
+├── 🔌 api.py                          # ⭐ FastAPI REST API (for mobile app integration)
 ├── 📁 data/                           # Core databases
 │   ├── vehicles.json                  # 2,270 vehicles with specs
 │   └── services.json                  # 153 services with labor/pricing
@@ -130,7 +149,7 @@ vehicles/
 ├── 📁 tools/                          # Python modules
 │   ├── service_doc_generator.py       # Main doc generator
 │   ├── ai_client.py                   # Multi-provider AI client
-│   ├── service_api.py                 # REST API wrapper
+│   ├── service_api.py                 # Legacy Flask API
 │   └── batch_generate.py              # Batch generation tool
 │
 ├── 📁 service_docs/                   # Generated documentation (cache)
@@ -153,8 +172,10 @@ vehicles/
 ├── 📁 reports/                        # Completion reports
 │
 ├── 📋 README.md                       # ⭐ This file
-├── 📋 QUICK_START_APP.md              # ⭐ User guide
-├── 📋 APP_STATUS.md                   # ⭐ Current status
+├── 📋 QUICK_START_APP.md              # ⭐ Web app user guide
+├── 📋 API_DOCUMENTATION.md            # ⭐ REST API reference
+├── 📋 API_QUICK_START.md              # ⭐ API quick start guide
+├── 📋 APP_STATUS.md                   # Current web app status
 ├── 📋 IMPLEMENTATION_GUIDE.md         # Technical implementation
 ├── 📋 SYSTEM_COMPLETE.md              # Architecture overview
 ├── 📋 CHECKLIST.md                    # Manufacturer coverage checklist
@@ -162,6 +183,8 @@ vehicles/
 ├── 📋 TODO.md                         # Open tasks
 ├── 📋 TROUBLESHOOTING.md              # Common issues
 ├── 📄 tracking.md                     # Research priorities & notes
+├── 🚀 start_app.sh                    # Start Streamlit web app
+├── 🚀 start_api.sh                    # Start REST API server
 └── .env                               # API keys (DO NOT COMMIT!)
 ```
 
@@ -346,7 +369,9 @@ The next time you request that service/vehicle combination, it will be freshly g
 ## 📖 Documentation
 
 ### Quick References
-- **[QUICK_START_APP.md](QUICK_START_APP.md)** - Get started in 60 seconds ⭐
+- **[QUICK_START_APP.md](QUICK_START_APP.md)** - Web app quick start ⭐
+- **[API_QUICK_START.md](API_QUICK_START.md)** - REST API quick start ⭐
+- **[API_DOCUMENTATION.md](API_DOCUMENTATION.md)** - Full API reference
 - **[APP_STATUS.md](APP_STATUS.md)** - Current system status
 - **[IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md)** - Technical details
 
@@ -441,21 +466,6 @@ jq -r '.[].make' data/vehicles.json | sort -u
 # Find all EVs (high voltage)
 jq '[.[] | select(.difficulty_modifier >= 1.4)]' data/vehicles.json
 ```
-
----
-
-## 📖 Documentation
-
-### Quick References
-- **[QUICK_START_APP.md](QUICK_START_APP.md)** - Get started in 60 seconds ⭐
-- **[APP_STATUS.md](APP_STATUS.md)** - Current system status
-- **[IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md)** - Technical details
-- **[CHECKLIST_STATUS.md](CHECKLIST_STATUS.md)** - Database coverage
-
-### System Documentation  
-- **[SYSTEM_COMPLETE.md](SYSTEM_COMPLETE.md)** - Full architecture
-- **[docs/workflow/WORKFLOW.md](docs/workflow/WORKFLOW.md)** - Research process
-- **[docs/agents/CLAUDE.md](docs/agents/CLAUDE.md)** - AI agent workflows
 
 ---
 
