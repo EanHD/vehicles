@@ -1,7 +1,31 @@
 # Swoop Service Auto - Application Status
 
-**Last Updated**: January 17, 2025  
-**Status**: ✅ OPERATIONAL
+**Last Updated**: January 17, 2025 - 23:00 UTC  
+**Version**: 2.2  
+**Status**: ✅ **FULLY OPERATIONAL**
+
+---
+
+## 🎉 Recent Fixes (January 17, 2025)
+
+### ✅ Streamlit Cloud Deployment Fixed
+- **Issue**: Cache not loading on deployed app (showed "8 cached but 0 cars")
+- **Cause**: Absolute paths in cache_index.json didn't match cloud environment
+- **Fix**: Converted all paths to relative paths for portability
+- **Result**: All 8 cached documents now load correctly on Streamlit Cloud
+- **Commit**: 0ae271a
+
+### ✅ iOS Loading Issues Fixed
+- **Issue**: Endless loading screen with flashing rectangles on iOS
+- **Cause**: Page config called after imports, poor mobile optimization
+- **Fix**: 
+  - Moved `st.set_page_config()` before imports
+  - Added `.streamlit/config.toml` with mobile optimizations
+  - Enabled websocket compression and fast reruns
+- **Result**: Clean, fast loading on iOS devices
+- **Commit**: 0ae271a
+
+See [DEPLOYMENT_FIX.md](DEPLOYMENT_FIX.md) for full details.
 
 ---
 
