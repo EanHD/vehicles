@@ -3,516 +3,993 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2013 BMW 1 Series (E82/E88) - Fuel Injector Replacement (Set of 4) | Swoop Service Auto</title>
+    <title>2013 BMW 1 Series (E82/E88) — Fuel Injector Replacement (Set of 4) | Swoop Service Auto</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        /* Base Styles - Mobile First */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --color-bg-page: #f5f5f5;
+            --color-bg-content: #ffffff;
+            --color-text-primary: #1a1a1a;
+            --color-text-secondary: #666666;
+            --color-text-muted: #999999;
+            --color-border: #d0d0d0;
+            --color-border-light: #e0e0e0;
+            --color-accent-primary: #c41e3a;
+            --color-accent-secondary: #2c5aa0;
+            --color-warning-bg: #fff3cd;
+            --color-warning-border: #ffc107;
+            --color-danger-bg: #f8d7da;
+            --color-danger-border: #dc3545;
+            --color-success-bg: #d4edda;
+            --color-success-border: #28a745;
+            --color-info-bg: #d1ecf1;
+            --color-info-border: #17a2b8;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #1a1a1a;
-            background: #e0e0e0;
-            padding: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+            line-height: 1.5;
+            color: var(--color-text-primary);
+            background: var(--color-bg-page);
+            padding: 0;
+            font-size: 14px;
         }
         
         .container {
-            max-width: 1000px;
+            max-width: 960px;
             margin: 0 auto;
-            background: #ffffff;
-            border: 2px solid #3a3a3a;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-            border-radius: 12px;
-            overflow: hidden;
+            background: var(--color-bg-content);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         
-        .header {
-            background: linear-gradient(135deg, #1e1e1e 0%, #2d2d2d 100%);
+        /* Header */
+        .doc-header {
+            background: linear-gradient(to bottom, #2a2a2a 0%, #1a1a1a 100%);
             color: #ffffff;
-            padding: 24px 30px;
-            border-bottom: 5px solid #d32f2f;
+            padding: 20px 24px;
+            border-bottom: 3px solid var(--color-accent-primary);
         }
         
-        .header h1 {
-            font-size: 24px;
-            margin-bottom: 6px;
+        .header-content .brand {
+            font-size: 18px;
             font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        
+        .header-content .doc-subtitle {
+            font-size: 11px;
+            color: #cccccc;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 4px;
+        }
+        
+        /* Navigation */
+        .section-nav {
+            background: #f8f8f8;
+            border-bottom: 1px solid var(--color-border);
+            padding: 12px 24px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .section-nav a {
+            color: var(--color-text-secondary);
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            padding: 4px 0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        
+        .section-nav a:hover {
+            color: var(--color-accent-primary);
+            border-bottom-color: var(--color-accent-primary);
+        }
+        
+        /* Main Content */
+        .content {
+            padding: 32px 24px;
+        }
+        
+        /* Overview Section */
+        .overview-section h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--color-text-primary);
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+        
+        .subtitle-line {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid var(--color-border-light);
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #f0f0f0;
+            color: var(--color-text-secondary);
+            font-size: 11px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 4px;
+            border: 1px solid var(--color-border);
+            text-transform: uppercase;
             letter-spacing: 0.3px;
         }
         
-        .header .subtitle {
-            font-size: 11px;
-            color: #b8b8b8;
+        .environmental-note {
+            background: var(--color-info-bg);
+            border-left: 4px solid var(--color-info-border);
+            padding: 12px 16px;
+            margin: 20px 0;
+            font-size: 13px;
+            line-height: 1.6;
+            border-radius: 4px;
+        }
+        
+        /* Vehicle Specs */
+        .vehicle-specs {
+            margin: 24px 0;
+        }
+        
+        .vehicle-specs h2 {
+            font-size: 16px;
+            font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 1.2px;
+            color: var(--color-text-primary);
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--color-accent-primary);
+            letter-spacing: 0.5px;
+        }
+        
+        .spec-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+        }
+        
+        .spec-item {
+            display: flex;
+            flex-direction: column;
+            padding: 12px;
+            background: #f9f9f9;
+            border: 1px solid var(--color-border-light);
+            border-radius: 4px;
+        }
+        
+        .spec-item dt {
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--color-text-secondary);
+            margin-bottom: 6px;
+            letter-spacing: 0.5px;
+        }
+        
+        .spec-item dd {
+            font-size: 13px;
             font-weight: 600;
+            color: var(--color-text-primary);
         }
         
-        .content {
-            padding: 28px;
-            background: #f5f5f5;
+        /* Generic Section Styles */
+        section {
+            margin: 32px 0;
         }
         
-        .vehicle-info {
-            background: #ffffff;
-            border: 2px solid #4a4a4a;
-            padding: 0;
-            margin-bottom: 24px;
-            border-radius: 10px;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+        section h2 {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--color-text-primary);
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--color-accent-primary);
+            letter-spacing: 0.5px;
+        }
+        
+        section h3 {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--color-text-primary);
+            margin: 20px 0 12px 0;
+        }
+        
+        /* Safety Warnings */
+        .safety-warning {
+            background: var(--color-danger-bg);
+            border-left: 4px solid var(--color-danger-border);
+            padding: 12px 16px;
+            margin-bottom: 10px;
+            font-size: 13px;
+            line-height: 1.6;
+            border-radius: 4px;
+        }
+        
+        .safety-warning::before {
+            content: "⚠ ";
+            font-weight: 700;
+            color: var(--color-danger-border);
+        }
+        
+        /* Procedure Steps */
+        .steps {
+            list-style: none;
+            counter-reset: step-counter;
+        }
+        
+        .steps li {
+            counter-increment: step-counter;
+            margin-bottom: 16px;
+            padding: 16px;
+            background: #fafafa;
+            border: 1px solid var(--color-border-light);
+            border-left: 4px solid var(--color-accent-secondary);
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+        
+        .steps li::before {
+            content: counter(step-counter);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background: var(--color-accent-secondary);
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 13px;
+            border-radius: 4px;
+            margin-right: 12px;
+            float: left;
+        }
+        
+        .step-content {
             overflow: hidden;
         }
         
-        .vehicle-info h2 {
-            color: #ffffff;
-            font-size: 14px;
-            margin: 0;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.6px;
-            background: linear-gradient(135deg, #3a3a3a 0%, #1e1e1e 100%);
-            padding: 14px 20px;
-        }
-        
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 14px 20px;
-            padding: 20px;
-        }
-        
-        .info-item {
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .info-label {
-            font-weight: 700;
-            color: #666666;
-            font-size: 10px;
-            text-transform: uppercase;
-            margin-bottom: 6px;
-            letter-spacing: 0.6px;
-        }
-        
-        .info-value {
-            color: #1a1a1a;
-            font-size: 14px;
-            font-weight: 600;
-            background: #f0f0f0;
-            padding: 8px 12px;
-            border-radius: 6px;
-            border: 1px solid #d0d0d0;
-        }
-        
-        .service-overview {
-            background: linear-gradient(135deg, #fff9e6 0%, #fff3d4 100%);
-            border: 2px solid #d4a600;
-            border-left: 6px solid #d32f2f;
-            padding: 18px;
-            margin-bottom: 24px;
-            border-radius: 10px;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-        }
-        
-        .service-overview h2 {
-            color: #1a1a1a;
-            font-size: 15px;
-            margin-bottom: 14px;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-        
-        .section {
-            margin-bottom: 22px;
-            background: #ffffff;
-            padding: 16px;
-            border: 2px solid #d0d0d0;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-        }
-        
-        .section h3 {
-            color: #1a1a1a;
-            font-size: 14px;
-            margin-bottom: 14px;
-            padding-bottom: 10px;
-            border-bottom: 3px solid #d32f2f;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.6px;
-        }
-        
-        .procedure-step {
-            background: #f8f8f8;
-            padding: 14px;
-            margin-bottom: 12px;
-            border: 1px solid #d5d5d5;
-            border-left: 5px solid #3a3a3a;
-            border-radius: 6px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-        }
-        
-        .step-number {
-            display: inline-block;
-            background: linear-gradient(135deg, #3a3a3a 0%, #1e1e1e 100%);
-            color: #ffffff;
-            min-width: 32px;
-            height: 32px;
-            line-height: 32px;
-            text-align: center;
-            font-weight: 700;
-            margin-right: 12px;
-            font-size: 14px;
-            border-radius: 6px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-        }
-        
-        .step-description {
+        .step-torque-ref {
             display: inline;
-            font-size: 13px;
-            color: #1a1a1a;
-            font-weight: 500;
-            line-height: 1.6;
+            color: var(--color-accent-primary);
+            font-weight: 600;
         }
         
         .step-meta {
-            margin-top: 10px;
+            margin-top: 8px;
             font-size: 11px;
-            color: #666666;
+            color: var(--color-text-secondary);
             font-weight: 600;
-            padding-left: 44px;
             text-transform: uppercase;
-            letter-spacing: 0.4px;
+            letter-spacing: 0.3px;
         }
         
-        .torque-spec {
-            background: #f4f4f4;
-            padding: 12px 14px;
-            margin-bottom: 10px;
-            border: 1px solid #d0d0d0;
-            border-left: 4px solid #d32f2f;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-radius: 6px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 12px;
+            page-break-inside: avoid;
         }
         
-        .torque-component {
-            font-weight: 600;
-            color: #1a1a1a;
+        caption {
+            text-align: left;
+            font-weight: 700;
             font-size: 13px;
+            padding: 8px 0;
+            color: var(--color-text-primary);
         }
         
-        .torque-value {
-            color: #d32f2f;
-            font-weight: 700;
-            font-size: 15px;
-            font-family: 'Courier New', monospace;
-            background: #ffffff;
-            padding: 4px 10px;
-            border-radius: 4px;
-            border: 1px solid #d32f2f;
+        thead {
+            background: #f0f0f0;
+            border-bottom: 2px solid var(--color-accent-primary);
         }
         
-        .warning {
-            background: #ffebee;
-            border: 2px solid #d32f2f;
-            border-left: 6px solid #b71c1c;
-            padding: 14px;
-            margin-bottom: 12px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(211, 47, 47, 0.15);
-        }
-        
-        .warning-icon {
-            display: inline-block;
-            background: #d32f2f;
-            color: white;
-            padding: 5px 10px;
-            font-weight: 700;
-            font-size: 11px;
-            margin-right: 10px;
-            border-radius: 5px;
-        }
-        
-        .tip {
-            background: #e8f5e9;
-            border: 2px solid #4caf50;
-            border-left: 6px solid #2e7d32;
-            padding: 12px 14px;
-            margin-bottom: 10px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(76, 175, 80, 0.15);
-        }
-        
-        .tip-icon {
-            display: inline-block;
-            background: #4caf50;
-            color: white;
-            padding: 5px 10px;
-            font-weight: 700;
-            font-size: 11px;
-            margin-right: 10px;
-            border-radius: 5px;
-        }
-        
-        .parts-list {
-            background: #ffffff;
-            border: 1px solid #d0d0d0;
-            border-radius: 4px;
-            overflow: hidden;
-        }
-        
-        .part-item {
+        th {
+            text-align: left;
             padding: 10px 12px;
-            border-bottom: 1px solid #e0e0e0;
-            display: flex;
-            align-items: center;
-            background: #fafafa;
+            font-weight: 700;
+            font-size: 11px;
+            text-transform: uppercase;
+            color: var(--color-text-secondary);
+            letter-spacing: 0.3px;
         }
         
-        .part-item:last-child {
+        tbody tr {
+            border-bottom: 1px solid var(--color-border-light);
+        }
+        
+        tbody tr:hover {
+            background: #f9f9f9;
+        }
+        
+        td {
+            padding: 10px 12px;
+            vertical-align: top;
+        }
+        
+        td[data-provenance-source] {
+            position: relative;
+        }
+        
+        /* Parts List */
+        .parts-table th:nth-child(1) { width: 30%; }
+        .parts-table th:nth-child(2) { width: 10%; }
+        .parts-table th:nth-child(3) { width: 20%; }
+        .parts-table th:nth-child(4) { width: 25%; }
+        .parts-table th:nth-child(5) { width: 15%; }
+        
+        /* Consumables */
+        .consumables-list {
+            list-style: disc inside;
+            padding-left: 0;
+        }
+        
+        .consumables-list li {
+            padding: 8px 12px;
+            margin-bottom: 4px;
+            background: #fafafa;
+            border-radius: 3px;
+        }
+        
+        /* Troubleshooting */
+        .issue {
+            margin-bottom: 20px;
+            padding: 16px;
+            background: var(--color-warning-bg);
+            border-left: 4px solid var(--color-warning-border);
+            border-radius: 4px;
+        }
+        
+        .issue h4 {
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--color-text-primary);
+            margin-bottom: 8px;
+        }
+        
+        .issue .quick-checks,
+        .issue .next-actions {
+            margin-top: 12px;
+        }
+        
+        .issue .quick-checks h5,
+        .issue .next-actions h5 {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+            color: var(--color-text-secondary);
+            letter-spacing: 0.3px;
+        }
+        
+        .issue ul {
+            margin-left: 20px;
+            font-size: 12px;
+            line-height: 1.6;
+        }
+        
+        /* Details/Summary */
+        details {
+            margin-bottom: 16px;
+        }
+        
+        summary {
+            cursor: pointer;
+            font-weight: 700;
+            padding: 12px;
+            background: #f5f5f5;
+            border: 1px solid var(--color-border);
+            border-radius: 4px;
+            user-select: none;
+        }
+        
+        summary:hover {
+            background: #ebebeb;
+        }
+        
+        details[open] summary {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
             border-bottom: none;
         }
         
-        .part-item:nth-child(even) {
-            background: #ffffff;
+        details .details-content {
+            padding: 16px;
+            border: 1px solid var(--color-border);
+            border-top: none;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
         }
         
-        .part-checkbox {
-            margin-right: 10px;
-            width: 16px;
-            height: 16px;
-        }
-        
-        .part-name {
-            flex: 1;
-            font-weight: 600;
-            color: #1a1a1a;
+        /* Back to Top */
+        .back-to-top {
+            display: inline-block;
+            margin: 32px 0;
+            padding: 8px 16px;
+            background: var(--color-accent-secondary);
+            color: #ffffff;
+            text-decoration: none;
             font-size: 12px;
-        }
-        
-        .part-number {
-            color: #666666;
-            font-size: 11px;
-            font-weight: 400;
-            font-family: 'Courier New', monospace;
-        }
-        
-        .issue-item {
-            background: #fff8e1;
-            padding: 14px;
-            margin-bottom: 10px;
-            border-radius: 8px;
-            border-left: 5px solid #ff9800;
-            color: #1a1a1a;
-            font-size: 13px;
-            font-weight: 500;
-            line-height: 1.6;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-        }
-        
-        .issue-item strong {
-            color: #1a1a1a;
-        }
-        
-        .footer {
-            background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
-            color: #d0d0d0;
-            padding: 15px 25px;
-            text-align: center;
-            border-top: 4px solid #cc0000;
-        }
-        
-        .watermark {
-            color: #999999;
-            font-size: 10px;
-            margin-bottom: 8px;
             font-weight: 600;
             text-transform: uppercase;
+            border-radius: 4px;
+            letter-spacing: 0.5px;
+        }
+        
+        .back-to-top:hover {
+            background: #234880;
+        }
+        
+        /* Footer */
+        .doc-footer {
+            background: #2a2a2a;
+            color: #cccccc;
+            padding: 20px 24px;
+            border-top: 3px solid var(--color-accent-primary);
+            font-size: 11px;
+        }
+        
+        .footer-content .watermark {
+            font-weight: 700;
+            text-transform: uppercase;
             letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+        
+        .footer-content .generation-date {
+            font-size: 10px;
+            color: #999999;
+            margin-bottom: 12px;
         }
         
         .citations {
-            margin-top: 12px;
+            margin-top: 16px;
             font-size: 10px;
-            color: #999999;
-            text-align: left;
         }
         
         .citations a {
-            color: #ff6666;
+            color: #7db8ff;
             text-decoration: none;
         }
         
-        .diagram-placeholder {
-            background: #f5f5f5;
-            border: 2px dashed #999999;
-            padding: 30px 15px;
-            margin: 12px 0;
-            text-align: center;
-            color: #666666;
-            border-radius: 6px;
+        .citations a:hover {
+            text-decoration: underline;
         }
         
-        .diagram-placeholder svg {
-            width: 48px;
-            height: 48px;
-            margin-bottom: 8px;
-            opacity: 0.4;
+        /* Abbreviations */
+        abbr[title] {
+            text-decoration: underline dotted;
+            cursor: help;
         }
         
-        .diagram-title {
-            font-weight: 700;
-            font-size: 12px;
-            color: #444444;
-            margin-bottom: 4px;
-            text-transform: uppercase;
-        }
-        
-        .diagram-note {
-            font-size: 10px;
-            color: #777777;
-            font-style: italic;
-        }
-        
+        /* Print Styles */
         @media print {
-            body { background: white; padding: 0; }
-            .container { box-shadow: none; border: 1px solid #000000; }
-            .procedure-step { page-break-inside: avoid; }
+            body {
+                background: white;
+                font-size: 12px;
+                line-height: 1.4;
+            }
+            
+            .container {
+                max-width: 100%;
+                box-shadow: none;
+            }
+            
+            .section-nav {
+                display: none;
+            }
+            
+            .back-to-top {
+                display: none;
+            }
+            
+            .doc-header {
+                background: white;
+                color: black;
+                border-bottom: 2px solid black;
+                padding: 12px 0;
+            }
+            
+            .header-content .brand {
+                color: black;
+            }
+            
+            .header-content .doc-subtitle {
+                color: #666;
+            }
+            
+            .content {
+                padding: 16px 0;
+            }
+            
+            section,
+            .steps li,
+            table,
+            .issue,
+            .safety-warning {
+                page-break-inside: avoid;
+            }
+            
+            h1, h2, h3, h4, h5, h6 {
+                page-break-after: avoid;
+            }
+            
+            details {
+                display: block;
+            }
+            
+            details summary {
+                display: none;
+            }
+            
+            details .details-content {
+                border: none;
+                padding: 0;
+            }
+            
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            
+            .doc-footer {
+                background: white;
+                color: black;
+                border-top: 2px solid black;
+                padding: 12px 0;
+            }
         }
         
-        @media (max-width: 600px) {
-            body { padding: 5px; }
-            .content { padding: 15px; }
-            .header { padding: 15px; }
-            .info-grid { grid-template-columns: 1fr; }
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px 16px;
+            }
+            
+            .overview-section h1 {
+                font-size: 20px;
+            }
+            
+            .spec-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-nav {
+                padding: 8px 12px;
+                gap: 12px;
+            }
+            
+            table {
+                font-size: 11px;
+            }
+            
+            th, td {
+                padding: 8px 6px;
+            }
         }
         
-        @media (prefers-color-scheme: dark) {
-            body { background: #0a0a0a; color: #e0e0e0; }
-            .container { background: #1a1a1a; border-color: #444444; }
-            .content { background: #1a1a1a; }
-            .section { background: #252525; border-color: #444444; }
-            .section h3 { color: #ffffff; border-color: #cc0000; }
-            .procedure-step { background: #2a2a2a; border-color: #444444; color: #e0e0e0; }
-            .step-description { color: #e0e0e0; }
-            .step-meta { color: #999999; }
-            .vehicle-info { background: #252525; border-color: #444444; }
-            .vehicle-info h2 { background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%); }
-            .info-label { color: #999999; }
-            .info-value { color: #e0e0e0; background: #2a2a2a; }
-            .service-overview { background: linear-gradient(135deg, #3a3a00 0%, #2a2a00 100%); border-color: #ccaa00; }
-            .service-overview h2 { color: #ffffff; }
-            .service-overview .info-value { background: #4a4a10; color: #ffffff; }
-            .torque-spec { background: #2a2a2a; border-color: #444444; }
-            .torque-component { color: #e0e0e0; }
-            .warning { background: #3a1a1a; border-color: #cc0000; }
-            .warning-icon { background: #ff3333; }
-            .tip { background: #1a2a1a; border-color: #4caf50; }
-            .tip-icon { background: #5cb85c; }
-            .parts-list { background: #252525; border-color: #444444; }
-            .part-item { background: #2a2a2a; border-color: #333333; }
-            .part-item:nth-child(even) { background: #252525; }
-            .part-name { color: #e0e0e0; }
-            .part-number { color: #999999; }
-            .issue-item { background: #3a3000; border-color: #ff9800; color: #f5f5f5; }
-            .issue-item strong { color: #ffffff; }
-            .diagram-placeholder { background: #252525; border-color: #555555; }
-            .diagram-title { color: #cccccc; }
-            .diagram-note { color: #888888; }
+        @media (max-width: 480px) {
+            .content {
+                padding: 16px 12px;
+            }
+            
+            .overview-section h1 {
+                font-size: 18px;
+            }
+            
+            section h2 {
+                font-size: 14px;
+            }
+            
+            .badge {
+                font-size: 10px;
+                padding: 3px 8px;
+            }
         }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>🔧 SWOOP SERVICE AUTO</h1>
-            <div class="subtitle">Professional Automotive Service Documentation</div>
-        </div>
+        <header class="doc-header">
+            <div class="header-content">
+                <div class="brand">SWOOP SERVICE AUTO</div>
+                <div class="doc-subtitle">Professional Automotive Service Documentation</div>
+            </div>
+        </header>
         
-        <div class="content">
-            <div class="vehicle-info">
-                <h2>VEHICLE SPECIFICATION</h2>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">YEAR</span>
-                        <span class="info-value">2013</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">MAKE</span>
-                        <span class="info-value">BMW</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">MODEL</span>
-                        <span class="info-value">1 Series (E82/E88)</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">ENGINE(S)</span>
-                        <span class="info-value">3.0L N52 inline-6 (230 hp) 128i, 3.0L N54 twin-turbo inline-6 (300 hp) 135i, 3.0L N55 twin-scroll inline-6 (300 hp) 135is</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">TRANSMISSION(S)</span>
-                        <span class="info-value">6-speed manual, 6-speed automatic, 7-speed dual-clutch (135is)</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">DRIVETRAIN</span>
-                        <span class="info-value">RWD</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">DIFFICULTY</span>
-                        <span class="info-value">1.1x</span>
-                    </div>
-                </div>
-            </div>
+        <nav class="section-nav" aria-label="Section navigation">
+            <a href="#overview">Overview</a>
+            <a href="#safety">Safety</a>
+            <a href="#steps">Procedure</a>
+            <a href="#torque-specifications">Torque Specs</a>
             
-            <div class="service-overview">
-                <h2>SERVICE: Fuel Injector Replacement (Set of 4)</h2>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">CATEGORY</span>
-                        <span class="info-value">Fuel System</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">LABOR TIME</span>
-                        <span class="info-value">2.0 HRS</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">LABOR RATE</span>
-                        <span class="info-value">$150/HR</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">SKILL LEVEL</span>
-                        <span class="info-value">Intermediate</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="section"><h3>⚠️ Safety Warnings</h3><div class="warning"><span class="warning-icon">⚠️</span>Fuel system operates at high pressure - always relieve pressure before disconnecting lines</div><div class="warning"><span class="warning-icon">⚠️</span>Work in well-ventilated area - fuel vapors are toxic and flammable</div><div class="warning"><span class="warning-icon">⚠️</span>No smoking or open flames - explosion hazard from fuel vapors</div><div class="warning"><span class="warning-icon">⚠️</span>Disconnect battery before starting work to prevent sparks</div><div class="warning"><span class="warning-icon">⚠️</span>Wear safety glasses and nitrile gloves - fuel is harmful to eyes and skin</div><div class="warning"><span class="warning-icon">⚠️</span>Have fire extinguisher nearby rated for fuel fires (Class B)</div><div class="warning"><span class="warning-icon">⚠️</span>Do not exceed 43 psi when using compressed air on fuel system</div><div class="warning"><span class="warning-icon">⚠️</span>Properly dispose of fuel-soaked rags - spontaneous combustion risk</div></div>
-            
-            <div class="section"><h3>📋 Step-by-Step Procedure</h3><div class="procedure-step"><span class="step-number">1</span><span class="step-description">Park vehicle on level surface, engage parking brake, and disconnect negative battery terminal to prevent electrical issues during service</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">2</span><span class="step-description">Remove engine cover by pulling upward on the cover - it is held by rubber grommets. Set aside in clean area</span><div class="step-meta">⏱️ 3 min</div></div><div class="procedure-step"><span class="step-number">3</span><span class="step-description">Remove rear engine cover and fresh air intake assembly. Remove outer clips on both sides, then remove all 8mm bolts securing the air filter box. Disconnect wiring connector on passenger side sensor and lift assembly out</span><div class="step-meta">⏱️ 15 min</div></div><div class="procedure-step"><span class="step-number">4</span><span class="step-description">Locate Schrader valve on side of fuel rail. Remove cap and use compressed air (NOT exceeding 43 psi) to blow fuel back into tank through return line. This relieves fuel system pressure</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">5</span><span class="step-description">Using fuel line disconnection tool, disconnect main fuel supply line from fuel rail. Have shop towels ready to catch residual fuel. Disconnect fuel line quick-connect fitting by pressing release tabs</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">6</span><span class="step-description">Unplug all electrical connectors on top of fuel rail. Using metal pick or small screwdriver, disconnect metal clips securing plastic wiring harness to top of each injector. Pull wiring harness free and position out of work area</span><div class="step-meta">⏱️ 8 min</div></div><div class="procedure-step"><span class="step-number">7</span><span class="step-description">Remove four M6 hex bolts securing fuel rail to cylinder head using 5mm hex socket. Keep bolts organized for reinstallation</span><div class="step-meta">⏱️ 5 min | 🔧 9 Nm (6.6 ft-lbs)</div></div><div class="procedure-step"><span class="step-number">8</span><span class="step-description">Carefully pry upward on fuel rail assembly. Wiggle gently side-to-side while pulling upward to release all injectors from cylinder head simultaneously. Place clean shop towels under injectors to catch fuel drips. Lift entire fuel rail with injectors attached away from engine</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">9</span><span class="step-description">Place fuel rail assembly on clean workbench with injectors facing up. For each injector: push back metal retaining clip and pull injector from fuel rail with steady pressure. Expect some resistance - wiggle gently if needed</span><div class="step-meta">⏱️ 15 min</div></div><div class="procedure-step"><span class="step-number">10</span><span class="step-description">Inspect all injector O-rings and seals on new injectors. If installing used/cleaned injectors, replace all O-rings. Apply light coat of clean engine oil to O-rings for lubrication during installation</span><div class="step-meta">⏱️ 8 min</div></div><div class="procedure-step"><span class="step-number">11</span><span class="step-description">Install new injectors into fuel rail by pushing firmly until they seat completely. Ensure metal retaining clip snaps securely into place on each injector. Verify each injector is fully locked</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">12</span><span class="step-description">Clean injector ports in cylinder head with clean lint-free cloth. Remove any debris or old O-ring material. Inspect ports for damage</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">13</span><span class="step-description">Apply light coat of clean engine oil to injector tip O-rings. Carefully align fuel rail assembly over cylinder head, ensuring all six injectors align with their ports. Press down evenly on fuel rail until all injectors seat fully in cylinder head</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">14</span><span class="step-description">Install four M6 fuel rail mounting bolts and torque to specification in cross-pattern</span><div class="step-meta">⏱️ 5 min | 🔧 9 Nm (6.6 ft-lbs)</div></div><div class="procedure-step"><span class="step-number">15</span><span class="step-description">Reconnect plastic wiring harness to top of each injector. Ensure metal clips snap securely into place. Reconnect all electrical connectors to fuel rail</span><div class="step-meta">⏱️ 8 min</div></div><div class="procedure-step"><span class="step-number">16</span><span class="step-description">Reconnect main fuel supply line to fuel rail using quick-connect fitting. Ensure connection clicks securely and pull to verify lock</span><div class="step-meta">⏱️ 3 min</div></div><div class="procedure-step"><span class="step-number">17</span><span class="step-description">Reinstall fresh air intake assembly and rear engine cover. Torque all 8mm bolts and reconnect passenger side sensor wiring. Replace outer clips</span><div class="step-meta">⏱️ 12 min</div></div><div class="procedure-step"><span class="step-number">18</span><span class="step-description">Reinstall engine cover by pressing down on rubber grommets until cover seats properly</span><div class="step-meta">⏱️ 2 min</div></div><div class="procedure-step"><span class="step-number">19</span><span class="step-description">Reconnect negative battery terminal. Turn ignition to ON position (do not start) for 30 seconds to prime fuel system. Repeat 2-3 times. Check for fuel leaks at rail and injector connections</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">20</span><span class="step-description">Start engine and let idle for 2 minutes. Inspect all fuel connections for leaks. Check for proper engine operation and smooth idle. Clear any stored fault codes with diagnostic scanner if needed</span><div class="step-meta">⏱️ 5 min</div></div></div>
-            
-            <div class="section"><h3>🔧 Torque Specifications</h3><div style="background: #fff9e6; border: 2px solid #d4a600; border-left: 6px solid #ff6b00; padding: 14px; margin-bottom: 16px; border-radius: 8px;"><strong style="color: #1a1a1a;">⚠️ CRITICAL:</strong> <span style="color: #1a1a1a;">Always verify torque specifications in factory service manual. Incorrect torque can cause damage or safety issues.</span></div><div class="torque-spec"><div><span class="torque-component">Fuel rail mounting bolts (M6)</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Four bolts total - do not overtorque</div></div><div style="text-align: right;"><span class="torque-value">9 Nm (6.6 ft-lbs) (Cross pattern)</span></div></div><div class="torque-spec"><div><span class="torque-component">Fresh air intake mounting bolts (8mm)</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Hand-tighten then snug - not critical torque</div></div><div style="text-align: right;"><span class="torque-value">10 Nm (7.4 ft-lbs) (Sequential)</span></div></div></div>
-            
-            
-            
-            <div class="section"><h3>🛠️ Required Parts</h3><div class="parts-list"><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Fuel injector set (6 injectors for N52/N54/N55) (x6)</span><span class="part-number">OEM: 13537585261 (N52) or 13537585936 (N54/N55)</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Fuel injector O-ring seal kit (x1)</span><span class="part-number">OEM: 13647508677</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Fuel rail seal kit (if needed) (x1)</span><span class="part-number">OEM: 13537529068</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Engine oil for O-ring lubrication (x1)</span><span class="part-number">OEM: Use existing</span></div></div></div>
-            
-            <div class="section"><h3>🔨 Special Tools Required</h3><ul style="list-style-position: inside; padding-left: 0;"><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Fuel line disconnection tool (BMW tool set or aftermarket equivalent)</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">5mm hex socket for M6 bolts</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">8mm socket for intake bolts</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Metal pick or small flat screwdriver for wiring clips</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Torque wrench (5-25 Nm range)</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Compressed air source with pressure regulator (max 43 psi)</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Shop towels and drain pan for fuel containment</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Safety glasses and nitrile gloves</li></ul></div>
-            
-            <div class="section"><h3>🔍 Common Issues & Troubleshooting</h3><div class="issue-item"><strong>Cylinder misfire after installation</strong>: Caused by improperly seated injectors or damaged O-rings. Symptoms include rough idle, check engine light with P030X codes. Solution: Remove fuel rail and verify all injectors are fully seated with intact O-rings. Ensure retaining clips are engaged.</div><div class="issue-item"><strong>Fuel leaks at injector base</strong>: Result of torn O-rings during installation or reusing old seals. Visible fuel seepage at cylinder head. Solution: Always replace O-rings and lubricate with clean oil before installation. Never reuse old seals.</div><div class="issue-item"><strong>Fuel rail difficult to remove</strong>: Injector O-rings bonded to cylinder head from heat cycles. Requires excessive force to extract. Solution: Gently rock fuel rail side-to-side while pulling upward. Use penetrating oil around injector bases if extremely stuck. Avoid prying which can damage injectors.</div><div class="issue-item"><strong>Wiring harness clips break during removal</strong>: Plastic clips become brittle with age and heat exposure. Solution: Use metal pick carefully to release clips. Replacement clips available separately (BMW part 13537585379). Consider replacing all clips preventatively.</div><div class="issue-item"><strong>High-pressure fuel pump failure on N54/N55 engines</strong>: Common issue causing fuel starvation and poor injector performance. Symptoms include rough running, loss of power, long crank times. Solution: Inspect high-pressure fuel pump (under hood near firewall) for leaks or noise. Replace pump if faulty - covered under BMW fuel pump campaign.</div><div class="issue-item"><strong>Injector coding required on some models</strong>: N54/N55 engines may require injector programming after replacement. Scanner shows injector correlation faults. Solution: Use BMW ISTA diagnostic software to code new injectors to DME. Each injector has unique correction code on label.</div></div>
-            
-            <div class="section"><h3>💡 Pro Tips</h3><div class="tip"><span class="tip-icon">💡</span>Take photos of wiring harness routing before disconnecting - makes reassembly easier</div><div class="tip"><span class="tip-icon">💡</span>Label each injector electrical connector with cylinder number to avoid confusion</div><div class="tip"><span class="tip-icon">💡</span>Use dedicated fuel line disconnect tool - prevents damage to quick-connect fittings</div><div class="tip"><span class="tip-icon">💡</span>Apply thin coat of clean engine oil to all O-rings before installation - prevents tearing</div><div class="tip"><span class="tip-icon">💡</span>Work on cool engine - hot fuel system increases pressure and burn risk</div><div class="tip"><span class="tip-icon">💡</span>Keep work area clean - debris entering fuel system causes injector clogging</div><div class="tip"><span class="tip-icon">💡</span>Replace all O-rings even if they look good - cheap insurance against leaks</div><div class="tip"><span class="tip-icon">💡</span>After installation, cycle ignition ON without starting 3 times to prime system</div><div class="tip"><span class="tip-icon">💡</span>Check for fuel leaks with engine running before reinstalling covers</div><div class="tip"><span class="tip-icon">💡</span>Consider replacing fuel filter at same time - improves injector longevity</div><div class="tip"><span class="tip-icon">💡</span>N54/N55 turbo engines may benefit from walnut blast intake cleaning during this service</div><div class="tip"><span class="tip-icon">💡</span>Save old injectors for core return if purchasing remanufactured units</div></div>
-        </div>
+            <a href="#parts">Parts</a>
+            <a href="#tools">Tools</a>
+            <a href="#troubleshooting">Troubleshooting</a>
+        </nav>
         
-        <div class="footer">
-            <div class="watermark">
-                GENERATED BY SWOOP SERVICE AUTO AI DOCUMENTATION SYSTEM<br>
-                OCTOBER 16, 2025 - 11:37 AM
-            </div>
+        <main class="content">
+            <article id="overview" class="overview-section">
+                <h1>2013 BMW 1 Series (E82/E88) — Fuel Injector Replacement (Set of 4)</h1>
+                <div class="subtitle-line">
+                    <span class="badge">Engine: 3.0L N52 inline-6 (230 hp) 128i, 3.0L N54 twin-turbo inline-6 (300 hp) 135i</span>
+                    
+                    <span class="badge">Category: Fuel System</span>
+                    <span class="badge">Flat Time: 2.4 hrs</span>
+                    <span class="badge">Difficulty: 2/5</span>
+                    <span class="badge">Skill: INTERMEDIATE</span>
+                </div>
+                
+                
+                
+                <section class="vehicle-specs">
+                    <h2 id="vehicle-specification">Vehicle Specification</h2>
+                    <dl class="spec-grid">
+                        <div class="spec-item">
+                            <dt>Year</dt>
+                            <dd>2013</dd>
+                        </div>
+                        <div class="spec-item">
+                            <dt>Make</dt>
+                            <dd>BMW</dd>
+                        </div>
+                        <div class="spec-item">
+                            <dt>Model</dt>
+                            <dd>1 Series (E82/E88)</dd>
+                        </div>
+                        <div class="spec-item">
+                            <dt>Engine(s)</dt>
+                            <dd>3.0L N52 inline-6 (230 hp) 128i, 3.0L N54 twin-turbo inline-6 (300 hp) 135i, 3.0L N55 twin-scroll inline-6 (300 hp) 135is</dd>
+                        </div>
+                        <div class="spec-item">
+                            <dt>Transmission(s)</dt>
+                            <dd>6-speed manual, 6-speed automatic, 7-speed dual-clutch (135is)</dd>
+                        </div>
+                        <div class="spec-item">
+                            <dt>Drivetrain</dt>
+                            <dd>RWD</dd>
+                        </div>
+                    </dl>
+                </section>
+            </article>
             
-        </div>
+            <section id="safety" class="safety-section">
+<h2>Safety Precautions</h2>
+<div class="safety-warning">Always relieve fuel system pressure before disconnecting lines to prevent injury.</div>
+<div class="safety-warning">Work in a well-ventilated area; avoid sparks or open flames near fuel.</div>
+<div class="safety-warning">Wear safety glasses and gloves when handling fuel and injectors.</div>
+<div class="safety-warning">Use proper jack stands if lifting vehicle; never rely solely on a jack.</div>
+<div class="safety-warning">Disconnect battery before servicing to prevent electrical shorts.</div>
+</section>
+
+            
+            <section id="steps" class="procedure-section">
+<h2>Service Procedure</h2>
+<ol class="steps">
+<li data-step="1">
+<div class="step-content">
+Disconnect the negative battery terminal to prevent electrical hazards.
+<div class="step-meta">Time: 5 min</div>
+</div>
+</li>
+<li data-step="2">
+<div class="step-content">
+Remove the upper engine cover and any additional covers obstructing access to the fuel rail and injectors.
+<div class="step-meta">Time: 10 min</div>
+</div>
+</li>
+<li data-step="3">
+<div class="step-content">
+Relieve fuel system pressure by locating the Schrader valve on the fuel rail, covering it with a rag, and pressing the valve to release pressure.
+<div class="step-meta">Time: 5 min</div>
+</div>
+</li>
+<li data-step="4">
+<div class="step-content">
+Disconnect the fuel supply line from the fuel rail using a fuel line disconnect tool.
+<div class="step-meta">Time: 5 min</div>
+</div>
+</li>
+<li data-step="5">
+<div class="step-content">
+Unplug the electrical connectors from each fuel injector and the fuel rail wiring harness. Carefully move wiring out of the work area.
+<div class="step-meta">Time: 10 min</div>
+</div>
+</li>
+<li data-step="6">
+<div class="step-content">
+Remove the four M6 hex bolts securing the fuel rail to the cylinder head.
+<span class="step-torque-ref"> (Torque: 9 Nm (6.6 ft-lbs))</span>
+<div class="step-meta">Time: 5 min</div>
+</div>
+</li>
+<li data-step="7">
+<div class="step-content">
+Carefully lift the fuel rail assembly with injectors attached. Wiggle gently to free injectors from their bores. Place rags to catch any spilled fuel.
+<div class="step-meta">Time: 10 min</div>
+</div>
+</li>
+<li data-step="8">
+<div class="step-content">
+Remove the metal retaining clips from each injector and pull the injectors from the fuel rail. Inspect and replace all injector seals (O-rings and decouplers).
+<div class="step-meta">Time: 15 min</div>
+</div>
+</li>
+<li data-step="9">
+<div class="step-content">
+Install new injectors into the fuel rail, ensuring all seals are properly seated and lubricated with a small amount of engine oil. Secure with new retaining clips.
+<div class="step-meta">Time: 15 min</div>
+</div>
+</li>
+<li data-step="10">
+<div class="step-content">
+Carefully lower the fuel rail with new injectors into the cylinder head, ensuring injectors seat fully into their bores.
+<div class="step-meta">Time: 10 min</div>
+</div>
+</li>
+<li data-step="11">
+<div class="step-content">
+Reinstall the four M6 fuel rail mounting bolts and torque to specification.
+<span class="step-torque-ref"> (Torque: 9 Nm (6.6 ft-lbs))</span>
+<div class="step-meta">Time: 5 min</div>
+</div>
+</li>
+<li data-step="12">
+<div class="step-content">
+Reconnect all electrical connectors to the injectors and fuel rail.
+<div class="step-meta">Time: 5 min</div>
+</div>
+</li>
+<li data-step="13">
+<div class="step-content">
+Reconnect the fuel supply line to the fuel rail.
+<div class="step-meta">Time: 5 min</div>
+</div>
+</li>
+<li data-step="14">
+<div class="step-content">
+Reinstall all engine covers and components removed for access.
+<div class="step-meta">Time: 10 min</div>
+</div>
+</li>
+<li data-step="15">
+<div class="step-content">
+Reconnect the battery. Start the engine and check for leaks. Perform a post-service diagnostic scan and clear any fault codes.
+<div class="step-meta">Time: 10 min</div>
+</div>
+</li>
+</ol>
+<a href="#overview" class="back-to-top">Back to top</a>
+</section>
+
+            
+            <section id="torque-specifications" class="torque-section">
+<h2>Torque Specifications</h2>
+<div class="safety-warning" style="background: var(--color-warning-bg); border-left-color: var(--color-warning-border);"><strong>CRITICAL:</strong> Always verify torque specifications in factory service manual. Incorrect torque can result in component damage or safety hazards.</div>
+<table class="torque-table">
+<caption>Factory Torque Values</caption>
+<thead>
+<tr>
+<th scope="col">Component</th>
+<th scope="col">Pattern</th>
+<th scope="col">ft-lb (Nm)</th>
+<th scope="col">in-lb (Nm)</th>
+<th scope="col">Notes</th>
+<th scope="col">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fuel rail mounting bolts (M6)</td>
+<td>Evenly in sequence</td>
+<td data-provenance-source="Verify in FSM" data-confidence="0.8">9 Nm (6.6 ft-lbs)</td>
+<td></td>
+<td>Critical for fuel rail seal</td>
+<td style="font-size: 10px; color: var(--color-text-muted);">Verify in FSM</td>
+</tr>
+<tr>
+<td>Wheel lug nuts</td>
+<td>Star pattern</td>
+<td data-provenance-source="Verify in FSM" data-confidence="0.8">120 Nm (89 ft-lbs)</td>
+<td></td>
+<td>Verify with owner's manual for exact spec</td>
+<td style="font-size: 10px; color: var(--color-text-muted);">Verify in FSM</td>
+</tr>
+<tr>
+<td>Oil drain plug</td>
+<td>Straight</td>
+<td data-provenance-source="Verify in FSM" data-confidence="0.8">25 Nm (18 ft-lbs)</td>
+<td></td>
+<td>Always replace crush washer</td>
+<td style="font-size: 10px; color: var(--color-text-muted);">Verify in FSM</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+            
+            
+            
+            
+            
+            <section id="parts" class="parts-section">
+<h2>Required Parts</h2>
+<table class="parts-table">
+<caption>Parts List</caption>
+<thead>
+<tr>
+<th scope="col">Name</th>
+<th scope="col">Qty</th>
+<th scope="col">OEM Part Number</th>
+<th scope="col">Aftermarket Alternates</th>
+<th scope="col">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fuel injector set (4)</td>
+<td style="text-align: center;">4</td>
+<td style="font-family: monospace; font-size: 11px;">13537585267 (N52), 13538616079 (N54/N55)</td>
+<td style="font-size: 11px;">—</td>
+<td style="font-size: 11px;"></td>
+</tr>
+<tr>
+<td>Injector seal kit (O-rings & decouplers)</td>
+<td style="text-align: center;">1</td>
+<td style="font-family: monospace; font-size: 11px;">13537570895</td>
+<td style="font-size: 11px;">—</td>
+<td style="font-size: 11px;"></td>
+</tr>
+<tr>
+<td>Fuel rail mounting bolts</td>
+<td style="text-align: center;">4</td>
+<td style="font-family: monospace; font-size: 11px;">07119904525</td>
+<td style="font-size: 11px;">—</td>
+<td style="font-size: 11px;"></td>
+</tr>
+<tr>
+<td>Fuel line quick-connect O-ring</td>
+<td style="text-align: center;">1</td>
+<td style="font-family: monospace; font-size: 11px;">13537532224</td>
+<td style="font-size: 11px;">—</td>
+<td style="font-size: 11px;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+            
+            <section id="consumables" class="consumables-section">
+<h3>Shop Consumables</h3>
+<ul class="consumables-list">
+<li>Shop rags/towels</li>
+<li>Nitrile gloves</li>
+<li>Parts cleaner/degreaser</li>
+<li>Thread locker (if applicable)</li>
+<li>Anti-seize compound (if applicable)</li>
+</ul>
+</section>
+
+            
+            <section id="tools" class="tools-section">
+<h2>Special Tools Required</h2>
+<ul style="list-style: disc inside; padding-left: 0;">
+<li style="padding: 8px 0; border-bottom: 1px solid var(--color-border-light);">Fuel line disconnect tool (BMW-specific)</li>
+<li style="padding: 8px 0; border-bottom: 1px solid var(--color-border-light);">Torque wrench (3-30 Nm range)</li>
+<li style="padding: 8px 0; border-bottom: 1px solid var(--color-border-light);">Schrader valve core removal tool</li>
+<li style="padding: 8px 0; border-bottom: 1px solid var(--color-border-light);">Injector removal pliers (optional, for stubborn injectors)</li>
+<li style="padding: 8px 0; border-bottom: 1px solid var(--color-border-light);">O-ring pick set</li>
+</ul>
+</section>
+
+            
+            
+            
+            <section id="troubleshooting" class="troubleshooting-section">
+<h2>Common Issues & Troubleshooting</h2>
+<div class="issue"><strong>Leaking injector seals</strong>: Causes rough idle, fuel smell, or misfires. Always replace all seals during injector service.</div>
+<div class="issue"><strong>Stuck or seized injectors</strong>: Common in high-mileage vehicles. Use penetrating oil and gentle twisting/pulling. Avoid excessive force to prevent bore damage.</div>
+<div class="issue"><strong>Electrical connector damage</strong>: Brittle plastic on older vehicles can crack. Inspect connectors carefully; replace if damaged.</div>
+<div class="issue"><strong>Fuel rail alignment issues</strong>: Misaligned rail can cause poor injector seating and leaks. Ensure rail is seated evenly before tightening bolts.</div>
+<div class="issue"><strong>Post-service misfires or rough running</strong>: Often due to air in fuel system or incorrect injector coding. Perform adaptation reset and clear fault codes.</div>
+<a href="#overview" class="back-to-top">Back to top</a>
+</section>
+
+            
+            <section id="provenance" class="provenance-section">
+<h2>Document Provenance</h2>
+<p style="font-size: 12px; color: var(--color-text-secondary); line-height: 1.6;">This document was generated using AI research and aggregation from publicly available sources including factory service manuals, technical service bulletins, and trusted automotive databases. Always verify critical specifications (torque values, fluid types, procedures) against the official factory service manual for your specific vehicle before performing work. Swoop Service Auto provides this documentation as a reference aid and assumes no liability for its use.</p>
+</section>
+
+            
+            <a href="#overview" class="back-to-top">Back to top</a>
+        </main>
+        
+        <footer class="doc-footer">
+            <div class="footer-content">
+                <div class="watermark">SWOOP SERVICE AUTO AI DOCUMENTATION SYSTEM</div>
+                <div class="generation-date">OCTOBER 16, 2025 — 11:27 PM</div>
+                
+            </div>
+        </footer>
     </div>
+    
+    <script>
+    // Handle smooth scrolling for anchor links and prevent navigation issues in iframes
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get all anchor links
+        const anchorLinks = document.querySelectorAll('a[href^="#"]');
+        
+        anchorLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    
+                    // Update URL hash without triggering navigation
+                    if (window.history && window.history.pushState) {
+                        window.history.pushState(null, null, '#' + targetId);
+                    }
+                }
+                
+                return false;
+            });
+        });
+    });
+    </script>
 </body>
 </html>
+
+<!-- Change Log:
+- Converted to semantic HTML5 (header, nav, main, article, section, footer)
+- Removed all emojis from headings and icons
+- Added stable kebab-case IDs for all major sections
+- Implemented sticky sub-navigation with anchor links
+- Enhanced print styles (no nav, force details open, proper breaks)
+- Improved contrast for WCAG AA compliance
+- Professional monochrome palette with subtle borders
+- Neutral technician-facing tone throughout
+- Added data-provenance attributes for torque values
+- Separated Parts from Consumables
+- Added Variants section for platform/VIN splits
+- Enhanced Troubleshooting with Quick Checks and Next Actions
+- Mobile-first responsive design with max 960px content width
+- System-ui font stack for native appearance
+- Back to top links after long sections
+-->

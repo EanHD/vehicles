@@ -159,6 +159,38 @@ def generate_professional_html(
             </div>
         </footer>
     </div>
+    
+    <script>
+    // Handle smooth scrolling for anchor links and prevent navigation issues in iframes
+    document.addEventListener('DOMContentLoaded', function() {{
+        // Get all anchor links
+        const anchorLinks = document.querySelectorAll('a[href^="#"]');
+        
+        anchorLinks.forEach(link => {{
+            link.addEventListener('click', function(e) {{
+                e.preventDefault();
+                e.stopPropagation();
+                
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {{
+                    targetElement.scrollIntoView({{
+                        behavior: 'smooth',
+                        block: 'start'
+                    }});
+                    
+                    // Update URL hash without triggering navigation
+                    if (window.history && window.history.pushState) {{
+                        window.history.pushState(null, null, '#' + targetId);
+                    }}
+                }}
+                
+                return false;
+            }});
+        }});
+    }});
+    </script>
 </body>
 </html>
 
@@ -211,6 +243,10 @@ def _get_professional_css():
             --color-success-border: #28a745;
             --color-info-bg: #d1ecf1;
             --color-info-border: #17a2b8;
+        }
+        
+        html {
+            scroll-behavior: smooth;
         }
         
         body {

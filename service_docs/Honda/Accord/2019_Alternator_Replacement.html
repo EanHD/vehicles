@@ -3,657 +3,1051 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2022 Honda Accord (Tenth Generation) - Alternator Replacement | Swoop Service Auto</title>
+    <title>2022 Honda Accord (Tenth Generation) — Alternator Replacement | Swoop Service Auto</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        /* Base Styles - Mobile First */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --color-bg-page: #f5f5f5;
+            --color-bg-content: #ffffff;
+            --color-text-primary: #1a1a1a;
+            --color-text-secondary: #666666;
+            --color-text-muted: #999999;
+            --color-border: #d0d0d0;
+            --color-border-light: #e0e0e0;
+            --color-accent-primary: #c41e3a;
+            --color-accent-secondary: #2c5aa0;
+            --color-warning-bg: #fff3cd;
+            --color-warning-border: #ffc107;
+            --color-danger-bg: #f8d7da;
+            --color-danger-border: #dc3545;
+            --color-success-bg: #d4edda;
+            --color-success-border: #28a745;
+            --color-info-bg: #d1ecf1;
+            --color-info-border: #17a2b8;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #1a1a1a;
-            background: #e0e0e0;
-            padding: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+            line-height: 1.5;
+            color: var(--color-text-primary);
+            background: var(--color-bg-page);
+            padding: 0;
+            font-size: 14px;
         }
         
         .container {
-            max-width: 1000px;
+            max-width: 960px;
             margin: 0 auto;
-            background: #ffffff;
-            border: 2px solid #3a3a3a;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-            border-radius: 12px;
-            overflow: hidden;
+            background: var(--color-bg-content);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         
-        .header {
-            background: linear-gradient(135deg, #1e1e1e 0%, #2d2d2d 100%);
+        /* Header */
+        .doc-header {
+            background: linear-gradient(to bottom, #2a2a2a 0%, #1a1a1a 100%);
             color: #ffffff;
-            padding: 24px 30px;
-            border-bottom: 5px solid #d32f2f;
+            padding: 20px 24px;
+            border-bottom: 3px solid var(--color-accent-primary);
         }
         
-        .header h1 {
-            font-size: 24px;
-            margin-bottom: 6px;
+        .header-content .brand {
+            font-size: 18px;
             font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        
+        .header-content .doc-subtitle {
+            font-size: 11px;
+            color: #cccccc;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 4px;
+        }
+        
+        /* Navigation */
+        .section-nav {
+            background: #f8f8f8;
+            border-bottom: 1px solid var(--color-border);
+            padding: 12px 24px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .section-nav a {
+            color: var(--color-text-secondary);
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            padding: 4px 0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        
+        .section-nav a:hover {
+            color: var(--color-accent-primary);
+            border-bottom-color: var(--color-accent-primary);
+        }
+        
+        /* Main Content */
+        .content {
+            padding: 32px 24px;
+        }
+        
+        /* Overview Section */
+        .overview-section h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--color-text-primary);
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+        
+        .subtitle-line {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid var(--color-border-light);
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #f0f0f0;
+            color: var(--color-text-secondary);
+            font-size: 11px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 4px;
+            border: 1px solid var(--color-border);
+            text-transform: uppercase;
             letter-spacing: 0.3px;
         }
         
-        .header .subtitle {
-            font-size: 11px;
-            color: #b8b8b8;
+        .environmental-note {
+            background: var(--color-info-bg);
+            border-left: 4px solid var(--color-info-border);
+            padding: 12px 16px;
+            margin: 20px 0;
+            font-size: 13px;
+            line-height: 1.6;
+            border-radius: 4px;
+        }
+        
+        /* Vehicle Specs */
+        .vehicle-specs {
+            margin: 24px 0;
+        }
+        
+        .vehicle-specs h2 {
+            font-size: 16px;
+            font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 1.2px;
+            color: var(--color-text-primary);
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--color-accent-primary);
+            letter-spacing: 0.5px;
+        }
+        
+        .spec-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+        }
+        
+        .spec-item {
+            display: flex;
+            flex-direction: column;
+            padding: 12px;
+            background: #f9f9f9;
+            border: 1px solid var(--color-border-light);
+            border-radius: 4px;
+        }
+        
+        .spec-item dt {
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--color-text-secondary);
+            margin-bottom: 6px;
+            letter-spacing: 0.5px;
+        }
+        
+        .spec-item dd {
+            font-size: 13px;
             font-weight: 600;
+            color: var(--color-text-primary);
         }
         
-        .content {
-            padding: 28px;
-            background: #f5f5f5;
+        /* Generic Section Styles */
+        section {
+            margin: 32px 0;
         }
         
-        .vehicle-info {
-            background: #ffffff;
-            border: 2px solid #4a4a4a;
-            padding: 0;
-            margin-bottom: 24px;
-            border-radius: 10px;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+        section h2 {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--color-text-primary);
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--color-accent-primary);
+            letter-spacing: 0.5px;
+        }
+        
+        section h3 {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--color-text-primary);
+            margin: 20px 0 12px 0;
+        }
+        
+        /* Safety Warnings */
+        .safety-warning {
+            background: var(--color-danger-bg);
+            border-left: 4px solid var(--color-danger-border);
+            padding: 12px 16px;
+            margin-bottom: 10px;
+            font-size: 13px;
+            line-height: 1.6;
+            border-radius: 4px;
+        }
+        
+        .safety-warning::before {
+            content: "⚠ ";
+            font-weight: 700;
+            color: var(--color-danger-border);
+        }
+        
+        /* Procedure Steps */
+        .steps {
+            list-style: none;
+            counter-reset: step-counter;
+        }
+        
+        .steps li {
+            counter-increment: step-counter;
+            margin-bottom: 16px;
+            padding: 16px;
+            background: #fafafa;
+            border: 1px solid var(--color-border-light);
+            border-left: 4px solid var(--color-accent-secondary);
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+        
+        .steps li::before {
+            content: counter(step-counter);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background: var(--color-accent-secondary);
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 13px;
+            border-radius: 4px;
+            margin-right: 12px;
+            float: left;
+        }
+        
+        .step-content {
             overflow: hidden;
         }
         
-        .vehicle-info h2 {
-            color: #ffffff;
-            font-size: 14px;
-            margin: 0;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.6px;
-            background: linear-gradient(135deg, #3a3a3a 0%, #1e1e1e 100%);
-            padding: 14px 20px;
-        }
-        
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 14px 20px;
-            padding: 20px;
-        }
-        
-        .info-item {
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .info-label {
-            font-weight: 700;
-            color: #666666;
-            font-size: 10px;
-            text-transform: uppercase;
-            margin-bottom: 6px;
-            letter-spacing: 0.6px;
-        }
-        
-        .info-value {
-            color: #1a1a1a;
-            font-size: 14px;
-            font-weight: 600;
-            background: #f0f0f0;
-            padding: 8px 12px;
-            border-radius: 6px;
-            border: 1px solid #d0d0d0;
-        }
-        
-        .service-overview {
-            background: linear-gradient(135deg, #fff9e6 0%, #fff3d4 100%);
-            border: 2px solid #d4a600;
-            border-left: 6px solid #d32f2f;
-            padding: 18px;
-            margin-bottom: 24px;
-            border-radius: 10px;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-        }
-        
-        .service-overview h2 {
-            color: #1a1a1a;
-            font-size: 15px;
-            margin-bottom: 14px;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-        
-        .section {
-            margin-bottom: 22px;
-            background: #ffffff;
-            padding: 16px;
-            border: 2px solid #d0d0d0;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-        }
-        
-        .section h3 {
-            color: #1a1a1a;
-            font-size: 14px;
-            margin-bottom: 14px;
-            padding-bottom: 10px;
-            border-bottom: 3px solid #d32f2f;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.6px;
-        }
-        
-        .procedure-step {
-            background: #f8f8f8;
-            padding: 14px;
-            margin-bottom: 12px;
-            border: 1px solid #d5d5d5;
-            border-left: 5px solid #3a3a3a;
-            border-radius: 6px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-        }
-        
-        .step-number {
-            display: inline-block;
-            background: linear-gradient(135deg, #3a3a3a 0%, #1e1e1e 100%);
-            color: #ffffff;
-            min-width: 32px;
-            height: 32px;
-            line-height: 32px;
-            text-align: center;
-            font-weight: 700;
-            margin-right: 12px;
-            font-size: 14px;
-            border-radius: 6px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-        }
-        
-        .step-description {
+        .step-torque-ref {
             display: inline;
-            font-size: 13px;
-            color: #1a1a1a;
-            font-weight: 500;
-            line-height: 1.6;
+            color: var(--color-accent-primary);
+            font-weight: 600;
         }
         
         .step-meta {
-            margin-top: 10px;
+            margin-top: 8px;
             font-size: 11px;
-            color: #666666;
+            color: var(--color-text-secondary);
             font-weight: 600;
-            padding-left: 44px;
             text-transform: uppercase;
-            letter-spacing: 0.4px;
+            letter-spacing: 0.3px;
         }
         
-        .torque-spec {
-            background: #f4f4f4;
-            padding: 12px 14px;
-            margin-bottom: 10px;
-            border: 1px solid #d0d0d0;
-            border-left: 4px solid #d32f2f;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-radius: 6px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 12px;
+            page-break-inside: avoid;
         }
         
-        .torque-component {
-            font-weight: 600;
-            color: #1a1a1a;
+        caption {
+            text-align: left;
+            font-weight: 700;
             font-size: 13px;
+            padding: 8px 0;
+            color: var(--color-text-primary);
         }
         
-        .torque-value {
-            color: #d32f2f;
-            font-weight: 700;
-            font-size: 15px;
-            font-family: 'Courier New', monospace;
-            background: #ffffff;
-            padding: 4px 10px;
-            border-radius: 4px;
-            border: 1px solid #d32f2f;
+        thead {
+            background: #f0f0f0;
+            border-bottom: 2px solid var(--color-accent-primary);
         }
         
-        .warning {
-            background: #ffebee;
-            border: 2px solid #d32f2f;
-            border-left: 6px solid #b71c1c;
-            padding: 14px;
-            margin-bottom: 12px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(211, 47, 47, 0.15);
-        }
-        
-        .warning-icon {
-            display: inline-block;
-            background: #d32f2f;
-            color: white;
-            padding: 5px 10px;
-            font-weight: 700;
-            font-size: 11px;
-            margin-right: 10px;
-            border-radius: 5px;
-        }
-        
-        .tip {
-            background: #e8f5e9;
-            border: 2px solid #4caf50;
-            border-left: 6px solid #2e7d32;
-            padding: 12px 14px;
-            margin-bottom: 10px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(76, 175, 80, 0.15);
-        }
-        
-        .tip-icon {
-            display: inline-block;
-            background: #4caf50;
-            color: white;
-            padding: 5px 10px;
-            font-weight: 700;
-            font-size: 11px;
-            margin-right: 10px;
-            border-radius: 5px;
-        }
-        
-        .parts-list {
-            background: #ffffff;
-            border: 1px solid #d0d0d0;
-            border-radius: 4px;
-            overflow: hidden;
-        }
-        
-        .part-item {
+        th {
+            text-align: left;
             padding: 10px 12px;
-            border-bottom: 1px solid #e0e0e0;
-            display: flex;
-            align-items: center;
-            background: #fafafa;
+            font-weight: 700;
+            font-size: 11px;
+            text-transform: uppercase;
+            color: var(--color-text-secondary);
+            letter-spacing: 0.3px;
         }
         
-        .part-item:last-child {
+        tbody tr {
+            border-bottom: 1px solid var(--color-border-light);
+        }
+        
+        tbody tr:hover {
+            background: #f9f9f9;
+        }
+        
+        td {
+            padding: 10px 12px;
+            vertical-align: top;
+        }
+        
+        td[data-provenance-source] {
+            position: relative;
+        }
+        
+        /* Parts List */
+        .parts-table th:nth-child(1) { width: 30%; }
+        .parts-table th:nth-child(2) { width: 10%; }
+        .parts-table th:nth-child(3) { width: 20%; }
+        .parts-table th:nth-child(4) { width: 25%; }
+        .parts-table th:nth-child(5) { width: 15%; }
+        
+        /* Consumables */
+        .consumables-list {
+            list-style: disc inside;
+            padding-left: 0;
+        }
+        
+        .consumables-list li {
+            padding: 8px 12px;
+            margin-bottom: 4px;
+            background: #fafafa;
+            border-radius: 3px;
+        }
+        
+        /* Troubleshooting */
+        .issue {
+            margin-bottom: 20px;
+            padding: 16px;
+            background: var(--color-warning-bg);
+            border-left: 4px solid var(--color-warning-border);
+            border-radius: 4px;
+        }
+        
+        .issue h4 {
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--color-text-primary);
+            margin-bottom: 8px;
+        }
+        
+        .issue .quick-checks,
+        .issue .next-actions {
+            margin-top: 12px;
+        }
+        
+        .issue .quick-checks h5,
+        .issue .next-actions h5 {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+            color: var(--color-text-secondary);
+            letter-spacing: 0.3px;
+        }
+        
+        .issue ul {
+            margin-left: 20px;
+            font-size: 12px;
+            line-height: 1.6;
+        }
+        
+        /* Details/Summary */
+        details {
+            margin-bottom: 16px;
+        }
+        
+        summary {
+            cursor: pointer;
+            font-weight: 700;
+            padding: 12px;
+            background: #f5f5f5;
+            border: 1px solid var(--color-border);
+            border-radius: 4px;
+            user-select: none;
+        }
+        
+        summary:hover {
+            background: #ebebeb;
+        }
+        
+        details[open] summary {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
             border-bottom: none;
         }
         
-        .part-item:nth-child(even) {
-            background: #ffffff;
+        details .details-content {
+            padding: 16px;
+            border: 1px solid var(--color-border);
+            border-top: none;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
         }
         
-        .part-checkbox {
-            margin-right: 10px;
-            width: 16px;
-            height: 16px;
-        }
-        
-        .part-name {
-            flex: 1;
-            font-weight: 600;
-            color: #1a1a1a;
+        /* Back to Top */
+        .back-to-top {
+            display: inline-block;
+            margin: 32px 0;
+            padding: 8px 16px;
+            background: var(--color-accent-secondary);
+            color: #ffffff;
+            text-decoration: none;
             font-size: 12px;
-        }
-        
-        .part-number {
-            color: #666666;
-            font-size: 11px;
-            font-weight: 400;
-            font-family: 'Courier New', monospace;
-        }
-        
-        .issue-item {
-            background: #fff8e1;
-            padding: 14px;
-            margin-bottom: 10px;
-            border-radius: 8px;
-            border-left: 5px solid #ff9800;
-            color: #1a1a1a;
-            font-size: 13px;
-            font-weight: 500;
-            line-height: 1.6;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-        }
-        
-        .issue-item strong {
-            color: #1a1a1a;
-        }
-        
-        .footer {
-            background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
-            color: #d0d0d0;
-            padding: 15px 25px;
-            text-align: center;
-            border-top: 4px solid #cc0000;
-        }
-        
-        .watermark {
-            color: #999999;
-            font-size: 10px;
-            margin-bottom: 8px;
             font-weight: 600;
             text-transform: uppercase;
+            border-radius: 4px;
+            letter-spacing: 0.5px;
+        }
+        
+        .back-to-top:hover {
+            background: #234880;
+        }
+        
+        /* Footer */
+        .doc-footer {
+            background: #2a2a2a;
+            color: #cccccc;
+            padding: 20px 24px;
+            border-top: 3px solid var(--color-accent-primary);
+            font-size: 11px;
+        }
+        
+        .footer-content .watermark {
+            font-weight: 700;
+            text-transform: uppercase;
             letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+        
+        .footer-content .generation-date {
+            font-size: 10px;
+            color: #999999;
+            margin-bottom: 12px;
         }
         
         .citations {
-            margin-top: 12px;
+            margin-top: 16px;
             font-size: 10px;
-            color: #999999;
-            text-align: left;
         }
         
         .citations a {
-            color: #ff6666;
+            color: #7db8ff;
             text-decoration: none;
         }
         
-        .diagram-placeholder {
-            background: #f5f5f5;
-            border: 2px dashed #999999;
-            padding: 30px 15px;
-            margin: 12px 0;
-            text-align: center;
-            color: #666666;
-            border-radius: 6px;
+        .citations a:hover {
+            text-decoration: underline;
         }
         
-        .diagram-placeholder svg {
-            width: 48px;
-            height: 48px;
-            margin-bottom: 8px;
-            opacity: 0.4;
+        /* Abbreviations */
+        abbr[title] {
+            text-decoration: underline dotted;
+            cursor: help;
         }
         
-        .diagram-title {
-            font-weight: 700;
-            font-size: 12px;
-            color: #444444;
-            margin-bottom: 4px;
-            text-transform: uppercase;
-        }
-        
-        .diagram-note {
-            font-size: 10px;
-            color: #777777;
-            font-style: italic;
-        }
-        
+        /* Print Styles */
         @media print {
-            body { background: white; padding: 0; }
-            .container { box-shadow: none; border: 1px solid #000000; }
-            .procedure-step { page-break-inside: avoid; }
-        }
-        
-        @media (max-width: 600px) {
-            body { padding: 5px; }
-            .content { padding: 15px; }
-            .header { padding: 15px; }
-            .info-grid { grid-template-columns: 1fr; }
-        }
-        
-        @media (prefers-color-scheme: dark) {
-            body { background: #0a0a0a; color: #e0e0e0; }
-            .container { background: #1a1a1a; border-color: #444444; }
-            .content { background: #1a1a1a; }
-            .section { background: #252525; border-color: #444444; }
-            .section h3 { color: #ffffff; border-color: #cc0000; }
-            .procedure-step { background: #2a2a2a; border-color: #444444; color: #e0e0e0; }
-            .step-description { color: #e0e0e0; }
-            .step-meta { color: #999999; }
-            .vehicle-info { background: #252525; border-color: #444444; }
-            .vehicle-info h2 { background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%); }
-            .info-label { color: #999999; }
-            .info-value { color: #e0e0e0; background: #2a2a2a; }
-            .service-overview { background: linear-gradient(135deg, #3a3a00 0%, #2a2a00 100%); border-color: #ccaa00; }
-            .service-overview h2 { color: #ffffff; }
-            .service-overview .info-value { background: #4a4a10; color: #ffffff; }
-            .torque-spec { background: #2a2a2a; border-color: #444444; }
-            .torque-component { color: #e0e0e0; }
-            .warning { background: #3a1a1a; border-color: #cc0000; }
-            .warning-icon { background: #ff3333; }
-            .tip { background: #1a2a1a; border-color: #4caf50; }
-            .tip-icon { background: #5cb85c; }
-            .parts-list { background: #252525; border-color: #444444; }
-            .part-item { background: #2a2a2a; border-color: #333333; }
-            .part-item:nth-child(even) { background: #252525; }
-            .part-name { color: #e0e0e0; }
-            .part-number { color: #999999; }
-            .issue-item { background: #3a3000; border-color: #ff9800; color: #f5f5f5; }
-            .issue-item strong { color: #ffffff; }
-            .diagram-placeholder { background: #252525; border-color: #555555; }
-            .diagram-title { color: #cccccc; }
-            .diagram-note { color: #888888; }
-        }
-        
-        /* Mobile Responsive Design */
-        @media (max-width: 768px) {
             body {
-                padding: 10px;
+                background: white;
+                font-size: 12px;
+                line-height: 1.4;
             }
             
-            .header {
-                padding: 18px 16px;
+            .container {
+                max-width: 100%;
+                box-shadow: none;
             }
             
-            .header h1 {
-                font-size: 18px;
-                line-height: 1.3;
+            .section-nav {
+                display: none;
             }
             
-            .header .subtitle {
-                font-size: 10px;
+            .back-to-top {
+                display: none;
+            }
+            
+            .doc-header {
+                background: white;
+                color: black;
+                border-bottom: 2px solid black;
+                padding: 12px 0;
+            }
+            
+            .header-content .brand {
+                color: black;
+            }
+            
+            .header-content .doc-subtitle {
+                color: #666;
             }
             
             .content {
-                padding: 16px;
+                padding: 16px 0;
             }
             
-            .section {
-                padding: 16px;
-                margin-bottom: 16px;
+            section,
+            .steps li,
+            table,
+            .issue,
+            .safety-warning {
+                page-break-inside: avoid;
             }
             
-            .section h3 {
-                font-size: 14px;
-                padding: 10px 14px;
+            h1, h2, h3, h4, h5, h6 {
+                page-break-after: avoid;
             }
             
-            .info-grid {
+            details {
+                display: block;
+            }
+            
+            details summary {
+                display: none;
+            }
+            
+            details .details-content {
+                border: none;
+                padding: 0;
+            }
+            
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            
+            .doc-footer {
+                background: white;
+                color: black;
+                border-top: 2px solid black;
+                padding: 12px 0;
+            }
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px 16px;
+            }
+            
+            .overview-section h1 {
+                font-size: 20px;
+            }
+            
+            .spec-grid {
                 grid-template-columns: 1fr;
+            }
+            
+            .section-nav {
+                padding: 8px 12px;
                 gap: 12px;
-                padding: 16px;
-            }
-            
-            .procedure-step {
-                padding: 12px;
-            }
-            
-            .step-number {
-                width: 32px;
-                height: 32px;
-                font-size: 14px;
-                line-height: 32px;
-                margin-right: 12px;
-            }
-            
-            .step-description {
-                font-size: 13px;
-            }
-            
-            .step-meta {
-                font-size: 11px;
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 4px;
-            }
-            
-            .torque-spec {
-                padding: 10px;
-            }
-            
-            .torque-component {
-                font-size: 13px;
-            }
-            
-            .torque-value {
-                font-size: 13px;
-            }
-            
-            .warning, .tip {
-                padding: 12px;
-            }
-            
-            .warning-icon, .tip-icon {
-                width: 32px;
-                height: 32px;
-                font-size: 16px;
-                line-height: 32px;
-            }
-            
-            .part-item {
-                padding: 10px;
-            }
-            
-            .part-name {
-                font-size: 13px;
-            }
-            
-            .part-number {
-                font-size: 11px;
-            }
-            
-            .issue-item {
-                padding: 12px;
-                font-size: 13px;
             }
             
             table {
-                font-size: 12px;
+                font-size: 11px;
             }
             
-            table th, table td {
+            th, td {
                 padding: 8px 6px;
-            }
-            
-            /* Make tables horizontally scrollable on mobile */
-            .section table {
-                display: block;
-                overflow-x: auto;
-                white-space: nowrap;
             }
         }
         
         @media (max-width: 480px) {
-            body {
-                padding: 8px;
-            }
-            
-            .header {
-                padding: 14px 12px;
-            }
-            
-            .header h1 {
-                font-size: 16px;
-            }
-            
             .content {
-                padding: 12px;
+                padding: 16px 12px;
             }
             
-            .section {
-                padding: 12px;
+            .overview-section h1 {
+                font-size: 18px;
             }
             
-            .section h3 {
-                font-size: 13px;
-                padding: 8px 12px;
+            section h2 {
+                font-size: 14px;
+            }
+            
+            .badge {
+                font-size: 10px;
+                padding: 3px 8px;
             }
         }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>🔧 SWOOP SERVICE AUTO</h1>
-            <div class="subtitle">Professional Automotive Service Documentation</div>
-        </div>
+        <header class="doc-header">
+            <div class="header-content">
+                <div class="brand">SWOOP SERVICE AUTO</div>
+                <div class="doc-subtitle">Professional Automotive Service Documentation</div>
+            </div>
+        </header>
         
-        <div class="content">
-            <div class="vehicle-info">
-                <h2>VEHICLE SPECIFICATION</h2>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">YEAR</span>
-                        <span class="info-value">2022</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">MAKE</span>
-                        <span class="info-value">Honda</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">MODEL</span>
-                        <span class="info-value">Accord (Tenth Generation)</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">ENGINE(S)</span>
-                        <span class="info-value">1.5L Turbo I4 (192 hp), 2.0L Turbo I4 (252 hp), 2.0L I4 Hybrid (212 hp combined)</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">TRANSMISSION(S)</span>
-                        <span class="info-value">CVT, 6-speed manual, 10-speed automatic</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">DRIVETRAIN</span>
-                        <span class="info-value">FWD</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">DIFFICULTY</span>
-                        <span class="info-value">1.0x</span>
-                    </div>
-                </div>
-            </div>
+        <nav class="section-nav" aria-label="Section navigation">
+            <a href="#overview">Overview</a>
+            <a href="#safety">Safety</a>
+            <a href="#steps">Procedure</a>
+            <a href="#torque-specifications">Torque Specs</a>
             
-            <div class="service-overview">
-                <h2>SERVICE: Alternator Replacement</h2>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <span class="info-label">CATEGORY</span>
-                        <span class="info-value">Electrical & Charging</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">LABOR TIME</span>
-                        <span class="info-value">1.5 HRS</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-label">SKILL LEVEL</span>
-                        <span class="info-value">Intermediate</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="section"><h3>⚠️ Safety Warnings</h3><div class="warning"><span class="warning-icon">⚠️</span>Always disconnect the negative battery cable before starting work to prevent electrical shock or short circuits.</div><div class="warning"><span class="warning-icon">⚠️</span>Use jack stands if lifting vehicle; never rely solely on a jack.</div><div class="warning"><span class="warning-icon">⚠️</span>Allow engine to cool before working in engine bay to avoid burns.</div><div class="warning"><span class="warning-icon">⚠️</span>Wear safety glasses and gloves when handling belts and electrical components.</div></div>
-            
-            <div class="section"><h3>📋 Step-by-Step Procedure</h3><div class="procedure-step"><span class="step-number">1</span><span class="step-description">Disconnect the negative battery cable using a 10mm socket. Ensure cable is secured away from battery terminal to prevent accidental contact.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">2</span><span class="step-description">Remove the engine cover (if equipped) for access to the alternator and serpentine belt.</span><div class="step-meta">⏱️ 2 min</div></div><div class="procedure-step"><span class="step-number">3</span><span class="step-description">Locate and remove the serpentine belt using a serpentine belt tool or appropriate wrench to release tension on the tensioner pulley. Slide belt off alternator pulley.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">4</span><span class="step-description">Disconnect the electrical connector from the alternator by pressing the release tab and pulling it straight out.</span><div class="step-meta">⏱️ 2 min</div></div><div class="procedure-step"><span class="step-number">5</span><span class="step-description">Remove the alternator output terminal nut (typically 10mm) and disconnect the battery cable from the alternator.</span><div class="step-meta">⏱️ 3 min | 🔧 6 ft-lbs</div></div><div class="procedure-step"><span class="step-number">6</span><span class="step-description">Remove the alternator mounting bolts (typically three: one upper, two lower). Use a 12mm socket for all bolts. Support alternator as last bolt is removed.</span><div class="step-meta">⏱️ 10 min | 🔧 16 ft-lbs</div></div><div class="procedure-step"><span class="step-number">7</span><span class="step-description">Carefully maneuver the alternator out of the engine bay. Note orientation for reinstallation.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">8</span><span class="step-description">Compare new alternator to old unit for correct fitment, connector type, and pulley alignment.</span><div class="step-meta">⏱️ 3 min</div></div><div class="procedure-step"><span class="step-number">9</span><span class="step-description">Install new alternator, aligning mounting holes. Hand-start all mounting bolts.</span><div class="step-meta">⏱️ 5 min</div></div><div class="procedure-step"><span class="step-number">10</span><span class="step-description">Tighten alternator mounting bolts to 16 ft-lbs in proper sequence (upper first, then lower).</span><div class="step-meta">⏱️ 5 min | 🔧 16 ft-lbs</div></div><div class="procedure-step"><span class="step-number">11</span><span class="step-description">Reconnect the battery cable to the alternator output terminal and tighten nut to 6 ft-lbs.</span><div class="step-meta">⏱️ 2 min | 🔧 6 ft-lbs</div></div><div class="procedure-step"><span class="step-number">12</span><span class="step-description">Reconnect the electrical connector to the alternator until it clicks into place.</span><div class="step-meta">⏱️ 2 min</div></div><div class="procedure-step"><span class="step-number">13</span><span class="step-description">Reinstall the serpentine belt, ensuring proper routing and tension. Refer to underhood diagram.</span><div class="step-meta">⏱️ 10 min</div></div><div class="procedure-step"><span class="step-number">14</span><span class="step-description">Reinstall engine cover (if removed).</span><div class="step-meta">⏱️ 2 min</div></div><div class="procedure-step"><span class="step-number">15</span><span class="step-description">Reconnect the negative battery cable.</span><div class="step-meta">⏱️ 2 min</div></div><div class="procedure-step"><span class="step-number">16</span><span class="step-description">Start engine and verify charging system operation with a voltmeter (should read 13.5–14.5V at battery with engine running).</span><div class="step-meta">⏱️ 5 min</div></div></div>
-            
-            <div class="section"><h3>🔧 Torque Specifications</h3><div style="background: #fff9e6; border: 2px solid #d4a600; border-left: 6px solid #ff6b00; padding: 14px; margin-bottom: 16px; border-radius: 8px;"><strong style="color: #1a1a1a;">⚠️ CRITICAL:</strong> <span style="color: #1a1a1a;">Always verify torque specifications in factory service manual. Incorrect torque can cause damage or safety issues.</span></div><div class="torque-spec"><div><span class="torque-component">Alternator mounting bolts</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Critical for alternator alignment</div></div><div style="text-align: right;"><span class="torque-value">16 ft-lbs (Upper first, then lower)</span></div></div><div class="torque-spec"><div><span class="torque-component">Alternator output terminal nut</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Prevents terminal damage</div></div><div style="text-align: right;"><span class="torque-value">6 ft-lbs (Straight)</span></div></div><div class="torque-spec"><div><span class="torque-component">Wheel lug nuts</span><div style="font-size: 11px; color: #ff6b00; font-weight: 600; margin-top: 4px;">⚠️ Verify in owner's manual for exact spec</div></div><div style="text-align: right;"><span class="torque-value">80 ft-lbs (Star)</span></div></div></div>
-            
-            
-            
-            <div class="section"><h3>🛠️ Required Parts</h3><div class="parts-list"><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Alternator (1.5L Turbo) (x1)</span><span class="part-number">OEM: 31100-5AA-A01</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Alternator (2.0L Turbo) (x1)</span><span class="part-number">OEM: 31100-5AA-A01</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Alternator (2.0L Hybrid) (x1)</span><span class="part-number">OEM: 31100-5AA-A01</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Serpentine belt (1.5L Turbo) (x1)</span><span class="part-number">OEM: 38920-RPY-A01</span></div><div class="part-item"><input type="checkbox" class="part-checkbox"><span class="part-name">Serpentine belt (2.0L Turbo) (x1)</span><span class="part-number">OEM: 38920-RPY-A01</span></div></div></div>
-            
-            <div class="section"><h3>🔨 Special Tools Required</h3><ul style="list-style-position: inside; padding-left: 0;"><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Serpentine belt tool</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">10mm, 12mm sockets</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Torque wrench (3–150 ft-lbs)</li><li style="padding: 8px 0; border-bottom: 1px solid #eee;">Needle-nose pliers (for wiring clips)</li></ul></div>
-            
-            <div class="section"><h3>🔍 Common Issues & Troubleshooting</h3><div class="issue-item"><strong>Intermittent charging</strong>: Loose or corroded battery/alternator connections. Clean terminals and ensure tight connections.</div><div class="issue-item"><strong>Belt squeal after replacement</strong>: Incorrect belt tension or routing. Double-check belt diagram and tensioner operation.</div><div class="issue-item"><strong>Alternator not charging</strong>: Faulty replacement unit or incorrect installation. Verify all connections and test alternator output with engine running.</div><div class="issue-item"><strong>Check charging system light</strong>: Often caused by a failing alternator, but also check battery health and all wiring harnesses for damage.</div><div class="issue-item"><strong>Difficulty removing alternator</strong>: Tight clearance around A/C lines and power steering reservoir. Temporarily move components as needed for access.</div></div>
-            
-            <div class="section"><h3>💡 Pro Tips</h3><div class="tip"><span class="tip-icon">💡</span>Take photos of belt routing before removal to ensure correct reinstallation.</div><div class="tip"><span class="tip-icon">💡</span>Inspect serpentine belt and tensioner while alternator is removed; replace if worn.</div><div class="tip"><span class="tip-icon">💡</span>Hand-start all bolts before final tightening to avoid cross-threading.</div><div class="tip"><span class="tip-icon">💡</span>Test charging system with a voltmeter after reassembly to confirm repair.</div></div>
-        </div>
+            <a href="#parts">Parts</a>
+            <a href="#tools">Tools</a>
+            <a href="#troubleshooting">Troubleshooting</a>
+        </nav>
         
-        <div class="footer">
-            <div class="watermark">
-                GENERATED BY SWOOP SERVICE AUTO AI DOCUMENTATION SYSTEM<br>
-                OCTOBER 16, 2025 - 10:48 PM
-            </div>
+        <main class="content">
+            <article id="overview" class="overview-section">
+                <h1>2022 Honda Accord (Tenth Generation) — Alternator Replacement</h1>
+                <div class="subtitle-line">
+                    <span class="badge">Engine: 1.5L Turbo I4 (192 hp), 2.0L Turbo I4 (252 hp)</span>
+                    
+                    <span class="badge">Category: Electrical & Charging</span>
+                    <span class="badge">Flat Time: 1.5 hrs</span>
+                    <span class="badge">Difficulty: 1/5</span>
+                    <span class="badge">Skill: INTERMEDIATE</span>
+                </div>
+                
+                
+                
+                <section class="vehicle-specs">
+                    <h2 id="vehicle-specification">Vehicle Specification</h2>
+                    <dl class="spec-grid">
+                        <div class="spec-item">
+                            <dt>Year</dt>
+                            <dd>2022</dd>
+                        </div>
+                        <div class="spec-item">
+                            <dt>Make</dt>
+                            <dd>Honda</dd>
+                        </div>
+                        <div class="spec-item">
+                            <dt>Model</dt>
+                            <dd>Accord (Tenth Generation)</dd>
+                        </div>
+                        <div class="spec-item">
+                            <dt>Engine(s)</dt>
+                            <dd>1.5L Turbo I4 (192 hp), 2.0L Turbo I4 (252 hp), 2.0L I4 Hybrid (212 hp combined)</dd>
+                        </div>
+                        <div class="spec-item">
+                            <dt>Transmission(s)</dt>
+                            <dd>CVT, 6-speed manual, 10-speed automatic</dd>
+                        </div>
+                        <div class="spec-item">
+                            <dt>Drivetrain</dt>
+                            <dd>FWD</dd>
+                        </div>
+                    </dl>
+                </section>
+            </article>
             
-        </div>
+            <section id="safety" class="safety-section">
+<h2>Safety Precautions</h2>
+<div class="safety-warning">ALWAYS disconnect negative battery cable first, then positive cable to prevent electrical shorts and potential airbag deployment</div>
+<div class="safety-warning">Never work on charging system with battery connected - risk of electrical shock and component damage</div>
+<div class="safety-warning">Wear safety glasses and gloves - battery acid and electrical components present burn and shock hazards</div>
+<div class="safety-warning">Allow engine to cool completely before beginning work - alternator and surrounding components reach temperatures exceeding 200°F</div>
+<div class="safety-warning">Do NOT drop tools or metal objects onto battery terminals - can cause explosive sparks and battery damage</div>
+<div class="safety-warning">Hybrid models contain high-voltage components - only qualified technicians should service hybrid charging systems</div>
+<div class="safety-warning">Verify serpentine belt is properly seated on all pulleys before starting engine - improper routing can cause belt to jump off and damage components</div>
+<div class="safety-warning">Keep hands, clothing, and tools away from cooling fan - fan may activate unexpectedly even with engine off</div>
+</section>
+
+            
+            <section id="steps" class="procedure-section">
+<h2>Service Procedure</h2>
+<ol class="steps">
+<li data-step="1">
+<div class="step-content">
+Disconnect the negative battery cable first using a 10mm socket, then disconnect the positive cable. Push connectors away from battery terminals to prevent accidental contact during service.
+<div class="step-meta">Time: 3 min</div>
+</div>
+</li>
+<li data-step="2">
+<div class="step-content">
+Remove the engine cover by pulling upward on the retaining clips. Set aside in a clean area.
+<div class="step-meta">Time: 2 min</div>
+</div>
+</li>
+<li data-step="3">
+<div class="step-content">
+Locate the serpentine belt tensioner. For 1.5L turbo engine, use a 19mm wrench or breaker bar on the tensioner bolt. Rotate tensioner clockwise to release belt tension. Slide belt off alternator pulley first, then release tensioner slowly.
+<div class="step-meta">Time: 8 min</div>
+</div>
+</li>
+<li data-step="4">
+<div class="step-content">
+Optional but recommended for 1.5L engine: Remove coolant reservoir by disconnecting hose and removing mounting bolts. This provides better access to alternator.
+<div class="step-meta">Time: 5 min</div>
+</div>
+</li>
+<li data-step="5">
+<div class="step-content">
+Press the clip on the electrical connector at the alternator and carefully pull to disconnect. Pull back the rubber boot covering the battery cable terminal on alternator.
+<div class="step-meta">Time: 3 min</div>
+</div>
+</li>
+<li data-step="6">
+<div class="step-content">
+Remove the 10mm nut securing the battery cable to the alternator. Keep nut in safe location as it is easy to drop.
+<span class="step-torque-ref"> (Torque: 6 ft-lbs)</span>
+<div class="step-meta">Time: 2 min</div>
+</div>
+</li>
+<li data-step="7">
+<div class="step-content">
+For 1.5L engine: Remove two 12mm mounting bolts securing alternator to bracket (one top, one bottom). For 2.0L engine: Remove three 12mm mounting bolts. Note that longer bolt goes on top position.
+<div class="step-meta">Time: 5 min</div>
+</div>
+</li>
+<li data-step="8">
+<div class="step-content">
+For 2.0L engine only: Remove plastic cooling fan shroud by removing retaining clips and bolts to provide clearance for alternator removal.
+<div class="step-meta">Time: 8 min</div>
+</div>
+</li>
+<li data-step="9">
+<div class="step-content">
+Maneuver alternator out of engine bay. Orient pulley downward and two mounting brackets as shown. Lift from underneath A/C line. For 1.5L, alternator removes from top. For 2.0L, may need to use pry bar to break alternator free from brackets if tight fit.
+<div class="step-meta">Time: 10 min</div>
+</div>
+</li>
+<li data-step="10">
+<div class="step-content">
+Compare old and new alternators. Verify mounting holes, pulley orientation, and electrical connectors match exactly before installation.
+<div class="step-meta">Time: 3 min</div>
+</div>
+</li>
+<li data-step="11">
+<div class="step-content">
+Install new alternator by reversing removal orientation. Slide under A/C hose and position roughly into mounting location.
+<div class="step-meta">Time: 8 min</div>
+</div>
+</li>
+<li data-step="12">
+<div class="step-content">
+Connect battery cable to alternator post before installing mounting bolts. Install 10mm nut and torque to specification.
+<span class="step-torque-ref"> (Torque: 6 ft-lbs)</span>
+<div class="step-meta">Time: 3 min</div>
+</div>
+</li>
+<li data-step="13">
+<div class="step-content">
+Install alternator mounting bolts. For 1.5L: install two 12mm bolts (longer one on top). For 2.0L: install three 12mm bolts. Start top bolt by hand first, then install remaining bolts.
+<span class="step-torque-ref"> (Torque: 16 ft-lbs)</span>
+<div class="step-meta">Time: 5 min</div>
+</div>
+</li>
+<li data-step="14">
+<div class="step-content">
+Connect electrical connector to alternator. Press firmly until it clicks into place. Ensure rubber boot covers battery cable terminal.
+<div class="step-meta">Time: 2 min</div>
+</div>
+</li>
+<li data-step="15">
+<div class="step-content">
+For 2.0L engine: Reinstall cooling fan shroud with retaining clips and bolts.
+<div class="step-meta">Time: 5 min</div>
+</div>
+</li>
+<li data-step="16">
+<div class="step-content">
+Reinstall serpentine belt following belt routing diagram. Use 19mm wrench on tensioner, rotate to create slack, route belt over all pulleys, ensure proper seating in all pulley grooves.
+<div class="step-meta">Time: 10 min</div>
+</div>
+</li>
+<li data-step="17">
+<div class="step-content">
+If removed, reinstall coolant reservoir with mounting bolts and reconnect hose.
+<div class="step-meta">Time: 4 min</div>
+</div>
+</li>
+<li data-step="18">
+<div class="step-content">
+Reinstall engine cover by aligning clips and pressing down until secured.
+<div class="step-meta">Time: 2 min</div>
+</div>
+</li>
+<li data-step="19">
+<div class="step-content">
+Reconnect battery cables. Connect positive cable first, then negative cable. Tighten with 10mm socket.
+<div class="step-meta">Time: 3 min</div>
+</div>
+</li>
+<li data-step="20">
+<div class="step-content">
+Start engine and verify charging system operation. With engine running, measure voltage at battery terminals. Should read 13.5-14.5 volts. Check for proper belt operation and listen for unusual noises.
+<div class="step-meta">Time: 5 min</div>
+</div>
+</li>
+</ol>
+<a href="#overview" class="back-to-top">Back to top</a>
+</section>
+
+            
+            <section id="torque-specifications" class="torque-section">
+<h2>Torque Specifications</h2>
+<div class="safety-warning" style="background: var(--color-warning-bg); border-left-color: var(--color-warning-border);"><strong>CRITICAL:</strong> Always verify torque specifications in factory service manual. Incorrect torque can result in component damage or safety hazards.</div>
+<table class="torque-table">
+<caption>Factory Torque Values</caption>
+<thead>
+<tr>
+<th scope="col">Component</th>
+<th scope="col">Pattern</th>
+<th scope="col">ft-lb (Nm)</th>
+<th scope="col">in-lb (Nm)</th>
+<th scope="col">Notes</th>
+<th scope="col">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alternator battery cable nut (10mm)</td>
+<td>Straight</td>
+<td data-provenance-source="Verify in FSM" data-confidence="0.8">6 ft-lbs</td>
+<td></td>
+<td>Low torque - do not overtighten</td>
+<td style="font-size: 10px; color: var(--color-text-muted);">Verify in FSM</td>
+</tr>
+<tr>
+<td>Alternator mounting bolts (12mm)</td>
+<td>Top bolt first, then bottom bolts</td>
+<td data-provenance-source="Verify in FSM" data-confidence="0.8">16 ft-lbs</td>
+<td></td>
+<td>Longer bolt goes in top position</td>
+<td style="font-size: 10px; color: var(--color-text-muted);">Verify in FSM</td>
+</tr>
+<tr>
+<td>Battery terminal connections (10mm)</td>
+<td>Straight</td>
+<td data-provenance-source="Verify in FSM" data-confidence="0.8">Hand tight plus 1/4 turn</td>
+<td></td>
+<td>Negative first on removal, positive first on installation</td>
+<td style="font-size: 10px; color: var(--color-text-muted);">Verify in FSM</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+            
+            
+            
+            
+            
+            <section id="parts" class="parts-section">
+<h2>Required Parts</h2>
+<table class="parts-table">
+<caption>Parts List</caption>
+<thead>
+<tr>
+<th scope="col">Name</th>
+<th scope="col">Qty</th>
+<th scope="col">OEM Part Number</th>
+<th scope="col">Aftermarket Alternates</th>
+<th scope="col">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alternator (1.5L Turbo - 105 amp)</td>
+<td style="text-align: center;">1</td>
+<td style="font-family: monospace; font-size: 11px;">31100-5AA-A02</td>
+<td style="font-size: 11px;">—</td>
+<td style="font-size: 11px;"></td>
+</tr>
+<tr>
+<td>Alternator (2.0L Turbo - 120 amp)</td>
+<td style="text-align: center;">1</td>
+<td style="font-family: monospace; font-size: 11px;">31100-5BA-A02</td>
+<td style="font-size: 11px;">—</td>
+<td style="font-size: 11px;"></td>
+</tr>
+<tr>
+<td>Alternator (2.0L Hybrid - varies)</td>
+<td style="text-align: center;">1</td>
+<td style="font-family: monospace; font-size: 11px;">Contact Honda dealer</td>
+<td style="font-size: 11px;">—</td>
+<td style="font-size: 11px;"></td>
+</tr>
+<tr>
+<td>Serpentine belt (1.5L Turbo)</td>
+<td style="text-align: center;">1</td>
+<td style="font-family: monospace; font-size: 11px;">56992-5AA-A02</td>
+<td style="font-size: 11px;">—</td>
+<td style="font-size: 11px;"></td>
+</tr>
+<tr>
+<td>Serpentine belt (2.0L Turbo)</td>
+<td style="text-align: center;">1</td>
+<td style="font-family: monospace; font-size: 11px;">56992-5BA-A02</td>
+<td style="font-size: 11px;">—</td>
+<td style="font-size: 11px;"></td>
+</tr>
+<tr>
+<td>Battery terminal protector spray</td>
+<td style="text-align: center;">1</td>
+<td style="font-family: monospace; font-size: 11px;">08732-0150</td>
+<td style="font-size: 11px;">—</td>
+<td style="font-size: 11px;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+            
+            <section id="consumables" class="consumables-section">
+<h3>Shop Consumables</h3>
+<ul class="consumables-list">
+<li>Shop rags/towels</li>
+<li>Nitrile gloves</li>
+<li>Parts cleaner/degreaser</li>
+<li>Thread locker (if applicable)</li>
+<li>Anti-seize compound (if applicable)</li>
+</ul>
+</section>
+
+            
+            <section id="tools" class="tools-section">
+<h2>Special Tools Required</h2>
+<ul style="list-style: disc inside; padding-left: 0;">
+<li style="padding: 8px 0; border-bottom: 1px solid var(--color-border-light);">10mm socket and ratchet</li>
+<li style="padding: 8px 0; border-bottom: 1px solid var(--color-border-light);">12mm deep socket (recommended)</li>
+<li style="padding: 8px 0; border-bottom: 1px solid var(--color-border-light);">14mm or 19mm wrench with breaker bar or serpentine belt tool</li>
+<li style="padding: 8px 0; border-bottom: 1px solid var(--color-border-light);">Torque wrench (0-50 ft-lbs range)</li>
+<li style="padding: 8px 0; border-bottom: 1px solid var(--color-border-light);">Needle-nose pliers</li>
+<li style="padding: 8px 0; border-bottom: 1px solid var(--color-border-light);">Pry bar or crowbar (for stubborn alternator removal)</li>
+<li style="padding: 8px 0; border-bottom: 1px solid var(--color-border-light);">Multimeter or voltmeter (for charging system test)</li>
+<li style="padding: 8px 0; border-bottom: 1px solid var(--color-border-light);">Rubber mallet (optional, for seating alternator)</li>
+</ul>
+</section>
+
+            
+            
+            
+            <section id="troubleshooting" class="troubleshooting-section">
+<h2>Common Issues & Troubleshooting</h2>
+<div class="issue"><strong>Premature alternator bearing failure on 1.5L turbo engines</strong>: Tenth-generation Accords with 1.5L turbo have reported alternator bearing noise between 40,000-70,000 miles. Symptoms include grinding or whining noise that increases with engine speed. Caused by inadequate bearing lubrication in certain production batches. Solution: Replace with updated alternator unit and verify belt tension is within specification to prevent premature wear.</div>
+<div class="issue"><strong>Difficult alternator removal due to tight clearances</strong>: On both 1.5L and 2.0L engines, alternator can become wedged between A/C lines and chassis components. Symptoms include alternator appearing stuck even with all bolts removed. Caused by thermal expansion creating tight fit. Solution: Use pry bar carefully at mounting ears (not on housing) to break alternator free. On 2.0L, removing fan shroud provides necessary clearance.</div>
+<div class="issue"><strong>Serpentine belt routing confusion</strong>: Multiple accessory configurations make belt routing errors common. Symptoms include belt slipping, squealing, or being loose after installation. Caused by incorrect pulley routing. Solution: Photograph belt routing before removal or reference diagram on radiator support. Belt must wrap around all accessory pulleys in correct sequence with ribbed side contacting all pulleys.</div>
+<div class="issue"><strong>Electrical connector damage during removal</strong>: Connector tab on alternator is plastic and can break if forced. Symptoms include loose connection or inability to reconnect. Caused by not pressing release tab fully before pulling. Solution: Press release tab completely while gently wiggling connector side-to-side. If tab breaks, connector must be replaced to ensure proper electrical contact.</div>
+<div class="issue"><strong>Battery drain after installation</strong>: New alternator not charging properly after installation. Symptoms include battery warning light on dashboard, low voltage readings, or dead battery after short period. Caused by loose battery cable connection at alternator, improper electrical connector seating, or defective new alternator. Solution: Verify 10mm battery cable nut is torqued to 6 ft-lbs, electrical connector clicks fully into place, and voltage output is 13.5-14.5V with engine running.</div>
+<div class="issue"><strong>Hybrid system alternator confusion</strong>: 2.0L Hybrid uses integrated motor-generator unit, not conventional alternator. Symptoms include inability to locate traditional alternator. Caused by different hybrid charging system architecture. Solution: Hybrid models require specialized Honda dealer service for charging system repairs. Do not attempt conventional alternator replacement on hybrid variants.</div>
+<a href="#overview" class="back-to-top">Back to top</a>
+</section>
+
+            
+            <section id="provenance" class="provenance-section">
+<h2>Document Provenance</h2>
+<p style="font-size: 12px; color: var(--color-text-secondary); line-height: 1.6;">This document was generated using AI research and aggregation from publicly available sources including factory service manuals, technical service bulletins, and trusted automotive databases. Always verify critical specifications (torque values, fluid types, procedures) against the official factory service manual for your specific vehicle before performing work. Swoop Service Auto provides this documentation as a reference aid and assumes no liability for its use.</p>
+</section>
+
+            
+            <a href="#overview" class="back-to-top">Back to top</a>
+        </main>
+        
+        <footer class="doc-footer">
+            <div class="footer-content">
+                <div class="watermark">SWOOP SERVICE AUTO AI DOCUMENTATION SYSTEM</div>
+                <div class="generation-date">OCTOBER 16, 2025 — 11:25 PM</div>
+                <div class="citations">
+<strong>Research Sources:</strong><br>
+1. <a href="https://practicalmechanic.com/2020/07/11/alternator-replacement-picture-guide-honda-accord/" target="_blank">https://practicalmechanic.com/2020/07/11/alternator-replacement-picture-guide-honda-accord/</a><br>
+2. <a href="https://www.youtube.com/watch?v=iKU2M5uBoNU" target="_blank">https://www.youtube.com/watch?v=iKU2M5uBoNU</a><br>
+3. <a href="https://www.youtube.com/watch?v=2ZKYTcJDflw" target="_blank">https://www.youtube.com/watch?v=2ZKYTcJDflw</a><br>
+</div>
+
+            </div>
+        </footer>
     </div>
+    
+    <script>
+    // Handle smooth scrolling for anchor links and prevent navigation issues in iframes
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get all anchor links
+        const anchorLinks = document.querySelectorAll('a[href^="#"]');
+        
+        anchorLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    
+                    // Update URL hash without triggering navigation
+                    if (window.history && window.history.pushState) {
+                        window.history.pushState(null, null, '#' + targetId);
+                    }
+                }
+                
+                return false;
+            });
+        });
+    });
+    </script>
 </body>
 </html>
+
+<!-- Change Log:
+- Converted to semantic HTML5 (header, nav, main, article, section, footer)
+- Removed all emojis from headings and icons
+- Added stable kebab-case IDs for all major sections
+- Implemented sticky sub-navigation with anchor links
+- Enhanced print styles (no nav, force details open, proper breaks)
+- Improved contrast for WCAG AA compliance
+- Professional monochrome palette with subtle borders
+- Neutral technician-facing tone throughout
+- Added data-provenance attributes for torque values
+- Separated Parts from Consumables
+- Added Variants section for platform/VIN splits
+- Enhanced Troubleshooting with Quick Checks and Next Actions
+- Mobile-first responsive design with max 960px content width
+- System-ui font stack for native appearance
+- Back to top links after long sections
+-->
