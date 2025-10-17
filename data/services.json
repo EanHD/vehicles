@@ -660,8 +660,8 @@
     "can_do_mobile": true,
     "verified_mobile": false,
     "status": "draft",
-    "notes": "Standard spark plug replacement for 4-cylinder engines. Does not include ignition coil service.",
-    "customer_facing_notes": "### What This Service Includes\nSpark Plug Replacement (4-Cylinder) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1.0 hour. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
+    "notes": "Standard spark plug replacement for 4-cylinder engines. Does not include ignition coil service.\n\nQuantity-based planning supported: use quantity_pricing to adjust labor for partial spark plug replacements.",
+    "customer_facing_notes": "### What This Service Includes\nSpark Plug Replacement (4-Cylinder) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1.5 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
     "priority_level": "Medium",
     "environmental_fee_flag": false,
     "minimum_deposit_required": 50,
@@ -682,14 +682,41 @@
       "https://www.alldata.com/repair-info/engine",
       "https://www.mitchell1.com/repair-info/engine-mechanical"
     ],
-    "last_reviewed_at": "2025-10-16T04:06:27Z",
-    "reviewed_by": "auto-migrate"
+    "last_reviewed_at": "2025-10-16T19:30:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "spark_plug",
+      "base_hours": 0.5,
+      "hours_per_unit": 0.25,
+      "min_units": 1,
+      "max_units": 12,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 0.75
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 1.5
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 2.0
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 2.5
+        }
+      ],
+      "default_units": 4
+    }
   },
   {
     "service_id": "spark_plug_replacement_6_cylinder",
     "service_name": "Spark Plug Replacement (6-Cylinder)",
     "category": "Engine & Cooling",
-    "est_labor_hours": 1.5,
+    "est_labor_hours": 2.0,
     "labor_rate_local": 150,
     "labor_rate_outside": 170,
     "price_calc_note": "Labor billed at $150/hr locally and $170/hr outside the core service radius. One-hour minimum applies; parts, taxes, and environmental fees are additional when required.",
@@ -710,8 +737,8 @@
     "can_do_mobile": true,
     "verified_mobile": false,
     "status": "draft",
-    "notes": "Spark plug replacement for V6 engines. Access may affect labor on transverse layouts.",
-    "customer_facing_notes": "### What This Service Includes\nSpark Plug Replacement (6-Cylinder) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1.5 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
+    "notes": "Spark plug replacement for V6 engines. Access may affect labor on transverse layouts.\n\nQuantity-based planning supported: use quantity_pricing to adjust labor for partial spark plug replacements.",
+    "customer_facing_notes": "### What This Service Includes\nSpark Plug Replacement (6-Cylinder) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 2 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
     "priority_level": "Medium",
     "environmental_fee_flag": false,
     "minimum_deposit_required": 50,
@@ -732,14 +759,41 @@
       "https://www.alldata.com/repair-info/engine",
       "https://www.mitchell1.com/repair-info/engine-mechanical"
     ],
-    "last_reviewed_at": "2025-10-16T04:06:27Z",
-    "reviewed_by": "auto-migrate"
+    "last_reviewed_at": "2025-10-16T19:30:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "spark_plug",
+      "base_hours": 0.5,
+      "hours_per_unit": 0.25,
+      "min_units": 1,
+      "max_units": 12,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 0.75
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 1.5
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 2.0
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 2.5
+        }
+      ],
+      "default_units": 6
+    }
   },
   {
     "service_id": "spark_plug_replacement_8_cylinder",
     "service_name": "Spark Plug Replacement (8-Cylinder)",
     "category": "Engine & Cooling",
-    "est_labor_hours": 1.8,
+    "est_labor_hours": 2.5,
     "labor_rate_local": 150,
     "labor_rate_outside": 170,
     "price_calc_note": "Labor billed at $150/hr locally and $170/hr outside the core service radius. One-hour minimum applies; parts, taxes, and environmental fees are additional when required.",
@@ -760,8 +814,8 @@
     "can_do_mobile": true,
     "verified_mobile": false,
     "status": "draft",
-    "notes": "Full spark plug replacement on V8 engines. Coil packs not included.",
-    "customer_facing_notes": "### What This Service Includes\nSpark Plug Replacement (8-Cylinder) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1.8 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
+    "notes": "Full spark plug replacement on V8 engines. Coil packs not included.\n\nQuantity-based planning supported: use quantity_pricing to adjust labor for partial spark plug replacements.",
+    "customer_facing_notes": "### What This Service Includes\nSpark Plug Replacement (8-Cylinder) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 2.5 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
     "priority_level": "Medium",
     "environmental_fee_flag": false,
     "minimum_deposit_required": 50,
@@ -782,14 +836,41 @@
       "https://www.alldata.com/repair-info/engine",
       "https://www.mitchell1.com/repair-info/engine-mechanical"
     ],
-    "last_reviewed_at": "2025-10-16T04:06:27Z",
-    "reviewed_by": "auto-migrate"
+    "last_reviewed_at": "2025-10-16T19:30:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "spark_plug",
+      "base_hours": 0.5,
+      "hours_per_unit": 0.25,
+      "min_units": 1,
+      "max_units": 12,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 0.75
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 1.5
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 2.0
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 2.5
+        }
+      ],
+      "default_units": 8
+    }
   },
   {
     "service_id": "ignition_coil_replacement_single",
     "service_name": "Ignition Coil Replacement (Single)",
     "category": "Engine & Cooling",
-    "est_labor_hours": 0.6,
+    "est_labor_hours": 0.55,
     "labor_rate_local": 150,
     "labor_rate_outside": 170,
     "price_calc_note": "Labor billed at $150/hr locally and $170/hr outside the core service radius. One-hour minimum applies; parts, taxes, and environmental fees are additional when required.",
@@ -810,7 +891,7 @@
     "can_do_mobile": true,
     "verified_mobile": false,
     "status": "draft",
-    "notes": "Replacement of a single ignition coil. Diagnosis or plug replacement not included.",
+    "notes": "Replacement of a single ignition coil. Diagnosis or plug replacement not included.\n\nQuantity-based planning supported: use quantity_pricing to scale labor for coil replacements.",
     "customer_facing_notes": "### What This Service Includes\nIgnition Coil Replacement (Single) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 0.6 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
     "priority_level": "Medium",
     "environmental_fee_flag": false,
@@ -832,8 +913,35 @@
       "https://www.alldata.com/repair-info/engine",
       "https://www.mitchell1.com/repair-info/engine-mechanical"
     ],
-    "last_reviewed_at": "2025-10-16T04:06:27Z",
-    "reviewed_by": "auto-migrate"
+    "last_reviewed_at": "2025-10-16T19:30:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "ignition_coil",
+      "base_hours": 0.4,
+      "hours_per_unit": 0.15,
+      "min_units": 1,
+      "max_units": 12,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 0.6
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 1.0
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 1.3
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 1.6
+        }
+      ],
+      "default_units": 1
+    }
   },
   {
     "service_id": "ignition_coil_replacement_set_of_4",
@@ -860,8 +968,8 @@
     "can_do_mobile": true,
     "verified_mobile": false,
     "status": "draft",
-    "notes": "Full coil set for 4-cylinder engines. Spark plug replacement may be recommended at the same time.",
-    "customer_facing_notes": "### What This Service Includes\nIgnition Coil Replacement (Set of 4) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1.0 hour. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
+    "notes": "Full coil set for 4-cylinder engines. Spark plug replacement may be recommended at the same time.\n\nQuantity-based planning supported: use quantity_pricing to scale labor for coil replacements.",
+    "customer_facing_notes": "### What This Service Includes\nIgnition Coil Replacement (Set of 4) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
     "priority_level": "Medium",
     "environmental_fee_flag": false,
     "minimum_deposit_required": 50,
@@ -882,8 +990,35 @@
       "https://www.alldata.com/repair-info/engine",
       "https://www.mitchell1.com/repair-info/engine-mechanical"
     ],
-    "last_reviewed_at": "2025-10-16T04:06:27Z",
-    "reviewed_by": "auto-migrate"
+    "last_reviewed_at": "2025-10-16T19:30:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "ignition_coil",
+      "base_hours": 0.4,
+      "hours_per_unit": 0.15,
+      "min_units": 1,
+      "max_units": 12,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 0.6
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 1.0
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 1.3
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 1.6
+        }
+      ],
+      "default_units": 4
+    }
   },
   {
     "service_id": "ignition_coil_replacement_set_of_6",
@@ -910,7 +1045,7 @@
     "can_do_mobile": true,
     "verified_mobile": false,
     "status": "draft",
-    "notes": "Full ignition coil replacement for V6 engines. Does not include spark plugs.",
+    "notes": "Full ignition coil replacement for V6 engines. Does not include spark plugs.\n\nQuantity-based planning supported: use quantity_pricing to scale labor for coil replacements.",
     "customer_facing_notes": "### What This Service Includes\nIgnition Coil Replacement (Set of 6) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1.3 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
     "priority_level": "Medium",
     "environmental_fee_flag": false,
@@ -932,8 +1067,35 @@
       "https://www.alldata.com/repair-info/engine",
       "https://www.mitchell1.com/repair-info/engine-mechanical"
     ],
-    "last_reviewed_at": "2025-10-16T04:06:27Z",
-    "reviewed_by": "auto-migrate"
+    "last_reviewed_at": "2025-10-16T19:30:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "ignition_coil",
+      "base_hours": 0.4,
+      "hours_per_unit": 0.15,
+      "min_units": 1,
+      "max_units": 12,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 0.6
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 1.0
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 1.3
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 1.6
+        }
+      ],
+      "default_units": 6
+    }
   },
   {
     "service_id": "ignition_coil_replacement_set_of_8",
@@ -960,7 +1122,7 @@
     "can_do_mobile": true,
     "verified_mobile": false,
     "status": "draft",
-    "notes": "Full ignition coil set for V8 engines. Often done with spark plugs together.",
+    "notes": "Full ignition coil set for V8 engines. Often done with spark plugs together.\n\nQuantity-based planning supported: use quantity_pricing to scale labor for coil replacements.",
     "customer_facing_notes": "### What This Service Includes\nIgnition Coil Replacement (Set of 8) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1.6 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
     "priority_level": "Medium",
     "environmental_fee_flag": false,
@@ -982,8 +1144,35 @@
       "https://www.alldata.com/repair-info/engine",
       "https://www.mitchell1.com/repair-info/engine-mechanical"
     ],
-    "last_reviewed_at": "2025-10-16T04:06:27Z",
-    "reviewed_by": "auto-migrate"
+    "last_reviewed_at": "2025-10-16T19:30:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "ignition_coil",
+      "base_hours": 0.4,
+      "hours_per_unit": 0.15,
+      "min_units": 1,
+      "max_units": 12,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 0.6
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 1.0
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 1.3
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 1.6
+        }
+      ],
+      "default_units": 8
+    }
   },
   {
     "service_id": "ignition_switch_replacement",
@@ -3032,14 +3221,41 @@
       "https://www.alldata.com/repair-info/fuel-delivery",
       "https://www.bosch-automotive.com/en/products/fuel-supply"
     ],
-    "last_reviewed_at": "2025-10-16T04:06:27Z",
-    "reviewed_by": "auto-migrate"
+    "last_reviewed_at": "2025-10-16T18:45:00Z",
+    "reviewed_by": "auto-migrate",
+    "quantity_pricing": {
+      "unit": "injector",
+      "base_hours": 1.2,
+      "hours_per_unit": 0.3,
+      "min_units": 1,
+      "max_units": 8,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 1.5
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 2.4
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 3.0
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 3.6
+        }
+      ],
+      "default_units": 1
+    }
   },
   {
     "service_id": "fuel_injector_replacement_set_of_4",
     "service_name": "Fuel Injector Replacement (Set of 4)",
     "category": "Fuel System",
-    "est_labor_hours": 2.0,
+    "est_labor_hours": 2.4,
     "labor_rate_local": 150,
     "labor_rate_outside": 170,
     "price_calc_note": "Labor billed at $150/hr locally and $170/hr outside the core service radius. One-hour minimum applies; parts, taxes, and environmental fees are additional when required.",
@@ -3060,7 +3276,7 @@
     "verified_mobile": false,
     "status": "draft",
     "notes": "Complete injector set replacement for 4-cylinder engines. Tune-up recommended afterward.",
-    "customer_facing_notes": "### What This Service Includes\nFuel Injector Replacement (Set of 4) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 2.0 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
+    "customer_facing_notes": "### What This Service Includes\nFuel Injector Replacement (Set of 4) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 2.4 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
     "priority_level": "Medium",
     "environmental_fee_flag": false,
     "minimum_deposit_required": 50,
@@ -3081,8 +3297,187 @@
       "https://www.alldata.com/repair-info/fuel-delivery",
       "https://www.bosch-automotive.com/en/products/fuel-supply"
     ],
-    "last_reviewed_at": "2025-10-16T04:06:27Z",
-    "reviewed_by": "auto-migrate"
+    "last_reviewed_at": "2025-10-16T18:45:00Z",
+    "reviewed_by": "auto-migrate",
+    "quantity_pricing": {
+      "unit": "injector",
+      "base_hours": 1.2,
+      "hours_per_unit": 0.3,
+      "min_units": 1,
+      "max_units": 8,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 1.5
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 2.4
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 3.0
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 3.6
+        }
+      ],
+      "default_units": 4
+    }
+  },
+  {
+    "service_id": "fuel_injector_replacement_set_of_6",
+    "service_name": "Fuel Injector Replacement (Set of 6)",
+    "category": "Fuel System",
+    "est_labor_hours": 3.0,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed at $150/hr locally and $170/hr outside the core service radius. One-hour minimum applies; parts, taxes, and environmental fees are additional when required.",
+    "skill_level": "Intermediate",
+    "parts_required": [
+      "Fuel Injector (Single)"
+    ],
+    "tools_required": [
+      "socket_set",
+      "multimeter",
+      "smoke_machine"
+    ],
+    "tags": [
+      "drivability"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": false,
+    "status": "draft",
+    "notes": "Complete injector set replacement for 6-cylinder engines or grouped replacements. Includes injector rail inspection and seal refresh.",
+    "customer_facing_notes": "### What This Service Includes\nFuel Injector Replacement (Set of 6) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 3 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "basic_hand_tools"
+    ],
+    "part_sources": [
+      "oreilly",
+      "autozone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ],
+    "source_links": [
+      "https://www.alldata.com/repair-info/fuel-delivery",
+      "https://www.bosch-automotive.com/en/products/fuel-supply"
+    ],
+    "last_reviewed_at": "2025-10-16T18:45:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "injector",
+      "base_hours": 1.2,
+      "hours_per_unit": 0.3,
+      "min_units": 1,
+      "max_units": 8,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 1.5
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 2.4
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 3.0
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 3.6
+        }
+      ],
+      "default_units": 6
+    }
+  },
+  {
+    "service_id": "fuel_injector_replacement_set_of_8",
+    "service_name": "Fuel Injector Replacement (Set of 8)",
+    "category": "Fuel System",
+    "est_labor_hours": 3.6,
+    "labor_rate_local": 150,
+    "labor_rate_outside": 170,
+    "price_calc_note": "Labor billed at $150/hr locally and $170/hr outside the core service radius. One-hour minimum applies; parts, taxes, and environmental fees are additional when required.",
+    "skill_level": "Intermediate",
+    "parts_required": [
+      "Fuel Injector (Single)"
+    ],
+    "tools_required": [
+      "socket_set",
+      "multimeter",
+      "smoke_machine"
+    ],
+    "tags": [
+      "drivability"
+    ],
+    "max_time_allowed": 8,
+    "can_do_mobile": true,
+    "verified_mobile": false,
+    "status": "draft",
+    "notes": "Complete injector set replacement for 8-cylinder engines or grouped replacements. Includes injector rail inspection and seal refresh.",
+    "customer_facing_notes": "### What This Service Includes\nFuel Injector Replacement (Set of 8) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 3.6 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
+    "priority_level": "Medium",
+    "environmental_fee_flag": false,
+    "minimum_deposit_required": 50,
+    "mobile_constraints": "",
+    "tool_classification": [
+      "basic_hand_tools"
+    ],
+    "part_sources": [
+      "oreilly",
+      "autozone"
+    ],
+    "diagnostic_required": false,
+    "vehicle_type_limitations": [
+      "gas",
+      "hybrid"
+    ],
+    "source_links": [
+      "https://www.alldata.com/repair-info/fuel-delivery",
+      "https://www.bosch-automotive.com/en/products/fuel-supply"
+    ],
+    "last_reviewed_at": "2025-10-16T18:45:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "injector",
+      "base_hours": 1.2,
+      "hours_per_unit": 0.3,
+      "min_units": 1,
+      "max_units": 8,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 1.5
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 2.4
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 3.0
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 3.6
+        }
+      ],
+      "default_units": 8
+    }
   },
   {
     "service_id": "fuel_pressure_regulator_replacement",
@@ -5725,7 +6120,7 @@
     "can_do_mobile": true,
     "verified_mobile": true,
     "status": "approved",
-    "notes": "Safety: Work only on cool engine. Wear eye protection.\n1. Locate spark plugs and remove ignition coil or spark plug wire (mark cylinder position).\n2. Clean area around spark plug with compressed air to prevent debris from entering cylinder.\n3. Remove spark plug using appropriate spark plug socket (typically 5/8\" or 13/16\").\n4. Inspect old plug for wear, fouling, or damage patterns.\n5. Check spark plug gap on new plugs against specification (typically 0.028\"-0.060\").\n6. Apply small amount of anti-seize compound to threads (avoid getting compound on electrodes).\n7. Hand-thread new spark plug to prevent cross-threading.\n8. Torque spark plug to specification (typically 15-20 ft-lb for tapered seat, 25-30 ft-lb for gasket seat).\n9. Reinstall ignition coil or plug wire ensuring secure connection.\n10. Clear any diagnostic codes and verify engine runs smoothly.\nNote: Gap specification varies by vehicle—always verify before installation. Some modern plugs come pre-gapped and should not be adjusted.",
+    "notes": "Safety: Work only on cool engine. Wear eye protection.\n1. Locate spark plugs and remove ignition coil or spark plug wire (mark cylinder position).\n2. Clean area around spark plug with compressed air to prevent debris from entering cylinder.\n3. Remove spark plug using appropriate spark plug socket (typically 5/8\" or 13/16\").\n4. Inspect old plug for wear, fouling, or damage patterns.\n5. Check spark plug gap on new plugs against specification (typically 0.028\"-0.060\").\n6. Apply small amount of anti-seize compound to threads (avoid getting compound on electrodes).\n7. Hand-thread new spark plug to prevent cross-threading.\n8. Torque spark plug to specification (typically 15-20 ft-lb for tapered seat, 25-30 ft-lb for gasket seat).\n9. Reinstall ignition coil or plug wire ensuring secure connection.\n10. Clear any diagnostic codes and verify engine runs smoothly.\nNote: Gap specification varies by vehicle—always verify before installation. Some modern plugs come pre-gapped and should not be adjusted.\n\nQuantity-based planning supported: use quantity_pricing to adjust labor for partial spark plug replacements.",
     "customer_facing_notes": "Fixes rough idle, misfires, and poor acceleration in V6 engines.",
     "priority_level": "High",
     "environmental_fee_flag": false,
@@ -5746,14 +6141,41 @@
       "https://www.alldata.com/repair-info/engine",
       "https://www.mitchell1.com/repair-info/engine-mechanical"
     ],
-    "last_reviewed_at": "2025-10-16T04:06:27Z",
-    "reviewed_by": "auto-migrate"
+    "last_reviewed_at": "2025-10-16T19:30:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "spark_plug",
+      "base_hours": 0.5,
+      "hours_per_unit": 0.25,
+      "min_units": 1,
+      "max_units": 12,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 0.75
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 1.5
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 2.0
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 2.5
+        }
+      ],
+      "default_units": 6
+    }
   },
   {
     "service_id": "ignition_coil_set",
     "service_name": "Ignition Coil Replacement (Full Set)",
     "category": "Engine & Cooling",
-    "est_labor_hours": 1.5,
+    "est_labor_hours": 1.3,
     "labor_rate_local": 150,
     "labor_rate_outside": 170,
     "price_calc_note": "Labor billed hourly. Access varies by engine type.",
@@ -5771,7 +6193,7 @@
     "can_do_mobile": true,
     "verified_mobile": true,
     "status": "approved",
-    "notes": "Always recommend new spark plugs when replacing coil set.",
+    "notes": "Always recommend new spark plugs when replacing coil set.\n\nQuantity-based planning supported: use quantity_pricing to scale labor for coil replacements.",
     "customer_facing_notes": "Refreshes full ignition system and prevents recurring misfires.",
     "priority_level": "High",
     "environmental_fee_flag": false,
@@ -5792,8 +6214,35 @@
       "https://www.alldata.com/repair-info/engine",
       "https://www.mitchell1.com/repair-info/engine-mechanical"
     ],
-    "last_reviewed_at": "2025-10-16T04:06:27Z",
-    "reviewed_by": "auto-migrate"
+    "last_reviewed_at": "2025-10-16T19:30:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "ignition_coil",
+      "base_hours": 0.4,
+      "hours_per_unit": 0.15,
+      "min_units": 1,
+      "max_units": 12,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 0.6
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 1.0
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 1.3
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 1.6
+        }
+      ],
+      "default_units": 6
+    }
   },
   {
     "service_id": "radiator_replace",
@@ -6867,7 +7316,7 @@
     "service_id": "spark_plug_replacement_v8",
     "service_name": "Spark Plug Replacement (V8)",
     "category": "Engine & Cooling",
-    "est_labor_hours": 1.8,
+    "est_labor_hours": 2.5,
     "labor_rate_local": 150,
     "labor_rate_outside": 170,
     "price_calc_note": "Labor billed at $150/hr locally and $170/hr outside the core service radius. One-hour minimum applies; parts, taxes, and environmental fees are additional when required.",
@@ -6888,8 +7337,8 @@
     "can_do_mobile": true,
     "verified_mobile": false,
     "status": "vetted",
-    "notes": "Safety: Work only on cool engine. Wear eye protection.\n1. Locate spark plugs and remove ignition coil or spark plug wire (mark cylinder position).\n2. Clean area around spark plug with compressed air to prevent debris from entering cylinder.\n3. Remove spark plug using appropriate spark plug socket (typically 5/8\" or 13/16\").\n4. Inspect old plug for wear, fouling, or damage patterns.\n5. Check spark plug gap on new plugs against specification (typically 0.028\"-0.060\").\n6. Apply small amount of anti-seize compound to threads (avoid getting compound on electrodes).\n7. Hand-thread new spark plug to prevent cross-threading.\n8. Torque spark plug to specification (typically 15-20 ft-lb for tapered seat, 25-30 ft-lb for gasket seat).\n9. Reinstall ignition coil or plug wire ensuring secure connection.\n10. Clear any diagnostic codes and verify engine runs smoothly.\nNote: Gap specification varies by vehicle—always verify before installation. Some modern plugs come pre-gapped and should not be adjusted.",
-    "customer_facing_notes": "### What This Service Includes\nSpark Plug Replacement (V8) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1.8 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
+    "notes": "Safety: Work only on cool engine. Wear eye protection.\n1. Locate spark plugs and remove ignition coil or spark plug wire (mark cylinder position).\n2. Clean area around spark plug with compressed air to prevent debris from entering cylinder.\n3. Remove spark plug using appropriate spark plug socket (typically 5/8\" or 13/16\").\n4. Inspect old plug for wear, fouling, or damage patterns.\n5. Check spark plug gap on new plugs against specification (typically 0.028\"-0.060\").\n6. Apply small amount of anti-seize compound to threads (avoid getting compound on electrodes).\n7. Hand-thread new spark plug to prevent cross-threading.\n8. Torque spark plug to specification (typically 15-20 ft-lb for tapered seat, 25-30 ft-lb for gasket seat).\n9. Reinstall ignition coil or plug wire ensuring secure connection.\n10. Clear any diagnostic codes and verify engine runs smoothly.\nNote: Gap specification varies by vehicle—always verify before installation. Some modern plugs come pre-gapped and should not be adjusted.\n\nQuantity-based planning supported: use quantity_pricing to adjust labor for partial spark plug replacements.",
+    "customer_facing_notes": "### What This Service Includes\nSpark Plug Replacement (V8) performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 2.5 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
     "priority_level": "Medium",
     "environmental_fee_flag": false,
     "minimum_deposit_required": 50,
@@ -6910,8 +7359,35 @@
       "https://www.alldata.com/repair-info/engine",
       "https://www.mitchell1.com/repair-info/engine-mechanical"
     ],
-    "last_reviewed_at": "2025-10-16T04:34:58Z",
-    "reviewed_by": "enrichment-script"
+    "last_reviewed_at": "2025-10-16T19:30:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "spark_plug",
+      "base_hours": 0.5,
+      "hours_per_unit": 0.25,
+      "min_units": 1,
+      "max_units": 12,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 0.75
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 1.5
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 2.0
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 2.5
+        }
+      ],
+      "default_units": 8
+    }
   },
   {
     "service_id": "a_c_recharge_r134a",
@@ -22056,7 +22532,7 @@
     "service_id": "fuel_injector_replacement",
     "service_name": "Fuel Injector Replacement",
     "category": "Fuel System",
-    "est_labor_hours": 2.0,
+    "est_labor_hours": 2.4,
     "labor_rate_local": 150,
     "labor_rate_outside": 170,
     "price_calc_note": "Labor is billed at $150/hr locally and $170/hr outside a 10-mile radius. 1-hour minimum applies.",
@@ -22076,8 +22552,8 @@
     "can_do_mobile": true,
     "verified_mobile": false,
     "status": "vetted",
-    "notes": "Safety: Consult service manual for specific safety precautions. Wear appropriate PPE.\n1. Disconnect battery negative terminal to prevent electrical shorts.\n2. Locate component and identify mounting hardware and electrical connections.\n3. Photograph or label electrical connectors and vacuum lines for reference.\n4. Disconnect electrical connectors by depressing locking tabs.\n5. Remove mounting bolts/nuts and extract old component.\n6. Inspect mounting area for damage or corrosion; clean as needed.\n7. Compare old and new components to verify correct part number.\n8. Install new component with new gaskets/o-rings if included.\n9. Torque mounting hardware to specification per service manual.\n10. Reconnect electrical connectors ensuring positive locking engagement.\n11. Reconnect battery and clear diagnostic codes if applicable.\n12. Verify component operation and check for fluid leaks if applicable.\nCommon pitfall: Always consult vehicle-specific repair information for torque specs and special procedures.",
-    "customer_facing_notes": "### What This Service Includes\nFuel Injector Replacement performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1.0 hour. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
+    "notes": "Safety: Consult service manual for specific safety precautions. Wear appropriate PPE.\n1. Disconnect battery negative terminal to prevent electrical shorts.\n2. Locate component and identify mounting hardware and electrical connections.\n3. Photograph or label electrical connectors and vacuum lines for reference.\n4. Disconnect electrical connectors by depressing locking tabs.\n5. Remove mounting bolts/nuts and extract old component.\n6. Inspect mounting area for damage or corrosion; clean as needed.\n7. Compare old and new components to verify correct part number.\n8. Install new component with new gaskets/o-rings if included.\n9. Torque mounting hardware to specification per service manual.\n10. Reconnect electrical connectors ensuring positive locking engagement.\n11. Reconnect battery and clear diagnostic codes if applicable.\n12. Verify component operation and check for fluid leaks if applicable.\nCommon pitfall: Always consult vehicle-specific repair information for torque specs and special procedures.\n\nQuantity-based planning supported: use quantity_pricing to adjust labor for partial injector replacements.",
+    "customer_facing_notes": "### What This Service Includes\nFuel Injector Replacement performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 2.4 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
     "priority_level": "Medium",
     "environmental_fee_flag": false,
     "minimum_deposit_required": 50,
@@ -22098,8 +22574,35 @@
       "https://www.alldata.com/repair-info/fuel-delivery",
       "https://www.bosch-automotive.com/en/products/fuel-supply"
     ],
-    "last_reviewed_at": "2025-10-16T04:34:58Z",
-    "reviewed_by": "enrichment-script"
+    "last_reviewed_at": "2025-10-16T18:45:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "injector",
+      "base_hours": 1.2,
+      "hours_per_unit": 0.3,
+      "min_units": 1,
+      "max_units": 8,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 1.5
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 2.4
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 3.0
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 3.6
+        }
+      ],
+      "default_units": 4
+    }
   },
   {
     "service_id": "fuel_pressure_sensor_replacement",
@@ -24573,8 +25076,8 @@
     "can_do_mobile": true,
     "verified_mobile": false,
     "status": "vetted",
-    "notes": "Safety: Consult service manual for specific safety precautions. Wear appropriate PPE.\n1. Disconnect battery negative terminal to prevent electrical shorts.\n2. Locate component and identify mounting hardware and electrical connections.\n3. Photograph or label electrical connectors and vacuum lines for reference.\n4. Disconnect electrical connectors by depressing locking tabs.\n5. Remove mounting bolts/nuts and extract old component.\n6. Inspect mounting area for damage or corrosion; clean as needed.\n7. Compare old and new components to verify correct part number.\n8. Install new component with new gaskets/o-rings if included.\n9. Torque mounting hardware to specification per service manual.\n10. Reconnect electrical connectors ensuring positive locking engagement.\n11. Reconnect battery and clear diagnostic codes if applicable.\n12. Verify component operation and check for fluid leaks if applicable.\nCommon pitfall: Always consult vehicle-specific repair information for torque specs and special procedures.\n\nCritical: Use torque wrench and follow manufacturer torque specifications exactly.",
-    "customer_facing_notes": "### What This Service Includes\nIgnition Coil Replacement performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1.0 hour. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
+    "notes": "Safety: Consult service manual for specific safety precautions. Wear appropriate PPE.\n1. Disconnect battery negative terminal to prevent electrical shorts.\n2. Locate component and identify mounting hardware and electrical connections.\n3. Photograph or label electrical connectors and vacuum lines for reference.\n4. Disconnect electrical connectors by depressing locking tabs.\n5. Remove mounting bolts/nuts and extract old component.\n6. Inspect mounting area for damage or corrosion; clean as needed.\n7. Compare old and new components to verify correct part number.\n8. Install new component with new gaskets/o-rings if included.\n9. Torque mounting hardware to specification per service manual.\n10. Reconnect electrical connectors ensuring positive locking engagement.\n11. Reconnect battery and clear diagnostic codes if applicable.\n12. Verify component operation and check for fluid leaks if applicable.\nCommon pitfall: Always consult vehicle-specific repair information for torque specs and special procedures.\n\nCritical: Use torque wrench and follow manufacturer torque specifications exactly.\n\nQuantity-based planning supported: use quantity_pricing to scale labor for coil replacements.",
+    "customer_facing_notes": "### What This Service Includes\nIgnition Coil Replacement performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
     "priority_level": "Medium",
     "environmental_fee_flag": false,
     "minimum_deposit_required": 50,
@@ -24595,8 +25098,35 @@
       "https://www.alldata.com/repair-info/engine",
       "https://www.mitchell1.com/repair-info/engine-mechanical"
     ],
-    "last_reviewed_at": "2025-10-16T04:34:58Z",
-    "reviewed_by": "enrichment-script"
+    "last_reviewed_at": "2025-10-16T19:30:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "ignition_coil",
+      "base_hours": 0.4,
+      "hours_per_unit": 0.15,
+      "min_units": 1,
+      "max_units": 12,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 0.6
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 1.0
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 1.3
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 1.6
+        }
+      ],
+      "default_units": 4
+    }
   },
   {
     "service_id": "ignition_ignitor_replacement",
@@ -31355,8 +31885,8 @@
     "can_do_mobile": true,
     "verified_mobile": false,
     "status": "vetted",
-    "notes": "Safety: Work only on cool engine. Wear eye protection.\n1. Locate spark plugs and remove ignition coil or spark plug wire (mark cylinder position).\n2. Clean area around spark plug with compressed air to prevent debris from entering cylinder.\n3. Remove spark plug using appropriate spark plug socket (typically 5/8\" or 13/16\").\n4. Inspect old plug for wear, fouling, or damage patterns.\n5. Check spark plug gap on new plugs against specification (typically 0.028\"-0.060\").\n6. Apply small amount of anti-seize compound to threads (avoid getting compound on electrodes).\n7. Hand-thread new spark plug to prevent cross-threading.\n8. Torque spark plug to specification (typically 15-20 ft-lb for tapered seat, 25-30 ft-lb for gasket seat).\n9. Reinstall ignition coil or plug wire ensuring secure connection.\n10. Clear any diagnostic codes and verify engine runs smoothly.\nNote: Gap specification varies by vehicle—always verify before installation. Some modern plugs come pre-gapped and should not be adjusted.",
-    "customer_facing_notes": "### What This Service Includes\nSpark Plug Replacement performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1.0 hour. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
+    "notes": "Safety: Work only on cool engine. Wear eye protection.\n1. Locate spark plugs and remove ignition coil or spark plug wire (mark cylinder position).\n2. Clean area around spark plug with compressed air to prevent debris from entering cylinder.\n3. Remove spark plug using appropriate spark plug socket (typically 5/8\" or 13/16\").\n4. Inspect old plug for wear, fouling, or damage patterns.\n5. Check spark plug gap on new plugs against specification (typically 0.028\"-0.060\").\n6. Apply small amount of anti-seize compound to threads (avoid getting compound on electrodes).\n7. Hand-thread new spark plug to prevent cross-threading.\n8. Torque spark plug to specification (typically 15-20 ft-lb for tapered seat, 25-30 ft-lb for gasket seat).\n9. Reinstall ignition coil or plug wire ensuring secure connection.\n10. Clear any diagnostic codes and verify engine runs smoothly.\nNote: Gap specification varies by vehicle—always verify before installation. Some modern plugs come pre-gapped and should not be adjusted.\n\nQuantity-based planning supported: use quantity_pricing to adjust labor for partial spark plug replacements.",
+    "customer_facing_notes": "### What This Service Includes\nSpark Plug Replacement performed according to manufacturer specifications using quality parts.\n\n### Why It Matters\nRegular maintenance of this component prevents premature wear, maintains vehicle reliability, and helps avoid costly future repairs.\n\n### What To Expect\nEstimated time: 1.5 hours. We'll come to your location and complete this service on-site.\n\n### After The Visit\nMonitor the repaired system for any unusual sounds, vibrations, or warning lights. Contact us immediately if you notice anything concerning.\n\n\nQuestions? Contact us anytime—we're here to help keep your vehicle running safely and reliably.",
     "priority_level": "Medium",
     "environmental_fee_flag": false,
     "minimum_deposit_required": 50,
@@ -31377,8 +31907,35 @@
       "https://www.alldata.com/repair-info/engine",
       "https://www.mitchell1.com/repair-info/engine-mechanical"
     ],
-    "last_reviewed_at": "2025-10-16T04:34:58Z",
-    "reviewed_by": "enrichment-script"
+    "last_reviewed_at": "2025-10-16T19:30:00Z",
+    "reviewed_by": "manual-update",
+    "quantity_pricing": {
+      "unit": "spark_plug",
+      "base_hours": 0.5,
+      "hours_per_unit": 0.25,
+      "min_units": 1,
+      "max_units": 12,
+      "labor_formula": "labor_hours = base_hours + (hours_per_unit * quantity)",
+      "example_quantities": [
+        {
+          "quantity": 1,
+          "labor_hours": 0.75
+        },
+        {
+          "quantity": 4,
+          "labor_hours": 1.5
+        },
+        {
+          "quantity": 6,
+          "labor_hours": 2.0
+        },
+        {
+          "quantity": 8,
+          "labor_hours": 2.5
+        }
+      ],
+      "default_units": 4
+    }
   },
   {
     "service_id": "spark_plug_tubes_replacement",
