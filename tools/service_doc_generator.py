@@ -150,6 +150,12 @@ class ServiceDocGenerator:
         if cache_key in self.cache_index:
             cache_entry = self.cache_index[cache_key]
             doc_path = Path(cache_entry['path'])
+            
+            # Handle both absolute and relative paths
+            if not doc_path.is_absolute():
+                # Convert relative path to absolute using project root
+                doc_path = self.cache_dir.parent / doc_path
+            
             if doc_path.exists():
                 return doc_path
         return None
@@ -204,9 +210,19 @@ class ServiceDocGenerator:
         doc_path = self._get_cache_path(year, make, model, service)
         self._generate_html(vehicle_data, service_data, research_data, doc_path, diagram_paths)
         
+        # Convert path to relative for portability across deployments
+        try:
+            # Try to make path relative to project root
+            project_root = self.cache_dir.parent
+            relative_path = doc_path.relative_to(project_root)
+            path_to_save = str(relative_path)
+        except ValueError:
+            # If path is not relative to project root, use absolute
+            path_to_save = str(doc_path)
+        
         # Update cache index
         self.cache_index[cache_key] = {
-            'path': str(doc_path),
+            'path': path_to_save,
             'year': year,
             'make': make,
             'model': model,

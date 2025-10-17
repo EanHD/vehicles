@@ -12,17 +12,23 @@ import pandas as pd
 from datetime import datetime
 import time
 
-# Add tools to path
-sys.path.insert(0, str(Path(__file__).parent / "tools"))
-from service_doc_generator import ServiceDocGenerator
-
-# Page configuration
+# Configure page BEFORE any other Streamlit commands
 st.set_page_config(
     page_title="Swoop Service Auto - Service Documentation",
     page_icon="🔧",
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# Add tools to path
+sys.path.insert(0, str(Path(__file__).parent / "tools"))
+
+# Import after page config to avoid import issues
+try:
+    from service_doc_generator import ServiceDocGenerator
+except ImportError as e:
+    st.error(f"❌ Failed to import ServiceDocGenerator: {e}")
+    st.stop()
 
 # Custom CSS for professional look with mobile responsiveness
 st.markdown("""
@@ -592,6 +598,13 @@ def browse_cache_page():
         for key, doc in gen.cache_index.items():
             # Verify file still exists before adding to list
             doc_path = Path(doc.get('path', ''))
+            
+            # Handle both absolute and relative paths
+            if not doc_path.is_absolute():
+                # Convert relative path to absolute using project root
+                project_root = Path(__file__).parent
+                doc_path = project_root / doc_path
+            
             if doc_path.exists():
                 cache_data.append({
                     'Year': doc.get('year'),
@@ -600,7 +613,7 @@ def browse_cache_page():
                     'Service': doc.get('service'),
                     'Generated': doc.get('generated', 'Unknown'),
                     'Difficulty': doc.get('vehicle_difficulty', 1.0),
-                    'Path': doc.get('path')
+                    'Path': str(doc_path)  # Store absolute path for display
                 })
         
         if not cache_data:

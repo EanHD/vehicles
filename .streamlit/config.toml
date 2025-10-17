@@ -1,0 +1,29 @@
+[theme]
+primaryColor = "#1a73e8"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+# Enable CORS for Streamlit Cloud
+enableCORS = true
+enableXsrfProtection = true
+
+# Reduce loading issues on mobile
+maxUploadSize = 10
+enableWebsocketCompression = true
+
+# Performance optimization
+runOnSave = false
+fileWatcherType = "auto"
+
+[browser]
+# Help with mobile loading
+gatherUsageStats = false
+serverAddress = "0.0.0.0"
+serverPort = 8501
+
+[runner]
+# Faster re-runs
+fastReruns = true
