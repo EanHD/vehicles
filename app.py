@@ -11,6 +11,8 @@ import json
 import pandas as pd
 from datetime import datetime
 import time
+import re
+import base64
 
 # Configure page BEFORE any other Streamlit commands
 st.set_page_config(
@@ -30,7 +32,109 @@ except ImportError as e:
     st.error(f"❌ Failed to import ServiceDocGenerator: {e}")
     st.stop()
 
+# HTML QA Audit Helper
+EMOJI_RE = re.compile(r"[\U0001F300-\U0001FAFF]")
+
+def audit_html(doc_html: str) -> list[str]:
+    """Audit HTML document for quality and completeness"""
+    issues = []
+    
+    # 1) Exactly one <h1>
+    h1_count = len(re.findall(r"<h1\b", doc_html, re.I))
+    if h1_count != 1:
+        issues.append(f"Document must contain exactly one <h1> (found {h1_count}).")
+    
+    # 2) Required section IDs (anchor targets)
+    required = ["overview","safety","steps","torque-specifications","fluids",
+                "parts","consumables","tools","variants","troubleshooting",
+                "provenance","revision"]
+    for sec in required:
+        if f'id="{sec}"' not in doc_html:
+            issues.append(f"Missing section id='{sec}'.")
+    
+    # 3) No emojis
+    if EMOJI_RE.search(doc_html):
+        issues.append("Emojis detected in document output; remove for professional tone.")
+    
+    # 4) Torque table present (if section exists)
+    if 'id="torque-specifications"' in doc_html:
+        torque_section = doc_html.split('id="torque-specifications"', 1)[1] if 'id="torque-specifications"' in doc_html else ""
+        if torque_section and "<table" not in torque_section.split('id=', 1)[0]:
+            issues.append("Torque section present but no torque table found.")
+    
+    # 5) Twin-unit spot check (ft-lb/in-lb with metric Nm in parentheses)
+    if 'id="torque-specifications"' in doc_html:
+        twin = re.search(r"\b(ft-?lb|in-?lb)\b[^\n<]*\(\s*\d+\s*Nm\s*\)", doc_html, re.I)
+        if not twin:
+            issues.append("Torque values may not be twin-labeled with metric (Nm).")
+    
+    # 6) Duplicate IDs
+    ids = re.findall(r'id="([^"]+)"', doc_html)
+    dups = [i for i in set(ids) if ids.count(i) > 1]
+    if dups:
+        issues.append("Duplicate element IDs: " + ", ".join(sorted(dups)))
+    
+    # 7) Print CSS presence (basic check)
+    if "@media print" not in doc_html:
+        issues.append("Missing @media print rules; print layout may be suboptimal.")
+    
+    return issues
+
 # Custom CSS for professional look with mobile responsiveness
+def inject_calm_css():
+    """Inject professional mode CSS (calm, neutral theme)"""
+    st.markdown("""
+    <style>
+      :root{ 
+        --bg:#FFFFFF; 
+        --fg:#111418; 
+        --muted:#5f6368; 
+        --line:#E5E7EB; 
+        --primary:#2F6FEB; 
+      }
+      .main-header{ 
+        background: var(--bg); 
+        color: var(--fg); 
+        border:1px solid var(--line); 
+        border-radius:10px; 
+        padding:16px; 
+        text-align:left; 
+        margin-bottom: 20px;
+      }
+      .main-header h1{ 
+        margin:0; 
+        font-size:1.5rem; 
+        font-weight: 600;
+      }
+      .main-header p {
+        margin: 8px 0 0 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+      .stButton>button{ 
+        background-color: var(--primary); 
+        color:#fff; 
+        font-weight:600; 
+        border-radius:8px; 
+      }
+      .stat-card{ 
+        background:var(--bg); 
+        border:1px solid var(--line); 
+        box-shadow:0 1px 3px rgba(0,0,0,0.1); 
+        border-radius: 8px;
+      }
+      .info-box,.success-box,.warning-box{ 
+        border-left-width:4px; 
+        border-radius: 6px;
+      }
+      /* Calm sidebar spacing */
+      .block-container { 
+        padding-top: .75rem; 
+        padding-bottom: 2rem; 
+      }
+    </style>
+    """, unsafe_allow_html=True)
+
 st.markdown("""
 <style>
     /* Mobile-first responsive design */
@@ -279,6 +383,8 @@ if 'show_preview' not in st.session_state:
     st.session_state.show_preview = None
 if 'delete_confirm' not in st.session_state:
     st.session_state.delete_confirm = None
+if 'pro_mode' not in st.session_state:
+    st.session_state.pro_mode = True  # Default to professional mode
 
 # Initialize generator with diagram generation toggle
 @st.cache_resource
@@ -287,13 +393,23 @@ def get_generator(enable_diagrams=False):
     return ServiceDocGenerator(enable_diagrams=enable_diagrams)
 
 def main():
-    # Header
-    st.markdown("""
-        <div class="main-header">
-            <h1>🔧 Swoop Service Auto</h1>
-            <p>Professional Automotive Service Documentation System</p>
-        </div>
-    """, unsafe_allow_html=True)
+    # Header - conditionally render based on professional mode
+    if st.session_state.get("pro_mode", True):
+        inject_calm_css()
+        st.markdown('''
+            <div class="main-header">
+                <h1>Swoop Service Auto</h1>
+                <p>Professional Automotive Service Documentation System</p>
+            </div>
+        ''', unsafe_allow_html=True)
+    else:
+        # Keep gradient + emoji header as fallback
+        st.markdown("""
+            <div class="main-header">
+                <h1>🔧 Swoop Service Auto</h1>
+                <p>Professional Automotive Service Documentation System</p>
+            </div>
+        """, unsafe_allow_html=True)
     
     # Sidebar navigation
     with st.sidebar:
@@ -525,7 +641,7 @@ def generate_documentation(gen, year, make, model, service, force_regen, enable_
             st.exception(e)
 
 def display_document(doc_info):
-    """Display generated document"""
+    """Display generated document with QA audit"""
     st.markdown("---")
     st.subheader("📄 Generated Document")
     
@@ -545,8 +661,19 @@ def display_document(doc_info):
     with open(doc_info['path'], 'r', encoding='utf-8') as f:
         html_content = f.read()
     
+    # QA Audit Panel
+    st.markdown("---")
+    issues = audit_html(html_content)
+    if issues:
+        st.error("⚠️ **QA Issues Found:**")
+        for issue in issues:
+            st.markdown(f"- {issue}")
+    else:
+        st.success("✅ **QA Passed:** Headings, sections, torque labels, and IDs look good.")
+    
     # Action buttons
-    col_act1, col_act2, col_act3 = st.columns(3)
+    st.markdown("---")
+    col_act1, col_act2, col_act3, col_act4 = st.columns(4)
     
     with col_act1:
         if st.button("👁️ Preview Document", use_container_width=True):
@@ -564,6 +691,16 @@ def display_document(doc_info):
         )
     
     with col_act3:
+        # Data URI link for reliable "Open in new tab" (works on Streamlit Cloud)
+        b = html_content.encode("utf-8")
+        data_uri = "data:text/html;base64," + base64.b64encode(b).decode()
+        st.markdown(
+            f'<a href="{data_uri}" target="_blank" rel="noopener" style="display:inline-block;width:100%;padding:0.5rem;background-color:#2F6FEB;color:white;text-align:center;border-radius:8px;text-decoration:none;font-weight:600;">🚀 Open in New Tab</a>',
+            unsafe_allow_html=True
+        )
+    
+    with col_act4:
+        # Keep file:// option for local runs
         if st.button("📱 Open in Browser", use_container_width=True):
             import webbrowser
             import os
@@ -889,10 +1026,36 @@ def settings_page():
     """Settings and configuration page"""
     st.header("⚙️ Settings")
     
+    # Professional Mode Toggle
+    st.subheader("🎨 Appearance")
+    pro_mode = st.checkbox(
+        "Professional mode (calm UI, no playful gradient/emoji)", 
+        value=st.session_state.get('pro_mode', True),
+        help="Toggle between professional neutral theme and colorful gradient theme"
+    )
+    if pro_mode != st.session_state.get('pro_mode', True):
+        st.session_state.pro_mode = pro_mode
+        st.rerun()
+    
+    st.markdown("---")
+    
     # What's New section
-    with st.expander("✨ What's New - January 17, 2025", expanded=True):
+    with st.expander("✨ What's New - January 17, 2025", expanded=False):
         st.markdown("""
         ### Recent Improvements
+        
+        ✅ **Professional Mode**
+        - Toggle between calm neutral UI and colorful gradient theme
+        - Default professional appearance for work environments
+        
+        ✅ **QA Audit Panel**
+        - Automatic quality checks on generated documents
+        - Validates heading structure, section IDs, torque labels
+        - Ensures print-ready formatting
+        
+        ✅ **Reliable "Open in New Tab"**
+        - Works on Streamlit Cloud and local deployments
+        - Data-URI based for maximum compatibility
         
         ✅ **Better HTML Styling**
         - More professional appearance with rounded corners
@@ -908,7 +1071,7 @@ def settings_page():
         - Technical diagrams embedded in service docs
         - Optional feature - enable per generation
         
-        📖 See `IMPROVEMENTS_COMPLETED.md` for full details
+        📖 See documentation files for full details
         """)
     
     st.markdown("---")
