@@ -122,56 +122,60 @@ class DocumentEditorAssistant:
     
     def _analyze_intent(self, user_input: str) -> Dict:
         """Analyze user's intent from their message"""
+        input_lower = user_input.lower()
+        
         # Quick pattern matching for wiring diagram requests
-        wiring_keywords = ['wiring', 'diagram', 'schematic', 'circuit', 'electrical']
-        if any(keyword in user_input.lower() for keyword in wiring_keywords):
-            # Extract circuit/system being requested
-            circuit_match = re.search(r'(starter|alternator|fuel pump|ignition|headlight|charging|cooling fan|power window|door lock|radio|hvac|abs|airbag|bcm|ecm|pcm)\s*(circuit|system|wiring)?', user_input.lower())
-            circuit_type = circuit_match.group(1) if circuit_match else 'general'
+        wiring_keywords = ['wiring', 'diagram', 'schematic', 'circuit', 'electrical', 'wire', 'connector', 'pin', 'sensor to', 'ecm', 'pcm', 'bcm']
+        if any(keyword in input_lower for keyword in wiring_keywords):
+            # Extract circuit/system being requested - improved pattern
+            circuit_patterns = [
+                r'(o2|oxygen)\s*sensor',
+                r'(upstream|downstream)\s*(o2|oxygen)',
+                r'(starter|alternator|fuel pump|ignition|headlight|charging|cooling fan|power window|door lock|radio|hvac|abs|airbag|bcm|ecm|pcm)',
+                r'sensor\s+to\s+(ecm|pcm|bcm)',
+                r'(maf|map|tps|iat|ect|ckp|cmp)\s*sensor'
+            ]
+            
+            circuit_type = 'general'
+            for pattern in circuit_patterns:
+                match = re.search(pattern, input_lower)
+                if match:
+                    circuit_type = match.group(0).replace(' ', '_')
+                    break
             
             return {
                 'type': 'wiring_diagram',
                 'section': 'wiring_diagrams',
                 'specific_topic': circuit_type,
-                'confidence': 0.9
+                'confidence': 0.95
             }
         
-        # Use AI to understand what the user wants to do
-        prompt = f"""Analyze this user message and determine their intent:
-
-User message: "{user_input}"
-
-Classify into ONE of these categories:
-1. add_information - User wants to add new information to the document
-2. modify_section - User wants to change existing information
-3. question - User is asking a question about the document
-4. review_document - User wants to review/validate the document
-5. wiring_diagram - User is requesting a wiring diagram or electrical schematic
-6. general - General conversation
-
-Also extract:
-- section: Which section they're referring to (if mentioned)
-- specific_topic: The specific topic/component/procedure they're discussing
-- confidence: How confident you are in this classification (0.0-1.0)
-
-Respond in JSON format:
-{{"type": "...", "section": "...", "specific_topic": "...", "confidence": 0.9}}"""
+        # Question patterns - improved detection
+        question_keywords = ['what', 'where', 'how', 'why', 'when', 'which', 'show me', 'tell me', 'explain']
+        if any(input_lower.startswith(kw) or f' {kw} ' in input_lower for kw in question_keywords):
+            return {
+                'type': 'question',
+                'section': None,
+                'specific_topic': user_input,
+                'confidence': 0.85
+            }
         
-        try:
-            response = self.research_ai.chat(prompt, temperature=0.1)
-            # Extract JSON from response
-            json_match = re.search(r'\{[^}]+\}', response)
-            if json_match:
-                return json.loads(json_match.group())
-        except Exception as e:
-            print(f"Error analyzing intent: {e}")
+        # Add/edit patterns
+        add_keywords = ['add', 'insert', 'include', 'update', 'change', 'modify']
+        if any(kw in input_lower for kw in add_keywords):
+            return {
+                'type': 'add_information',
+                'section': None,
+                'specific_topic': user_input,
+                'confidence': 0.8
+            }
         
-        # Default fallback
+        # Default to question for most other inputs
         return {
-            'type': 'general',
+            'type': 'question',
             'section': None,
-            'specific_topic': None,
-            'confidence': 0.5
+            'specific_topic': user_input,
+            'confidence': 0.6
         }
     
     def _handle_add_information(self, user_input: str, intent: Dict, uploaded_source: Optional[Dict]) -> Dict:
@@ -424,14 +428,29 @@ Respond in JSON:
         """Handle user question about the document"""
         doc = self.context['selected_document']
         
+        # Load actual document content for better answers
+        with open(doc['path'], 'r', encoding='utf-8') as f:
+            html_content = f.read()
+        
+        # Parse HTML to get text content
+        soup = BeautifulSoup(html_content, 'html.parser')
+        doc_text = soup.get_text(separator='\n', strip=True)[:8000]  # Limit to 8000 chars
+        
         qa_prompt = f"""Answer this question about the service document:
 
 Document: {doc['info']['title']}
 Available sections: {', '.join(doc['info']['sections'].keys())}
 
+Document content (excerpt):
+{doc_text}
+
 Question: {user_input}
 
-Provide a clear, concise answer based on the document content. If the answer isn't in the document, say so and offer to help add that information."""
+Instructions:
+- Provide a clear, direct answer based on the document content
+- If the answer isn't in the document, offer to help research or add that information
+- If this is a wiring diagram request, explain that you can research and cache wiring information
+- Be specific and cite relevant sections when possible"""
         
         try:
             answer = self.research_ai.chat(qa_prompt, temperature=0.3)
@@ -496,59 +515,128 @@ Keep it concise and actionable."""
         
         # Extract vehicle info from document title
         title_parts = doc_info['title'].split('—')[0].strip() if '—' in doc_info['title'] else doc_info['title']
+        
+        # Better circuit detection from user input
+        input_lower = user_input.lower()
         circuit_type = intent.get('specific_topic', 'general')
         
-        # Research wiring diagram information
-        research_prompt = f"""Find wiring diagram information for:
+        # Try to extract more specific circuit info from the question
+        if 'o2' in input_lower or 'oxygen' in input_lower:
+            if 'upstream' in input_lower:
+                circuit_type = 'upstream_oxygen_sensor'
+            elif 'downstream' in input_lower:
+                circuit_type = 'downstream_oxygen_sensor'
+            else:
+                circuit_type = 'oxygen_sensor'
+        
+        # Check if wiring diagram already exists
+        wiring_dir = Path(__file__).parent.parent / 'wiring_diagrams'
+        wiring_dir.mkdir(exist_ok=True)
+        
+        # Create filename
+        safe_title = re.sub(r'[^\w\s-]', '', title_parts).replace(' ', '_')
+        safe_circuit = re.sub(r'[^\w\s-]', '', circuit_type).replace(' ', '_')
+        filename = f"{safe_title}_{safe_circuit}_wiring.txt"
+        filepath = wiring_dir / filename
+        
+        # Check if already cached
+        if filepath.exists():
+            with open(filepath, 'r', encoding='utf-8') as f:
+                cached_content = f.read()
+            
+            # Extract just the wiring info (skip header)
+            content_parts = cached_content.split('=' * 60)
+            if len(content_parts) > 2:
+                wiring_info = content_parts[2].strip()
+            else:
+                wiring_info = cached_content
+            
+            message = f"""🔌 **Wiring Diagram Information (From Cache)**
+
+**Vehicle:** {title_parts}
+**Circuit/System:** {circuit_type.replace('_', ' ').title()}
+
+{wiring_info}
+
+---
+
+✅ **Previously cached:** `{filename}`
+
+**What you can do:**
+- Ask specific questions about the wiring (e.g., "What wire color goes to pin 3?")
+- Request to add this info to the service document
+- Ask me to research additional circuits
+- Upload an actual wiring diagram image for reference"""
+            
+            return {
+                'success': True,
+                'message': message,
+                'action': 'wiring_diagram_from_cache',
+                'filepath': str(filepath)
+            }
+        
+        # Not cached, research it
+        research_prompt = f"""Find comprehensive wiring diagram information for this automotive circuit:
 
 Vehicle: {title_parts}
-Circuit/System: {circuit_type}
+Circuit/System: {circuit_type.replace('_', ' ').title()}
+User Question: {user_input}
 
-Task:
-1. Identify the key components in this circuit
-2. Describe wire colors and connector locations
-3. List pin assignments and voltage specifications
-4. Identify common testing points
-5. Note any TSBs or common wiring issues
+Provide detailed technical wiring information including:
 
-Provide detailed technical information that would help a technician diagnose and repair electrical issues.
-Include information about:
-- Wire colors and gauges
-- Connector types and locations
-- Fuse/relay locations
-- Voltage/resistance specifications
-- Component locations
-- Common failure points
+1. **Component Identification:**
+   - All components in this circuit (sensors, modules, relays, fuses)
+   - Part numbers or specifications where applicable
 
-Be specific and technical."""
+2. **Wire Information:**
+   - Wire colors and color codes (e.g., "BLK/WHT" = black with white tracer)
+   - Wire gauge specifications
+   - Circuit identification numbers
+
+3. **Connector Details:**
+   - Connector types and locations
+   - Pin assignments and functions
+   - Connector part numbers
+
+4. **Electrical Specifications:**
+   - Operating voltage ranges
+   - Resistance specifications
+   - Signal types (5V reference, ground, PWM, etc.)
+
+5. **Component Locations:**
+   - Where to find each component (engine bay, under dash, etc.)
+   - Access procedures if complex
+
+6. **Common Issues:**
+   - Known wiring problems or failure points
+   - TSB (Technical Service Bulletin) information
+   - Typical diagnostic procedures
+
+7. **Testing Points:**
+   - Where to measure voltages
+   - Expected voltage/resistance readings
+   - Diagnostic connector pins
+
+Be extremely detailed and technical. Include specific values, measurements, and part numbers."""
         
         try:
             wiring_info = self.research_ai.chat(research_prompt, temperature=0.2)
             
             # Save to wiring diagram cache
-            wiring_dir = Path(__file__).parent.parent / 'wiring_diagrams'
-            wiring_dir.mkdir(exist_ok=True)
-            
-            # Create filename
-            safe_title = re.sub(r'[^\w\s-]', '', title_parts).replace(' ', '_')
-            safe_circuit = re.sub(r'[^\w\s-]', '', circuit_type).replace(' ', '_')
-            filename = f"{safe_title}_{safe_circuit}_wiring.txt"
-            filepath = wiring_dir / filename
-            
-            # Save wiring information
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(f"WIRING DIAGRAM INFORMATION\n")
                 f.write(f"{'=' * 60}\n\n")
                 f.write(f"Vehicle: {title_parts}\n")
-                f.write(f"Circuit/System: {circuit_type}\n")
-                f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+                f.write(f"Circuit/System: {circuit_type.replace('_', ' ').title()}\n")
+                f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                f.write(f"User Request: {user_input}\n\n")
                 f.write(f"{'=' * 60}\n\n")
                 f.write(wiring_info)
             
             message = f"""🔌 **Wiring Diagram Information Retrieved**
 
 **Vehicle:** {title_parts}
-**Circuit/System:** {circuit_type.title()}
+**Circuit/System:** {circuit_type.replace('_', ' ').title()}
 
 {wiring_info}
 
@@ -556,15 +644,16 @@ Be specific and technical."""
 
 ✅ **Saved to cache:** `{filename}`
 
-**Next steps:**
-- This information has been cached for future reference
-- You can add specific details to the service document by saying "Add this to troubleshooting section"
-- Upload an actual wiring diagram image if you have one for reference
+**What you can do next:**
+- Ask follow-up questions about this wiring
+- Say "Add this to troubleshooting" to add to the service document
+- Request another circuit's wiring information
+- Upload an actual wiring diagram image/PDF if you have one
 
-**Note:** For actual wiring diagrams (images/PDFs), please:
-1. Upload the diagram file when prompted
-2. Or provide a URL to an OEM wiring diagram source
-3. I'll help you organize and reference it properly"""
+**Note:** This information has been researched and cached. For actual wiring diagram images:
+- Upload a diagram file when prompted
+- Provide a URL to OEM wiring resources
+- I'll help organize and reference it properly"""
             
             return {
                 'success': True,
@@ -576,7 +665,21 @@ Be specific and technical."""
         except Exception as e:
             return {
                 'success': False,
-                'message': f'❌ Error researching wiring diagram: {str(e)}\n\nPlease try:\n- Being more specific about the circuit\n- Uploading a wiring diagram file\n- Providing a URL to wiring diagram resources'
+                'message': f"""❌ **Error researching wiring diagram:** {str(e)}
+
+**Try these alternatives:**
+- Be more specific about the circuit (e.g., "oxygen sensor to ECM wiring")
+- Specify if you need upstream or downstream O2 sensor
+- Upload a wiring diagram file/image
+- Provide a URL to wiring diagram resources
+- Ask about a different circuit first
+
+**Example requests:**
+- "Show me the upstream O2 sensor wiring"
+- "I need the ECM connector pinout"
+- "What's the wire color for the O2 sensor signal?"
+""",
+                'action': 'wiring_diagram_error'
             }
     
     def confirm_pending_edit(self) -> Dict:

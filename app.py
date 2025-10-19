@@ -1011,6 +1011,29 @@ def ai_assistant_page():
         else:
             st.info("No document selected")
         
+        # Show cached wiring diagrams
+        st.markdown("---")
+        st.markdown("### 🔌 Cached Wiring Diagrams")
+        
+        wiring_dir = Path(__file__).parent / 'wiring_diagrams'
+        if wiring_dir.exists():
+            wiring_files = list(wiring_dir.glob('*.txt'))
+            if wiring_files:
+                st.info(f"📊 {len(wiring_files)} diagram(s) cached")
+                with st.expander("View Cached Diagrams", expanded=False):
+                    for wfile in sorted(wiring_files):
+                        # Extract readable name
+                        fname = wfile.stem.replace('_', ' ').title()
+                        if st.button(f"📄 {fname[:40]}...", key=f"wiring_{wfile.name}", use_container_width=True):
+                            with open(wfile, 'r', encoding='utf-8') as f:
+                                content = f.read()
+                            st.session_state.view_wiring = content
+            else:
+                st.info("No wiring diagrams cached yet")
+        else:
+            st.info("No wiring diagrams cached yet")
+        
+        st.markdown("---")
         if st.button("🔄 Clear Conversation", use_container_width=True):
             st.session_state.chat_history = []
             st.session_state.doc_assistant = DocumentEditorAssistant()
@@ -1019,15 +1042,19 @@ def ai_assistant_page():
     # Main interface
     st.markdown("""
         <div class="info-box">
-            <b>💡 Guided Document Editor</b><br><br>
-            This assistant helps you <b>edit and update</b> cached service documents with verified information.<br><br>
-            <b>What it does:</b><br>
-            • <b>Select a document</b> from your cache to edit<br>
-            • <b>Add new information</b> (torque specs, procedures, troubleshooting tips)<br>
-            • <b>Fact-check your edits</b> using AI research and web search<br>
-            • <b>Verify sources</b> by uploading PDFs, images, or URLs<br>
-            • <b>Update documents</b> only with verified, accurate information<br><br>
-            <b>Token optimized:</b> Minimal API usage, focused on verification and updates only.
+            <b>💬 AI Service Assistant</b><br><br>
+            Your intelligent assistant for automotive service documentation and repair information.<br><br>
+            <b>What I can do:</b><br>
+            • 🔍 <b>Answer questions</b> about loaded service documents<br>
+            • 🔌 <b>Find wiring diagrams</b> and electrical information (automatically cached)<br>
+            • 📝 <b>Edit documents</b> with verified information<br>
+            • ⚡ <b>Research repair procedures</b> and technical specifications<br>
+            • 🎯 <b>Context-aware</b> - understands your loaded document<br><br>
+            <b>Example questions:</b><br>
+            • "I need a wiring diagram for the upstream O2 sensor to the ECM"<br>
+            • "What's the torque spec for the oil drain plug?"<br>
+            • "Show me troubleshooting steps for this repair"<br>
+            • "Find the wire colors for the fuel pump circuit"
         </div>
     """, unsafe_allow_html=True)
     
@@ -1115,6 +1142,35 @@ def ai_assistant_page():
     st.markdown("---")
     st.subheader("💬 Chat with Assistant")
     
+    # Add helpful tips above chat
+    if status['selected_document']:
+        st.markdown("#### Quick Actions")
+        col_q1, col_q2, col_q3, col_q4 = st.columns(4)
+        with col_q1:
+            if st.button("🔌 Get Wiring Info", use_container_width=True):
+                st.session_state.quick_action = "I need wiring diagram information for this vehicle"
+        with col_q2:
+            if st.button("📋 List All Sections", use_container_width=True):
+                st.session_state.quick_action = "What sections are in this document?"
+        with col_q3:
+            if st.button("⚠️ Safety Info", use_container_width=True):
+                st.session_state.quick_action = "What are the safety precautions?"
+        with col_q4:
+            if st.button("🔧 Torque Specs", use_container_width=True):
+                st.session_state.quick_action = "Show me all torque specifications"
+        
+        st.markdown("---")
+        
+        col_tip1, col_tip2, col_tip3 = st.columns(3)
+        with col_tip1:
+            st.info("💡 **Ask about the doc**: 'What are the safety steps?'")
+        with col_tip2:
+            st.info("🔌 **Get wiring**: 'Show me O2 sensor wiring'")
+        with col_tip3:
+            st.info("📝 **Edit info**: 'Add torque spec: 25 ft-lbs'")
+    else:
+        st.warning("⚠️ **Load a document first** to enable assistant features")
+    
     # Initialize chat history
     if 'chat_history' not in st.session_state:
         st.session_state.chat_history = []
@@ -1123,6 +1179,14 @@ def ai_assistant_page():
     for msg in st.session_state.chat_history:
         with st.chat_message(msg['role']):
             st.markdown(msg['content'])
+    
+    # Display cached wiring diagram if requested
+    if 'view_wiring' in st.session_state and st.session_state.view_wiring:
+        with st.expander("🔌 Cached Wiring Diagram", expanded=True):
+            st.text(st.session_state.view_wiring)
+            if st.button("✖️ Close Diagram"):
+                st.session_state.view_wiring = None
+                st.rerun()
     
     # Source upload section (before chat input)
     with st.expander("📎 Upload Source for Verification (Optional)", expanded=False):
@@ -1161,7 +1225,17 @@ def ai_assistant_page():
                 # Future: implement OCR with vision model
     
     # Chat input
-    user_input = st.chat_input("Type your message here (e.g., 'Add oil drain plug torque: 18 ft-lbs')")
+    if status['selected_document']:
+        chat_placeholder = "Ask me anything: wiring diagrams, repair steps, specifications, troubleshooting..."
+    else:
+        chat_placeholder = "Load a document first, then ask me anything!"
+    
+    user_input = st.chat_input(chat_placeholder)
+    
+    # Handle quick actions
+    if 'quick_action' in st.session_state and st.session_state.quick_action:
+        user_input = st.session_state.quick_action
+        st.session_state.quick_action = None
     
     if user_input:
         # Add user message to history
