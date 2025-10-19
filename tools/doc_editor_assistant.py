@@ -115,11 +115,27 @@ class DocumentEditorAssistant:
             return self._handle_question(user_input)
         elif intent['type'] == 'review_document':
             return self._handle_review_document()
+        elif intent['type'] == 'wiring_diagram':
+            return self._handle_wiring_diagram_request(user_input, intent)
         else:
             return self._handle_general_chat(user_input)
     
     def _analyze_intent(self, user_input: str) -> Dict:
         """Analyze user's intent from their message"""
+        # Quick pattern matching for wiring diagram requests
+        wiring_keywords = ['wiring', 'diagram', 'schematic', 'circuit', 'electrical']
+        if any(keyword in user_input.lower() for keyword in wiring_keywords):
+            # Extract circuit/system being requested
+            circuit_match = re.search(r'(starter|alternator|fuel pump|ignition|headlight|charging|cooling fan|power window|door lock|radio|hvac|abs|airbag|bcm|ecm|pcm)\s*(circuit|system|wiring)?', user_input.lower())
+            circuit_type = circuit_match.group(1) if circuit_match else 'general'
+            
+            return {
+                'type': 'wiring_diagram',
+                'section': 'wiring_diagrams',
+                'specific_topic': circuit_type,
+                'confidence': 0.9
+            }
+        
         # Use AI to understand what the user wants to do
         prompt = f"""Analyze this user message and determine their intent:
 
@@ -130,7 +146,8 @@ Classify into ONE of these categories:
 2. modify_section - User wants to change existing information
 3. question - User is asking a question about the document
 4. review_document - User wants to review/validate the document
-5. general - General conversation
+5. wiring_diagram - User is requesting a wiring diagram or electrical schematic
+6. general - General conversation
 
 Also extract:
 - section: Which section they're referring to (if mentioned)
@@ -471,6 +488,96 @@ Keep it concise and actionable."""
             'message': response,
             'action': 'general_response'
         }
+    
+    def _handle_wiring_diagram_request(self, user_input: str, intent: Dict) -> Dict:
+        """Handle wiring diagram research and caching"""
+        doc = self.context['selected_document']
+        doc_info = doc['info']
+        
+        # Extract vehicle info from document title
+        title_parts = doc_info['title'].split('—')[0].strip() if '—' in doc_info['title'] else doc_info['title']
+        circuit_type = intent.get('specific_topic', 'general')
+        
+        # Research wiring diagram information
+        research_prompt = f"""Find wiring diagram information for:
+
+Vehicle: {title_parts}
+Circuit/System: {circuit_type}
+
+Task:
+1. Identify the key components in this circuit
+2. Describe wire colors and connector locations
+3. List pin assignments and voltage specifications
+4. Identify common testing points
+5. Note any TSBs or common wiring issues
+
+Provide detailed technical information that would help a technician diagnose and repair electrical issues.
+Include information about:
+- Wire colors and gauges
+- Connector types and locations
+- Fuse/relay locations
+- Voltage/resistance specifications
+- Component locations
+- Common failure points
+
+Be specific and technical."""
+        
+        try:
+            wiring_info = self.research_ai.chat(research_prompt, temperature=0.2)
+            
+            # Save to wiring diagram cache
+            wiring_dir = Path(__file__).parent.parent / 'wiring_diagrams'
+            wiring_dir.mkdir(exist_ok=True)
+            
+            # Create filename
+            safe_title = re.sub(r'[^\w\s-]', '', title_parts).replace(' ', '_')
+            safe_circuit = re.sub(r'[^\w\s-]', '', circuit_type).replace(' ', '_')
+            filename = f"{safe_title}_{safe_circuit}_wiring.txt"
+            filepath = wiring_dir / filename
+            
+            # Save wiring information
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(f"WIRING DIAGRAM INFORMATION\n")
+                f.write(f"{'=' * 60}\n\n")
+                f.write(f"Vehicle: {title_parts}\n")
+                f.write(f"Circuit/System: {circuit_type}\n")
+                f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+                f.write(f"{'=' * 60}\n\n")
+                f.write(wiring_info)
+            
+            message = f"""🔌 **Wiring Diagram Information Retrieved**
+
+**Vehicle:** {title_parts}
+**Circuit/System:** {circuit_type.title()}
+
+{wiring_info}
+
+---
+
+✅ **Saved to cache:** `{filename}`
+
+**Next steps:**
+- This information has been cached for future reference
+- You can add specific details to the service document by saying "Add this to troubleshooting section"
+- Upload an actual wiring diagram image if you have one for reference
+
+**Note:** For actual wiring diagrams (images/PDFs), please:
+1. Upload the diagram file when prompted
+2. Or provide a URL to an OEM wiring diagram source
+3. I'll help you organize and reference it properly"""
+            
+            return {
+                'success': True,
+                'message': message,
+                'action': 'wiring_diagram_researched',
+                'filepath': str(filepath)
+            }
+            
+        except Exception as e:
+            return {
+                'success': False,
+                'message': f'❌ Error researching wiring diagram: {str(e)}\n\nPlease try:\n- Being more specific about the circuit\n- Uploading a wiring diagram file\n- Providing a URL to wiring diagram resources'
+            }
     
     def confirm_pending_edit(self) -> Dict:
         """Execute the pending edit after user confirmation"""

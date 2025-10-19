@@ -840,7 +840,62 @@ def browse_cache_page():
                 if doc_path.exists():
                     with open(doc_path, 'r', encoding='utf-8') as f:
                         html_content = f.read()
+                    
+                    # Action buttons for the selected document
+                    col_a1, col_a2, col_a3, col_a4 = st.columns(4)
+                    
+                    with col_a1:
+                        # Download button
+                        filename = f"{selected_row['Year']}_{selected_row['Make']}_{selected_row['Model']}_{selected_row['Service']}.html".replace(' ', '_')
+                        st.download_button(
+                            label="⬇️ Download",
+                            data=html_content.encode(),
+                            file_name=filename,
+                            mime="text/html",
+                            use_container_width=True
+                        )
+                    
+                    with col_a2:
+                        # Open in new tab with data URI (works on Streamlit Cloud)
+                        b = html_content.encode("utf-8")
+                        data_uri = "data:text/html;base64," + base64.b64encode(b).decode()
+                        st.markdown(
+                            f'<a href="{data_uri}" target="_blank" rel="noopener" style="display:inline-block;width:100%;padding:0.5rem;background-color:#2F6FEB;color:white;text-align:center;border-radius:8px;text-decoration:none;font-weight:600;">🚀 View Full</a>',
+                            unsafe_allow_html=True
+                        )
+                    
+                    with col_a3:
+                        # Print button - opens in new tab with print dialog
+                        print_js = f"""
+                        <script>
+                        function printDoc_{selected_idx}() {{
+                            var printWindow = window.open('', '_blank');
+                            printWindow.document.write(atob('{base64.b64encode(html_content.encode()).decode()}'));
+                            printWindow.document.close();
+                            setTimeout(function() {{
+                                printWindow.print();
+                            }}, 250);
+                        }}
+                        </script>
+                        <button onclick="printDoc_{selected_idx}()" style="display:inline-block;width:100%;padding:0.5rem;background-color:#28a745;color:white;text-align:center;border-radius:8px;text-decoration:none;font-weight:600;border:none;cursor:pointer;">🖨️ Print</button>
+                        """
+                        st.markdown(print_js, unsafe_allow_html=True)
+                    
+                    with col_a4:
+                        # Edit in AI Assistant
+                        if st.button("✏️ Edit in Assistant", use_container_width=True):
+                            # Store document info for AI assistant
+                            st.session_state.assistant_doc = {
+                                'path': str(doc_path),
+                                'year': selected_row['Year'],
+                                'make': selected_row['Make'],
+                                'model': selected_row['Model'],
+                                'service': selected_row['Service']
+                            }
+                            st.success("✅ Document loaded in AI Assistant! Navigate to the AI Assistant tab.")
+                    
                     # Full width preview with larger height
+                    st.markdown("---")
                     st.components.v1.html(html_content, height=1200, scrolling=True)
                 else:
                     st.error("❌ Document file not found. The file may have been deleted manually.")
@@ -1090,7 +1145,7 @@ def ai_assistant_page():
         st.markdown("---")
         st.markdown("#### ⚡ Quick Actions")
         
-        col1, col2, col3 = st.columns(3)
+        col1, col2, col3, col4 = st.columns(4)
         
         with col1:
             if st.button("📋 Review Document", use_container_width=True):
@@ -1109,6 +1164,10 @@ def ai_assistant_page():
         with col3:
             if st.button("➕ Add Information", use_container_width=True):
                 st.info("💡 Describe what you want to add in the chat (e.g., 'Add oil capacity: 4.5 quarts')")
+        
+        with col4:
+            if st.button("🔌 Get Wiring Diagram", use_container_width=True):
+                st.info("💡 Ask for wiring diagrams in chat (e.g., 'Find wiring diagram for starter circuit')")
 
 def statistics_page():
     """Statistics and analytics page"""

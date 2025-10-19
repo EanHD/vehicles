@@ -21,6 +21,12 @@ The AI Document Editor Assistant is a guided, token-efficient tool for editing a
 - Assistant verifies your edits against provided sources
 - Ensures accuracy when adding non-standard information
 
+### 🔌 **Wiring Diagram Support**
+- Request wiring diagrams for specific circuits/systems
+- AI researches and compiles technical wiring information
+- Saves diagram information to cache for future reference
+- Upload actual diagram files to supplement AI research
+
 ### 💰 **Token Optimized**
 - Minimal API usage - only for verification and updates
 - No wasted tokens on general conversation
@@ -54,6 +60,12 @@ Type your edit request in the chat. Examples:
 - "Review this document for accuracy"
 - "What's missing from this document?"
 - "Check for completeness"
+
+**Wiring Diagrams:**
+- "Find wiring diagram for starter circuit"
+- "Get electrical schematic for fuel pump"
+- "I need the wiring for the charging system"
+- "Show me alternator wiring information"
 
 ### Step 3: Review Verification
 
@@ -167,6 +179,8 @@ When the assistant needs verification, you can upload sources:
 - **Troubleshooting tips** - Common issues and solutions
 - **Part numbers** - OEM and aftermarket alternatives
 - **Specifications** - Gaps, clearances, pressures, etc.
+- **Wiring information** - Wire colors, connectors, pin assignments
+- **Electrical specs** - Voltage, resistance, circuit information
 
 ### ⚠️ Requires Careful Verification
 - **Labor times** - Varies by technician skill
@@ -185,6 +199,85 @@ Use the quick action buttons for common tasks:
 - **📋 Review Document** - Get an overall assessment of document quality
 - **❓ Ask Question** - Prompts you to ask about the document
 - **➕ Add Information** - Guides you through adding new content
+- **🔌 Get Wiring Diagram** - Research and cache wiring diagram information
+
+## Wiring Diagram Workflow
+
+### Requesting Wiring Information
+
+The assistant can research and compile wiring diagram information for specific circuits:
+
+**Step 1: Request the diagram**
+```
+User: "Find wiring diagram for starter circuit"
+```
+
+**Step 2: AI researches the circuit**
+The assistant will:
+- Identify key components in the circuit
+- Research wire colors and connector locations
+- Find pin assignments and voltage specs
+- Identify common testing points
+- Note TSBs and common wiring issues
+
+**Step 3: Review the information**
+The assistant provides detailed technical information including:
+- Wire colors and gauges
+- Connector types and locations
+- Fuse/relay locations
+- Voltage/resistance specifications
+- Component locations
+- Common failure points
+
+**Step 4: Information is cached**
+All wiring information is automatically saved to:
+```
+wiring_diagrams/{Year}_{Make}_{Model}_{Circuit}_wiring.txt
+```
+
+### Uploading Actual Diagrams
+
+For best results, supplement AI research with actual diagrams:
+
+1. Request wiring information first (AI research)
+2. Upload your actual wiring diagram image/PDF when prompted
+3. Assistant will help you organize and reference it
+4. Diagram files are cached alongside the text information
+
+### Common Wiring Requests
+
+**Charging System:**
+- "Find alternator wiring diagram"
+- "Get charging system schematic"
+
+**Starting System:**
+- "Starter circuit wiring diagram"
+- "Show me starter motor wiring"
+
+**Fuel System:**
+- "Fuel pump wiring diagram"
+- "Get fuel system electrical schematic"
+
+**HVAC:**
+- "AC compressor clutch wiring"
+- "Blower motor circuit diagram"
+
+**Safety Systems:**
+- "ABS wiring diagram"
+- "Airbag system schematic"
+
+**Body Electronics:**
+- "Power window wiring"
+- "Central locking schematic"
+- "BCM wiring diagram"
+
+### Using Wiring Information
+
+Once retrieved:
+1. Information is saved to cache for future reference
+2. Add specific details to your service document
+3. Reference when troubleshooting electrical issues
+4. Update with corrections or additions as needed
 
 ## Token Usage & Cost
 
