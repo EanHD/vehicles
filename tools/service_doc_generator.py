@@ -285,15 +285,74 @@ Start your response with { and end with }. Always provide accurate, specific inf
         else:
             print(f"✓ Successfully parsed service data with {len(research_data.get('procedure', []))} steps")
             
-            # Validate torque specs - warn if placeholders detected
-            torque_specs = research_data.get('torque_specs', [])
-            for spec in torque_specs:
-                value = spec.get('value', '')
-                if '{' in value or 'value' in value.lower() or not value or value == 'N/A':
-                    print(f"  ⚠️  WARNING: Placeholder torque spec detected for '{spec.get('component', 'unknown')}': {value}")
-                    print(f"      This should be a real value like '27 ft-lbs', not a placeholder")
+            # Validate and warn about data quality issues
+            self._validate_research_data(research_data, service_data.get('name', 'service'))
         
         return research_data
+    
+    def _validate_research_data(self, data: Dict, service_name: str):
+        """Validate research data and print warnings for quality issues"""
+        warnings = []
+        
+        # Check torque specs for placeholders
+        torque_specs = data.get('torque_specs', [])
+        for spec in torque_specs:
+            value = spec.get('value', '')
+            component = spec.get('component', 'unknown')
+            if not value or value == 'N/A' or '{' in value or 'value' in value.lower():
+                warnings.append(f"Placeholder torque spec for '{component}': {value}")
+            elif not any(unit in value.lower() for unit in ['ft-lb', 'ft-lbs', 'in-lb', 'in-lbs', 'nm', 'n-m']):
+                warnings.append(f"Torque spec missing units for '{component}': {value}")
+            elif '(' not in value or ')' not in value:
+                warnings.append(f"Torque spec missing metric conversion for '{component}': {value}")
+        
+        # Check parts list for realistic quantities
+        parts_list = data.get('parts_list', [])
+        fluid_keywords = ['oil', 'fluid', 'coolant', 'antifreeze', 'grease', 'lubricant']
+        for part in parts_list:
+            name = part.get('name', '').lower()
+            qty = part.get('qty', 1)
+            
+            # Check if it's a fluid with qty=1 (likely wrong)
+            if any(keyword in name for keyword in fluid_keywords):
+                if str(qty) == '1' or qty == 1:
+                    warnings.append(f"Fluid part '{part.get('name', '')}' has qty=1 - should specify actual volume needed (e.g., '5 qt', '2 L')")
+        
+        # Check procedure steps for vague language
+        procedure = data.get('procedure', [])
+        vague_phrases = ['appropriate amount', 'specified value', 'per manufacturer', 'as needed', 'verify spec']
+        for step in procedure:
+            desc = step.get('description', '').lower()
+            for phrase in vague_phrases:
+                if phrase in desc:
+                    warnings.append(f"Step {step.get('step', '?')} contains vague language: '{phrase}'")
+                    break
+        
+        # Check fluids section for completeness
+        fluids = data.get('fluids', [])
+        if fluids and 'oil' in service_name.lower():
+            for fluid in fluids:
+                spec = fluid.get('spec', '')
+                if not spec or spec == 'N/A':
+                    warnings.append(f"Fluid '{fluid.get('system', 'unknown')}' missing specification")
+                capacity = fluid.get('total_capacity', '')
+                if not capacity or capacity == 'N/A':
+                    warnings.append(f"Fluid '{fluid.get('system', 'unknown')}' missing capacity")
+        
+        # Check common issues for detail level
+        issues = data.get('common_issues', [])
+        for issue in issues:
+            if len(issue) < 100:  # Issues should be detailed
+                warnings.append(f"Common issue too brief (should be detailed with cause/solution): {issue[:50]}...")
+        
+        # Print warnings
+        if warnings:
+            print(f"\n⚠️  DATA QUALITY WARNINGS ({len(warnings)} issues found):")
+            for i, warning in enumerate(warnings[:10], 1):  # Limit to first 10
+                print(f"  {i}. {warning}")
+            if len(warnings) > 10:
+                print(f"  ... and {len(warnings) - 10} more warnings")
+            print("  ⚡ Tip: Review AI prompt or use different model for better accuracy\n")
     
     def _build_research_prompt(self, vehicle_data: Dict, service_data: Dict) -> str:
         """Build detailed research prompt for AI"""
@@ -326,15 +385,22 @@ SERVICE INFORMATION:
 
 Research and provide the following in JSON format ONLY (no explanatory text, just the JSON):
 
-1. STEP-BY-STEP PROCEDURE (detailed, numbered steps)
+1. STEP-BY-STEP PROCEDURE (detailed, numbered steps with EXACT specifications inline)
 2. TORQUE SPECIFICATIONS (all critical bolts/fasteners with EXACT factory specs - DO NOT USE GENERIC VALUES)
    - CRITICAL: Research actual manufacturer torque specifications
    - Example: Oil drain plugs are typically 25-33 ft-lbs for most vehicles, but VERIFY for this specific model
    - Wheel lug nuts vary by vehicle (typically 70-110 ft-lbs depending on vehicle size)
    - Always specify the exact value from factory service manual if available
 3. FLUIDS & CAPACITIES (if applicable to this service - oils, coolants, brake fluid, etc.)
+   - Must include total system capacity AND typical refill/change quantity
+   - Must specify exact fluid type/specification (not just "0W-20" but "0W-20 Full Synthetic API SP/ILSAC GF-6A")
 4. SPECIAL TOOLS REQUIRED (specific to this vehicle)
-5. PARTS LIST (OEM part numbers if available)
+5. PARTS LIST (OEM part numbers with REALISTIC QUANTITIES)
+   - CRITICAL: Quantities must reflect what a technician actually needs to purchase
+   - For fluids: specify in practical shop units (quarts, liters, gallons)
+   - Example: If oil capacity is 4.8 qts, parts list should show "5 quarts" or "2 x 2.5 qt jugs"
+   - Example: If coolant capacity is 7.5 L, parts list should show "8 liters" or "2 gallons"
+   - NOT "1 unit of oil" - be specific about the actual quantity needed
 6. CONSUMABLES (shop supplies: cleaner, rags, drain plug washers, O-rings, thread locker, etc.)
 7. VARIANTS (platform/VIN differences that affect this procedure)
 8. COMMON ISSUES & TROUBLESHOOTING (specific to this model/year)
@@ -346,8 +412,8 @@ Research and provide the following in JSON format ONLY (no explanatory text, jus
 Return ONLY valid JSON in exactly this structure (no markdown, no preamble, no explanation):
 {{
     "procedure": [
-        {{"step": 1, "description": "Clear detailed step description", "time_minutes": 5, "torque_spec": "27 ft-lbs (if applicable)", "needs_diagram": false}},
-        {{"step": 2, "description": "Next step...", "time_minutes": 10, "needs_diagram": false}}
+        {{"step": 1, "description": "Clear detailed step description with EXACT specifications embedded (e.g., 'Add 4.8 quarts of 0W-16 synthetic oil', not 'add oil')", "time_minutes": 5, "torque_spec": "27 ft-lbs (37 Nm) - if step requires torquing", "needs_diagram": false}},
+        {{"step": 2, "description": "Next step with specific values...", "time_minutes": 10, "needs_diagram": false}}
     ],
     "torque_specs": [
         {{"component": "Oil drain plug", "value": "27 ft-lbs (37 Nm)", "pattern": "Straight", "notes": "Replace crush washer", "source": "Factory Service Manual"}},
@@ -355,45 +421,73 @@ Return ONLY valid JSON in exactly this structure (no markdown, no preamble, no e
         {{"component": "Wheel lug nuts", "value": "76 ft-lbs (103 Nm)", "pattern": "Star pattern", "notes": "Torque in 3 stages", "source": "Owner Manual"}}
     ],
     "fluids": [
-        {{"system": "Engine oil", "spec": "0W-20 Full Synthetic (API SP, ILSAC GF-6A)", "total_capacity": "4.4 L", "refill_capacity": "4.2 L", "notes": "With filter change", "source": "Owner Manual"}},
-        {{"system": "Coolant", "spec": "Toyota Super Long Life Coolant (pink)", "total_capacity": "7.1 L", "refill_capacity": "varies", "notes": "Pre-diluted - do not mix", "source": "FSM"}}
+        {{"system": "Engine oil", "spec": "0W-16 Full Synthetic (API SP, ILSAC GF-6A)", "total_capacity": "4.8 qt (4.5 L)", "refill_capacity": "4.6 qt (4.3 L)", "notes": "With filter change. Capacity may vary by engine variant.", "source": "Owner Manual"}},
+        {{"system": "Coolant", "spec": "Toyota Super Long Life Coolant (pink, pre-diluted)", "total_capacity": "7.5 qt (7.1 L)", "refill_capacity": "varies by service", "notes": "Do not mix with other coolant types", "source": "FSM"}}
     ],
-    "special_tools": ["Torque wrench (0-150 ft-lbs)", "Oil filter wrench", "Jack and jack stands", "Oil drain pan (6 qt minimum)"],
+    "special_tools": ["Torque wrench (0-150 ft-lbs)", "Oil filter wrench (64mm or 74mm depending on filter)", "Floor jack rated for vehicle weight", "Jack stands (pair, rated 3+ tons)", "Oil drain pan (6 qt minimum capacity)"],
     "parts_list": [
-        {{"name": "Engine oil (0W-20 synthetic)", "oem_number": "00279-0W020-01", "qty": 5, "aftermarket": "Mobil 1, Pennzoil Platinum", "notes": "5 quarts total"}},
-        {{"name": "Oil filter", "oem_number": "04152-YZZA6", "qty": 1, "aftermarket": "WIX 57060, Purolator L24651", "notes": "Verify fitment"}},
-        {{"name": "Drain plug washer", "oem_number": "90430-12031", "qty": 1, "aftermarket": "Dorman 095-147", "notes": "Replace every change"}}
+        {{"name": "Engine oil (0W-16 synthetic)", "oem_number": "00279-0W016-01", "qty": "5 qt", "aftermarket": "Mobil 1 ESP 0W-16, Pennzoil Platinum 0W-16", "notes": "Vehicle requires 4.8 qt, purchase 5 qt (or 2x 2.5qt jugs)"}},
+        {{"name": "Oil filter", "oem_number": "04152-YZZA6", "qty": 1, "aftermarket": "WIX 57060, Purolator L24651, Fram XG10575", "notes": "Verify correct filter for engine variant"}},
+        {{"name": "Drain plug washer/gasket", "oem_number": "90430-12031", "qty": 1, "aftermarket": "Dorman 095-147", "notes": "Replace at every oil change to prevent leaks"}}
     ],
-    "consumables": ["Shop towels or rags", "Degreaser/brake cleaner", "Nitrile gloves", "Funnel", "Oil absorbent pads"],
+    "consumables": ["Shop towels or rags (box)", "Degreaser or brake cleaner (aerosol)", "Nitrile gloves (box)", "Funnel (appropriate size)", "Oil absorbent pads or kitty litter", "Parts washer solvent (if cleaning parts)"],
     "variants": [
-        "Early 2020 models (built before 07/2020) use different oil filter part number 04152-31090 - verify production date",
-        "Hybrid models require 0W-16 synthetic oil instead of 0W-20 - check owner manual",
-        "AWD models have slightly higher oil capacity (4.6L vs 4.4L)"
+        "Early 2020 models (built before 07/2020) may use different oil filter - verify production date on door jamb sticker",
+        "Hybrid models require 0W-16 synthetic oil (non-hybrid may use 0W-20 depending on market/year)",
+        "AWD models may have slightly different oil capacity - verify in owner's manual",
+        "Different drain plug sizes exist: 14mm is common, but some variants use 17mm - verify before purchasing washer"
     ],
     "common_issues": [
-        "**Oil leaks from drain plug**: Often caused by worn or reused crush washer. Always replace washer at each service. If threads are damaged, consider using an oversized drain plug or helicoil insert.",
-        "**Stripped drain plug threads**: If overtorqued or cross-threaded during previous service. Use correct 14mm socket and verify torque spec of 27 ft-lbs. Consider oil pan replacement if severe.",
-        "**Incorrect oil viscosity**: Using wrong oil grade can affect engine performance and fuel economy. This model requires 0W-20 (non-hybrid) or 0W-16 (hybrid). Do not substitute 5W-30.",
-        "**Overfilled oil level**: Can cause aeration and oil foaming. Always check level on flat ground after engine reaches operating temp, then allow 5 minutes to settle."
+        "**Oil leaks from drain plug**: Most common cause is worn/reused crush washer. ALWAYS replace the copper/aluminum washer at each service (OEM part ~$1). If threads are damaged from overtightening, consider oversized drain plug (Fumoto valve, HeliCoil insert) or oil pan replacement.",
+        "**Stripped drain plug threads**: Result of overtightening (exceeds 30 ft-lbs) or cross-threading. Use correct socket size (14mm or 17mm), verify torque specification (typically 27-30 ft-lbs for this vehicle), apply in straight motion. Repair options: oversized drain plug, thread repair kit, or oil pan replacement ($150-400 parts + labor).",
+        "**Incorrect oil viscosity used**: This model requires 0W-16 (newer Toyota/Lexus) or 0W-20 (older models). Using 5W-30 or 10W-30 will reduce fuel economy by 1-3% and may affect emissions. Do NOT substitute heavier oils unless specified for severe service. Verify specification on oil cap or owner's manual.",
+        "**Overfilled oil level**: Adding too much oil (>0.5 qt over max mark) causes aeration, foaming, increased crankcase pressure, and potential seal damage. Check level on LEVEL ground with engine at operating temperature, then wait 5-10 minutes for oil to settle before reading dipstick. Drain excess immediately if overfilled.",
+        "**Oil filter housing leak**: Ensure O-ring is properly seated and lubricated with clean oil before installation. Torque canister-style filters to specification (18-22 ft-lbs typical) or hand-tighten cartridge-style 3/4 turn after gasket contact. Double-O-ring (old gasket stuck to housing) causes immediate leak - always inspect housing before installing new filter."
     ],
-    "safety_warnings": ["Never work under vehicle supported only by jack", "Use proper jack stands rated for vehicle weight", "Allow engine to cool before draining oil to prevent burns", "Wear gloves and eye protection when handling used oil", "Dispose of used oil and filter at certified recycling center"],
-    "tips": ["Replace drain plug washer every oil change to prevent leaks", "Hand-tighten oil filter first, then 3/4 turn with wrench - do not overtighten", "Run engine for 60 seconds after refilling, then shut off and check for leaks", "Check oil level after driving 5-10 minutes and allowing to settle"],
+    "safety_warnings": ["Never work under vehicle supported only by hydraulic jack - ALWAYS use jack stands rated for vehicle weight (3+ tons for full-size vehicles)", "Use jack on designated lift points only - consult owner's manual for locations to avoid damage to underbody components", "Allow engine to cool 15-30 minutes before draining oil to prevent severe burns - fresh oil can exceed 200°F", "Wear nitrile gloves and safety glasses when handling used oil - contains carcinogens and heavy metals", "Dispose of used oil and filter at certified recycling center - most auto parts stores accept used oil free of charge - do NOT dump in trash, ground, or storm drains"],
+    "tips": ["Purchase oil in bulk (5-qt jugs or cases) to save 20-40% vs individual quarts", "Replace drain plug washer EVERY oil change - prevents 90% of oil leaks and costs ~$1", "Apply light coat of clean engine oil to filter gasket before installation - ensures proper seal and easier removal next time", "Run engine 60-90 seconds after refilling, shut off, wait 5 minutes, then recheck level - top off if needed", "Mark oil filter or use oil change sticker with date and mileage for maintenance tracking", "Keep oil change records with receipts - essential for warranty claims and resale value", "If synthetic oil is expensive in your area, use high-quality conventional oil and change more frequently (3,000-5,000 mi vs 7,500-10,000 mi for synthetic)"],
     "diagrams": [],
-    "citations": ["Factory Service Manual", "Owner's Manual", "Technical Service Bulletins"]
+    "citations": ["Factory Service Manual (FSM)", "Owner's Manual", "Technical Service Bulletins (TSB)", "OEM Parts Catalog"]
 }}
 
 CRITICAL REQUIREMENTS:
 1. Use REAL NUMBERS for all torque specifications - NO PLACEHOLDERS like "25-30" or "{{value}}"
 2. Each torque spec must have EXACT dual units like "27 ft-lbs (37 Nm)" or "18 ft-lbs (24 Nm)"
-3. Use actual OEM part numbers when available
-4. All specifications must be specific to the {year} {make} {model}
-5. Oil drain plugs are typically 25-33 ft-lbs depending on vehicle - research the specific value
-6. Common issues must include DETAILED descriptions with causes, symptoms, and solutions (use bold **Issue**: format)
-7. Include fluids section only if relevant to this service (oil changes need it, brake pads may not)
-8. Include variants section if there are platform/VIN/production year differences
-9. Include consumables - the shop supplies needed (rags, cleaners, O-rings, etc.)
-10. Minimize diagrams request - only essential ones. Empty array [] is acceptable.
-11. Return ONLY the JSON - no extra text before or after
+3. Use actual OEM part numbers when available (research online parts catalogs if needed)
+4. All specifications must be specific to the {year} {make} {model} and its engine variants
+5. **PARTS QUANTITIES MUST BE PRACTICAL/REALISTIC**:
+   - For engine oil: if capacity is 4.8 qts, list "5 qt" or "2 x 2.5 qt jugs" (what tech actually buys)
+   - For coolant: if capacity is 7.5L, list "8 L" or "2 gallons" (practical purchase units)  
+   - For brake fluid: "1 bottle (12 oz)" or "500 ml" not "1 unit"
+   - For bulbs/fuses: actual count "2 bulbs" not "1 set"
+   - NEVER use qty "1" for fluids unless it's truly one specific container (like "1 gallon jug")
+6. **PROCEDURE STEPS MUST INCLUDE EXACT SPECIFICATIONS**:
+   - ✓ GOOD: "Add 4.8 quarts (4.5 liters) of 0W-16 full synthetic oil through the filler neck"
+   - ✗ BAD: "Add the appropriate amount of oil"
+   - ✓ GOOD: "Torque oil drain plug to 27 ft-lbs (37 Nm) using a torque wrench"
+   - ✗ BAD: "Tighten drain plug to specification"
+7. Common issues must include DETAILED descriptions with:
+   - Exact symptoms (what the technician observes)
+   - Root causes (why it happens - be specific)
+   - Step-by-step solutions (how to fix it - with part numbers and costs when relevant)
+   - Use bold **Issue**: format for clarity
+8. Torque specifications - verify accuracy:
+   - Oil drain plugs: typically 25-33 ft-lbs (most common: 27-30 ft-lbs), but varies by vehicle
+   - Wheel lug nuts: 70-110 ft-lbs depending on vehicle size (compact: 70-80, midsize: 80-90, truck/SUV: 90-140)
+   - Spark plugs: 15-25 ft-lbs depending on type (aluminum head vs cast iron, tapered seat vs gasket)
+   - DO NOT GUESS - if unsure, indicate "Verify in FSM" and note uncertainty
+9. Include fluids section only if directly relevant to this service:
+   - Oil change: YES (engine oil)
+   - Brake pad replacement: Optional (brake fluid check/top-off)
+   - Alternator replacement: NO (unless specific cooling system work needed)
+10. Include variants section when platform/VIN/production year differences exist
+11. Include consumables - the actual shop supplies techs use (rags, cleaners, O-rings, etc.)
+12. Minimize diagrams request - only essential ones. Empty array [] is acceptable and preferred.
+13. **ALL NUMERIC VALUES MUST BE PRECISE**:
+    - Never use ranges in JSON data (no "25-30 ft-lbs") - pick the correct specific value
+    - If multiple variants exist (different engines, years), note in variants section
+    - Include both imperial and metric with proper conversions
+14. Return ONLY the JSON object - no extra text, no markdown blocks, no explanations before or after
 """
         return prompt
     
