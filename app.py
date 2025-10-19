@@ -441,9 +441,20 @@ def main():
         st.markdown("### 🔧 Swoop Service Auto")
         st.markdown("---")
         
+        # Check if we need to navigate to AI Assistant (from Browse Cache edit button)
+        default_page = "🔍 Generate Service Doc"
+        if st.session_state.get('navigate_to_assistant', False):
+            default_page = "💬 AI Assistant"
+            st.session_state.navigate_to_assistant = False
+        
+        # Get current page index
+        pages = ["🔍 Generate Service Doc", "📚 Browse Cache", "💬 AI Assistant", "📊 Statistics", "⚙️ Settings"]
+        default_index = pages.index(default_page) if default_page in pages else 0
+        
         page = st.radio(
             "Navigation",
-            ["🔍 Generate Service Doc", "📚 Browse Cache", "💬 AI Assistant", "📊 Statistics", "⚙️ Settings"],
+            pages,
+            index=default_index,
             label_visibility="collapsed"
         )
         
@@ -841,7 +852,7 @@ def browse_cache_page():
                     with open(doc_path, 'r', encoding='utf-8') as f:
                         html_content = f.read()
                     
-                    # Action buttons for the selected document
+                    # Action buttons for the selected document - OUTSIDE any container for full width
                     col_a1, col_a2, col_a3, col_a4 = st.columns(4)
                     
                     with col_a1:
@@ -852,38 +863,64 @@ def browse_cache_page():
                             data=html_content.encode(),
                             file_name=filename,
                             mime="text/html",
-                            use_container_width=True
+                            use_container_width=True,
+                            key=f"dl_browse_{selected_idx}"
                         )
                     
                     with col_a2:
-                        # Open in new tab with data URI (works on Streamlit Cloud)
-                        b = html_content.encode("utf-8")
-                        data_uri = "data:text/html;base64," + base64.b64encode(b).decode()
-                        st.markdown(
-                            f'<a href="{data_uri}" target="_blank" rel="noopener" style="display:inline-block;width:100%;padding:0.5rem;background-color:#2F6FEB;color:white;text-align:center;border-radius:8px;text-decoration:none;font-weight:600;">🚀 View Full</a>',
-                            unsafe_allow_html=True
-                        )
+                        # Save to temp file and create a simple link (more reliable than data URI for large files)
+                        import tempfile
+                        import hashlib
+                        
+                        # Create a stable temp file for this document
+                        doc_hash = hashlib.md5(str(doc_path).encode()).hexdigest()[:8]
+                        temp_path = Path(tempfile.gettempdir()) / f"swoop_doc_{doc_hash}.html"
+                        temp_path.write_text(html_content, encoding='utf-8')
+                        
+                        # For Streamlit Cloud, use data URI but chunked or trimmed
+                        # Try to create a working link
+                        if len(html_content) < 1000000:  # Less than 1MB, safe for data URI
+                            b = html_content.encode("utf-8")
+                            data_uri = "data:text/html;base64," + base64.b64encode(b).decode()
+                            st.markdown(
+                                f'<a href="{data_uri}" target="_blank" rel="noopener" style="display:inline-block;width:100%;padding:0.5rem;background-color:#2F6FEB;color:white;text-align:center;border-radius:8px;text-decoration:none;font-weight:600;">🚀 View Full</a>',
+                                unsafe_allow_html=True
+                            )
+                        else:
+                            # File too large for data URI - use download as fallback with instructions
+                            st.markdown(
+                                f'<div style="display:inline-block;width:100%;padding:0.5rem;background-color:#999;color:white;text-align:center;border-radius:8px;font-weight:600;">📄 Large File (use Download)</div>',
+                                unsafe_allow_html=True
+                            )
                     
                     with col_a3:
-                        # Print button - opens in new tab with print dialog
-                        print_js = f"""
-                        <script>
-                        function printDoc_{selected_idx}() {{
-                            var printWindow = window.open('', '_blank');
-                            printWindow.document.write(atob('{base64.b64encode(html_content.encode()).decode()}'));
-                            printWindow.document.close();
-                            setTimeout(function() {{
-                                printWindow.print();
-                            }}, 250);
-                        }}
-                        </script>
-                        <button onclick="printDoc_{selected_idx}()" style="display:inline-block;width:100%;padding:0.5rem;background-color:#28a745;color:white;text-align:center;border-radius:8px;text-decoration:none;font-weight:600;border:none;cursor:pointer;">🖨️ Print</button>
-                        """
-                        st.markdown(print_js, unsafe_allow_html=True)
+                        # Print button - use window.print() on the data URI
+                        if st.button("🖨️ Print", use_container_width=True, key=f"print_browse_{selected_idx}"):
+                            # Create a popup that auto-prints
+                            print_html = f"""
+                            <script>
+                            (function() {{
+                                var printWindow = window.open('', '_blank', 'width=800,height=600');
+                                if (printWindow) {{
+                                    var htmlContent = atob('{base64.b64encode(html_content.encode()).decode()}');
+                                    printWindow.document.write(htmlContent);
+                                    printWindow.document.close();
+                                    printWindow.onload = function() {{
+                                        setTimeout(function() {{
+                                            printWindow.print();
+                                        }}, 500);
+                                    }};
+                                }} else {{
+                                    alert('Please allow popups to print documents');
+                                }}
+                            }})();
+                            </script>
+                            """
+                            st.components.v1.html(print_html, height=0)
                     
                     with col_a4:
                         # Edit in AI Assistant
-                        if st.button("✏️ Edit in Assistant", use_container_width=True):
+                        if st.button("✏️ Edit in Assistant", use_container_width=True, key=f"edit_browse_{selected_idx}"):
                             # Store document info for AI assistant
                             st.session_state.assistant_doc = {
                                 'path': str(doc_path),
@@ -892,11 +929,18 @@ def browse_cache_page():
                                 'model': selected_row['Model'],
                                 'service': selected_row['Service']
                             }
-                            st.success("✅ Document loaded in AI Assistant! Navigate to the AI Assistant tab.")
+                            # Show immediate feedback
+                            st.success("✅ Document loaded! Redirecting to AI Assistant...")
+                            # Force navigation to AI Assistant tab
+                            time.sleep(0.5)
+                            st.session_state.navigate_to_assistant = True
+                            st.rerun()
                     
-                    # Full width preview with larger height
+                    # Full width preview with larger height - ENSURE full container width
                     st.markdown("---")
-                    st.components.v1.html(html_content, height=1200, scrolling=True)
+                    st.markdown("### 📄 Full Document Preview")
+                    # Use wider height and ensure scrolling works
+                    st.components.v1.html(html_content, height=1400, scrolling=True)
                 else:
                     st.error("❌ Document file not found. The file may have been deleted manually.")
                     # Clean up cache index
@@ -986,6 +1030,23 @@ def ai_assistant_page():
             <b>Token optimized:</b> Minimal API usage, focused on verification and updates only.
         </div>
     """, unsafe_allow_html=True)
+    
+    # Check if a document was sent from Browse Cache
+    if 'assistant_doc' in st.session_state and st.session_state.assistant_doc:
+        doc_to_load = st.session_state.assistant_doc
+        st.info(f"📄 Loading document from Browse Cache: {doc_to_load['year']} {doc_to_load['make']} {doc_to_load['model']} - {doc_to_load['service']}")
+        
+        # Try to load it
+        result = assistant.select_document(doc_to_load['path'])
+        if result['success']:
+            st.success(f"✅ {result['message']}")
+            # Clear the flag so it doesn't reload on every rerun
+            st.session_state.assistant_doc = None
+            time.sleep(0.5)
+            st.rerun()
+        else:
+            st.error(f"❌ {result.get('error', 'Failed to load document')}")
+            st.session_state.assistant_doc = None
     
     # Document selection section
     st.markdown("---")
