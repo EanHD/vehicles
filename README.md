@@ -37,6 +37,7 @@ The system:
 - Select vehicle by make/model/year
 - Choose service by category
 - Generate docs with one click
+- **NEW: AI Document Editor** - Edit and improve cached docs with guided AI assistant
 
 ✅ **REST API**
 - FastAPI-based REST API for mobile app integration
@@ -148,7 +149,9 @@ vehicles/
 │
 ├── 📁 tools/                          # Python modules
 │   ├── service_doc_generator.py       # Main doc generator
+│   ├── doc_editor_assistant.py        # AI document editor
 │   ├── ai_client.py                   # Multi-provider AI client
+│   ├── diagram_generator.py           # Technical diagram generation
 │   ├── service_api.py                 # Legacy Flask API
 │   └── batch_generate.py              # Batch generation tool
 │
@@ -175,6 +178,7 @@ vehicles/
 ├── 📋 QUICK_START_APP.md              # ⭐ Web app user guide
 ├── 📋 API_DOCUMENTATION.md            # ⭐ REST API reference
 ├── 📋 API_QUICK_START.md              # ⭐ API quick start guide
+├── 📋 AI_ASSISTANT_GUIDE.md           # ⭐ NEW: AI Editor guide
 ├── 📋 APP_STATUS.md                   # Current web app status
 ├── 📋 IMPLEMENTATION_GUIDE.md         # Technical implementation
 ├── 📋 SYSTEM_COMPLETE.md              # Architecture overview
@@ -335,6 +339,50 @@ for year, make, model in vehicles:
 
 ---
 
+## 🤖 AI Document Editor
+
+**NEW FEATURE**: The AI Document Editor Assistant helps you refine and improve your cached service documents with verified information.
+
+### Key Features
+
+- **📝 Guided Editing** - Step-by-step workflow for adding/modifying information
+- **✅ Automatic Verification** - AI fact-checks all changes before applying
+- **📎 Source Upload** - Upload PDFs, URLs, or text to verify your edits
+- **💰 Token Efficient** - Minimal API usage (~$0.001-0.003 per edit)
+- **🎯 Focused** - Designed specifically for document editing, not general chat
+
+### How to Use
+
+1. Navigate to **💬 AI Assistant** in the web app
+2. Select a cached document to edit
+3. Type your request: *"Add oil drain plug torque: 18 ft-lbs"*
+4. Assistant verifies the information
+5. Confirm to apply the change
+
+### Example Workflow
+
+```
+User: "Add oil drain plug torque: 18 ft-lbs"
+
+Assistant: 🔍 Analyzing and verifying...
+✅ Verification Passed (confidence: 95%)
+
+Information to add: Oil drain plug torque: 18 ft-lbs (24 Nm)
+Target section: torque-specifications
+Sources: Toyota FSM, TorqueSpec DB
+
+Reply "yes" to confirm.
+
+User: "yes"
+
+
+Assistant: ✅ Successfully added information to torque-specifications section!
+```
+
+**See full guide**: [`AI_ASSISTANT_GUIDE.md`](AI_ASSISTANT_GUIDE.md)
+
+---
+
 ## 🔄 Managing Cached Documents
 
 ### Regenerating Documents
@@ -365,12 +413,12 @@ From the **📚 Browse Cache** page in the web app:
 The next time you request that service/vehicle combination, it will be freshly generated.
 
 ---
-
 ## 📖 Documentation
 
 ### Quick References
 - **[QUICK_START_APP.md](QUICK_START_APP.md)** - Web app quick start ⭐
 - **[API_QUICK_START.md](API_QUICK_START.md)** - REST API quick start ⭐
+- **[AI_ASSISTANT_GUIDE.md](AI_ASSISTANT_GUIDE.md)** - AI Editor guide ⭐ NEW
 - **[API_DOCUMENTATION.md](API_DOCUMENTATION.md)** - Full API reference
 - **[APP_STATUS.md](APP_STATUS.md)** - Current system status
 - **[IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md)** - Technical details

@@ -28,8 +28,9 @@ sys.path.insert(0, str(Path(__file__).parent / "tools"))
 # Import after page config to avoid import issues
 try:
     from service_doc_generator import ServiceDocGenerator
+    from doc_editor_assistant import DocumentEditorAssistant
 except ImportError as e:
-    st.error(f"❌ Failed to import ServiceDocGenerator: {e}")
+    st.error(f"❌ Failed to import required modules: {e}")
     st.stop()
 
 # HTML QA Audit Helper
@@ -888,30 +889,163 @@ def browse_cache_page():
         st.exception(e)
 
 def ai_assistant_page():
-    """Interactive AI assistant for service questions"""
-    st.header("💬 AI Service Assistant")
+    """Guided AI assistant for editing service documentation"""
+    st.header("💬 AI Document Editor Assistant")
     
+    # Initialize assistant in session state
+    if 'doc_assistant' not in st.session_state:
+        st.session_state.doc_assistant = DocumentEditorAssistant()
+    
+    assistant = st.session_state.doc_assistant
+    
+    # Sidebar for assistant status and controls
+    with st.sidebar:
+        st.markdown("---")
+        st.markdown("### 🤖 Assistant Status")
+        
+        status = assistant.get_status()
+        
+        if status['selected_document']:
+            st.success(f"📄 Editing: {status['selected_document']['title'][:50]}...")
+            if status['pending_edits'] > 0:
+                st.warning(f"⏳ {status['pending_edits']} pending edit(s)")
+        else:
+            st.info("No document selected")
+        
+        if st.button("🔄 Clear Conversation", use_container_width=True):
+            st.session_state.chat_history = []
+            st.session_state.doc_assistant = DocumentEditorAssistant()
+            st.rerun()
+    
+    # Main interface
     st.markdown("""
         <div class="info-box">
-            <b>💡 How to use:</b><br>
-            Ask questions about specific vehicles and services. The AI will provide detailed answers
-            and can update your service documentation with new information.
+            <b>💡 Guided Document Editor</b><br><br>
+            This assistant helps you <b>edit and update</b> cached service documents with verified information.<br><br>
+            <b>What it does:</b><br>
+            • <b>Select a document</b> from your cache to edit<br>
+            • <b>Add new information</b> (torque specs, procedures, troubleshooting tips)<br>
+            • <b>Fact-check your edits</b> using AI research and web search<br>
+            • <b>Verify sources</b> by uploading PDFs, images, or URLs<br>
+            • <b>Update documents</b> only with verified, accurate information<br><br>
+            <b>Token optimized:</b> Minimal API usage, focused on verification and updates only.
         </div>
     """, unsafe_allow_html=True)
     
-    # Chat interface
+    # Document selection section
+    st.markdown("---")
+    st.subheader("📄 Select Document to Edit")
+    
+    try:
+        gen = get_generator()
+        
+        if not gen.cache_index:
+            st.warning("No cached documents available. Generate some documents first!")
+            return
+        
+        # Create simple document selector
+        cache_data = []
+        for key, doc in gen.cache_index.items():
+            doc_path = Path(doc.get('path', ''))
+            if not doc_path.is_absolute():
+                doc_path = Path(__file__).parent / doc_path
+            
+            if doc_path.exists():
+                cache_data.append({
+                    'display': f"{doc['year']} {doc['make']} {doc['model']} - {doc['service']}",
+                    'path': str(doc_path),
+                    'key': key
+                })
+        
+        if not cache_data:
+            st.warning("No valid cached documents found.")
+            return
+        
+        col1, col2 = st.columns([3, 1])
+        
+        with col1:
+            selected_display = st.selectbox(
+                "Choose a document",
+                [d['display'] for d in cache_data],
+                key="doc_selector"
+            )
+        
+        with col2:
+            if st.button("📂 Load Document", use_container_width=True):
+                # Find selected document
+                selected = next((d for d in cache_data if d['display'] == selected_display), None)
+                if selected:
+                    result = assistant.select_document(selected['path'])
+                    if result['success']:
+                        st.success(f"✅ {result['message']}")
+                        st.rerun()
+                    else:
+                        st.error(f"❌ {result.get('error', 'Failed to load document')}")
+        
+        # Show current document info
+        if status['selected_document']:
+            st.markdown("---")
+            with st.expander("📋 Current Document Sections", expanded=False):
+                doc_info = status['selected_document']
+                st.markdown(f"**Total sections:** {doc_info['total_sections']}")
+                for section_id, section_data in doc_info['sections'].items():
+                    st.markdown(f"• **{section_data['title']}** (`{section_id}`)")
+    
+    except Exception as e:
+        st.error(f"Error loading documents: {e}")
+        return
+    
+    # Chat interface for guided editing
+    st.markdown("---")
+    st.subheader("💬 Chat with Assistant")
+    
+    # Initialize chat history
     if 'chat_history' not in st.session_state:
         st.session_state.chat_history = []
     
     # Display chat history
     for msg in st.session_state.chat_history:
-        if msg['role'] == 'user':
-            st.chat_message("user").write(msg['content'])
-        else:
-            st.chat_message("assistant").write(msg['content'])
+        with st.chat_message(msg['role']):
+            st.markdown(msg['content'])
+    
+    # Source upload section (before chat input)
+    with st.expander("📎 Upload Source for Verification (Optional)", expanded=False):
+        st.markdown("Upload a source document to verify your information:")
+        
+        source_type = st.radio(
+            "Source type",
+            ["URL", "Text/Paste", "PDF Document", "Image/Screenshot"],
+            horizontal=True
+        )
+        
+        uploaded_source = None
+        
+        if source_type == "URL":
+            url = st.text_input("Enter URL (FSM, forum post, OEM site, etc.)")
+            if url:
+                uploaded_source = {'type': 'url', 'content': url}
+                st.info(f"📎 Source ready: {url[:60]}...")
+        
+        elif source_type == "Text/Paste":
+            text = st.text_area("Paste text content", height=150)
+            if text:
+                uploaded_source = {'type': 'text', 'content': text}
+                st.info(f"📎 Source ready: {len(text)} characters")
+        
+        elif source_type == "PDF Document":
+            uploaded_file = st.file_uploader("Upload PDF", type=['pdf'])
+            if uploaded_file:
+                st.warning("⚠️ PDF parsing not yet implemented. Please copy/paste text instead.")
+                # Future: implement PDF parsing
+        
+        elif source_type == "Image/Screenshot":
+            uploaded_file = st.file_uploader("Upload image", type=['png', 'jpg', 'jpeg'])
+            if uploaded_file:
+                st.warning("⚠️ Image OCR not yet implemented. Please use text source instead.")
+                # Future: implement OCR with vision model
     
     # Chat input
-    user_input = st.chat_input("Ask a question about vehicle service...")
+    user_input = st.chat_input("Type your message here (e.g., 'Add oil drain plug torque: 18 ft-lbs')")
     
     if user_input:
         # Add user message to history
@@ -920,33 +1054,61 @@ def ai_assistant_page():
             'content': user_input
         })
         
-        # Generate response
-        try:
-            gen = get_generator()
-            
-            # Build context from last document if available
-            context = ""
-            if st.session_state.last_doc:
-                context = f"\nContext: Current document is for {st.session_state.last_doc['year']} {st.session_state.last_doc['make']} {st.session_state.last_doc['model']} - {st.session_state.last_doc['service']}"
-            
-            prompt = f"{user_input}{context}"
-            
-            with st.spinner("Thinking..."):
-                response = gen.research_ai.chat(
-                    prompt,
-                    system_message="You are an expert automotive technician. Provide detailed, accurate answers about vehicle service and repair."
-                )
-            
-            # Add assistant response to history
-            st.session_state.chat_history.append({
-                'role': 'assistant',
-                'content': response
-            })
-            
-            st.rerun()
+        # Handle confirmation keywords
+        if user_input.lower() in ['add it', 'yes', 'confirm', 'add']:
+            # Execute pending edit
+            result = assistant.confirm_pending_edit()
+            response = result['message']
         
-        except Exception as e:
-            st.error(f"Error: {e}")
+        elif user_input.lower() in ['no', 'cancel', 'nevermind']:
+            # Cancel pending edit
+            assistant.context['pending_edits'] = []
+            response = "❌ Cancelled. What else would you like to do?"
+        
+        else:
+            # Process as normal request
+            with st.spinner("🤔 Analyzing and verifying..."):
+                try:
+                    result = assistant.process_user_request(
+                        user_input,
+                        uploaded_source=uploaded_source if 'uploaded_source' in locals() else None
+                    )
+                    response = result['message']
+                except Exception as e:
+                    response = f"❌ Error: {str(e)}"
+        
+        # Add assistant response to history
+        st.session_state.chat_history.append({
+            'role': 'assistant',
+            'content': response
+        })
+        
+        st.rerun()
+    
+    # Quick action buttons
+    if status['selected_document']:
+        st.markdown("---")
+        st.markdown("#### ⚡ Quick Actions")
+        
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            if st.button("📋 Review Document", use_container_width=True):
+                with st.spinner("Reviewing..."):
+                    result = assistant._handle_review_document()
+                    st.session_state.chat_history.append({
+                        'role': 'assistant',
+                        'content': result['message']
+                    })
+                    st.rerun()
+        
+        with col2:
+            if st.button("❓ Ask Question", use_container_width=True):
+                st.info("💡 Type your question in the chat below!")
+        
+        with col3:
+            if st.button("➕ Add Information", use_container_width=True):
+                st.info("💡 Describe what you want to add in the chat (e.g., 'Add oil capacity: 4.5 quarts')")
 
 def statistics_page():
     """Statistics and analytics page"""
