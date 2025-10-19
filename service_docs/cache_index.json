@@ -70,5 +70,14 @@
     "service": "Oil Change",
     "generated": "2025-10-18T21:16:03.510318",
     "vehicle_difficulty": 1.0
+  },
+  "38e32437bc3e2dbec0b6eb9d0226e8db": {
+    "path": "service_docs/Honda/Accord/2019_Brake_Pads_Replacement_Front.html",
+    "year": 2019,
+    "make": "Honda",
+    "model": "Accord",
+    "service": "Brake Pads Replacement (Front)",
+    "generated": "2025-10-18T21:18:27.030646",
+    "vehicle_difficulty": 1.0
   }
 }
