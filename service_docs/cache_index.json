@@ -63,13 +63,16 @@
     "vehicle_difficulty": 1.1
   },
   "926958d5a0da65fb4bd2cb350b58e663": {
-    "path": "service_docs/Toyota/Camry/2020_Oil_Change.html",
+    "path": "service_docs/Toyota/Camry/2020_oil_change.html.gz",
     "year": 2020,
     "make": "Toyota",
     "model": "Camry",
     "service": "Oil Change",
-    "generated": "2025-10-18T21:16:03.510318",
-    "vehicle_difficulty": 1.0
+    "generated": "2025-10-23T21:53:29.153513",
+    "vehicle_difficulty": 1.0,
+    "pipeline": "v2",
+    "cache_hit": true,
+    "strategy": "exact"
   },
   "38e32437bc3e2dbec0b6eb9d0226e8db": {
     "path": "service_docs/Honda/Accord/2019_Brake_Pads_Replacement_Front.html",

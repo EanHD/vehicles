@@ -1,0 +1,63 @@
+{
+  "oil_change": [
+    {
+      "id": "drain_plug",
+      "keywords": ["drain plug", "oil pan bolt", "drain bolt"],
+      "value": "Tighten drain plug to 27 ft-lb (37 Nm)",
+      "torque_ft_lb": 27,
+      "torque_nm": 37,
+      "spec_units": "ft-lb",
+      "fastener_type": "Oil drain plug",
+      "source": "https://manual.swoopservice.com/specs/toyota_camry_oil_change"
+    },
+    {
+      "id": "filter_housing",
+      "keywords": ["filter housing", "oil filter", "filter cap"],
+      "value": "Tighten oil filter housing to 18 ft-lb (24 Nm)",
+      "torque_ft_lb": 18,
+      "torque_nm": 24,
+      "spec_units": "ft-lb",
+      "fastener_type": "Oil filter housing",
+      "source": "https://manual.swoopservice.com/specs/toyota_camry_oil_change"
+    },
+    {
+      "id": "oil_capacity",
+      "keywords": ["oil capacity", "fill capacity", "refill"],
+      "value": "Fill with 4.8 qt (4.5 L) 0W-16 synthetic oil",
+      "spec_units": "qt",
+      "source": "https://manual.swoopservice.com/specs/toyota_camry_oil_change"
+    }
+  ],
+  "brake_pads_replacement_front": [
+    {
+      "id": "caliper_bracket",
+      "keywords": ["caliper bracket", "anchor bolts", "mounting bolts"],
+      "value": "Torque front caliper bracket bolts to 74 ft-lb (100 Nm)",
+      "torque_ft_lb": 74,
+      "torque_nm": 100,
+      "spec_units": "ft-lb",
+      "fastener_type": "Front caliper bracket bolt",
+      "source": "https://manual.swoopservice.com/specs/brake_pads_replacement_front"
+    },
+    {
+      "id": "caliper_slide",
+      "keywords": ["slide pin", "guide pin"],
+      "value": "Torque front caliper slide pins to 23 ft-lb (31 Nm)",
+      "torque_ft_lb": 23,
+      "torque_nm": 31,
+      "spec_units": "ft-lb",
+      "fastener_type": "Front caliper slide pin",
+      "source": "https://manual.swoopservice.com/specs/brake_pads_replacement_front"
+    },
+    {
+      "id": "wheel_lug",
+      "keywords": ["wheel lug", "lug nut", "wheel torque"],
+      "value": "Torque wheel lug nuts to 100 ft-lb (135 Nm) in a star pattern",
+      "torque_ft_lb": 100,
+      "torque_nm": 135,
+      "spec_units": "ft-lb",
+      "fastener_type": "Wheel lug nut",
+      "source": "https://manual.swoopservice.com/specs/brake_pads_replacement_front"
+    }
+  ]
+}

@@ -10,7 +10,7 @@ import hashlib
 import sys
 import base64
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 from datetime import datetime
 
 # Add tools directory to path for ai_client import
@@ -18,6 +18,10 @@ sys.path.insert(0, str(Path(__file__).parent))
 from ai_client import AIClient
 from diagram_generator import DiagramGenerator
 from service_doc_generator_refactored import generate_professional_html
+from swoop.cache import write_doc
+from swoop.formatter import render_html as render_html_v2
+from swoop.router import ensure_research
+from swoop.telemetry import estimate_cost, log_event
 
 
 class ServiceDocGenerator:
@@ -45,10 +49,16 @@ class ServiceDocGenerator:
         self.services_db = services_db
         self.cache_dir = Path(cache_dir)
         self.enable_diagrams = enable_diagrams
+        self.pipeline_version = os.getenv("SWOOP_PIPELINE_VERSION", "v2")
+        self.partials = self._load_partials()
         
-        # Initialize AI clients
-        self.research_ai = AIClient(purpose="research")
-        self.formatter_ai = AIClient(purpose="formatter")
+        # Initialize AI clients for legacy pipeline only
+        if self.pipeline_version != "v2":
+            self.research_ai = AIClient(purpose="research")
+            self.formatter_ai = AIClient(purpose="formatter")
+        else:
+            self.research_ai = None
+            self.formatter_ai = None
         
         # Initialize diagram generator (optional, only if enabled and API key available)
         self.diagram_generator = None
@@ -76,6 +86,20 @@ class ServiceDocGenerator:
             with open(self.cache_index_path, 'r') as f:
                 return json.load(f)
         return {}
+
+    def _load_partials(self) -> Dict[str, Any]:
+        """Load reusable partial blocks for the formatter."""
+        partials_dir = Path(__file__).parent.parent / "partials"
+        partials: Dict[str, Any] = {}
+        for name in ("safety", "tools", "consumables", "parts"):
+            path = partials_dir / f"{name}.json"
+            if path.exists():
+                try:
+                    with open(path, "r", encoding="utf-8") as handle:
+                        partials[name] = json.load(handle)
+                except (OSError, json.JSONDecodeError):
+                    print(f"⚠️  Failed to load partial '{name}' from {path}")
+        return partials
     
     def _save_cache_index(self):
         """Save cache index"""
@@ -145,6 +169,128 @@ class ServiceDocGenerator:
         # File: Year_Service.html
         filename = f"{year}_{service_clean}.html"
         return doc_dir / filename
+
+    def _service_key(self, service_data: Dict, service_fallback: str) -> str:
+        service_id = (
+            service_data.get('service_id') or
+            service_data.get('service_name') or
+            service_fallback
+        )
+        slug = service_id.strip().lower().replace('/', '_').replace(' ', '_')
+        return slug
+
+    def _infer_engine_code(self, vehicle_data: Dict) -> Optional[str]:
+        codes = vehicle_data.get('engine_codes') or []
+        if isinstance(codes, list) and codes:
+            return str(codes[0]).upper()
+        if isinstance(codes, str) and codes:
+            return codes.upper()
+        return None
+
+    def _write_html(self, output_path: Path, html: str) -> Tuple[Path, float]:
+        return write_doc(output_path, html)
+
+    def _log_doc_cost(
+        self,
+        vehicle_payload: Dict,
+        service_key: str,
+        tokens: Dict[str, int],
+        meta: Dict,
+        compression_ratio: float,
+    ) -> None:
+        totals = {k: int(v) for k, v in tokens.items() if v}
+        quality = meta.get("quality", {})
+        log_event(
+            "doc_generation",
+            {
+                "vehicle": vehicle_payload,
+                "service": service_key,
+                "tokens": totals,
+                "strategy": meta.get("strategy"),
+                "cache_hit": meta.get("cache_hit"),
+                "healed": meta.get("healed", False),
+                "missing_specs": meta.get("missing_specs"),
+                "retry_tokens": meta.get("retry_tokens"),
+                "torque_coverage_percent": round(quality.get("torque_coverage", 0.0) * 100, 2),
+                "reference_count": quality.get("reference_count"),
+                "placeholders_remaining": quality.get("placeholders"),
+                "compression_ratio": round(compression_ratio * 100, 2),
+                "cost_estimate_usd": round(estimate_cost(totals), 6),
+            },
+        )
+
+    def _generate_v2(
+        self,
+        year: int,
+        make: str,
+        model: str,
+        service: str,
+        force_regenerate: bool = False
+    ) -> Tuple[Path, bool]:
+        cache_key = self._generate_cache_key(year, make, model, service)
+        if not force_regenerate:
+            cached_path = self._check_cache(cache_key)
+            if cached_path:
+                print(f"✓ Using cached v2 document: {cached_path}")
+                return cached_path, True
+
+        vehicle_data = self._get_vehicle_data(year, make, model)
+        service_data = self._get_service_data(service)
+
+        if not vehicle_data:
+            raise ValueError(f"Vehicle not found: {year} {make} {model}")
+        if not service_data:
+            raise ValueError(f"Service not found: {service}")
+
+        service_key = self._service_key(service_data, service)
+        vehicle_payload = {
+            "year": year,
+            "make": make,
+            "model": model,
+            "engine_code": self._infer_engine_code(vehicle_data),
+        }
+
+        research_data, research_meta = ensure_research(vehicle_payload, service_key)
+        html, fmt_tokens = render_html_v2(
+            research_data,
+            self.partials,
+            {
+                "vehicle": vehicle_payload,
+                "service": service_key,
+                "cache_hit": research_meta.get("cache_hit"),
+            },
+        )
+
+        doc_path = self._get_cache_path(year, make, model, service_key)
+        doc_path, compression_ratio = self._write_html(doc_path, html)
+
+        totals = dict(research_meta.get("tokens", {}))
+        totals.update(fmt_tokens)
+        self._log_doc_cost(vehicle_payload, service_key, totals, research_meta, compression_ratio)
+
+        try:
+            project_root = self.cache_dir.parent
+            relative_path = doc_path.relative_to(project_root)
+            path_to_save = str(relative_path)
+        except ValueError:
+            path_to_save = str(doc_path)
+
+        self.cache_index[cache_key] = {
+            'path': path_to_save,
+            'year': year,
+            'make': make,
+            'model': model,
+            'service': service,
+            'generated': datetime.now().isoformat(),
+            'vehicle_difficulty': vehicle_data.get('difficulty_modifier', 1.0),
+            'pipeline': 'v2',
+            'cache_hit': research_meta.get("cache_hit", False),
+            'strategy': research_meta.get("strategy"),
+        }
+        self._save_cache_index()
+
+        print(f"✓ v2 document generated: {doc_path}")
+        return doc_path, False
     
     def _check_cache(self, cache_key: str) -> Optional[Path]:
         """Check if document exists in cache"""
@@ -156,6 +302,11 @@ class ServiceDocGenerator:
             if not doc_path.is_absolute():
                 # Convert relative path to absolute using project root
                 doc_path = self.cache_dir.parent / doc_path
+            
+            if not doc_path.exists() and doc_path.suffix != '.gz':
+                gz_path = doc_path.with_suffix(doc_path.suffix + '.gz')
+                if gz_path.exists():
+                    doc_path = gz_path
             
             if doc_path.exists():
                 return doc_path
@@ -175,6 +326,9 @@ class ServiceDocGenerator:
         Returns:
             (document_path, from_cache) tuple
         """
+        if self.pipeline_version == "v2":
+            return self._generate_v2(year, make, model, service, force_regenerate)
+        
         # Generate cache key
         cache_key = self._generate_cache_key(year, make, model, service)
         

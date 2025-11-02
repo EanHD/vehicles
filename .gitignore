@@ -1,4 +1,5 @@
 .env
+.env.local
 
 # Python
 __pycache__/
@@ -6,6 +7,11 @@ __pycache__/
 *$py.class
 *.so
 .Python
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+pip-wheel-metadata/
 
 # Virtual environments
 venv/
@@ -22,4 +28,18 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+
+# Generated and runtime caches
+service_docs/
+backups/
+wiring_diagrams/
+.cache/
+.streamlit/
+.pytest_cache/
+*.log
+cost_log.jsonl
+
+# Optional Node (if used in future)
+node_modules/
+package-lock.json
 

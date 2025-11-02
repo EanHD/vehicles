@@ -1,0 +1,16 @@
+{
+  "oil": [
+    {"id": "oil_filter_oem", "label": "OEM cartridge oil filter"},
+    {"id": "drain_plug_washer", "label": "Crush washer (M12 x 1.25)"}
+  ],
+  "brake": [
+    {"id": "brake_pads_front", "label": "Front brake pad set (OEM)"},
+    {"id": "brake_hardware_kit", "label": "Caliper hardware kit"}
+  ],
+  "battery": [
+    {"id": "battery_terminal_protector", "label": "Battery terminal protector pads"}
+  ],
+  "cooling": [
+    {"id": "coolant_premix", "label": "OEM coolant premix (1 gallon)"}
+  ]
+}

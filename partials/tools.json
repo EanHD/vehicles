@@ -1,0 +1,11 @@
+{
+  "core": [
+    {"id": "torque_wrench", "label": "Torque wrench (25-250 ft-lb range)"},
+    {"id": "socket_set_metric", "label": "Metric socket set with deep well options"},
+    {"id": "floor_jack", "label": "Low-profile hydraulic floor jack"}
+  ],
+  "inspection": [
+    {"id": "inspection_light", "label": "LED inspection light"},
+    {"id": "brake_cleaner", "label": "Non-chlorinated brake cleaner"}
+  ]
+}

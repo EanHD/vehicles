@@ -6,6 +6,8 @@ Test QA function on existing service documents
 import re
 from pathlib import Path
 
+from swoop.cache import read_doc
+
 # Copy audit function from app.py (to avoid streamlit import)
 EMOJI_RE = re.compile(r"[\U0001F300-\U0001FAFF]")
 
@@ -84,14 +86,19 @@ if __name__ == "__main__":
     
     print("🔍 Testing QA on all cached service documents...\n")
     
-    all_docs = list(service_docs.rglob("*.html"))
+    html_docs = list(service_docs.rglob("*.html"))
+    gz_docs = list(service_docs.rglob("*.html.gz"))
+    all_docs = html_docs + gz_docs
     
     passed = 0
     failed = 0
     
     for doc_path in sorted(all_docs):
-        with open(doc_path, 'r') as f:
-            html = f.read()
+        if doc_path.suffix == ".gz":
+            html = read_doc(doc_path)
+        else:
+            with open(doc_path, 'r', encoding='utf-8') as f:
+                html = f.read()
         
         issues = audit_html(html)
         

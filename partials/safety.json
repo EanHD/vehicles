@@ -1,0 +1,20 @@
+{
+  "general": [
+    {
+      "title": "Stable Support",
+      "detail": "Set the vehicle on jack stands rated for the curb weight before working underneath.",
+      "severity": "critical"
+    },
+    {
+      "title": "Battery Isolation",
+      "detail": "Disconnect the negative battery cable whenever servicing electrical or rotating assemblies.",
+      "severity": "warning"
+    }
+  ],
+  "ppe": [
+    {
+      "title": "Personal Protective Equipment",
+      "detail": "Wear ANSI-rated eye protection and chemical-resistant gloves during all service operations."
+    }
+  ]
+}

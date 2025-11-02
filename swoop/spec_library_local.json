@@ -1,0 +1,30 @@
+{
+  "custom_service": [
+    {
+      "id": "mystery_bolt",
+      "keywords": [
+        "Mystery Bolt"
+      ],
+      "value": "Torque mystery bolt to 40 ft-lb (54 Nm)",
+      "torque_ft_lb": 40,
+      "torque_nm": 54,
+      "spec_units": null,
+      "fastener_type": "Mystery Bolt",
+      "source": "https://example.com/spec"
+    }
+  ],
+  "oil_change": [
+    {
+      "id": "drain_plug_size",
+      "keywords": [
+        "Oil drain plug"
+      ],
+      "value": "14mm",
+      "torque_ft_lb": 27,
+      "torque_nm": 37,
+      "spec_units": "ft-lb",
+      "fastener_type": "Oil drain plug",
+      "source": "https://www.youtube.com/watch?v=udIAjEA_fq4"
+    }
+  ]
+}

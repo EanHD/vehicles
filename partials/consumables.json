@@ -1,0 +1,7 @@
+{
+  "standard": [
+    {"id": "shop_rags", "label": "Lint-free shop towels"},
+    {"id": "dielectric_grease", "label": "Dielectric grease packets"},
+    {"id": "anti_seize", "label": "Nickel anti-seize compound"}
+  ]
+}

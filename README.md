@@ -66,7 +66,7 @@ source venv/bin/activate
 
 Open your browser to http://localhost:8501
 
-**See detailed walkthrough**: [`QUICK_START_APP.md`](QUICK_START_APP.md)
+**See detailed walkthrough**: [`docs/app/QUICK_START_APP.md`](docs/app/QUICK_START_APP.md)
 
 ### Option 2: REST API (Recommended for Mobile App Integration)
 
@@ -78,7 +78,7 @@ source venv/bin/activate
 
 Open your browser to http://localhost:8000/docs for interactive API documentation
 
-**See API guide**: [`API_QUICK_START.md`](API_QUICK_START.md)
+**See API guide**: [`docs/api/API_QUICK_START.md`](docs/api/API_QUICK_START.md)
 
 ### 3. Generate Documentation
 
@@ -379,7 +379,7 @@ User: "yes"
 Assistant: ✅ Successfully added information to torque-specifications section!
 ```
 
-**See full guide**: [`AI_ASSISTANT_GUIDE.md`](AI_ASSISTANT_GUIDE.md)
+**See full guide**: [`docs/ai-assistant/AI_ASSISTANT_GUIDE.md`](docs/ai-assistant/AI_ASSISTANT_GUIDE.md)
 
 ---
 
@@ -413,34 +413,43 @@ From the **📚 Browse Cache** page in the web app:
 The next time you request that service/vehicle combination, it will be freshly generated.
 
 ---
+
 ## 📖 Documentation
 
-### Quick References
-- **[QUICK_START_APP.md](QUICK_START_APP.md)** - Web app quick start ⭐
-- **[API_QUICK_START.md](API_QUICK_START.md)** - REST API quick start ⭐
-- **[AI_ASSISTANT_GUIDE.md](AI_ASSISTANT_GUIDE.md)** - AI Editor guide ⭐ NEW
-- **[API_DOCUMENTATION.md](API_DOCUMENTATION.md)** - Full API reference
-- **[APP_STATUS.md](APP_STATUS.md)** - Current system status
-- **[IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md)** - Technical details
+### Quick Start Guides
 
-### System Documentation
-- **[SYSTEM_COMPLETE.md](SYSTEM_COMPLETE.md)** - Full architecture
-- **[CHECKLIST.md](CHECKLIST.md)** - Manufacturer coverage
-- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Common issues
+- **[docs/app/QUICK_START_APP.md](docs/app/QUICK_START_APP.md)** - Web app quick start ⭐
+- **[docs/api/API_QUICK_START.md](docs/api/API_QUICK_START.md)** - REST API quick start ⭐
+- **[docs/ai-assistant/AI_ASSISTANT_GUIDE.md](docs/ai-assistant/AI_ASSISTANT_GUIDE.md)** - AI Editor guide ⭐
 
-### Developer Docs
-- **[docs/agents/CLAUDE.md](docs/agents/CLAUDE.md)** - AI agent workflows
-- **[docs/workflow/WORKFLOW.md](docs/workflow/WORKFLOW.md)** - Research process
-- **[docs/service_system/](docs/service_system/)** - Service system details
+### API & Integration
 
-### Historical Notes
-- **[docs/archive/agent_notes/](docs/archive/agent_notes/)** - Previous agent handoffs, status reports, and quick references
+- **[docs/api/API_DOCUMENTATION.md](docs/api/API_DOCUMENTATION.md)** - Full API reference
+- **[docs/api/MOBILE_APP_INTEGRATION.md](docs/api/MOBILE_APP_INTEGRATION.md)** - Mobile app setup
+
+### Web App & Usage
+
+- **[docs/app/APP_STATUS.md](docs/app/APP_STATUS.md)** - Current system status
+- **[docs/app/TROUBLESHOOTING.md](docs/app/TROUBLESHOOTING.md)** - Common issues
+- **[docs/app/TESTING_GUIDE.md](docs/app/TESTING_GUIDE.md)** - Testing procedures
+
+### System Architecture & Development
+
+- **[docs/architecture/SYSTEM_ARCHITECTURE.md](docs/architecture/SYSTEM_ARCHITECTURE.md)** - Full architecture
+- **[docs/architecture/IMPLEMENTATION_GUIDE.md](docs/architecture/IMPLEMENTATION_GUIDE.md)** - Technical details
+- **[docs/agents/](docs/agents/)** - AI agent workflows
+- **[docs/workflow/](docs/workflow/)** - Research process
+
+### Project History & Archives
+
+- **[docs/archive/](docs/archive/)** - Previous handoffs, status reports, summaries, and project notes
 
 ---
 
 ## 🔧 Installation
 
 ### Prerequisites
+
 - Python 3.8+
 - Internet connection (for AI research)
 - API keys (Perplexity + OpenAI recommended)
