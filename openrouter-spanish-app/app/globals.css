@@ -1,0 +1,165 @@
+:root {
+  color-scheme: light;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background: #f7f7fb;
+  color: #14141f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.25rem;
+  letter-spacing: -0.02em;
+}
+
+p {
+  margin: 0;
+  color: #4a4a63;
+  line-height: 1.5;
+}
+
+section {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 12px 30px rgba(20, 20, 31, 0.08);
+  margin-bottom: 24px;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+}
+
+textarea,
+input,
+select {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #d7d7e5;
+  padding: 12px 14px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+button {
+  appearance: none;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 20px;
+  font-weight: 600;
+  background: #3b3bf6;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgba(59, 59, 246, 0.25);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+@media (min-width: 900px) {
+  .grid.two {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  border: 1px solid #ececf7;
+  padding: 16px;
+  border-radius: 14px;
+  background: #fbfbff;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #eef0ff;
+  color: #3737c5;
+  font-weight: 600;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.history-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.history-item {
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #e7e7f5;
+  background: #ffffff;
+}
+
+.history-item strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.notice {
+  font-size: 0.9rem;
+  color: #5a5a75;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-family: "SF Mono", "Fira Code", monospace;
+  background: #f5f5ff;
+  padding: 16px;
+  border-radius: 12px;
+  line-height: 1.5;
+}
